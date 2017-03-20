@@ -1,0 +1,44 @@
+/*! Field (element) */
+
+.e-field {
+  display: block;
+  outline: none;
+  appearance: none;
+  font-size: em(18);
+  line-height: em($unit * 3, 18);
+  height: em($unit * 6, 18);
+  padding: em($unit, 18) em($unit * 2, 18);
+  margin: em($unit, 18) 0;
+  max-width: em(400, 18);
+  width: 100%;
+
+  clear: both;
+  font-family: $fonts--sans;
+  color: $grey;
+  background: $white;
+  border-radius: 5px;
+  border: em(2, 18) solid $blue;
+  box-shadow: 0 0 0 em(2, 18) $beige,
+              em(2, 18) em(2, 18) 0 em(2, 18) $green;
+  transition: border 100ms,
+              box-shadow 100ms,
+              background-color 100ms;
+
+  &:focus,
+  &:hover {
+    color: $black;
+    border-color: $green;
+    box-shadow: 0 0 0 em(2, 18) $beige,
+                0 0 0 em(4, 18) $blue;
+  }
+
+  &:focus {
+    background-color: $yellow;
+  }
+}
+
+.e-field--area {
+  height: auto;
+  max-width: none;
+  min-height: em(($baseline*3) + $unit, 18);
+}

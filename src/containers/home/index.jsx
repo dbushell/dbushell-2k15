@@ -59,14 +59,14 @@ class Home extends Component {
               <h2>For Businesses</h2>
               <p className="p--large">Have an idea?</p>
               <p>Let’s discuss your requirements, share ideas, and figure out what’s best for your new website together.</p>
-              <a href="/working-with-clients/" className="button">How I can help</a>
+              <Button href="/working-with-clients/" text="How I can help" bg2 shadow/>
             </article>
             <article className="home-sectors__item home-agencies">
               <svg className="home-sectors__star" role="presentation" dangerouslySetInnerHTML={star('left')}/>
               <h2>Web Agencies</h2>
               <p className="p--large">Need a hand?</p>
               <p>I’m reliable and flexible, priding myself in communication and initiative to ensure smooth delivery.</p>
-              <a href="/working-with-agencies/" className="button">What I can do</a>
+              <Button href="/working-with-agencies/" text="What I can do" bg1 shadow/>
             </article>
           </div>
         </Block>
@@ -97,7 +97,7 @@ class Home extends Component {
             </div>
           </Block>
         </div>
-        <div className="home-clients reversed">
+        <div className="home-clients u-dark">
           <Block>
             <div className="prose">
               <h2>What my clients say:</h2>
@@ -114,7 +114,7 @@ class Home extends Component {
                 <p className="p--small"><cite>Kevin Mueller &ndash; Studio Manager &ndash; <a href="/2014/05/07/responsive-design-for-uwe-wittwer/">Uwe Wittwer</a></cite></p>
               </blockquote>
               <br/>
-              <Button href="/contact/" text="Work with me"/>
+              <Button href="/contact/" text="Work with me" bg1/>
             </div>
           </Block>
         </div>

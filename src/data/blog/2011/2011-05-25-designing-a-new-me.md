@@ -38,7 +38,7 @@ A few things annoyed me about the old design. Really annoyed me. The "logo" was 
 
 My mascot—the green crane—is now facing _inwards_. I should have paid more attention in my university's semiotics lecture. I only realised after translating a Chinese design blogger who had featured me. Thank you, whoever you are!
 
-I've embraced the sponsors. I joined the brilliant [Carbon Ads](http://carbonads.com) network a few months ago and had to shoehorn the ads in the best I could. The result wasn't good enough and it couldn't be fixed easily. My new design with the reversed header seats the ads perfectly.
+I've embraced the sponsors. I joined the brilliant [Carbon Ads](http://carbonads.com) network a few months ago and had to shoehorn the ads in the best I could. The result wasn't good enough and it couldn't be fixed easily. My new design with the u-dark header seats the ads perfectly.
 
 
 ### It's responsive!

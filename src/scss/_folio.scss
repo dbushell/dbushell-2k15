@@ -38,7 +38,6 @@
         width: calc(33.33333% - #{em($unit * 4)});
         font-size: inherit;
         line-height: inherit;
-        box-sizing: border-box;
         border-radius: em(7);
         perspective: 500px;
     }

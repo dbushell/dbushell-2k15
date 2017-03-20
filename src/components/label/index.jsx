@@ -2,7 +2,7 @@ import React, {PropTypes} from 'react';
 
 const Label = props => {
   const attr = {
-    className: 'label',
+    className: 'e-label',
     htmlFor: props.field
   };
   return (

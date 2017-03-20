@@ -6,7 +6,7 @@ import React, {PropTypes} from 'react';
 
 export const ButtonLabel = props => {
   return (
-    <span className="button__label">{props.children}</span>
+    <span className="e-button__label">{props.children}</span>
   );
 };
 
@@ -18,11 +18,19 @@ ButtonLabel.propTypes = {
  * button
  */
 
-const attr = {
-  className: 'button'
-};
-
 const Button = props => {
+  const attr = {
+    className: 'e-button'
+  };
+  if (props.bg1) {
+    attr.className += ' e-button--bg1';
+  }
+  if (props.bg2) {
+    attr.className += ' e-button--bg2';
+  }
+  if (props.shadow) {
+    attr.className += ' e-button--shadow';
+  }
   const label = <ButtonLabel>{props.text}</ButtonLabel>;
   let button;
   if (props.submit) {
@@ -36,7 +44,10 @@ const Button = props => {
 Button.propTypes = {
   text: PropTypes.string.isRequired,
   href: PropTypes.string,
-  submit: PropTypes.bool
+  submit: PropTypes.bool,
+  bg1: PropTypes.bool,
+  bg2: PropTypes.bool,
+  shadow: PropTypes.bool
 };
 
 export default Button;

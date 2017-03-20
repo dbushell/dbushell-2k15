@@ -1,0 +1,34 @@
+/*! Label (element) */
+
+.e-label {
+  display: block;
+  font-size: em(18);
+  line-height: em($baseline, 18);
+  max-width: max-content;
+  font-weight: bold;
+}
+
+.e-label--radio,
+.e-label--checkbox {
+  cursor: pointer;
+}
+
+.e-label--radio {
+
+  span:before {
+    display: inline-block;
+    vertical-align: top;
+    content: "";
+    width: em($unit * 3, 18);
+    height: em($unit * 3, 18);
+    margin: em($unit/2, 18) em($unit, 18) em($unit/2, 18) 0;
+    border: em(2, 18) solid $blue;
+    background: $white;
+    border-radius: 100%;
+  }
+
+  input:checked + span:before {
+    background-color: $blue;
+    box-shadow: inset 0 0 0 em(2) $yellow;
+  }
+}

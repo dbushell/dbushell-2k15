@@ -1,0 +1,10 @@
+/*! Pagination (block) */
+
+.b-pagination {
+  display: flex;
+  justify-content: space-between;
+
+  .e-button {
+    flex: 0 0 auto;
+  }
+}

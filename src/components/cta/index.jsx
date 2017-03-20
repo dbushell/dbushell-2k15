@@ -6,10 +6,10 @@ const Cta = props => {
     __html: props.paragraph
   });
   return (
-    <div className="boxed reversed">
+    <div className="b-boxed b-boxed--dark u-dark">
       <h3>{props.title}</h3>
       <p dangerouslySetInnerHTML={paragraph()}/>
-      <Button href={props.href} text={props.link}/>
+      <Button href={props.href} text={props.link} bg1/>
     </div>
   );
 };

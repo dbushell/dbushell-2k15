@@ -12,7 +12,7 @@ HTML, CSS, and JavaScript web standards evolve daily. I take every project as an
 
 **Favourite tools and technologies:**
 
-<ul class="boxed spec">
+<ul class="b-boxed b-boxed--spec">
   <li>HTML5</li>
   <li>CSS</li>
   <li>Sass</li>

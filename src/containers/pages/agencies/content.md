@@ -18,8 +18,8 @@ Here's how I can help your agency:
 
 See a full overview of [**my services**](/services/) and read more [**about me**](/about/).
 
-<div class="boxed reversed">
+<div class="b-boxed b-boxed--dark u-dark">
     <h3>Available for hire&hellip;</h3>
     <p>Interested in working with me? <a href="/contact/">Send me an email</a> with your requirements and I’ll happily provide a free quote and let you know my availability.</p>
-    <a href="/contact/" class="button">Get in Touch</a>
+    <a href="/contact/" class="e-button e-button--bg1">Get in Touch</a>
 </div>

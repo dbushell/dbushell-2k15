@@ -1,0 +1,57 @@
+/*! Utilities */
+
+.u-vh {
+  @include visually-hidden;
+}
+
+.u-dark {
+  color: $white;
+  background: $pink;
+
+  a:not([class]) {
+    color: inherit;
+    text-shadow: none;
+    background-image: linear-gradient(to right, rgba($yellow, 0.5) 0%, rgba($yellow, 0.5) 100%);
+
+    &:focus, &:hover {
+      background-image: linear-gradient(to right, rgba($dark-red, 0.5) 0%, rgba($dark-red, 0.5) 100%);
+    }
+  }
+
+  h1, h2, h3,
+  .h1, .h2, .h3 {
+    color: $yellow;
+    text-shadow: 3px 3px 0 rgba($dark-red, 0.5);
+  }
+
+  blockquote {
+    border-color: $yellow;
+
+    p {
+      color: inherit;
+    }
+  }
+}
+
+// .u-focus {
+//   position: relative;
+
+//   &:before {
+//     z-index: -1;
+//     position: absolute;
+//     display: none;
+//     content: "";
+//     top: -7px;
+//     left: -7px;
+//     right: -7px;
+//     bottom: -7px;
+//     pointer-events: none;
+//     border: 1px dotted $pink;
+//   }
+
+//   &:focus {
+//     &:before {
+//       display: block;
+//     }
+//   }
+// }

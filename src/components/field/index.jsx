@@ -2,7 +2,7 @@ import React, {PropTypes} from 'react';
 
 const Field = props => {
   const attr = {
-    className: 'field'
+    className: 'e-field'
   };
   return (
     <input {...attr} {...props}/>

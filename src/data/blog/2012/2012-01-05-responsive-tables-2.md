@@ -6,7 +6,7 @@ template: single.html
 title: Responsive Tables (2)
 ---
 
-<div class="boxed reversed">
+<div class="b-boxed b-boxed--dark u-dark">
 <h3>NEW: <a href="/2016/03/04/css-only-responsive-tables/">CSS only Responsive Tables</a></h3>
 <p>See the link above for more recent developments.</p>
 </div>

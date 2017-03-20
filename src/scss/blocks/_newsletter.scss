@@ -1,0 +1,65 @@
+/*! Newsletter (block) */
+
+.b-newsletter {
+  position: relative;
+
+  .e-label--radio {
+    margin-left: em($unit * 2, 18);
+  }
+
+  .b-form__item {
+    &:nth-child(2) {
+      display: flex;
+
+      .e-label {
+        flex: 0 1 auto;
+      }
+    }
+  }
+}
+
+.b-newsletter__prose {
+  margin-bottom: em($unit * 2);
+}
+
+@include respond-min($bp--desktop) {
+
+  .b-newsletter {
+
+    .e-field {
+      max-width: none;
+      margin-bottom: 0;
+    }
+
+    .e-button {
+      height: em($unit * 6, 18);
+      line-height: em($unit * 3, 18);
+    }
+
+    .b-form {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: flex-start;
+    }
+
+    .b-form__item {
+      order: 1;
+      flex: 0 1 auto;
+      margin: 0;
+
+      &:nth-child(1) {
+        width: 70%;
+        max-width: em(400);
+        padding-right: em($unit * 2);
+      }
+
+      &:nth-child(2) {
+        order: 3;
+        width: 100%;
+        margin-top: em($baseline);
+      }
+    }
+  }
+
+}

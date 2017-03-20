@@ -22,6 +22,10 @@ export default class Main extends Page {
           <div className="post__pattern">
             <P.Cta/>
           </div>
+          <h2>Newsletter</h2>
+          <div className="post__pattern">
+            <P.Newsletter/>
+          </div>
         </P.Block>
       </main>
     );

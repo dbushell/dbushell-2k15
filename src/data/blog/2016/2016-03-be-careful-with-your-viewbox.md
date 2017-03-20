@@ -10,7 +10,7 @@ In Sara Soueidan's article: [SVG Style Inheritance and the ‘Flash of Unstyled 
 
 I have an SVG sprite for social icons:
 
-<div class="boxed social">
+<div class="b-boxed social">
   <style scoped>
   .svg-icon  { display: inline-block; vertical-align: top; margin: 0 2px; width: 42px; height: 42px; fill: #ff6680; }
   </style>

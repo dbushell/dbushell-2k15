@@ -1,0 +1,20 @@
+/*! Form (block) */
+
+.b-form {
+
+}
+
+.b-form__list {
+  margin: 0;
+  list-style: none;
+}
+
+.b-form__item {
+  font-size: inherit;
+  line-height: 1;
+  margin-bottom: em($baseline);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

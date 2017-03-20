@@ -8,11 +8,11 @@ class Archive extends Component {
   render() {
     const props = this.props;
     const nextButton = props.nextPage ?
-      <a href={props.nextPage} className="button pagination__older">Older</a> : null;
+      <a href={props.nextPage} className="e-button">Older</a> : null;
     const prevButton = props.prevPage ?
-      <a href={props.prevPage} className="button pagination__newer">Newer</a> : null;
+      <a href={props.prevPage} className="e-button">Newer</a> : null;
     const pagination = (nextButton || prevButton) ?
-      (<div className="pagination">{nextButton}{prevButton}</div>) : null;
+      (<div className="b-pagination">{nextButton}{prevButton}</div>) : null;
     return (
       <main className="main main--blog">
         <Block>

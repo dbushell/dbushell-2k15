@@ -300,7 +300,7 @@
       display: none;
     }
 
-    .button {
+    .e-button {
       margin-top: em($baseline/2, 18);
     }
   }
@@ -385,11 +385,11 @@
     margin-bottom: em($baseline/2, $p--large);
   }
 
-  .button {
-    text-shadow: none;
-    background-color: $white;
-    border: 0;
-  }
+  // .button {
+  //   text-shadow: none;
+  //   background-color: $white;
+  //   border: 0;
+  // }
 }
 
 .home-sectors__star {
@@ -414,38 +414,6 @@
   .p--large {
     color: $green;
   }
-
-  .button {
-    color: $blue;
-    box-shadow: 0 0 0 2px $blue,
-                2px 2px 0 2px $green,
-
-                 4px  4px 0 4px #2b8bae,
-                 8px  8px 0 4px #2b8bae,
-                12px 12px 0 4px #2b8bae,
-                16px 16px 0 4px #2b8bae,
-                20px 20px 0 4px #2b8bae,
-                24px 24px 0 4px #2b8bae,
-                28px 28px 0 4px #2b8bae,
-                32px 32px 0 4px #2b8bae,
-                36px 36px 0 4px #2b8bae,
-                40px 40px 0 4px #2b8bae,
-                44px 44px 0 4px #2b8bae,
-                48px 48px 0 4px #2b8bae,
-                52px 52px 0 4px #2b8bae,
-                56px 56px 0 4px #2b8bae,
-                60px 60px 0 4px #2b8bae,
-                64px 64px 0 4px #2b8bae,
-                68px 68px 0 4px #2b8bae,
-                72px 72px 0 4px #2b8bae,
-                76px 76px 0 4px #2b8bae,
-                80px 80px 0 4px #2b8bae,;
-
-      &:focus, &:hover {
-        box-shadow: 0 0 0 2px $blue,
-                    0 0 0 4px $green;
-      }
-  }
 }
 
 .home-agencies {
@@ -461,38 +429,6 @@
 
   .p--large {
     color: $yellow;
-  }
-
-  .button {
-    color: $pink;
-    box-shadow: 0 0 0 2px $pink,
-                2px 2px 0 2px $yellow,
-
-                 4px  4px 0 4px #eb6983,
-                 8px  8px 0 4px #eb6983,
-                12px 12px 0 4px #eb6983,
-                16px 16px 0 4px #eb6983,
-                20px 20px 0 4px #eb6983,
-                24px 24px 0 4px #eb6983,
-                28px 28px 0 4px #eb6983,
-                32px 32px 0 4px #eb6983,
-                36px 36px 0 4px #eb6983,
-                40px 40px 0 4px #eb6983,
-                44px 44px 0 4px #eb6983,
-                48px 48px 0 4px #eb6983,
-                52px 52px 0 4px #eb6983,
-                56px 56px 0 4px #eb6983,
-                60px 60px 0 4px #eb6983,
-                64px 64px 0 4px #eb6983,
-                68px 68px 0 4px #eb6983,
-                72px 72px 0 4px #eb6983,
-                76px 76px 0 4px #eb6983,
-                80px 80px 0 4px #eb6983,;
-
-    &:focus, &:hover {
-      box-shadow: 0 0 0 2px $pink,
-                  0 0 0 4px $yellow;
-    }
   }
 }
 

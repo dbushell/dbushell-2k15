@@ -2,22 +2,30 @@ $combined-css: true;
 
 @import "origin";
 
-@import "normalize-new";
+@import "normalize";
 @import "base";
 
+@import "utilities";
+
 @import "typography";
-@import "form";
 @import "post";
 @import "folio";
 @import "nav";
 
+@import "elements/label";
+@import "elements/button";
+@import "elements/field";
+
+@import "blocks/boxed";
+@import "blocks/form";
 @import "blocks/bio";
 @import "blocks/blog";
 @import "blocks/hire";
+@import "blocks/newsletter";
+@import "blocks/pagination";
 
 @import "containers/footer";
 
-@import "misc";
 @import "prism";
 
 @import "home";

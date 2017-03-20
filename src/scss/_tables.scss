@@ -50,36 +50,3 @@ table {
         padding: em($unit/2) em($unit);
     }
 }
-
-.speclist {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0;
-    align-items: flex-start;
-    justify-content: flex-start;
-    max-width: em(320);
-    list-style: circle;
-    margin-bottom: em($baseline/2);
-
-    p + & {
-        margin-top: em($baseline/2);
-    }
-
-    li {
-        @include font-size($p--small, $unit * 3);
-        padding-left: em($gutter/2, $p--small);
-        margin-bottom: 0;
-        flex-basis: 50%;
-        box-sizing: border-box;
-        list-style-position: inside;
-    }
-
-    @include respond-min($bp--mobile)
-    {
-        max-width: em(640);
-
-        li {
-            flex-basis: 25%;
-        }
-    }
-}
