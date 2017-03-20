@@ -74,7 +74,7 @@ table {
         list-style-position: inside;
     }
 
-    @include respond-min($breakpoint--mobile)
+    @include respond-min($bp--mobile)
     {
         max-width: em(640);
 

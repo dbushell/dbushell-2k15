@@ -60,7 +60,7 @@
             }
         }
 
-        @include respond-min($breakpoint--aside)
+        @include respond-min($bp--aside)
         {
             left: em($unit * 2);
             margin-left: 0;
@@ -79,7 +79,7 @@
             opacity: 0;
         }
 
-        @include respond-min($breakpoint--hero--3)
+        @include respond-min($bp--hero--3)
         {
             span {
                 pointer-events: all;
@@ -87,7 +87,7 @@
             }
         }
 
-        @include respond-max($breakpoint--hero--3 - 1)
+        @include respond-max($bp--hero--3 - 1)
         {
             @include image-replacement;
         }

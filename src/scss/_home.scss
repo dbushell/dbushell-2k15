@@ -132,7 +132,7 @@
       z-index: $z-index--hero + 20;
       background-image: url("/assets/img/origami-crane--small.png");
 
-      @include respond-min($breakpoint--mobile)
+      @include respond-min($bp--mobile)
       {
           background-image: url("/assets/img/origami-crane.png");
       }
@@ -217,7 +217,7 @@
   animation-delay: 2s;
 }
 
-@include respond-min($breakpoint--home)
+@include respond-min($bp--home)
 {
   .home-star {
 
@@ -227,7 +227,7 @@
   }
 }
 
-@include respond-max($breakpoint--home - 1)
+@include respond-max($bp--home - 1)
 {
   .home-hero {
 
@@ -241,7 +241,7 @@
   }
 }
 
-@include respond-max($breakpoint--mobile - 1)
+@include respond-max($bp--mobile - 1)
 {
 
   .home-hero {
@@ -282,7 +282,7 @@
   margin-bottom: em($baseline);
 }
 
-@include respond-min($breakpoint--home)
+@include respond-min($bp--home)
 {
   .home-hero + .block {
     margin-top: -12%;
@@ -498,7 +498,7 @@
 
 
 
-@include respond-max($breakpoint--mobile - 1)
+@include respond-max($bp--mobile - 1)
 {
   .home-sectors {
     margin-left: -#{inner-percent(7)};
@@ -511,7 +511,7 @@
   }
 }
 
-@include respond-min($breakpoint--home)
+@include respond-min($bp--home)
 {
 
   .home-sectors {
@@ -603,7 +603,7 @@
     margin-top: em($baseline);
   }
 
-  @include respond-max($breakpoint--home - 1)
+  @include respond-max($bp--home - 1)
   {
     .folio__item:nth-child(1n + 3) {
       display: none;
@@ -616,7 +616,7 @@
   box-shadow: inset 0 3px 0 0 rgba($yellow, 1);
   padding: em($unit + ($baseline * 1.5)) 0 em($baseline *2) 0;
 
-  // @include respond-min($breakpoint--mini)
+  // @include respond-min($bp--mini)
   // {
     text-align: center;
   // }

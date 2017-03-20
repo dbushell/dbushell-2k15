@@ -68,7 +68,7 @@ svg:not(:root) {
 // .grid__s--9 .grid__c--7 { left: 68.6111111111%; }
 // .grid__s--9 .grid__c--8 { left: 80.0462962963%; }
 // .grid__s--9 .grid__c--9 { left: 91.4814814815%; }
-// @include respond-min($breakpoint--aside)
+// @include respond-min($bp--aside)
 // {
 //     .grid { right: calc(7% + #{em($footer--width)}); }
 // }
@@ -78,12 +78,12 @@ svg:not(:root) {
     position: relative;
     padding: em($unit * 14) 0 em($unit * 10) 0;
 
-    @include respond-min($breakpoint--mobile)
+    @include respond-min($bp--mobile)
     {
         padding-top: em($unit * 16);
     }
 
-    @include respond-min($breakpoint--aside)
+    @include respond-min($bp--aside)
     {
         margin-right: percentage($footer--width/100);
     }

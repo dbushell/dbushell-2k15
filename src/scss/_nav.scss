@@ -21,7 +21,7 @@
     width: 100%;
     background: $pink;
 
-    @include respond-min($breakpoint--aside)
+    @include respond-min($bp--aside)
     {
         padding-right: percentage($footer--width/100);
     }
@@ -129,7 +129,7 @@
     }
   }
 
-  @include respond-max($breakpoint--mobile - 1)
+  @include respond-max($bp--mobile - 1)
   {
     .nav__link {
       padding-left: em($unit, 15);
@@ -257,7 +257,7 @@
     }
   }
 
-  @include respond-min($breakpoint--mobile)
+  @include respond-min($bp--mobile)
   {
     .nav > .nav__list {
       padding-left: 0;

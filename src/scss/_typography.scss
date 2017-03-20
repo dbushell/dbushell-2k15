@@ -40,7 +40,8 @@
       animation: animateGradient 300ms forwards;
     }
 
-    .footer & {
+    .footer &,
+    .post__pattern & {
       text-shadow: 2px 0 0 $white, -2px 0 0 $white;
     }
   }
@@ -77,7 +78,7 @@
     }
   }
 
-  @include respond-min($breakpoint--mini)
+  @include respond-min($bp--mini)
   {
 
 
@@ -273,7 +274,7 @@
       }
     }
 
-    @include respond-max($breakpoint--mini - 1)
+    @include respond-max($bp--mini - 1)
     {
       padding: 0;
       border-left: 0;
@@ -407,7 +408,7 @@
     margin: em($baseline, $p) 0 em($baseline/2) 0;
   }
 
-  @include respond-min($breakpoint--mobile)
+  @include respond-min($bp--mobile)
   {
     .prose {
 
@@ -455,7 +456,7 @@
     }
   }
 
-  @include respond-max($breakpoint--mini)
+  @include respond-max($bp--mini)
   {
     .prose .boxed {
       margin-left: em(-$gutter);
@@ -480,7 +481,7 @@
     }
   }
 
-  @include respond-min($breakpoint--mobile)
+  @include respond-min($bp--mobile)
   {
 
     .spec {

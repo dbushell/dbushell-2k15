@@ -9,7 +9,7 @@
   overflow: hidden;
   width: em($unit * 14);
   height: em($unit * 14);
-  margin: 0 auto em($unit * 3) auto;
+  margin: 0 auto em($unit * 2) auto;
   border-radius: 100%;
   border: em(3) solid $yellow;
   box-shadow: 0 0 0 em(3) $pink;
@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-@include respond-min($breakpoint--mini) {
+@include respond-min($bp--mini) {
 
   .b-bio__image {
     width: em($unit * 16);
@@ -33,7 +33,7 @@
 
 }
 
-@include respond-min($breakpoint--mobile) {
+@include respond-min($bp--mobile) {
 
   .b-bio__image {
     width: em($unit * 18);
@@ -42,7 +42,7 @@
 
 }
 
-@include respond-min($breakpoint--aside) {
+@include respond-min($bp--aside) {
 
   .b-bio__image {
 
@@ -53,7 +53,7 @@
 
 }
 
-@include respond-min-max($breakpoint--mobile, $breakpoint--aside - 1) {
+@include respond-min-max($bp--mobile, $bp--aside - 1) {
 
   .b-bio__image {
     float: left;

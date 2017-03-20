@@ -63,18 +63,18 @@ $scrollbar--width  : 14;
 
 // Breakpoints used throughout the website
 
-$breakpoint--mini    : 420;
-$breakpoint--mobile  : 580;
-$breakpoint--home    : 768;
-$breakpoint--desktop : 960;
-$breakpoint--aside   : 1200;//1000;
-// $breakpoint--pinned  : $nav--pinned + $block--max-width + $footer--width + $scrollbar--width;
+$bp--mini    : 420;
+$bp--mobile  : 580;
+$bp--home    : 768;
+$bp--desktop : 960;
+$bp--aside   : 1200;//1000;
+// $bp--pinned  : $nav--pinned + $block--max-width + $footer--width + $scrollbar--width;
 
 
 
-$breakpoint--hero--1 : $breakpoint--mini;
-$breakpoint--hero--2 : $breakpoint--mobile;
-$breakpoint--hero--3 : 800;
+$bp--hero--1 : $bp--mini;
+$bp--hero--2 : $bp--mobile;
+$bp--hero--3 : 800;
 
 // zIndexes
 
@@ -147,14 +147,14 @@ $fonts--monospace  : Monaco, Courier, monospace;
 // $ratio is required for nested grids
 // e.g. if parent container is 5 columns of 6 then ratio = 5/6
 
-@function gc-gutter($gutter_count: 1, $ratio: 1, $width: $breakpoint--desktop)
+@function gc-gutter($gutter_count: 1, $ratio: 1, $width: $bp--desktop)
 {
     $gutter: $gutter * $gutter_count;
     $width: $width * $ratio;
     @return percentage($gutter / $width);
 }
 
-@function gc-offset($col_count: 1, $col_total: 6, $ratio: 1, $width: $breakpoint--desktop, $inside: 0)
+@function gc-offset($col_count: 1, $col_total: 6, $ratio: 1, $width: $bp--desktop, $inside: 0)
 {
     $gutter: $gutter;
     $width: $width * $ratio;
@@ -167,7 +167,7 @@ $fonts--monospace  : Monaco, Courier, monospace;
     @return percentage($offset / $width);
 }
 
-@function gc-spanning($col_count: 1, $col_total: 6, $ratio: 1, $width: $breakpoint--desktop)
+@function gc-spanning($col_count: 1, $col_total: 6, $ratio: 1, $width: $bp--desktop)
 {
     @return gc-offset($col_count, $col_total, $ratio, $width, 1);
 }

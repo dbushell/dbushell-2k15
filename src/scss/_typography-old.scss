@@ -78,7 +78,7 @@
     //     margin-bottom: em($unit * 2, $h5);
     // }
 
-    @include respond-min($breakpoint--mini)
+    @include respond-min($bp--mini)
     {
         .h0 {
             @include font-size($h0, $unit * 9);
@@ -228,7 +228,7 @@
             & + .p--small:last-child { margin-top: em(-$unit * 2, $p--small); }
         }
 
-        @include respond-max($breakpoint--mini - 1)
+        @include respond-max($bp--mini - 1)
         {
             padding: 0;
             border-left: 0;
@@ -435,7 +435,7 @@
         }
     }
 
-    @include respond-min($breakpoint--mobile)
+    @include respond-min($bp--mobile)
     {
         .prose {
 
@@ -450,7 +450,7 @@
         }
     }
 
-    @include respond-min($breakpoint--mini)
+    @include respond-min($bp--mini)
     {
         .prose {
             .wf-active & {

@@ -1,12 +1,14 @@
 import React, {PropTypes} from 'react';
 
 const Bio = props => {
-  const schema = {
+  const attr = {
+    className: 'b-bio',
+    role: 'complementary',
     itemScope: true,
     itemType: 'http://schema.org/Person'
   };
   return (
-    <section className="b-bio" role="complementary" {...schema}>
+    <section {...attr}>
       <div className="b-bio__image">
         <img src={props.imageSrc} alt={props.imageAlt}/>
       </div>

@@ -109,7 +109,7 @@
         backface-visibility: hidden;
     }
 
-    @include respond-max($breakpoint--home - 1)
+    @include respond-max($bp--home - 1)
     {
         .folio__item {
             margin: em($unit);

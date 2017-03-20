@@ -82,7 +82,7 @@ function buildPortfolio() {
  */
 export async function build() {
   process.stdout.write(chalk.yellow(logo) + '\n');
-  const flags = ['all', 'blog', 'contact', 'feeds', 'home', 'pages', 'portfolio'];
+  const flags = ['all', 'blog', 'contact', 'feeds', 'home', 'pages', 'portfolio', 'patterns'];
   if (!flags.reduce((a, b) => (a || (argv[b] ? b : 0)), 0)) {
     process.stdout.write(chalk.bold('$ npm run build -- [--flag]\n'));
     process.stdout.write(`Available flags: ${flags.join(', ')}\n`);

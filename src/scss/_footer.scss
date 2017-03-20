@@ -2,14 +2,14 @@
   position: relative;
   box-sizing: border-box;
   background: $white;
-  text-align: center;
+  // text-align: center;
 
   .block {
     padding-top: em($baseline * 1.5);
     padding-bottom: em($baseline);
   }
 
-  @include respond-min($breakpoint--aside)
+  @include respond-min($bp--aside)
   {
     z-index: $z-index--footer;
     position: absolute;
@@ -42,25 +42,25 @@
   }
 }
 
-.footer__blog {
+// .footer__blog {
 
-  ul {
-    list-style: none;
-    margin-left: 0;
-  }
+//   ul {
+//     list-style: none;
+//     margin-left: 0;
+//   }
 
-  li {
-    margin-bottom: em($unit * 2, $p);
-  }
-}
+//   li {
+//     margin-bottom: em($unit * 2, $p);
+//   }
+// }
 
 .footer {
   padding-top: em($unit);
   box-shadow: 0 0 em($unit * 2) rgba(0,0,0, 0.1);
 
-  h3 {
-    margin-top: em(-$unit, $h3);
-  }
+  // h3 {
+  //   margin-top: em(-$unit, $h3);
+  // }
 
   small {
     color: $grey;
@@ -163,24 +163,24 @@
 //     }
 //   }
 
-//   @include respond-min($breakpoint--aside)
+//   @include respond-min($bp--aside)
 //   {
 //     margin-top: em(-$unit * 2);
 //   }
 // }
 
-@include respond-min($breakpoint--aside)
+@include respond-min($bp--aside)
 {
-  .footer__blog {
-    li {
-      &:nth-of-type(1n + 4) {
-        @include visually-hidden;
-      }
-    }
-  }
+  // .footer__blog {
+  //   li {
+  //     &:nth-of-type(1n + 4) {
+  //       @include visually-hidden;
+  //     }
+  //   }
+  // }
 }
 
-@include respond-max($breakpoint--mobile - 1)
+@include respond-max($bp--mobile - 1)
 {
   // .footer__avatar {
   //   width: em($unit * 16);
@@ -193,7 +193,7 @@
   }
 }
 
-// @include respond-max($breakpoint--mini - 1)
+// @include respond-max($bp--mini - 1)
 // {
 //   .footer__avatar {
 //     width: em($unit * 15);
@@ -201,27 +201,27 @@
 //   }
 // }
 
-@include respond-min-max($breakpoint--mobile, $breakpoint--aside - 1)
+@include respond-min-max($bp--mobile, $bp--aside - 1)
 {
   .footer {
     text-align: left;
 
-    .block > p {
-      max-width: em(500, $p);
-    }
+    // .block > p {
+    //   max-width: em(500, $p);
+    // }
   }
 
-  .footer__blog {
+  // .footer__blog {
 
-    ul {
-      column-count: 2;
-      column-gap: em($gutter);
-    }
+  //   ul {
+  //     column-count: 2;
+  //     column-gap: em($gutter);
+  //   }
 
-    li {
-      break-inside: avoid;
-    }
-  }
+  //   li {
+  //     break-inside: avoid;
+  //   }
+  // }
 
   // .footer__avatar {
   //   float: left;

@@ -1,0 +1,43 @@
+/*! Blog (block) */
+
+.b-blog {
+
+}
+
+.b-blog__list {
+
+}
+
+.b-blog__item {
+
+}
+
+.b-blog__title {
+  margin-bottom: em($unit * 2);
+}
+
+@include respond-min($bp--aside) {
+
+  .b-blog__item {
+    .footer &:nth-of-type(1n + 4) {
+      @include visually-hidden;
+    }
+  }
+
+}
+
+@include respond-min-max($bp--mobile, $bp--aside - 1) {
+
+  .b-blog__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .b-blog__item {
+    flex: 1 1 50%;
+    max-width: calc(50% - #{em($unit * 3, $p)});
+  }
+
+}

@@ -10,8 +10,10 @@ $combined-css: true;
 @import "post";
 @import "folio";
 @import "footer";
-@import "bio";
 @import "nav";
+
+@import "blocks/bio";
+@import "blocks/blog";
 
 @import "misc";
 @import "prism";

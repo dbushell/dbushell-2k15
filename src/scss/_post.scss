@@ -25,7 +25,7 @@
             margin-top: em(-$unit, $p--large);
         }
 
-        @include respond-max($breakpoint--mobile - 1)
+        @include respond-max($bp--mobile - 1)
         {
             & > .nbsp:after {
                 display: inline-block;
@@ -55,22 +55,27 @@
 
 @include non-critical {
 
-    .post__image {
+    .post__image,
+    .post__pattern {
         overflow: hidden;
         margin: em($baseline) 0;
         margin-left: -#{inner-percent(7)};
         margin-right: -#{inner-percent(7)};
         padding: em($baseline) inner-percent(7);
-        background: $canvas;
+        background: $white;
 
         img {
             width: auto;
         }
+    }
 
-        a {
-            text-shadow: none;
-            background: none;
-        }
+    .post__image {
+      background: $canvas;
+
+      a {
+          text-shadow: none;
+          background: none;
+      }
     }
 
     .post__image--centred {
@@ -79,7 +84,7 @@
         }
     }
 
-    @include respond-max($breakpoint--mobile - 1)
+    @include respond-max($bp--mobile - 1)
     {
         .post__body {
             & > pre {
@@ -89,7 +94,7 @@
         }
     }
 
-    @include respond-min($breakpoint--mobile)
+    @include respond-min($bp--mobile)
     {
         .post__image {
             margin-right: 0;

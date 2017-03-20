@@ -40,7 +40,7 @@
         border-color: transparent !important;
     }
 
-    @include respond-min($breakpoint--mobile)
+    @include respond-min($bp--mobile)
     {
         .button--large {
             @include font-size(18, $unit--field - 4);
