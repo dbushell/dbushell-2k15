@@ -24,28 +24,6 @@ const Blog = props => {
   );
 };
 
-// const Blog = props => {
-//   const attr = {
-//     className: 'blog',
-//     role: 'complementary'
-//   };
-//   return (
-//     <aside {...attr}>
-//       <Prose>
-//         <h3>{props.heading}</h3>
-//       </Prose>
-//       <ul className="blog__list">
-//         {props.items.map(item => (
-//           <li key={item.id} className="blog__item">
-//             <a rel="bookmark" href={item.href}>{item.title}</a>
-//             <Time date={item.date}/>
-//           </li>
-//         ))}
-//       </ul>
-//     </aside>
-//   );
-// };
-
 Blog.propTypes = {
   heading: PropTypes.string,
   items: PropTypes.arrayOf(
