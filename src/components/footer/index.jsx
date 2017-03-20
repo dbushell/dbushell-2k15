@@ -7,11 +7,11 @@ import {Block, Bio, Blog, Small} from '../';
 const Footer = props => {
   const attr = {
     id: 'footer',
-    className: 'footer'
+    className: 'c-footer'
   };
   const hire = (
-    <a href="/contact/" className="footer__hire">
-      <img src="/assets/img/dbushell-for-hire.svg" alt="Available for Hire"/>
+    <a href="/contact/" className="b-hire">
+      <img className="b-hire__image" src="/assets/img/dbushell-for-hire.svg" alt="Available for Hire"/>
     </a>
   );
   return (

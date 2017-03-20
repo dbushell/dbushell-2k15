@@ -9,14 +9,6 @@ const Smallcopy = props => {
   );
 };
 
-// const Smallcopy = props => {
-//   return (
-//     <p className="small">
-//       <small>{props.children}</small>
-//     </p>
-//   );
-// };
-
 Smallcopy.propTypes = {
   children: PropTypes.node
 };

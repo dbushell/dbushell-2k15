@@ -14,7 +14,7 @@
   border: em(3) solid $yellow;
   box-shadow: 0 0 0 em(3) $pink;
 
-  .footer & {
+  .c-footer & {
     margin-top: em(-$unit);
   }
 }
@@ -46,7 +46,7 @@
 
   .b-bio__image {
 
-    .footer & {
+    .c-footer & {
       margin-top: em(-$unit * 2);
     }
   }

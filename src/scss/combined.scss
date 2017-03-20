@@ -9,11 +9,13 @@ $combined-css: true;
 @import "form";
 @import "post";
 @import "folio";
-@import "footer";
 @import "nav";
 
 @import "blocks/bio";
 @import "blocks/blog";
+@import "blocks/hire";
+
+@import "containers/footer";
 
 @import "misc";
 @import "prism";

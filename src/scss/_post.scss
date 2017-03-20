@@ -62,7 +62,6 @@
         margin-left: -#{inner-percent(7)};
         margin-right: -#{inner-percent(7)};
         padding: em($baseline) inner-percent(7);
-        background: $white;
 
         img {
             width: auto;
@@ -76,6 +75,10 @@
           text-shadow: none;
           background: none;
       }
+    }
+
+    .post__pattern {
+      background: rgba($white, 0.6);
     }
 
     .post__image--centred {

@@ -1,0 +1,12 @@
+/*! Hire (block) */
+
+.b-hire {
+  display: block;
+  overflow: hidden;
+  border-radius: em(10);
+  max-width: em(400);
+}
+
+.b-hire__image {
+  width: 100%;
+}

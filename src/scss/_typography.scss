@@ -18,7 +18,7 @@
     outline: none;
     border-top: 2px solid $canvas;
 
-    .footer & {
+    .c-footer & {
       border-color: $beige;
     }
   }
@@ -40,7 +40,7 @@
       animation: animateGradient 300ms forwards;
     }
 
-    .footer &,
+    .c-footer &,
     .post__pattern & {
       text-shadow: 2px 0 0 $white, -2px 0 0 $white;
     }

@@ -1,52 +1,18 @@
-.footer {
+.c-footer {
   position: relative;
   box-sizing: border-box;
   background: $white;
+  padding-top: em($unit);
+  box-shadow: 0 0 em($unit * 2) rgba(0,0,0, 0.1);
+  color: $grey;
 
   .block {
     padding-top: em($baseline * 1.5);
     padding-bottom: em($baseline);
   }
 
-  @include respond-min($bp--aside)
-  {
-    z-index: $z-index--footer;
-    position: absolute;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    width: percentage($footer--width/100);
-    max-width: em($footer--max-width);
-    background: $white;
-
-    .block {
-      padding: em($baseline) em($gutter);
-    }
-  }
-}
-
-.footer__hire {
-  display: block;
-  overflow: hidden;
-  border-radius: em(10);
-  margin: em($baseline) 0;
-  max-width: em(400);
-
-  img {
-    width: 100%;
-  }
-}
-
-.footer {
-  padding-top: em($unit);
-  box-shadow: 0 0 em($unit * 2) rgba(0,0,0, 0.1);
-
-  small {
-    color: $grey;
+  .b-hire {
+    margin: em($baseline) auto;
   }
 
   .iScrollVerticalScrollbar {
@@ -103,26 +69,47 @@
       background: $colour__hairline;
     }
   }
-
-  @media only print { @include hidden; }
 }
 
-@include respond-max($bp--mobile - 1)
-{
+@include respond-min($bp--mobile) {
 
-  .footer__hire {
-    margin-left: auto;
-    margin-right: auto;
+  .c-footer {
+
+    .b-hire {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 
 }
 
-// @include respond-min-max($bp--mobile, $bp--aside - 1)
-// {
+@include respond-min($bp--aside) {
 
-//   .footer {
-//     text-align: left;
-//   }
+  .c-footer {
+    z-index: $z-index--footer;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    width: percentage($footer--width/100);
+    max-width: em($footer--max-width);
+    background: $white;
 
-// }
+    .block {
+      padding: em($baseline) em($gutter);
+    }
+  }
 
+}
+
+@media only print {
+
+  .c-footer {
+    @include hidden;
+  }
+
+}

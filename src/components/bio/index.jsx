@@ -14,7 +14,7 @@ const Bio = props => {
       </div>
       <div className="b-bio__main">
         <h3 itemProp="name"><a href={props.href}>{props.title}</a></h3>
-        <p className="p--light" itemProp="description">{props.text}</p>
+        <p itemProp="description">{props.text}</p>
       </div>
     </section>
   );
