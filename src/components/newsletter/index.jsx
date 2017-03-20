@@ -25,7 +25,7 @@ const Newsletter = () => {
             </label>
           </div>
           <div className="b-form__item">
-            <div style={{visibility: 'hidden', display: 'none', position: 'absolute'}} aria-hidden="true">
+            <div className="u-vh" aria-hidden="true">
               <input type="text" name="b_f1621b8d47b205bc9a898c68f_84a4c62ca9" value=""/>
             </div>
             <input className="e-button" type="submit" value="Subscribe" name="subscribe"/>

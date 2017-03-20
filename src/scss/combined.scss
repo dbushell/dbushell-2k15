@@ -9,7 +9,6 @@ $combined-css: true;
 
 @import "typography";
 @import "post";
-@import "folio";
 @import "nav";
 
 @import "elements/label";
@@ -23,6 +22,7 @@ $combined-css: true;
 @import "blocks/hire";
 @import "blocks/newsletter";
 @import "blocks/pagination";
+@import "blocks/folio";
 
 @import "containers/footer";
 

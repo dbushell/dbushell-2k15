@@ -7,16 +7,6 @@ import {Button, Block, Field, Label} from '../../components';
 class Contact extends Component {
   render() {
     const props = this.props;
-    const hidden = {
-      border: 0,
-      clip: 'rect(0 0 0 0)',
-      height: '1px',
-      margin: '-1px',
-      overflow: 'hidden',
-      padding: 0,
-      position: 'absolute',
-      width: '1px'
-    };
     return (
       <main className="main main--blog">
         <Block>
@@ -43,7 +33,7 @@ class Contact extends Component {
                   <Label field="contact-enquiry" text="Enquiry"/>
                   <textarea className="e-field e-field--area" id="contact-enquiry" name="enquiry" rows="5" required/>
                 </li>
-                <li className="b-form__item" style={hidden}>
+                <li className="b-form__item u-vh">
                   <Label field="contact-human" text="If you’re human leave the next field blank!"/>
                   <input type="text" id="contact-human" name="_gotcha" tabIndex="-1"/>
                 </li>

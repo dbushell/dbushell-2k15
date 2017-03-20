@@ -1,0 +1,120 @@
+
+.b-folio {
+  z-index: $z-index--home;
+  position: relative;
+  margin: em($unit * 3) 0;
+}
+
+.b-folio__list {
+  padding: 0;
+  margin: 0 em(-$unit);
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.b-folio__item {
+  z-index: $z-index--home + 10;
+  display: block;
+  position: relative;
+  margin: em($unit);
+  font-size: inherit;
+  line-height: inherit;
+  flex: 0 1 auto;
+  width: 48%;
+  width: calc(50% - #{em($unit * 2)});
+  border-radius: em(7);
+  perspective: 500px;
+}
+
+.b-folio__label {
+  z-index: $z-index--home + 12;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: em($h4);
+  line-height: em($unit * 4, $h4);
+  padding: 0 em($unit * 2, $h4);
+  opacity: 0;
+  color: $white;
+  text-align: center;
+  transform: translateY(-50%);
+  transition: opacity 200ms ease;
+  text-shadow: 2px 2px 0 rgba($black, 0.2);
+}
+
+.b-folio__image {
+  z-index: $z-index--home + 11;
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: calc(0% + #{em($unit)});
+  left: calc(0% + #{em($unit * 1.5)});
+  opacity: 1;
+  width: 100%;
+  border-radius: em(7);
+  width: calc(100% - #{em($unit * 3)});
+  transform-style: preserve-3d;
+  transform: rotateY(30deg) rotateX(2deg) translateX(7%);
+  transition: opacity 200ms, filter 200ms, transform 200ms;
+  backface-visibility: hidden;
+}
+
+.b-folio__link {
+  display: block;
+  text-shadow: none;
+  background-image: none;
+  background-color: $green;
+  z-index: $z-index--home + 11;
+  @include no-tap-highlight;
+  display: block;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  border-radius: em(6);
+  padding-bottom: percentage(220 / 330);
+  transition: background 200ms ease;
+  background: $green;
+  box-shadow: 0 0 0 1px $green,
+              inset 0 0 0 1px $green,
+              inset 0 0 0 3px rgba($yellow, 0.8);
+
+  &:hover,
+  &:focus {
+    background-color: rgba($canvas, 0);
+
+    .b-folio__image {
+      opacity: 0.1;
+      filter: #{"grayscale(1)"};
+      transform-origin: 50% 50%;
+      transform: scaleX(0.9) scaleY(0.9);
+    }
+
+    .b-folio__label {
+      opacity: 1;
+    }
+  }
+}
+
+@include respond-min($bp--home) {
+
+  .b-folio {
+    margin: em($unit*2) 0;
+  }
+
+  .b-folio__item {
+    margin: em($unit*2);
+    width: 30%;
+    width: calc(33.33333% - #{em($unit * 4)});
+  }
+
+  .b-folio__list {
+    margin: 0 em(-$unit*2);
+  }
+
+}

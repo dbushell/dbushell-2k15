@@ -28,13 +28,13 @@ svg:not(:root) {
     overflow: hidden;
 }
 
-.no-svg svg {
-    @include hidden;
-}
+// .no-svg svg {
+//     @include hidden;
+// }
 
-.hidden {
-    @include hidden;
-}
+// .hidden {
+//     @include hidden;
+// }
 
 ::-webkit-scrollbar {
     width: 14px;
