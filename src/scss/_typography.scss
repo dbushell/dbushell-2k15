@@ -32,10 +32,14 @@ a {
 
   &:not([class]):focus,
   &:not([class]):hover {
-    outline: 0;
+
     text-shadow: none;
     animation: animateGradient 300ms forwards;
   }
+
+  // &:not([class]):focus {
+  //   border-bottom: 2px dotted $pink;
+  // }
 
   .c-footer &,
   .post__pattern & {
@@ -43,13 +47,13 @@ a {
   }
 }
 
-.no-cssanimations {
+// .no-cssanimations {
 
-  a:not([class]) {
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-  }
-}
+//   a:not([class]) {
+//     border-bottom-style: solid;
+//     border-bottom-width: 1px;
+//   }
+// }
 
 @keyframes animateGradient {
   0% {
@@ -72,16 +76,6 @@ h1, h2, h3, h4, h5, h6,
 
   &:last-child {
     margin-bottom: 0;
-  }
-}
-
-@include respond-min($bp--mini)
-{
-
-
-  .h0 {
-    @include font-size(60);
-    margin-bottom: em($unit * 2, $h0);
   }
 }
 

@@ -48,7 +48,7 @@
                 transform 600ms cubic-bezier(.01,1.4,.6,1.2);
   }
 
-  .no-csstransforms &,
+  // .no-csstransforms &,
   .js-anim & {
     opacity: 1;
     transform: translateZ(0);
@@ -220,9 +220,9 @@
 {
   .home-star {
 
-    .csstransforms & {
+    // .csstransforms & {
       display: block;
-    }
+    // }
   }
 }
 
@@ -319,24 +319,24 @@
     }
   }
 
-  .no-flexbox {
+  // .no-flexbox {
 
-    .home-services {
-      overflow: hidden;
-    }
+  //   .home-services {
+  //     overflow: hidden;
+  //   }
 
-    .home-services__item {
-      float: left;
+  //   .home-services__item {
+  //     float: left;
 
-      &:nth-of-type(2) {
-        margin-top: em($baseline * 3);
-      }
+  //     &:nth-of-type(2) {
+  //       margin-top: em($baseline * 3);
+  //     }
 
-      &:nth-of-type(3) {
-        margin-top: em($baseline * 6);
-      }
-    }
-  }
+  //     &:nth-of-type(3) {
+  //       margin-top: em($baseline * 6);
+  //     }
+  //   }
+  // }
 
 }
 
@@ -506,17 +506,17 @@
   }
 }
 
-.no-flexbox {
+// .no-flexbox {
 
 
-  .home-businesses {
-    float: left;
-  }
+//   .home-businesses {
+//     float: left;
+//   }
 
-  .home-agencies {
-    float: right;
-  }
-}
+//   .home-agencies {
+//     float: right;
+//   }
+// }
 
 .home-folio {
   margin: em($baseline * 2) 0;

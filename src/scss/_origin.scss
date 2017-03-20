@@ -47,7 +47,6 @@ $p         : 20;
 $p--large  : 25;
 $p--small  : 16;
 
-$h0: 55;
 $h1: 45;
 $h2: 35;
 $h3: 30;
@@ -179,7 +178,6 @@ $fonts--monospace  : Monaco, Courier, monospace;
 
 @mixin no-tap-highlight {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-    outline: none;
 }
 
 @mixin text-truncate {

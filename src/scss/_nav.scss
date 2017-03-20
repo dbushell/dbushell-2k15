@@ -101,12 +101,10 @@
     padding: 0 em($unit * 2, 15);
     text-transform: uppercase;
     text-align: center;
-    outline: 0;
     border: 0;
 
 
     &:focus, &:hover {
-      outline: none;
       color: $yellow;
     }
 
@@ -148,14 +146,14 @@
     border: 2px solid $pink;
     box-shadow: 0 0 0 3px rgba($black, 0.2);
 
-    .csstransforms & {
+    // .csstransforms & {
       display: block;
       opacity: 0;
       transform: scale(0.6);
       transform-origin: 100% 0;
       transition: transform 300ms cubic-bezier(.65,.25,.35,1.6), opacity 300ms cubic-bezier(.65,.25,.35,1.6);
       pointer-events: none;
-    }
+    // }
 
     &:after,
     &:before {
@@ -210,9 +208,9 @@
   }
 
   .nav__dropdown--hover,
-  .nav__dropdown--active,
-  .csstransforms .nav__dropdown--hover,
-  .csstransforms .nav__dropdown--active {
+  .nav__dropdown--active {
+  // .csstransforms .nav__dropdown--hover,
+  // .csstransforms .nav__dropdown--active {
     opacity: 1;
     display: block;
     transform: none;
