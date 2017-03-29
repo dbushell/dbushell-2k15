@@ -2,6 +2,8 @@ import React from 'react';
 import Page from '../page';
 import * as P from '../../components';
 
+const homeDefaults = require('../home/defaults');
+
 export default class Main extends Page {
   render() {
     const props = this.props;
@@ -25,6 +27,14 @@ export default class Main extends Page {
           <h2>Newsletter</h2>
           <div className="post__pattern">
             <P.Newsletter/>
+          </div>
+          <h2>Sector</h2>
+          <div className="post__pattern">
+            <P.Sector {...homeDefaults.sector[1]}/>
+          </div>
+          <h2>Sector RTL</h2>
+          <div className="post__pattern">
+            <P.Sector {...homeDefaults.sector[0]}/>
           </div>
         </P.Block>
       </main>
