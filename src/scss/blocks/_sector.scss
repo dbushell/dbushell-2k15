@@ -1,0 +1,96 @@
+/*! Sector (block) */
+
+.b-sector {
+  position: relative;
+  overflow: hidden;
+  padding: em($unit * 5);
+  background: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 1 auto;
+
+  & > * {
+    flex: 0 1 auto;
+  }
+  // h2 {
+  //   color: inherit;
+  //   text-shadow: none;
+  // }
+
+  // .p--large {
+  //   margin-bottom: em($baseline/2, $p--large);
+  // }
+
+  // .button {
+  //   text-shadow: none;
+  //   background-color: $white;
+  //   border: 0;
+  // }
+}
+
+.b-sector__header {
+  margin-bottom: em($baseline/2);
+}
+
+.b-sector__main {
+  flex: 1 1 auto;
+  margin-bottom: em($baseline/2);
+}
+
+.b-sector__star {
+  position: absolute;
+  right: em($unit);
+  width: em(100);
+  height: em(100);
+  bottom: em($unit * 2);
+  fill: $yellow;
+
+  .u-dark-alt & {
+    fill: $green;
+  }
+}
+
+.b-sector--rtl {
+  align-items: flex-end;
+  text-align: right;
+
+  .b-sector__star {
+    left: em($unit);
+    top: em($unit * 3);
+    right: auto;
+    bottom: auto;
+  }
+}
+
+// .home-businesses {
+//   // background-color: $blue;
+
+//   .home-sectors__star {
+//     fill: $green;
+//   }
+
+//   // h2 {
+//   //   text-shadow: 3px 3px 0 rgba($dark-blue, 0.6);
+//   // }
+
+//   // .p--large {
+//   //   color: $green;
+//   // }
+// }
+
+// .home-agencies {
+//   // background-color: $pink;
+
+//   .home-sectors__star {
+//     fill: $yellow;
+//   }
+
+//   // h2 {
+//   //   text-shadow: 3px 3px 0 rgba($dark-red, 0.5);
+//   // }
+
+//   // .p--large {
+//   //   color: $yellow;
+//   // }
+// }

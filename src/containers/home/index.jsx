@@ -2,10 +2,11 @@ import React, {Component} from 'react';
 import ReactDOMServer from 'react-dom/server';
 import {renderFooter} from '../../components/footer';
 import {renderNav} from '../../components/nav';
-import {Button, Block} from '../../components';
+import {Button, Block, Sector} from '../../components';
 
 class Home extends Component {
   render() {
+    const props = this.props;
     const star = id => {
       return {__html: `<use xlink:href="/assets/img/stars.svg#${id}"></use>`};
     };
@@ -53,26 +54,20 @@ class Home extends Component {
           </div>
         </Block>
         <Block>
-          <div className="home-sectors">
-            <article className="home-sectors__item home-businesses">
-              <svg className="home-sectors__star" role="presentation" dangerouslySetInnerHTML={star('right')}/>
-              <h2>For Businesses</h2>
-              <p className="p--large">Have an idea?</p>
-              <p>Let’s discuss your requirements, share ideas, and figure out what’s best for your new website together.</p>
-              <Button href="/working-with-clients/" text="How I can help" bg2 shadow/>
-            </article>
-            <article className="home-sectors__item home-agencies">
-              <svg className="home-sectors__star" role="presentation" dangerouslySetInnerHTML={star('left')}/>
-              <h2>Web Agencies</h2>
-              <p className="p--large">Need a hand?</p>
-              <p>I’m reliable and flexible, priding myself in communication and initiative to ensure smooth delivery.</p>
-              <Button href="/working-with-agencies/" text="What I can do" bg1 shadow/>
-            </article>
+          <div className="c-sectors">
+            <div className="c-sectors__item">
+              <Sector {...props.sector[0]}/>
+            </div>
+            <div className="c-sectors__item">
+              <Sector {...props.sector[1]}/>
+            </div>
           </div>
         </Block>
-        <div className="home-folio">
-          <Block>
-            <h2><a href="/showcase/">Featured Projects</a></h2>
+        <Block>
+          <div className="c-folio">
+            <div className="c-folio__header">
+              <h2><a href="/showcase/">Featured Projects</a></h2>
+            </div>
             <div className="b-folio">
               <ul className="b-folio__list">
                 <li className="b-folio__item" style={{backgroundColor: '#b72817'}}>
@@ -95,25 +90,26 @@ class Home extends Component {
                 </li>
               </ul>
             </div>
-          </Block>
-        </div>
-        <div className="home-clients u-dark">
+          </div>
+        </Block>
+        <div className="c-clients u-dark">
           <Block>
-            <div className="prose">
+            <div className="c-clients__header">
               <h2>What my clients say:</h2>
-              <blockquote className="home-clients__quote">
-                <p className="p--large p--quote">Highly skilled, personable, helpful and dedicated: David exceeded my expectations to deliver for us on a key project.</p>
-                <p className="p--small"><cite>Frank Fenton &ndash; Head of Digital &ndash; Dinosaur UK Ltd.</cite></p>
-              </blockquote>
-              <blockquote className="home-clients__quote">
-                <p className="p--large p--quote">David honestly was the integral component that allowed us to finally launch. We continue to go to him for any development work for our site, because he goes above &amp; beyond what you’d ever expect.</p>
-                <p className="p--small"><cite>Alexandra Adina &ndash; SwingVoterz.com</cite></p>
-              </blockquote>
-              <blockquote className="home-clients__quote">
-                <p className="p--large p--quote">David provided us with beautiful and cost effective templates for our CMS that surpassed our high expectations from both the design and the tech perspective.</p>
-                <p className="p--small"><cite>Kevin Mueller &ndash; Studio Manager &ndash; <a href="/2014/05/07/responsive-design-for-uwe-wittwer/">Uwe Wittwer</a></cite></p>
-              </blockquote>
-              <br/>
+            </div>
+            <blockquote className="quote">
+              <p className="p--large p--quote">Highly skilled, personable, helpful and dedicated: David exceeded my expectations to deliver for us on a key project.</p>
+              <p className="p--small"><cite>Frank Fenton &ndash; Head of Digital &ndash; Dinosaur UK Ltd.</cite></p>
+            </blockquote>
+            <blockquote className="quote">
+              <p className="p--large p--quote">David honestly was the integral component that allowed us to finally launch. We continue to go to him for any development work for our site, because he goes above &amp; beyond what you’d ever expect.</p>
+              <p className="p--small"><cite>Alexandra Adina &ndash; SwingVoterz.com</cite></p>
+            </blockquote>
+            <blockquote className="quote">
+              <p className="p--large p--quote">David provided us with beautiful and cost effective templates for our CMS that surpassed our high expectations from both the design and the tech perspective.</p>
+              <p className="p--small"><cite>Kevin Mueller &ndash; Studio Manager &ndash; <a href="/2014/05/07/responsive-design-for-uwe-wittwer/">Uwe Wittwer</a></cite></p>
+            </blockquote>
+            <div className="c-clients__footer">
               <Button href="/contact/" text="Work with me" bg1/>
             </div>
           </Block>
@@ -130,5 +126,7 @@ ${renderNav()}
 `;
   }
 }
+
+Home.defaultProps = require('./defaults');
 
 export default Home;

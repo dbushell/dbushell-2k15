@@ -4,7 +4,16 @@
   @include visually-hidden;
 }
 
-.u-dark {
+.u-dim {
+  color: $grey;
+}
+
+.u-bright {
+  color: $black;
+}
+
+.u-dark,
+.u-dark-alt {
   color: $white;
   background: $pink;
 
@@ -20,7 +29,6 @@
 
   h1, h2, h3,
   .h1, .h2, .h3 {
-    color: $yellow;
     text-shadow: 3px 3px 0 rgba($dark-red, 0.5);
   }
 
@@ -30,6 +38,32 @@
     p {
       color: inherit;
     }
+  }
+
+  .u-dim {
+    color: $yellow;
+  }
+
+  .u-bright {
+    color: $white;
+  }
+}
+
+.u-dark-alt {
+  background: $blue;
+
+  .u-dim {
+    color: $green;
+  }
+
+  h1, h2, h3,
+  .h1, .h2, .h3 {
+    color: $green;
+    text-shadow: 3px 3px 0 rgba($dark-blue, 0.5);
+  }
+
+  blockquote {
+    border-color: $green;
   }
 }
 

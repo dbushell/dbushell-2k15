@@ -1,0 +1,18 @@
+.c-folio {
+  margin: em($baseline * 2) 0;
+  text-align: center;
+}
+
+.c-folio__header {
+  margin-bottom: em($baseline);
+}
+
+@include respond-max($bp--home - 1) {
+
+  .c-folio {
+    .b-folio__item:nth-child(1n + 3) {
+      display: none;
+    }
+  }
+
+}

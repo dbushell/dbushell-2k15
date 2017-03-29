@@ -1,0 +1,24 @@
+{
+  "sector": [
+    {
+      "rtl": true,
+      "alt": true,
+      "heading": "For Businesses",
+      "subheading": "Have an idea?",
+      "description": "Let’s discuss your requirements, share ideas, and figure out what’s best for your new website together.",
+      "button": {
+        "text": "How I can help",
+        "href": "/working-with-clients/"
+      }
+    },
+    {
+      "heading": "Web Agencies",
+      "subheading": "Need a hand?",
+      "description": "I’m reliable and flexible, priding myself in communication and initiative to ensure smooth delivery.",
+      "button": {
+        "text": "What I can do",
+        "href": "/working-with-agencies/"
+      }
+    }
+  ]
+}

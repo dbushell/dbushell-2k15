@@ -5,8 +5,6 @@ $combined-css: true;
 @import "normalize";
 @import "base";
 
-@import "utilities";
-
 @import "typography";
 @import "post";
 @import "nav";
@@ -23,9 +21,15 @@ $combined-css: true;
 @import "blocks/newsletter";
 @import "blocks/pagination";
 @import "blocks/folio";
+@import "blocks/sector";
 
+@import "containers/sectors";
+@import "containers/folio";
+@import "containers/clients";
 @import "containers/footer";
 
 @import "prism";
 
 @import "home";
+
+@import "utilities";
