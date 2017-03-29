@@ -1,4 +1,4 @@
-<p class="post__image post__image--centred"><img src="/assets/img/wordpress-and-cms-integration.png" alt="WordPress template development"></p>
+<p class="b-post__image b-post__image--centred"><img src="/assets/img/wordpress-and-cms-integration.png" alt="WordPress template development"></p>
 
 Let's face it, what use is a website if you can't update it? Without a content management system that can be difficult. I have extensive knowledge of PHP and particularly WordPress theme development. I'm also very proficient in other HTML template languages.
 

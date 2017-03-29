@@ -8,7 +8,7 @@ title: Prototyping
 
 A [couple of weeks ago](/2013/04/07/macaque-a-new-project/) I embarked upon a new side quest: make a list app and use as much JavaScript in the stack as possible. Fighting adversity, I've made progress:
 
-<p class="post__image">[![Macaque app screenshot](/images/2013/04/screenshot.png)](/images/2013/04/screenshot.png)</p>
+<p class="b-post__image">[![Macaque app screenshot](/images/2013/04/screenshot.png)](/images/2013/04/screenshot.png)</p>
 
 
 <p class="p--small">[Twitter Bootstrap](http://twitter.github.io/bootstrap/) is a great UI toolkit for prototypes. Don't let it seduce you, my underlying code ain't pretty!</p>

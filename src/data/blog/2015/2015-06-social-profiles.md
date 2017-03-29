@@ -8,7 +8,7 @@ title: Social Profiles
 
 My website navigation now links to my [GitHub](https://github.com/dbushell/) and [CodePen](http://codepen.io/dbushell/) profiles, alongside [Twitter](http://twitter.com/dbushell/). A long overdue change. It was embarrassing to be rocking the Google+ link. I never used Google+, I don’t even use Facebook, but it was useful to get my face alongside search results. That feature disappeared some time ago and thus the link follows suit.
 
-<p class="post__image">
+<p class="b-post__image">
     <svg style="display:inline-block;width:70px;height:70px;" role="image"><use xlink:href="#svg--github"></use></svg>
     <svg style="display:inline-block;width:70px;height:70px;" role="image"><use xlink:href="#svg--codepen"></use></svg>
 </p>

@@ -8,7 +8,7 @@ title: Web Fonts & Enhancements
 
 Yesterday I found myself thoroughly impressed with [Laura Kalbag's](http://laurakalbag.com/) effort to ensure the [Indie Tech Summit](http://indietech.org/summit/) website remains well designed.
 
-<p class="post__image">![Indie Tech Summit web fonts](/images/2014/05/indie-tech-web-fonts.png)</p>
+<p class="b-post__image">![Indie Tech Summit web fonts](/images/2014/05/indie-tech-web-fonts.png)</p>
 
 In the screenshot above you can see the page design before and after web fonts have loaded. This is a superb example of **progressive enhancement**.
 
@@ -24,7 +24,7 @@ By themselves web fonts aren't dependant on JavaScript but many font providers 
 
 In my [latest portfolio piece](/2014/05/07/responsive-design-for-uwe-wittwer/) I too have taken advantage of web font loading in order to improve the website's typography:
 
-<p class="post__image">![Uwe Witter typography design](/images/2014/05/uwe-wittwer-kerning.png)</p>
+<p class="b-post__image">![Uwe Witter typography design](/images/2014/05/uwe-wittwer-kerning.png)</p>
 
 As illustrated in the screenshot above, with [Futura PT from Typekit](https://typekit.com/fonts/futura-pt) spacing between letters — particularly the "w" and "e" — is uneven and requires manual adjustment. Without JavaScript to load and detect font availability I'd be stuck with bad kerning. In which case I'd rather see the more generic system font.
 

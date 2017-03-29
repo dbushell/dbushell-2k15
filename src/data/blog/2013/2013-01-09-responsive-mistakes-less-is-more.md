@@ -40,7 +40,7 @@ As [Laura Kalbag](http://laurakalbag.com/display-none/) reiterates, it's indic
 
 Replacement techniques have been around long before responsive design. They're bread and butter for front-end developers. Consider this [off-canvas menu demo](http://dbushell.github.com/Responsive-Off-Canvas-Menu/step4.html) in which I use icons for the navigation buttons.
 
-<p class="post__image">[![responsive off-canvas menu demo](/images/2013/01/off-canvas-menu.png)](http://dbushell.github.com/Responsive-Off-Canvas-Menu/step4.html)</p>
+<p class="b-post__image">[![responsive off-canvas menu demo](/images/2013/01/off-canvas-menu.png)](http://dbushell.github.com/Responsive-Off-Canvas-Menu/step4.html)</p>
 
 The semantic HTML for the nav open button is a normal hyperlink:
 
@@ -66,7 +66,7 @@ Basic stuff, but this has more profound implications.
 
 As Paul Robert Lloyd says in [The Web Aesthetic](http://www.alistapart.com/articles/the-web-aesthetic/), _"everything on the web ultimately needs to degrade down to plain text"_. I agree. If we embrace that philosophy it can be taken much further than basic icon replacement.
 
-<p class="post__image">![social sharing links](/images/2013/01/social-links1.png)</p>
+<p class="b-post__image">![social sharing links](/images/2013/01/social-links1.png)</p>
 
 This blog has social sharing elements after every article. They start life as text links; the canonical version. I transform them into official widgets using [Socialite.js](http://socialitejs.com/). This enhancement could be improved by taking presentation in multiple directions. If the viewport is small, use icons. If the viewport is large, transform into widgets. In future I could even detect and account for _bandwidth_ (they're deceptively heavy).
 
@@ -74,7 +74,7 @@ This is still a fairly small example, but combine it with more intelligent [res
 
 As long as content can be discovered it can be temporarily hidden and even shape-shift into vastly difference forms. For a perfect design example we can look back at the godfather of responsive websites, [The Boston Globe](http://www.bostonglobe.com/):
 
-<p class="post__image">![The Boston Globe weather feature](/images/2013/01/boston-globe-weather.png)</p>
+<p class="b-post__image">![The Boston Globe weather feature](/images/2013/01/boston-globe-weather.png)</p>
 
 If you absolutely have to hide elements or need to reveal them later, I would advise using the `.visuallyhidden` class technique from HTML5 boilerplate (inspired by [Jonathon Snook](http://snook.ca/archives/html_and_css/hiding-content-for-accessibility)):
 

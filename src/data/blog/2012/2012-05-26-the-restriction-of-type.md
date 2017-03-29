@@ -10,7 +10,7 @@ Responsive website design is incredibly difficult to get right. It's often said 
 
 In the screenshots below you can see the websites of [Elliot Jay Stocks](http://elliotjaystocks.com/), [Jeffrey Zeldman](http://www.zeldman.com/), and [Information Architects](http://informationarchitects.net/), all of which have had a redesign/realign this year with content as their priority and thus **typography** as their paintbrush.
 
-<p class="post__image">[![Websites on Galaxy Nexus](/images/2012/05/websites-on-nexus.png)](/images/2012/05/websites-on-nexus.png)</p>
+<p class="b-post__image">[![Websites on Galaxy Nexus](/images/2012/05/websites-on-nexus.png)](/images/2012/05/websites-on-nexus.png)</p>
 
 There are problems here:
 
@@ -29,7 +29,7 @@ I do realise that I am opening _myself_ up for criticism here, so I'll start.
 
 My website design is also very much content focused. To aid my goal of [content parity](http://bradfrostweb.com/blog/mobile/content-parity/) I continued a minimal design style that my personal websites have always had, but the over focus has led to a rather plain small-screen experience:
 
-<p class="post__image">[![dbushell.com on Galaxy Nexus](/images/2012/05/dbushell-on-nexus.png)](/images/2012/05/dbushell-on-nexus.png)</p>
+<p class="b-post__image">[![dbushell.com on Galaxy Nexus](/images/2012/05/dbushell-on-nexus.png)](/images/2012/05/dbushell-on-nexus.png)</p>
 
 Only after the mysteriously arrowed "DBUSHELL" is tapped does the header appear; the most visual and 'branded' element.
 

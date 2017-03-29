@@ -20,7 +20,7 @@ I'm aware I'm reinventing more than a few wheels here. This project has always b
 
 I've always maintained a personal set of HTML & CSS files to use as a starting point for any build. Mostly good practices, general preferences, and stuff I forget like the favicon.
 
-<p class="post__image">![Icon Slate favicon app](/images/2013/04/iconslateapp.png)</p>
+<p class="b-post__image">![Icon Slate favicon app](/images/2013/04/iconslateapp.png)</p>
 
 This practice has never actually helped me _remember_ the favicon — you have to love boilerplate deployment — but after catching up with [Chris Coyier's screencast](http://css-tricks.com/video-screencasts/122-the-state-of-favicons/) I have a new found love. I'm currently writing the favicon-first manifesto…
 
@@ -38,7 +38,7 @@ I use Git as source control for everything. This includes my boilerplate which I
 
 [Sublime Text 2](http://www.sublimetext.com/2) and [iTerm](http://www.iterm2.com/) (with[ oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)) are my apps of choice for code management.
 
-<p class="post__image">![Sublime and iTerm](/images/2013/04/sublimeproject.png)</p>
+<p class="b-post__image">![Sublime and iTerm](/images/2013/04/sublimeproject.png)</p>
 
 
 <p class="p--small">And yes, I work on the master branch and name my devices after monkeys.</p>

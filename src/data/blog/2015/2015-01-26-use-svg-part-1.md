@@ -53,7 +53,7 @@ With responsive design, Internet Explorer doesn't scale the `<img>` as one might
 
 Testing with both SVG and PNG assets reveals a problem unique to IE (as of today, all SVG supporting versions; 9–11):
 
-<p class="post__image">![IE SVG scaling](/images/2015/01/IE-svg-scaling.png)</p>
+<p class="b-post__image">![IE SVG scaling](/images/2015/01/IE-svg-scaling.png)</p>
 
 Usually, with responsive images, we can just set `max-width` in CSS and they will scale to fit (but no larger than the source). In IE this doesn't work; the aspect ratio is not respected (screenshot above).
 
@@ -93,7 +93,7 @@ img {
 
 The same idea applies when floating an image to allow text to wrap around:
 
-<p class="post__image">![IE SVG Float](/images/2015/01/IE-svg-float.png)</p>
+<p class="b-post__image">![IE SVG Float](/images/2015/01/IE-svg-float.png)</p>
 
 
 

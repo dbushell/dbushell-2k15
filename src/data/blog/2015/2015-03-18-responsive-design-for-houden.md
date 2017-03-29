@@ -17,19 +17,19 @@ I was hired to improve aspects of the design and user experience with the help o
 
 My first task was to update the header / navigation, and design a responsive hero unit. This would need to support multiple layouts. I decided on a new approach for me, using [CodePen](http://codepen.io/) as a tool for live, in-browser designing.
 
-<p class="post__image">![Houden hero unit designed in CodePen](/images/2015/03/houden-hero-codepen-dev.png)</p>
+<p class="b-post__image">![Houden hero unit designed in CodePen](/images/2015/03/houden-hero-codepen-dev.png)</p>
 
 The client provided access to their code repository, along with an [automated](/2013/03/12/automation/) workflow to push CSS and Liquid template changes to the development server.
 
 Even with an automated process there is some friction uploading to a remote environment. By using CodePen I could eliminate this delay while still allowing my client to see immediate progress. I was able to design rapidly, and once happy with the direction, it was a simple task of copying the code back into the templates.
 
-<p class="post__image">![Houden hero unit (alternate designs)](/images/2015/03/houden-hero-alt.png)</p>
+<p class="b-post__image">![Houden hero unit (alternate designs)](/images/2015/03/houden-hero-alt.png)</p>
 
 One simple but immensely useful feature of CodePen is the ability to fork (duplicate) pens and continue editing. This allowed me to play around with different concepts while leaving behind a nice design history. This isn't so easy when working with local files — occasionally I'll branch of in Git and tag key milestones, but often I won't bother if I'm "in the zone" designing.
 
 Like any tool, CodePen isn't going to design or code for you, but like a good night's sleep or a strong cup of coffee, I found the experience very conducive to good work.
 
-<p class="post__image">![Houden product features](/images/2015/03/houden-product-features.png)</p>
+<p class="b-post__image">![Houden product features](/images/2015/03/houden-product-features.png)</p>
 
 Throughout my work with Houden I utilised CodePen whenever design required some experimentation. Other times, I would make small tweaks using Chrome's developer tools, before committing them to the CSS source.
 

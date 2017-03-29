@@ -4,7 +4,7 @@ The interactive price check form makes use of both Google Maps and the HTML5 geo
 
 Forms should not be difficult or boring to use!
 
-<p class="post__image">![David Bushell - Web Design - My Life Listed home page.](/images/portfolio/web-design-brucar-1.png)</p>
+<p class="b-post__image">![David Bushell - Web Design - My Life Listed home page.](/images/portfolio/web-design-brucar-1.png)</p>
 
 <p class="p--small">[Visit brucar.com](http://www.brucar.com)</p>
 

@@ -16,11 +16,11 @@ Four years ago I shared [an idea](/2012/01/05/responsive-tables-2/) to make tabu
 
 Here's what basic overflow looks like:
 
-<p class="post__image">![Basic overflow responsive table](/images/blog/responsive-table.png)</p>
+<p class="b-post__image">![Basic overflow responsive table](/images/blog/responsive-table.png)</p>
 
 And if you want to flip the axis:
 
-<p class="post__image">![Flipped axis and overflow responsive table](/images/blog/responsive-table-flipped.png)</p>
+<p class="b-post__image">![Flipped axis and overflow responsive table](/images/blog/responsive-table-flipped.png)</p>
 
 There are several adjustments you should make to suit your content (breakpoints, min-widths, etc). Read the notes below [the CodePen demo](http://codepen.io/dbushell/full/8e6a1ee85418f3c5abe839647dbcdec5/). The CSS there is also commented.
 

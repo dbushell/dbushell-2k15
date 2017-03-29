@@ -7,7 +7,7 @@ title: As Seen on Smashing Magazine
 ---
 
 
-<p class="post__image">[![Implementing Off-Canvas Navigation For A Responsive Website](/images/2013/01/smashing-magazine-article.png)](http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/)</p>
+<p class="b-post__image">[![Implementing Off-Canvas Navigation For A Responsive Website](/images/2013/01/smashing-magazine-article.png)](http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/)</p>
 
 You may have caught my [recent experiment](http://dbushell.com/2012/12/22/a-responsive-off-canvas-menu-with-css-transforms-and-transitions/) — well I've gone and written a very thorough examination for **Smashing Magazine**. Read my latest article: “[Implementing Off-Canvas Navigation For A Responsive Website](http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/)”.
 

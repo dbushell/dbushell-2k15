@@ -25,11 +25,11 @@ Personally I just don't agree it's worth the hassle. Keep a baseline within text
 Watch the demo video below and you'll see what I mean.
 
 
-<p class="post__image"><iframe src="http://player.vimeo.com/video/53866112?badge=0&color=ffffff" frameborder="0" width="605" height="340"></iframe></p>
+<p class="b-post__image"><iframe src="http://player.vimeo.com/video/53866112?badge=0&color=ffffff" frameborder="0" width="605" height="340"></iframe></p>
 
 Responsive design on two dimensions. And terrible screen recording, apologies for that but I hope it illustrates the point. This is the first prototype of a website we're building at [Browser](http://www.browserlondon.com) that will go live next year. I'll keep you updated. There's a lot of experimentation to follow.
 
-<p class="post__image">![Vertical spacing with CSS vh units](/images/2012/11/vertical-spacing.png)</p>
+<p class="b-post__image">![Vertical spacing with CSS vh units](/images/2012/11/vertical-spacing.png)</p>
 
 I define all vertical height, margins, and padding as one would do normally, then I progressively enhance with [viewport-percentage units](http://www.w3.org/TR/css3-values/#viewport-relative-lengths) — e.g. `10vh` being equal to 10% of the viewport height. [Modernizr](http://modernizr.com/) provides the hook (it's a "none-core" detect), but you can just write two declarations with the fallback first. Web browsers ignore the second if unsupported.
 

@@ -18,7 +18,7 @@ For small viewports I'm a big fan of reveal patterns that initially hide the glo
 
 While researching the topic I stumbled upon [Yaron Schoen](http://yaronschoen.com/) and was pleased by his simple yet effective technique. Yaron's site has no global menu. Instead he links to a single [Table of Contents](http://yaronschoen.com/table-of-contents/) page. Yaron inspired me to [create my own](/table-of-contents/):
 
-<p class="post__image">[![Table of Contents page design](/images/2013/02/table-of-contents.png)](/table-of-contents/)</p>
+<p class="b-post__image">[![Table of Contents page design](/images/2013/02/table-of-contents.png)](/table-of-contents/)</p>
 
 I'm not abandoning my global menu just yet but I do like this alternate overview. It's a curated sitemap. It doesn't list _every_ page, just the ones I'm keen to show off.
 
@@ -28,7 +28,7 @@ I'm not abandoning my global menu just yet but I do like this alternate overview
 
 Right now this page is only accessible via a tiny link in the footer. The question I pose your way is this: **do I add a link to my masthead?**
 
-<p class="post__image">![Masthead for dbushell.com](/images/2013/02/dbushell-masthead.png)</p>
+<p class="b-post__image">![Masthead for dbushell.com](/images/2013/02/dbushell-masthead.png)</p>
 
 And if so, what icon do I use? [Answers in a tweet](http://twitter.com/dbushell) please.
 

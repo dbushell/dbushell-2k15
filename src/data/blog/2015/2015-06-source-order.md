@@ -14,7 +14,7 @@ On small viewports — mobile phones for example — a vertical layout that mimi
 
 Basic stuff. Design can be a lot more creative.
 
-> Compositional flow determines how the eye is led through a design: where it looks first, where it looks next, where the eye pauses, and how long it stays.  
+> Compositional flow determines how the eye is led through a design: where it looks first, where it looks next, where the eye pauses, and how long it stays.
 ><p class="p--small"><cite>Steven Bradley [Design Principles: Compositional Flow And Rhythm](http://www.smashingmagazine.com/2015/04/29/design-principles-compositional-flow-and-rhythm/)</cite></p>
 
 **What happens when HTML source order differs from CSS presentation order?**
@@ -27,7 +27,7 @@ CSS layout is not entirely independent of HTML source order. As a rule of thumb 
 
 By far the cleanest way to change presentation order I’ve seen is to use [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). It has a built in `order` property. [See my CodePen](http://codepen.io/dbushell/full/rVjoBr/) (embedded below) for an example that uses multiple fallback techniques to achieve the same results without Flexbox.
 
-<div class="post__image"><p data-height="250" data-theme-id="0" data-slug-hash="rVjoBr" data-default-tab="result" data-user="dbushell" class='codepen'>See the Pen <a href='http://codepen.io/dbushell/pen/rVjoBr/'>Reversing HTML Source Order</a> by David Bushell (<a href='http://codepen.io/dbushell'>@dbushell</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<div class="b-post__image"><p data-height="250" data-theme-id="0" data-slug-hash="rVjoBr" data-default-tab="result" data-user="dbushell" class='codepen'>See the Pen <a href='http://codepen.io/dbushell/pen/rVjoBr/'>Reversing HTML Source Order</a> by David Bushell (<a href='http://codepen.io/dbushell'>@dbushell</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script></div>
 
 This demo introduces a three column layout on viewports 640px and wider.

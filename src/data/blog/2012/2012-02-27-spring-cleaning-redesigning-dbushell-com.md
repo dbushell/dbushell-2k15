@@ -8,7 +8,7 @@ title: Spring Cleaning
 
 May 2011 — I [redesigned](http://dbushell.com/2011/05/25/designing-a-new-me/) my website (this website) with the primary goal of making it _responsive_. I was happy with the result and it has served me well, but it also lacked some of the finesse of previous iterations. Never being satisfied, I deciding to partake in a little spring cleaning. Well, a little turned into _a lot_.
 
-<p class="post__image">[![dbushell.com design progression](/images/2012/02/website-progression.png)](/images/2012/02/website-progression.png)</p>
+<p class="b-post__image">[![dbushell.com design progression](/images/2012/02/website-progression.png)](/images/2012/02/website-progression.png)</p>
 
 "Stage one" is live! A complete overhaul of the build and a touch of class to the design. You're seeing it now (unless you've arrived here from a future redesign. In that case, how long did this one last?). "Stage two" will happen at some point later this year. It's currently noted down as "do something with my portfolio".
 

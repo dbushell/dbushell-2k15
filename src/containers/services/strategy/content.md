@@ -1,4 +1,4 @@
-<p class="post__image post__image--centred"><img src="/assets/img/process-and-strategy.png" alt="Evolution of a website design"></p>
+<p class="b-post__image b-post__image--centred"><img src="/assets/img/process-and-strategy.png" alt="Evolution of a website design"></p>
 
 Our industry has come a long way. It's crazy to think that monolithic projects were once the norm. Successful websites are ones that get published. They're light, nimble, and reactive. From scoping requirements to planning content — through design and development — collaboration between myself and clients is paramount.
 

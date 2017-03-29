@@ -18,7 +18,7 @@ Read that first!
 
 To truly understand how things works I've been experimenting. I created a single SVG sprite that combines multiple techniques for easy testing. It's worth spending some time inspecting the SVG source as there's quite a lot going on. The sprite contains 3 icons and looks like this when viewed alone:
 
-<p class="post__image">![SVG Sprite](/images/2015/01/sprite.png)</p>
+<p class="b-post__image">![SVG Sprite](/images/2015/01/sprite.png)</p>
 
 See the full source below (scroll past for explanation and findings).
 
@@ -78,13 +78,13 @@ See the full source below (scroll past for explanation and findings).
 
 The icons are first defined as `<symbol>` elements. They can be reused on any web page:
 
-<p class="post__image">![SVG use technique](/images/2015/01/svg-use-technique.png)</p>
+<p class="b-post__image">![SVG use technique](/images/2015/01/svg-use-technique.png)</p>
 
 With this technique we can apply basic CSS (e.g. `fill: #0000ff;` used above). Dimensions are required, either via CSS or width / height attributes.
 
 Note that in Chrome <sup>(40)</sup> and Safari <sup>(8.0.2)</sup> (screenshot below) the gradients fail to render if the icon is referenced from an external sprite.
 
-<p class="post__image">![SVG use gradient fail](/images/2015/01/svg-use-gradient-fail.png)</p>
+<p class="b-post__image">![SVG use gradient fail](/images/2015/01/svg-use-gradient-fail.png)</p>
 
 If the SVG source is inline of the HTML document the gradients will work. Firefox behaves perfectly; a common theme.
 
@@ -96,7 +96,7 @@ For simple icons — my kinda style — this is my favourite technique because t
 
 You may have noticed at the end of my sprite I _did_ position `<use>` elements and define a `<view>` for each icon. This is what you see when viewing the sprite standalone (the `<symbol>` definitions are invisible otherwise). This isn't required for the technique above, but it does enable two more:
 
-<p class="post__image">![SVG img view](/images/2015/01/svg-img-view.png)</p>
+<p class="b-post__image">![SVG img view](/images/2015/01/svg-img-view.png)</p>
 
 An `<img>` element looks subjectively neater but the icon can't be styled with CSS. More importantly, as [Sara mentions](http://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/), Safari is a bit buggy. At least IE plays ball this time!
 
@@ -113,7 +113,7 @@ Not too much redundancy, but I prefer my CSS is one place.
 
 Finally, referencing the sprite inside a CSS background sounds very useful:
 
-<p class="post__image">![SVG CSS background](/images/2015/01/svg-css-background.png)</p>
+<p class="b-post__image">![SVG CSS background](/images/2015/01/svg-css-background.png)</p>
 
 Unfortunately **only Firefox** is happy with this technique.
 

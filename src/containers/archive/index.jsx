@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import ReactDOMServer from 'react-dom/server';
 import {renderFooter} from '../../components/footer';
 import {renderNav} from '../../components/nav';
-import {Block, Excerpt} from '../../components';
+import {Block, Excerpt, Post} from '../../components';
 
 class Archive extends Component {
   render() {
@@ -14,16 +14,22 @@ class Archive extends Component {
     const pagination = (nextButton || prevButton) ?
       (<div className="b-pagination">{nextButton}{prevButton}</div>) : null;
     return (
-      <main className="main main--blog">
+      <main className="c-main">
         <Block>
-          <h1 className="main__title">{props.pageHeading}</h1>
-          {props.excerpts.map(item => (
-            <div key={item.id}>
-              <Excerpt {...item}/>
-              <hr/>
+          <Post>
+            <div className="b-post__title">
+              <h1>{props.pageHeading}</h1>
             </div>
-          ))}
-          {pagination}
+            <div className="b-post__body">
+              {props.excerpts.map(item => (
+                <div key={item.id}>
+                  <Excerpt {...item}/>
+                  <hr/>
+                </div>
+              ))}
+            </div>
+            {pagination}
+          </Post>
         </Block>
       </main>
     );

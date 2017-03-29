@@ -15,5 +15,5 @@ Thanks for all the help and feedback so far :)
 If you're unclear as to how scripts affect page load, watch Steve Souders' 10 minute talk from Fluent 2012: [Your Script Just Killed My Site](http://www.youtube.com/watch?v=aHDNmTpqi7w).
 
 
-<p class="post__image"><iframe src="http://www.youtube.com/embed/aHDNmTpqi7w?rel=0" frameborder="0" width="640" height="360"></iframe></p>
+<p class="b-post__image"><iframe src="http://www.youtube.com/embed/aHDNmTpqi7w?rel=0" frameborder="0" width="640" height="360"></iframe></p>
 

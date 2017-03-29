@@ -24,13 +24,13 @@ Now, I know what you're thinking, "Delete" is a big commitment! What if the user
 
 ````javascript
 $('a.delete').on('click', function(e) {
-	return confirm('Are you sure?');
+  return confirm('Are you sure?');
 });
 ````
 
 Replace `confirm()` with your fancy dialog of choice. The function `[window.confirm](https://developer.mozilla.org/en/DOM/window.confirm)` provides a **native** dialog implemented by the browser. More on that later!
 
-<p class="post__image">![Browser confirm dialog in Mac OSX](/images/2012/02/macosx-confirm1.png)</p>
+<p class="b-post__image">![Browser confirm dialog in Mac OSX](/images/2012/02/macosx-confirm1.png)</p>
 
 That's quite nice but searching the whole DOM for links is fairly intensive. There will also be the initial delay of execution while we wait for the `DOMContentLoaded` event. Users will quick trigger fingers will be able to click "Delete" and see no confirmation request. We also have the issue of microcopy hardcoded in our script (not the best place for it). We could mess around with additional `data-*` attributes but I have a better idea...
 
@@ -43,11 +43,11 @@ Boom! No dependancies, no need to worry about fast fingers, and browser support 
 
 This is perfect for our needs but as you've probably noticed the native confirm dialogs are ugly as hell. On mobile devices (see Android 4.0 and iOS below) the dialogs look slightly better in my opinion. More importantly though, **they work!** Have you ever tried building a custom modal dialog for mobile browsers? Good luck with that!
 
-<p class="post__image">![Browser confirm dialog on Android 4.0 and iOS](/images/2012/02/mobile-confirm.png)</p>
+<p class="b-post__image">![Browser confirm dialog on Android 4.0 and iOS](/images/2012/02/mobile-confirm.png)</p>
 
 **Going native on mobile is undoubtedly the best experience**. Even native mobile apps use native dialogs. Don't even think about trying to implemented fixed positioning in a mobile web browser it will have you in tears (trust me). The question is: how do we go native on mobile, but provide a custom dialog design for desktop browsers like Chrome, while still gaining the benefits of inline event handlers? Check out the one I designed (based on TJ Holowaychuk's [UIKit](http://visionmedia.github.com/uikit/)):
 
-<p class="post__image">![Custom confirmation dialog](/images/2012/02/custom-confirm.png)</p>
+<p class="b-post__image">![Custom confirmation dialog](/images/2012/02/custom-confirm.png)</p>
 
 To provide both native and custom dialogs through `confirm()` we need to override the function.
 
@@ -57,7 +57,7 @@ The `onclick` attribute basically creates an event handler like this:
 
 ````javascript
 function(event) {
-	return confirm('Are you sure?');
+  return confirm('Are you sure?');
 }
 ````
 
@@ -72,8 +72,8 @@ The native version of `confirm` will ignore the second argument (JavaScript isn'
 ````javascript
 window.nativeConfirm = window.confirm;
 window.confirm = function(message) {
-	var event = window.event || window.confirm.caller.arguments[0];
-	// ...
+  var event = window.event || window.confirm.caller.arguments[0];
+  // ...
 };
 ````
 
@@ -90,27 +90,27 @@ My final implementation with extended functionality looks a little something lik
 window.nativeConfirm = window.confirm;
 window.confirm = function(message, event, callback)
 {
-	// grab the event and target element (if they exist)
-	var e = event || window.event || window.confirm.caller.arguments[0];
-	var el = e.target || e.srcElement;
+  // grab the event and target element (if they exist)
+  var e = event || window.event || window.confirm.caller.arguments[0];
+  var el = e.target || e.srcElement;
 
-	// go native if preferred, or no event/element
-	if (useNativeConfirm() || !e || !el) {
-		return window.nativeConfirm(message);
-	}
+  // go native if preferred, or no event/element
+  if (useNativeConfirm() || !e || !el) {
+    return window.nativeConfirm(message);
+  }
 
-	// open custom dialog with callback function
-	fancyConfirm(message, function(result) {
-		if (result && el && el['href']) {
-			window.location.href = el['href'];
-		}
-		if (typeof callback === 'function') {
-			callback(result);
-		}
-	});
+  // open custom dialog with callback function
+  fancyConfirm(message, function(result) {
+    if (result && el && el['href']) {
+      window.location.href = el['href'];
+    }
+    if (typeof callback === 'function') {
+      callback(result);
+    }
+  });
 
-	// cancel onclick action
-	return false;
+  // cancel onclick action
+  return false;
 };
 ````
 

@@ -10,17 +10,17 @@ The [AMP Project](https://www.ampproject.org/) is an initiative by Google to imp
 
 Accelerated Mobile Pages are an alternate version of their corresponding, canonical web page. They're still HTML but limited — [check the spec](https://github.com/ampproject/amphtml/blob/master/spec/amp-html-format.md). The best way to understand Accelerated Mobile Pages is to see them in action:
 
-<p class="post__image"><img src="/images/blog/amphtml-bbc-news.png" alt="BBC News article responsive and AMP page designs"></p>
+<p class="b-post__image"><img src="/images/blog/amphtml-bbc-news.png" alt="BBC News article responsive and AMP page designs"></p>
 
 The BBC News website has implemented AMP, screenshotted above (left: responsive page, right: AMP alternative). The responsive page is 410KB with 68 requests, the AMP page is 115KB and 4 requests. The AMP page content is stripped back to the bare minimum for a *single article*. The responsive page has a menu, footer, and several featured & related article components.
 
-<p class="post__image"><img src="/images/blog/amphtml-the-guardian.png" alt="The Guardian news article responsive and AMP page designs"></p>
+<p class="b-post__image"><img src="/images/blog/amphtml-the-guardian.png" alt="The Guardian news article responsive and AMP page designs"></p>
 
 The Guardian's AMP pages have a bit more content including a list of related articles just above a footer. The responsive page is 454kb with 67 requests, the AMP page is 127kb and 8 requests. So very similar to BBC News.
 
 I've attempted to implement AMP on my own blog:
 
-<p class="post__image"><img src="/images/blog/amphtml-dbushell.png" alt="dbushell.com blog article responsive and AMP page designs"></p>
+<p class="b-post__image"><img src="/images/blog/amphtml-dbushell.png" alt="dbushell.com blog article responsive and AMP page designs"></p>
 
 As you can see above, there's very little visual difference (header, footer, and web fonts are gone). In this example my responsive page is 405KB with 8 requests, the AMP page is 48KB and 2 requests. The vast majority of page weight on my website belongs to images. I compress them well but I'm a bit lazy with serving smaller versions, opting to scale down instead. "Responsive images" are on my to-do list.
 

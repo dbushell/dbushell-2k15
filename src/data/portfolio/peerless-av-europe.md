@@ -4,9 +4,9 @@ The **Peerless** design achieves this by giving the visitor the right choices wh
 
 The style is reminiscent of the professional, high quality products. The home page provides a great introduction using the interactive carousel.
 
-<p class="post__image">![David Bushell - Web Design - Peerless home page.](/images/portfolio/web-design-peerless-1.png)</p>
+<p class="b-post__image">![David Bushell - Web Design - Peerless home page.](/images/portfolio/web-design-peerless-1.png)</p>
 
-<p class="post__image">![David Bushell - Web Design - Peerless product page.](/images/portfolio/web-design-peerless-2.png)</p>
+<p class="b-post__image">![David Bushell - Web Design - Peerless product page.](/images/portfolio/web-design-peerless-2.png)</p>
 
 <p class="p--small">Website launched in January 2010</p>
 

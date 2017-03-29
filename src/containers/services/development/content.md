@@ -1,4 +1,4 @@
-<p class="post__image post__image--centred">
+<p class="b-post__image b-post__image--centred">
   <img src="/assets/img/dbushell-website.svg" alt="dbushell.com front-end development" style="width:500px;">
 </p>
 

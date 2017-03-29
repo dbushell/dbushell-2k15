@@ -13,7 +13,7 @@ I was hired to build the [PartsGiant](http://www.partsgiant.com/) front-end CSS 
 
 I’ve always championed the idea of maintainable, future-proof coding practices. With this project I’d put my own ideas to the test by building upon work I’d done months before.
 
-<p class="post__image"><img src="/images/portfolio/partsgiant-designs.png" alt="PartsGiant Designs"></p>
+<p class="b-post__image"><img src="/images/portfolio/partsgiant-designs.png" alt="PartsGiant Designs"></p>
 
 ## Stage 1: Responsive Website
 
@@ -23,20 +23,20 @@ I began by doing a ‘content’ or ‘component’ inventory. Basically, this m
 
 I started coding the typographic elements. This is usually a simple task but a vital ingredient. The client gave me freedom to adapt the designs to ensure consistency. I documented each component with HTML examples to show structure and CSS class names. I find a [BEM](http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)-like naming convention most usable.
 
-<p class="post__image"><img src="/images/portfolio/partsgiant-buttons.png" alt="Button component - PartsGiant CSS Framework"></p>
+<p class="b-post__image"><img src="/images/portfolio/partsgiant-buttons.png" alt="Button component - PartsGiant CSS Framework"></p>
 
 In the screenshots below you can see how the *Dropdown* component makes use of a *Button* (above). The basic *Dropdown* was inherited for more advanced versions like the cart preview. The *Dropdown* also exists as part of the *Search* component.
 
-<p class="post__image"><img src="/images/portfolio/partsgiant-dropdowns.png" alt="Dropdown component - PartsGiant CSS Framework"></p>
-<p class="post__image"><img src="/images/portfolio/partsgiant-search.png" alt="Search component - PartsGiant CSS Framework"></p>
+<p class="b-post__image"><img src="/images/portfolio/partsgiant-dropdowns.png" alt="Dropdown component - PartsGiant CSS Framework"></p>
+<p class="b-post__image"><img src="/images/portfolio/partsgiant-search.png" alt="Search component - PartsGiant CSS Framework"></p>
 
 The primitive components like the *Button* allowed for rapid development of similar use cases:
 
-<p class="post__image"><img src="/images/portfolio/partsgiant-sorting.png" alt="Sorting component - PartsGiant CSS Framework"></p>
+<p class="b-post__image"><img src="/images/portfolio/partsgiant-sorting.png" alt="Sorting component - PartsGiant CSS Framework"></p>
 
 Products are listed across the [PartsGiant](http://www.partsgiant.com/) website with varying amounts of content. I created one *Product* component whose children can be added or removed depending on use. The *Stars* and *Rating* sub-components were abstracted for use elsewhere.
 
-<p class="post__image"><img src="/images/portfolio/partsgiant-products.png" alt="Product component - PartsGiant CSS Framework"></p>
+<p class="b-post__image"><img src="/images/portfolio/partsgiant-products.png" alt="Product component - PartsGiant CSS Framework"></p>
 
 Whilst developing these components I documented them in a pattern library (or "front-end style guide" if you prefer that terminology).
 
@@ -50,7 +50,7 @@ The result is a modular CSS framework with minimal repetition.
 
 Later in the year I was asked by [PartsGiant](http://www.partsgiant.com/) to build their admin interface that would be used to manage products, customers, orders, and other content. Another 15 template wireframes were provided. The design shared the style of the main website so it made sense to built upon the CSS framework I’d already developed.
 
-<p class="post__image"><img src="/images/portfolio/partsgiant-admin.png" alt="PartsGiant Admin Design"></p>
+<p class="b-post__image"><img src="/images/portfolio/partsgiant-admin.png" alt="PartsGiant Admin Design"></p>
 
 I decided to keep the admin styles as a separate add-on, rather than integrating back into the main CSS to avoid unnecessary file size on the user-facing pages.
 
@@ -62,7 +62,7 @@ Although I had developed the main website with a responsive and ’mobile-first�
 
 Usually I prefer one responsive website but for e-commerce I can understand the benefits of the mobile website approach.
 
-<p class="post__image"><img src="/images/portfolio/partsgiant-mobile.png" alt="PartsGiant Mobile Design"></p>
+<p class="b-post__image"><img src="/images/portfolio/partsgiant-mobile.png" alt="PartsGiant Mobile Design"></p>
 
 Like the first two stages [PartsGiant](http://www.partsgiant.com/) sent me wireframes to build (around 20 this time). I branched of the main CSS framework and created a reduced version for mobile. Many of the smaller components are shared. Those not used on mobile were removed.
 

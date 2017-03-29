@@ -10,6 +10,6 @@ v1.1 of my [Tales WordPress theme](http://themes.dbushell.com/tales/) includes 
 
 Many thanks to [Mike Walsh](http://imaginalgo.com/) for contributing the translation and adapting my theme for his own website Imaginalgo — looks great!
 
-<p class="post__image">![Imaginalgo](/images/2014/03/imaginalgo.png)</p>
+<p class="b-post__image">![Imaginalgo](/images/2014/03/imaginalgo.png)</p>
 
 See my blog post [“Introducing Tales”](/2014/02/17/introducing-tales/) for more information about the theme.

@@ -22,7 +22,7 @@ Essentially we need two elements:
 
 The illustration below shows the **viewport** (parent) and the **wrapper** (child) outlined with _red_ and _black_ borders respectively:
 
-<p class="post__image">![viewport layout](/images/2013/07/viewport.svg)</p>
+<p class="b-post__image">![viewport layout](/images/2013/07/viewport.svg)</p>
 
 You can see the **wrapper** is bigger than the **viewport** that masks it. This allows us to hide parts of the interface (like the menu in this example).
 
@@ -46,7 +46,7 @@ With responsive design we can adjust the size of the content inside the **wrappe
 
 The illustration below is similar to my website — it shows the menu taking full width of the **viewport** on a mobile screen and positioned always-visible on a desktop screen:
 
-<p class="post__image">![off-canvas navigation breakpoints](/images/2013/07/off-canvas-breakpoints.svg)</p>
+<p class="b-post__image">![off-canvas navigation breakpoints](/images/2013/07/off-canvas-breakpoints.svg)</p>
 
 In my demo I use absolute positioning for the menu but you could use flexbox or floats & clearfix to ensure the **wrapper** gets height. How you position content inside the **wrapper** is very dependant on your design.
 
@@ -56,7 +56,7 @@ In my demo I use absolute positioning for the menu but you could use flexbox or 
 
 If CSS transitions are not supported use progressive enhancement so that a basic accessible state always exists. For off-canvas navigation I use the [footer-anchor pattern](http://adactio.com/journal/6338/) Jeremy Keith writes about. By default the contents of our **wrapper** element are arranged like so:
 
-<p class="post__image">![off-canvas footer-anchor fallback](/images/2013/07/off-canvas-fallback.svg)</p>
+<p class="b-post__image">![off-canvas footer-anchor fallback](/images/2013/07/off-canvas-fallback.svg)</p>
 
 Only after feature detection should we arrange the elements outside of the viewport (or however we decide to style each state).
 
@@ -68,7 +68,7 @@ With this off-canvas navigation example we're using the entire browser window as
 
 In the illustration below we can see a typical list view. The **outer-viewport** represents the mobile browser window that naturally hides overflow. The **inner-viewport** represents a single list item with hidden controls to the right. These could be swiped into view.
 
-<p class="post__image">![nested viewport](/images/2013/07/nested-viewport.svg)</p>
+<p class="b-post__image">![nested viewport](/images/2013/07/nested-viewport.svg)</p>
 
 Prior to progressive enhancement kicking in, the hidden controls would sit visible within the list item. Not the best use of space but accessible as a worse case scenario. Or perhaps they could be hidden entirely if non-critical? Or replaced with an "edit" link  that provides functionality on a separate page. Whatever fallback exists is really a question of design and user experience so I can't say for sure what's appropriate.
 

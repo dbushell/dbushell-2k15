@@ -1,4 +1,4 @@
-<p class="post__image">![David Bushell](/images/2012/12/david-bushell1.jpg)</p>
+<p class="b-post__image">![David Bushell](/images/2012/12/david-bushell1.jpg)</p>
 
 Based in the UK, somewhere near Manchester, I design and build websites as a freelancer for people all over the world.
 

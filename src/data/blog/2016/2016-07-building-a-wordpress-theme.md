@@ -9,7 +9,7 @@ title: 'Building a WordPress Theme'
 
 I was delighted when [Base Creative](https://www.basecreative.co.uk/) asked me to help build a beautifully designed website on WordPress. It’s always a joy to work with Base Creative knowing that my role is made easier by the care and attention they deliver.
 
-<p class="post__image">![Website design by Base Creative, London](/images/blog/wordpress-bc-theme.png)</p>
+<p class="b-post__image">![Website design by Base Creative, London](/images/blog/wordpress-bc-theme.png)</p>
 
 <p class="p--large">In this review I’ll showcase a few of the defining techniques and challenges that made this an interesting project to deliver. As usual I started with a static HTML build allowing me to focus on CSS and responsiveness in the browser.</p>
 
@@ -19,11 +19,11 @@ I was delighted when [Base Creative](https://www.basecreative.co.uk/) asked me t
 
 Overall the design adapted nicely across devices. The “article” component, used for listings blog posts, proved most challenging to code. The screenshots below illustrate how articles are designed to sit within a grid, resize, and change layout across breakpoints.
 
-<p class="post__image">![Blog article design by Base Creative, London](/images/blog/wordpress-bc-articles.png)</p>
+<p class="b-post__image">![Blog article design by Base Creative, London](/images/blog/wordpress-bc-articles.png)</p>
 
 Where possible I always aim to use standardised WordPress features. [**Post Thumbnails**](https://codex.wordpress.org/Post_Thumbnails) were the logical target for these article images. It’s important to avoid requiring multiple images because they make content management a chore.
 
-Through experimentation in the browser I discovered the optimal image size to cover all breakpoints. CSS is used to effectively center and crop the image if its aspect ratio differs to that of its parent container. Flexbox is used in supported browsers for perfect alignment. It’s remarkably tricky otherwise to get those buttons aligned to the bottom of the box! 
+Through experimentation in the browser I discovered the optimal image size to cover all breakpoints. CSS is used to effectively center and crop the image if its aspect ratio differs to that of its parent container. Flexbox is used in supported browsers for perfect alignment. It’s remarkably tricky otherwise to get those buttons aligned to the bottom of the box!
 
 Building the the CSS and HTML templates first lead to a much easier process of deconstruction and reassembling into a WordPress theme.
 
@@ -31,11 +31,11 @@ Building the the CSS and HTML templates first lead to a much easier process of d
 
 For WordPress development I use [MAMP PRO](https://www.mamp.info/en/) because its fast to setup and manage local installs. To really make the most of WordPress as a **content management system** I find the [Advanced Custom Fields](https://www.advancedcustomfields.com/) plugin to be indispensable.
 
-With ACF I’ll often create a general options page to configure content. The homepage design for this website has two featured articles. I provided options to show or hide as well as specify the exact content to be featured. 
+With ACF I’ll often create a general options page to configure content. The homepage design for this website has two featured articles. I provided options to show or hide as well as specify the exact content to be featured.
 
 *When building a WordPress theme it’s important to consider all scenarios and provide safe defaults alongside more granular control for the author if they desire*.
 
-<p class="post__image">![WordPress homepage options](/images/blog/wordpress-bc-general-settings.png)</p>
+<p class="b-post__image">![WordPress homepage options](/images/blog/wordpress-bc-general-settings.png)</p>
 
 It’s debatable whether to show these fields on the general options page or when editing the homepage itself. Because there is similar featured content that appears across multiple templates I opted to keep all of these options in one place.
 
@@ -43,7 +43,7 @@ It’s debatable whether to show these fields on the general options page or whe
 
 Some blog posts will lead with a YouTube video. To provide the necessary CMS fields and taxonomy I combined the standard WordPress [Post Formats](https://codex.wordpress.org/Post_Formats) with conditional ACF options:
 
-<p class="post__image">![WordPress post formats](/images/blog/wordpress-bc-video-format.png)</p>
+<p class="b-post__image">![WordPress post formats](/images/blog/wordpress-bc-video-format.png)</p>
 
 It would have been easier to simply expect the author to paste embed code within the main content editor. This is bad practice for several reasons:
 
@@ -73,14 +73,14 @@ After some trial and error I settled on the aptly named, if a tad longwinded, [�
 
 For the infinite scroll to work you first implement the blog with standard “Previous” and “Next” pagination. At this stage blog pages are now perfectly **accessible** and **indexable**. Then you tell the plugin your CSS selectors:
 
-<p class="post__image">![WordPress infinite scroll plugin settings](/images/blog/wordpress-bc-infinite-scroll.png)</p>
+<p class="b-post__image">![WordPress infinite scroll plugin settings](/images/blog/wordpress-bc-infinite-scroll.png)</p>
 
 These selectors match the HTML structure I’ve used for blog listings and pagination:
 
 ```markup
 <div class="grid grid--infinite">
   <div class="grid__item grid__item--infinite">
-    <article class="article"> ... </article> 
+    <article class="article"> ... </article>
   </div>
   <!-- grid__item repeats per post -->
 </div>
@@ -92,7 +92,7 @@ These selectors match the HTML structure I’ve used for blog listings and pagin
 
 The plugin uses JavaScript to replace the pagination with a customisable “More” button:
 
-<p class="post__image">![WordPress infinite scroll loading](/images/blog/wordpress-bc-infinite-load.gif)</p>
+<p class="b-post__image">![WordPress infinite scroll loading](/images/blog/wordpress-bc-infinite-load.gif)</p>
 
 When clicked, blog posts from previous pages are loaded and appended to the grid. There is of course an option to automatically load new articles on scroll for the true “infinite scroll” effect. Personally I prefer a button because unexpected changes that force the page to repaint can cause scroll lag and jumpiness on mobile.
 
@@ -102,7 +102,7 @@ This is a clean example of **progressive enhancement** in action.
 
 Once I’ve built a theme I’ll take time to ensure the WordPress admin area is presented as nicely as possible. One particularly nice touch is to give the content editor the same typographic style and web fonts as the theme.
 
-<p class="post__image">![WordPress content editor](/images/blog/wordpress-bc-editor.png)</p>
+<p class="b-post__image">![WordPress content editor](/images/blog/wordpress-bc-editor.png)</p>
 
 
 

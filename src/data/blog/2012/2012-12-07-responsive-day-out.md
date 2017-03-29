@@ -8,7 +8,7 @@ title: Responsive Day Out
 
 I'll be speaking at the **[Responsive Day Out](http://responsiveconf.com/)** conference in Brighton, 1st March 2013. <del>Grab a ticket now because at £50+VAT they'll be sold out very soon!</del> And they're gone!
 
-<p class="post__image">[![Responsive Day Out](/images/2012/12/responsive-day-out.jpg)](http://responsiveconf.com/)</p>
+<p class="b-post__image">[![Responsive Day Out](/images/2012/12/responsive-day-out.jpg)](http://responsiveconf.com/)</p>
 
 [Jeremy Keith explains more on his blog.](http://adactio.com/journal/5907/)
 

@@ -3,7 +3,7 @@ import ReactDOMServer from 'react-dom/server';
 import {formatTitle} from '../../build/helpers';
 import {renderFooter} from '../../components/footer';
 import {renderNav} from '../../components/nav';
-import {Block, Cta, Time, Newsletter} from '../../components';
+import {Block, Cta, Time, Newsletter, Post} from '../../components';
 
 class Article extends Component {
   render() {
@@ -17,7 +17,7 @@ class Article extends Component {
     const date = () => {
       if (!props.portfolio) {
         return (
-          <p className="post__date">
+          <p className="b-post__date">
             <Time date={props.dateUnix}/>
           </p>
         );
@@ -29,11 +29,13 @@ class Article extends Component {
       paragraph: '<a href="/blog/">Read more on my blog</a> and follow <a rel="me noopener noreferrer" target="_blank" href="http://twitter.com/dbushell" title="David Bushell on Twitter">@dbushell</a>. If you like what I do:'
     };
     return (
-      <main className="main main--single">
-        <Block classList={['post']}>
-          <h1 className="post__title" dangerouslySetInnerHTML={title()}/>
-          {date()}
-          <div className="post__body" dangerouslySetInnerHTML={body()}/>
+      <main className="c-main">
+        <Block>
+          <Post>
+            <h1 className="b-post__title" dangerouslySetInnerHTML={title()}/>
+            {date()}
+            <div className="b-post__body" dangerouslySetInnerHTML={body()}/>
+          </Post>
           <hr/>
           <Cta {...ctaProps}/>
           <Newsletter/>

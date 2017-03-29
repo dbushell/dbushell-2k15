@@ -40,7 +40,7 @@ With CSS 3D Transforms it's fairly clear why this happens. Manipulating the DOM 
 
 There are, however, other situations in which this kind of **early rasterisation** catches us of guard. **Firefox** has a bug (I believe [this one](https://bugzilla.mozilla.org/show_bug.cgi?id=600207)) relating to background images. I've uploaded a [demo and workaround](http://dbushell.com/demos/svg/scaling-09-03-12/) and a screenshot of the problem below:
 
-<p class="post__image">[![SVG pixelated rendering in Firefox](/images/2012/03/svg-rendering.png)](http://dbushell.com/demos/svg/scaling-09-03-12/)</p>
+<p class="b-post__image">[![SVG pixelated rendering in Firefox](/images/2012/03/svg-rendering.png)](http://dbushell.com/demos/svg/scaling-09-03-12/)</p>
 
  Blurry SVG is obviously not the desired result.
 

@@ -10,7 +10,7 @@ Following last year's [Passenger Focus](http://dbushell.com/2012/06/17/passenge
 
 _Please bear in mind this is a beta registration launch. The final site, fully optimised, and the ecommerce platform will arive later this year. Sign up for updates._
 
-<p class="post__image">![Gloople responsive website design on multiple devices](/images/2013/01/gloople-devices.jpg)</p>
+<p class="b-post__image">![Gloople responsive website design on multiple devices](/images/2013/01/gloople-devices.jpg)</p>
 
 User experience, accessibility, and performance were at the heart of the design direction behind the new Gloople website. As [I wrote](http://dbushell.com/2013/01/06/a-mini-series-of-responsive-mistakes/) earlier this year, responsive design should go beyond simply stacking content vertically on smaller devices.
 
@@ -18,7 +18,7 @@ With Gloople we've implemented various design patterns to improve navigation and
 
 On the features page you'll see an accordion-to-modal pattern.
 
-<p class="post__image">![](/images/2013/01/gloople-modal-accordion.jpg)</p>
+<p class="b-post__image">![](/images/2013/01/gloople-modal-accordion.jpg)</p>
 
 This was surprisingly simple to implement. My biggest concern was making the modal scrollable should it not fit exactly on screen. Rather than absolutely positioning the modal over the main content, I fixed the main element, thus allowing the modal to sit in the normal document flow — I'll upload a demo of this technique soon!
 
@@ -28,7 +28,7 @@ This was surprisingly simple to implement. My biggest concern was making the mod
 
 You'll immediately notice the amount of SVG (scalable vector graphics) we're using on Gloople. The illustrative, flat-colour aesthetic is as much about creating a modern brand as it is about creating a style suitable for the Web — fast loading; high definition.
 
-<p class="post__image">![](/images/2013/01/gloople-icons.png)</p>
+<p class="b-post__image">![](/images/2013/01/gloople-icons.png)</p>
 
 Small icons in the fixed header are embedded straight into the stylesheet to reduce HTTP requests: `background-image: url('data:image/svg+xml;base64,[data]');`
 
@@ -42,7 +42,7 @@ There are SVG optimisers like [SVGO](https://github.com/svg/svgo/) to reduce fil
 
 For the larger feature page illustrations we're writing SVG directly inline of the HTML (view-source to see what I mean).
 
-<p class="post__image">![](/images/2013/01/gloople-features.png)</p>
+<p class="b-post__image">![](/images/2013/01/gloople-features.png)</p>
 
 In the PHP template this is outputted straight into the rendered HTML. The page source looks something like this:
 
@@ -72,7 +72,7 @@ Of course, you can't deny a website of photography. The big hero images are auto
 
 For Gloople I decided to switch things up by moving from global breakpoints to a more modular pattern. I found[ Jake Archibald's old IE](http://jakearchibald.github.com/sass-ie/) mixin useful. Sass includes are broken down by modular, .e.g. features, pricing, blog. Each of these files has their own set of media queries particular to their content. This makes it so much easier to understand how each modular changes. While you can no longer see an overview of what happens to _everything_ at a particular breakpoint, that's what the browser is for.
 
-<p class="post__image">![](/images/2013/01/gloople-vertical-height.jpg)</p>
+<p class="b-post__image">![](/images/2013/01/gloople-vertical-height.jpg)</p>
 
 Finally, you may have read my article on [height-based queries and viewport units](http://dbushell.com/2012/11/19/responsive-bases-vertical-spaces/) (recognise the early prototype?). I'm employing CSS vertical height units in moderation; they're very buggy. On iOS devices the height calculations seemed to bear no resemblance to the viewport. I've had to disable them on iOS. I think only Chrome on the desktop works well… despite the issues, I believe this aspect of responsive design deserves its primetime.
 

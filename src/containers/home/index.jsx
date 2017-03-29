@@ -11,7 +11,7 @@ class Home extends Component {
       return {__html: `<use xlink:href="/assets/img/stars.svg#${id}"></use>`};
     };
     return (
-      <main className="main main--home home">
+      <main className="c-main home">
         <header className="home-hero">
           <Block>
             <div className="home-hero__logo">

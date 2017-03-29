@@ -10,13 +10,13 @@ Earlier this week Apple announced OS X [Mountain Lion](http://www.apple.com/maco
 
 I can't say I'm particularly excited about upgrading to OS X 10.8. The heavily stylised and textured design already looks tired on mobile apps, now we have the pleasure of it on the big screen.
 
-<p class="post__image">![Mac OSX - Mountain Lion](/images/2012/02/macosx-mountain-lion.png)</p>
+<p class="b-post__image">![Mac OSX - Mountain Lion](/images/2012/02/macosx-mountain-lion.png)</p>
 
 Yay.
 
 Meanwhile, Microsoft blogged about [Redesigning the Windows Logo](http://windowsteamblog.com/windows/b/bloggingwindows/archive/2012/02/17/redesigning-the-windows-logo.aspx), a task undertaken by **Pentagram **(read [their take](http://pentagram.com/en/new/2012/02/new-work-microsoft.php) on the logo project). Not very exciting either but it does demonstrates a huge commitment to their evolving Metro design language for which, as a whole, I'm a big fan.
 
-<p class="post__image">![Windows 8 Logo](/images/2012/02/windows-8-logo.png)</p>
+<p class="b-post__image">![Windows 8 Logo](/images/2012/02/windows-8-logo.png)</p>
 
 
 

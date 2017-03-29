@@ -26,7 +26,7 @@ The proof is in testing so let's see both in action:
 
 [jquery.animate-enhanced](https://github.com/benbarnett/jQuery-Animate-Enhanced) detects CSS transitions and automatically converts your jQuery animation. Basically in theory it's an invisible plug-and-play deal; a quick win. In practice the animation performance is obviously improved, but there are a few issues:
 
-<p class="post__image">[![jQuery Enhanced DOM](/images/2013/01/jquery-enhanced-html.png)](/images/2013/01/jquery-enhanced-html.png)</p>
+<p class="b-post__image">[![jQuery Enhanced DOM](/images/2013/01/jquery-enhanced-html.png)](/images/2013/01/jquery-enhanced-html.png)</p>
 
 
 
@@ -45,7 +45,7 @@ Issues aside, this plugin basically achieves something close to my final demo (a
 
 
 
-<p class="post__image">[![jQuery Enhanced demo timeline](/images/2013/01/extras-jquery-enhanced.png)](/images/2013/01/extras-jquery-enhanced.png)</p>
+<p class="b-post__image">[![jQuery Enhanced demo timeline](/images/2013/01/extras-jquery-enhanced.png)](/images/2013/01/extras-jquery-enhanced.png)</p>
 
 
 
@@ -54,7 +54,7 @@ Issues aside, this plugin basically achieves something close to my final demo (a
 
 
 
-<p class="post__image">[![CSS timeline](/images/2013/01/extras-css.png)](/images/2013/01/extras-css.png)</p>
+<p class="b-post__image">[![CSS timeline](/images/2013/01/extras-css.png)](/images/2013/01/extras-css.png)</p>
 
 
 
@@ -73,7 +73,7 @@ Testing this on my Galaxy Nexus shows no noticeable improvement over the basic 
 
 
 
-<p class="post__image">[![jQuery animate timeline](/images/2013/01/extras-jquery.png)](/images/2013/01/extras-jquery.png)</p>
+<p class="b-post__image">[![jQuery animate timeline](/images/2013/01/extras-jquery.png)](/images/2013/01/extras-jquery.png)</p>
 
 
 
@@ -82,7 +82,7 @@ Testing this on my Galaxy Nexus shows no noticeable improvement over the basic 
 
 
 
-<p class="post__image">[![jQuery requestAnimationFrame demo timeline](/images/2013/01/extras-jquery-animation-frame.png)](/images/2013/01/extras-jquery-animation-frame.png)</p>
+<p class="b-post__image">[![jQuery requestAnimationFrame demo timeline](/images/2013/01/extras-jquery-animation-frame.png)](/images/2013/01/extras-jquery-animation-frame.png)</p>
 
 The problem is that regardless of the benefits of requestAnimationFrame, we're still iterating rapidly over an inline style property and the browser just isn't fast enough to calculate the reflow. At the end of the day, you really don't want to be manipulation DOM elements at such speed. requestAnimationFrame is very useful for the likes of canvas animation, but not here.
 

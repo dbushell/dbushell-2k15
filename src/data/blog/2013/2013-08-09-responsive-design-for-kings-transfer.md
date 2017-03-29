@@ -11,11 +11,11 @@ The new King’s Transfer website has gone live. I worked on design and front-e
 
 This is my third in-depth responsive design[ case study](/showcase/) and my first as a freelancer. I feel it's my best work to-date and that's due to a great client and a real focus on the design process. I've documented the project below to showcase how I like to work.
 
-<p class="post__image">![King's website design](/images/2013/07/kings-transfer.png)</p>
+<p class="b-post__image">![King's website design](/images/2013/07/kings-transfer.png)</p>
 
 _Above: the final design at desktop size, below: as viewed on a LG Nexus 4 mobile._
 
-<p class="post__image">![King's website design on mobile](/images/2013/07/kings-transfer-mobile.png)</p>
+<p class="b-post__image">![King's website design on mobile](/images/2013/07/kings-transfer-mobile.png)</p>
 
 
 
@@ -25,7 +25,7 @@ _Above: the final design at desktop size, below: as viewed on a LG Nexus 4 mobil
 
 The client had big plans for the website but the existing design was getting a little dated. I was hired to provide a responsive refresh. The project had a modest budget so we weren't aiming to solve everything at this stage. While we couldn't react to every idea we certainly had room to create a solid platform for future development.
 
-<p class="post__image">![King's old website](/images/2013/08/kings-old-website.png)</p>
+<p class="b-post__image">![King's old website](/images/2013/08/kings-old-website.png)</p>
 
 _Above: the old website in need of a refresh._
 
@@ -57,7 +57,7 @@ Despite being relatively small the existing website had increased in duplicate c
 
 It was a simple enough task to reorganised the content. We sketched out a logical sitemap and took an inventory of content — a complete rewrite isn't always feasible — and referencing the user stories we started to design pages with content alone:
 
-<p class="post__image">![King's content plan](/images/2013/07/kings-content.png)</p>
+<p class="b-post__image">![King's content plan](/images/2013/07/kings-content.png)</p>
 
 At this stage we had a new website to click around and get a sense for the content hierarchy and general experience. When it comes to "content first" and "content out" design methodologies you can't get more literal than this!
 
@@ -67,13 +67,13 @@ At this stage we had a new website to click around and get a sense for the conte
 
 As the above process was in full flow I started to experiment with visual design. Nowadays I'll never deliver high-fidelity design mock-ups for client sign-off but I still find Photoshop useful to quickly sketch strong visuals. Though website development in code has already started I personally find design flourishes [outside of the browser](/2013/05/15/stifling-web-design/).
 
-<p class="post__image">![King's design mock-ups](/images/2013/07/kings-design-mockups.png)</p>
+<p class="b-post__image">![King's design mock-ups](/images/2013/07/kings-design-mockups.png)</p>
 
 This design may appear to have a rich visual aesthetic but it's merely another form of **sketching** and represents **no more than a day's work**. Personally I find this process strikes a nice balance. Another project I'm still working on has involved a lot more pencil sketching. I don't force a particular approach.
 
 This initial stage is about experimentation and forming ideas; designing just enough to be confident moving forward without over committing. Indeed, the client did not even see this work as it would have given the wrong impression. Instead I composed a style tile to illustrative the design language I'd be taking forward:
 
-<p class="post__image">![King's Transfer design style tile](/images/2013/07/style-tile.png)</p>
+<p class="b-post__image">![King's Transfer design style tile](/images/2013/07/style-tile.png)</p>
 
 I presented the style tile to the client as we neared completion of the content planning. They were as pleased as I was and we were all confident with the vision.
 
@@ -83,7 +83,7 @@ I presented the style tile to the client as we neared completion of the content 
 
 Starting with my [Origin](/2013/04/30/origin/) baseline I began to build a pattern library containing all the visual components in code. This complements modular thinking in HTML and CSS and provides a nice crossover between design and development.
 
-<p class="post__image">![King's pattern library](/images/2013/07/kings-pattern-library.png)</p>
+<p class="b-post__image">![King's pattern library](/images/2013/07/kings-pattern-library.png)</p>
 
 As new pages required new components I used the style tile and pattern library as a reference. Working this way gives ample opportunity for browser and device testing. There's no excuse to run into nasty issues (even with legacy browsers). Occasionally I would return to **pencil and paper** to quickly sketch possible arrangements before coding them up.
 

@@ -16,7 +16,7 @@ That's the sort of website launch our clients convince themselves of but never s
 
 I quietly launched [lovedsgn.com](http://lovedsgn.com) in **July 2010** following up with a simple question: [Do you Love Design?](http://dbushell.com/2010/09/02/do-you-love-design/) I never really explained what LoveDsgn was for — honestly, I didn't know myself — but it had something to do with writing and blogging.
 
-<p class="post__image">[![LoveDsgn version 1](/images/2012/03/lovedsgn-version-1.png)](/images/2012/03/lovedsgn-version-1.png)</p>
+<p class="b-post__image">[![LoveDsgn version 1](/images/2012/03/lovedsgn-version-1.png)](/images/2012/03/lovedsgn-version-1.png)</p>
 
 I wanted a platform for designers to share their thoughts. Even the poorest of writers are capable of sharing incredible design insights but without some kind of natural filter the gems go undiscovered. That sounds quite harsh, I know back then most of my articles were rather drab — I like to think I've improved — but when/if I shine, I'd like to be noticed too. _That_ was what LoveDsgn was originally about. I Just didn't know how to achieve that vague goal.
 
@@ -30,13 +30,13 @@ I was inundated with feature requests and advertising opportunities. In an effor
 
 I added voting, following, revisions, search, tagging, social buttons, comments — all the "must have" features a social website needs.
 
-<p class="post__image">![LoveDsgn home page redesign](/images/2012/03/1097.png)</p>
+<p class="b-post__image">![LoveDsgn home page redesign](/images/2012/03/1097.png)</p>
 
 When I was not building I was encouraging community growth on other social networks, primarily Facebook and Twitter, and the monthly newsletter. It was a whirlwind few months of countless iteration and an ever increasing user count. From day one and for a long time LoveDsgn thrived.
 
 Over the Christmas and New Year entering 2011 LoveDsgn peaked at over **30,000 unique visitors** per month. A height it would never see again. Come March 2011 — exactly a year ago — all stats were clearly on the decline.
 
-<p class="post__image">[![LoveDsgn visitor stats](/images/2012/03/lovedsgn-stats1.png)](/images/2012/03/lovedsgn-stats1.png)</p>
+<p class="b-post__image">[![LoveDsgn visitor stats](/images/2012/03/lovedsgn-stats1.png)](/images/2012/03/lovedsgn-stats1.png)</p>
 
 What had gone wrong?
 

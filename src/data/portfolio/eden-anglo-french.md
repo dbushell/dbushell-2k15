@@ -4,9 +4,9 @@ The wood veneer gallery is a powerful solution to showcase hundreds of products 
 
 The green and brown colour theme complements the natural wood photography, the orange adds a sharp but harmonious contrast.
 
-<p class="post__image">![David Bushell - Web Design - Eden Anglo French home page.](/images/portfolio/web-design-eden-anglo-french-1.png)</p>
+<p class="b-post__image">![David Bushell - Web Design - Eden Anglo French home page.](/images/portfolio/web-design-eden-anglo-french-1.png)</p>
 
-<p class="post__image">![David Bushell - Web Design - Eden Anglo French veneer gallery page.](/images/portfolio/web-design-eden-anglo-french-2.png)</p>
+<p class="b-post__image">![David Bushell - Web Design - Eden Anglo French veneer gallery page.](/images/portfolio/web-design-eden-anglo-french-2.png)</p>
 
 <p class="p--small">[Visit Eden Anglo French](http://www.veneermerchant.co.uk)</p>
 

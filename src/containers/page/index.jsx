@@ -2,27 +2,29 @@ import React, {Component, PropTypes} from 'react';
 import ReactDOMServer from 'react-dom/server';
 import {renderFooter} from '../../components/footer';
 import {renderNav} from '../../components/nav';
-import {Block} from '../../components';
+import {Block, Post} from '../../components';
 import {md2HTML} from '../../build/helpers';
 
 class Page extends Component {
   render() {
     const props = this.props;
     let postBody = (
-      <div className="post__body">
+      <div className="b-post__body">
         {props.children}
       </div>
     );
     if (props.innerHTML) {
-      postBody = <div className="post__body" dangerouslySetInnerHTML={{__html: props.innerHTML}}/>;
+      postBody = <div className="b-post__body" dangerouslySetInnerHTML={{__html: props.innerHTML}}/>;
     }
     return (
-      <main className="main main--page">
+      <main className="c-main">
         <Block>
-          <div className="post">
-            <h1 className="main__title">{props.pageHeading}</h1>
+          <Post>
+            <div className="b-post__title">
+              <h1>{props.pageHeading}</h1>
+            </div>
             {postBody}
-          </div>
+          </Post>
         </Block>
       </main>
     );

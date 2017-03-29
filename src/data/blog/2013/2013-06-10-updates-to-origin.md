@@ -14,7 +14,7 @@ Back in April I published my [front-end starting point](/2013/04/30/origin/) on
 
 My custom [SVG rasterisation task](https://github.com/dbushell/dbushell-Origin/blob/master/tasks/rasterize.js) was poorly written. It brought my laptop to a standstill while churning through as many phantom.js processes as there were SVG files. I've now improved that, mostly with a sexy progress bar:
 
-<p class="post__image">![rasterize task](/images/2013/06/rasterize.png)</p>
+<p class="b-post__image">![rasterize task](/images/2013/06/rasterize.png)</p>
 
 <del>There's probably a faster way using a single phantom.js instance but by the time I figure that out I won't need PNG fallbacks for legacy browsers…</del> **Update:** I've now published [grunt-svg2png](https://npmjs.org/package/grunt-svg2png) to NPM and improved the speed performance dramatically! Instead of 30 seconds it's done in less than 5.
 

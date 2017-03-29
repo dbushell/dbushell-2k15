@@ -1,4 +1,4 @@
-<p class="post__image post__image--centred"><img src="/assets/img/responsive-design.png" alt="Responsive Design on a Microsoft Surface and Nexus 4"></p>
+<p class="b-post__image b-post__image--centred"><img src="/assets/img/responsive-design.png" alt="Responsive Design on a Microsoft Surface and Nexus 4"></p>
 
 The number of web-accessible devices is truly a wonder of our information age. This can be a daunting canvas for design without a responsive approach.
 

@@ -8,7 +8,7 @@ title: 'Real-Life Responsive Web Design'
 
 Last week I had the opportunity to read [“Real-Life Responsive Web Design”](http://www.smashingmagazine.com/2015/07/finally-smashing-book-5-is-here-and-its-hot-like-smoking-barrels/), the fifth book in the Smashing Book series.
 
-<p class="post__image"><img src="/images/blog/smashing-book-5.png" alt="Smashing Book 5"></p>
+<p class="b-post__image"><img src="/images/blog/smashing-book-5.png" alt="Smashing Book 5"></p>
 
 Usually with books like this I will skip to the chapters that immediately catch my eye. This time was different, they all sounded fascinating — and they were! I read the book cover to cover in two sittings.
 
@@ -18,7 +18,7 @@ As with all books in the series, this book collates the red hot topics that are 
 
 I’ll highlight a few chapters I see myself referencing often:
 
-In “Performance Optimization Roadmap”, **Vitaly Friedman** recalls the on-going development of [smashingmagazine.com](http://www.smashingmagazine.com/) since its 2012 redesign. It’s one thing to preach best practices, but to implement them with limited resources on a website of such scale is challenging (to say the least!) 
+In “Performance Optimization Roadmap”, **Vitaly Friedman** recalls the on-going development of [smashingmagazine.com](http://www.smashingmagazine.com/) since its 2012 redesign. It’s one thing to preach best practices, but to implement them with limited resources on a website of such scale is challenging (to say the least!)
 
 **Sara Soueidan** has written an outstanding reference for SVG usage in her chapter: “Mastering SVG For RWD And Beyond”. I honestly thought I knew it all but even I learnt a new technique. If you’re not using SVG yet this chapter will set you on the path.
 

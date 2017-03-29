@@ -32,7 +32,7 @@ With Perch every page can either have its own unique template, or inherit from a
 
 Content on a page is broken down into **editable regions**. Regions can be anything from a single element to a large component. I split my home page into four logical regions as outlined in the screenshot below:
 
-<p class="post__image">![dbushell.com home page screenshot with editable regions outline](/images/2014/01/home-page-regions.png)</p>
+<p class="b-post__image">![dbushell.com home page screenshot with editable regions outline](/images/2014/01/home-page-regions.png)</p>
 
 In my home page template I replaced the hard-coded content with single functions to inform Perch of the four regions I've sensibly named 'Introduction', 'Image', 'Links', and 'Features'.
 
@@ -42,15 +42,15 @@ In my home page template I replaced the hard-coded content with single functions
 
 Now when I edited the page in the Perch admin area I first select which region I want to edit. This is a tidy solution to avoid one big form:
 
-<p class="post__image">![Region editing in Perch](/images/2014/01/region-editing.png)</p>
+<p class="b-post__image">![Region editing in Perch](/images/2014/01/region-editing.png)</p>
 
 The first time a region is selected to edit you have to assign a partial template. It's within this template that each piece of content and its markup is defined for that region. For example, when I first edited my 'Image' region I selected a pre-defined partial template:
 
-<p class="post__image">![Selecting a region template in Perch](/images/2014/01/region-template-selection.png)</p>
+<p class="b-post__image">![Selecting a region template in Perch](/images/2014/01/region-template-selection.png)</p>
 
 Once a partial template is assigned, and on subsequent region editing, Perch presents a form to edit content within that region:
 
-<p class="post__image">![Editing region content with Perch](/images/2014/01/region-content-editing.png)</p>
+<p class="b-post__image">![Editing region content with Perch](/images/2014/01/region-content-editing.png)</p>
 
 The partial template used for this region looks like this:
 
@@ -62,7 +62,7 @@ You can see the HTML `<img>` element with `src` and `alt` attributes. These attr
 
 This 'Image' region is very simple but a region's template can contain as much HTML and pieces of content as required. Perch leaves it up to you to break a page down into sensible regions. After creating and assigning my 'Features' region template, Perch did a great job on the form:
 
-<p class="post__image">![Editing a large content region with Perch](/images/2014/01/large-region-editing.png)</p>
+<p class="b-post__image">![Editing a large content region with Perch](/images/2014/01/large-region-editing.png)</p>
 
 Template tags act as placeholders for content and define the field required for input. They also have attributes that influence the admin interface such as the label, help text, and character limits.
 
@@ -76,11 +76,11 @@ Perch can be extended with "Apps" that add a new section to the admin area to m
 
 [The blog app](http://grabaperch.com/add-ons/apps/blog) is a good example:
 
-<p class="post__image">![Perch Blog App](/images/2014/01/blog-app.png)</p>
+<p class="b-post__image">![Perch Blog App](/images/2014/01/blog-app.png)</p>
 
 The blog comes with a default set of templates as an example but blog content is not limited to these pages or their format. My website lists recent posts in the footer:
 
-<p class="post__image">![dbushell.com footer blog design](/images/2014/01/footer-blog-design.png)</p>
+<p class="b-post__image">![dbushell.com footer blog design](/images/2014/01/footer-blog-design.png)</p>
 
 This was very easy to implement in my global footer include:
 

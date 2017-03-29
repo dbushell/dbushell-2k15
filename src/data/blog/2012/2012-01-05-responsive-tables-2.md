@@ -13,7 +13,7 @@ title: Responsive Tables (2)
 
 My [last article on responsive tables](http://dbushell.com/2012/01/04/responsive-calendar-demo/) was very popular so I've only gone and implemented the idea that I was alluding to with horizontal scrolling!
 
-<p class="post__image">![Responsive Tables (2)](/images/2012/01/rt_05_01_12.png)</p>
+<p class="b-post__image">![Responsive Tables (2)](/images/2012/01/rt_05_01_12.png)</p>
 
 See [Responsive Tables Demo (2)](/2016/03/04/css-only-responsive-tables/) — **in a modern browser!** Webkit browsers handle both tables perfectly. Firefox & Opera handle the first version. The second version plays with/abuses the [flexible box layout](http://www.w3.org/TR/css3-flexbox/) and only works with a `-webkit-` prefix.
 

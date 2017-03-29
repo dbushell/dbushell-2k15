@@ -14,7 +14,7 @@ Unlike other libraries something about React just clicked with me. Back in Octob
 
 Below this huge logo are some of my thoughts on React.
 
-<p class="post__image">![the React logo](/images/blog/react_logo_og.png)</p>
+<p class="b-post__image">![the React logo](/images/blog/react_logo_og.png)</p>
 
 React has its own [JSX syntax](https://facebook.github.io/react/docs/jsx-in-depth.html) for writing components. JSX tightly couples HTML with JavaScript in a readable fashion. It does not adhere to a ‘separation of concerns’ in that regard. Rather, it fully embraces the alternative.
 
@@ -70,7 +70,7 @@ That’s the worst sentence I’ve ever written.
 
 Anyway, my point is that rejecting new technology on the premise that it introduces complexity is simply wrong if said tech _proves_ to make life easy for those involved (not drive-by Githubers). For me — and I ~~hope~~ plan for those reading my documentation — React make coding web apps a delightful experience.
 
-What makes React special is its singular focus on user interface. It doesn't box you into a framework. It doesn't force you to solve app architecture problems too early. From my own usage I believe this makes React the most approachable library of its ilk. 
+What makes React special is its singular focus on user interface. It doesn't box you into a framework. It doesn't force you to solve app architecture problems too early. From my own usage I believe this makes React the most approachable library of its ilk.
 
 ## One last thing...
 
