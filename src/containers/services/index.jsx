@@ -13,7 +13,7 @@ class Services extends Component {
     const props = this.props;
     return (
       <main className="main main--page">
-        <Block classList={['prose', 'post']}>
+        <Block classList={['post']}>
           <h1 className="main__title">{props.pageHeading}</h1>
           <div className="post__body" dangerouslySetInnerHTML={{__html: content}}/>
           <Cta/>

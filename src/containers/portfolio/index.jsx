@@ -10,10 +10,8 @@ class Portfolio extends Component {
     return (
       <main className="main main--portfolio">
         <Block>
-          <div className="prose">
-            <h1 className="main__title">{props.pageHeading}</h1>
-            <p>Selected web design and front-end development projects.</p>
-          </div>
+          <h1 className="main__title">{props.pageHeading}</h1>
+          <p>Selected web design and front-end development projects.</p>
           <div className="b-folio">
             <ul className="b-folio__list">
               <li className="b-folio__item" style={{backgroundColor: '#29313d'}}>
@@ -55,10 +53,8 @@ class Portfolio extends Component {
             </ul>
           </div>
           <br/>
-          <div className="prose">
-            <h2>Graphic Design</h2>
-            <p>Print, advertising, and editorial — these projects from my university degree helped develop my understanding of fundamental design principles.</p>
-          </div>
+          <h2>Graphic Design</h2>
+          <p>Print, advertising, and editorial — these projects from my university degree helped develop my understanding of fundamental design principles.</p>
           <div className="b-folio">
             <ul className="b-folio__list">
               <li className="b-folio__item" style={{backgroundColor: '#45b0e5'}}>
@@ -100,21 +96,19 @@ class Portfolio extends Component {
             </ul>
           </div>
           <hr id="more"/>
-          <div className="prose">
-            <h2>Older Website Projects</h2>
-            <p>Web design and front-end development from previous agencies I’ve worked at.</p>
-            <ul>
-              <li><a href="/2013/08/09/responsive-design-for-kings-transfer/">King’s Transfer</a></li>
-              <li><a href="/2012/06/17/passenger-focus-responsive-web-design-case-study/">Passenger Focus</a></li>
-              <li><a href="/2013/01/28/gloople-responsive-design-review/">Gloople</a></li>
-              <li><a href="/showcase/atherton-cox/">Atherton Cox</a></li>
-              <li><a href="/showcase/brucar/">Brucar</a></li>
-              <li><a href="/showcase/eden-anglo-french/">Eden Anglo French</a></li>
-              <li><a href="/showcase/my-life-listed/">MyLifeListed</a></li>
-              <li><a href="/showcase/peerless-av-europe/">Peerless AV Europe</a></li>
-              <li><a href="/showcase/shane-global/">Shane Global</a></li>
-            </ul>
-          </div>
+          <h2>Older Website Projects</h2>
+          <p>Web design and front-end development from previous agencies I’ve worked at.</p>
+          <ul>
+            <li><a href="/2013/08/09/responsive-design-for-kings-transfer/">King’s Transfer</a></li>
+            <li><a href="/2012/06/17/passenger-focus-responsive-web-design-case-study/">Passenger Focus</a></li>
+            <li><a href="/2013/01/28/gloople-responsive-design-review/">Gloople</a></li>
+            <li><a href="/showcase/atherton-cox/">Atherton Cox</a></li>
+            <li><a href="/showcase/brucar/">Brucar</a></li>
+            <li><a href="/showcase/eden-anglo-french/">Eden Anglo French</a></li>
+            <li><a href="/showcase/my-life-listed/">MyLifeListed</a></li>
+            <li><a href="/showcase/peerless-av-europe/">Peerless AV Europe</a></li>
+            <li><a href="/showcase/shane-global/">Shane Global</a></li>
+          </ul>
         </Block>
       </main>
     );

@@ -76,6 +76,7 @@ svg:not(:root) {
 .main {
     z-index: $z-index--main;
     position: relative;
+    overflow: hidden;
     padding: em($unit * 14) 0 em($unit * 10) 0;
 
     @include respond-min($bp--mobile)
@@ -110,10 +111,3 @@ svg:not(:root) {
         margin-bottom: em($unit * 4, $h1);
     }
 }
-
-.block {
-    margin: 0 auto;
-    padding: 0 7%;
-    max-width: em($block--max-width);
-}
-

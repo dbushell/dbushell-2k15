@@ -1,4 +1,4 @@
-/*! Sector (block) */
+/* Sector (block) */
 
 .b-sector {
   position: relative;
@@ -13,20 +13,6 @@
   & > * {
     flex: 0 1 auto;
   }
-  // h2 {
-  //   color: inherit;
-  //   text-shadow: none;
-  // }
-
-  // .p--large {
-  //   margin-bottom: em($baseline/2, $p--large);
-  // }
-
-  // .button {
-  //   text-shadow: none;
-  //   background-color: $white;
-  //   border: 0;
-  // }
 }
 
 .b-sector__header {
@@ -62,35 +48,3 @@
     bottom: auto;
   }
 }
-
-// .home-businesses {
-//   // background-color: $blue;
-
-//   .home-sectors__star {
-//     fill: $green;
-//   }
-
-//   // h2 {
-//   //   text-shadow: 3px 3px 0 rgba($dark-blue, 0.6);
-//   // }
-
-//   // .p--large {
-//   //   color: $green;
-//   // }
-// }
-
-// .home-agencies {
-//   // background-color: $pink;
-
-//   .home-sectors__star {
-//     fill: $yellow;
-//   }
-
-//   // h2 {
-//   //   text-shadow: 3px 3px 0 rgba($dark-red, 0.5);
-//   // }
-
-//   // .p--large {
-//   //   color: $yellow;
-//   // }
-// }

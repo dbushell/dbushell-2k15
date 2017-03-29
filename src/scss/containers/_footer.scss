@@ -1,11 +1,12 @@
+/* Footer (container) */
+
 .c-footer {
   position: relative;
   background: $white;
   padding-top: em($unit);
   box-shadow: 0 0 em($unit * 2) rgba(0,0,0, 0.1);
-  color: $grey;
 
-  .block {
+  .b-block {
     padding-top: em($baseline * 1.5);
     padding-bottom: em($baseline);
   }
@@ -98,7 +99,7 @@
     max-width: em($footer--max-width);
     background: $white;
 
-    .block {
+    .b-block {
       padding: em($baseline) em($gutter);
     }
   }

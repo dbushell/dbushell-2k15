@@ -18,9 +18,11 @@ class Page extends Component {
     }
     return (
       <main className="main main--page">
-        <Block classList={['prose', 'post']}>
-          <h1 className="main__title">{props.pageHeading}</h1>
-          {postBody}
+        <Block>
+          <div className="post">
+            <h1 className="main__title">{props.pageHeading}</h1>
+            {postBody}
+          </div>
         </Block>
       </main>
     );

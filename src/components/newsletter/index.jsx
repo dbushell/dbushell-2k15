@@ -4,7 +4,7 @@ const Newsletter = () => {
   return (
     <aside className="b-newsletter" role="complementary">
       <div className="b-boxed b-boxed--light">
-        <div className="b-newsletter__prose">
+        <div className="b-newsletter__header">
           <h4>Side projects newsletter</h4>
           <p className="p--small">Every now and then I release something cool, be the first to know!</p>
         </div>

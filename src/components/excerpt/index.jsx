@@ -3,7 +3,7 @@ import {Time} from '../';
 
 const Excerpt = props => {
   const attr = {
-    className: 'prose post post--excerpt'
+    className: 'post post--excerpt'
   };
   const body = () => {
     return {__html: props.body};

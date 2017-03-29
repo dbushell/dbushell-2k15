@@ -7,15 +7,15 @@ if (href.indexOf('?success=true') !== -1) {
   form.style.cssText = 'display: none;';
 }
 if (href.indexOf('?error=true') !== -1) {
-  para.className = 'p--error';
+  para.className = 'u-error';
   para.innerHTML = '<strong>There was an error submitting your enquiry, please email <a href="mailto:hi@dbushell.com">hi@dbushell.com</a></strong>';
 }
 if (href.indexOf('?error=empty') !== -1) {
-  para.className = 'p--error';
+  para.className = 'u-error';
   para.innerHTML = '<strong>Please enter your name, email address, and enquiry.</strong>';
 }
 if (href.indexOf('?error=email') !== -1) {
-  para.className = 'p--error';
+  para.className = 'u-error';
   para.innerHTML = '<strong>Please enter a valid email address.</strong>';
 }
 if (para.innerHTML.length > 0) {

@@ -13,7 +13,7 @@ class Home extends Component {
     return (
       <main className="main main--home home">
         <header className="home-hero">
-          <div className="block">
+          <Block>
             <div className="home-hero__logo">
               <h1>David Bushell &#8211; Web Design &amp; Front-end Development (based in Manchester, UK)</h1>
               <img src="/assets/img/david-bushell.svg" alt="David Bushell"/>
@@ -23,7 +23,7 @@ class Home extends Component {
             <svg className="home-star" role="presentation" dangerouslySetInnerHTML={star('star')}/>
             <svg className="home-star" role="presentation" dangerouslySetInnerHTML={star('burst')}/>
             <svg className="home-star" role="presentation" dangerouslySetInnerHTML={star('star')}/>
-          </div>
+          </Block>
           <div className="home-hero__bg">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg">
@@ -97,15 +97,15 @@ class Home extends Component {
             <div className="c-clients__header">
               <h2>What my clients say:</h2>
             </div>
-            <blockquote className="quote">
+            <blockquote>
               <p className="p--large p--quote">Highly skilled, personable, helpful and dedicated: David exceeded my expectations to deliver for us on a key project.</p>
               <p className="p--small"><cite>Frank Fenton &ndash; Head of Digital &ndash; Dinosaur UK Ltd.</cite></p>
             </blockquote>
-            <blockquote className="quote">
+            <blockquote>
               <p className="p--large p--quote">David honestly was the integral component that allowed us to finally launch. We continue to go to him for any development work for our site, because he goes above &amp; beyond what you’d ever expect.</p>
               <p className="p--small"><cite>Alexandra Adina &ndash; SwingVoterz.com</cite></p>
             </blockquote>
-            <blockquote className="quote">
+            <blockquote>
               <p className="p--large p--quote">David provided us with beautiful and cost effective templates for our CMS that surpassed our high expectations from both the design and the tech perspective.</p>
               <p className="p--small"><cite>Kevin Mueller &ndash; Studio Manager &ndash; <a href="/2014/05/07/responsive-design-for-uwe-wittwer/">Uwe Wittwer</a></cite></p>
             </blockquote>

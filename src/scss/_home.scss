@@ -4,11 +4,11 @@
 
 .home {
 
-  .block {
+  .b-block {
     max-width: em($block--home);
   }
 
-  & > .block {
+  & > .b-block {
     position: relative;
     z-index: $z-index--home;
   }
@@ -26,7 +26,7 @@
   background: $green;
   overflow: hidden;
 
-  .block {
+  .b-block {
     position: relative;
     margin-top: 5%;
   }
@@ -230,7 +230,7 @@
 {
   .home-hero {
 
-    .block {
+    .b-block {
       margin-top: 5%;
     }
   }
@@ -245,7 +245,7 @@
 
   .home-hero {
 
-    .block {
+    .b-block {
       margin-top: 6%;
     }
   }
@@ -283,7 +283,7 @@
 
 @include respond-min($bp--home)
 {
-  .home-hero + .block {
+  .home-hero + .b-block {
     margin-top: -12%;
   }
 

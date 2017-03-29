@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 
 const Block = props => {
-  const classList = ['block'].concat(props.classList);
+  const classList = ['b-block'].concat(props.classList);
   return (
     <div className={classList.join(' ').trim()}>{props.children}</div>
   );

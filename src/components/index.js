@@ -11,7 +11,6 @@ import Icon from './icon';
 import Label from './label';
 import Nav from './nav';
 import Newsletter from './newsletter';
-import Prose from './prose';
 import Sector from './sector';
 import Small from './small';
 import Time from './time';
@@ -30,7 +29,6 @@ export {
   Label,
   Nav,
   Newsletter,
-  Prose,
   Sector,
   Small,
   Time

@@ -7,7 +7,7 @@ import {Block, Bio, Blog, Small} from '../';
 const Footer = props => {
   const attr = {
     id: 'footer',
-    className: 'c-footer'
+    className: 'c-footer u-dim'
   };
   const hire = (
     <a href="/contact/" className="b-hire">

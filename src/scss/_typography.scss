@@ -207,16 +207,7 @@ time {
   text-shadow: none;
 }
 
-.p--error {
-  color: $red;
-}
-
-.p--light {
-  color: $grey;
-}
-
-cite,
-.p--light {
+cite {
   a {
     color: inherit;
   }
@@ -249,7 +240,6 @@ cite {
   }
 }
 
-.quote,
 blockquote {
   margin: em($baseline) 0;
   padding: 0 em($gutter);
@@ -288,8 +278,7 @@ blockquote {
   }
 }
 
-mark,
-.mark {
+mark {
   color: inherit;
   background: $yellow;
   text-shadow: none;
@@ -312,7 +301,6 @@ q {
 }
 
 abbr,
-.abbr,
 acronym {
   &[title] {
     border: none;
@@ -324,17 +312,12 @@ acronym {
 }
 
 pre,
-kbd,
 code {
-  @include font-size(14, $unit * 3);
+  font-size: em(14);
+  line-height: em($unit * 3, 14);
   font-family: $fonts--monospace;
   background: $black;
   color: $white;
-}
-
-code {
-  color: $black;
-  background: $green;
 }
 
 pre {
@@ -382,38 +365,21 @@ pre {
   }
 }
 
-kbd,
 code {
   display: inline-block;
-  line-height: 1.5;
-  padding: 0 em(3, 14);
+  position: relative;
+  padding: 0 em(4, 14);
+  color: $grey;
+  background: $white;
 
-  p &,
-  li & {
+  p > &,
+  li > & {
     font-size: em(14, $p);
+    margin-bottom: em(-2, 14);
+    border-bottom: em(2, 14) solid $green;
   }
 }
 
 p iframe {
   margin: em($baseline, $p) 0 em($baseline/2) 0;
-}
-
-@include respond-min($bp--mobile) {
-
-  .prose {
-
-    p:not([class]) {
-      max-width: em(720, $p);
-    }
-
-    ul:not([class]),
-    ol:not([class]) {
-      max-width: em(720 - $gutter);
-    }
-
-    .p--small {
-      max-width: em(720, $p--small);
-    }
-  }
-
 }

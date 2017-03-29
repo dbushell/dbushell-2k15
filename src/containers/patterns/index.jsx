@@ -9,7 +9,7 @@ export default class Main extends Page {
     const props = this.props;
     return (
       <main className="main main--page">
-        <P.Block classList={['prose', 'post']}>
+        <P.Block classList={['post']}>
           <h1 className="main__title">{props.pageHeading}</h1>
           <hr/>
           <h2>Biography</h2>

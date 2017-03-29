@@ -30,7 +30,7 @@ class Article extends Component {
     };
     return (
       <main className="main main--single">
-        <Block classList={['prose', 'post']}>
+        <Block classList={['post']}>
           <h1 className="post__title" dangerouslySetInnerHTML={title()}/>
           {date()}
           <div className="post__body" dangerouslySetInnerHTML={body()}/>
