@@ -4,6 +4,8 @@ const path = require('path');
 const chalk = require('chalk');
 const argv = require('yargs').argv;
 
+const packageJson = require('../../package.json');
+
 // default context for Handlebars templates and Page component props
 global.DBUSHELL = {
   __dest: path.join(process.cwd(), '/dbushell.github.io'),
@@ -11,7 +13,7 @@ global.DBUSHELL = {
   __bRecent: path.join(process.cwd(), '/src/components/blog/defaults.json'),
   __pSrc: path.join(process.cwd(), '/src/data/portfolio'),
   __pConfig: require('../containers/portfolio/config'),
-  siteVer: '9.0.0',
+  siteVer: packageJson.version,
   siteProtocol: 'https:',
   siteRoot: 'dbushell.com',
   siteName: 'David Bushell &#8211; Web Design &amp; Front-end Development (based in Manchester, UK)',
