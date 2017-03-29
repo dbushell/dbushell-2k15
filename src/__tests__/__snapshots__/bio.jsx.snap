@@ -1,9 +1,0 @@
-exports[`Bio component renders with defaults 1`] = `
-"<section class=\"b-bio\" role=\"complementary\" itemscope=\"\" itemtype=\"http://schema.org/Person\">
-  <div class=\"b-bio__image\"><img src=\"/assets/img/me3.jpg\" alt=\"David Bushell\"></div>
-  <div class=\"b-bio__main\" itemprop=\"description\">
-    <h3><a href=\"/about/\" itemprop=\"name\">David Bushell</a></h3>
-    <p class=\"p--light\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies &#x2014; all over the world.</p>
-  </div>
-</section>"
-`;
