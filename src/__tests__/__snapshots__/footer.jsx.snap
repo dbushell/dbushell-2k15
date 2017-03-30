@@ -1,61 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`Footer component renders with defaults 1`] = `
-"<footer id=\"footer\" class=\"c-footer u-dim\">
-  <div class=\"b-block\">
-    <section class=\"b-bio\" role=\"complementary\" itemscope=\"\" itemtype=\"http://schema.org/Person\">
-      <div class=\"b-bio__image\"><img src=\"/assets/img/me3.jpg\" alt=\"David Bushell\"></div>
-      <div class=\"b-bio__main\">
-        <h3 itemprop=\"name\"><a href=\"/about/\">David Bushell</a></h3>
-        <p itemprop=\"description\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies &#x2014; all over the world.</p>
+"<footer id=\\"footer\\" class=\\"c-footer u-dim\\">
+  <div class=\\"b-block\\">
+    <section class=\\"b-bio\\" role=\\"complementary\\" itemscope=\\"\\" itemtype=\\"http://schema.org/Person\\">
+      <div class=\\"b-bio__image\\"><img src=\\"/assets/img/me3.jpg\\" alt=\\"David Bushell\\"></div>
+      <div class=\\"b-bio__main\\">
+        <h3 itemprop=\\"name\\"><a href=\\"/about/\\">David Bushell</a></h3>
+        <p itemprop=\\"description\\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies &#x2014; all over the world.</p>
       </div>
     </section>
-    <a href=\"/contact/\" class=\"b-hire\"><img class=\"b-hire__image\" src=\"/assets/img/dbushell-for-hire.svg\" alt=\"Available for Hire\"></a>
-    <aside class=\"b-blog\" role=\"navigation\">
-      <div class=\"b-blog__title\">
+    <a href=\\"/contact/\\" class=\\"b-hire\\"><img class=\\"b-hire__image\\" src=\\"/assets/img/dbushell-for-hire.svg\\" alt=\\"Available for Hire\\"></a>
+    <aside class=\\"b-blog\\" role=\\"navigation\\">
+      <div class=\\"b-blog__title\\">
         <h3>From the blog&#x2026;</h3>
       </div>
-      <ul class=\"b-blog__list\">
-        <li class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2017/02/17/web-security-and-cloudflare/\">Web Security and Cloudflare</a><time class=\"time\" datetime=\"2017-02-17T10:00:00.000Z\">Friday <b>17 <abbr title=\"February\">Feb</abbr> 2017</b></time></li>
-        <li class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2017/02/13/react-as-a-static-site-generator/\">React as a Static Site Generator</a><time class=\"time\" datetime=\"2017-02-13T10:00:00.000Z\">Monday <b>13 <abbr title=\"February\">Feb</abbr> 2017</b></time></li>
-        <li class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/\">Working with Promises</a><time class=\"time\" datetime=\"2016-12-16T10:00:00.000Z\">Friday <b>16 <abbr title=\"December\">Dec</abbr> 2016</b></time></li>
+      <ul class=\\"b-blog__list\\">
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/02/17/web-security-and-cloudflare/\\">Web Security and Cloudflare</a><time class=\\"time\\" datetime=\\"2017-02-17T10:00:00.000Z\\">Friday <b>17 <abbr title=\\"February\\">Feb</abbr> 2017</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/02/13/react-as-a-static-site-generator/\\">React as a Static Site Generator</a><time class=\\"time\\" datetime=\\"2017-02-13T10:00:00.000Z\\">Monday <b>13 <abbr title=\\"February\\">Feb</abbr> 2017</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/\\">Working with Promises</a><time class=\\"time\\" datetime=\\"2016-12-16T10:00:00.000Z\\">Friday <b>16 <abbr title=\\"December\\">Dec</abbr> 2016</b></time></li>
         <li
-          class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2016/12/02/my-thoughts-on-react/\">My thoughts on React</a><time class=\"time\" datetime=\"2016-12-02T10:00:00.000Z\">Friday <b>2 <abbr title=\"December\">Dec</abbr> 2016</b></time></li>
-        <li class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2016/10/10/building-a-shopify-theme/\">Building a Shopify Theme</a><time class=\"time\" datetime=\"2016-10-10T10:00:00.000Z\">Monday <b>10 <abbr title=\"October\">Oct</abbr> 2016</b></time></li>
-        <li class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2016/09/01/colour-accessibility/\">Colour Accessibility</a><time class=\"time\" datetime=\"2016-09-01T10:00:00.000Z\">Thursday <b>1 <abbr title=\"September\">Sep</abbr> 2016</b></time></li>
+          class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2016/12/02/my-thoughts-on-react/\\">My thoughts on React</a><time class=\\"time\\" datetime=\\"2016-12-02T10:00:00.000Z\\">Friday <b>2 <abbr title=\\"December\\">Dec</abbr> 2016</b></time></li>
+          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2016/10/10/building-a-shopify-theme/\\">Building a Shopify Theme</a><time class=\\"time\\" datetime=\\"2016-10-10T10:00:00.000Z\\">Monday <b>10 <abbr title=\\"October\\">Oct</abbr> 2016</b></time></li>
+          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2016/09/01/colour-accessibility/\\">Colour Accessibility</a><time class=\\"time\\" datetime=\\"2016-09-01T10:00:00.000Z\\">Thursday <b>1 <abbr title=\\"September\\">Sep</abbr> 2016</b></time></li>
       </ul>
     </aside>
     <hr>
-    <p><small>Copyright &#xA9; 2017 <a href=\"/\">David Bushell</a></small></p>
+    <p><small>Copyright &#xA9; 2017 <a href=\\"/\\">David Bushell</a></small></p>
   </div>
 </footer>"
 `;
 
 exports[`Footer component renders without "for hire" element 1`] = `
-"<footer id=\"footer\" class=\"c-footer u-dim\">
-  <div class=\"b-block\">
-    <section class=\"b-bio\" role=\"complementary\" itemscope=\"\" itemtype=\"http://schema.org/Person\">
-      <div class=\"b-bio__image\"><img src=\"/assets/img/me3.jpg\" alt=\"David Bushell\"></div>
-      <div class=\"b-bio__main\">
-        <h3 itemprop=\"name\"><a href=\"/about/\">David Bushell</a></h3>
-        <p itemprop=\"description\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies &#x2014; all over the world.</p>
+"<footer id=\\"footer\\" class=\\"c-footer u-dim\\">
+  <div class=\\"b-block\\">
+    <section class=\\"b-bio\\" role=\\"complementary\\" itemscope=\\"\\" itemtype=\\"http://schema.org/Person\\">
+      <div class=\\"b-bio__image\\"><img src=\\"/assets/img/me3.jpg\\" alt=\\"David Bushell\\"></div>
+      <div class=\\"b-bio__main\\">
+        <h3 itemprop=\\"name\\"><a href=\\"/about/\\">David Bushell</a></h3>
+        <p itemprop=\\"description\\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies &#x2014; all over the world.</p>
       </div>
     </section>
     <hr>
-    <aside class=\"b-blog\" role=\"navigation\">
-      <div class=\"b-blog__title\">
+    <aside class=\\"b-blog\\" role=\\"navigation\\">
+      <div class=\\"b-blog__title\\">
         <h3>From the blog&#x2026;</h3>
       </div>
-      <ul class=\"b-blog__list\">
-        <li class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2017/02/17/web-security-and-cloudflare/\">Web Security and Cloudflare</a><time class=\"time\" datetime=\"2017-02-17T10:00:00.000Z\">Friday <b>17 <abbr title=\"February\">Feb</abbr> 2017</b></time></li>
-        <li class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2017/02/13/react-as-a-static-site-generator/\">React as a Static Site Generator</a><time class=\"time\" datetime=\"2017-02-13T10:00:00.000Z\">Monday <b>13 <abbr title=\"February\">Feb</abbr> 2017</b></time></li>
-        <li class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/\">Working with Promises</a><time class=\"time\" datetime=\"2016-12-16T10:00:00.000Z\">Friday <b>16 <abbr title=\"December\">Dec</abbr> 2016</b></time></li>
+      <ul class=\\"b-blog__list\\">
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/02/17/web-security-and-cloudflare/\\">Web Security and Cloudflare</a><time class=\\"time\\" datetime=\\"2017-02-17T10:00:00.000Z\\">Friday <b>17 <abbr title=\\"February\\">Feb</abbr> 2017</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/02/13/react-as-a-static-site-generator/\\">React as a Static Site Generator</a><time class=\\"time\\" datetime=\\"2017-02-13T10:00:00.000Z\\">Monday <b>13 <abbr title=\\"February\\">Feb</abbr> 2017</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/\\">Working with Promises</a><time class=\\"time\\" datetime=\\"2016-12-16T10:00:00.000Z\\">Friday <b>16 <abbr title=\\"December\\">Dec</abbr> 2016</b></time></li>
         <li
-          class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2016/12/02/my-thoughts-on-react/\">My thoughts on React</a><time class=\"time\" datetime=\"2016-12-02T10:00:00.000Z\">Friday <b>2 <abbr title=\"December\">Dec</abbr> 2016</b></time></li>
-        <li class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2016/10/10/building-a-shopify-theme/\">Building a Shopify Theme</a><time class=\"time\" datetime=\"2016-10-10T10:00:00.000Z\">Monday <b>10 <abbr title=\"October\">Oct</abbr> 2016</b></time></li>
-        <li class=\"b-blog__item\"><a rel=\"bookmark\" href=\"/2016/09/01/colour-accessibility/\">Colour Accessibility</a><time class=\"time\" datetime=\"2016-09-01T10:00:00.000Z\">Thursday <b>1 <abbr title=\"September\">Sep</abbr> 2016</b></time></li>
+          class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2016/12/02/my-thoughts-on-react/\\">My thoughts on React</a><time class=\\"time\\" datetime=\\"2016-12-02T10:00:00.000Z\\">Friday <b>2 <abbr title=\\"December\\">Dec</abbr> 2016</b></time></li>
+          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2016/10/10/building-a-shopify-theme/\\">Building a Shopify Theme</a><time class=\\"time\\" datetime=\\"2016-10-10T10:00:00.000Z\\">Monday <b>10 <abbr title=\\"October\\">Oct</abbr> 2016</b></time></li>
+          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2016/09/01/colour-accessibility/\\">Colour Accessibility</a><time class=\\"time\\" datetime=\\"2016-09-01T10:00:00.000Z\\">Thursday <b>1 <abbr title=\\"September\\">Sep</abbr> 2016</b></time></li>
       </ul>
     </aside>
     <hr>
-    <p><small>Copyright &#xA9; 2017 <a href=\"/\">David Bushell</a></small></p>
+    <p><small>Copyright &#xA9; 2017 <a href=\\"/\\">David Bushell</a></small></p>
   </div>
 </footer>"
 `;

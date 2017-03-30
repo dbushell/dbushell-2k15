@@ -1,6 +1,6 @@
 {
   "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
-  "testPathDirs": ["<rootDir>/src/"],
+  "roots": ["<rootDir>/src/"],
   "testPathIgnorePatterns": ["/node_modules/", "/dbushell.github.io/"],
   "verbose": true
 }
