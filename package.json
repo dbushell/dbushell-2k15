@@ -13,7 +13,7 @@
     "lint": "./node_modules/.bin/xo",
     "test": "./node_modules/.bin/jest --config=./src/__tests__/jest.json",
     "start": "./node_modules/.bin/browser-sync start --server=dbushell.github.io --no-notify",
-    "css": "./node_modules/.bin/node-sass --output-style=compressed ./src/scss/main.scss ./dbushell.github.io/assets/css/main.css"
+    "css": "./node_modules/.bin/node-sass --output-style=compressed ./src/scss/main.scss ./dbushell.github.io/assets/css/main.css && src/build/postcss.js"
   },
   "babel": {
     "babelrc": false,
@@ -55,6 +55,7 @@
     }
   },
   "dependencies": {
+    "autoprefixer": "^6.7.7",
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",
     "babel-plugin-add-module-exports": "^0.2.1",
@@ -80,6 +81,7 @@
     "marked": "^0.3.6",
     "moment": "^2.17.1",
     "node-sass": "^4.5.0",
+    "postcss": "^5.2.16",
     "prismjs": "^1.6.0",
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
