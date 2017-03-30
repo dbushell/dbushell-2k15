@@ -11,11 +11,11 @@
   height: em(49, 18);
   line-height: em(31, 18);
   padding: em($unit, 18) em(35, 18);
-  font-family: $fonts--sans;
+  font-family: $fonts--default;
   text-align: center;
   color: $yellow;
   background: $blue;
-  font-weight: bold;
+  font-weight: $fw-bold;
   border-radius: em(5, 18);
   border: em(2, 18) solid $blue;
   border-bottom-color: $dark-blue;

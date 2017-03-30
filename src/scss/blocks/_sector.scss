@@ -31,8 +31,8 @@
 
 .b-sector__main {
   flex: 1 1 auto;
-  margin-bottom: em($baseline/2);
-  max-width: em(300);
+  margin-bottom: em($unit * 3);
+  // max-width: em(300);
 }
 
 @include respond-min($bp--mobile) {

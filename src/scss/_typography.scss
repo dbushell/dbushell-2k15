@@ -1,8 +1,9 @@
 html {
   text-size-adjust: 100%;
   color: $black;
-  font-weight: 300;
-  font-family: $fonts--serif;
+  line-height: 1.5;
+  font-weight: $fw-normal;
+  font-family: $fonts--default;
 }
 
 hr, .hr {
@@ -19,6 +20,10 @@ hr, .hr {
   }
 }
 
+b, strong {
+  font-weight: $fw-bold;
+}
+
 a {
   color: $blue;
   text-decoration: none;
@@ -26,19 +31,15 @@ a {
   background-image: linear-gradient(to right, $yellow 50%, $green 50%);
   background-repeat: no-repeat;
   background-size: 200% 2px;
-  background-position: 100% 90%;
+  background-position: 100% 92%;
   text-shadow: 2px 0 0 $beige, -2px 0 0 $beige;
 
   &:not([class]):focus,
   &:not([class]):hover {
-
+    color: $dark-blue;
     text-shadow: none;
     animation: animateGradient 300ms forwards;
   }
-
-  // &:not([class]):focus {
-  //   border-bottom: 2px dotted $pink;
-  // }
 
   .c-footer &,
   .b-post__pattern & {
@@ -56,13 +57,13 @@ a {
 
 @keyframes animateGradient {
   0% {
-    background-position: 100% 90%;
+    background-position: 100% 92%;
   }
   99% {
-    background-position: 0% 90%;
+    background-position: 0% 92%;
   }
   100% {
-    background-position: 0% 90%;
+    background-position: 0% 92%;
     background-size: 200% 7px;
   }
 }
@@ -70,8 +71,10 @@ a {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin: 0;
-  font-weight: 500;
+  font-weight: $fw-medium;
   color: $blue;
+  font-family: $fonts--display;
+  line-height: 1.2;
 
   &:last-child {
     margin-bottom: 0;
@@ -79,8 +82,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  @include font-size($h1);
+  font-size: em($h1);
   margin-bottom: em($unit * 2, $h1);
+  line-height: 1.1;
 
   p + & {
     margin-top: em($unit * 5, $h1);
@@ -88,7 +92,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  @include font-size($h2);
+  font-size: em($h2);
   margin-bottom: em($unit * 2, $h2);
 
   p + & {
@@ -97,7 +101,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  @include font-size($h3);
+  font-size: em($h3);
   margin-bottom: em($unit * 2, $h3);
 
   p + & {
@@ -106,7 +110,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  @include font-size($h4);
+  font-size: em($h4);
   margin-bottom: em($unit * 2, $h4);
 
   p + & {
@@ -115,7 +119,7 @@ h4, .h4 {
 }
 
 p, .p {
-  @include font-size($p, $unit * 4);
+  font-size: em($p);
   margin-top: 0;
   margin-bottom: em($unit * 2, $p);
 
@@ -131,7 +135,7 @@ p, .p {
 }
 
 .p--small {
-  @include font-size($p--small, $unit * 4);
+  font-size: em($p--small);
 }
 
 small,
@@ -150,13 +154,13 @@ small,
 }
 
 .p--large {
-  @include font-size($p--large, $unit * 4);
+  font-size: em($p--large);
   margin-bottom: em($unit * 4, $p--large);
 }
 
 ul, ol {
   padding: 0;
-  margin: 0 0 em($baseline) em($gutter);
+  margin: 0 0 em($baseline) em($unit*4);
   list-style: disc outside;
 
   p + & {
@@ -173,7 +177,7 @@ ul {
 }
 
 li {
-  @include font-size($p, $unit * 4);
+  font-size: em($p);
   margin-bottom: em($unit, $p);
 
   li, &:not([class]) p {
@@ -247,7 +251,7 @@ cite {
 
 blockquote {
   margin: em($baseline) 0;
-  padding: 0 em($gutter);
+  padding: 0 em($unit*4);
   border-left: em(2) solid $green;
 
   p {
@@ -266,7 +270,7 @@ blockquote {
     border-left: 0;
 
     .p--large {
-      @include font-size($p, $unit * 4);
+      font-size: em($p);
 
       &:not(:last-child) {
         margin-bottom: em($unit * 2, $p);
@@ -329,7 +333,7 @@ pre {
   clear: both;
   overflow: auto;
   margin: em($unit * 6, 14) 0;
-  padding: em($baseline, 14) em($gutter, 14);
+  padding: em($baseline, 14) em($unit*4, 14);
   box-shadow: inset 0 1px 7px darken($black, 10);
 
   direction: ltr;

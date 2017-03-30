@@ -3,9 +3,9 @@
 .e-label {
   display: block;
   font-size: em(18);
-  line-height: em($baseline, 18);
+  line-height: em($unit*4, 18);
   max-width: max-content;
-  font-weight: bold;
+  font-weight: $fw-bold;
 }
 
 .e-label--radio,

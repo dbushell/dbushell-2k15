@@ -38,22 +38,19 @@ $critical-css: false !default;
 
 // Units for consistent spacing, vertical rhythm, and a typographic baseline
 
-$unit            : 7;
-$gutter    : $unit * 4;
-$baseline  : $unit * 4;
+$unit: 7;
+$baseline: $unit * 4;
 
-$unit--field     : $unit * 6;
-
-$p         : 20;
-$p--large  : 25;
+$p         : 19;
+$p--large  : 24;
 $p--small  : 16;
 
 $h1: 45;
 $h2: 35;
 $h3: 30;
 $h4: 25;
-$h5: $p;
-$h6: $p;
+$h5: 20;
+$h6: 20;
 
 $footer--width     : 27;
 $footer--max-width : 400;
@@ -109,9 +106,13 @@ $colour__hairline--dark     : darken($colour__hairline, 15);
 
 // Font usage for normal, display, script, and monospace stacks
 
-$fonts--sans       : "futura-pt", ".SFNSDisplay-Regular", "Helvetica Neue", Arial, sans-serif;
-$fonts--serif      : $fonts--sans; // "ff-tisa-web-pro", Georgia, serif;
+$fonts--default    : "sofia-pro", ".SFNSDisplay-Regular", "Helvetica Neue", Arial, sans-serif;
+$fonts--display    : "futura-pt", $fonts--default;
 $fonts--monospace  : Monaco, Courier, monospace;
+
+$fw-normal : 300;
+$fw-medium : 500;
+$fw-bold   : 500;
 
 // now using universal IE stylesheet concept
 // https://github.com/jakearchibald/sass-ie/
@@ -147,22 +148,22 @@ $fonts--monospace  : Monaco, Courier, monospace;
 // $ratio is required for nested grids
 // e.g. if parent container is 5 columns of 6 then ratio = 5/6
 
-@function gc-gutter($gutter_count: 1, $ratio: 1, $width: $bp--desktop)
+@function gc-gutter($gc_gutter_count: 1, $ratio: 1, $width: $bp--desktop)
 {
-    $gutter: $gutter * $gutter_count;
+    $gc_gutter: $gc_gutter * $gc_gutter_count;
     $width: $width * $ratio;
-    @return percentage($gutter / $width);
+    @return percentage($gc_gutter / $width);
 }
 
 @function gc-offset($col_count: 1, $col_total: 6, $ratio: 1, $width: $bp--desktop, $inside: 0)
 {
-    $gutter: $gutter;
+    $gc_gutter: $gc_gutter;
     $width: $width * $ratio;
 
     // calculate width of columns
-    $offset: $col_count * (($width - (($col_total - 1) * $gutter)) / $col_total);
+    $offset: $col_count * (($width - (($col_total - 1) * $gc_gutter)) / $col_total);
     // add width of gutters
-    $offset: $offset + (($col_count - $inside) * $gutter);
+    $offset: $offset + (($col_count - $inside) * $gc_gutter);
     // return as a percentage
     @return percentage($offset / $width);
 }

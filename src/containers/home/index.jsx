@@ -22,7 +22,7 @@ const Steps = () => {
           <hr/>
           <article className="c-steps__item">
             <h2 className="h4"><a href="/services/">And a whole lot more&hellip;</a></h2>
-            <p>Whether it’s WordPress, eCommerce, or simply advice, I have a depth of experience to help you.</p>
+            <p>Be it WordPress, eCommerce, or simply advice, I have a depth of experience to help you.</p>
           </article>
         </div>
       </Block>

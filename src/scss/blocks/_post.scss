@@ -13,7 +13,7 @@
 
   ul:not([class]),
   ol:not([class]) {
-    max-width: em(720 - $gutter);
+    max-width: em(720 - $unit*4);
   }
 
   .p--small {
@@ -108,7 +108,7 @@
 
   .b-post__image {
     margin-right: 0;
-    padding-right: em($gutter);
+    padding-right: em($unit*4);
   }
 
 }

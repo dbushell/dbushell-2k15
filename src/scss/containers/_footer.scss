@@ -100,7 +100,7 @@
     background: $white;
 
     .b-block {
-      padding: em($baseline) em($gutter);
+      padding: em($baseline) em($unit*4);
     }
   }
 

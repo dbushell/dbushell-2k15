@@ -55,7 +55,7 @@
 
   .b-bio__image {
     float: left;
-    margin-right: em($gutter / 2);
+    margin-right: em($unit * 2);
     margin-bottom: em($baseline - $unit);
   }
 

@@ -28,8 +28,8 @@
 @include respond-max($bp--mini - 1) {
 
   .b-boxed {
-    margin-left: em(-$gutter);
-    margin-right: em(-$gutter);
+    margin-left: em(-$unit*4);
+    margin-right: em(-$unit*4);
     border-radius: 0;
   }
 
