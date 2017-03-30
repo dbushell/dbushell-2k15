@@ -71,26 +71,3 @@
     border-color: $green;
   }
 }
-
-// .u-focus {
-//   position: relative;
-
-//   &:before {
-//     z-index: -1;
-//     position: absolute;
-//     display: none;
-//     content: "";
-//     top: -7px;
-//     left: -7px;
-//     right: -7px;
-//     bottom: -7px;
-//     pointer-events: none;
-//     border: 1px dotted $pink;
-//   }
-
-//   &:focus {
-//     &:before {
-//       display: block;
-//     }
-//   }
-// }

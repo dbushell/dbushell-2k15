@@ -1,3 +1,4 @@
+/* Vars / Mixins */
 
 $combined-css: false !default;
 $critical-css: false !default;
@@ -222,4 +223,47 @@ $fonts--monospace  : Monaco, Courier, monospace;
     white-space: nowrap;
     text-overflow: clip;
     text-indent: 200%;
+}
+
+/* Base */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+    background: $beige;
+    min-width: em(300);
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background: $canvas;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $colour__hairline--dark;
 }

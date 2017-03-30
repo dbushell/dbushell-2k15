@@ -20,7 +20,7 @@
 
   .b-blog__item {
     .c-footer &:nth-of-type(1n + 4) {
-      @include visually-hidden;
+      display: none;
     }
   }
 
@@ -39,7 +39,7 @@
     flex: 1 1 50%;
     max-width: calc(50% - #{em($unit * 3, $p)});
 
-    a[rel="bookmark"] {
+    [rel="bookmark"] {
       display: inline-block;
       vertical-align: top;
       overflow: hidden;

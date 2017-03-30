@@ -5,14 +5,13 @@
 }
 
 .b-bio__image {
-  position: relative;
   overflow: hidden;
   width: em($unit * 14);
   height: em($unit * 14);
   margin: 0 auto em($unit * 2) auto;
-  border-radius: 100%;
   border: em(3) solid $yellow;
   box-shadow: 0 0 0 em(3) $pink;
+  border-radius: 100%;
 
   .c-footer & {
     margin-top: em(-$unit);
@@ -20,7 +19,6 @@
 }
 
 .b-bio__main {
-  overflow: hidden;
   text-align: center;
 }
 

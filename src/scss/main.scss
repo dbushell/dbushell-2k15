@@ -1,11 +1,8 @@
 $combined-css: true;
 
-@import "origin";
-
 @import "normalize";
-@import "base";
+@import "origin";
 @import "typography";
-@import "nav";
 
 @import "elements/label";
 @import "elements/button";
@@ -23,6 +20,7 @@ $combined-css: true;
 @import "blocks/pagination";
 @import "blocks/folio";
 @import "blocks/sector";
+@import "blocks/nav";
 
 @import "containers/hero";
 @import "containers/steps";
