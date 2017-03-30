@@ -1,0 +1,1 @@
+exports[`Time component renders correct date 1`] = `"<time class=\"time\" datetime=\"1987-05-21T13:37:42.000Z\">Thursday <b>21 <abbr title=\"May\">May</abbr> 1987</b></time>"`;

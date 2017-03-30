@@ -1,0 +1,3 @@
+exports[`Button component renders hyperlink variant 1`] = `"<a href=\"/\" class=\"e-button\"><span class=\"e-button__label\">Hyperlink</span></a>"`;
+
+exports[`Button component renders submit variant 1`] = `"<button type=\"submit\" class=\"e-button\"><span class=\"e-button__label\">Submit</span></button>"`;
