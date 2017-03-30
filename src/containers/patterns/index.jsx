@@ -33,11 +33,11 @@ export default class Main extends Page {
             </div>
             <h2>Sector</h2>
             <div className="b-post__pattern">
-              <P.Sector {...homeDefaults.sector[1]}/>
+              <P.Sector {...homeDefaults.sectors[1]}/>
             </div>
             <h2>Sector RTL</h2>
             <div className="b-post__pattern">
-              <P.Sector {...homeDefaults.sector[0]}/>
+              <P.Sector {...homeDefaults.sectors[0]}/>
             </div>
           </P.Post>
         </P.Block>

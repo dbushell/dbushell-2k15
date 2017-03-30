@@ -13,7 +13,7 @@
     "lint": "./node_modules/.bin/xo",
     "test": "./node_modules/.bin/jest --config=./src/__tests__/jest.json",
     "start": "./node_modules/.bin/browser-sync start --server=dbushell.github.io --no-notify",
-    "css": "./node_modules/.bin/node-sass --output-style=compressed ./src/scss/combined.scss ./dbushell.github.io/assets/css/combined.css"
+    "css": "./node_modules/.bin/node-sass --output-style=compressed ./src/scss/main.scss ./dbushell.github.io/assets/css/main.css"
   },
   "babel": {
     "babelrc": false,

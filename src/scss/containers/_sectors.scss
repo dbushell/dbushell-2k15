@@ -3,7 +3,12 @@
 .c-sectors {
   z-index: $z-index--home + 1;
   position: relative;
-  margin-bottom: em($baseline * 2);
+  margin: 0 auto em($baseline * 2) auto;
+  max-width: em($bp--mobile);
+}
+
+.c-sectors__list {
+  position: relative;
 
   &:before {
     z-index: -1;
@@ -33,12 +38,12 @@
   .c-sectors {
     margin-left: -#{inner-percent(7)};
     margin-right: -#{inner-percent(7)};
-  }
+    max-width: none;
 
-  .c-sectors__item {
     .b-sector {
       padding-left: 7%;
       padding-right: 7%;
+      max-width: none;
     }
   }
 
@@ -47,11 +52,16 @@
 @include respond-min($bp--home) {
 
   .c-sectors {
+    max-width: none;
+  }
+
+  .c-sectors__list {
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: space-between;
     height: em(385);
+    width: 100%;
 
     &:before {
       left: 0;

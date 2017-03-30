@@ -1,0 +1,20 @@
+// /* Star (element) */
+
+@keyframes animateStar {
+  0% {   opacity: 0.5; transform: scale(0.5); }
+  50% {  opacity: 1.0; transform: scale(1.0); }
+  100% { opacity: 0.5; transform: scale(0.5); }
+}
+
+.e-star {
+  display: block;
+  fill: $yellow;
+
+  .u-dark-alt & {
+    fill: $green;
+  }
+}
+
+.e-star--blink {
+  animation: animateStar 3s cubic-bezier(0,0.6,0.4,1) infinite;
+}

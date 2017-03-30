@@ -5,6 +5,8 @@
   overflow: hidden;
   padding: em($unit * 5);
   background: $white;
+  width: 100%;
+  max-width: em($bp--mobile);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -12,6 +14,14 @@
 
   & > * {
     flex: 0 1 auto;
+  }
+
+  .e-star {
+    position: absolute;
+    right: em($unit);
+    width: em(100);
+    height: em(100);
+    bottom: em($unit * 2);
   }
 }
 
@@ -22,29 +32,21 @@
 .b-sector__main {
   flex: 1 1 auto;
   margin-bottom: em($baseline/2);
+  max-width: em(300);
 }
 
-.b-sector__star {
-  position: absolute;
-  right: em($unit);
-  width: em(100);
-  height: em(100);
-  bottom: em($unit * 2);
-  fill: $yellow;
+@include respond-min($bp--mobile) {
 
-  .u-dark-alt & {
-    fill: $green;
+  .b-sector--rtl {
+    align-items: flex-end;
+    text-align: right;
+
+    .e-star {
+      left: em($unit);
+      top: em($unit * 3);
+      right: auto;
+      bottom: auto;
+    }
   }
-}
 
-.b-sector--rtl {
-  align-items: flex-end;
-  text-align: right;
-
-  .b-sector__star {
-    left: em($unit);
-    top: em($unit * 3);
-    right: auto;
-    bottom: auto;
-  }
 }

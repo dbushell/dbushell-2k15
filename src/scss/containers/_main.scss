@@ -7,6 +7,14 @@
   padding: em($unit * 14) 0 em($unit * 10) 0;
 }
 
+.c-main--home {
+  padding: 0 !important;
+
+  .b-block {
+    max-width: em($block--home);
+  }
+}
+
 @include respond-min($bp--mobile) {
 
   .c-main {

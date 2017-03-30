@@ -7,6 +7,7 @@ import Excerpt from './excerpt';
 import Field from './field';
 import Footer from './footer';
 import Headline from './headline';
+import Hero from './hero';
 import Icon from './icon';
 import Label from './label';
 import Nav from './nav';
@@ -14,6 +15,7 @@ import Newsletter from './newsletter';
 import Post from './post';
 import Sector from './sector';
 import Small from './small';
+import Star from './star';
 import Time from './time';
 
 export {
@@ -26,6 +28,7 @@ export {
   Field,
   Footer,
   Headline,
+  Hero,
   Icon,
   Label,
   Nav,
@@ -33,5 +36,6 @@ export {
   Post,
   Sector,
   Small,
+  Star,
   Time
 };

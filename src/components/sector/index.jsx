@@ -1,12 +1,9 @@
 import React, {PropTypes} from 'react';
-import {Button} from '../';
+import {Button, Star} from '../';
 
 const Sector = props => {
   const attr = {
     className: 'b-sector'
-  };
-  const star = id => {
-    return {__html: `<use xlink:href="/assets/img/stars.svg#${id}"></use>`};
   };
   const buttonAttr = {
     ...props.button,
@@ -21,7 +18,7 @@ const Sector = props => {
   const starId = props.alt ? 'right' : 'left';
   return (
     <article {...attr}>
-      <svg className="b-sector__star" role="presentation" dangerouslySetInnerHTML={star(starId)}/>
+      <Star id={starId}/>
       <div className="b-sector__header">
         <h2 className="u-bright">{props.heading}</h2>
         <p className="p--large u-dim">{props.subheading}</p>
@@ -37,9 +34,9 @@ const Sector = props => {
 Sector.propTypes = {
   alt: PropTypes.bool,
   rtl: PropTypes.bool,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  description: PropTypes.string,
+  heading: PropTypes.string.isRequired,
+  subheading: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
   button: PropTypes.shape({
     text: PropTypes.string,
     href: PropTypes.string

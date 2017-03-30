@@ -1,0 +1,56 @@
+/*! Steps */
+
+.c-steps {
+  margin-bottom: em($baseline * 1.5);
+
+  .c-hero + & {
+    z-index: $z-index--home;
+    position: relative;
+  }
+}
+
+.c-steps__item {
+  margin-bottom: em($baseline);
+}
+
+@include respond-min($bp--home) {
+
+  .c-steps {
+    margin-bottom: 0;
+
+    .c-hero + & {
+      margin-top: -11%;
+    }
+  }
+
+  .c-steps__list {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: em(-$baseline/2);
+    margin-right: em(-$baseline/2);
+    height: em(300);
+
+    hr {
+      display: none;
+    }
+  }
+
+  .c-steps__item {
+    width: 33.333%;
+    padding: 0 em($baseline/2);
+    margin: 0;
+
+    &:nth-of-type(2) {
+      align-self: center;
+    }
+
+    &:nth-of-type(3) {
+      align-self: flex-end;
+    }
+
+    .e-button {
+      margin-top: em($baseline/2, 18);
+    }
+  }
+
+}

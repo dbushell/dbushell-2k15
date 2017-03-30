@@ -10,6 +10,7 @@ $combined-css: true;
 @import "elements/label";
 @import "elements/button";
 @import "elements/field";
+@import "elements/star";
 
 @import "blocks/block";
 @import "blocks/post";
@@ -23,6 +24,8 @@ $combined-css: true;
 @import "blocks/folio";
 @import "blocks/sector";
 
+@import "containers/hero";
+@import "containers/steps";
 @import "containers/sectors";
 @import "containers/folio";
 @import "containers/clients";
@@ -30,7 +33,4 @@ $combined-css: true;
 @import "containers/main";
 
 @import "prism";
-
-@import "home";
-
 @import "utilities";

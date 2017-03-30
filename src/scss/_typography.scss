@@ -123,12 +123,20 @@ p, .p {
   &:last-child {
     margin-bottom: 0;
   }
+
+  small {
+    display: inline-block;
+    line-height: 1;
+    font-size: em($p--small, $p);
+  }
+}
+
+.p--small {
+  @include font-size($p--small, $unit * 4);
 }
 
 small,
 .p--small {
-  @include font-size($p--small, $unit * 4);
-
   a {
     background-size: 200% 1px;
   }
@@ -138,9 +146,7 @@ small,
   margin-bottom: em($unit * 2, $p--small);
 
   small {
-    display: inline-block;
     font-size: inherit;
-    line-height: 1;
   }
 }
 
