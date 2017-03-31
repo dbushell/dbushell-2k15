@@ -1,7 +1,6 @@
 import React, {PropTypes} from 'react';
 import {Time} from '../';
 
-// temporary old markup
 const Blog = props => {
   const attr = {
     className: 'b-blog',

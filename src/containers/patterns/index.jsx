@@ -2,8 +2,6 @@ import React, {PropTypes} from 'react';
 import container from '../';
 import * as P from '../../components';
 
-const homeDefaults = require('../home/defaults');
-
 const Patterns = props => {
   return (
     <main className="c-main">
@@ -31,11 +29,11 @@ const Patterns = props => {
           </div>
           <h2>Sector</h2>
           <div className="b-post__pattern">
-            <P.Sector {...homeDefaults.sectors[1]}/>
+            <P.Sector {...P.Sectors.defaultProps.items[1]}/>
           </div>
           <h2>Sector RTL</h2>
           <div className="b-post__pattern">
-            <P.Sector {...homeDefaults.sectors[0]}/>
+            <P.Sector {...P.Sectors.defaultProps.items[0]}/>
           </div>
         </P.Post>
       </P.Block>

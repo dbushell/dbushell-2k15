@@ -56,5 +56,3 @@ Sector.defaultProps = {
 };
 
 export default Sector;
-
-

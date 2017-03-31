@@ -1,0 +1,26 @@
+{
+  "heading": "What my clients say:",
+  "button": {
+    "href": "/contact/",
+    "text": "Work with me",
+    "bg1": true
+  },
+  "blockquotes": [
+    {
+      "id": 1,
+      "quote": "Highly skilled, personable, helpful and dedicated: David exceeded my expectations to deliver for us on a key project.",
+      "cite": "Frank Fenton – Head of Digital – Dinosaur UK Ltd."
+    },
+    {
+      "id": 2,
+      "quote": "David honestly was the integral component that allowed us to finally launch. We continue to go to him for any development work for our site, because he goes above & beyond what you’d ever expect.",
+      "cite": "Alexandra Adina – SwingVoterz.com"
+    },
+    {
+      "id": 3,
+      "quote": "David provided us with beautiful and cost effective templates for our CMS that surpassed our high expectations from both the design and the tech perspective.",
+      "cite": "Kevin Mueller – Studio Manager – Uwe Wittwer",
+      "href": "/2014/05/07/responsive-design-for-uwe-wittwer/"
+    }
+  ]
+}
