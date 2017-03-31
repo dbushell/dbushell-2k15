@@ -1,7 +1,5 @@
-import React, {Component, PropTypes} from 'react';
-import ReactDOMServer from 'react-dom/server';
-import {renderFooter} from '../../components/footer';
-import {renderNav} from '../../components/nav';
+import React, {PropTypes} from 'react';
+import container from '../';
 import {Button, Block, Hero, Sector} from '../../components';
 
 const Steps = () => {
@@ -114,29 +112,18 @@ Sectors.propTypes = {
   )
 };
 
-class Home extends Component {
-  render() {
-    const props = this.props;
-    return (
-      <main className="c-main c-main--home">
-        <Hero/>
-        <Steps/>
-        <Sectors {...props}/>
-        <Folio/>
-        <Clients/>
-      </main>
-    );
-  }
-
-  static renderBody(el) {
-    return `
-${ReactDOMServer.renderToStaticMarkup(el)}
-${renderFooter()}
-${renderNav()}
-`;
-  }
-}
+const Home = props => {
+  return (
+    <main className="c-main c-main--home">
+      <Hero/>
+      <Steps/>
+      <Sectors {...props}/>
+      <Folio/>
+      <Clients/>
+    </main>
+  );
+};
 
 Home.defaultProps = require('./defaults');
 
-export default Home;
+export default container(Home);

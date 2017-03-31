@@ -27,7 +27,7 @@ Learn more about my [**web design process**](/responsive-design/).
 And if you're unsure about the technical stuff I'll help with web hosting and domains to ensure your website gets up and running smoothly.
 
 <div class="b-boxed b-boxed--dark u-dark">
-    <h3>Get a free quote&hellip;</h3>
-    <p>Interested in working with me? <a href="/contact/">Send me an email</a> with your requirements and I’ll happily provide a free quote and let you know my availability.</p>
-    <a href="/contact/" class="e-button e-button--bg1">Get in Touch</a>
+  <h3>Get a free quote&hellip;</h3>
+  <p>Interested in working with me? <a href="/contact/">Send me an email</a> with your requirements and I’ll happily provide a free quote and let you know my availability.</p>
+  <a href="/contact/" class="e-button e-button--bg1">Get in Touch</a>
 </div>

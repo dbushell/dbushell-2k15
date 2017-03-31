@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "pageHeading": "About David Bushell",
+      "slug": "about"
+    },
+    {
+      "pageHeading": "Working with Agencies",
+      "slug": "working-with-agencies"
+    },
+    {
+      "pageHeading": "Your Website",
+      "slug": "working-with-clients"
+    },
+    {
+      "pageHeading": "WordPress & CMS",
+      "slug": "wordpress-and-cms-integration"
+    },
+    {
+      "pageHeading": "Table of Contents",
+      "slug": "table-of-contents"
+    },
+    {
+      "pageHeading": "Responsive Design",
+      "slug": "responsive-design"
+    },
+    {
+      "pageHeading": "Front-end Development",
+      "slug": "front-end-development"
+    },
+    {
+      "pageHeading": "Services",
+      "slug": "services"
+    },
+    {
+      "pageHeading": "Process & Strategy",
+      "slug": "process-and-strategy"
+    }
+  ]
+}

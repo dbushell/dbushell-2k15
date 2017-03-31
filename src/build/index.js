@@ -3,16 +3,17 @@
 const path = require('path');
 const chalk = require('chalk');
 const argv = require('yargs').argv;
-
 const packageJson = require('../../package.json');
 
-// default context for Handlebars templates and Page component props
+// Gefault context for Handlebars templates and Page component props
 global.DBUSHELL = {
   __dest: path.join(process.cwd(), '/dbushell.github.io'),
   __bSrc: path.join(process.cwd(), '/src/data/blog'),
   __bRecent: path.join(process.cwd(), '/src/components/blog/defaults.json'),
+  __Src: path.join(process.cwd(), '/src/data/pages'),
+  __Config: require('../data/pages.json'),
   __pSrc: path.join(process.cwd(), '/src/data/portfolio'),
-  __pConfig: require('../containers/portfolio/config'),
+  __pConfig: require('../data/portfolio.json'),
   siteVer: packageJson.version,
   siteProtocol: 'https:',
   siteRoot: 'dbushell.com',
@@ -23,20 +24,22 @@ global.DBUSHELL = {
   pageTemplate: 'index'
 };
 
-// page container classes
+// Page container classes
 const Page = require('../containers/page');
 const Portfolio = require('../containers/portfolio');
 const Patterns = require('../containers/patterns');
 const Contact = require('../containers/contact');
 const Home = require('../containers/home');
-const Pages = require('./pages');
 
-// tasks
+// Helpers
+const md2HTML = require('./helpers').md2HTML;
+
+// Tasks
 const publish = require('./template').publish;
 const buildBlog = require('./blog').blog;
 const buildFeeds = require('./feeds').publish;
 
-// bit of console flair
+// Bit of console flair
 export const logo = `
       _ _               _          _ _
    __| | |__  _   _ ___| |__   ___| | |
@@ -50,12 +53,14 @@ export const logo = `
  */
 function buildPages() {
   const queue = [];
-  for (const [path, page] of Object.entries(Pages)) {
-    queue.push(publish(page.el, {
-      pagePath: path,
-      pageHeading: page.el.defaultProps.pageHeading
-    }));
-  }
+  global.DBUSHELL.__Config.pages.forEach(props => queue.push(
+    publish(Page, {
+      ...props,
+      pagePath: props.slug,
+      pageHeading: props.pageHeading,
+      innerHTML: md2HTML(path.join(global.DBUSHELL.__Src, `${props.slug}.md`))
+    })
+  ));
   return Promise.all(queue);
 }
 
@@ -73,7 +78,7 @@ function buildPortfolio() {
       ...props,
       pageHeading: props.pageHeading,
       pagePath: `/showcase/${props.slug}/`,
-      innerHTML: Page.getHTML(path.join(global.DBUSHELL.__pSrc, `${props.slug}.md`))
+      innerHTML: md2HTML(path.join(global.DBUSHELL.__pSrc, `${props.slug}.md`))
     })
   ));
   return Promise.all(queue);
@@ -90,21 +95,21 @@ export async function build() {
     process.stdout.write(`Available flags: ${flags.join(', ')}\n`);
     return;
   }
-  // write blog pages
+  // Write blog pages
   if (argv.blog || argv.all) {
     await buildBlog().catch(err => {
       process.stderr.write(chalk.red(err) + '\n');
     });
   }
-  // write portfolio pages
+  // Write portfolio pages
   if (argv.portfolio || argv.all) {
     await buildPortfolio();
   }
-  // write pages
+  // Write pages
   if (argv.pages || argv.all) {
     await buildPages();
   }
-  // write contact page
+  // Write contact page
   if (argv.contact || argv.all) {
     await publish(Contact, {
       pagePath: '/contact/',
@@ -112,23 +117,23 @@ export async function build() {
       pageHeading: Contact.defaultProps.pageHeading
     });
   }
-  // write pattern library
+  // Write pattern library
   if (argv.patterns || argv.all) {
     await publish(Patterns, {
       pagePath: '/pattern-library/'
     });
   }
-  // write home page
+  // Write home page
   if (argv.home || argv.all) {
     await publish(Home, {
       pagePath: '/'
     });
   }
-  // write RSS and Sitemap XML
+  // Write RSS and Sitemap XML
   if (argv.feeds || argv.all) {
     await buildFeeds();
   }
-  // complete!
+  // Complete!
   process.stdout.write(chalk.bold.yellow('Build complete 👌') + '\n');
 }
 

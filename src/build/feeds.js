@@ -7,9 +7,8 @@ const compact = require('lodash.compact');
 const cloneDeep = require('lodash.clonedeep');
 const updateFlag = require('./template').updateFlag;
 const getArticles = require('./process').getArticles;
-const Pages = require('./pages');
 
-// setup global config for production
+// Setup global config for production
 const DBUSHELL = cloneDeep(global.DBUSHELL);
 DBUSHELL.siteRoot = 'dbushell.com';
 
@@ -56,14 +55,14 @@ export function publish() {
       priority: '0.5'
     });
 
-    for (const [href, page] of Object.entries(Pages)) {
+    DBUSHELL.__Config.pages.forEach(props => {
       entries.push({
-        loc: loc(href),
-        lastmod: lastmod(`${page.src}/content.md`).toISOString(),
+        loc: loc(`/${props.slug}/`),
+        lastmod: lastmod(path.join(DBUSHELL.__Src, `${props.slug}.md`), true).toISOString(),
         changefreq: 'weekly',
         priority: '0.8'
       });
-    }
+    });
 
     entries.push({
       loc: loc('/showcase/'),
@@ -81,7 +80,7 @@ export function publish() {
       });
     });
 
-    let articles = await getArticles(DBUSHELL.__bSrc);
+    const articles = await getArticles(DBUSHELL.__bSrc);
 
     articles.forEach(props => {
       entries.push({

@@ -1,45 +1,24 @@
-import React, {Component, PropTypes} from 'react';
-import ReactDOMServer from 'react-dom/server';
-import {renderFooter} from '../../components/footer';
-import {renderNav} from '../../components/nav';
+import React, {PropTypes} from 'react';
+import container from '../';
 import {Block, Post} from '../../components';
-import {md2HTML} from '../../build/helpers';
 
-class Page extends Component {
-  render() {
-    const props = this.props;
-    let postBody = (
-      <div className="b-post__body">
-        {props.children}
-      </div>
-    );
-    if (props.innerHTML) {
-      postBody = <div className="b-post__body" dangerouslySetInnerHTML={{__html: props.innerHTML}}/>;
-    }
-    return (
-      <main className="c-main">
-        <Block>
-          <Post>
-            <div className="b-post__title">
-              <h1>{props.pageHeading}</h1>
-            </div>
-            {postBody}
-          </Post>
-        </Block>
-      </main>
-    );
-  }
-  static getHTML(file) {
-    return md2HTML(file);
-  }
-  static renderBody(el) {
-    return `
-${ReactDOMServer.renderToStaticMarkup(el)}
-${renderFooter()}
-${renderNav()}
-`;
-  }
-}
+const Page = props => {
+  const postBody = props.innerHTML ?
+    <div className="b-post__body" dangerouslySetInnerHTML={{__html: props.innerHTML}}/> :
+    <div className="b-post__body">{props.children}</div>;
+  return (
+    <main className="c-main">
+      <Block>
+        <Post>
+          <div className="b-post__title">
+            <h1>{props.pageHeading}</h1>
+          </div>
+          {postBody}
+        </Post>
+      </Block>
+    </main>
+  );
+};
 
 Page.propTypes = {
   pageHeading: PropTypes.string,
@@ -48,7 +27,9 @@ Page.propTypes = {
 };
 
 Page.defaultProps = {
-  pageHeading: 'Page'
+  pageHeading: 'Page',
+  innerHTML: '',
+  children: null
 };
 
-export default Page;
+export default container(Page);

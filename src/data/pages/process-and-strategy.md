@@ -17,3 +17,9 @@ It's simply about getting things done, seeing the result, and improving upon the
 * <a href="/responsive-design/">Responsive website design</a>
 * <a href="/front-end-development/">HTML, CSS, and JavaScript development</a>
 * <a href="/wordpress-and-cms-integration/">WordPress &amp; CMS integration</a>
+
+<div class="b-boxed b-boxed--dark u-dark">
+  <h3>Get a free quote&hellip;</h3>
+  <p>Interested in working with me? <a href="/contact/">Send me an email</a> with your requirements and I’ll happily provide a free quote and let you know my availability.</p>
+  <a href="/contact/" class="e-button e-button--bg1">Get in Touch</a>
+</div>
