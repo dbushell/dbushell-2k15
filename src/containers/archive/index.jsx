@@ -9,6 +9,11 @@ const Archive = props => {
     <a href={props.prevPage} className="e-button">Newer</a> : null;
   const pagination = (nextButton || prevButton) ?
     (<div className="b-pagination">{nextButton}{prevButton}</div>) : null;
+  const items = [];
+  props.excerpts.forEach(item => {
+    items.push(<Excerpt key={item.id} {...item}/>);
+    items.push(<hr key={item.id + '-hr'}/>);
+  });
   return (
     <main className="c-main">
       <Block>
@@ -17,12 +22,7 @@ const Archive = props => {
             <h1>{props.pageHeading}</h1>
           </div>
           <div className="b-post__body">
-            {props.excerpts.map(item => (
-              <div key={item.id}>
-                <Excerpt {...item}/>
-                <hr/>
-              </div>
-            ))}
+            {items}
           </div>
           {pagination}
         </Post>

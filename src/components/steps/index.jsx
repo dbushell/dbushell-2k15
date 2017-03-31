@@ -3,17 +3,26 @@ import {Block} from '../';
 import Button from '../button';
 
 const Steps = props => {
+  const items = [];
+  let key = 0;
+  const id = () => (++key);
+  props.items.forEach((item, i) => {
+    items.push(
+      <article key={id()} className="c-steps__item">
+        <h2 className="h4"><a href={item.href}>{item.heading}</a></h2>
+        <p>{item.description}</p>
+        {item.button ? <Button {...item.button}/> : null}
+      </article>
+    );
+    if (i < props.items.length - 1) {
+      items.push(<hr key={id()}/>);
+    }
+  });
   return (
     <div className="c-steps">
       <Block>
         <div className="c-steps__list">
-          {props.items.map(item => (
-            <article key={item.id} className="c-steps__item">
-              <h2 className="h4"><a href={item.href}>{item.heading}</a></h2>
-              <p>{item.description}</p>
-              {item.button ? <Button {...item.button}/> : null}
-            </article>
-          ))}
+          {items}
         </div>
       </Block>
     </div>
@@ -22,7 +31,6 @@ const Steps = props => {
 
 Steps.propTypes = {
   items: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.any,
     href: PropTypes.string,
     heading: PropTypes.string,
     description: PropTypes.string,
