@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "i-watched-iron-fist-and-coded-css.md",
+      "title": "I watched Iron Fist and coded CSS 👈",
+      "href": "/2017/04/03/i-watched-iron-fist-and-coded-css.md/",
+      "date": 1491213600000
+    },
+    {
       "id": "web-security-and-cloudflare",
       "title": "Web Security and Cloudflare",
       "href": "/2017/02/17/web-security-and-cloudflare/",
@@ -30,12 +36,6 @@
       "title": "Building a Shopify Theme",
       "href": "/2016/10/10/building-a-shopify-theme/",
       "date": 1476093600000
-    },
-    {
-      "id": "colour-accessibility",
-      "title": "Colour Accessibility",
-      "href": "/2016/09/01/colour-accessibility/",
-      "date": 1472724000000
     }
   ]
 }
