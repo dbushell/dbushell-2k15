@@ -19,7 +19,8 @@ function runPostCSS({cssFrom, cssTo}) {
       }
       resolve();
       postcss([autoprefixer({
-        remove: false
+        remove: false,
+        flexbox: 'no-2009'
       })])
         .process(css, {
           map: false,
