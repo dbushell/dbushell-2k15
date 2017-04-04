@@ -72,7 +72,6 @@
   background-image: none;
   background-color: $green;
   z-index: $z-index--home + 11;
-  @include no-tap-highlight;
   display: block;
   width: 100%;
   height: 0;

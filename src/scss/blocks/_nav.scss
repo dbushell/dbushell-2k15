@@ -27,7 +27,6 @@
 }
 
 .b-nav__link {
-  @include no-tap-highlight;
   position: relative;
   display: block;
   color: $white;

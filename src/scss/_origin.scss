@@ -1,40 +1,19 @@
 /* Vars / Mixins */
 
-$combined-css: false !default;
-$critical-css: false !default;
-
-@mixin critical {
-    @if $critical-css == true {
-        @content;
-    }
-    @else if $combined-css == true {
-        @content;
-    }
-}
-
-@mixin non-critical {
-    @if $critical-css == false {
-        @content;
-    }
-    @else if $combined-css == true {
-        @content;
-    }
-}
-
 @function em($px, $base: 16) {
     @return ($px / $base) + em;
 }
 
-@mixin font-size($font-size, $line-height: true) {
-    font-size: em($font-size);
-    @if $line-height == true {
-        line-height: em(ceil($font-size / $unit) * $unit, $font-size);
-        // line-height: ceil($font-size / $baseline) * ($baseline / $font-size) + em;
-    }
-    @else {
-        line-height: em($line-height, $font-size);
-    }
-}
+// @mixin font-size($font-size, $line-height: true) {
+//     font-size: em($font-size);
+//     @if $line-height == true {
+//         line-height: em(ceil($font-size / $unit) * $unit, $font-size);
+//         // line-height: ceil($font-size / $baseline) * ($baseline / $font-size) + em;
+//     }
+//     @else {
+//         line-height: em($line-height, $font-size);
+//     }
+// }
 
 // Units for consistent spacing, vertical rhythm, and a typographic baseline
 
@@ -149,57 +128,30 @@ $fw-bold   : 500;
 // $ratio is required for nested grids
 // e.g. if parent container is 5 columns of 6 then ratio = 5/6
 
-@function gc-gutter($gc_gutter_count: 1, $ratio: 1, $width: $bp--desktop)
-{
-    $gc_gutter: $gc_gutter * $gc_gutter_count;
-    $width: $width * $ratio;
-    @return percentage($gc_gutter / $width);
-}
+// @function gc-gutter($gc_gutter_count: 1, $ratio: 1, $width: $bp--desktop)
+// {
+//     $gc_gutter: $gc_gutter * $gc_gutter_count;
+//     $width: $width * $ratio;
+//     @return percentage($gc_gutter / $width);
+// }
 
-@function gc-offset($col_count: 1, $col_total: 6, $ratio: 1, $width: $bp--desktop, $inside: 0)
-{
-    $gc_gutter: $gc_gutter;
-    $width: $width * $ratio;
+// @function gc-offset($col_count: 1, $col_total: 6, $ratio: 1, $width: $bp--desktop, $inside: 0)
+// {
+//     $gc_gutter: $gc_gutter;
+//     $width: $width * $ratio;
 
-    // calculate width of columns
-    $offset: $col_count * (($width - (($col_total - 1) * $gc_gutter)) / $col_total);
-    // add width of gutters
-    $offset: $offset + (($col_count - $inside) * $gc_gutter);
-    // return as a percentage
-    @return percentage($offset / $width);
-}
+//     // calculate width of columns
+//     $offset: $col_count * (($width - (($col_total - 1) * $gc_gutter)) / $col_total);
+//     // add width of gutters
+//     $offset: $offset + (($col_count - $inside) * $gc_gutter);
+//     // return as a percentage
+//     @return percentage($offset / $width);
+// }
 
-@function gc-spanning($col_count: 1, $col_total: 6, $ratio: 1, $width: $bp--desktop)
-{
-    @return gc-offset($col_count, $col_total, $ratio, $width, 1);
-}
-
-@mixin no-appearance {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-}
-
-@mixin no-tap-highlight {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-@mixin text-truncate {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-@mixin clearfix {
-    &:before,
-    &:after {
-        content: "";
-        display: table;
-    }
-    &:after {
-        clear: both;
-    }
-    *zoom: 1;
-}
+// @function gc-spanning($col_count: 1, $col_total: 6, $ratio: 1, $width: $bp--desktop)
+// {
+//     @return gc-offset($col_count, $col_total, $ratio, $width, 1);
+// }
 
 // Hide from both screenreaders and browsers: h5bp.com/u
 @mixin hidden {
@@ -217,14 +169,6 @@ $fw-bold   : 500;
     padding: 0;
     position: absolute;
     width: 1px;
-}
-
-@mixin image-replacement {
-    display: block;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: clip;
-    text-indent: 200%;
 }
 
 /* Base */

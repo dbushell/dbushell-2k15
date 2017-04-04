@@ -19,6 +19,7 @@ global.DBUSHELL = {
   siteRoot: 'dbushell.com',
   siteName: 'David Bushell &#8211; Web Design &amp; Front-end Development (based in Manchester, UK)',
   siteDesc: 'David Bushell make websites. I help small businesses, start-ups, individuals, and fellow web agencies make the most of their web presence.',
+  pageCSS: '/assets/css/main.post.css',
   pagePath: '/',
   pageHeading: '',
   pageTemplate: 'index'
@@ -71,6 +72,7 @@ function buildPortfolio() {
   const queue = [];
   queue.push(publish(Portfolio, {
     pagePath: '/showcase/',
+    pageCSS: '/assets/css/all.post.css',
     pageHeading: Portfolio.defaultProps.pageHeading
   }));
   global.DBUSHELL.__pConfig.pages.forEach(props => queue.push(
@@ -126,7 +128,8 @@ export async function build() {
   // Write home page
   if (argv.home || argv.all) {
     await publish(Home, {
-      pagePath: '/'
+      pagePath: '/',
+      pageCSS: '/assets/css/all.post.css'
     });
   }
   // Write RSS and Sitemap XML
