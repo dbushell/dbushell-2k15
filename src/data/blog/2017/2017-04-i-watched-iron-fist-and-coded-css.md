@@ -1,6 +1,6 @@
 ---
 date: 2017-04-03 10:00:00+00:00
-slug: i-watched-iron-fist-and-coded-css.md
+slug: i-watched-iron-fist-and-coded-css
 title: 'I watched Iron Fist and coded CSS 👈'
 pageDesc: 'Why adhere to a strict CSS methodology for smaller websites when they don’t bite back?'
 ---
