@@ -2,6 +2,7 @@
 date: 2017-02-17 10:00:00+00:00
 slug: web-security-and-cloudflare
 title: 'Web Security and Cloudflare'
+pageDesc: 'How I improved my website security with Cloudflare and unlocked a new page speed achievement.'
 ---
 
 I've never had to deal with SSL certificates before. That's always been someone else's responsibility. Being ignorant of the technical details, the idea of setting up SSL/TLS wrong scares me. The idea of my visitors seeing those browser warnings scares me even more. And they're getting scarier by the year.

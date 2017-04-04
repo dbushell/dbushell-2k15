@@ -10,8 +10,18 @@
 <link rel="dns-prefetch" href="//use.typekit.net">
 <link rel="dns-prefetch" href="//www.google-analytics.com">
 <title>{{ pageTitle }}</title>
-<link rel="shortcut icon" type="image/x-icon" href="{{ siteURL 'assets/img/favicon.ico' }}">
-<link rel="apple-touch-icon" href="{{ siteURL 'assets/img/apple-touch-icon.png' }}">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-touch-icon.png?v={{siteVer}}">
+<link rel="icon" type="image/png" href="/assets/ico/favicon-32x32.png?v={{siteVer}}" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/ico/favicon-16x16.png?v={{siteVer}}" sizes="16x16">
+<link rel="shortcut icon" href="/assets/ico/favicon.ico?v={{siteVer}}">
+<meta name="theme-color" content="#ff6680">
+{{#if pageDesc}}
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@dbushell"/>
+<meta name="twitter:title" content="{{pageHeading}}"/>
+<meta name="twitter:description" content="{{pageDesc}}"/>
+<meta name="twitter:image" content="{{ siteURL 'assets/ico/apple-touch-icon.png' }}"/>
+{{/if}}
 <link rel="canonical" href="{{ siteURL pagePath }}">
 <link rel="alternate" type="application/rss+xml" title="dbushell.com RSS Feed" href="{{ siteURL 'rss.xml' }}">
 <script type="text/javascript">

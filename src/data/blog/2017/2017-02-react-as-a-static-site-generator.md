@@ -2,6 +2,7 @@
 date: 2017-02-13 10:00:00+00:00
 slug: react-as-a-static-site-generator
 title: 'React as a Static Site Generator'
+pageDesc: 'I wrote my own SSG using React (because I could).'
 ---
 
 Two years ago I converted my website from WordPress to a [static build process](/2015/05/11/wordpress-to-metalsmith/). It has served me well but the final process was rather messy. Hacks and plumbing to get Metalsmith plugins working _my way_ didn't helped.

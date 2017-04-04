@@ -1,7 +1,7 @@
 {
   "name": "dbushell.com",
   "private": true,
-  "version": "9.0.2",
+  "version": "9.0.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbushell/dbushell.com.git"
