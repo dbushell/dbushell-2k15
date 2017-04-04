@@ -106,9 +106,10 @@ $colour__hairline--dark     : darken($colour__hairline, 15);
 
 // Font usage for normal, display, script, and monospace stacks
 
-$fonts--default    : "sofia-pro", ".SFNSDisplay-Regular", "Helvetica Neue", Arial, sans-serif;
-$fonts--display    : "futura-pt", $fonts--default;
-$fonts--monospace  : Monaco, Courier, monospace;
+$fonts--stack      : ".SFNSDisplay-Regular", Arial, sans-serif;
+$fonts--default    : "sofia-pro", $fonts--stack;
+$fonts--display    : "futura-pt", $fonts--stack;
+$fonts--monospace  : Monaco, Consolas, monospace;
 
 $fw-normal : 300;
 $fw-medium : 500;
