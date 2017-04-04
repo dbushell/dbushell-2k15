@@ -9,28 +9,26 @@
 
 .c-sectors__list {
   position: relative;
-
-  &:before {
-    z-index: -1;
-    content: "";
-    position: absolute;
-    display: block;
-    opacity: 0.5;
-    top: em(49);
-    left: em(35);
-    right: em(35);
-    bottom: em(49);
-    background: $canvas;
-  }
-
-  .js-ie &:before {
-    display: none;
-  }
 }
 
 .c-sectors__item {
   margin-bottom: em($baseline);
   box-shadow: 0 em($unit * 4) 0 em(-$unit * 2) rgba($black, 0.1);
+
+  &:first-child {
+    &:after {
+      z-index: -1;
+      content: "";
+      position: absolute;
+      display: block;
+      opacity: 0.5;
+      top: em(49);
+      left: em(35);
+      right: em(35);
+      bottom: em(49);
+      background: $canvas;
+    }
+  }
 }
 
 @include respond-max($bp--mobile - 1) {
@@ -62,11 +60,6 @@
     justify-content: space-between;
     height: em(385);
     width: 100%;
-
-    &:before {
-      left: 0;
-      right: 0;
-    }
   }
 
   .c-sectors__item {
@@ -80,6 +73,11 @@
 
     &:first-child {
       box-shadow: em($unit * 4) 0 0 em(-$unit * 2) rgba($black, 0.1);
+
+      &:after {
+        left: 0;
+        right: 0;
+      }
     }
 
     &:last-child {

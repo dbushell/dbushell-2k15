@@ -122,7 +122,8 @@ export async function build() {
   // Write pattern library
   if (argv.patterns || argv.all) {
     await publish(Patterns, {
-      pagePath: '/pattern-library/'
+      pagePath: '/pattern-library/',
+      pageCSS: '/assets/css/all.post.css'
     });
   }
   // Write home page

@@ -14,11 +14,12 @@
 <link rel="apple-touch-icon" href="{{ siteURL 'assets/img/apple-touch-icon.png' }}">
 <link rel="canonical" href="{{ siteURL pagePath }}">
 <link rel="alternate" type="application/rss+xml" title="dbushell.com RSS Feed" href="{{ siteURL 'rss.xml' }}">
+<script type="text/javascript">
+  var de = document.getElementsByTagName('html')[0];
+  de.className = de.className.replace(/(^|\s)no-js(\s|$)/, '$1js$2');
+</script>
 <style>
 {{ inlineAsset pageCSS }}
 </style>
-<script>
-{{ inlineAsset 'assets/js/loadrunner.min.js' }}
-</script>
 </head>
 <body>

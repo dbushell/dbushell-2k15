@@ -50,6 +50,7 @@ Handlebars.registerHelper('inlineAsset', href => {
   if (typeof inline[href] !== 'string') {
     try {
       inline[href] = fs.readFileSync(path.join(global.DBUSHELL.__dest, href), 'utf8');
+      inline[href] = inline[href].replace(/{{[\s]*siteVer[\s]*}}/g, global.DBUSHELL.siteVer);
     } catch (err) {
       inline[href] = '';
     }

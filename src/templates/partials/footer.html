@@ -1,23 +1,5 @@
 <script>
-(function (win) {
-  var loaded = 0;
-  var onLoad = function (e) {
-    if (e) {
-      setTimeout(function () {
-        document.documentElement.className += ' js-anim';
-      }, 300);
-    }
-    if (++loaded >= 2) {
-      win.dbushell.init();
-    }
-  };
-  if (win.addEventListener) {
-    win.addEventListener('DOMContentLoaded', onLoad, false);
-  } else if (window.attachEvent) {
-    win.attachEvent('onload', onLoad);
-  }
-  win.loadScript('/assets/js/main.min.js?ver={{ siteVer }}', onLoad);
-}(window));
+{{ inlineAsset 'assets/js/inline.min.js' }}
 </script>
 </body>
 </html>
