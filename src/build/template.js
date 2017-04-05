@@ -78,9 +78,9 @@ Handlebars.registerHelper('siteURL', (url, context) => {
  */
 Handlebars.registerHelper('pageTitle', context => {
   const data = context.data.root;
-  let pageTitle = data.siteName;
+  let pageTitle = data.siteNameLong;
   if (data.pageHeading && typeof data.pageHeading === 'string') {
-    pageTitle = `${Handlebars.Utils.escapeExpression(data.pageHeading)} &#8211; ${data.siteName}`;
+    pageTitle = `${Handlebars.Utils.escapeExpression(data.pageHeading)} – ${data.siteName}`;
   }
   return new Handlebars.SafeString(pageTitle);
 });

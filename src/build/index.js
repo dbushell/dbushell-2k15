@@ -17,7 +17,8 @@ global.DBUSHELL = {
   siteVer: packageJson.version,
   siteProtocol: 'https:',
   siteRoot: 'dbushell.com',
-  siteName: 'David Bushell &#8211; Web Design &amp; Front-end Development (based in Manchester, UK)',
+  siteName: 'David Bushell – Web Design (UK)',
+  siteNameLong: 'David Bushell – Web Design &amp; Front-end Development (based in Manchester, UK)',
   siteDesc: 'David Bushell make websites. I help small businesses, start-ups, individuals, and fellow web agencies make the most of their web presence.',
   pageCSS: '/assets/css/main.post.css',
   pagePath: '/',
@@ -58,7 +59,6 @@ function buildPages() {
     publish(Page, {
       ...props,
       pagePath: props.slug,
-      pageHeading: props.pageHeading,
       innerHTML: md2HTML(path.join(global.DBUSHELL.__Src, `${props.slug}.md`))
     })
   ));
@@ -123,7 +123,8 @@ export async function build() {
   if (argv.patterns || argv.all) {
     await publish(Patterns, {
       pagePath: '/pattern-library/',
-      pageCSS: '/assets/css/all.post.css'
+      pageCSS: '/assets/css/all.post.css',
+      pageHeading: Patterns.defaultProps.pageHeading
     });
   }
   // Write home page
