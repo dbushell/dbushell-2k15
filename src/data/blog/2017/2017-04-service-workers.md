@@ -35,7 +35,7 @@ A neat trick is to serve a fallback SVG image should any image request fail. Min
 
 <p class="b-post__image">![Service worker offline image](/images/blog/dbushell-offline-image.png)</p>
 
-It's possible to pre-cache stuff before the user requests it. I'm not sure of the limits. I'm gussing it's ill advised to cache an entire website. My website attempts to cache top-level HTML to boost perceived performance.
+It's possible to pre-cache stuff before the user requests it. I'm not sure of the limits. I'm guessing it's ill advised to cache an entire website. My website attempts to cache top-level HTML to boost perceived performance.
 
 As of writing Chrome plays nicely. Firefox seems to be doing stuff (shrugs). It's new technology and a progressive enhancement.
 
