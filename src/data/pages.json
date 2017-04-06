@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "pageHeading": "Connectivity Issues!",
+      "slug": "offline"
+    },
+    {
       "pageHeading": "About David Bushell",
       "slug": "about"
     },

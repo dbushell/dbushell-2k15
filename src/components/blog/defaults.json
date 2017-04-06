@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "the-magic-of-service-workers",
+      "title": "The Magic of Service Workers",
+      "href": "/2017/04/06/the-magic-of-service-workers/",
+      "date": 1491472800000
+    },
+    {
       "id": "i-watched-iron-fist-and-coded-css",
       "title": "I watched Iron Fist and coded CSS 👈",
       "href": "/2017/04/03/i-watched-iron-fist-and-coded-css/",
@@ -30,12 +36,6 @@
       "title": "My thoughts on React",
       "href": "/2016/12/02/my-thoughts-on-react/",
       "date": 1480672800000
-    },
-    {
-      "id": "building-a-shopify-theme",
-      "title": "Building a Shopify Theme",
-      "href": "/2016/10/10/building-a-shopify-theme/",
-      "date": 1476093600000
     }
   ]
 }

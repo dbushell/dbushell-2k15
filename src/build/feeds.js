@@ -56,6 +56,9 @@ export function publish() {
     });
 
     DBUSHELL.__Config.pages.forEach(props => {
+      if (props.slug === 'offline') {
+        return;
+      }
       entries.push({
         loc: loc(`/${props.slug}/`),
         lastmod: lastmod(path.join(DBUSHELL.__Src, `${props.slug}.md`), true).toISOString(),

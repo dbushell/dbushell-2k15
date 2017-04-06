@@ -40,6 +40,7 @@ const md2HTML = require('./helpers').md2HTML;
 const publish = require('./template').publish;
 const buildBlog = require('./blog').blog;
 const buildFeeds = require('./feeds').publish;
+const updateServiceWorker = require('./sw');
 
 // Bit of console flair
 export const logo = `
@@ -138,6 +139,8 @@ export async function build() {
   if (argv.feeds || argv.all) {
     await buildFeeds();
   }
+  // Update Service Worker
+  await updateServiceWorker();
   // Complete!
   process.stdout.write(chalk.bold.yellow('Build complete 👌') + '\n');
 }
