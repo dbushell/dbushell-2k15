@@ -22,7 +22,7 @@ ${navFn()}
   }
 
   Container.displayName = Contained.displayName || Contained.name || 'Component';
-  Container.propTypes = Contained.propTypes;
+  // Container.propTypes = Contained.propTypes;
   Container.defaultProps = Contained.defaultProps;
 
   return Container;

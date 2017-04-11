@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const Icon = props => {
   const icon = id => {
@@ -10,8 +10,8 @@ const Icon = props => {
   );
 };
 
-Icon.propTypes = {
-  id: PropTypes.string.isRequired
-};
+// Icon.propTypes = {
+//   id: PropTypes.string.isRequired
+// };
 
 export default Icon;

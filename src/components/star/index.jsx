@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const Star = props => {
   const star = id => {
@@ -17,10 +17,10 @@ const Star = props => {
   );
 };
 
-Star.propTypes = {
-  id: PropTypes.string,
-  blink: PropTypes.bool
-};
+// Star.propTypes = {
+//   id: PropTypes.string,
+//   blink: PropTypes.bool
+// };
 
 Star.defaultProps = {
   id: 'star',

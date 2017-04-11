@@ -1,5 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import defaults from './defaults';
+// import PropTypes from 'prop-types';
 import {Time} from '../';
 
 const Blog = props => {
@@ -24,18 +25,18 @@ const Blog = props => {
   );
 };
 
-Blog.propTypes = {
-  heading: PropTypes.string,
-  items: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string,
-      title: PropTypes.string,
-      href: PropTypes.string,
-      date: PropTypes.number
-    })
-  )
-};
+// Blog.propTypes = {
+//   heading: PropTypes.string,
+//   items: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       id: PropTypes.string,
+//       title: PropTypes.string,
+//       href: PropTypes.string,
+//       date: PropTypes.number
+//     })
+//   )
+// };
 
-Blog.defaultProps = require('./defaults');
+Blog.defaultProps = defaults;
 
 export default Blog;

@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const Field = props => {
   const attr = {
@@ -10,13 +10,13 @@ const Field = props => {
   );
 };
 
-Field.propTypes = {
-  id: PropTypes.string,
-  type: PropTypes.string,
-  value: PropTypes.string,
-  placeholder: PropTypes.string,
-  required: PropTypes.bool
-};
+// Field.propTypes = {
+//   id: PropTypes.string,
+//   type: PropTypes.string,
+//   value: PropTypes.string,
+//   placeholder: PropTypes.string,
+//   required: PropTypes.bool
+// };
 
 Field.defaultProps = {
   id: 'field',

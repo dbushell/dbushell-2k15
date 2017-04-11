@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import container from '../';
 import {Block, Post} from '../../components';
 
@@ -117,9 +117,9 @@ const Portfolio = props => {
   );
 };
 
-Portfolio.propTypes = {
-  pageHeading: PropTypes.string
-};
+// Portfolio.propTypes = {
+//   pageHeading: PropTypes.string
+// };
 
 Portfolio.defaultProps = {
   pageHeading: 'Portfolio'

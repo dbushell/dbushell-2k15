@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import container from '../';
 import {Block, Excerpt, Post} from '../../components';
 
@@ -32,20 +32,20 @@ const Archive = props => {
   );
 };
 
-Archive.propTypes = {
-  pageHeading: PropTypes.string,
-  nextPage: PropTypes.string,
-  prevPage: PropTypes.string,
-  excerpts: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string,
-      date: PropTypes.number,
-      title: PropTypes.string,
-      href: PropTypes.string,
-      body: PropTypes.string
-    })
-  )
-};
+// Archive.propTypes = {
+//   pageHeading: PropTypes.string,
+//   nextPage: PropTypes.string,
+//   prevPage: PropTypes.string,
+//   excerpts: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       id: PropTypes.string,
+//       date: PropTypes.number,
+//       title: PropTypes.string,
+//       href: PropTypes.string,
+//       body: PropTypes.string
+//     })
+//   )
+// };
 
 Archive.defaultProps = {
   pageHeading: 'Blog',

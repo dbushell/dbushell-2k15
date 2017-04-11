@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const Headline = props => {
   return (
@@ -9,12 +9,12 @@ const Headline = props => {
   );
 };
 
-Headline.propTypes = {
-  children: PropTypes.node
-};
+// Headline.propTypes = {
+//   children: PropTypes.node
+// };
 
-Headline.defaultProps = {
-  children: 'Headline'
-};
+// Headline.defaultProps = {
+//   children: 'Headline'
+// };
 
 export default Headline;

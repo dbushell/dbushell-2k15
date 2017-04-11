@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import container from '../';
 import {Button, Block, Field, Label, Post} from '../../components';
 import {renderFooter} from '../../components/footer';
@@ -50,9 +50,9 @@ const Contact = props => {
   );
 };
 
-Contact.propTypes = {
-  pageHeading: PropTypes.string
-};
+// Contact.propTypes = {
+//   pageHeading: PropTypes.string
+// };
 
 Contact.defaultProps = {
   pageHeading: 'Contact'

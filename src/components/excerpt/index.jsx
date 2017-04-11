@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import {Time} from '../';
 
 const Excerpt = props => {
@@ -22,12 +22,12 @@ const Excerpt = props => {
   );
 };
 
-Excerpt.propTypes = {
-  date: PropTypes.number,
-  title: PropTypes.string,
-  href: PropTypes.string,
-  body: PropTypes.string
-};
+// Excerpt.propTypes = {
+//   date: PropTypes.number,
+//   title: PropTypes.string,
+//   href: PropTypes.string,
+//   body: PropTypes.string
+// };
 
 Excerpt.defaultProps = {
   date: Date.now(),

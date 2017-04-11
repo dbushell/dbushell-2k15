@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import {Block, Star} from '../';
 
 const Hero = props => {
@@ -29,9 +29,9 @@ const Hero = props => {
   );
 };
 
-Hero.propTypes = {
-  heading: PropTypes.string
-};
+// Hero.propTypes = {
+//   heading: PropTypes.string
+// };
 
 Hero.defaultProps = {
   heading: 'David Bushell — Web Design & Front-end Development (based in Manchester, UK)'

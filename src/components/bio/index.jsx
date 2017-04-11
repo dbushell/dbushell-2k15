@@ -1,5 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import defaults from './defaults';
+// import PropTypes from 'prop-types';
 
 const Bio = props => {
   const attr = {
@@ -21,15 +22,15 @@ const Bio = props => {
   );
 };
 
-Bio.propTypes = {
-  imageSrc: PropTypes.string,
-  imageSrcset: PropTypes.string,
-  imageAlt: PropTypes.string,
-  title: PropTypes.string,
-  href: PropTypes.string,
-  text: PropTypes.string
-};
+// Bio.propTypes = {
+//   imageSrc: PropTypes.string,
+//   imageSrcset: PropTypes.string,
+//   imageAlt: PropTypes.string,
+//   title: PropTypes.string,
+//   href: PropTypes.string,
+//   text: PropTypes.string
+// };
 
-Bio.defaultProps = require('./defaults');
+Bio.defaultProps = defaults;
 
 export default Bio;

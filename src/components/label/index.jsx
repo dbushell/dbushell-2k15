@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const Label = props => {
   const attr = {
@@ -11,13 +11,13 @@ const Label = props => {
   );
 };
 
-Label.propTypes = {
-  text: PropTypes.string.isRequired,
-  field: PropTypes.string
-};
+// Label.propTypes = {
+//   text: PropTypes.string.isRequired,
+//   field: PropTypes.string
+// };
 
-Label.defaultProps = {
-  field: 'field'
-};
+// Label.defaultProps = {
+//   field: 'field'
+// };
 
 export default Label;

@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import container from '../';
 import {Block, Post} from '../../components';
 
@@ -21,11 +21,11 @@ const Page = props => {
   );
 };
 
-Page.propTypes = {
-  pageHeading: PropTypes.string,
-  innerHTML: PropTypes.string,
-  children: PropTypes.node
-};
+// Page.propTypes = {
+//   pageHeading: PropTypes.string,
+//   innerHTML: PropTypes.string,
+//   children: PropTypes.node
+// };
 
 Page.defaultProps = {
   pageHeading: 'Page',

@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import {Button} from '../../components';
 
 const Cta = props => {
@@ -15,12 +15,12 @@ const Cta = props => {
   );
 };
 
-Cta.propTypes = {
-  title: PropTypes.string,
-  paragraph: PropTypes.string,
-  link: PropTypes.string,
-  href: PropTypes.string
-};
+// Cta.propTypes = {
+//   title: PropTypes.string,
+//   paragraph: PropTypes.string,
+//   link: PropTypes.string,
+//   href: PropTypes.string
+// };
 
 Cta.defaultProps = {
   title: 'Get a free quote…',

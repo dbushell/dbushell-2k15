@@ -1,8 +1,8 @@
-import fs from 'fs';
-import path from 'path';
+// import fs from 'fs';
+// import path from 'path';
 import React from 'react';
-import PropTypes from 'prop-types';
-import ReactDOMServer from 'react-dom/server';
+// import PropTypes from 'prop-types';
+// import ReactDOMServer from 'react-dom/server';
 import {Block, Bio, Blog, Small} from '../';
 
 const Footer = props => {
@@ -28,10 +28,10 @@ const Footer = props => {
   );
 };
 
-Footer.propTypes = {
-  isHirable: PropTypes.bool,
-  blogItems: PropTypes.array
-};
+// Footer.propTypes = {
+//   isHirable: PropTypes.bool,
+//   blogItems: PropTypes.array
+// };
 
 Footer.defaultProps = {
   isHirable: true,
@@ -40,12 +40,12 @@ Footer.defaultProps = {
 
 export default Footer;
 
-let blogDefaults = null;
+// let blogDefaults = null;
 
-export function renderFooter(props = {}) {
-  try {
-    blogDefaults = blogDefaults || fs.readFileSync(path.join(process.cwd(), '/src/components/blog/defaults.json'), 'utf8');
-    props.blogItems = JSON.parse(blogDefaults).items;
-  } catch (err) {}
-  return ReactDOMServer.renderToStaticMarkup(<Footer {...props}/>);
-}
+// export function renderFooter(props = {}) {
+//   try {
+//     blogDefaults = blogDefaults || fs.readFileSync(path.join(process.cwd(), '/src/components/blog/defaults.json'), 'utf8');
+//     props.blogItems = JSON.parse(blogDefaults).items;
+//   } catch (err) {}
+//   return ReactDOMServer.renderToStaticMarkup(<Footer {...props}/>);
+// }

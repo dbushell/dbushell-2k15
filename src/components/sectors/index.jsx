@@ -1,7 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import {Block} from '../';
 import Sector from '../sector';
+import defaults from './defaults';
 
 const Sectors = ({items}) => {
   return (
@@ -20,12 +21,12 @@ const Sectors = ({items}) => {
   );
 };
 
-Sectors.propTypes = {
-  items: PropTypes.arrayOf(
-    PropTypes.shape({...Sector.propTypes})
-  )
-};
+// Sectors.propTypes = {
+//   items: PropTypes.arrayOf(
+//     PropTypes.shape({...Sector.propTypes})
+//   )
+// };
 
-Sectors.defaultProps = require('./defaults');
+Sectors.defaultProps = defaults;
 
 export default Sectors;

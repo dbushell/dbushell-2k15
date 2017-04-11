@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import container from '../';
 import * as P from '../../components';
 
@@ -42,9 +42,9 @@ const Patterns = props => {
   );
 };
 
-Patterns.propTypes = {
-  pageHeading: PropTypes.string
-};
+// Patterns.propTypes = {
+//   pageHeading: PropTypes.string
+// };
 
 Patterns.defaultProps = {
   pageHeading: 'Pattern Library'

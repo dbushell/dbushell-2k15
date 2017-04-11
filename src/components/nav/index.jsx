@@ -1,7 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import ReactDOMServer from 'react-dom/server';
+// import PropTypes from 'prop-types';
+// import ReactDOMServer from 'react-dom/server';
 import {Icon} from '../';
+import defaults from './defaults';
 
 const Nav = props => {
   return (
@@ -38,22 +39,22 @@ const Nav = props => {
   );
 };
 
-Nav.propTypes = {
-  heading: PropTypes.string,
-  items: PropTypes.arrayOf(
-    PropTypes.shape({
-      order: PropTypes.number.isRequired,
-      text: PropTypes.string.isRequired,
-      href: PropTypes.string.isRequired,
-      priority: PropTypes.number.isRequired
-    })
-  )
-};
+// Nav.propTypes = {
+//   heading: PropTypes.string,
+//   items: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       order: PropTypes.number.isRequired,
+//       text: PropTypes.string.isRequired,
+//       href: PropTypes.string.isRequired,
+//       priority: PropTypes.number.isRequired
+//     })
+//   )
+// };
 
-Nav.defaultProps = require('./defaults');
+Nav.defaultProps = defaults;
 
 export default Nav;
 
-export function renderNav(props) {
-  return ReactDOMServer.renderToStaticMarkup(<Nav {...props}/>);
-}
+// export function renderNav(props) {
+//   return ReactDOMServer.renderToStaticMarkup(<Nav {...props}/>);
+// }

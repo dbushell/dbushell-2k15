@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import container from '../';
 import {formatTitle} from '../../build/helpers';
 import {Block, Cta, Time, Newsletter, Post} from '../../components';
@@ -41,12 +41,12 @@ const Article = props => {
   );
 };
 
-Article.propTypes = {
-  dateUnix: PropTypes.number,
-  pageHeading: PropTypes.string,
-  html: PropTypes.string,
-  portfolio: PropTypes.bool
-};
+// Article.propTypes = {
+//   dateUnix: PropTypes.number,
+//   pageHeading: PropTypes.string,
+//   html: PropTypes.string,
+//   portfolio: PropTypes.bool
+// };
 
 Article.defaultProps = {
   pageHeading: 'Untitled',

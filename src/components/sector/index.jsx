@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import {Button, Star} from '../';
 
 const Sector = props => {
@@ -32,17 +32,17 @@ const Sector = props => {
   );
 };
 
-Sector.propTypes = {
-  alt: PropTypes.bool,
-  rtl: PropTypes.bool,
-  heading: PropTypes.string.isRequired,
-  subheading: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  button: PropTypes.shape({
-    text: PropTypes.string,
-    href: PropTypes.string
-  })
-};
+// Sector.propTypes = {
+//   alt: PropTypes.bool,
+//   rtl: PropTypes.bool,
+//   heading: PropTypes.string.isRequired,
+//   subheading: PropTypes.string.isRequired,
+//   description: PropTypes.string.isRequired,
+//   button: PropTypes.shape({
+//     text: PropTypes.string,
+//     href: PropTypes.string
+//   })
+// };
 
 Sector.defaultProps = {
   alt: false,

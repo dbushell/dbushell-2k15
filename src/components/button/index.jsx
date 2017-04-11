@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 /**
  * ButtonLabel
@@ -11,13 +11,13 @@ export const ButtonLabel = props => {
   );
 };
 
-ButtonLabel.propTypes = {
-  children: PropTypes.node
-};
+// ButtonLabel.propTypes = {
+//   children: PropTypes.node
+// };
 
-ButtonLabel.defaultProps = {
-  children: null
-};
+// ButtonLabel.defaultProps = {
+//   children: null
+// };
 
 /**
  * Button
@@ -46,14 +46,14 @@ const Button = props => {
   return button;
 };
 
-Button.propTypes = {
-  text: PropTypes.string.isRequired,
-  href: PropTypes.string,
-  submit: PropTypes.bool,
-  bg1: PropTypes.bool,
-  bg2: PropTypes.bool,
-  shadow: PropTypes.bool
-};
+// Button.propTypes = {
+//   text: PropTypes.string.isRequired,
+//   href: PropTypes.string,
+//   submit: PropTypes.bool,
+//   bg1: PropTypes.bool,
+//   bg2: PropTypes.bool,
+//   shadow: PropTypes.bool
+// };
 
 Button.defaultProps = {
   text: 'Button'

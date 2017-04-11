@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const Small = props => {
   return (
@@ -7,12 +7,12 @@ const Small = props => {
   );
 };
 
-Small.propTypes = {
-  children: PropTypes.node
-};
+// Small.propTypes = {
+//   children: PropTypes.node
+// };
 
-Small.defaultProps = {
-  children: null
-};
+// Small.defaultProps = {
+//   children: null
+// };
 
 export default Small;

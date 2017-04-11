@@ -1,5 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import defaults from './defaults';
+// import PropTypes from 'prop-types';
 import {Block} from '../';
 import Button from '../button';
 
@@ -25,17 +26,17 @@ const Clients = props => {
   );
 };
 
-Clients.propTypes = {
-  heading: PropTypes.string,
-  button: PropTypes.shape({...Button.propTypes}),
-  blockquotes: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.any,
-    quotation: PropTypes.string,
-    cite: PropTypes.string,
-    href: PropTypes.string
-  }))
-};
+// Clients.propTypes = {
+//   heading: PropTypes.string,
+//   button: PropTypes.shape({...Button.propTypes}),
+//   blockquotes: PropTypes.arrayOf(PropTypes.shape({
+//     id: PropTypes.any,
+//     quotation: PropTypes.string,
+//     cite: PropTypes.string,
+//     href: PropTypes.string
+//   }))
+// };
 
-Clients.defaultProps = require('./defaults');
+Clients.defaultProps = defaults;
 
 export default Clients;

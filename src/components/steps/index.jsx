@@ -1,7 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import {Block} from '../';
 import Button from '../button';
+import defaults from './defaults';
 
 const Steps = props => {
   const items = [];
@@ -30,15 +31,15 @@ const Steps = props => {
   );
 };
 
-Steps.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.shape({
-    href: PropTypes.string,
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    button: PropTypes.shape({...Button.propTypes})
-  }))
-};
+// Steps.propTypes = {
+//   items: PropTypes.arrayOf(PropTypes.shape({
+//     href: PropTypes.string,
+//     heading: PropTypes.string,
+//     description: PropTypes.string,
+//     button: PropTypes.shape({...Button.propTypes})
+//   }))
+// };
 
-Steps.defaultProps = require('./defaults');
+Steps.defaultProps = defaults;
 
 export default Steps;
