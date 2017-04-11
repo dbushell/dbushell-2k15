@@ -11,7 +11,7 @@ const Bio = props => {
   return (
     <section {...attr}>
       <div className="b-bio__image">
-        <img src={props.imageSrc} alt={props.imageAlt}/>
+        <img src={props.imageSrc} srcSet={props.imageSrcset} alt={props.imageAlt}/>
       </div>
       <div className="b-bio__main">
         <h3 itemProp="name"><a href={props.href}>{props.title}</a></h3>
@@ -23,6 +23,7 @@ const Bio = props => {
 
 Bio.propTypes = {
   imageSrc: PropTypes.string,
+  imageSrcset: PropTypes.string,
   imageAlt: PropTypes.string,
   title: PropTypes.string,
   href: PropTypes.string,

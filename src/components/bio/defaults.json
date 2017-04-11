@@ -1,5 +1,6 @@
 {
-  "imageSrc": "/assets/img/me3.jpg",
+  "imageSrc": "/assets/img/me3@1x.jpg",
+  "imageSrcset": "/assets/img/me3@1x.jpg 1x, /assets/img/me3@2x.jpg 2x",
   "imageAlt": "David Bushell",
   "title": "David Bushell",
   "href": "/about/",
