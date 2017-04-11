@@ -68,15 +68,15 @@ export function archives(articles) {
 }
 
 export async function blog() {
-  // get articles
+  // Get articles
   const articles = await getArticles(global.DBUSHELL.__bSrc);
-  // write recent articles data
+  // Write recent articles data
   process.stdout.write(`${updateFlag}recent articles data\n`);
   await recent(articles.slice(-6).reverse());
-  // write blog archive pages
+  // Write blog archive pages
   await archives(articles.slice().reverse());
   process.stdout.write(`${publishFlag}blog archives\n`);
-  // render all articles
+  // Render all articles
   const published = [];
   articles.forEach(props => {
     published.push(publish(Article, props));

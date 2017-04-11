@@ -62,7 +62,6 @@ Handlebars.registerHelper('inlineAsset', href => {
  * Get full URL with domain and protocol.
  */
 Handlebars.registerHelper('siteURL', (url, context) => {
-  // const siteRoot = context.data.root.siteRoot;
   const {siteRoot, siteProtocol} = context.data.root;
   if (typeof url !== 'string') {
     return `${siteProtocol}//${siteRoot}/`;
@@ -90,7 +89,7 @@ Handlebars.registerHelper('pageTitle', context => {
  */
 export function render(context) {
   context = merge(cloneDeep(global.DBUSHELL), context || {});
-  // remove node specific data
+  // Remove node specific data
   for (const k of Object.keys(context)) {
     if (k.startsWith('__')) {
       delete context[k];

@@ -69,7 +69,7 @@ async function parseDirSync(dirPath) {
 }
 
 module.exports = {
-  parseFile: parseFile,
-  parseDir: parseDir,
-  parseDirSync: parseDirSync
+  parseFile,
+  parseDir,
+  parseDirSync
 };

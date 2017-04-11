@@ -38,11 +38,11 @@ export function processArticle(matter) {
   const props = merge({}, matter.attributes);
   props.body = matter.body;
   props.pageHeading = props.title;
-  // generate dates
+  // Generate dates
   const date = moment(props.date);
   props.dateUnix = date.valueOf();
   props.dateFormatted = date.format('dddd D MMM Y');
-  // generate href
+  // Generate href
   props.pagePath = path.join(
     '/',
     date.format('Y'),
@@ -51,7 +51,7 @@ export function processArticle(matter) {
     props.slug,
     '/'
   );
-  // generate HTML and excerpt
+  // Generate HTML and excerpt
   props.html = markdown(props.body);
   props.excerpt = striptags(props.html);
   const words = props.excerpt.split(' ');
@@ -65,11 +65,11 @@ export function processArticle(matter) {
  * Read and process blog articles
  */
 export async function getArticles(src) {
-  // read articles
+  // Read articles
   let articles = await parseDirSync(src);
-  // setup props
+  // Setup props
   articles = articles.map(processArticle);
-  // orrder by oldest first
+  // Orrder by oldest first
   articles.sort((a, b) => {
     return new Date(a.dateUnix).getTime() > new Date(b.dateUnix).getTime() ? 1 : -1;
   });

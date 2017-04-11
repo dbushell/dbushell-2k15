@@ -6,7 +6,7 @@ describe('Button component', () => {
   it(`renders submit variant`, () => {
     expect(
       outerHTML(
-        <Button text="Submit" submit/>
+        <Button submit text="Submit"/>
       )
     ).toMatchSnapshot();
   });
