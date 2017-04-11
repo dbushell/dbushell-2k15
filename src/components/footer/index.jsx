@@ -20,7 +20,7 @@ const Footer = props => {
       <Block>
         <Bio/>
         {props.isHirable ? hire : <hr/>}
-        <Blog items={props.blogItems}/>
+        <Blog/>
         <hr/>
         <Small>Copyright &copy; {(new Date()).getFullYear()} <a href="/">David Bushell</a></Small>
       </Block>
@@ -34,8 +34,7 @@ const Footer = props => {
 // };
 
 Footer.defaultProps = {
-  isHirable: true,
-  blogItems: []
+  isHirable: true
 };
 
 export default Footer;

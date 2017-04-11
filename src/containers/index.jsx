@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOMServer from 'react-dom/server';
-import {renderFooter} from '../components/footer';
-import {renderNav} from '../components/nav';
+import {Footer, Nav} from '../components';
 
 function createContainer(Contained, config = {}) {
   class Container extends Component {
@@ -9,21 +8,19 @@ function createContainer(Contained, config = {}) {
       return <Contained {...this.props}/>;
     }
     static renderBody(el) {
-      const footerFn = typeof config.renderFooter === 'function' ?
-        config.renderFooter : renderFooter;
-      const navFn = typeof config.renderNav === 'function' ?
-        config.renderNav : renderNav;
+      const footerProps = {...(config.footerProps || {})};
+      const navProps = {...(config.navProps || {})};
       return `
 ${ReactDOMServer.renderToStaticMarkup(el)}
-${footerFn()}
-${navFn()}
+${ReactDOMServer.renderToStaticMarkup(<Footer {...footerProps}/>)}
+${ReactDOMServer.renderToStaticMarkup(<Nav {...navProps}/>)}
 `;
     }
   }
 
   Container.displayName = Contained.displayName || Contained.name || 'Component';
-  // Container.propTypes = Contained.propTypes;
   Container.defaultProps = Contained.defaultProps;
+  // Container.propTypes = Contained.propTypes;
 
   return Container;
 }

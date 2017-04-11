@@ -2,7 +2,6 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 import container from '../';
 import {Button, Block, Field, Label, Post} from '../../components';
-import {renderFooter} from '../../components/footer';
 
 const Contact = props => {
   return (
@@ -59,5 +58,5 @@ Contact.defaultProps = {
 };
 
 export default container(Contact, {
-  renderFooter: () => renderFooter({isHirable: false})
+  footerProps: {isHirable: false}
 });
