@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {Button} from '../../components';
 
 const Cta = props => {
@@ -9,7 +10,7 @@ const Cta = props => {
     <div className="b-boxed b-boxed--dark u-dark">
       <h3>{props.title}</h3>
       <p dangerouslySetInnerHTML={paragraph()}/>
-      <Button href={props.href} text={props.link} bg1/>
+      <Button bg1 href={props.href} text={props.link}/>
     </div>
   );
 };

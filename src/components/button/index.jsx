@@ -1,7 +1,8 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 /**
- * button__label
+ * ButtonLabel
  */
 
 export const ButtonLabel = props => {
@@ -14,8 +15,12 @@ ButtonLabel.propTypes = {
   children: PropTypes.node
 };
 
+ButtonLabel.defaultProps = {
+  children: null
+};
+
 /**
- * button
+ * Button
  */
 
 const Button = props => {
@@ -48,6 +53,10 @@ Button.propTypes = {
   bg1: PropTypes.bool,
   bg2: PropTypes.bool,
   shadow: PropTypes.bool
+};
+
+Button.defaultProps = {
+  text: 'Button'
 };
 
 export default Button;

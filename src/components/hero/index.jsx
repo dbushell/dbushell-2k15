@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {Block, Star} from '../';
 
 const Hero = props => {
@@ -11,9 +12,9 @@ const Hero = props => {
         </div>
         <div className="c-hero__burst"/>
         <div className="c-hero__crane"/>
-        <Star id="star" blink/>
-        <Star id="burst" blink/>
-        <Star id="star" blink/>
+        <Star blink id="star"/>
+        <Star blink id="burst"/>
+        <Star blink id="star"/>
       </Block>
       <div className="c-hero__bg">
         <div>

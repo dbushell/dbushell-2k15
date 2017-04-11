@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import moment from 'moment';
 
 const Time = props => {
@@ -16,6 +17,10 @@ const Time = props => {
 
 Time.propTypes = {
   date: PropTypes.number
+};
+
+Time.defaultProps = {
+  date: 946598400000
 };
 
 export default Time;

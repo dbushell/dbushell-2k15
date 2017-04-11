@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import ReactDOMServer from 'react-dom/server';
 import {Block, Bio, Blog, Small} from '../';
 
@@ -33,7 +34,8 @@ Footer.propTypes = {
 };
 
 Footer.defaultProps = {
-  isHirable: true
+  isHirable: true,
+  blogItems: []
 };
 
 export default Footer;

@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import container from '../';
 import {Button, Block, Field, Label, Post} from '../../components';
 import {renderFooter} from '../../components/footer';
@@ -31,7 +32,7 @@ const Contact = props => {
                   <h4><strong>Have a project in mind?</strong></h4>
                   <p className="p--small">I can provide a <b>free quote.</b> Please provide as much detail as possible — budget, requirements, timelines — so I can answer you quickly. If I’m not available now we can book in advance.</p>
                   <Label field="contact-enquiry" text="Enquiry"/>
-                  <textarea className="e-field e-field--area" id="contact-enquiry" name="enquiry" rows="5" required/>
+                  <textarea required className="e-field e-field--area" id="contact-enquiry" name="enquiry" rows="5"/>
                 </li>
                 <li className="b-form__item u-vh">
                   <Label field="contact-human" text="If you’re human leave the next field blank!"/>

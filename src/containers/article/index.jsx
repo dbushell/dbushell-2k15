@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import container from '../';
 import {formatTitle} from '../../build/helpers';
 import {Block, Cta, Time, Newsletter, Post} from '../../components';

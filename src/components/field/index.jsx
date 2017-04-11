@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Field = props => {
   const attr = {
@@ -18,7 +19,10 @@ Field.propTypes = {
 };
 
 Field.defaultProps = {
+  id: 'field',
   type: 'text',
+  value: '',
+  placeholder: '',
   required: true
 };
 

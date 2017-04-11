@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Small = props => {
   return (
@@ -8,6 +9,10 @@ const Small = props => {
 
 Small.propTypes = {
   children: PropTypes.node
+};
+
+Small.defaultProps = {
+  children: null
 };
 
 export default Small;
