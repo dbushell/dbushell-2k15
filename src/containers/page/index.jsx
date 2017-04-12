@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import container from '../';
 import {Block, Post} from '../../components';
 
@@ -28,9 +27,7 @@ const Page = props => {
 // };
 
 Page.defaultProps = {
-  pageHeading: 'Page',
-  innerHTML: '',
-  children: null
+  pageHeading: 'Page'
 };
 
 export default container(Page);

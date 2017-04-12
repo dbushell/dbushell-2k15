@@ -1,6 +1,6 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import {Block, Star} from '../';
+import defaults from './defaults';
 
 const Hero = props => {
   return (
@@ -29,12 +29,6 @@ const Hero = props => {
   );
 };
 
-// Hero.propTypes = {
-//   heading: PropTypes.string
-// };
-
-Hero.defaultProps = {
-  heading: 'David Bushell — Web Design & Front-end Development (based in Manchester, UK)'
-};
+Hero.defaultProps = defaults;
 
 export default Hero;

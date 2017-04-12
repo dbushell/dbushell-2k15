@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import {Button, Star} from '../';
 
 const Sector = props => {
@@ -45,8 +44,6 @@ const Sector = props => {
 // };
 
 Sector.defaultProps = {
-  alt: false,
-  rtl: false,
   heading: 'heading',
   subheading: 'subheading',
   description: 'desc',

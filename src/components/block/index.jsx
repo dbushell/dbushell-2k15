@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 
 const Block = props => {
   const classList = ['b-block'].concat(props.classList);
@@ -11,11 +10,6 @@ const Block = props => {
 // Block.propTypes = {
 //   children: PropTypes.node,
 //   classList: PropTypes.arrayOf(PropTypes.string)
-// };
-
-// Block.defaultProps = {
-//   children: null,
-//   classList: null
 // };
 
 export default Block;

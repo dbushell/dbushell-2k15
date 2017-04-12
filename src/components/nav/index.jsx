@@ -1,6 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-// import ReactDOMServer from 'react-dom/server';
 import {Icon} from '../';
 import defaults from './defaults';
 
@@ -54,7 +52,3 @@ const Nav = props => {
 Nav.defaultProps = defaults;
 
 export default Nav;
-
-// export function renderNav(props) {
-//   return ReactDOMServer.renderToStaticMarkup(<Nav {...props}/>);
-// }

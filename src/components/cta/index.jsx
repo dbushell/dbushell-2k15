@@ -1,6 +1,6 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import {Button} from '../../components';
+import defaults from './defaults';
 
 const Cta = props => {
   const paragraph = () => ({
@@ -22,12 +22,7 @@ const Cta = props => {
 //   href: PropTypes.string
 // };
 
-Cta.defaultProps = {
-  title: 'Get a free quote…',
-  paragraph: 'Interested in working with me? <a href="/contact/">Send me an email</a> with your requirements and I’ll happily provide a free quote and let you know my availability.',
-  link: 'Get in touch',
-  href: '/contact/'
-};
+Cta.defaultProps = defaults;
 
 export default Cta;
 

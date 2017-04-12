@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import container from '../';
 import {Block, Excerpt, Post} from '../../components';
 
@@ -48,10 +47,7 @@ const Archive = props => {
 // };
 
 Archive.defaultProps = {
-  pageHeading: 'Blog',
-  nextPage: '',
-  prevPage: '',
-  excerpts: null
+  pageHeading: 'Blog'
 };
 
 export default container(Archive);

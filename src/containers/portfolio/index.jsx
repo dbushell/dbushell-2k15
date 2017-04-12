@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import container from '../';
 import {Block, Post} from '../../components';
 

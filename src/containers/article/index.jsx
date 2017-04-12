@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import container from '../';
 import {formatTitle} from '../../build/helpers';
 import {Block, Cta, Time, Newsletter, Post} from '../../components';
@@ -50,9 +49,7 @@ const Article = props => {
 
 Article.defaultProps = {
   pageHeading: 'Untitled',
-  dateUnix: Date.now(),
-  html: 'End of file.',
-  portfolio: false
+  dateUnix: Date.now()
 };
 
 export default container(Article);

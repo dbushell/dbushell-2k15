@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import {Time} from '../';
 
 const Excerpt = props => {
@@ -30,10 +29,8 @@ const Excerpt = props => {
 // };
 
 Excerpt.defaultProps = {
-  date: Date.now(),
   title: 'Untitled',
-  href: '#',
-  body: ''
+  date: Date.now()
 };
 
 export default Excerpt;

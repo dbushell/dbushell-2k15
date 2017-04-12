@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 
 /**
  * ButtonLabel
@@ -10,14 +9,6 @@ export const ButtonLabel = props => {
     <span className="e-button__label">{props.children}</span>
   );
 };
-
-// ButtonLabel.propTypes = {
-//   children: PropTypes.node
-// };
-
-// ButtonLabel.defaultProps = {
-//   children: null
-// };
 
 /**
  * Button

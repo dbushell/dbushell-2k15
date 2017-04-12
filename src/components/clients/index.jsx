@@ -1,6 +1,5 @@
 import React from 'react';
 import defaults from './defaults';
-// import PropTypes from 'prop-types';
 import {Block} from '../';
 import Button from '../button';
 
