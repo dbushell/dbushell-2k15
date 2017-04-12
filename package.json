@@ -13,7 +13,7 @@
     "lint": "./node_modules/.bin/xo",
     "test": "./node_modules/.bin/jest --config=./src/__tests__/jest.json",
     "test-update": "./node_modules/.bin/jest --config=./src/__tests__/jest.json --updateSnapshot",
-    "rollup": "./node_modules/.bin/rollup -c && uglifyjs dbushell.github.io/assets/js/app.js -o dbushell.github.io/assets/js/app.min.js",
+    "rollup": "./node_modules/.bin/rollup -c && uglifyjs dbushell.github.io/assets/js/app.js -c collapse_vars,evaluate,screw_ie8,unsafe,loops=false,keep_fargs=false,pure_getters,unused,dead_code -m -o dbushell.github.io/assets/js/app.min.js",
     "start": "./node_modules/.bin/browser-sync start --server=dbushell.github.io --no-notify",
     "sass-main": "./node_modules/.bin/node-sass --output-style=compressed ./src/scss/main.scss ./dbushell.github.io/assets/css/main.css",
     "sass-all": "./node_modules/.bin/node-sass --output-style=compressed ./src/scss/all.scss ./dbushell.github.io/assets/css/all.css",
