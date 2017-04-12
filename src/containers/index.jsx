@@ -20,7 +20,7 @@ ${ReactDOMServer.renderToStaticMarkup(<Nav {...navProps}/>)}
 
   Container.displayName = Contained.displayName || Contained.name || 'Component';
   Container.defaultProps = Contained.defaultProps;
-  // Container.propTypes = Contained.propTypes;
+  Container.propTypes = Contained.propTypes;
 
   return Container;
 }

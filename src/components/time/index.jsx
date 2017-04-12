@@ -1,15 +1,25 @@
 import React from 'react';
-import moment from 'moment';
+
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const abbrMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 const Time = props => {
-  const time = moment(props.date);
+  const date = new Date(props.date);
   const attr = {
     className: 'time',
-    dateTime: time.toISOString()
+    dateTime: date.toISOString()
+  };
+  const time = {
+    dddd: days[date.getDay()],
+    D: date.getDate(),
+    MMMM: months[date.getMonth()],
+    MMM: abbrMonths[date.getMonth()],
+    Y: date.getFullYear()
   };
   return (
     <time {...attr}>
-      {time.format('dddd')} <b>{time.format('D')} <abbr title={time.format('MMMM')}>{time.format('MMM')}</abbr> {time.format('Y')}</b>
+      {time.dddd} <b>{time.D} <abbr title={time.MMMM}>{time.MMM}</abbr> {time.Y}</b>
     </time>
   );
 };
