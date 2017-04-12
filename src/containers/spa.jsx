@@ -18,6 +18,9 @@ class Root extends Component {
       </div>
     );
   }
+  componentDidMount() {
+    window.appMounted();
+  }
 }
 
-ReactDOM.render(<Root/>, document.getElementById('root'));
+ReactDOM.render(<Root/>, document.querySelector('body'));
