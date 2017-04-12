@@ -19,7 +19,6 @@ global.DBUSHELL = {
   siteProtocol: 'https:',
   siteRoot: 'dbushell.com',
   siteName: 'David Bushell – Web Design (UK)',
-  siteNameLong: 'David Bushell – Web Design & Front-end Development (based in Manchester, UK)',
   siteDesc: 'David Bushell make websites. I help small businesses, start-ups, individuals, and fellow web agencies make the most of their web presence.',
   pageCSS: '/assets/css/main.post.css',
   pagePath: '/',
@@ -27,14 +26,29 @@ global.DBUSHELL = {
   pageTemplate: 'index'
 };
 
+global.DBUSHELL.__Config.pages.forEach(props => {
+  props.__src = path.join(
+    global.DBUSHELL.__Src,
+    props.pagePath.replace(/\/$/, '.md')
+  );
+});
+
+global.DBUSHELL.__pConfig.pages.forEach(props => {
+  const match = props.pagePath.match(/[\w-]+\/([\w-]+)\/$/);
+  props.__src = path.join(
+    global.DBUSHELL.__pSrc,
+     `${match[1]}.md`
+  );
+});
+
 // Helpers
 const md2HTML = require('./helpers').md2HTML;
 const container = require('./container');
 
 // Tasks
 const publish = require('./template').publish;
-const buildBlog = require('./blog').blog;
-const buildFeeds = require('./feeds').publish;
+const buildBlog = require('./blog');
+const buildFeeds = require('./feeds');
 const updateServiceWorker = require('./sw');
 
 // Page container classes
@@ -63,8 +77,7 @@ function buildPages() {
   global.DBUSHELL.__Config.pages.forEach(props => queue.push(
     publish(PageContainer, {
       ...props,
-      pagePath: props.slug,
-      innerHTML: md2HTML(path.join(global.DBUSHELL.__Src, `${props.slug}.md`))
+      innerHTML: md2HTML(props.__src)
     })
   ));
   return Promise.all(queue);
@@ -83,9 +96,7 @@ function buildPortfolio() {
   global.DBUSHELL.__pConfig.pages.forEach(props => queue.push(
     publish(PageContainer, {
       ...props,
-      pageHeading: props.pageHeading,
-      pagePath: `/showcase/${props.slug}/`,
-      innerHTML: md2HTML(path.join(global.DBUSHELL.__pSrc, `${props.slug}.md`))
+      innerHTML: md2HTML(props.__src)
     })
   ));
   return Promise.all(queue);
@@ -136,7 +147,8 @@ export async function build() {
   if (argv.home || argv.all) {
     await publish(HomeContainer, {
       pagePath: '/',
-      pageCSS: '/assets/css/all.post.css'
+      pageCSS: '/assets/css/all.post.css',
+      pageHeading: HomeContainer.defaultProps.pageHeading
     });
   }
   // Write RSS and Sitemap XML

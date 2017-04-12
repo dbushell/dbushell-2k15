@@ -2,63 +2,63 @@
   "pages": [
     {
       "pageHeading": "Atherton Cox",
-      "slug": "atherton-cox"
+      "pagePath": "/showcase/atherton-cox/"
     },
     {
       "pageHeading": "Brucar",
-      "slug": "brucar"
+      "pagePath": "/showcase/brucar/"
     },
     {
       "pageHeading": "Digital Legibility",
-      "slug": "digital-legibility"
+      "pagePath": "/showcase/digital-legibility/"
     },
     {
       "pageHeading": "Eden Anglo French",
-      "slug": "eden-anglo-french"
+      "pagePath": "/showcase/eden-anglo-french/"
     },
     {
       "pageHeading": "Fountain Dental",
-      "slug": "fountain-dental"
+      "pagePath": "/showcase/fountain-dental/"
     },
     {
       "pageHeading": "Machinal",
-      "slug": "machinal"
+      "pagePath": "/showcase/machinal/"
     },
     {
       "pageHeading": "My Life Listed",
-      "slug": "my-life-listed"
+      "pagePath": "/showcase/my-life-listed/"
     },
     {
       "pageHeading": "Origami Unfolded",
-      "slug": "origami-unfolded"
+      "pagePath": "/showcase/origami-unfolded/"
     },
     {
       "pageHeading": "Peerless AV Europe",
-      "slug": "peerless-av-europe"
+      "pagePath": "/showcase/peerless-av-europe/"
     },
     {
       "pageHeading": "Seized",
-      "slug": "seized"
+      "pagePath": "/showcase/seized/"
     },
     {
       "pageHeading": "Shane Global",
-      "slug": "shane-global"
+      "pagePath": "/showcase/shane-global/"
     },
     {
       "pageHeading": "Silk",
-      "slug": "silk"
+      "pagePath": "/showcase/silk/"
     },
     {
       "pageHeading": "Space Opera",
-      "slug": "space-opera"
+      "pagePath": "/showcase/space-opera/"
     },
     {
       "pageHeading": "Tamed Aggression",
-      "slug": "tamed-aggression"
+      "pagePath": "/showcase/tamed-aggression/"
     },
     {
       "pageHeading": "The Last Egg",
-      "slug": "the-last-egg"
+      "pagePath": "/showcase/the-last-egg/"
     }
   ]
 }

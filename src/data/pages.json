@@ -2,43 +2,43 @@
   "pages": [
     {
       "pageHeading": "Connectivity Issues!",
-      "slug": "offline"
+      "pagePath": "/offline/"
     },
     {
       "pageHeading": "About David Bushell",
-      "slug": "about"
+      "pagePath": "/about/"
     },
     {
       "pageHeading": "Working with Agencies",
-      "slug": "working-with-agencies"
+      "pagePath": "/working-with-agencies/"
     },
     {
       "pageHeading": "Your Website",
-      "slug": "working-with-clients"
+      "pagePath": "/working-with-clients/"
     },
     {
       "pageHeading": "WordPress & CMS",
-      "slug": "wordpress-and-cms-integration"
+      "pagePath": "/wordpress-and-cms-integration/"
     },
     {
       "pageHeading": "Table of Contents",
-      "slug": "table-of-contents"
+      "pagePath": "/table-of-contents/"
     },
     {
       "pageHeading": "Responsive Design",
-      "slug": "responsive-design"
+      "pagePath": "/responsive-design/"
     },
     {
       "pageHeading": "Front-end Development",
-      "slug": "front-end-development"
+      "pagePath": "/front-end-development/"
     },
     {
       "pageHeading": "Services",
-      "slug": "services"
+      "pagePath": "/services/"
     },
     {
       "pageHeading": "Process & Strategy",
-      "slug": "process-and-strategy"
+      "pagePath": "/process-and-strategy/"
     }
   ]
 }

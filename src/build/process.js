@@ -32,31 +32,35 @@ export function markdown(md) {
  * Process parsed front matter JSON to JSX props.
  */
 export function processArticle(matter) {
-  if (!matter) {
+  if (!matter || matter.attributes.draft) {
     return;
   }
-  const props = merge({}, matter.attributes);
-  props.body = matter.body;
-  props.pageHeading = props.title;
-  // Generate dates
-  const date = moment(props.date);
+  const props = {};
+  props.__src = matter.__src;
+  const date = moment(matter.attributes.date);
   props.dateUnix = date.valueOf();
   props.dateFormatted = date.format('dddd D MMM Y');
-  // Generate href
+  props.pageHeading = matter.attributes.title;
   props.pagePath = path.join(
     '/',
     date.format('Y'),
     date.format('MM'),
     date.format('DD'),
-    props.slug,
+    matter.attributes.slug,
     '/'
   );
   // Generate HTML and excerpt
-  props.html = markdown(props.body);
-  props.excerpt = striptags(props.html);
-  const words = props.excerpt.split(' ');
+  props.innerHTML = markdown(matter.body);
+  props.pageExcerpt = striptags(props.innerHTML);
+  const words = props.pageExcerpt.split(' ');
   if (words.length >= 55) {
-    props.excerpt = `${words.slice(0, 55).join(' ')} […]`;
+    props.pageExcerpt = `${words.slice(0, 55).join(' ')} […]`;
+  }
+  if (matter.attributes.portfolio) {
+    props.portfolio = true;
+  }
+  if (matter.attributes.pageDesc) {
+    props.pageDesc = matter.attributes.pageDesc;
   }
   return props;
 }

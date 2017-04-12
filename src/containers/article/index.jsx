@@ -29,7 +29,7 @@ const Article = props => {
     return {__html: format(props.pageHeading)};
   };
   const body = () => {
-    return {__html: props.html};
+    return {__html: props.innerHTML};
   };
   const date = () => {
     if (!props.portfolio) {

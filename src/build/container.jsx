@@ -18,7 +18,7 @@ ${ReactDOMServer.renderToStaticMarkup(<Nav {...navProps}/>)}
     }
   }
 
-  Container.displayName = Contained.displayName || Contained.name || 'Component';
+  Container.displayName = (Contained.displayName || Contained.name || 'Component') + 'Container';
   Container.defaultProps = Contained.defaultProps;
   Container.propTypes = Contained.propTypes;
 

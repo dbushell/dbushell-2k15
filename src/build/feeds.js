@@ -25,15 +25,15 @@ const sitemapEntryTmp = compile('/src/templates/partials/sitemap-entry.xml');
 const rssTmp = compile('/src/templates/rss.xml');
 const rssEntryTmp = compile('/src/templates/partials/rss-entry.xml');
 
-export function loc(href) {
+function loc(href) {
   return `${DBUSHELL.siteProtocol}//${path.join(DBUSHELL.siteRoot, href)}`;
 }
 
-export function lastmod(filePath, isAbs) {
+function lastmod(filePath, isAbs) {
   return fs.statSync(isAbs ? filePath : path.join(process.cwd(), filePath)).mtime;
 }
 
-export function publish() {
+export default function feeds() {
   const sitemapPath = path.join(DBUSHELL.__dest, 'sitemap.xml');
   const rssPath = path.join(DBUSHELL.__dest, 'rss.xml');
   fs.removeSync(sitemapPath);
@@ -56,12 +56,12 @@ export function publish() {
     });
 
     DBUSHELL.__Config.pages.forEach(props => {
-      if (props.slug === 'offline') {
+      if (props.pagePath === '/offline/') {
         return;
       }
       entries.push({
-        loc: loc(`/${props.slug}/`),
-        lastmod: lastmod(path.join(DBUSHELL.__Src, `${props.slug}.md`), true).toISOString(),
+        loc: loc(props.pagePath),
+        lastmod: lastmod(props.__src, true).toISOString(),
         changefreq: 'weekly',
         priority: '0.8'
       });
@@ -76,8 +76,8 @@ export function publish() {
 
     DBUSHELL.__pConfig.pages.forEach(props => {
       entries.push({
-        loc: loc(`/showcase/${props.slug}/`),
-        lastmod: lastmod(path.join(DBUSHELL.__pSrc, `${props.slug}.md`), true).toISOString(),
+        loc: loc(props.pagePath),
+        lastmod: lastmod(props.__src, true).toISOString(),
         changefreq: 'monthly',
         priority: '0.7'
       });
@@ -103,7 +103,7 @@ export function publish() {
       rssItems.push({
         link: loc(props.pagePath),
         title: props.pageHeading,
-        description: props.excerpt,
+        description: props.pageExcerpt,
         pubDate: (new Date(props.dateUnix)).toGMTString()
       });
     });

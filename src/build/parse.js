@@ -19,7 +19,7 @@ function parseFile(filePath) {
         return;
       }
       const matter = frontMatter(data);
-      matter.attributes.__src = filePath;
+      matter.__src = filePath;
       resolve(matter);
     });
   });

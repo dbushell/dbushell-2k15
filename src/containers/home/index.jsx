@@ -13,5 +13,9 @@ const Home = () => {
   );
 };
 
+Home.defaultProps = {
+  pageHeading: 'David Bushell – Web Design & Front-end Development (based in Manchester, UK)'
+};
+
 export default Home;
 

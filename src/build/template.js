@@ -77,24 +77,31 @@ Handlebars.registerHelper('siteURL', (url, context) => {
  */
 Handlebars.registerHelper('pageTitle', context => {
   const data = context.data.root;
-  let pageTitle = data.siteNameLong;
-  if (data.pageHeading && typeof data.pageHeading === 'string') {
-    pageTitle = `${Handlebars.Utils.escapeExpression(data.pageHeading)} – ${data.siteName}`;
+  let pageTitle = data.pageHeading;
+  if (data.pagePath !== '/') {
+    pageTitle = `${data.pageHeading} – ${data.siteName}`;
   }
+  pageTitle = Handlebars.Utils.escapeExpression(pageTitle);
   return new Handlebars.SafeString(pageTitle);
 });
 
 /**
- * Render Handlebars template with context data.
+ * Remove private properties.
  */
-export function render(context) {
-  context = merge(cloneDeep(global.DBUSHELL), context || {});
-  // Remove node specific data
-  for (const k of Object.keys(context)) {
-    if (k.startsWith('__')) {
-      delete context[k];
+function removePrivate(obj) {
+  for (const key of Object.keys(obj)) {
+    if (key.startsWith('__')) {
+      delete obj[key];
     }
   }
+}
+
+/**
+ * Render Handlebars template with context data.
+ */
+function renderHandlebars(context) {
+  context = merge(cloneDeep(global.DBUSHELL), context || {});
+  removePrivate(context);
   const template = templates[context.pageTemplate];
   const html = template(context);
   return html;
@@ -105,21 +112,17 @@ export function render(context) {
  */
 export function publish(type, props) {
   return new Promise((resolve, reject) => {
-    const filePath = path.join(
-      global.DBUSHELL.__dest,
-      props.pagePath,
-      'index.html'
-    );
-    if (type.name !== 'Article') {
+    removePrivate(props);
+    if (/^(Article|Archive)/.test(type.displayName) === false) {
       process.stdout.write(`${publishFlag}${props.pagePath}\n`);
     }
     try {
       const el = React.createElement(type, props);
-      const html = render({
-        ...props,
-        body: type.renderBody(el)
-      });
+      const html = renderHandlebars({...props, body: type.renderBody(el)});
+      const filePath = path.join(global.DBUSHELL.__dest, props.pagePath, 'index.html');
+      const apiPath = path.join(global.DBUSHELL.__dest, '/api/', props.pagePath, '/props.json');
       fs.outputFileSync(filePath, html);
+      fs.outputFileSync(apiPath, JSON.stringify(props, null, 2));
       resolve();
     } catch (err) {
       reject(err);
