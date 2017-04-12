@@ -1,11 +1,33 @@
 import React from 'react';
 import container from '../';
-import {formatTitle} from '../../build/helpers';
 import {Block, Cta, Time, Newsletter, Post} from '../../components';
+
+// https://github.com/wycats/handlebars.js/blob/7535e48a7969229f44489124a8ef07bd17363f06/lib/handlebars/utils.js
+const escChars = {
+  '&': '&amp;',
+  '<': '&lt;',
+  '>': '&gt;',
+  '"': '&quot;',
+  '\'': '&#x27;',
+  '`': '&#x60;',
+  '=': '&#x3D;'
+};
+const esc = str => str.replace(/[&<>"'`=]/g, chr => escChars[chr]);
+
+function format(title) {
+  const words = title.split(' ');
+  if (words.length > 3 && words[words.length - 1].length < 9) {
+    const pos = title.lastIndexOf(' ');
+    title = esc(title.substr(0, pos)) + '<span class="nbsp">&nbsp;</span>' + esc(title.substr(pos + 1));
+  } else {
+    title = esc(title);
+  }
+  return title;
+}
 
 const Article = props => {
   const title = () => {
-    return {__html: formatTitle(props.pageHeading)};
+    return {__html: format(props.pageHeading)};
   };
   const body = () => {
     return {__html: props.html};
