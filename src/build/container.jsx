@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ReactDOMServer from 'react-dom/server';
 import {Footer, Nav} from '../components';
 
-function createContainer(Contained, config = {}) {
+function container(Contained, config = {}) {
   class Container extends Component {
     render() {
       return <Contained {...this.props}/>;
@@ -25,4 +25,4 @@ ${ReactDOMServer.renderToStaticMarkup(<Nav {...navProps}/>)}
   return Container;
 }
 
-export default createContainer;
+export default container;

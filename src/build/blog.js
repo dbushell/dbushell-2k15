@@ -1,13 +1,16 @@
 'use strict';
 
+import {Archive, Article} from '../containers';
 import {render, publish, updateFlag, publishFlag} from './template';
 
 const path = require('path');
 const fs = require('fs-extra');
 const React = require('react');
-const Archive = require('../containers/archive');
-const Article = require('../containers/article');
+const container = require('./container');
 const getArticles = require('./process').getArticles;
+
+const ArchiveContainer = container(Archive);
+const ArticleContainer = container(Article);
 
 /**
  * Write Blog component defaults (six most recent articles).
@@ -40,7 +43,7 @@ export function archives(articles) {
     while (articles.length > 0) {
       const props = {
         pagePath: ++index === 1 ? '/blog/' : `/blog/page/${index}/`,
-        pageHeading: Archive.defaultProps.pageHeading + (index > 1 ? ` (page ${index})` : '')
+        pageHeading: ArchiveContainer.defaultProps.pageHeading + (index > 1 ? ` (page ${index})` : '')
       };
       props.excerpts = articles.splice(0, 7).reduce((arr, article) => arr.concat([{
         id: article.slug,
@@ -51,10 +54,10 @@ export function archives(articles) {
       }]), []);
       props.nextPage = articles.length ? `/blog/page/${index + 1}/` : null;
       props.prevPage = index > 1 ? (index === 2 ? '/blog/' : `/blog/page/${index - 1}/`) : null;
-      const el = React.createElement(Archive, props);
+      const el = React.createElement(ArchiveContainer, props);
       const html = render({
         ...props,
-        body: Archive.renderBody(el)
+        body: ArchiveContainer.renderBody(el)
       });
       const filePath = path.join(
         global.DBUSHELL.__dest,
@@ -79,7 +82,7 @@ export async function blog() {
   // Render all articles
   const published = [];
   articles.forEach(props => {
-    published.push(publish(Article, props));
+    published.push(publish(ArticleContainer, props));
   });
   return Promise.all(published).then(() => {
     process.stdout.write(`${publishFlag}${articles.length} article(s)\n`);

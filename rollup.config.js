@@ -6,7 +6,7 @@ import json from 'rollup-plugin-json';
 
 export default {
   moduleName: 'dbushell',
-  entry: 'src/containers/spa.jsx',
+  entry: 'src/containers/root/index.jsx',
   dest: 'dbushell.github.io/assets/js/app.js',
   format: 'iife',
   // globals: {

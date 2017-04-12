@@ -1,9 +1,13 @@
 import React from 'react';
 
 const Block = props => {
-  const classList = ['b-block'].concat(props.classList);
+  if (props.main) {
+    return (
+      <main className={['c-main'].concat(props.classList).join(' ').trim()}>{props.children}</main>
+    );
+  }
   return (
-    <div className={classList.join(' ').trim()}>{props.children}</div>
+    <div className={['b-block'].concat(props.classList).join(' ').trim()}>{props.children}</div>
   );
 };
 

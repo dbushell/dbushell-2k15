@@ -1,5 +1,4 @@
 import React from 'react';
-import container from '../';
 import {Block, Cta, Time, Newsletter, Post} from '../../components';
 
 // https://github.com/wycats/handlebars.js/blob/7535e48a7969229f44489124a8ef07bd17363f06/lib/handlebars/utils.js
@@ -47,7 +46,7 @@ const Article = props => {
     paragraph: '<a href="/blog/">Read more on my blog</a> and follow <a rel="me noopener noreferrer" target="_blank" href="http://twitter.com/dbushell" title="David Bushell on Twitter">@dbushell</a>. If you like what I do:'
   };
   return (
-    <main className="c-main">
+    <Block main>
       <Block>
         <Post>
           <h1 className="b-post__title" dangerouslySetInnerHTML={title()}/>
@@ -58,7 +57,7 @@ const Article = props => {
         <Cta {...ctaProps}/>
         <Newsletter/>
       </Block>
-    </main>
+    </Block>
   );
 };
 
@@ -74,4 +73,4 @@ Article.defaultProps = {
   dateUnix: Date.now()
 };
 
-export default container(Article);
+export default Article;

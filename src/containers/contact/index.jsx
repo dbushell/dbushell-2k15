@@ -1,10 +1,9 @@
 import React from 'react';
-import container from '../';
 import {Button, Block, Field, Label, Post} from '../../components';
 
 const Contact = props => {
   return (
-    <main className="c-main">
+    <Block main>
       <Block>
         <Post>
           <div className="b-post__title">
@@ -44,7 +43,7 @@ const Contact = props => {
           </div>
         </Post>
       </Block>
-    </main>
+    </Block>
   );
 };
 
@@ -56,6 +55,4 @@ Contact.defaultProps = {
   pageHeading: 'Contact'
 };
 
-export default container(Contact, {
-  footerProps: {isHirable: false}
-});
+export default Contact;

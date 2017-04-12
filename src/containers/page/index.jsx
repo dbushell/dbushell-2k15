@@ -1,5 +1,4 @@
 import React from 'react';
-import container from '../';
 import {Block, Post} from '../../components';
 
 const Page = props => {
@@ -7,7 +6,7 @@ const Page = props => {
     <div className="b-post__body" dangerouslySetInnerHTML={{__html: props.innerHTML}}/> :
     <div className="b-post__body">{props.children}</div>;
   return (
-    <main className="c-main">
+    <Block main>
       <Block>
         <Post>
           <div className="b-post__title">
@@ -16,7 +15,7 @@ const Page = props => {
           {postBody}
         </Post>
       </Block>
-    </main>
+    </Block>
   );
 };
 
@@ -30,4 +29,4 @@ Page.defaultProps = {
   pageHeading: 'Page'
 };
 
-export default container(Page);
+export default Page;

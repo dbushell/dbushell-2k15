@@ -1,10 +1,9 @@
 import React from 'react';
-import container from '../';
 import {Block, Post} from '../../components';
 
 const Portfolio = props => {
   return (
-    <main className="c-main">
+    <Block main>
       <Block>
         <Post>
           <div className="b-post__title">
@@ -112,7 +111,7 @@ const Portfolio = props => {
           </div>
         </Post>
       </Block>
-    </main>
+    </Block>
   );
 };
 
@@ -124,4 +123,4 @@ Portfolio.defaultProps = {
   pageHeading: 'Portfolio'
 };
 
-export default container(Portfolio);
+export default Portfolio;

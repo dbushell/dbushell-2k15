@@ -1,17 +1,17 @@
 import React from 'react';
-import container from '../';
-import {Clients, Folio, Hero, Sectors, Steps} from '../../components';
+import {Block, Clients, Folio, Hero, Sectors, Steps} from '../../components';
 
 const Home = () => {
   return (
-    <main className="c-main c-main--home">
+    <Block main classList={['c-main--home']}>
       <Hero/>
       <Steps/>
       <Sectors/>
       <Folio/>
       <Clients/>
-    </main>
+    </Block>
   );
 };
 
-export default container(Home);
+export default Home;
+

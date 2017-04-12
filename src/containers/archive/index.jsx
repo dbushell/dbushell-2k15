@@ -1,5 +1,4 @@
 import React from 'react';
-import container from '../';
 import {Block, Excerpt, Post} from '../../components';
 
 const Archive = props => {
@@ -15,7 +14,7 @@ const Archive = props => {
     items.push(<hr key={item.id + '-hr'}/>);
   });
   return (
-    <main className="c-main">
+    <Block main>
       <Block>
         <Post>
           <div className="b-post__title">
@@ -27,7 +26,7 @@ const Archive = props => {
           {pagination}
         </Post>
       </Block>
-    </main>
+    </Block>
   );
 };
 
@@ -50,4 +49,4 @@ Archive.defaultProps = {
   pageHeading: 'Blog'
 };
 
-export default container(Archive);
+export default Archive;

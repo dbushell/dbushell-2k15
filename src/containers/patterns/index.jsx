@@ -1,10 +1,9 @@
 import React from 'react';
-import container from '../';
 import * as P from '../../components';
 
 const Patterns = props => {
   return (
-    <main className="c-main">
+    <P.Block main>
       <P.Block>
         <P.Post>
           <div className="b-post__title">
@@ -37,7 +36,7 @@ const Patterns = props => {
           </div>
         </P.Post>
       </P.Block>
-    </main>
+    </P.Block>
   );
 };
 
@@ -49,4 +48,4 @@ Patterns.defaultProps = {
   pageHeading: 'Pattern Library'
 };
 
-export default container(Patterns);
+export default Patterns;
