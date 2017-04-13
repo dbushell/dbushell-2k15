@@ -46,7 +46,6 @@ export async function buildPatterns() {
 export async function buildContact() {
   return publish(ContactContainer, {
     pagePath: '/contact/',
-    pageTemplate: 'contact',
     pageHeading: ContactContainer.defaultProps.pageHeading
   });
 }
