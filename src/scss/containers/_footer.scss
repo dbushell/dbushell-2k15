@@ -97,6 +97,7 @@
     -webkit-overflow-scrolling: touch;
     width: percentage($footer--width/100);
     max-width: em($footer--max-width);
+    transform: translateZ(0);
     background: $white;
 
     .b-block {

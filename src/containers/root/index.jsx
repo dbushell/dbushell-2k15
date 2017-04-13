@@ -27,13 +27,18 @@ function fetchURL(href) {
       'Content-Type': 'application/json'
     }
   };
+  const start = Date.now();
   if (href !== initProps.pageProps.pageHref) {
     docEl.classList.add('js-loading');
+    docEl.classList.add('js-loading-anim');
   }
   return window.fetch(api, init).then(response => {
     setTimeout(() => {
       docEl.classList.remove('js-loading');
-    }, 50);
+      setTimeout(() => {
+        docEl.classList.remove('js-loading-anim');
+      }, 300);
+    }, Math.max(300 - (Date.now() - start), 0));
     if (response.status !== 200 || response.type !== 'basic') {
       throw new Error('Unknown API response');
     }
@@ -103,7 +108,12 @@ class Root extends Component {
     if (!e.state || !e.state.href) {
       return;
     }
-    fetchURL(e.state.href).then(pageProps => {
+    const url = new URL(e.state.href);
+    if (this.state.pageProps.pagePath === url.pathname) {
+      window.scrollTo(0, 0);
+      return;
+    }
+    fetchURL(url.href).then(pageProps => {
       this.setState(() => ({pageProps}));
     });
   }

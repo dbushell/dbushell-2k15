@@ -1,12 +1,28 @@
+//http://www.antimath.info/css/sass-sqrt-function/
+@function sqrt($r) {
+  $x0: 1;
+  $x1: $x0;
+  @for $i from 1 through 10 {
+    $x1: $x0 - ($x0 * $x0 - abs($r)) / (2 * $x0);
+    $x0: $x1;
+  }
+  @return $x1;
+}
+
+$stripe  : 20;
+$stripe2 : $stripe * $stripe;
+
 .b-nav {
   z-index: $z-index--nav;
   position: absolute;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
+  // width: 100%;
   background: $pink;
   transition: transform 200ms linear;
+  transform: translateZ(0);
 
   &::-webkit-scrollbar {
     width: 7px;
@@ -23,6 +39,46 @@
     &:hover {
       background: $pink;
     }
+  }
+
+  .js-app &:after {
+    z-index: $z-index--nav + 1;
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+    background: $pink repeating-linear-gradient(-45deg, $white, $white $stripe*1px, $pink $stripe*1px, $pink ($stripe*2)*1px);
+    background-size: 150% 100%;
+    transition: opacity 300ms;
+  }
+
+  .js-loading & {
+    transition: transform 100ms linear;
+    transform: translateZ(0) translateY(0) !important;
+
+    &:after {
+      opacity: 1;
+      transition: opacity 100ms;
+      pointer-events: all;
+    }
+  }
+
+  .js-loading-anim &:after {
+    animation: progress 1s linear reverse infinite;
+  }
+}
+
+@keyframes progress {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: (sqrt($stripe2 + $stripe2)*2)*-1px 0;
   }
 }
 
@@ -69,7 +125,6 @@
   list-style: none;
   width: auto;
   margin: 0 auto;
-  background: $pink;
 
   .b-nav > & {
     height: em(49);
@@ -194,11 +249,11 @@
 }
 
 .b-nav--pinned {
-    transform: translateY(0%);
+    transform: translateZ(0) translateY(0);
 }
 
 .b-nav--unpinned {
-    transform: translateY(-100%);
+    transform: translateZ(0) translateY(-100%);
 }
 
 .no-js {
@@ -219,7 +274,7 @@
 @include respond-min($bp--aside) {
 
   .b-nav {
-    padding-right: percentage($footer--width/100);
+    right: percentage($footer--width/100);
   }
 
 }
@@ -227,7 +282,7 @@
 @include respond-min(($footer--max-width / ($footer--width/100))) {
 
   .b-nav {
-    padding-right: em($footer--max-width);
+    right: em($footer--max-width);
   }
 
 }
