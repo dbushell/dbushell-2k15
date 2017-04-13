@@ -1,13 +1,11 @@
 'use strict';
 
-import {Archive, Article} from '../containers';
-import {publish, updateFlag, publishFlag} from './template';
-
-const path = require('path');
-const fs = require('fs-extra');
-const React = require('react');
-const container = require('./container');
-const getArticles = require('./process').getArticles;
+import path from 'path';
+import fs from 'fs-extra';
+import {Archive, Article} from '../../containers';
+import {publish, updateFlag, publishFlag} from '../publish';
+import container from '../container';
+import {getArticles} from '../process';
 
 const ArchiveContainer = container(Archive);
 const ArticleContainer = container(Article);
@@ -59,7 +57,7 @@ async function archives(articles) {
   return Promise.all(published);
 }
 
-export default async function blog() {
+export default async function buildBlog() {
   // Get articles
   const articles = await getArticles(global.DBUSHELL.__bSrc);
   // Write recent articles data

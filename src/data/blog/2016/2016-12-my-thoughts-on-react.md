@@ -20,7 +20,7 @@ React has its own [JSX syntax](https://facebook.github.io/react/docs/jsx-in-dept
 
 This isn't a React tutorial but here are two contrived examples that hopefully illustrate my thoughts later. I present a simple button and toolbar:
 
-```
+```jsx
 const Button = props => {
   return (
     <button className="button" onClick={props.onClick}>{props.label}</button>
@@ -29,7 +29,7 @@ const Button = props => {
 ```
 
 
-```
+```jsx
 const Toolbar = props => {
   return (
     <nav className="toolbar">

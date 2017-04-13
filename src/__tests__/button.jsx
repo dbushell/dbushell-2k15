@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from '../components';
-import {outerHTML} from '../build/helpers';
+import {outerHTML} from './utils';
 
 describe('Button component', () => {
   it(`renders submit variant`, () => {

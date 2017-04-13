@@ -1,6 +1,6 @@
 import React from 'react';
 import {Bio} from '../components';
-import {outerHTML} from '../build/helpers';
+import {outerHTML} from './utils';
 
 describe('Bio component', () => {
   it(`renders with defaults`, () => {

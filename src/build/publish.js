@@ -1,12 +1,13 @@
 'use strict';
 
-const path = require('path');
-const chalk = require('chalk');
-const React = require('react');
-const fs = require('fs-extra');
-const Handlebars = require('handlebars');
-const merge = require('lodash.merge');
-const cloneDeep = require('lodash.clonedeep');
+import path from 'path';
+import chalk from 'chalk';
+import React from 'react';
+import fs from 'fs-extra';
+import Handlebars from 'handlebars';
+import merge from 'lodash.merge';
+import cloneDeep from 'lodash.clonedeep';
+import {removePrivateProps} from './utils';
 
 export const updateFlag = chalk.cyan(`Updated:    `);
 export const publishFlag = chalk.green(`Published:  `);
@@ -73,52 +74,39 @@ Handlebars.registerHelper('siteURL', (url, context) => {
 });
 
 /**
- * Create page <title> with meta description.
- */
-Handlebars.registerHelper('pageTitle', context => {
-  const data = context.data.root;
-  let pageTitle = data.pageHeading;
-  if (data.pagePath !== '/') {
-    pageTitle = `${data.pageHeading} – ${data.siteName}`;
-  }
-  pageTitle = Handlebars.Utils.escapeExpression(pageTitle);
-  return new Handlebars.SafeString(pageTitle);
-});
-
-/**
- * Remove private properties.
- */
-function removePrivate(obj) {
-  for (const key of Object.keys(obj)) {
-    if (key.startsWith('__')) {
-      delete obj[key];
-    }
-  }
-}
-
-/**
  * Render Handlebars template with context data.
  */
 function renderHandlebars(context) {
   context = merge(cloneDeep(global.DBUSHELL), context || {});
-  removePrivate(context);
+  removePrivateProps(context);
   const template = templates[context.pageTemplate];
   const html = template(context);
   return html;
 }
 
 /**
+ * Filter props passed to the page container before publishing.
+ */
+function filterPageProps(props) {
+  removePrivateProps(props);
+  props.pageTitle = props.pageHeading;
+  if (props.pagePath !== '/') {
+    props.pageTitle = `${props.pageHeading} – ${global.DBUSHELL.siteName}`;
+  }
+}
+
+/**
  * Write Handlebars template with React elements in body.
  */
 export function publish(type, props) {
+  filterPageProps(props);
   return new Promise((resolve, reject) => {
-    removePrivate(props);
-    if (/^(Article|Archive)/.test(type.displayName) === false) {
-      process.stdout.write(`${publishFlag}${props.pagePath}\n`);
-    }
     try {
-      const el = React.createElement(type, props);
-      const html = renderHandlebars({...props, body: type.renderBody(el)});
+      if (/^(Article|Archive)/.test(type.displayName) === false) {
+        process.stdout.write(`${publishFlag}${props.pagePath}\n`);
+      }
+      const body = type.renderBody(React.createElement(type, props));
+      const html = renderHandlebars({...props, body});
       const filePath = path.join(global.DBUSHELL.__dest, props.pagePath, 'index.html');
       const apiPath = path.join(global.DBUSHELL.__dest, '/api/', props.pagePath, '/props.json');
       fs.outputFileSync(filePath, html);

@@ -1,18 +1,18 @@
 'use strict';
 
-const fs = require('fs');
-const path = require('path');
-const shortid = require('shortid');
-const packageJson = require('../../package.json');
+import fs from 'fs';
+import path from 'path';
+import shortid from 'shortid';
+import packageJson from '../../../package';
 
-const swSrc = path.join(global.DBUSHELL.__dest, 'sw.js');
 const rCache = /^(const cacheName = ')([\w_-]+)';/m;
 const rVer = /\?v=([\d]+\.[\d]+\.[\d]+)/g;
 
 /**
  * Update Service Worker to ensure old data is invalidated
  */
-export default function update() {
+export default function buildSW() {
+  const swSrc = path.join(global.DBUSHELL.__dest, 'sw.js');
   return new Promise((resolve, reject) => {
     fs.readFile(swSrc, 'utf8', (err, data) => {
       if (err) {

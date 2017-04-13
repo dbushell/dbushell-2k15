@@ -1,6 +1,6 @@
 import React from 'react';
 import {Footer} from '../components';
-import {outerHTML} from '../build/helpers';
+import {outerHTML} from './utils';
 
 describe('Footer component', () => {
   it(`renders with defaults`, () => {

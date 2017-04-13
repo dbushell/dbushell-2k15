@@ -1,16 +1,11 @@
 'use strict';
 
-const path = require('path');
-const fs = require('fs-extra');
-const Handlebars = require('handlebars');
-const compact = require('lodash.compact');
-const cloneDeep = require('lodash.clonedeep');
-const updateFlag = require('./template').updateFlag;
-const getArticles = require('./process').getArticles;
-
-// Setup global config for production
-const DBUSHELL = cloneDeep(global.DBUSHELL);
-DBUSHELL.siteRoot = 'dbushell.com';
+import path from 'path';
+import fs from 'fs-extra';
+import Handlebars from 'handlebars';
+import compact from 'lodash.compact';
+import {updateFlag} from '../publish';
+import {getArticles} from '../process';
 
 function compile(filePath) {
   return Handlebars.compile(fs.readFileSync(
@@ -26,7 +21,7 @@ const rssTmp = compile('/src/templates/rss.xml');
 const rssEntryTmp = compile('/src/templates/partials/rss-entry.xml');
 
 function loc(href) {
-  return `${DBUSHELL.siteProtocol}//${path.join(DBUSHELL.siteRoot, href)}`;
+  return `${global.DBUSHELL.siteProtocol}//${path.join(global.DBUSHELL.siteRoot, href)}`;
 }
 
 function lastmod(filePath, isAbs) {
@@ -34,8 +29,8 @@ function lastmod(filePath, isAbs) {
 }
 
 export default function feeds() {
-  const sitemapPath = path.join(DBUSHELL.__dest, 'sitemap.xml');
-  const rssPath = path.join(DBUSHELL.__dest, 'rss.xml');
+  const sitemapPath = path.join(global.DBUSHELL.__dest, 'sitemap.xml');
+  const rssPath = path.join(global.DBUSHELL.__dest, 'rss.xml');
   fs.removeSync(sitemapPath);
   fs.removeSync(rssPath);
   return new Promise(async resolve => {
@@ -55,7 +50,7 @@ export default function feeds() {
       priority: '0.5'
     });
 
-    DBUSHELL.__Config.pages.forEach(props => {
+    global.DBUSHELL.__Config.pages.forEach(props => {
       if (props.pagePath === '/offline/') {
         return;
       }
@@ -74,7 +69,7 @@ export default function feeds() {
       priority: '0.7'
     });
 
-    DBUSHELL.__pConfig.pages.forEach(props => {
+    global.DBUSHELL.__pConfig.pages.forEach(props => {
       entries.push({
         loc: loc(props.pagePath),
         lastmod: lastmod(props.__src, true).toISOString(),
@@ -83,7 +78,7 @@ export default function feeds() {
       });
     });
 
-    const articles = await getArticles(DBUSHELL.__bSrc);
+    const articles = await getArticles(global.DBUSHELL.__bSrc);
 
     articles.forEach(props => {
       entries.push({

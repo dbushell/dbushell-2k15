@@ -4,7 +4,11 @@ import path from 'path';
 import chalk from 'chalk';
 import {argv} from 'yargs';
 import packageJson from '../../package';
-import {Contact, Home, Page, Patterns, Portfolio} from '../containers';
+import buildSW from './tasks/sw';
+import buildBlog from './tasks/blog';
+import buildFeeds from './tasks/feeds';
+import buildPortfolio from './tasks/portfolio';
+import buildPages, {buildHome, buildPatterns, buildContact} from './tasks/pages';
 
 // Gefault context for Handlebars templates and Page component props
 global.DBUSHELL = {
@@ -41,25 +45,6 @@ global.DBUSHELL.__pConfig.pages.forEach(props => {
   );
 });
 
-// Helpers
-const md2HTML = require('./helpers').md2HTML;
-const container = require('./container');
-
-// Tasks
-const publish = require('./template').publish;
-const buildBlog = require('./blog');
-const buildFeeds = require('./feeds');
-const updateServiceWorker = require('./sw');
-
-// Page container classes
-const PageContainer = container(Page);
-const PortfolioContainer = container(Portfolio);
-const PatternsContainer = container(Patterns);
-const HomeContainer = container(Home);
-const ContactContainer = container(Contact, {
-  footerProps: {isHirable: false}
-});
-
 // Bit of console flair
 export const logo = `
       _ _               _          _ _
@@ -68,39 +53,6 @@ export const logo = `
  | (_| | |_) | |_| \\__ \\ | | |  __/ | |
   \\__,_|_.__/ \\__,_|___/_| |_|\\___|_|_|
 `;
-
-/**
- * Publish content pages ("About", "Services", etc).
- */
-function buildPages() {
-  const queue = [];
-  global.DBUSHELL.__Config.pages.forEach(props => queue.push(
-    publish(PageContainer, {
-      ...props,
-      innerHTML: md2HTML(props.__src)
-    })
-  ));
-  return Promise.all(queue);
-}
-
-/**
- * Publish portfolio pages from JSON config.
- */
-function buildPortfolio() {
-  const queue = [];
-  queue.push(publish(PortfolioContainer, {
-    pagePath: '/showcase/',
-    pageCSS: '/assets/css/all.post.css',
-    pageHeading: PortfolioContainer.defaultProps.pageHeading
-  }));
-  global.DBUSHELL.__pConfig.pages.forEach(props => queue.push(
-    publish(PageContainer, {
-      ...props,
-      innerHTML: md2HTML(props.__src)
-    })
-  ));
-  return Promise.all(queue);
-}
 
 /**
  * Build process.
@@ -129,34 +81,22 @@ export async function build() {
   }
   // Write contact page
   if (argv.contact || argv.all) {
-    await publish(ContactContainer, {
-      pagePath: '/contact/',
-      pageTemplate: 'contact',
-      pageHeading: ContactContainer.defaultProps.pageHeading
-    });
+    await buildContact();
   }
   // Write pattern library
   if (argv.patterns || argv.all) {
-    await publish(PatternsContainer, {
-      pagePath: '/pattern-library/',
-      pageCSS: '/assets/css/all.post.css',
-      pageHeading: PatternsContainer.defaultProps.pageHeading
-    });
+    await buildPatterns();
   }
   // Write home page
   if (argv.home || argv.all) {
-    await publish(HomeContainer, {
-      pagePath: '/',
-      pageCSS: '/assets/css/all.post.css',
-      pageHeading: HomeContainer.defaultProps.pageHeading
-    });
+    await buildHome();
   }
   // Write RSS and Sitemap XML
   if (argv.feeds || argv.all) {
     await buildFeeds();
   }
   // Update Service Worker
-  await updateServiceWorker();
+  await buildSW();
   // Complete!
   process.stdout.write(chalk.bold.yellow('Build complete 👌') + '\n');
 }

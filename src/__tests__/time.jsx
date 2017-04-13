@@ -1,6 +1,6 @@
 import React from 'react';
 import {Time} from '../components';
-import {outerHTML} from '../build/helpers';
+import {outerHTML} from './utils';
 
 describe('Time component', () => {
   it(`renders correct date`, () => {

@@ -33,6 +33,12 @@ class Root extends Component {
     }
     return false;
   }
+  componentWillUpdate(nextProps, nextState) {
+    const {pageProps} = this.state;
+    if (pageProps.pagePath !== nextState.pageProps.pagePath) {
+      window.scrollTo(0, 0);
+    }
+  }
   handleClick(e) {
     const href = e.target.href || e.target.parentNode.href;
     if (typeof href !== 'string') {
@@ -79,25 +85,25 @@ class Root extends Component {
   render() {
     const {pageProps} = this.state;
     const {pagePath} = pageProps;
-    let page;
+    let el;
     if (pagePath === '/') {
-      page = Home;
+      el = Home;
     } else if (/^\/contact\/$/.test(pagePath)) {
-      page = Contact;
+      el = Contact;
     } else if (/^\/pattern-library\/$/.test(pagePath)) {
-      page = Patterns;
+      el = Patterns;
     } else if (/^\/showcase\/$/.test(pagePath)) {
-      page = Portfolio;
+      el = Portfolio;
     } else if (/^\/blog\//.test(pagePath)) {
-      page = Archive;
+      el = Archive;
     } else if (/^\/\d{4}\/\d{2}\/\d{2}\//.test(pagePath)) {
-      page = Article;
+      el = Article;
     } else {
-      page = Page;
+      el = Page;
     }
     return (
       <div>
-        {React.createElement(page, pageProps)}
+        {React.createElement(el, pageProps)}
         <Footer/>
         <Nav/>
       </div>

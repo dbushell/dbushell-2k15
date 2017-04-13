@@ -1,11 +1,9 @@
-#!/usr/bin/env node
-
 'use strict';
 
-const fs = require('fs');
-const path = require('path');
-const postcss = require('postcss');
-const autoprefixer = require('autoprefixer');
+import fs from 'fs';
+import path from 'path';
+import postcss from 'postcss';
+import autoprefixer from 'autoprefixer';
 
 const cssFrom = path.join(process.cwd(), '/dbushell.github.io/assets/css/main.css');
 const cssTo = cssFrom.replace('.css', '.post.css');

@@ -1,23 +1,32 @@
 'use strict';
 
-const path = require('path');
-const moment = require('moment');
-const merge = require('lodash.merge');
-const striptags = require('striptags');
-const marked = require('marked');
-const Prism = require('prismjs');
-const parseDirSync = require('./parse').parseDirSync;
+import path from 'path';
+import moment from 'moment';
+import striptags from 'striptags';
+import marked from 'marked';
+import Prism from 'prismjs';
+import fs from 'fs-extra';
+import frontMatter from 'front-matter';
+import {escSmart, trimExcerpt} from './utils';
+
 // eslint-disable-next-line import/no-unassigned-import
-require('prismjs/components/prism-php');
+// require('prismjs/components/prism-php');
 
 marked.setOptions({
   smartypants: true,
   langPrefix: 'language-',
   highlight: (code, lang) => {
-    if (lang && Object.hasOwnProperty.call(Prism.languages, lang)) {
-      return Prism.highlight(code, Prism.languages[lang]);
+    if (!lang) {
+      return code;
     }
-    return code;
+    try {
+      if (!Object.hasOwnProperty.call(Prism.languages, lang)) {
+        require('prismjs/components/prism-' + lang + '.js');
+      }
+      return Prism.highlight(code, Prism.languages[lang]);
+    } catch (err) {
+      return code;
+    }
   }
 });
 
@@ -29,9 +38,56 @@ export function markdown(md) {
 }
 
 /**
+ * Get JSON article data with attributes from YML front-matter.
+ */
+export function getMatter(filePath) {
+  return new Promise((resolve, reject) => {
+    fs.readFile(filePath, 'utf8', (err, data) => {
+      if (err) {
+        reject(err.toString());
+        return;
+      }
+      if (!frontMatter.test(data)) {
+        resolve();
+        return;
+      }
+      const matter = frontMatter(data);
+      matter.__src = filePath;
+      resolve(matter);
+    });
+  });
+}
+
+/**
+ * Get JSON article data from entire directory.
+ */
+export async function getMatters(dirPath) {
+  const promises = [];
+  const add = filePath => {
+    if (path.extname(filePath) === '.md') {
+      const matter = getMatter(filePath);
+      if (matter && typeof matter === 'object') {
+        promises.push(matter);
+      }
+    }
+  };
+  fs.readdirSync(dirPath).forEach(filePath => {
+    filePath = path.resolve(dirPath, filePath);
+    if (fs.lstatSync(filePath).isDirectory()) {
+      fs.readdirSync(filePath).forEach(filePath2 => {
+        add(path.resolve(filePath, filePath2));
+      });
+    } else {
+      add(filePath);
+    }
+  });
+  return Promise.all(promises);
+}
+
+/**
  * Process parsed front matter JSON to JSX props.
  */
-export function processArticle(matter) {
+export function propsFromMatter(matter) {
   if (!matter || matter.attributes.draft) {
     return;
   }
@@ -40,7 +96,7 @@ export function processArticle(matter) {
   const date = moment(matter.attributes.date);
   props.dateUnix = date.valueOf();
   props.dateFormatted = date.format('dddd D MMM Y');
-  props.pageHeading = matter.attributes.title;
+  props.pageHeading = escSmart(matter.attributes.title);
   props.pagePath = path.join(
     '/',
     date.format('Y'),
@@ -51,13 +107,9 @@ export function processArticle(matter) {
   );
   // Generate HTML and excerpt
   props.innerHTML = markdown(matter.body);
-  props.pageExcerpt = striptags(props.innerHTML);
-  const words = props.pageExcerpt.split(' ');
-  if (words.length >= 55) {
-    props.pageExcerpt = `${words.slice(0, 55).join(' ')} […]`;
-  }
+  props.pageExcerpt = trimExcerpt(striptags(props.innerHTML));
   if (matter.attributes.portfolio) {
-    props.portfolio = true;
+    props.pageUndated = true;
   }
   if (matter.attributes.pageDesc) {
     props.pageDesc = matter.attributes.pageDesc;
@@ -70,12 +122,10 @@ export function processArticle(matter) {
  */
 export async function getArticles(src) {
   // Read articles
-  let articles = await parseDirSync(src);
+  let articles = await getMatters(src);
   // Setup props
-  articles = articles.map(processArticle);
+  articles = articles.map(propsFromMatter);
   // Orrder by oldest first
-  articles.sort((a, b) => {
-    return new Date(a.dateUnix).getTime() > new Date(b.dateUnix).getTime() ? 1 : -1;
-  });
+  articles.sort((a, b) => (a.dateUnix > b.dateUnix ? 1 : -1));
   return articles;
 }

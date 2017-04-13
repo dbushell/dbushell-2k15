@@ -17,7 +17,7 @@
     "start": "./node_modules/.bin/browser-sync start --server=dbushell.github.io --no-notify",
     "sass-main": "./node_modules/.bin/node-sass --output-style=compressed ./src/scss/main.scss ./dbushell.github.io/assets/css/main.css",
     "sass-all": "./node_modules/.bin/node-sass --output-style=compressed ./src/scss/all.scss ./dbushell.github.io/assets/css/all.css",
-    "css": "npm run sass-main && npm run sass-all && src/build/postcss.js"
+    "css": "npm run sass-main && npm run sass-all && ./node_modules/.bin/babel-node src/build/postcss.js"
   },
   "babel": {
     "babelrc": false,
