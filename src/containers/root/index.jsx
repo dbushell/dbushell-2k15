@@ -2,19 +2,25 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import {Footer, Nav} from '../../components';
 import {Archive, Article, Contact, Home, Page, Patterns, Portfolio} from '../';
+import offlinePageProps from '../../../dbushell.github.io/api/offline/props';
 
-const history = window.history;
 const ver = window.dbushell.ver;
+const history = window.history;
 const docEl = document.documentElement;
 const $app = document.querySelector('#app');
 const $title = document.querySelector('title');
 const $canonical = document.querySelector('link[rel="canonical"]');
+
 const initProps = {
   pageProps: {
     pageHref: $canonical.href,
     pagePath: new URL($canonical.href).pathname,
     pageTitle: $title.innerText
   }
+};
+
+const offlineProps = {
+  pageProps: offlinePageProps
 };
 
 function fetchURL(href) {
@@ -27,18 +33,21 @@ function fetchURL(href) {
       'Content-Type': 'application/json'
     }
   };
-  const start = Date.now();
   if (href !== initProps.pageProps.pageHref) {
     docEl.classList.add('js-loading');
     docEl.classList.add('js-loading-anim');
   }
-  return window.fetch(api, init).then(response => {
+  const start = Date.now();
+  const finish = () => {
     setTimeout(() => {
       docEl.classList.remove('js-loading');
       setTimeout(() => {
         docEl.classList.remove('js-loading-anim');
       }, 300);
     }, Math.max(300 - (Date.now() - start), 0));
+  };
+  return window.fetch(api, init).then(response => {
+    finish();
     if (response.status !== 200 || response.type !== 'basic') {
       throw new Error('Unknown API response');
     }
@@ -47,6 +56,8 @@ function fetchURL(href) {
     });
   }).catch(err => {
     console.log(err);
+    finish();
+    return offlineProps.pageProps;
   });
 }
 
@@ -56,7 +67,6 @@ class Root extends Component {
     this.state = {
       pageProps: {...props.pageProps}
     };
-    // Rebind event handlers to maintain `this` reference
     this.handleClick = this.handleClick.bind(this);
     this.handlePopState = this.handlePopState.bind(this);
   }
