@@ -8,8 +8,15 @@ const history = window.history;
 class Root extends Component {
   constructor(props) {
     super(props);
-    this.state.pageProps = {
-      pagePath: '/'
+    const $title = document.querySelector('title');
+    const $canonical = document.querySelector('link[rel="canonical"]');
+    this.state = {
+      $title,
+      $canonical,
+      pageProps: {
+        pagePath: $canonical ? new URL($canonical.href).pathname : '/',
+        pageTitle: $title.innerText
+      }
     };
     // Rebind event handlers to maintain `this` reference
     this.handleClick = this.handleClick.bind(this);
@@ -34,9 +41,13 @@ class Root extends Component {
     return false;
   }
   componentWillUpdate(nextProps, nextState) {
-    const {pageProps} = this.state;
-    if (pageProps.pagePath !== nextState.pageProps.pagePath) {
-      window.scrollTo(0, 0);
+    const {$title, pageProps} = this.state;
+    if (pageProps.pagePath === nextState.pageProps.pagePath) {
+      return;
+    }
+    window.scrollTo(0, 0);
+    if ($title) {
+      $title.textContent = nextState.pageProps.pageTitle;
     }
   }
   handleClick(e) {
