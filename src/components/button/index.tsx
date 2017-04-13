@@ -1,8 +1,25 @@
 import React from 'react';
-const ButtonLabel = props => {
-  return (<span className="e-button__label">{props.text}</span>);
+
+interface ButtonLabelProps {
+  text: string
+}
+
+const ButtonLabel: React.SFC<ButtonLabelProps> = props => {
+  return (
+    <span className="e-button__label">{props.text}</span>
+  );
 };
-const Button = props => {
+
+interface ButtonProps {
+  text: string,
+  href?: string,
+  submit?: boolean,
+  bg1?: boolean,
+  bg2?: boolean,
+  shadow?: boolean
+}
+
+const Button: React.SFC<ButtonProps> = props => {
   const attr = {
     className: 'e-button'
   };
@@ -19,13 +36,14 @@ const Button = props => {
   let button;
   if (props.submit) {
     button = <button type="submit" {...attr}>{label}</button>;
-  }
-  else {
+  } else {
     button = <a href={props.href} {...attr}>{label}</a>;
   }
   return button;
 };
+
 Button.defaultProps = {
   text: 'Button'
 };
+
 export default Button;

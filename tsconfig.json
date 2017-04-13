@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "removeComments": true,
+    "types" : ["react"],
+    "jsx": "preserve",
+    "module": "es6",
+    "target": "es6"
+  }
+}
