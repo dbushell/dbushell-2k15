@@ -4,7 +4,7 @@ exports[`Footer component renders with defaults 1`] = `
 "<footer id=\\"footer\\" class=\\"c-footer u-dim\\">
   <div class=\\"b-block\\">
     <section class=\\"b-bio\\" role=\\"complementary\\" itemscope=\\"\\" itemtype=\\"http://schema.org/Person\\">
-      <div class=\\"b-bio__image\\"><img src=\\"/assets/img/me3.jpg\\" alt=\\"David Bushell\\"></div>
+      <div class=\\"b-bio__image\\"><img src=\\"/assets/img/me3@1x.jpg\\" srcset=\\"/assets/img/me3@1x.jpg 1x, /assets/img/me3@2x.jpg 2x\\" alt=\\"David Bushell\\"></div>
       <div class=\\"b-bio__main\\">
         <h3 itemprop=\\"name\\"><a href=\\"/about/\\">David Bushell</a></h3>
         <p itemprop=\\"description\\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies &#x2014; all over the world.</p>
@@ -35,7 +35,7 @@ exports[`Footer component renders without "for hire" element 1`] = `
 "<footer id=\\"footer\\" class=\\"c-footer u-dim\\">
   <div class=\\"b-block\\">
     <section class=\\"b-bio\\" role=\\"complementary\\" itemscope=\\"\\" itemtype=\\"http://schema.org/Person\\">
-      <div class=\\"b-bio__image\\"><img src=\\"/assets/img/me3.jpg\\" alt=\\"David Bushell\\"></div>
+      <div class=\\"b-bio__image\\"><img src=\\"/assets/img/me3@1x.jpg\\" srcset=\\"/assets/img/me3@1x.jpg 1x, /assets/img/me3@2x.jpg 2x\\" alt=\\"David Bushell\\"></div>
       <div class=\\"b-bio__main\\">
         <h3 itemprop=\\"name\\"><a href=\\"/about/\\">David Bushell</a></h3>
         <p itemprop=\\"description\\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies &#x2014; all over the world.</p>

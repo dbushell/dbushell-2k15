@@ -8,7 +8,6 @@ import Excerpt from './excerpt';
 import Field from './field';
 import Folio from './folio';
 import Footer from './footer';
-import Headline from './headline';
 import Hero from './hero';
 import Icon from './icon';
 import Label from './label';
@@ -33,7 +32,6 @@ export {
   Field,
   Folio,
   Footer,
-  Headline,
   Hero,
   Icon,
   Label,
