@@ -24,6 +24,7 @@ const offlineProps = {
 };
 
 function fetchURL(href) {
+  const same = href === initProps.pageProps.pageHref;
   const url = new URL(href);
   const api = `/api${url.pathname}props.json?v=${ver}`.replace('/spa/', '/');
   const init = {
@@ -33,7 +34,7 @@ function fetchURL(href) {
       'Content-Type': 'application/json'
     }
   };
-  if (href !== initProps.pageProps.pageHref) {
+  if (!same) {
     docEl.classList.add('js-loading');
     docEl.classList.add('js-loading-anim');
   }
@@ -52,6 +53,12 @@ function fetchURL(href) {
       throw new Error('Unknown API response');
     }
     return response.json().then(pageProps => {
+      try {
+        if (!same && window.ga) {
+          window.ga('set', 'page', pageProps.pagePath);
+          window.ga('send', 'pageview');
+        }
+      } catch (err) {}
       return pageProps;
     });
   }).catch(err => {
