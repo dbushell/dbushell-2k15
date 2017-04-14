@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from '../';
+import Button from '../button';
 import defaults from './defaults.json';
 
 const Cta: React.SFC<CTAProps> = props => {

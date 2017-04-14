@@ -1,11 +1,7 @@
 {
   "include": [
-    "src/**/*",
-    "src/typings.d.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "dbushell.github.io"
+    "src/**/*.d.ts",
+    "src/**/*.tsx"
   ],
   "compilerOptions": {
     "allowJs": true,
@@ -14,7 +10,6 @@
     "removeComments": true,
     "types" : ["react"],
     "jsx": "preserve",
-    "module": "es6",
     "target": "es6",
     "moduleResolution": "node"
   }
