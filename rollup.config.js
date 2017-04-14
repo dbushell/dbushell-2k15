@@ -18,22 +18,19 @@ export default {
       'process.env.NODE_ENV': JSON.stringify('production')
     }),
     babel({
-      "include": ['./src/**', './node_modules/preact/**'],
-      "babelrc": false,
-      "presets": [
-        "es2015-rollup",
-        "react"
-      ],
-      "plugins": [
-        "transform-object-rest-spread",
-        "transform-async-to-generator",
+      include: ['./src/**', './node_modules/preact/**'],
+      babelrc: false,
+      presets: ['es2015-rollup', 'react'],
+      plugins: [
+        'transform-object-rest-spread',
+        'transform-async-to-generator',
         [
-          "module-resolver",
+          'module-resolver',
           {
-            "root": ["."],
-            "alias": {
-              "react": "preact",
-              "react-dom": "preact"
+            root: ['.'],
+            alias: {
+              react: 'preact',
+              'react-dom': 'preact'
             }
           }
         ]
