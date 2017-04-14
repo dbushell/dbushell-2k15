@@ -1,23 +1,10 @@
 import React from 'react';
 
-interface ButtonLabelProps {
-  text: string
-}
-
 const ButtonLabel: React.SFC<ButtonLabelProps> = props => {
   return (
     <span className="e-button__label">{props.text}</span>
   );
 };
-
-interface ButtonProps {
-  text: string,
-  href?: string,
-  submit?: boolean,
-  bg1?: boolean,
-  bg2?: boolean,
-  shadow?: boolean
-}
 
 const Button: React.SFC<ButtonProps> = props => {
   const attr = {
