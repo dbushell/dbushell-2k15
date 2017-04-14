@@ -27,15 +27,15 @@ async function prettify(src) {
       }
       const prettyStr = prettier.format(uglyStr, {
         singleQuote: true,
-        bracketSpacing: false
+        bracketSpacing: false,
+        jsxBracketSameLine: true
       });
       fs.writeFile(src, prettyStr, err => {
         if (err) {
           return reject(err);
         }
         process.stdout.write(
-          chalk.magenta('Prettied:') +
-            chalk.dim(` ${src.replace(process.cwd(), '')}\n`)
+          chalk.dim(`🌈 ${src.replace(process.cwd(), '')}\n`)
         );
         resolve();
       });
@@ -45,12 +45,12 @@ async function prettify(src) {
 
 async function prettifyTypeScript() {
   const files = await globFiles(path.join(process.cwd(), 'src/**/*.tsx'));
-  await Promise.all(files.map(src => prettify(src.replace(/\.tsx$/, '.jsx'))));
+  return Promise.all(files.map(src => prettify(src.replace(/\.tsx$/, '.jsx'))));
 }
 
 async function prettifyFiles(globSrc) {
   const files = await globFiles(path.join(process.cwd(), globSrc));
-  await Promise.all(files.map(src => prettify(src)));
+  return Promise.all(files.map(src => prettify(src)));
 }
 
 async function run() {

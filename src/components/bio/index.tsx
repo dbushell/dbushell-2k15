@@ -1,6 +1,7 @@
 import React from 'react';
 import defaults from './defaults.json';
-const Bio = props => {
+
+const Bio: React.SFC<BioProps> = props => {
   const attr = {
     className: 'b-bio',
     role: 'complementary',
@@ -10,11 +11,7 @@ const Bio = props => {
   return (
     <section {...attr}>
       <div className="b-bio__image">
-        <img
-          src={props.imageSrc}
-          srcSet={props.imageSrcset}
-          alt={props.imageAlt}
-        />
+        <img src={props.imageSrc} srcSet={props.imageSrcset} alt={props.imageAlt}/>
       </div>
       <div className="b-bio__main">
         <h3 itemProp="name"><a href={props.href}>{props.title}</a></h3>
@@ -23,5 +20,7 @@ const Bio = props => {
     </section>
   );
 };
+
 Bio.defaultProps = defaults;
+
 export default Bio;

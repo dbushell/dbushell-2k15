@@ -1,9 +1,41 @@
 import React from 'react';
-
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-const abbrMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-
+const days = [
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday'
+];
+const months = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December'
+];
+const abbrMonths = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec'
+];
 const Time = props => {
   const date = new Date(props.date);
   const attr = {
@@ -19,17 +51,13 @@ const Time = props => {
   };
   return (
     <time {...attr}>
-      {time.dddd} <b>{time.D} <abbr title={time.MMMM}>{time.MMM}</abbr> {time.Y}</b>
+      {time.dddd}
+      {' '}
+      <b>{time.D} <abbr title={time.MMMM}>{time.MMM}</abbr> {time.Y}</b>
     </time>
   );
 };
-
-// Time.propTypes = {
-//   date: PropTypes.number
-// };
-
 Time.defaultProps = {
   date: 946598400000
 };
-
 export default Time;
