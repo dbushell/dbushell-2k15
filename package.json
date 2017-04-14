@@ -10,14 +10,14 @@
   "license": "UNLICENSED - Copyright © David Bushell",
   "scripts": {
     "build": "./index.js",
-    "lint": "./node_modules/.bin/xo",
+    "compile": "tsc -p tsconfig.json && ./src/tasks/prettify.js",
     "test": "./node_modules/.bin/jest --config=./src/__tests__/jest.json",
     "test-update": "./node_modules/.bin/jest --config=./src/__tests__/jest.json --updateSnapshot",
     "rollup": "./node_modules/.bin/rollup -c && uglifyjs dbushell.github.io/assets/js/app.js -c collapse_vars,evaluate,screw_ie8,unsafe,loops=false,keep_fargs=false,pure_getters,unused,dead_code -m -o dbushell.github.io/assets/js/app.min.js",
     "start": "./node_modules/.bin/browser-sync start --server=dbushell.github.io --no-notify",
     "sass-main": "./node_modules/.bin/node-sass --output-style=compressed ./src/scss/main.scss ./dbushell.github.io/assets/css/main.css",
     "sass-all": "./node_modules/.bin/node-sass --output-style=compressed ./src/scss/all.scss ./dbushell.github.io/assets/css/all.css",
-    "css": "npm run sass-main && npm run sass-all && ./node_modules/.bin/babel-node src/build/postcss.js"
+    "css": "npm run sass-main && npm run sass-all && ./src/tasks/postcss.js"
   },
   "babel": {
     "babelrc": false,
@@ -80,6 +80,7 @@
     "eslint-plugin-react": "^6.10.3",
     "front-matter": "^2.1.2",
     "fs-extra": "^2.1.2",
+    "glob": "^7.1.1",
     "handlebars": "^4.0.6",
     "jest": "^19.0.2",
     "jest-cli": "^19.0.2",
@@ -94,6 +95,7 @@
     "postcss": "^5.2.16",
     "preact": "^8.1.0",
     "preact-compat": "^3.14.3",
+    "prettier": "^1.1.0",
     "prismjs": "^1.6.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
