@@ -18,12 +18,14 @@ function recent(articles) {
     const jsxPath = global.DBUSHELL.__bRecent;
     const jsxData = JSON.parse(fs.readFileSync(jsxPath));
     jsxData.items = articles.reduce((arr, article) => {
-      return arr.concat([{
-        id: article.pagePath.match(/\/([\w-]+)\/$/)[1],
-        title: article.pageHeading,
-        href: article.pagePath,
-        date: article.dateUnix
-      }]);
+      return arr.concat([
+        {
+          id: article.pagePath.match(/\/([\w-]+)\/$/)[1],
+          title: article.pageHeading,
+          href: article.pagePath,
+          date: article.dateUnix
+        }
+      ]);
     }, []);
     const jsxJSON = JSON.stringify(jsxData, null, 2);
     fs.writeFileSync(jsxPath, jsxJSON);
@@ -41,17 +43,26 @@ async function archives(articles) {
   while (articles.length > 0) {
     const props = {
       pagePath: ++index === 1 ? '/blog/' : `/blog/page/${index}/`,
-      pageHeading: ArchiveContainer.defaultProps.pageHeading + (index > 1 ? ` (page ${index})` : '')
+      pageHeading: ArchiveContainer.defaultProps.pageHeading +
+        (index > 1 ? ` (page ${index})` : '')
     };
-    props.excerpts = articles.splice(0, 7).reduce((arr, article) => arr.concat([{
-      id: article.pagePath.match(/\/([\w-]+)\/$/)[1],
-      title: article.pageHeading,
-      href: article.pagePath,
-      body: article.pageExcerpt,
-      date: article.dateUnix
-    }]), []);
+    props.excerpts = articles.splice(0, 7).reduce(
+      (arr, article) =>
+        arr.concat([
+          {
+            id: article.pagePath.match(/\/([\w-]+)\/$/)[1],
+            title: article.pageHeading,
+            href: article.pagePath,
+            body: article.pageExcerpt,
+            date: article.dateUnix
+          }
+        ]),
+      []
+    );
     props.nextPage = articles.length ? `/blog/page/${index + 1}/` : null;
-    props.prevPage = index > 1 ? (index === 2 ? '/blog/' : `/blog/page/${index - 1}/`) : null;
+    props.prevPage = index > 1
+      ? index === 2 ? '/blog/' : `/blog/page/${index - 1}/`
+      : null;
     published.push(publish(ArchiveContainer, props));
   }
   return Promise.all(published);

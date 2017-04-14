@@ -18,12 +18,14 @@ const ContactContainer = container(Contact, {
  */
 export default async function buildPages() {
   const queue = [];
-  global.DBUSHELL.__Config.pages.forEach(props => queue.push(
-    publish(PageContainer, {
-      ...props,
-      innerHTML: markdown(fs.readFileSync(props.__src, 'utf8'))
-    })
-  ));
+  global.DBUSHELL.__Config.pages.forEach(props =>
+    queue.push(
+      publish(PageContainer, {
+        ...props,
+        innerHTML: markdown(fs.readFileSync(props.__src, 'utf8'))
+      })
+    )
+  );
   return Promise.all(queue);
 }
 

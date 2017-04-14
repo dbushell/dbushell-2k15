@@ -59,7 +59,10 @@ async function run() {
     await prettifyTypeScript();
   }
   if (argv.tasks) {
-    await prettifyFiles('src/tasks/**/*');
+    await prettifyFiles('src/tasks/**/*.js');
+  }
+  if (argv.build) {
+    await prettifyFiles('src/build/**/*.+(js|jsx)');
   }
   process.stdout.write(chalk.magenta.bold('Prettified!\n'));
 }

@@ -11,7 +11,7 @@ const chars = {
   '<': '&lt;',
   '>': '&gt;',
   '"': '&quot;',
-  '\'': '&#x27;',
+  "'": '&#x27;',
   '`': '&#x60;',
   '=': '&#x3D;'
 };
@@ -21,21 +21,22 @@ export const esc = str => str.replace(/[&<>"'`=]/g, chr => chars[chr]);
  * Marked `smartypants` function:
  * https://github.com/chjj/marked/blob/8f9d0b72f5606ed32057049f387161dd41c36ade/lib/marked.js#L715
  */
-export const escSmart = str => str
-  // Em-dashes
-  .replace(/---/g, '\u2014')
-  // En-dashes
-  .replace(/--/g, '\u2013')
-  // Opening singles
-  .replace(/(^|[-\u2014/([{"\s])'/g, '$1\u2018')
-  // Closing singles & apostrophes
-  .replace(/'/g, '\u2019')
-  // Opening doubles
-  .replace(/(^|[-\u2014/([{\u2018\s])"/g, '$1\u201c')
-  // Closing doubles
-  .replace(/"/g, '\u201d')
-  // Ellipses
-  .replace(/\.{3}/g, '\u2026');
+export const escSmart = str =>
+  str
+    // Em-dashes
+    .replace(/---/g, '\u2014')
+    // En-dashes
+    .replace(/--/g, '\u2013')
+    // Opening singles
+    .replace(/(^|[-\u2014/([{"\s])'/g, '$1\u2018')
+    // Closing singles & apostrophes
+    .replace(/'/g, '\u2019')
+    // Opening doubles
+    .replace(/(^|[-\u2014/([{\u2018\s])"/g, '$1\u201c')
+    // Closing doubles
+    .replace(/"/g, '\u201d')
+    // Ellipses
+    .replace(/\.{3}/g, '\u2026');
 
 /**
  * Trim page excerpt.
@@ -55,7 +56,10 @@ export function formatHeading(title) {
   const words = title.split(' ');
   if (words.length > 3 && words[words.length - 1].length < 9) {
     const pos = title.lastIndexOf(' ');
-    title = esc(title.substr(0, pos)) + '<span class="nbsp">&nbsp;</span>' + esc(title.substr(pos + 1));
+    title =
+      esc(title.substr(0, pos)) +
+      '<span class="nbsp">&nbsp;</span>' +
+      esc(title.substr(pos + 1));
   } else {
     title = esc(title);
   }

@@ -7,7 +7,11 @@ import packageJson from '../../package';
 import buildBlog from './tasks/blog';
 import buildFeeds from './tasks/feeds';
 import buildPortfolio from './tasks/portfolio';
-import buildPages, {buildHome, buildPatterns, buildContact} from './tasks/pages';
+import buildPages, {
+  buildHome,
+  buildPatterns,
+  buildContact
+} from './tasks/pages';
 
 // Gefault context for Handlebars templates and Page component props
 global.DBUSHELL = {
@@ -38,10 +42,7 @@ global.DBUSHELL.__Config.pages.forEach(props => {
 
 global.DBUSHELL.__pConfig.pages.forEach(props => {
   const match = props.pagePath.match(/[\w-]+\/([\w-]+)\/$/);
-  props.__src = path.join(
-    global.DBUSHELL.__pSrc,
-     `${match[1]}.md`
-  );
+  props.__src = path.join(global.DBUSHELL.__pSrc, `${match[1]}.md`);
 });
 
 // Bit of console flair
@@ -58,8 +59,17 @@ export const logo = `
  */
 export async function build() {
   process.stdout.write(chalk.yellow(logo) + '\n');
-  const flags = ['all', 'blog', 'contact', 'feeds', 'home', 'pages', 'portfolio', 'patterns'];
-  if (!flags.reduce((a, b) => (a || (argv[b] ? b : 0)), 0)) {
+  const flags = [
+    'all',
+    'blog',
+    'contact',
+    'feeds',
+    'home',
+    'pages',
+    'portfolio',
+    'patterns'
+  ];
+  if (!flags.reduce((a, b) => a || (argv[b] ? b : 0), 0)) {
     process.stdout.write(chalk.bold('$ npm run build -- [--flag]\n'));
     process.stdout.write(`Available flags: ${flags.join(', ')}\n`);
     return;
@@ -97,4 +107,3 @@ export async function build() {
   // Complete!
   process.stdout.write(chalk.bold.yellow('Build complete 👌') + '\n');
 }
-

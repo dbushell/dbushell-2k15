@@ -8,10 +8,9 @@ import {updateFlag} from '../publish';
 import {getArticles} from '../process';
 
 function compile(filePath) {
-  return Handlebars.compile(fs.readFileSync(
-    path.join(process.cwd(), filePath),
-    'utf8'
-  ));
+  return Handlebars.compile(
+    fs.readFileSync(path.join(process.cwd(), filePath), 'utf8')
+  );
 }
 
 const sitemapTmp = compile('/src/templates/sitemap.xml');
@@ -25,7 +24,8 @@ function loc(href) {
 }
 
 function lastmod(filePath, isAbs) {
-  return fs.statSync(isAbs ? filePath : path.join(process.cwd(), filePath)).mtime;
+  return fs.statSync(isAbs ? filePath : path.join(process.cwd(), filePath))
+    .mtime;
 }
 
 export default function feeds() {
@@ -99,13 +99,13 @@ export default function feeds() {
         link: loc(props.pagePath),
         title: props.pageHeading,
         description: props.pageExcerpt,
-        pubDate: (new Date(props.dateUnix)).toGMTString()
+        pubDate: new Date(props.dateUnix).toGMTString()
       });
     });
 
     const rssXML = rssTmp({
       items: compact(rssItems.map(rssEntryTmp)).join(''),
-      lastBuildDate: (new Date()).toGMTString()
+      lastBuildDate: new Date().toGMTString()
     });
 
     fs.outputFileSync(sitemapPath, sitemapXML);

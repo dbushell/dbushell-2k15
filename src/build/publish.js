@@ -50,8 +50,14 @@ fs.readdirSync(partialDir).forEach(fileName => {
 Handlebars.registerHelper('inlineAsset', href => {
   if (typeof inline[href] !== 'string') {
     try {
-      inline[href] = fs.readFileSync(path.join(global.DBUSHELL.__dest, href), 'utf8');
-      inline[href] = inline[href].replace(/{{[\s]*siteVer[\s]*}}/g, global.DBUSHELL.siteVer);
+      inline[href] = fs.readFileSync(
+        path.join(global.DBUSHELL.__dest, href),
+        'utf8'
+      );
+      inline[href] = inline[href].replace(
+        /{{[\s]*siteVer[\s]*}}/g,
+        global.DBUSHELL.siteVer
+      );
     } catch (err) {
       inline[href] = '';
     }
@@ -107,8 +113,17 @@ export function publish(type, props) {
       }
       const body = type.renderBody(React.createElement(type, props));
       const html = renderHandlebars({...props, body});
-      const filePath = path.join(global.DBUSHELL.__dest, props.pagePath, 'index.html');
-      const apiPath = path.join(global.DBUSHELL.__dest, '/api/', props.pagePath, '/props.json');
+      const filePath = path.join(
+        global.DBUSHELL.__dest,
+        props.pagePath,
+        'index.html'
+      );
+      const apiPath = path.join(
+        global.DBUSHELL.__dest,
+        '/api/',
+        props.pagePath,
+        '/props.json'
+      );
       fs.outputFileSync(filePath, html);
       fs.outputFileSync(apiPath, JSON.stringify(props, null, 2));
       resolve();
