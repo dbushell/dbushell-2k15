@@ -1,3 +1,4 @@
+#!/usr/bin/env ./node_modules/.bin/babel-node
 'use strict';
 
 import fs from 'fs';
@@ -5,7 +6,10 @@ import path from 'path';
 import postcss from 'postcss';
 import autoprefixer from 'autoprefixer';
 
-const cssFrom = path.join(process.cwd(), '/dbushell.github.io/assets/css/main.css');
+const cssFrom = path.join(
+  process.cwd(),
+  '/dbushell.github.io/assets/css/main.css'
+);
 const cssTo = cssFrom.replace('.css', '.post.css');
 
 function runPostCSS({cssFrom, cssTo}) {
@@ -16,17 +20,21 @@ function runPostCSS({cssFrom, cssTo}) {
         return;
       }
       resolve();
-      postcss([autoprefixer({
-        remove: false,
-        flexbox: 'no-2009'
-      })])
+      postcss([
+        autoprefixer({
+          remove: false,
+          flexbox: 'no-2009'
+        })
+      ])
         .process(css, {
           map: false,
           from: cssFrom,
           to: cssTo
-        }).then(result => {
+        })
+        .then(result => {
           fs.writeFile(cssTo, result.css, resolve);
-        }).catch(err => {
+        })
+        .catch(err => {
           reject(err);
         });
     });
@@ -40,8 +48,10 @@ Promise.all([
     cssFrom: cssFrom.replace('main.', 'all.'),
     cssTo: cssTo.replace('main.', 'all.')
   })
-]).then(() => {
-  console.log('done!');
-}).catch(err => {
-  console.error(err);
-});
+])
+  .then(() => {
+    console.log('done!');
+  })
+  .catch(err => {
+    console.error(err);
+  });
