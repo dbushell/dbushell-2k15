@@ -4,7 +4,6 @@ import path from 'path';
 import chalk from 'chalk';
 import {argv} from 'yargs';
 import packageJson from '../../package';
-import buildSW from './tasks/sw';
 import buildBlog from './tasks/blog';
 import buildFeeds from './tasks/feeds';
 import buildPortfolio from './tasks/portfolio';
@@ -95,8 +94,6 @@ export async function build() {
   if (argv.feeds || argv.all) {
     await buildFeeds();
   }
-  // Update Service Worker
-  await buildSW();
   // Complete!
   process.stdout.write(chalk.bold.yellow('Build complete 👌') + '\n');
 }

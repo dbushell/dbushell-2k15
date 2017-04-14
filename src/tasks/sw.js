@@ -1,9 +1,10 @@
+#!/usr/bin/env ./node_modules/.bin/babel-node
 'use strict';
 
 import fs from 'fs';
 import path from 'path';
 import shortid from 'shortid';
-import packageJson from '../../../package';
+import packageJson from '../../package';
 
 const rCache = /^(const cacheName = ')([\w_-]+)';/m;
 const rVer = /\?v=([\d]+\.[\d]+\.[\d]+)/g;
@@ -11,8 +12,8 @@ const rVer = /\?v=([\d]+\.[\d]+\.[\d]+)/g;
 /**
  * Update Service Worker to ensure old data is invalidated
  */
-export default function buildSW() {
-  const swSrc = path.join(global.DBUSHELL.__dest, 'sw.js');
+function buildSW() {
+  const swSrc = path.join(process.cwd(), 'dbushell.github.io/sw.js');
   return new Promise((resolve, reject) => {
     fs.readFile(swSrc, 'utf8', (err, data) => {
       if (err) {
@@ -31,3 +32,5 @@ export default function buildSW() {
     });
   });
 }
+
+buildSW();

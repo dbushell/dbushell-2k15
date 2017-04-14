@@ -10,7 +10,8 @@
   "license": "UNLICENSED - Copyright © David Bushell",
   "scripts": {
     "build": "./index.js",
-    "compile": "tsc -p tsconfig.json && ./src/tasks/prettify.js",
+    "prettify": "./src/tasks/prettify.js",
+    "compile": "tsc -p tsconfig.json && npm run prettify -- --ts",
     "test": "./node_modules/.bin/jest --config=./src/__tests__/jest.json",
     "test-update": "./node_modules/.bin/jest --config=./src/__tests__/jest.json --updateSnapshot",
     "rollup": "./node_modules/.bin/rollup -c && uglifyjs dbushell.github.io/assets/js/app.js -c collapse_vars,evaluate,screw_ie8,unsafe,loops=false,keep_fargs=false,pure_getters,unused,dead_code -m -o dbushell.github.io/assets/js/app.min.js",
