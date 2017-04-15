@@ -7,6 +7,7 @@ export default {
   moduleName: 'dbushell',
   entry: 'src/containers/index.jsx',
   dest: 'dbushell.github.io/assets/js/app.js',
+  useStrict: true,
   format: 'iife',
   plugins: [
     json(),
