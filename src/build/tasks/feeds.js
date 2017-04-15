@@ -99,13 +99,13 @@ export default function feeds() {
         link: loc(props.pagePath),
         title: props.pageHeading,
         description: props.pageExcerpt,
-        pubDate: new Date(props.dateUnix).toGMTString()
+        pubDate: new Date(props.dateUnix).toUTCString()
       });
     });
 
     const rssXML = rssTmp({
       items: compact(rssItems.map(rssEntryTmp)).join(''),
-      lastBuildDate: new Date().toGMTString()
+      lastBuildDate: new Date().toUTCString()
     });
 
     fs.outputFileSync(sitemapPath, sitemapXML);

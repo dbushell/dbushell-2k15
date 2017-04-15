@@ -1,9 +1,15 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import Footer from '../../components/footer';
-import Nav from '../../components/nav';
-import {Archive, Article, Contact, Home, Page, Patterns, Portfolio} from '../';
-import offlinePageProps from '../../../dbushell.github.io/api/offline/props';
+import offlinePageProps from '../../dbushell.github.io/api/offline/props';
+import Footer from '../components/footer';
+import Nav from '../components/nav';
+import Archive from './archive';
+import Article from './article';
+import Contact from './contact';
+import Home from './home';
+import Page from './page';
+import Patterns from './patterns';
+import Portfolio from './portfolio';
 
 const ver = window.dbushell.ver;
 const history = window.history;

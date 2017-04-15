@@ -3,7 +3,10 @@
 import fs from 'fs';
 import {markdown} from '../process';
 import {publish} from '../publish';
-import {Contact, Home, Page, Patterns} from '../../containers';
+import Contact from '../../containers/contact';
+import Home from '../../containers/home';
+import Page from '../../containers/page';
+import Patterns from '../../containers/patterns';
 
 /**
  * Publish content pages ("About", "Services", etc).

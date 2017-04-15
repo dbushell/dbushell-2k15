@@ -2,7 +2,8 @@
 
 import path from 'path';
 import fs from 'fs-extra';
-import {Archive, Article} from '../../containers';
+import Archive from '../../containers/archive';
+import Article from '../../containers/article';
 import {publish, updateFlag, publishFlag} from '../publish';
 import {getArticles} from '../process';
 

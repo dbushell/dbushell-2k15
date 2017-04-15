@@ -4,10 +4,10 @@
     "src/**/*.tsx"
   ],
   "exclude": [
-    "src/build/**/*.js"
+    "src/**/*.js"
   ],
   "compilerOptions": {
-    "allowJs": true,
+    "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
     "removeComments": false,

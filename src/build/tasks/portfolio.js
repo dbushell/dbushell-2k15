@@ -3,7 +3,8 @@
 import fs from 'fs';
 import {markdown} from '../process';
 import {publish} from '../publish';
-import {Page, Portfolio} from '../../containers';
+import Page from '../../containers/page';
+import Portfolio from '../../containers/portfolio';
 
 /**
  * Publish portfolio pages from JSON config.
