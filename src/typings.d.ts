@@ -13,7 +13,7 @@ interface BioProps {
 }
 
 interface BlockProps {
-  main?: boolean,
+  isMain?: boolean,
   classList?: Array<string>
 }
 
@@ -57,8 +57,109 @@ interface ClientsProps {
 }
 
 interface CTAProps {
+  title?: string,
+  paragraph?: string,
+  link?: string,
+  href?: string
+}
+
+interface FieldProps {
+  id: string,
+  name?: string,
+  type?: string,
+  value?: string,
+  placeholder?: string,
+  required?: boolean
+}
+
+interface FolioItemProps {
+  href: string,
+  heading: string,
+  imageSrc: string,
+  imageAlt: string,
+  bgColor: string
+}
+
+interface FolioProps {
+  heading?: string,
+  href?: string,
+  items?: Array<FolioItemProps>
+}
+
+interface ExcerptProps {
   title: string,
-  paragraph: string,
-  link: string,
-  href: string
+  date: number,
+  href: string,
+  body: string
+}
+
+interface FooterProps {
+  isHirable?: boolean
+}
+
+interface HeroProps {
+  heading?: string
+}
+
+interface IconProps {
+  id: string
+}
+
+interface LabelProps {
+  text: string,
+  field?: string
+}
+
+interface NavItemProps {
+  text: string,
+  href: string,
+  order: number,
+  priority: number
+}
+
+interface NavProps {
+  heading?: string,
+  items?: Array<NavItemProps>
+}
+
+interface PostProps {
+  classList?: Array<string>,
+  children?: any
+}
+
+interface SectorProps {
+  alt?: boolean,
+  rtl?: boolean,
+  heading: string,
+  subheading: string,
+  description: string,
+  button: ButtonProps
+}
+
+interface SectorsProps {
+  items?: Array<SectorProps>
+}
+
+interface SmallProps {
+  children?: any
+}
+
+interface StarProps {
+  id?: string,
+  blink?: boolean
+}
+
+interface StepsItemProps {
+  href: string,
+  heading: string,
+  description: string,
+  button?: ButtonProps
+}
+
+interface StepsProps {
+  items: Array<StepsItemProps>
+}
+
+interface TimeProps {
+  date: number
 }

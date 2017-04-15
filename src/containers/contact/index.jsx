@@ -28,7 +28,7 @@ if (para.innerHTML.length > 0) {
 
 const Contact = props => {
   return (
-    <Block main>
+    <Block isMain>
       <Block>
         <Post>
           <div className="b-post__title">

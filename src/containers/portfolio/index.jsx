@@ -3,7 +3,7 @@ import {Block, Post} from '../../components';
 
 const Portfolio = props => {
   return (
-    <Block main>
+    <Block isMain>
       <Block>
         <Post>
           <div className="b-post__title">

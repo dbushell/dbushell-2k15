@@ -1,0 +1,27 @@
+{
+  "heading": "Featured Projects",
+  "href": "/showcase/",
+  "items": [
+    {
+      "bgColor": "#b72817",
+      "href": "/2016/10/10/building-a-shopify-theme/",
+      "heading": "Shopify Theme",
+      "imageSrc": "/assets/img/portfolio/stshopify.png",
+      "imageAlt": "Building a Shopify Theme"
+    },
+    {
+      "bgColor": "#d8ac59",
+      "href": "/2015/03/18/responsive-design-for-houden/",
+      "heading": "Houden",
+      "imageSrc": "/assets/img/portfolio/houden.png",
+      "imageAlt": "Houden"
+    },
+    {
+      "bgColor": "#993300",
+      "href": "/2014/05/07/responsive-design-for-uwe-wittwer/",
+      "heading": "Uwe Wittwer",
+      "imageSrc": "/assets/img/portfolio/uwewittwer.png",
+      "imageAlt": "Uwe Wittwer"
+    }
+  ]
+}

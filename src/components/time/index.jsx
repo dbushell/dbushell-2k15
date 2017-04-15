@@ -57,7 +57,4 @@ const Time = props => {
     </time>
   );
 };
-Time.defaultProps = {
-  date: 946598400000
-};
 export default Time;

@@ -4,10 +4,6 @@ const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const abbrMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-interface TimeProps {
-  date: number
-}
-
 const Time: React.SFC<TimeProps> = props => {
   const date = new Date(props.date);
   const attr = {
@@ -26,10 +22,6 @@ const Time: React.SFC<TimeProps> = props => {
       {time.dddd} <b>{time.D} <abbr title={time.MMMM}>{time.MMM}</abbr> {time.Y}</b>
     </time>
   );
-};
-
-Time.defaultProps = {
-  date: 946598400000
 };
 
 export default Time;

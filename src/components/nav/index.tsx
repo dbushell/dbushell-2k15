@@ -2,18 +2,6 @@ import React from 'react';
 import Icon from '../icon';
 import defaults from './defaults.json';
 
-interface NavItemProps {
-  text: string,
-  href: string,
-  order: number,
-  priority: number
-}
-
-interface NavProps {
-  heading?: string,
-  items?: Array<NavItemProps>
-}
-
 const NavItem: React.SFC<NavItemProps> = props => {
   return (
     <li className="b-nav__item" data-priority={props.priority} data-order={props.order}>

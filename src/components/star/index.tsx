@@ -1,5 +1,6 @@
 import React from 'react';
-const Star = props => {
+
+const Star: React.SFC<StarProps> = props => {
   const star = id => {
     return {__html: `<use xlink:href="/assets/img/stars.svg#${id}"></use>`};
   };
@@ -10,9 +11,13 @@ const Star = props => {
   if (props.blink) {
     attr.className += ' e-star--blink';
   }
-  return <svg {...attr} dangerouslySetInnerHTML={star(props.id)} />;
+  return (
+    <svg {...attr} dangerouslySetInnerHTML={star(props.id)}/>
+  );
 };
+
 Star.defaultProps = {
   id: 'star'
 };
+
 export default Star;

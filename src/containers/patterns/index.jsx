@@ -3,7 +3,7 @@ import * as P from '../../components';
 
 const Patterns = props => {
   return (
-    <P.Block main>
+    <P.Block isMain>
       <P.Block>
         <P.Post>
           <div className="b-post__title">

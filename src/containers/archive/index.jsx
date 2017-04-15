@@ -14,7 +14,7 @@ const Archive = props => {
     items.push(<hr key={item.id + '-hr'}/>);
   });
   return (
-    <Block main>
+    <Block isMain>
       <Block>
         <Post>
           <div className="b-post__title">

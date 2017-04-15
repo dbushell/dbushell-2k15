@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Block: React.SFC<BlockProps> = props => {
-  if (props.main) {
+  if (props.isMain) {
     return (
       <main className={['c-main'].concat(props.classList).join(' ').trim()}>{props.children}</main>
     );

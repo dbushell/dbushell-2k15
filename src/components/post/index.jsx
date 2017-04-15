@@ -1,15 +1,6 @@
 import React from 'react';
-
 const Post = props => {
   const classList = ['b-post'].concat(props.classList);
-  return (
-    <div className={classList.join(' ').trim()}>{props.children}</div>
-  );
+  return <div className={classList.join(' ').trim()}>{props.children}</div>;
 };
-
-// Post.propTypes = {
-//   children: PropTypes.node,
-//   classList: PropTypes.arrayOf(PropTypes.string)
-// };
-
 export default Post;
