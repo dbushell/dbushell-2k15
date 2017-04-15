@@ -1,26 +1,18 @@
 'use strict';
 
 import fs from 'fs';
-import container from '../container';
 import {markdown} from '../process';
 import {publish} from '../publish';
 import {Contact, Home, Page, Patterns} from '../../containers';
-
-const PageContainer = container(Page);
-const HomeContainer = container(Home);
-const PatternsContainer = container(Patterns);
-const ContactContainer = container(Contact, {
-  footerProps: {isHirable: false}
-});
 
 /**
  * Publish content pages ("About", "Services", etc).
  */
 export default async function buildPages() {
   const queue = [];
-  global.DBUSHELL.__Config.pages.forEach(props =>
+  global.DBUSHELL.__pageJson.pages.forEach(props =>
     queue.push(
-      publish(PageContainer, {
+      publish(Page, {
         ...props,
         innerHTML: markdown(fs.readFileSync(props.__src, 'utf8'))
       })
@@ -30,24 +22,25 @@ export default async function buildPages() {
 }
 
 export async function buildHome() {
-  return publish(HomeContainer, {
+  return publish(Home, {
     pagePath: '/',
     pageCSS: '/assets/css/all.post.css',
-    pageHeading: HomeContainer.defaultProps.pageHeading
+    pageHeading: Home.defaultProps.pageHeading
   });
 }
 
 export async function buildPatterns() {
-  return publish(PatternsContainer, {
+  return publish(Patterns, {
     pagePath: '/pattern-library/',
     pageCSS: '/assets/css/all.post.css',
-    pageHeading: PatternsContainer.defaultProps.pageHeading
+    pageHeading: Patterns.defaultProps.pageHeading
   });
 }
 
 export async function buildContact() {
-  return publish(ContactContainer, {
+  return publish(Contact, {
     pagePath: '/contact/',
-    pageHeading: ContactContainer.defaultProps.pageHeading
+    pageHeading: Contact.defaultProps.pageHeading,
+    __footerProps: {isHirable: false}
   });
 }

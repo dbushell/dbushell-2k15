@@ -4,6 +4,8 @@ import path from 'path';
 import chalk from 'chalk';
 import {argv} from 'yargs';
 import packageJson from '../../package';
+import blogJson from '../data/pages';
+import portfolioJson from '../data/portfolio';
 import buildBlog from './tasks/blog';
 import buildFeeds from './tasks/feeds';
 import buildPortfolio from './tasks/portfolio';
@@ -13,15 +15,17 @@ import buildPages, {
   buildContact
 } from './tasks/pages';
 
+const absPath = str => path.join(process.cwd(), str);
+
 // Gefault context for Handlebars templates and Page component props
 global.DBUSHELL = {
-  __dest: path.join(process.cwd(), '/dbushell.github.io'),
-  __bSrc: path.join(process.cwd(), '/src/data/blog'),
-  __bRecent: path.join(process.cwd(), '/src/components/blog/defaults.json'),
-  __Src: path.join(process.cwd(), '/src/data/pages'),
-  __Config: require('../data/pages.json'),
-  __pSrc: path.join(process.cwd(), '/src/data/portfolio'),
-  __pConfig: require('../data/portfolio.json'),
+  __dest: absPath('/dbushell.github.io'),
+  __blogData: absPath('/src/data/blog'),
+  __pageData: absPath('/src/data/pages'),
+  __portfolioData: absPath('/src/data/portfolio'),
+  __blogDefaults: absPath('/src/components/blog/defaults.json'),
+  __pageJson: blogJson,
+  __portfolioJson: portfolioJson,
   siteVer: packageJson.version,
   siteProtocol: 'https:',
   siteRoot: 'dbushell.com',
@@ -33,16 +37,16 @@ global.DBUSHELL = {
   pageTemplate: 'index'
 };
 
-global.DBUSHELL.__Config.pages.forEach(props => {
+global.DBUSHELL.__pageJson.pages.forEach(props => {
   props.__src = path.join(
-    global.DBUSHELL.__Src,
+    global.DBUSHELL.__pageData,
     props.pagePath.replace(/\/$/, '.md')
   );
 });
 
-global.DBUSHELL.__pConfig.pages.forEach(props => {
+global.DBUSHELL.__portfolioJson.pages.forEach(props => {
   const match = props.pagePath.match(/[\w-]+\/([\w-]+)\/$/);
-  props.__src = path.join(global.DBUSHELL.__pSrc, `${match[1]}.md`);
+  props.__src = path.join(global.DBUSHELL.__portfolioData, `${match[1]}.md`);
 });
 
 // Bit of console flair

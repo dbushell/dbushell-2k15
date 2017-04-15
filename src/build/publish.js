@@ -3,10 +3,13 @@
 import path from 'path';
 import chalk from 'chalk';
 import React from 'react';
+import ReactDOMServer from 'react-dom/server';
 import fs from 'fs-extra';
 import Handlebars from 'handlebars';
 import merge from 'lodash.merge';
 import cloneDeep from 'lodash.clonedeep';
+import Footer from '../components/footer';
+import Nav from '../components/nav';
 import {removePrivateProps} from './utils';
 
 export const updateFlag = chalk.cyan(`Updated:    `);
@@ -85,16 +88,28 @@ Handlebars.registerHelper('siteURL', (url, context) => {
 function renderHandlebars(context) {
   context = merge(cloneDeep(global.DBUSHELL), context || {});
   removePrivateProps(context);
-  const template = templates[context.pageTemplate];
-  const html = template(context);
-  return html;
+  return templates[context.pageTemplate](context);
+}
+
+/**
+ * Render a page container with Footer and Nav components.
+ */
+export function renderContainer(container, config) {
+  return `
+${ReactDOMServer.renderToStaticMarkup(React.createElement(container, config))}
+${ReactDOMServer.renderToStaticMarkup(React.createElement(Footer, {
+      ...(config.__footerProps || {})
+    }))}
+${ReactDOMServer.renderToStaticMarkup(React.createElement(Nav, {
+      ...(config.__navProps || {})
+    }))}
+`;
 }
 
 /**
  * Filter props passed to the page container before publishing.
  */
 function filterPageProps(props) {
-  removePrivateProps(props);
   props.pageTitle = props.pageHeading;
   if (props.pagePath !== '/') {
     props.pageTitle = `${props.pageHeading} – ${global.DBUSHELL.siteName}`;
@@ -108,10 +123,10 @@ export function publish(type, props) {
   filterPageProps(props);
   return new Promise((resolve, reject) => {
     try {
-      if (/^(Article|Archive)/.test(type.displayName) === false) {
+      if (/^(Article|Archive)/.test(type.name) === false) {
         process.stdout.write(`${publishFlag}${props.pagePath}\n`);
       }
-      const body = type.renderBody(React.createElement(type, props));
+      const body = renderContainer(type, props);
       const html = renderHandlebars({...props, body});
       const filePath = path.join(
         global.DBUSHELL.__dest,
@@ -125,6 +140,7 @@ export function publish(type, props) {
         '/props.json'
       );
       fs.outputFileSync(filePath, html);
+      removePrivateProps(props);
       fs.outputFileSync(apiPath, JSON.stringify(props, null, 2));
       resolve();
     } catch (err) {

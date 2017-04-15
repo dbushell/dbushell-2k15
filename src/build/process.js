@@ -9,9 +9,6 @@ import fs from 'fs-extra';
 import frontMatter from 'front-matter';
 import {escSmart, trimExcerpt} from './utils';
 
-// eslint-disable-next-line import/no-unassigned-import
-// require('prismjs/components/prism-php');
-
 marked.setOptions({
   smartypants: true,
   langPrefix: 'language-',

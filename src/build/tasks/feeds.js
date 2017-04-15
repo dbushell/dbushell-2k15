@@ -50,7 +50,7 @@ export default function feeds() {
       priority: '0.5'
     });
 
-    global.DBUSHELL.__Config.pages.forEach(props => {
+    global.DBUSHELL.__pageJson.pages.forEach(props => {
       if (props.pagePath === '/offline/') {
         return;
       }
@@ -69,7 +69,7 @@ export default function feeds() {
       priority: '0.7'
     });
 
-    global.DBUSHELL.__pConfig.pages.forEach(props => {
+    global.DBUSHELL.__portfolioJson.pages.forEach(props => {
       entries.push({
         loc: loc(props.pagePath),
         lastmod: lastmod(props.__src, true).toISOString(),
@@ -78,7 +78,7 @@ export default function feeds() {
       });
     });
 
-    const articles = await getArticles(global.DBUSHELL.__bSrc);
+    const articles = await getArticles(global.DBUSHELL.__blogData);
 
     articles.forEach(props => {
       entries.push({
