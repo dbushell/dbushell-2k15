@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOMServer from 'react-dom/server';
-import {Footer, Nav} from '../components';
+import Footer from '../components/footer';
+import Nav from '../components/nav';
 
 function container(Contained, config = {}) {
   class Container extends Component {

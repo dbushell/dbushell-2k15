@@ -1,5 +1,5 @@
 import React from 'react';
-import {Bio} from '../components';
+import Bio from '../components/bio';
 import {outerHTML} from './utils';
 
 describe('Bio component', () => {

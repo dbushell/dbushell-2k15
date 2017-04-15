@@ -5,18 +5,22 @@ import Folio from '../../components/folio';
 import Hero from '../../components/hero';
 import Sectors from '../../components/sectors';
 import Steps from '../../components/steps';
-const Home = () => {
+
+const Home: React.SFC<any> = () => {
   return (
     <Block isMain classList={['c-main--home']}>
-      <Hero />
-      <Steps />
-      <Sectors />
-      <Folio />
-      <Clients />
+      <Hero/>
+      <Steps/>
+      <Sectors/>
+      <Folio/>
+      <Clients/>
     </Block>
   );
 };
+
 Home.defaultProps = {
   pageHeading: 'David Bushell – Web Design & Front-end Development (based in Manchester, UK)'
 };
+
 export default Home;
+

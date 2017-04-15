@@ -4,8 +4,11 @@ import Cta from '../../components/cta';
 import Time from '../../components/time';
 import Newsletter from '../../components/newsletter';
 import Post from '../../components/post';
-import {formatHeading} from '../../build/utils';
-const Article = props => {
+
+declare const formatHeading: Function;
+//// import {formatHeading} from '../../build/utils';
+
+const Article: React.SFC<any> = props => {
   const title = () => {
     return {__html: formatHeading(props.pageHeading)};
   };
@@ -16,7 +19,7 @@ const Article = props => {
     if (!props.pageUndated) {
       return (
         <p className="b-post__date">
-          <Time date={props.dateUnix} />
+          <Time date={props.dateUnix}/>
         </p>
       );
     }
@@ -30,19 +33,21 @@ const Article = props => {
     <Block isMain>
       <Block>
         <Post>
-          <h1 className="b-post__title" dangerouslySetInnerHTML={title()} />
+          <h1 className="b-post__title" dangerouslySetInnerHTML={title()}/>
           {date()}
-          <div className="b-post__body" dangerouslySetInnerHTML={body()} />
+          <div className="b-post__body" dangerouslySetInnerHTML={body()}/>
         </Post>
-        <hr />
-        <Cta {...ctaProps} />
-        <Newsletter />
+        <hr/>
+        <Cta {...ctaProps}/>
+        <Newsletter/>
       </Block>
     </Block>
   );
 };
+
 Article.defaultProps = {
   pageHeading: 'Untitled',
   dateUnix: Date.now()
 };
+
 export default Article;

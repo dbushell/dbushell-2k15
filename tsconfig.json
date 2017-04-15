@@ -3,11 +3,14 @@
     "src/**/*.d.ts",
     "src/**/*.tsx"
   ],
+  "exclude": [
+    "src/build/**/*.js"
+  ],
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
-    "removeComments": true,
+    "removeComments": false,
     "types" : ["react"],
     "jsx": "preserve",
     "target": "es6",

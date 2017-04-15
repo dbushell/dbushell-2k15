@@ -6,6 +6,7 @@ import path from 'path';
 import glob from 'glob';
 import chalk from 'chalk';
 import prettier from 'prettier';
+import replace from 'replace';
 import {argv} from 'yargs';
 
 async function globFiles(src) {
@@ -44,8 +45,17 @@ async function prettify(src) {
 }
 
 async function prettifyTypeScript() {
-  const files = await globFiles(path.join(process.cwd(), 'src/**/*.tsx'));
-  return Promise.all(files.map(src => prettify(src.replace(/\.tsx$/, '.jsx'))));
+  let files = await globFiles(path.join(process.cwd(), 'src/**/*.tsx'));
+  files = files.map(src => src.replace(/\.tsx$/, '.jsx'));
+  await Promise.all(files.map(src => prettify(src)));
+  // uncomment lines starting //// used to bypass TypeScript
+  replace({
+    regex: /^\/{4}\s/m,
+    replacement: '',
+    paths: files,
+    recursive: false,
+    silent: true
+  });
 }
 
 async function prettifyFiles(globSrc) {

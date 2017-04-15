@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import {Footer, Nav} from '../../components';
+import Footer from '../../components/footer';
+import Nav from '../../components/nav';
 import {Archive, Article, Contact, Home, Page, Patterns, Portfolio} from '../';
 import offlinePageProps from '../../../dbushell.github.io/api/offline/props';
 

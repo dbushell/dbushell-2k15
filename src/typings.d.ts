@@ -52,8 +52,8 @@ interface ClientsItemProps {
 
 interface ClientsProps {
   heading?: string,
-  blockquotes: Array<ClientsItemProps>,
-  button: ButtonProps
+  blockquotes?: Array<ClientsItemProps>,
+  button?: ButtonProps
 }
 
 interface CTAProps {
@@ -157,7 +157,7 @@ interface StepsItemProps {
 }
 
 interface StepsProps {
-  items: Array<StepsItemProps>
+  items?: Array<StepsItemProps>
 }
 
 interface TimeProps {

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Time} from '../components';
+import Time from '../components/time';
 import {outerHTML} from './utils';
 
 describe('Time component', () => {

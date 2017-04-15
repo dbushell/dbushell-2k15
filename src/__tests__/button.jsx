@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from '../components';
+import Button from '../components/button';
 import {outerHTML} from './utils';
 
 describe('Button component', () => {

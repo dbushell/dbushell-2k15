@@ -1,5 +1,5 @@
 import React from 'react';
-import {Footer} from '../components';
+import Footer from '../components/footer';
 import {outerHTML} from './utils';
 
 describe('Footer component', () => {

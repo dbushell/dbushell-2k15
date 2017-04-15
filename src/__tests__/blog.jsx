@@ -1,5 +1,5 @@
 import React from 'react';
-import {Blog} from '../components';
+import Blog from '../components/blog';
 import {outerHTML} from './utils';
 
 describe('Blog component', () => {
