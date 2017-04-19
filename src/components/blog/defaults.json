@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "typescript-instead-of-react-proptypes",
+      "title": "TypeScript over React PropTypes",
+      "href": "/2017/04/19/typescript-instead-of-react-proptypes/",
+      "date": 1492596000000
+    },
+    {
       "id": "the-magic-of-service-workers",
       "title": "The Magic of Service Workers",
       "href": "/2017/04/06/the-magic-of-service-workers/",
@@ -30,12 +36,6 @@
       "title": "Working with Promises",
       "href": "/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/",
       "date": 1481882400000
-    },
-    {
-      "id": "my-thoughts-on-react",
-      "title": "My thoughts on React",
-      "href": "/2016/12/02/my-thoughts-on-react/",
-      "date": 1480672800000
     }
   ]
 }
