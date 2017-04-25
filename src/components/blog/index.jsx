@@ -1,6 +1,5 @@
 import React from 'react';
 import Time from '../time';
-import defaults from './defaults.json';
 const BlogItem = props => {
   return (
     <li className="b-blog__item">
@@ -25,5 +24,4 @@ const Blog = props => {
     </aside>
   );
 };
-Blog.defaultProps = defaults;
 export default Blog;

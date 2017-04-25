@@ -15,7 +15,7 @@
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
     "removeComments": false,
-    "types" : ["react"],
+    "types" : ["node", "react"],
     "jsx": "preserve",
     "target": "es6",
     "moduleResolution": "node"

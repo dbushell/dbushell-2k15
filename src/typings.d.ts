@@ -25,8 +25,8 @@ interface BlogItemProps {
 }
 
 interface BlogProps {
-  heading?: string,
-  items?: Array<BlogItemProps>
+  heading: string,
+  items: Array<BlogItemProps>
 }
 
 interface ButtonLabelProps {

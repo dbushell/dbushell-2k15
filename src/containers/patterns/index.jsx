@@ -7,6 +7,7 @@ import Newsletter from '../../components/newsletter';
 import Post from '../../components/post';
 import Sector from '../../components/sector';
 import Sectors from '../../components/sectors';
+import blogProps from '../../components/blog/defaults.json';
 const Patterns = props => {
   return (
     <Block isMain>
@@ -22,7 +23,7 @@ const Patterns = props => {
           </div>
           <h2>Blog latest</h2>
           <div className="b-post__pattern">
-            <Blog />
+            <Blog {...blogProps} />
           </div>
           <h2>Call to Action</h2>
           <div className="b-post__pattern">

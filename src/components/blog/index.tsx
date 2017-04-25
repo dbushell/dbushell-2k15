@@ -1,6 +1,5 @@
 import React from 'react';
 import Time from '../time';
-import defaults from './defaults.json';
 
 const BlogItem: React.SFC<BlogItemProps> = props => {
   return (
@@ -27,7 +26,5 @@ const Blog: React.SFC<BlogProps> = props => {
     </aside>
   );
 };
-
-Blog.defaultProps = defaults;
 
 export default Blog;

@@ -74,40 +74,41 @@ export async function build() {
     'patterns'
   ];
   if (!flags.reduce((a, b) => a || (argv[b] ? b : 0), 0)) {
-    process.stdout.write(chalk.bold('$ npm run build -- [--flag]\n'));
-    process.stdout.write(`Available flags: ${flags.join(', ')}\n`);
-    return;
+    return process.stdout.write(
+      `${chalk.bold('$ npm run build -- [--flag]')}\n` +
+        `Available flags: ${flags.join(', ')}\n`
+    );
   }
-  // Write blog pages
-  if (argv.blog || argv.all) {
-    await buildBlog().catch(err => {
-      process.stderr.write(chalk.red(err) + '\n');
-    });
+  if (argv.blog) {
+    await buildBlog().catch(err => process.stderr.write(chalk.red(err) + '\n'));
   }
-  // Write portfolio pages
-  if (argv.portfolio || argv.all) {
+  if (argv.portfolio) {
     await buildPortfolio();
   }
-  // Write pages
-  if (argv.pages || argv.all) {
+  if (argv.pages) {
     await buildPages();
   }
-  // Write contact page
-  if (argv.contact || argv.all) {
+  if (argv.contact) {
     await buildContact();
   }
-  // Write pattern library
-  if (argv.patterns || argv.all) {
+  if (argv.patterns) {
     await buildPatterns();
   }
-  // Write home page
-  if (argv.home || argv.all) {
+  if (argv.home) {
     await buildHome();
   }
-  // Write RSS and Sitemap XML
-  if (argv.feeds || argv.all) {
+  if (argv.feeds) {
     await buildFeeds();
   }
-  // Complete!
+  if (argv.all) {
+    await buildBlog();
+    await Promise.all([
+      buildPages(),
+      buildContact(),
+      buildPatterns(),
+      buildHome()
+    ]);
+    await buildFeeds();
+  }
   process.stdout.write(chalk.bold.yellow('Build complete 👌') + '\n');
 }
