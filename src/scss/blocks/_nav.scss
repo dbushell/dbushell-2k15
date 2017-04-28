@@ -131,7 +131,26 @@ $stripe2 : $stripe * $stripe;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+
+    .js & {
+      flex-wrap: wrap;
+      overflow: hidden;
+      padding-right: em($unit * 8);
+    }
+
+    .js-nav & {
+      flex-wrap: nowrap;
+      overflow: visible;
+      // padding-right: 0;
+    }
   }
+
+  .b-nav--overflow > & {
+  }
+
+  // .b-nav--not-overflow > & {
+  //   padding-right: 0 !important;
+  // }
 }
 
 .b-nav__item {
@@ -150,6 +169,10 @@ $stripe2 : $stripe * $stripe;
   border-right: 0;
   flex-grow: 4;
 
+  .b-nav__list > & {
+    margin-right: em(-$unit * 8);
+  }
+
   .b-nav__link {
     display: inline-block;
     vertical-align: top;
@@ -157,11 +180,12 @@ $stripe2 : $stripe * $stripe;
   }
 }
 
-.b-nav__item--more {
-  position: relative;
+.b-nav__more {
+  position: absolute;
+  top: 0;
+  right: 0;
   display: none;
-  flex-grow: 0;
-  border-right: 0;
+  width: em($unit * 8);
 
   &:hover:before {
     position: absolute;
@@ -178,6 +202,8 @@ $stripe2 : $stripe * $stripe;
   display: block;
   top: 100%;
   right: 0;
+  width: auto;
+  list-style: none;
   margin: em($unit);
   background: $white;
   border-radius: 5px;

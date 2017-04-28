@@ -106,6 +106,7 @@ export async function build() {
       buildPages(),
       buildContact(),
       buildPatterns(),
+      buildPortfolio(),
       buildHome()
     ]);
     await buildFeeds();

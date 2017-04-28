@@ -49,13 +49,13 @@ const Nav = props => {
             <span className="u-vh">CodePen</span>
           </a>
         </li>
-        <li className="b-nav__item b-nav__item--more">
-          <button type="button" className="b-nav__link">
-            <Icon id="nav" />
-          </button>
-          <ul className="b-nav__list b-nav__dropdown" />
-        </li>
       </ul>
+      <div className="b-nav__more">
+        <button type="button" className="b-nav__link">
+          <Icon id="nav" />
+        </button>
+        <ul className="b-nav__dropdown" />
+      </div>
     </nav>
   );
 };
