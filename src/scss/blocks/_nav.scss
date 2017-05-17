@@ -180,6 +180,13 @@ $stripe2 : $stripe * $stripe;
   }
 }
 
+.b-nav__list > .b-nav__item--active {
+
+  .b-nav__link {
+    color: $yellow;
+  }
+}
+
 .b-nav__more {
   position: absolute;
   top: 0;

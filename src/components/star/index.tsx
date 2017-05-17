@@ -5,8 +5,8 @@ const Star: React.SFC<StarProps> = props => {
     return {__html: `<use xlink:href="/assets/img/stars.svg#${id}"></use>`};
   };
   const attr = {
-    className: 'e-star',
-    role: 'presentation'
+    className: 'e-star'
+    // role: 'presentation'
   };
   if (props.blink) {
     attr.className += ' e-star--blink';

@@ -114,11 +114,13 @@ interface NavItemProps {
   text: string,
   href: string,
   order: number,
-  priority: number
+  priority: number,
+  active: boolean
 }
 
 interface NavProps {
   heading?: string,
+  pagePath?: string,
   items?: Array<NavItemProps>
 }
 

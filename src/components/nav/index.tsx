@@ -3,14 +3,34 @@ import Icon from '../icon';
 import defaults from './defaults.json';
 
 const NavItem: React.SFC<NavItemProps> = props => {
+  const attr = {
+    className: 'b-nav__item'
+  };
+  attr['data-priority'] = props.priority;
+  attr['data-order'] = props.order;
+  if (props.active) {
+    attr.className += ' b-nav__item--active';
+  }
   return (
-    <li className="b-nav__item" data-priority={props.priority} data-order={props.order}>
+    <li {...attr}>
       <a href={props.href} className="b-nav__link">{props.text}</a>
     </li>
   );
 }
 
 const Nav: React.SFC<NavProps> = props => {
+  const {pagePath} = props;
+  if (pagePath) {
+    props.items.forEach(item => {
+      item.active = false;
+      if (item.href === pagePath) {
+        item.active = true;
+      }
+      if (/^\/blog\//.test(item.href) && /^\/\d{4}\/\d{2}\/\d{2}\//.test(pagePath)) {
+        item.active = true;
+      }
+    });
+  }
   return (
     <nav className="b-nav" id="nav">
       <h2 className="b-nav__title u-vh">{props.heading}</h2>
