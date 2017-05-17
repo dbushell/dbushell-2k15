@@ -12,12 +12,10 @@ exports[`Nav component renders with defaults 1`] = `
     <li class=\\"b-nav__item\\" data-priority=\\"3\\" data-order=\\"6\\"><a href=\\"/contact/\\" class=\\"b-nav__link\\">Contact</a></li>
     <li class=\\"b-nav__item b-nav__item--icons\\" data-priority=\\"7\\" data-order=\\"7\\"><a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\" target=\\"_blank\\" title=\\"David Bushell on Twitter\\" href=\\"http://twitter.com/dbushell\\"><svg role=\\"presentation\\"><use xlink:href=\\"/assets/img/icons.svg#twitter\\"/></svg><span class=\\"u-vh\\">@dbushell</span></a>
       <a
-        class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\" target=\\"_blank\\" title=\\"David Bushell on GitHub\\" href=\\"https://github.com/dbushell/\\"><svg role=\\"presentation\\"><use xlink:href=\\"/assets/img/icons.svg#github\\"/></svg><span class=\\"u-vh\\">GitHub</span></a>
-        <a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\" target=\\"_blank\\" title=\\"David Bushell on CodePen\\" href=\\"http://codepen.io/dbushell/\\"><svg role=\\"presentation\\"><use xlink:href=\\"/assets/img/icons.svg#codepen\\"/></svg><span class=\\"u-vh\\">CodePen</span></a>
-    </li>
-    <li class=\\"b-nav__item b-nav__item--more\\"><button type=\\"button\\" class=\\"b-nav__link\\"><svg role=\\"presentation\\"><use xlink:href=\\"/assets/img/icons.svg#nav\\"/></svg></button>
-      <ul class=\\"b-nav__list b-nav__dropdown\\"></ul>
-    </li>
+        class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\" target=\\"_blank\\" title=\\"David Bushell on GitHub\\" href=\\"https://github.com/dbushell/\\"><svg role=\\"presentation\\"><use xlink:href=\\"/assets/img/icons.svg#github\\"/></svg><span class=\\"u-vh\\">GitHub</span></a><a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\" target=\\"_blank\\" title=\\"David Bushell on CodePen\\" href=\\"http://codepen.io/dbushell/\\"><svg role=\\"presentation\\"><use xlink:href=\\"/assets/img/icons.svg#codepen\\"/></svg><span class=\\"u-vh\\">CodePen</span></a></li>
   </ul>
+  <div class=\\"b-nav__more\\"><button type=\\"button\\" class=\\"b-nav__link\\"><svg role=\\"presentation\\"><use xlink:href=\\"/assets/img/icons.svg#nav\\"/></svg></button>
+    <ul class=\\"b-nav__dropdown\\"></ul>
+  </div>
 </nav>"
 `;

@@ -164,7 +164,7 @@ class Root extends Component {
       <div>
         {React.createElement(el, pageProps)}
         <Footer/>
-        <Nav/>
+        <Nav {...pageProps}/>
       </div>
     );
   }
