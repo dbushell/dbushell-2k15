@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "ssh-passphrases-in-macos-sierra",
+      "title": "SSH Passphrases in MacOS Sierra (and learning Vim)",
+      "href": "/2017/05/18/ssh-passphrases-in-macos-sierra/",
+      "date": 1495101600000
+    },
+    {
       "id": "typescript-instead-of-react-proptypes",
       "title": "TypeScript over React PropTypes",
       "href": "/2017/04/19/typescript-instead-of-react-proptypes/",
@@ -30,12 +36,6 @@
       "title": "React as a Static Site Generator",
       "href": "/2017/02/13/react-as-a-static-site-generator/",
       "date": 1486980000000
-    },
-    {
-      "id": "resolving-javascript-promises-sequentially-without-nesting",
-      "title": "Working with Promises",
-      "href": "/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/",
-      "date": 1481882400000
     }
   ]
 }
