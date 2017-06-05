@@ -15,7 +15,7 @@
     "ts": "tsc -p tsconfig.json && npm run prettify -- --ts",
     "test": "./node_modules/.bin/jest",
     "test-update": "./node_modules/.bin/jest --updateSnapshot",
-    "rollup": "./node_modules/.bin/rollup -c && uglifyjs dbushell.github.io/assets/js/app.js -c collapse_vars,evaluate,screw_ie8,unsafe,loops=false,keep_fargs=false,pure_getters,unused,dead_code -m -o dbushell.github.io/assets/js/app.min.js",
+    "rollup": "./node_modules/.bin/rollup -c && uglifyjs dbushell.github.io/assets/js/app.js -c collapse_vars,reduce_vars,evaluate,unused,dead_code -m -o dbushell.github.io/assets/js/app.min.js",
     "start": "./node_modules/.bin/browser-sync start --server=dbushell.github.io --no-notify",
     "css": "./src/tasks/css.js"
   },
