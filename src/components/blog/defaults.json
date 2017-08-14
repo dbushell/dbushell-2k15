@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "tifu-by-deleting-my-work",
+      "title": "#TIFU by deleting my work",
+      "href": "/2017/08/15/tifu-by-deleting-my-work/",
+      "date": 1502791200000
+    },
+    {
       "id": "ssh-passphrases-in-macos-sierra",
       "title": "SSH Passphrases in MacOS Sierra (and learning Vim)",
       "href": "/2017/05/18/ssh-passphrases-in-macos-sierra/",
@@ -30,12 +36,6 @@
       "title": "Web Security and Cloudflare",
       "href": "/2017/02/17/web-security-and-cloudflare/",
       "date": 1487325600000
-    },
-    {
-      "id": "react-as-a-static-site-generator",
-      "title": "React as a Static Site Generator",
-      "href": "/2017/02/13/react-as-a-static-site-generator/",
-      "date": 1486980000000
     }
   ]
 }
