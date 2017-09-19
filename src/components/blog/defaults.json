@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "raspberry-pi-epaper",
+      "title": "Raspberry Pi + e-Paper module + Node.js",
+      "href": "/2017/09/20/raspberry-pi-epaper/",
+      "date": 1505901600000
+    },
+    {
       "id": "tifu-by-deleting-my-work",
       "title": "#TIFU by deleting my work",
       "href": "/2017/08/15/tifu-by-deleting-my-work/",
@@ -30,12 +36,6 @@
       "title": "I watched Iron Fist and coded CSS 👈",
       "href": "/2017/04/03/i-watched-iron-fist-and-coded-css/",
       "date": 1491213600000
-    },
-    {
-      "id": "web-security-and-cloudflare",
-      "title": "Web Security and Cloudflare",
-      "href": "/2017/02/17/web-security-and-cloudflare/",
-      "date": 1487325600000
     }
   ]
 }
