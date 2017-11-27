@@ -3,29 +3,29 @@
 exports[`Footer component renders with defaults 1`] = `
 "<footer id=\\"footer\\" class=\\"c-footer u-dim\\">
   <div class=\\"b-block\\">
-    <section class=\\"b-bio\\" role=\\"complementary\\" itemscope=\\"\\" itemtype=\\"http://schema.org/Person\\">
-      <div class=\\"b-bio__image\\"><img src=\\"/assets/img/me3@1x.jpg\\" srcset=\\"/assets/img/me3@1x.jpg 1x, /assets/img/me3@2x.jpg 2x\\" alt=\\"David Bushell\\"></div>
+    <section class=\\"b-bio\\" role=\\"complementary\\" itemscope=\\"\\" itemType=\\"http://schema.org/Person\\">
+      <div class=\\"b-bio__image\\"><img src=\\"/assets/img/me3@1x.jpg\\" srcSet=\\"/assets/img/me3@1x.jpg 1x, /assets/img/me3@2x.jpg 2x\\" alt=\\"David Bushell\\" /></div>
       <div class=\\"b-bio__main\\">
-        <h3 itemprop=\\"name\\"><a href=\\"/about/\\">David Bushell</a></h3>
-        <p itemprop=\\"description\\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies &#x2014; all over the world.</p>
+        <h3 itemProp=\\"name\\"><a href=\\"/about/\\">David Bushell</a></h3>
+        <p itemProp=\\"description\\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies — all over the world.</p>
       </div>
-    </section><a href=\\"/contact/\\" class=\\"b-hire\\"><img class=\\"b-hire__image\\" src=\\"/assets/img/dbushell-for-hire.svg\\" alt=\\"Available for Hire\\"></a>
+    </section><a href=\\"/contact/\\" class=\\"b-hire\\"><img class=\\"b-hire__image\\" src=\\"/assets/img/dbushell-for-hire.svg\\" alt=\\"Available for Hire\\"/></a>
     <aside class=\\"b-blog\\" role=\\"navigation\\">
       <div class=\\"b-blog__title\\">
-        <h3>From the blog&#x2026;</h3>
+        <h3>From the blog…</h3>
       </div>
       <ul class=\\"b-blog__list\\">
-        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/09/20/raspberry-pi-epaper/\\">Raspberry Pi + e-Paper module + Node.js</a><time class=\\"time\\" datetime=\\"2017-09-20T10:00:00.000Z\\">Wednesday <b>20 <abbr title=\\"September\\">Sep</abbr> 2017</b></time></li>
-        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/08/15/tifu-by-deleting-my-work/\\">#TIFU by deleting my work</a><time class=\\"time\\" datetime=\\"2017-08-15T10:00:00.000Z\\">Tuesday <b>15 <abbr title=\\"August\\">Aug</abbr> 2017</b></time></li>
-        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/05/18/ssh-passphrases-in-macos-sierra/\\">SSH Passphrases in MacOS Sierra (and learning Vim)</a><time class=\\"time\\" datetime=\\"2017-05-18T10:00:00.000Z\\">Thursday <b>18 <abbr title=\\"May\\">May</abbr> 2017</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/09/20/raspberry-pi-epaper/\\">Raspberry Pi + e-Paper module + Node.js</a><time class=\\"time\\" dateTime=\\"2017-09-20T10:00:00.000Z\\">Wednesday <b>20 <abbr title=\\"September\\">Sep</abbr> 2017</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/08/15/tifu-by-deleting-my-work/\\">#TIFU by deleting my work</a><time class=\\"time\\" dateTime=\\"2017-08-15T10:00:00.000Z\\">Tuesday <b>15 <abbr title=\\"August\\">Aug</abbr> 2017</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/05/18/ssh-passphrases-in-macos-sierra/\\">SSH Passphrases in MacOS Sierra (and learning Vim)</a><time class=\\"time\\" dateTime=\\"2017-05-18T10:00:00.000Z\\">Thursday <b>18 <abbr title=\\"May\\">May</abbr> 2017</b></time></li>
         <li
-          class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/19/typescript-instead-of-react-proptypes/\\">TypeScript over React PropTypes</a><time class=\\"time\\" datetime=\\"2017-04-19T10:00:00.000Z\\">Wednesday <b>19 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
-          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/06/the-magic-of-service-workers/\\">The Magic of Service Workers</a><time class=\\"time\\" datetime=\\"2017-04-06T10:00:00.000Z\\">Thursday <b>6 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
-          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/03/i-watched-iron-fist-and-coded-css/\\">I watched Iron Fist and coded CSS &#x1F448;</a><time class=\\"time\\" datetime=\\"2017-04-03T10:00:00.000Z\\">Monday <b>3 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
+          class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/19/typescript-instead-of-react-proptypes/\\">TypeScript over React PropTypes</a><time class=\\"time\\" dateTime=\\"2017-04-19T10:00:00.000Z\\">Wednesday <b>19 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
+          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/06/the-magic-of-service-workers/\\">The Magic of Service Workers</a><time class=\\"time\\" dateTime=\\"2017-04-06T10:00:00.000Z\\">Thursday <b>6 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
+          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/03/i-watched-iron-fist-and-coded-css/\\">I watched Iron Fist and coded CSS 👈</a><time class=\\"time\\" dateTime=\\"2017-04-03T10:00:00.000Z\\">Monday <b>3 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
       </ul>
     </aside>
-    <hr>
-    <p><small>Copyright &#xA9; 2017 <a href=\\"/\\">David Bushell</a></small></p>
+    <hr/>
+    <p><small>Copyright © 2017 <a href=\\"/\\">David Bushell</a></small></p>
   </div>
 </footer>"
 `;
@@ -33,30 +33,30 @@ exports[`Footer component renders with defaults 1`] = `
 exports[`Footer component renders without "for hire" element 1`] = `
 "<footer id=\\"footer\\" class=\\"c-footer u-dim\\">
   <div class=\\"b-block\\">
-    <section class=\\"b-bio\\" role=\\"complementary\\" itemscope=\\"\\" itemtype=\\"http://schema.org/Person\\">
-      <div class=\\"b-bio__image\\"><img src=\\"/assets/img/me3@1x.jpg\\" srcset=\\"/assets/img/me3@1x.jpg 1x, /assets/img/me3@2x.jpg 2x\\" alt=\\"David Bushell\\"></div>
+    <section class=\\"b-bio\\" role=\\"complementary\\" itemscope=\\"\\" itemType=\\"http://schema.org/Person\\">
+      <div class=\\"b-bio__image\\"><img src=\\"/assets/img/me3@1x.jpg\\" srcSet=\\"/assets/img/me3@1x.jpg 1x, /assets/img/me3@2x.jpg 2x\\" alt=\\"David Bushell\\" /></div>
       <div class=\\"b-bio__main\\">
-        <h3 itemprop=\\"name\\"><a href=\\"/about/\\">David Bushell</a></h3>
-        <p itemprop=\\"description\\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies &#x2014; all over the world.</p>
+        <h3 itemProp=\\"name\\"><a href=\\"/about/\\">David Bushell</a></h3>
+        <p itemProp=\\"description\\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies — all over the world.</p>
       </div>
     </section>
-    <hr>
+    <hr/>
     <aside class=\\"b-blog\\" role=\\"navigation\\">
       <div class=\\"b-blog__title\\">
-        <h3>From the blog&#x2026;</h3>
+        <h3>From the blog…</h3>
       </div>
       <ul class=\\"b-blog__list\\">
-        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/09/20/raspberry-pi-epaper/\\">Raspberry Pi + e-Paper module + Node.js</a><time class=\\"time\\" datetime=\\"2017-09-20T10:00:00.000Z\\">Wednesday <b>20 <abbr title=\\"September\\">Sep</abbr> 2017</b></time></li>
-        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/08/15/tifu-by-deleting-my-work/\\">#TIFU by deleting my work</a><time class=\\"time\\" datetime=\\"2017-08-15T10:00:00.000Z\\">Tuesday <b>15 <abbr title=\\"August\\">Aug</abbr> 2017</b></time></li>
-        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/05/18/ssh-passphrases-in-macos-sierra/\\">SSH Passphrases in MacOS Sierra (and learning Vim)</a><time class=\\"time\\" datetime=\\"2017-05-18T10:00:00.000Z\\">Thursday <b>18 <abbr title=\\"May\\">May</abbr> 2017</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/09/20/raspberry-pi-epaper/\\">Raspberry Pi + e-Paper module + Node.js</a><time class=\\"time\\" dateTime=\\"2017-09-20T10:00:00.000Z\\">Wednesday <b>20 <abbr title=\\"September\\">Sep</abbr> 2017</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/08/15/tifu-by-deleting-my-work/\\">#TIFU by deleting my work</a><time class=\\"time\\" dateTime=\\"2017-08-15T10:00:00.000Z\\">Tuesday <b>15 <abbr title=\\"August\\">Aug</abbr> 2017</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/05/18/ssh-passphrases-in-macos-sierra/\\">SSH Passphrases in MacOS Sierra (and learning Vim)</a><time class=\\"time\\" dateTime=\\"2017-05-18T10:00:00.000Z\\">Thursday <b>18 <abbr title=\\"May\\">May</abbr> 2017</b></time></li>
         <li
-          class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/19/typescript-instead-of-react-proptypes/\\">TypeScript over React PropTypes</a><time class=\\"time\\" datetime=\\"2017-04-19T10:00:00.000Z\\">Wednesday <b>19 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
-          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/06/the-magic-of-service-workers/\\">The Magic of Service Workers</a><time class=\\"time\\" datetime=\\"2017-04-06T10:00:00.000Z\\">Thursday <b>6 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
-          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/03/i-watched-iron-fist-and-coded-css/\\">I watched Iron Fist and coded CSS &#x1F448;</a><time class=\\"time\\" datetime=\\"2017-04-03T10:00:00.000Z\\">Monday <b>3 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
+          class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/19/typescript-instead-of-react-proptypes/\\">TypeScript over React PropTypes</a><time class=\\"time\\" dateTime=\\"2017-04-19T10:00:00.000Z\\">Wednesday <b>19 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
+          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/06/the-magic-of-service-workers/\\">The Magic of Service Workers</a><time class=\\"time\\" dateTime=\\"2017-04-06T10:00:00.000Z\\">Thursday <b>6 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
+          <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/04/03/i-watched-iron-fist-and-coded-css/\\">I watched Iron Fist and coded CSS 👈</a><time class=\\"time\\" dateTime=\\"2017-04-03T10:00:00.000Z\\">Monday <b>3 <abbr title=\\"April\\">Apr</abbr> 2017</b></time></li>
       </ul>
     </aside>
-    <hr>
-    <p><small>Copyright &#xA9; 2017 <a href=\\"/\\">David Bushell</a></small></p>
+    <hr/>
+    <p><small>Copyright © 2017 <a href=\\"/\\">David Bushell</a></small></p>
   </div>
 </footer>"
 `;

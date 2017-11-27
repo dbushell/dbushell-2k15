@@ -60,14 +60,17 @@
     }
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+    "setupFiles": [
+      "<rootDir>/src/__tests__/shim.js",
+      "<rootDir>/src/__tests__/setup.js"
+    ],
     "roots": [
       "<rootDir>/src/"
     ],
     "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/dbushell.github.io/",
-      "src/__tests__/utils.js"
+      "<rootDir>/node_modules/",
+      "<rootDir>/dbushell.github.io/",
+      "<rootDir>/src/__tests__/.*\\.js$"
     ],
     "verbose": true
   },
@@ -89,6 +92,7 @@
     "browsersync": "0.0.1-security",
     "chalk": "^2.3.0",
     "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
     "eslint-config-xo-react": "^0.14.0",
     "eslint-plugin-react": "^7.5.1",
     "front-matter": "^2.3.0",

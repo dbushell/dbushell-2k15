@@ -4,11 +4,13 @@ import replace from 'rollup-plugin-replace';
 import json from 'rollup-plugin-json';
 
 export default {
-  moduleName: 'dbushell',
-  entry: 'src/containers/index.jsx',
-  dest: 'dbushell.github.io/assets/js/app.js',
-  useStrict: true,
-  format: 'iife',
+  name: 'dbushell',
+  input: 'src/containers/index.jsx',
+  strict: true,
+  output: {
+    file: 'dbushell.github.io/assets/js/app.js',
+    format: 'iife'
+  },
   plugins: [
     json(),
     nodeResolve({
