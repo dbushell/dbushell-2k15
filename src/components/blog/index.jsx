@@ -3,7 +3,9 @@ import Time from '../time';
 const BlogItem = props => {
   return (
     <li className="b-blog__item">
-      <a rel="bookmark" href={props.href}>{props.title}</a>
+      <a rel="bookmark" href={props.href}>
+        {props.title}
+      </a>
       <Time date={props.date} />
     </li>
   );

@@ -104,7 +104,9 @@ const Portfolio = props => {
             <br />
             <h2>Graphic Design</h2>
             <p>
-              Print, advertising, and editorial — these projects from my university degree helped develop my understanding of fundamental design principles.
+              Print, advertising, and editorial — these projects from my
+              university degree helped develop my understanding of fundamental
+              design principles.
             </p>
             <div className="b-folio">
               <ul className="b-folio__list">
@@ -191,7 +193,8 @@ const Portfolio = props => {
             <hr id="more" />
             <h2>Older Website Projects</h2>
             <p>
-              Web design and front-end development from previous agencies I’ve worked at.
+              Web design and front-end development from previous agencies I’ve
+              worked at.
             </p>
             <ul>
               <li>
@@ -209,16 +212,24 @@ const Portfolio = props => {
                   Gloople
                 </a>
               </li>
-              <li><a href="/showcase/atherton-cox/">Atherton Cox</a></li>
-              <li><a href="/showcase/brucar/">Brucar</a></li>
+              <li>
+                <a href="/showcase/atherton-cox/">Atherton Cox</a>
+              </li>
+              <li>
+                <a href="/showcase/brucar/">Brucar</a>
+              </li>
               <li>
                 <a href="/showcase/eden-anglo-french/">Eden Anglo French</a>
               </li>
-              <li><a href="/showcase/my-life-listed/">MyLifeListed</a></li>
+              <li>
+                <a href="/showcase/my-life-listed/">MyLifeListed</a>
+              </li>
               <li>
                 <a href="/showcase/peerless-av-europe/">Peerless AV Europe</a>
               </li>
-              <li><a href="/showcase/shane-global/">Shane Global</a></li>
+              <li>
+                <a href="/showcase/shane-global/">Shane Global</a>
+              </li>
             </ul>
           </div>
         </Post>

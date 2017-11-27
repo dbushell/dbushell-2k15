@@ -44,7 +44,8 @@ const Footer = props => {
         <Blog {...blogProps()} />
         <hr />
         <Small>
-          Copyright © {new Date().getFullYear()} <a href="/">David Bushell</a>
+          Copyright &copy; {new Date().getFullYear()}{' '}
+          <a href="/">David Bushell</a>
         </Small>
       </Block>
     </footer>

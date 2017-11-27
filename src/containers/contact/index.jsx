@@ -37,9 +37,17 @@ const Contact = props => {
             <h1>{props.pageHeading}</h1>
           </div>
           <div className="b-post__body">
+            <div className="b-boxed b-boxed--light">
+              <p>
+                I have no availability this year{' '}
+                <b>but please get in touch for 2018!</b>
+              </p>
+            </div>
             <p>Need help with your website?</p>
             <p className="p--large">
-              <b><a href="mailto:hi@dbushell.com">hi@dbushell.com</a></b>
+              <b>
+                <a href="mailto:hi@dbushell.com">hi@dbushell.com</a>
+              </b>
             </p>
             <p>or use the form below:</p>
             <form
@@ -72,13 +80,14 @@ const Contact = props => {
                   />
                 </li>
                 <li className="b-form__item">
-                  <h4><strong>Have a project in mind?</strong></h4>
+                  <h4>
+                    <strong>Have a project in mind?</strong>
+                  </h4>
                   <p className="p--small">
-                    I can provide a
-                    {' '}
-                    <b>free quote.</b>
-                    {' '}
-                    Please provide as much detail as possible — budget, requirements, timelines — so I can answer you quickly. If I’m not available now we can book in advance.
+                    I can provide a <b>free quote.</b> Please provide as much
+                    detail as possible — budget, requirements, timelines — so I
+                    can answer you quickly. If I’m not available now we can book
+                    in advance.
                   </p>
                   <Label field="contact-enquiry" text="Enquiry" />
                   <textarea

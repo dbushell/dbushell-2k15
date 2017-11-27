@@ -18,9 +18,17 @@ const Button = props => {
   const label = <ButtonLabel text={props.text} />;
   let button;
   if (props.submit) {
-    button = <button type="submit" {...attr}>{label}</button>;
+    button = (
+      <button type="submit" {...attr}>
+        {label}
+      </button>
+    );
   } else {
-    button = <a href={props.href} {...attr}>{label}</a>;
+    button = (
+      <a href={props.href} {...attr}>
+        {label}
+      </a>
+    );
   }
   return button;
 };

@@ -5,7 +5,9 @@ import defaults from './defaults.json';
 const StepsItem = props => {
   return (
     <article className="c-steps__item">
-      <h2 className="h4"><a href={props.href}>{props.heading}</a></h2>
+      <h2 className="h4">
+        <a href={props.href}>{props.heading}</a>
+      </h2>
       <p>{props.description}</p>
       {props.button ? <Button {...props.button} /> : null}
     </article>
@@ -24,9 +26,7 @@ const Steps = props => {
   return (
     <div className="c-steps">
       <Block>
-        <div className="c-steps__list">
-          {items}
-        </div>
+        <div className="c-steps__list">{items}</div>
       </Block>
     </div>
   );

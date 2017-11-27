@@ -9,7 +9,9 @@ const Excerpt = props => {
   };
   return (
     <article {...attr}>
-      <h3 className="b-post__title"><a href={props.href}>{props.title}</a></h3>
+      <h3 className="b-post__title">
+        <a href={props.href}>{props.title}</a>
+      </h3>
       <p className="b-post__date">
         <Time date={props.date} />
       </p>

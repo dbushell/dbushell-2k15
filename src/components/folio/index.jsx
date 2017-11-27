@@ -20,7 +20,9 @@ const Folio = props => {
     <div className="c-folio">
       <Block>
         <div className="c-folio__header">
-          <h2><a href={props.href}>{props.heading}</a></h2>
+          <h2>
+            <a href={props.href}>{props.heading}</a>
+          </h2>
         </div>
         <div className="b-folio">
           <ul className="b-folio__list">

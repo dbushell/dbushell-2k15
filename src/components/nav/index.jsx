@@ -12,7 +12,9 @@ const NavItem = props => {
   }
   return (
     <li {...attr}>
-      <a href={props.href} className="b-nav__link">{props.text}</a>
+      <a href={props.href} className="b-nav__link">
+        {props.text}
+      </a>
     </li>
   );
 };

@@ -51,9 +51,10 @@ const Time = props => {
   };
   return (
     <time {...attr}>
-      {time.dddd}
-      {' '}
-      <b>{time.D} <abbr title={time.MMMM}>{time.MMM}</abbr> {time.Y}</b>
+      {time.dddd}{' '}
+      <b>
+        {time.D} <abbr title={time.MMMM}>{time.MMM}</abbr> {time.Y}
+      </b>
     </time>
   );
 };

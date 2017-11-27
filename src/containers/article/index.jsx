@@ -24,7 +24,8 @@ const Article = props => {
   const ctaProps = {
     title: 'More from me…',
     link: 'Why not hire me!',
-    paragraph: '<a href="/blog/">Read more on my blog</a> and follow <a rel="me noopener noreferrer" target="_blank" href="http://twitter.com/dbushell" title="David Bushell on Twitter">@dbushell</a>. If you like what I do:'
+    paragraph:
+      '<a href="/blog/">Read more on my blog</a> and follow <a rel="me noopener noreferrer" target="_blank" href="http://twitter.com/dbushell" title="David Bushell on Twitter">@dbushell</a>. If you like what I do:'
   };
   return (
     <Block isMain>
