@@ -25,7 +25,7 @@ exports[`Footer component renders with defaults 1`] = `
       </ul>
     </aside>
     <hr/>
-    <p><small>Copyright © 2017 <a href=\\"/\\">David Bushell</a></small></p>
+    <p><small>Copyright © 2018 <a href=\\"/\\">David Bushell</a></small></p>
   </div>
 </footer>"
 `;
@@ -56,7 +56,7 @@ exports[`Footer component renders without "for hire" element 1`] = `
       </ul>
     </aside>
     <hr/>
-    <p><small>Copyright © 2017 <a href=\\"/\\">David Bushell</a></small></p>
+    <p><small>Copyright © 2018 <a href=\\"/\\">David Bushell</a></small></p>
   </div>
 </footer>"
 `;
