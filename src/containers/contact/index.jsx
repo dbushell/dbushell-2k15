@@ -37,12 +37,6 @@ const Contact = props => {
             <h1>{props.pageHeading}</h1>
           </div>
           <div className="b-post__body">
-            <div className="b-boxed b-boxed--light">
-              <p>
-                I have no availability this year{' '}
-                <b>but please get in touch for 2018!</b>
-              </p>
-            </div>
             <p>Need help with your website?</p>
             <p className="p--large">
               <b>
