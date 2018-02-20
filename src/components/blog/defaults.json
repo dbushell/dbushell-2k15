@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "codepen-snippets",
+      "title": "CodePen Snippets",
+      "href": "/2018/02/21/codepen-snippets/",
+      "date": 1519207200000
+    },
+    {
       "id": "hello-2018",
       "title": "Hello Twenty Eighteen",
       "href": "/2018/01/11/hello-2018/",
@@ -30,12 +36,6 @@
       "title": "TypeScript over React PropTypes",
       "href": "/2017/04/19/typescript-instead-of-react-proptypes/",
       "date": 1492596000000
-    },
-    {
-      "id": "the-magic-of-service-workers",
-      "title": "The Magic of Service Workers",
-      "href": "/2017/04/06/the-magic-of-service-workers/",
-      "date": 1491472800000
     }
   ]
 }
