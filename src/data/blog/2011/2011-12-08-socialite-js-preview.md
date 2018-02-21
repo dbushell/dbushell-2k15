@@ -10,11 +10,11 @@ You've all seen social sharing buttons. Twitter's "tweet", Facebook's "like" etc
 
 Here's a screenshot from a popular blog to refresh your memory:
 
-![Social Sharing Buttons](/images/2011/12/Screen-shot-2011-12-05-at-09.31.42.png)
+<p class="b-post__image">![Social Sharing Buttons](/images/2011/12/Screen-shot-2011-12-05-at-09.31.42.png)</p>
 
-They have their place on a website if used intelligently — that's a big _if_! They're difficult to design around and a nightmare for front-end development.
+They have their place on a website if used intelligently — that's a big *if*! They're difficult to design around and a nightmare for front-end development.
 
-The _copy-and-paste_ code for each button includes a default element and a `<script>`. On the `DOMContentLoaded` event the `<script>` replaces all instances of the default element with an `<iframe>` — a portal into the sharing shrine of the respective social network.
+The *copy-and-paste* code for each button includes a default element and a `<script>`. On the `DOMContentLoaded` event the `<script>` replaces all instances of the default element with an `<iframe>` — a portal into the sharing shrine of the respective social network.
 
 Many people paste both element and `<script>` together where the button sits on the page. This is wrong! It's best practice to move the `<script>` to document's end; before the closing `</body>` — **you only need it once**. The first script activates all button instances on the page, the second bails immediately. Neither will run until the end of the document when the event fires. No point requesting it early.
 

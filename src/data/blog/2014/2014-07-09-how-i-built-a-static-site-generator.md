@@ -8,7 +8,7 @@ title: How I built a Static Site Generator
 
 I used to build websites with nothing but a text editor.
 
-Now I have an [army of tools](/2014/06/10/dependency-overload/) at my finger tips. When I began to establish [my Grunt tasks](/2013/04/30/origin/) I wanted something basic for HTML. My biggest gripe was _repetition_. The simple concept of "includes" was all I wanted.
+Now I have an [army of tools](/2014/06/10/dependency-overload/) at my finger tips. When I began to establish [my Grunt tasks](/2013/04/30/origin/) I wanted something basic for HTML. My biggest gripe was *repetition*. The simple concept of "includes" was all I wanted.
 
 At the time static site generators and templating scared me (still does, in fact). What I wanted was so minimal I was hesitant to invest time into a large set-up. Looking around for options, I liked the way [Hammer for Mac](http://hammerformac.com/docs/tags) implemented tags:
 
@@ -110,11 +110,11 @@ My navigation partial might look like this:
 {{/nav}}
 ````
 
-Notice the additional `class` variable that is not defined in our data. This can be added automatically as each page is rendered. If the `url` matches the current page; add an "active" HTML class. I've written a _pre-render_ function to address this scenario.
+Notice the additional `class` variable that is not defined in our data. This can be added automatically as each page is rendered. If the `url` matches the current page; add an "active" HTML class. I've written a *pre-render* function to address this scenario.
 
 More context awareness is required for URLs. When the navigation partial is rendered within the services page a link to `index.html` should actually be `../index.html` because it's a level deeper than the homepage.
 
-One solution might be to write _absolute_ URLs. Simply prefixing with `/` would allow URLs to resolve properly on any domain at root level, but not locally from `file://`. My solution was to write a _post-render_ function that converts all relative URLs based on template depth. This assumes all URLs are written relative to root level (like those in my navigation example).
+One solution might be to write *absolute* URLs. Simply prefixing with `/` would allow URLs to resolve properly on any domain at root level, but not locally from `file://`. My solution was to write a *post-render* function that converts all relative URLs based on template depth. This assumes all URLs are written relative to root level (like those in my navigation example).
 
 
 ## Reinventing the Wheel

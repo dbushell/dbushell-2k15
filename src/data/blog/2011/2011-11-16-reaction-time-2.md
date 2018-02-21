@@ -23,7 +23,7 @@ That will do exactly what I want, once bound to a click event — why go any fu
 
 Because that's going to suck.
 
-The **`.scrollTo();`** method takes a few options but the basic ones I care about are the _duration_ (milliseconds) and an _[easing function](http://api.jquery.com/animate/#easing) _(that "specifies the speed at which the animation progresses at different points within the animation"). I've chosen an [ease-in-out function](http://gsgd.co.uk/sandbox/jquery/easing/) that starts slowly and builds up pace before decelerating again, similar to how a car would travel from A–B providing there are no barriers. I assume, I don't drive so my car analogies are a bit flaky. Just trust me, this easing effect adds a touch of class.
+The `.scrollTo();` method takes a few options but the basic ones I care about are the *duration* (milliseconds) and an *[easing function](http://api.jquery.com/animate/#easing)* (that "specifies the speed at which the animation progresses at different points within the animation"). I've chosen an [ease-in-out function](http://gsgd.co.uk/sandbox/jquery/easing/) that starts slowly and builds up pace before decelerating again, similar to how a car would travel from A–B providing there are no barriers. I assume, I don't drive so my car analogies are a bit flaky. Just trust me, this easing effect adds a touch of class.
 
 That constant 500 millisecond duration is lazy and unresponsive. The distance I need to scroll is never constant, it depends on where the user has previously scrolled to (prior to clicking a tab). The shorter the distance the quicker we should arrive at the destination.
 
@@ -66,10 +66,10 @@ if (distance) {
 }
 ````
 
-The `setTimeout` delay is purely for my benefit because other actions need to happen before scrolling is initiated. The magic number **`2`** is simply a multiplier to slow things down. What's important is that the animation always starting with a duration _relative_ to the distance.
+The `setTimeout` delay is purely for my benefit because other actions need to happen before scrolling is initiated. The magic number `2` is simply a multiplier to slow things down. What's important is that the animation always starting with a duration *relative* to the distance.
 
 You may ask: **"What's the point, do people really notice such subtleties?"**
 
-****To which I would reply: **"No, but they will notice if they're missing."**
+To which I would reply: **"No, but they will notice if they're missing."**
 
-It's this sort of care that I believe produces the best possible experience for all devices. Interactivity should aid the user in a way that they're not even conscious is happening — it should _just work_. A lot of JavaScript I see on the web today is a massive distraction. I hope this post illustrates the effort needed in interactive design.
+It's this sort of care that I believe produces the best possible experience for all devices. Interactivity should aid the user in a way that they're not even conscious is happening — it should *just work*. A lot of JavaScript I see on the web today is a massive distraction. I hope this post illustrates the effort needed in interactive design.

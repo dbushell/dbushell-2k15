@@ -19,7 +19,7 @@ When building a front-end I split graphical assets into two categories:
 2. "UI" — anything that's integral to the website design
 
 
-Naming isn't important, recognising different use cases is. We could sprite up UI icons, maybe even embed them within stylesheets — in _Part 2_ I'll look at these techniques — but using images inside content realistically requires individual files. That's the reality / state of CMS today.
+Naming isn't important, recognising different use cases is. We could sprite up UI icons, maybe even embed them within stylesheets — in *Part 2* I'll look at these techniques — but using images inside content realistically requires individual files. That's the reality / state of CMS today.
 
 
 ## The content `<img>`
@@ -31,7 +31,7 @@ For individual "content" images there's no better alternative than a good ol' fa
 
 In my opinion [browser support](http://caniuse.com/#feat=svg) is good enough today that an SVG fallback isn't required.
 
-_**However!**_
+**However!**
 
 With responsive design, Internet Explorer doesn't scale the `<img>` as one might expect when using SVG. Let's use this common pattern as an example:
 
@@ -120,6 +120,6 @@ So the lesson here is that if you want your "content" images to be responsive an
 
 Sounds simply, but if you've never used / tested SVG images before in IE this "bug" can be a real nuisance.  If you want to test for yourself I've upload the SVG scaling: [problem](http://dbushell.com/demos/svg/2015-01-26/svg-scale-problem.html), [solution](http://dbushell.com/demos/svg/2015-01-26/svg-scale-solution.html), and [float](http://dbushell.com/demos/svg/2015-01-26/svg-float.html) demos.
 
-In _Part 2_ of this article I'll look at SVG techniques for the "UI" use case.
+In *Part 2* of this article I'll look at SVG techniques for the "UI" use case.
 
 That's when the fun begins!
