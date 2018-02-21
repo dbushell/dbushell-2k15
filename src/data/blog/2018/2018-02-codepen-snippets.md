@@ -32,3 +32,5 @@ This new collection exists for two reasons:
 2. Highly focused code demos are my most popular content.
 
 I encourage all front-end devs to do something similar. We have to feed those insatiable *"how do I..."* Google and StackOverflow searches!
+
+Follow [@dbushell](https://twitter.com/dbushell) for updates.
