@@ -3,12 +3,12 @@
 .b-folio {
   z-index: $z-index--home;
   position: relative;
-  margin: em($unit * 3) 0;
+  margin: rem($unit * 3) 0;
 }
 
 .b-folio__list {
   padding: 0;
-  margin: 0 em(-$unit);
+  margin: 0 rem(-$unit);
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -20,13 +20,13 @@
   z-index: $z-index--home + 10;
   display: block;
   position: relative;
-  margin: em($unit);
+  margin: rem($unit);
   font-size: inherit;
   line-height: inherit;
   flex: 0 1 auto;
   width: 48%;
-  width: calc(50% - #{em($unit * 2)});
-  border-radius: em(7);
+  width: calc(50% - #{rem($unit * 2)});
+  border-radius: rem(7);
   perspective: 500px;
 }
 
@@ -38,9 +38,9 @@
   left: 0;
   right: 0;
   margin: 0 auto;
-  font-size: em($h4);
-  line-height: em($unit * 4, $h4);
-  padding: 0 em($unit * 2, $h4);
+  font-size: rem($h4);
+  line-height: rem($unit * 4);
+  padding: 0 rem($unit * 2);
   opacity: 0;
   color: $white;
   text-align: center;
@@ -54,12 +54,12 @@
   position: absolute;
   top: 0;
   left: 0;
-  top: calc(0% + #{em($unit)});
-  left: calc(0% + #{em($unit * 1.5)});
+  top: calc(0% + #{rem($unit)});
+  left: calc(0% + #{rem($unit * 1.5)});
   opacity: 1;
   width: 100%;
-  border-radius: em(7);
-  width: calc(100% - #{em($unit * 3)});
+  border-radius: rem(7);
+  width: calc(100% - #{rem($unit * 3)});
   transform-style: preserve-3d;
   transform: rotateY(30deg) rotateX(2deg) translateX(7%);
   transition: opacity 200ms, filter 200ms, transform 200ms;
@@ -76,7 +76,7 @@
   width: 100%;
   height: 0;
   overflow: hidden;
-  border-radius: em(6);
+  border-radius: rem(6);
   padding-bottom: percentage(220 / 330);
   transition: background 200ms ease;
   background: $green;
@@ -104,17 +104,17 @@
 @include respond-min($bp--home) {
 
   .b-folio {
-    margin: em($unit*2) 0;
+    margin: rem($unit * 2) 0;
   }
 
   .b-folio__item {
-    margin: em($unit*2);
+    margin: rem($unit * 2);
     width: 30%;
-    width: calc(33.33333% - #{em($unit * 4)});
+    width: calc(33.33333% - #{rem($unit * 4)});
   }
 
   .b-folio__list {
-    margin: 0 em(-$unit*2);
+    margin: 0 rem(-$unit * 2);
   }
 
 }

@@ -9,7 +9,7 @@
 .c-hero {
   z-index: $z-index--hero;
   position: relative;
-  padding-top: em($unit * 7);
+  padding-top: rem($unit * 7);
   padding-bottom: 0;
   background: $green;
   overflow: hidden;
@@ -92,7 +92,7 @@
 
   div {
     width: 100%;
-    padding-top: em(15);
+    padding-top: rem(15);
     padding-bottom: percentage(600/3000);
   }
 
@@ -125,7 +125,7 @@
   right: 3.5%;
   top: 0;
   width: 40%;
-  max-width: em(500);
+  max-width: rem(500);
 
   &:before,
   &:after {

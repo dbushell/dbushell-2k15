@@ -4,7 +4,7 @@
   position: relative;
 
   .e-label--radio {
-    margin-left: em($unit * 2, 18);
+    margin-left: rem($unit * 2);
   }
 
   .b-form__item {
@@ -19,7 +19,7 @@
 }
 
 .b-newsletter__header {
-  margin-bottom: em($unit * 2);
+  margin-bottom: rem($unit * 2);
 }
 
 @include respond-min($bp--desktop) {
@@ -32,8 +32,8 @@
     }
 
     .e-button {
-      height: em($unit * 6, 18);
-      line-height: em($unit * 3, 18);
+      height: rem($unit * 6);
+      line-height: rem($unit * 3);
     }
 
     .b-form {
@@ -50,14 +50,14 @@
 
       &:nth-child(1) {
         width: 70%;
-        max-width: em(400);
-        padding-right: em($unit * 2);
+        max-width: rem(400);
+        padding-right: rem($unit * 2);
       }
 
       &:nth-child(2) {
         order: 3;
         width: 100%;
-        margin-top: em($baseline);
+        margin-top: rem($baseline);
       }
     }
   }

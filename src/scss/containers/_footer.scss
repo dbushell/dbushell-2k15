@@ -3,16 +3,16 @@
 .c-footer {
   position: relative;
   background: $white;
-  padding-top: em($unit);
-  box-shadow: 0 0 em($unit * 2) rgba(0,0,0, 0.1);
+  padding-top: rem($unit);
+  box-shadow: 0 0 rem($unit * 2) rgba(0,0,0, 0.1);
 
   .b-block {
-    padding-top: em($baseline * 1.5);
-    padding-bottom: em($baseline);
+    padding-top: rem($baseline * 1.5);
+    padding-bottom: rem($baseline);
   }
 
   .b-hire {
-    margin: em($baseline) auto;
+    margin: rem($baseline) auto;
   }
 
   .iScrollVerticalScrollbar {
@@ -95,13 +95,13 @@
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    width: percentage($footer--width/100);
-    max-width: em($footer--max-width);
+    width: percentage($footer--width / 100);
+    max-width: rem($footer--max-width);
     transform: translateZ(0);
     background: $white;
 
     .b-block {
-      padding: em($baseline) em($unit*4);
+      padding: rem($baseline) rem($unit * 4);
     }
   }
 

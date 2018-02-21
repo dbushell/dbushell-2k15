@@ -3,10 +3,10 @@
 .b-sector {
   position: relative;
   overflow: hidden;
-  padding: em($unit * 5);
+  padding: rem($unit * 5);
   background: $white;
   width: 100%;
-  max-width: em($bp--mobile);
+  max-width: rem($bp--mobile);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -19,21 +19,20 @@
 
   .e-star {
     position: absolute;
-    right: em($unit);
-    width: em(100);
-    height: em(100);
-    bottom: em($unit * 2);
+    right: rem($unit);
+    width: rem(100);
+    height: rem(100);
+    bottom: rem($unit * 2);
   }
 }
 
 .b-sector__header {
-  margin-bottom: em($baseline/2);
+  margin-bottom: rem($baseline / 2);
 }
 
 .b-sector__main {
   flex: 1 1 auto;
-  margin-bottom: em($unit * 3);
-  // max-width: em(300);
+  margin-bottom: rem($unit * 3);
 }
 
 @include respond-min($bp--mobile) {
@@ -43,8 +42,8 @@
     text-align: right;
 
     .e-star {
-      left: em($unit);
-      top: em($unit * 3);
+      left: rem($unit);
+      top: rem($unit * 3);
       right: auto;
       bottom: auto;
     }

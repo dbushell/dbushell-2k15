@@ -11,7 +11,7 @@
 
 .b-form__item {
   font-size: inherit;
-  margin-bottom: em($baseline);
+  margin-bottom: rem($baseline);
 
   &:last-child {
     margin-bottom: 0;

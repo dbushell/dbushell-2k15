@@ -1,35 +1,35 @@
 /* Boxed (block) */
 
 .b-boxed {
-  max-width: em(714);
-  padding: em($unit * 4) em($unit * 4);
-  margin: em($unit * 5) em(6) em($unit * 5) em(4);
+  max-width: rem(714);
+  padding: rem($unit * 4) rem($unit * 4);
+  margin: rem($unit * 5) rem(6) rem($unit * 5) rem(4);
   background: $yellow;
-  border-radius: em(5);
-  box-shadow: 0 0 0 em(2) $beige,
-              0 0 0 em(4) $yellow,
-              em(2) em(2) 0 em(4) $pink;
+  border-radius: rem(5);
+  box-shadow: 0 0 0 rem(2) $beige,
+              0 0 0 rem(4) $yellow,
+              rem(2) rem(2) 0 rem(4) $pink;
 }
 
 .b-boxed--light {
   background: $white;
-  box-shadow: 0 0 0 em(2) $beige,
-              0 0 0 em(4) $white,
-              em(2) em(2) 0 em(4) $green;
+  box-shadow: 0 0 0 rem(2) $beige,
+              0 0 0 rem(4) $white,
+              rem(2) rem(2) 0 rem(4) $green;
 }
 
 .b-boxed--dark {
   background: $pink;
   box-shadow: 0 0 0 em(2) $yellow,
-              0 0 0 em(4) $pink,
-              em(2) em(2) 0 em(4) $yellow;
+              0 0 0 rem(4) $pink,
+              rem(2) rem(2) 0 rem(4) $yellow;
 }
 
 @include respond-max($bp--mini - 1) {
 
   .b-boxed {
-    margin-left: em(-$unit*4);
-    margin-right: em(-$unit*4);
+    margin-left: rem(-$unit * 4);
+    margin-right: rem(-$unit * 4);
     border-radius: 0;
   }
 
@@ -37,7 +37,7 @@
 
 .b-boxed--spec {
   color: $pink;
-  padding: em($unit * 3) em($unit * 4) em($unit * 2) em($unit * 4);
+  padding: rem($unit * 3) rem($unit * 4) rem($unit * 2) rem($unit * 4);
   list-style-type: circle;
   list-style-position: inside;
   display: flex;

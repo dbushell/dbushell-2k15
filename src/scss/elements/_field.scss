@@ -4,12 +4,12 @@
   display: block;
   outline: none;
   appearance: none;
-  font-size: em(18);
-  line-height: em($unit * 3, 18);
-  height: em($unit * 6, 18);
-  padding: em($unit, 18) em($unit * 2, 18);
-  margin: em($unit, 18) 0;
-  max-width: em(400, 18);
+  font-size: rem(18);
+  line-height: rem($unit * 3);
+  height: rem($unit * 6);
+  padding: rem($unit) rem($unit * 2);
+  margin: rem($unit) 0;
+  max-width: rem(400);
   width: 100%;
 
   clear: both;
@@ -17,9 +17,9 @@
   color: $grey;
   background: $white;
   border-radius: 5px;
-  border: em(2, 18) solid $blue;
-  box-shadow: 0 0 0 em(2, 18) $beige,
-              em(2, 18) em(2, 18) 0 em(2, 18) $green;
+  border: rem(2) solid $blue;
+  box-shadow: 0 0 0 rem(2) $beige,
+              rem(2) rem(2) 0 rem(2) $green;
   transition: border 100ms,
               box-shadow 100ms,
               background-color 100ms;
@@ -28,8 +28,8 @@
   &:hover {
     color: $black;
     border-color: $green;
-    box-shadow: 0 0 0 em(2, 18) $beige,
-                0 0 0 em(4, 18) $blue;
+    box-shadow: 0 0 0 rem(2) $beige,
+                0 0 0 rem(4) $blue;
   }
 
   &:focus {
@@ -40,5 +40,5 @@
 .e-field--area {
   height: auto;
   max-width: none;
-  min-height: em(($baseline*3) + $unit, 18);
+  min-height: rem(($baseline * 3) + $unit);
 }

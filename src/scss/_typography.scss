@@ -10,7 +10,7 @@ hr, .hr {
   display: block;
   clear: both;
   height: 0;
-  margin: em($baseline - 2) 0 em($baseline - 1) 0;
+  margin: rem($baseline - 2) 0 rem($baseline - 1) 0;
   border: 0;
   outline: none;
   border-top: 2px solid $canvas;
@@ -47,14 +47,6 @@ a {
   }
 }
 
-// .no-cssanimations {
-
-//   a:not([class]) {
-//     border-bottom-style: solid;
-//     border-bottom-width: 1px;
-//   }
-// }
-
 @keyframes animateGradient {
   0% {
     background-position: 100% 92%;
@@ -70,11 +62,16 @@ a {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin: 0;
   font-weight: $fw-medium;
   color: $blue;
   font-family: $fonts--display;
   line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: rem($unit * 2);
+
+  p + & {
+    margin-top: rem($unit * 5);
+  }
 
   &:last-child {
     margin-bottom: 0;
@@ -82,46 +79,26 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: em($h1);
-  margin-bottom: em($unit * 2, $h1);
+  font-size: rem($h1);
   line-height: 1.1;
-
-  p + & {
-    margin-top: em($unit * 5, $h1);
-  }
 }
 
 h2, .h2 {
-  font-size: em($h2);
-  margin-bottom: em($unit * 2, $h2);
-
-  p + & {
-    margin-top: em($unit * 5, $h2);
-  }
+  font-size: rem($h2);
 }
 
 h3, .h3 {
-  font-size: em($h3);
-  margin-bottom: em($unit * 2, $h3);
-
-  p + & {
-    margin-top: em($unit * 5, $h3);
-  }
+  font-size: rem($h3);
 }
 
 h4, .h4 {
-  font-size: em($h4);
-  margin-bottom: em($unit * 2, $h4);
-
-  p + & {
-    margin-top: em($unit * 5, $h4);
-  }
+  font-size: rem($h4);
 }
 
 p, .p {
-  font-size: em($p);
+  font-size: rem($p);
   margin-top: 0;
-  margin-bottom: em($unit * 2, $p);
+  margin-bottom: rem($unit * 2);
 
   &:last-child {
     margin-bottom: 0;
@@ -130,12 +107,12 @@ p, .p {
   small {
     display: inline-block;
     line-height: 1;
-    font-size: em($p--small, $p);
+    font-size: rem($p--small);
   }
 }
 
 .p--small {
-  font-size: em($p--small);
+  font-size: rem($p--small);
 }
 
 small,
@@ -146,7 +123,7 @@ small,
 }
 
 .p--small {
-  margin-bottom: em($unit * 2, $p--small);
+  margin-bottom: rem($unit * 2);
 
   small {
     font-size: inherit;
@@ -154,17 +131,17 @@ small,
 }
 
 .p--large {
-  font-size: em($p--large);
-  margin-bottom: em($unit * 4, $p--large);
+  font-size: rem($p--large);
+  margin-bottom: rem($unit * 4);
 }
 
 ul, ol {
   padding: 0;
-  margin: 0 0 em($baseline) em($unit*4);
+  margin: 0 0 rem($baseline) rem($unit * 4);
   list-style: disc outside;
 
   p + & {
-    margin-top: em($baseline);
+    margin-top: rem($baseline);
   }
 
   &:last-child {
@@ -177,8 +154,8 @@ ul {
 }
 
 li {
-  font-size: em($p);
-  margin-bottom: em($unit, $p);
+  font-size: rem($p);
+  margin-bottom: rem($unit);
 
   li, &:not([class]) p {
     font-size: inherit;
@@ -202,11 +179,12 @@ time {
   abbr[title] {
     border: none;
     background-image: none;
+    text-decoration: none;
   }
 
   p &,
   li & {
-    font-size: em($p--small, $p);
+    font-size: rem($p--small);
   }
 }
 
@@ -250,9 +228,9 @@ cite {
 }
 
 blockquote {
-  margin: em($baseline) 0;
-  padding: 0 em($unit*4);
-  border-left: em(2) solid $green;
+  margin: rem($baseline) 0;
+  padding: 0 rem($unit * 4);
+  border-left: rem(2) solid $green;
 
   p {
     color: $grey;
@@ -260,7 +238,7 @@ blockquote {
 
   .p--large {
     & + .p--small:last-child {
-      margin-top: em(-$unit * 2, $p--small);
+      margin-top: rem(-$unit * 2);
     }
   }
 
@@ -270,10 +248,10 @@ blockquote {
     border-left: 0;
 
     .p--large {
-      font-size: em($p);
+      font-size: rem($p);
 
       &:not(:last-child) {
-        margin-bottom: em($unit * 2, $p);
+        margin-bottom: rem($unit * 2);
       }
 
       & + .p--small:last-child {
@@ -322,8 +300,8 @@ acronym {
 
 pre,
 code {
-  font-size: em(14);
-  line-height: em($unit * 3, 14);
+  font-size: rem(14);
+  line-height: rem($unit * 3);
   font-family: $fonts--monospace;
   background: $black;
   color: $white;
@@ -332,8 +310,8 @@ code {
 pre {
   clear: both;
   overflow: auto;
-  margin: em($unit * 6, 14) 0;
-  padding: em($baseline, 14) em($unit*4, 14);
+  margin: rem($unit * 6) 0;
+  padding: rem($baseline) em($unit * 4);
   box-shadow: inset 0 1px 7px darken($black, 10);
 
   direction: ltr;
@@ -377,18 +355,34 @@ pre {
 code {
   display: inline-block;
   position: relative;
-  padding: 0 em(4, 14);
+  padding: 0 rem(4);
   color: $grey;
   background: $white;
 
   p > &,
   li > & {
-    font-size: em(14, $p);
-    margin-bottom: em(-2, 14);
-    border-bottom: em(2, 14) solid $green;
+    font-size: rem(14);
+    margin-bottom: rem(-2);
+    border-bottom: rem(2) solid $green;
   }
 }
 
 p iframe {
-  margin: em($baseline, $p) 0 em($baseline/2) 0;
+  margin: rem($baseline) 0 rem($baseline / 2) 0;
+}
+
+sub,
+sup {
+  font-size: rem($p--small);
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: rem(-$unit);
+}
+
+sup {
+  top: rem(-$unit);
 }

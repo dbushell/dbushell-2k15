@@ -6,22 +6,22 @@
   outline: 0;
   appearance: none;
   cursor: pointer;
-  font-size: em(18);
-  line-height: em($unit * 3, 18);
-  height: em(49, 18);
-  line-height: em(31, 18);
-  padding: em($unit, 18) em(35, 18);
+  font-size: rem(18);
+  line-height: rem($unit * 3);
+  height: rem(49);
+  line-height: rem(31);
+  padding: rem($unit) rem(35);
   font-family: $fonts--default;
   text-align: center;
   color: $yellow;
   background: $blue;
   font-weight: $fw-bold;
-  border-radius: em(5, 18);
-  border: em(2, 18) solid $blue;
+  border-radius: rem(5);
+  border: rem(2) solid $blue;
   border-bottom-color: $dark-blue;
-  box-shadow: 0 0 0 em(2, 18) $beige,
-              em(2, 18) em(2, 18) 0 em(2, 18) $green;
-  text-shadow: em(1, 18) em(1, 18) rgba($dark-blue, 0.8);
+  box-shadow: 0 0 0 rem(2) $beige,
+              rem(2) rem(2) 0 rem(2) $green;
+  text-shadow: rem(1) rem(1) rgba($dark-blue, 0.8);
   transition: color 100ms,
               box-shadow 100ms,
               border-color 100ms,
@@ -33,8 +33,8 @@
     text-shadow: none;
     border-color: $green;
     background-color: $yellow;
-    box-shadow: 0 0 0 em(2, 18) $beige,
-                0 0 0 em(4, 18) $blue;
+    box-shadow: 0 0 0 rem(2) $beige,
+                0 0 0 rem(4) $blue;
   }
 }
 
@@ -52,33 +52,33 @@
 
 .e-button--bg1 {
   color: $pink;
-  box-shadow: 0 0 0 em(2, 18) $pink,
-              em(2, 18) em(2, 18) 0 em(2, 18) $yellow;
+  box-shadow: 0 0 0 rem(2) $pink,
+              rem(2) rem(2) 0 rem(2) $yellow;
 
   &:focus,
   &:hover {
     color: $pink;
-    box-shadow: 0 0 0 em(2, 18) $pink,
-                0 0 0 em(4, 18) $yellow;
+    box-shadow: 0 0 0 rem(2) $pink,
+                0 0 0 rem(4) $yellow;
   }
 }
 
 .e-button--bg2 {
   color: $blue;
-  box-shadow: 0 0 0 em(2, 18) $blue,
-              em(2, 18) em(2, 18) 0 em(2, 18) $green;
+  box-shadow: 0 0 0 rem(2) $blue,
+              rem(2) rem(2) 0 rem(2) $green;
 
   &:focus,
   &:hover {
     color: $blue;
-    box-shadow: 0 0 0 em(2, 18) $blue,
-                0 0 0 em(4, 18) $green;
+    box-shadow: 0 0 0 rem(2) $blue,
+                0 0 0 rem(4) $green;
   }
 }
 
 .e-button--bg1.e-button--shadow:not(:focus):not(:hover) {
-  box-shadow: 0 0 0 em(2, 18) $pink,
-              em(2, 18) em(2, 18) 0 em(2, 18) $yellow,
+  box-shadow: 0 0 0 rem(2) $pink,
+              rem(2) rem(2) 0 rem(2) $yellow,
                4px  4px 0 4px #eb6983,
                8px  8px 0 4px #eb6983,
               12px 12px 0 4px #eb6983,
@@ -102,8 +102,8 @@
 }
 
 .e-button--bg2.e-button--shadow:not(:focus):not(:hover) {
-  box-shadow: 0 0 0 em(2, 18) $blue,
-              em(2, 18) em(2, 18) 0 em(2, 18) $green,
+  box-shadow: 0 0 0 rem(2) $blue,
+              rem(2) rem(2) 0 rem(2) $green,
                4px  4px 0 4px #2b8bae,
                8px  8px 0 4px #2b8bae,
               12px 12px 0 4px #2b8bae,

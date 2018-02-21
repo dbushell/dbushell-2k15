@@ -4,21 +4,21 @@
   z-index: $z-index--main;
   position: relative;
   overflow: hidden;
-  padding: em($unit * 14) 0 em($unit * 10) 0;
+  padding: rem($unit * 14) 0 rem($unit * 10) 0;
 }
 
 .c-main--home {
   padding: 0 !important;
 
   .b-block {
-    max-width: em($block--home);
+    max-width: rem($block--home);
   }
 }
 
 @include respond-min($bp--mobile) {
 
   .c-main {
-    padding-top: em($unit * 16);
+    padding-top: rem($unit * 16);
   }
 
 }
@@ -34,7 +34,7 @@
 @include respond-min(($footer--max-width / ($footer--width/100))) {
 
   .c-main {
-    margin-right: em($footer--max-width);
+    margin-right: rem($footer--max-width);
   }
 
 }

@@ -88,9 +88,9 @@ $stripe2 : $stripe * $stripe;
   color: $white;
   text-shadow: none;
   font-weight: $fw-bold;
-  font-size: em(15);
-  line-height: em(35 + ($unit * 2), 15);
-  padding: 0 em($unit, 15);
+  font-size: rem(15);
+  line-height: rem(35 + ($unit * 2));
+  padding: 0 rem($unit);
   text-transform: uppercase;
   text-align: center;
   background: none;
@@ -103,20 +103,20 @@ $stripe2 : $stripe * $stripe;
 
   svg {
     display: inline-block;
-    vertical-align: em(-8, 15);
-    width: em(28, 15);
-    height: em(28, 15);
+    vertical-align: rem(-8);
+    width: rem(28);
+    height: rem(28);
     fill: currentColor;
     overflow: visible;
   }
 
   &[type="button"] {
-    padding: 0 em($unit * 2, 15);
+    padding: 0 rem($unit * 2);
   }
 
   &[href*="twitter.com"] {
     svg {
-      width: em(34, 15);
+      width: rem(34);
     }
   }
 }
@@ -127,7 +127,7 @@ $stripe2 : $stripe * $stripe;
   margin: 0 auto;
 
   .b-nav > & {
-    height: em(49);
+    height: rem(49);
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -135,22 +135,14 @@ $stripe2 : $stripe * $stripe;
     .js & {
       flex-wrap: wrap;
       overflow: hidden;
-      padding-right: em($unit * 8);
+      padding-right: rem($unit * 8);
     }
 
     .js-nav & {
       flex-wrap: nowrap;
       overflow: visible;
-      // padding-right: 0;
     }
   }
-
-  .b-nav--overflow > & {
-  }
-
-  // .b-nav--not-overflow > & {
-  //   padding-right: 0 !important;
-  // }
 }
 
 .b-nav__item {
@@ -164,19 +156,19 @@ $stripe2 : $stripe * $stripe;
 }
 
 .b-nav__item--icons {
-  padding: 0 em($unit * 2);
+  padding: 0 rem($unit * 2);
   text-align: right;
   border-right: 0;
   flex-grow: 4;
 
   .b-nav__list > & {
-    margin-right: em(-$unit * 8);
+    margin-right: rem(-$unit * 8);
   }
 
   .b-nav__link {
     display: inline-block;
     vertical-align: top;
-    padding: 0 em($unit, 15) !important;
+    padding: 0 rem($unit) !important;
   }
 }
 
@@ -192,7 +184,7 @@ $stripe2 : $stripe * $stripe;
   top: 0;
   right: 0;
   display: none;
-  width: em($unit * 8);
+  width: rem($unit * 8);
 
   &:hover:before {
     position: absolute;
@@ -211,7 +203,7 @@ $stripe2 : $stripe * $stripe;
   right: 0;
   width: auto;
   list-style: none;
-  margin: em($unit);
+  margin: rem($unit);
   background: $white;
   border-radius: 5px;
   border: 2px solid $pink;
@@ -252,7 +244,7 @@ $stripe2 : $stripe * $stripe;
 
   .b-nav__link {
     text-align: left;
-    padding: 0 em($unit * 2, 15);
+    padding: 0 rem($unit * 2);
     color: $pink;
 
     &:focus,
@@ -315,7 +307,7 @@ $stripe2 : $stripe * $stripe;
 @include respond-min(($footer--max-width / ($footer--width/100))) {
 
   .b-nav {
-    right: em($footer--max-width);
+    right: rem($footer--max-width);
   }
 
 }

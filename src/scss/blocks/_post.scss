@@ -5,19 +5,16 @@
 }
 
 .b-post__body {
-  margin-top: em($baseline);
+  margin-top: rem($baseline);
 
-  p:not([class]) {
-    max-width: em(720, $p);
+  p:not([class]),
+  .p--small {
+    max-width: rem(720);
   }
 
   ul:not([class]),
   ol:not([class]) {
-    max-width: em(720 - $unit*4);
-  }
-
-  .p--small {
-    max-width: em(720, $p--small);
+    max-width: rem(720 - ($unit * 4));
   }
 }
 
@@ -26,39 +23,39 @@
 }
 
 .b-post__title {
-  margin-bottom: em($unit * 5, $h1);
+  margin-bottom: rem($unit * 5);
 
   & + .b-post__date {
-    margin-top: em(-$unit * 3, $p);
+    margin-top: rem(-$unit * 3);
   }
 
   & + .p--large {
-    margin-top: em(-$unit, $p--large);
+    margin-top: rem(-$unit);
   }
 }
 
 .b-post--excerpt {
 
   .b-post__title {
-    margin-bottom: em($unit * 2, $h3);
+    margin-bottom: rem($unit * 2);
 
     & + .b-post__date {
-      margin-top: em(-$unit, $p);
+      margin-top: rem(-$unit);
     }
   }
 
   .b-post__body {
-    margin-top: em($unit);
+    margin-top: rem($unit);
   }
 }
 
 .b-post__image,
 .b-post__pattern {
   overflow: hidden;
-  margin: em($baseline) 0;
+  margin: rem($baseline) 0;
   margin-left: -#{inner-percent(7)};
   margin-right: -#{inner-percent(7)};
-  padding: em($baseline) inner-percent(7);
+  padding: rem($baseline) inner-percent(7);
 
   img {
     width: auto;
@@ -108,7 +105,7 @@
 
   .b-post__image {
     margin-right: 0;
-    padding-right: em($unit*4);
+    padding-right: rem($unit * 4);
   }
 
 }

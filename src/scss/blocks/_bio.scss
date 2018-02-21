@@ -1,20 +1,20 @@
 /* Bio (block) */
 
 .b-bio {
-  max-width: em(560);
+  max-width: rem(560);
 }
 
 .b-bio__image {
   overflow: hidden;
-  width: em($unit * 14);
-  height: em($unit * 14);
-  margin: 0 auto em($unit * 2) auto;
-  border: em(3) solid $yellow;
-  box-shadow: 0 0 0 em(3) $pink;
+  width: rem($unit * 14);
+  height: rem($unit * 14);
+  margin: 0 auto rem($unit * 2) auto;
+  border: rem(3) solid $yellow;
+  box-shadow: 0 0 0 rem(3) $pink;
   border-radius: 100%;
 
   .c-footer & {
-    margin-top: em(-$unit);
+    margin-top: rem(-$unit);
   }
 }
 
@@ -25,8 +25,8 @@
 @include respond-min($bp--mini) {
 
   .b-bio__image {
-    width: em($unit * 16);
-    height: em($unit * 16);
+    width: rem($unit * 16);
+    height: rem($unit * 16);
   }
 
 }
@@ -34,8 +34,8 @@
 @include respond-min($bp--mobile) {
 
   .b-bio__image {
-    width: em($unit * 18);
-    height: em($unit * 18);
+    width: rem($unit * 18);
+    height: rem($unit * 18);
   }
 
 }
@@ -45,7 +45,7 @@
   .b-bio__image {
 
     .c-footer & {
-      margin-top: em(-$unit * 2);
+      margin-top: rem(-$unit * 2);
     }
   }
 
@@ -55,8 +55,8 @@
 
   .b-bio__image {
     float: left;
-    margin-right: em($unit * 2);
-    margin-bottom: em($baseline - $unit);
+    margin-right: rem($unit * 2);
+    margin-bottom: rem($baseline - $unit);
   }
 
   .b-bio__main {

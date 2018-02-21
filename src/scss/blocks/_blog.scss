@@ -13,7 +13,7 @@
 }
 
 .b-blog__title {
-  margin-bottom: em($unit * 2);
+  margin-bottom: rem($unit * 2);
 }
 
 @include respond-min($bp--aside) {
@@ -37,7 +37,7 @@
 
   .b-blog__item {
     flex: 1 1 50%;
-    max-width: calc(50% - #{em($unit * 3, $p)});
+    max-width: calc(50% - #{rem($unit * 3)});
 
     [rel="bookmark"] {
       display: inline-block;

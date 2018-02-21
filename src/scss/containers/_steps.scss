@@ -1,7 +1,7 @@
 /* Steps */
 
 .c-steps {
-  margin-bottom: em($baseline * 1.5);
+  margin-bottom: rem($baseline * 1.5);
 
   .c-hero + & {
     z-index: $z-index--home;
@@ -10,7 +10,7 @@
 }
 
 .c-steps__item {
-  margin-bottom: em($baseline);
+  margin-bottom: rem($baseline);
 }
 
 @include respond-min($bp--home) {
@@ -26,9 +26,9 @@
   .c-steps__list {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: em(-$baseline/2);
-    margin-right: em(-$baseline/2);
-    height: em(300);
+    margin-left: rem(-$baseline / 2);
+    margin-right: rem(-$baseline / 2);
+    height: rem(300);
 
     hr {
       display: none;
@@ -37,7 +37,7 @@
 
   .c-steps__item {
     width: 33.333%;
-    padding: 0 em($baseline/2);
+    padding: 0 rem($baseline / 2);
     margin: 0;
 
     &:nth-of-type(2) {
@@ -49,7 +49,7 @@
     }
 
     .e-button {
-      margin-top: em($baseline/2, 18);
+      margin-top: rem($baseline / 2);
     }
   }
 

@@ -4,16 +4,9 @@
     @return ($px / $base) + em;
 }
 
-// @mixin font-size($font-size, $line-height: true) {
-//     font-size: em($font-size);
-//     @if $line-height == true {
-//         line-height: em(ceil($font-size / $unit) * $unit, $font-size);
-//         // line-height: ceil($font-size / $baseline) * ($baseline / $font-size) + em;
-//     }
-//     @else {
-//         line-height: em($line-height, $font-size);
-//     }
-// }
+@function rem($px, $base: 16) {
+  @return ($px / $base) + rem;
+}
 
 // Units for consistent spacing, vertical rhythm, and a typographic baseline
 
@@ -100,21 +93,21 @@ $fw-bold   : 500;
 
 @mixin respond-min($width)
 {
-    @media screen and (min-width: em($width)) {
+    @media screen and (min-width: rem($width)) {
         @content;
     }
 }
 
 @mixin respond-min-max($w1, $w2)
 {
-    @media screen and (min-width: em($w1)) and (max-width: em($w2)) {
+    @media screen and (min-width: rem($w1)) and (max-width: rem($w2)) {
         @content;
     }
 }
 
 @mixin respond-max($width)
 {
-    @media screen and (max-width: em($width)) {
+    @media screen and (max-width: rem($width)) {
         @content;
     }
 }
@@ -179,7 +172,7 @@ $fw-bold   : 500;
 
 html {
     background: $beige;
-    min-width: em(300);
+    min-width: rem(300);
     padding: 0;
     margin: 0;
     overflow-y: scroll;
