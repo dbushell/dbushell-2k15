@@ -64,7 +64,7 @@ The likelihood of my German being correct is low but you get the idea. If proper
 
 Once the translations are ready it's time to connect. To continue the example, I start with this basic component:
 
-```javascript
+```jsx
 const Menu = props => (
   <div>
     <p>This app is translated into {props.langCount} languages:</p>
@@ -77,7 +77,7 @@ const Menu = props => (
 
 All the text is hard-coded and the `langCount` property is inflexible. Let's update the component to accept translatable strings:
 
-```javascript
+```jsx
 const Menu = props => (
   <div>
     <p>{sprintf(props.i18n.desc, props.langCount)}</p>
@@ -90,7 +90,7 @@ const Menu = props => (
 
 Now we have a stateless functional component ready. We'll need to create a container to map Redux state to these properties:
 
-```javascript
+```jsx
 const mapStateToProps = state => ({
   langCount: Object.keys(state.i18n).length
 });
@@ -107,7 +107,7 @@ You'll notice I'm not using `connect()` from [react-redux](https://github.com/re
 
 Here is the full source of `translate()`:
 
-```javascript
+```jsx
 function translate(name, mapStateToProps, mapDispatchToProps) {
   return WrappedComponent => {
     const TranslatedComponent = props => {
@@ -142,7 +142,7 @@ Not all components need to be connected to the Redux state directly. Nor is it p
 
 In the example if the `<button>` was its own React component I'd do:
 
-```javascript
+```jsx
 <CustomButton label={props.i18n.enButton} />
 ```
 

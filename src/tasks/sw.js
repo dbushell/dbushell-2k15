@@ -1,10 +1,7 @@
-#!/usr/bin/env ./node_modules/.bin/babel-node
-'use strict';
-
-import fs from 'fs';
-import path from 'path';
-import shortid from 'shortid';
-import packageJson from '../../package';
+const fs = require('fs');
+const path = require('path');
+const shortid = require('shortid');
+const packageJSON = require('../../package');
 
 const rCache = /^(const cacheName = ')([\w_-]+)';/m;
 const rVer = /\?v=([\d]+\.[\d]+\.[\d]+)/g;
@@ -21,7 +18,7 @@ function buildSW() {
         return;
       }
       data = data.replace(rCache, `$1dbushell-${shortid()}';`);
-      data = data.replace(rVer, `?v=${packageJson.version}`);
+      data = data.replace(rVer, `?v=${packageJSON.version}`);
       fs.writeFile(swSrc, data, err => {
         if (err) {
           reject(err);

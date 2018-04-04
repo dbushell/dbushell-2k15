@@ -9,15 +9,24 @@
   "author": "David Bushell <david@dbushell.com>",
   "license": "UNLICENSED - Copyright © David Bushell",
   "scripts": {
-    "build": "./index.js",
-    "postbuild": "./src/tasks/sw.js",
-    "prettify": "./src/tasks/prettify.js",
-    "test": "./node_modules/.bin/jest",
-    "test-update": "./node_modules/.bin/jest --updateSnapshot",
+    "start": "npx http-server ./dbushell.github.io/",
+    "build": "npx babel-node ./index.js",
+    "postbuild": "node ./src/tasks/sw.js",
+    "prettify": "node ./src/tasks/prettify.js --tasks",
+    "test": "npx jest",
+    "test-update": "npx jest --updateSnapshot",
     "webpack": "npx webpack --mode production --debug",
     "uglify": "cd ./dbushell.github.io/assets/js/ && npx uglifyjs -m --source-map \"url='main.min.js.map'\" -o main.min.js main.js && npx uglifyjs -m --source-map \"url='inline.min.js.map'\" -o inline.min.js inline.js",
-    "css": "./src/tasks/css.js",
-    "start": "npx http-server ./dbushell.github.io/"
+    "css": "node ./src/tasks/css.js"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
   },
   "xo": {
     "space": true,
@@ -64,11 +73,14 @@
   },
   "dependencies": {
     "@babel/core": "^7.0.0-beta.44",
+    "@babel/node": "^7.0.0-beta.44",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.44",
     "@babel/polyfill": "^7.0.0-beta.44",
     "@babel/preset-env": "^7.0.0-beta.44",
     "@babel/preset-react": "^7.0.0-beta.44",
     "autoprefixer": "^7.2.6",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.3",
     "babel-loader": "^8.0.0-beta.2",
     "chalk": "^2.3.1",
     "enzyme": "^3.3.0",
@@ -96,7 +108,6 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
-    "replace": "^0.3.0",
     "shortid": "^2.2.8",
     "striptags": "^3.1.1",
     "uglify-js": "^3.3.18",

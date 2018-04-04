@@ -1,13 +1,9 @@
-#!/usr/bin/env ./node_modules/.bin/babel-node
-'use strict';
-
-import fs from 'fs';
-import path from 'path';
-import glob from 'glob';
-import chalk from 'chalk';
-import prettier from 'prettier';
-import replace from 'replace';
-import {argv} from 'yargs';
+const fs = require('fs');
+const path = require('path');
+const glob = require('glob');
+const chalk = require('chalk');
+const prettier = require('prettier');
+const {argv} = require('yargs');
 
 async function globFiles(src) {
   return new Promise((resolve, reject) => {
@@ -44,20 +40,6 @@ async function prettify(src) {
   });
 }
 
-// async function prettifyTypeScript() {
-//   let files = await globFiles(path.join(process.cwd(), 'src/**/*.tsx'));
-//   files = files.map(src => src.replace(/\.tsx$/, '.jsx'));
-//   await Promise.all(files.map(src => prettify(src)));
-//   // uncomment lines starting //// used to bypass TypeScript
-//   replace({
-//     regex: /^\/{4}\s/m,
-//     replacement: '',
-//     paths: files,
-//     recursive: false,
-//     silent: true
-//   });
-// }
-
 async function prettifyFiles(globSrc) {
   const files = await globFiles(path.join(process.cwd(), globSrc));
   return Promise.all(files.map(src => prettify(src)));
@@ -65,9 +47,6 @@ async function prettifyFiles(globSrc) {
 
 async function run() {
   process.stdout.write(chalk.magenta.bold('Prettying files...\n'));
-  // if (argv.ts) {
-  //   await prettifyTypeScript();
-  // }
   if (argv.tasks) {
     await prettifyFiles('src/tasks/**/*.js');
   }

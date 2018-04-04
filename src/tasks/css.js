@@ -1,12 +1,9 @@
-#!/usr/bin/env ./node_modules/.bin/babel-node
-'use strict';
-
-import fs from 'fs';
-import path from 'path';
-import chalk from 'chalk';
-import sass from 'node-sass';
-import postcss from 'postcss';
-import autoprefixer from 'autoprefixer';
+const fs = require('fs');
+const path = require('path');
+const chalk = require('chalk');
+const sass = require('node-sass');
+const postcss = require('postcss');
+const autoprefixer = require('autoprefixer');
 
 const readFile = src =>
   new Promise((resolve, reject) =>
