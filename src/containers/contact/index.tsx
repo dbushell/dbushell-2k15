@@ -15,7 +15,7 @@ if (href.indexOf('?success=true') !== -1) {
 }
 if (href.indexOf('?error=true') !== -1) {
   para.className = 'u-error';
-  para.innerHTML = '<strong>There was an error submitting your enquiry, please email <a href="mailto:hi@dbushell.com">hi@dbushell.com</a></strong>';
+  para.innerHTML = '<strong>There was an error submitting your enquiry, please email me on the address above.</strong>';
 }
 if (href.indexOf('?error=empty') !== -1) {
   para.className = 'u-error';
