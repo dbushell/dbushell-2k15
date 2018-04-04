@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import offlinePageProps from '../../dbushell.github.io/api/offline/props';
+import offlinePageProps from '../../dbushell.github.io/api/offline/props.json';
 import Footer from '../components/footer';
 import Nav from '../components/nav';
 import Archive from './archive';
@@ -54,25 +54,28 @@ function fetchURL(href) {
       }, 300);
     }, Math.max(300 - (Date.now() - start), 0));
   };
-  return window.fetch(api, init).then(response => {
-    finish();
-    if (response.status !== 200 || response.type !== 'basic') {
-      throw new Error('Unknown API response');
-    }
-    return response.json().then(pageProps => {
-      try {
-        if (!same && window.ga) {
-          window.ga('set', 'page', pageProps.pagePath);
-          window.ga('send', 'pageview');
-        }
-      } catch (err) {}
-      return pageProps;
+  return window
+    .fetch(api, init)
+    .then(response => {
+      finish();
+      if (response.status !== 200 || response.type !== 'basic') {
+        throw new Error('Unknown API response');
+      }
+      return response.json().then(pageProps => {
+        try {
+          if (!same && window.ga) {
+            window.ga('set', 'page', pageProps.pagePath);
+            window.ga('send', 'pageview');
+          }
+        } catch (err) {}
+        return pageProps;
+      });
+    })
+    .catch(err => {
+      console.log(err);
+      finish();
+      return offlineProps.pageProps;
     });
-  }).catch(err => {
-    console.log(err);
-    finish();
-    return offlineProps.pageProps;
-  });
 }
 
 class Root extends Component {
@@ -125,15 +128,18 @@ class Root extends Component {
       return;
     }
     history.pushState({href: url.href}, '', url.href);
-    window.dispatchEvent(new window.PopStateEvent('popstate', {state: history.state}));
+    window.dispatchEvent(
+      new window.PopStateEvent('popstate', {state: history.state})
+    );
     e.preventDefault();
   }
   handlePopState(e) {
     if (!e.state || !e.state.href) {
       return;
     }
+    const {pageProps} = this.state;
     const url = new URL(e.state.href);
-    if (this.state.pageProps.pagePath === url.pathname) {
+    if (pageProps.pagePath === url.pathname) {
       window.scrollTo(0, 0);
       return;
     }
@@ -163,8 +169,8 @@ class Root extends Component {
     return (
       <div>
         {React.createElement(el, pageProps)}
-        <Footer/>
-        <Nav pagePath={pagePath}/>
+        <Footer />
+        <Nav pagePath={pagePath} />
       </div>
     );
   }
@@ -173,7 +179,7 @@ class Root extends Component {
 function bootApp(props = initProps) {
   $app.innerHTML = '';
   docEl.classList.add('js-app');
-  ReactDOM.render(<Root {...props}/>, $app);
+  ReactDOM.render(<Root {...props} />, $app);
 }
 
 if ($app) {

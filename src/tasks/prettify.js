@@ -44,19 +44,19 @@ async function prettify(src) {
   });
 }
 
-async function prettifyTypeScript() {
-  let files = await globFiles(path.join(process.cwd(), 'src/**/*.tsx'));
-  files = files.map(src => src.replace(/\.tsx$/, '.jsx'));
-  await Promise.all(files.map(src => prettify(src)));
-  // uncomment lines starting //// used to bypass TypeScript
-  replace({
-    regex: /^\/{4}\s/m,
-    replacement: '',
-    paths: files,
-    recursive: false,
-    silent: true
-  });
-}
+// async function prettifyTypeScript() {
+//   let files = await globFiles(path.join(process.cwd(), 'src/**/*.tsx'));
+//   files = files.map(src => src.replace(/\.tsx$/, '.jsx'));
+//   await Promise.all(files.map(src => prettify(src)));
+//   // uncomment lines starting //// used to bypass TypeScript
+//   replace({
+//     regex: /^\/{4}\s/m,
+//     replacement: '',
+//     paths: files,
+//     recursive: false,
+//     silent: true
+//   });
+// }
 
 async function prettifyFiles(globSrc) {
   const files = await globFiles(path.join(process.cwd(), globSrc));
@@ -65,9 +65,9 @@ async function prettifyFiles(globSrc) {
 
 async function run() {
   process.stdout.write(chalk.magenta.bold('Prettying files...\n'));
-  if (argv.ts) {
-    await prettifyTypeScript();
-  }
+  // if (argv.ts) {
+  //   await prettifyTypeScript();
+  // }
   if (argv.tasks) {
     await prettifyFiles('src/tasks/**/*.js');
   }
