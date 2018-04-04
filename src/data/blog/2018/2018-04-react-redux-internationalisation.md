@@ -58,7 +58,7 @@ Using my [CodePen example](https://codepen.io/dbushell/pen/aYjvaW/):
 }
 ```
 
-The likelihood of my German being correct is low but you get the idea. If properties like `desc` need to include variables I format for [sprinf](https://github.com/alexei/sprintf.js). Sprintf is well known and a tiny dependency. This is necessary because sentance structure will change per language. If I were to try and concatenate partial strings and variables within a component it would not work.
+The likelihood of my German being correct is low but you get the idea. If properties like `desc` need to include variables I format for [sprinf](https://github.com/alexei/sprintf.js). Sprintf is well known and a tiny dependency. This is necessary because sentence structure will change per language. If I were to try and concatenate partial strings and variables within a component it would not work.
 
 ## Mapping state to props
 
@@ -136,7 +136,7 @@ function translate(name, mapStateToProps, mapDispatchToProps) {
 }
 ```
 
-The first parameter `name` references the object key within the state translation data. This can be anything but I find it useful to match component names for simplicity. Basically the `translate()` function is a convinient wrapper for `connect()` that establishing an internationalisation conventions.
+The first parameter `name` references the object key within the state translation data. This can be anything but I find it useful to match component names for simplicity. Basically the `translate()` function is a convenient wrapper for `connect()` that establishing an internationalisation conventions.
 
 Not all components need to be connected to the Redux state directly. Nor is it practical to do so if a component is reusable and context changes. In such cases I'd connect the parent and pass the relevant i18n properties.
 
@@ -165,6 +165,6 @@ How you include `state.i18n` is up to you:
 * output JSON to (and retrieve from) the global object
 * load JSON via an API call
 
-This is a simple but practical solution. Even if you're only supporting one language it is beneficial to abstract UI text in this manner. It also allows you to make use of a content management system to provide the translations. You could even try to detect the users default language and set the intial state.
+This is a simple but practical solution. Even if you're only supporting one language it is beneficial to abstract UI text in this manner. It also allows you to make use of a content management system to provide the translations. You could even try to detect the users default language and set the initial state.
 
 There are more advanced solutions but I've found Redux and this simple abstraction of `connect()` to be easy and adequate for small apps.
