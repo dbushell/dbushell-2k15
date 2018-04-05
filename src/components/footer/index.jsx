@@ -6,20 +6,20 @@ import Small from '../small';
 import blogDefaults from '../blog/defaults.json';
 // Read props live for static site generation to avoid require cache
 function blogProps() {
-  if (process.env.NODE_ENV !== 'production') {
-    try {
-      const fs = require('fs');
-      const path = require('path');
-      const propsPath = path.join(
-        process.cwd(),
-        'src/components/blog/defaults.json'
-      );
-      const props = JSON.parse(fs.readFileSync(propsPath, 'utf8'));
-      return props;
-    } catch (err) {
-      console.log(err);
-    }
-  }
+  // if (process.env.NODE_ENV !== 'production') {
+  //   try {
+  //     const fs = require('fs');
+  //     const path = require('path');
+  //     const propsPath = path.join(
+  //       process.cwd(),
+  //       'src/components/blog/defaults.json'
+  //     );
+  //     const props = JSON.parse(fs.readFileSync(propsPath, 'utf8'));
+  //     return props;
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // }
   return blogDefaults;
 }
 const Footer = props => {
@@ -38,7 +38,6 @@ const Footer = props => {
   );
   // use dangerouslySetInnerHTML to avoid inline
   // whitespace issues with ReactDOM.hydrate()
-
   return (
     <footer {...attr}>
       <Block>

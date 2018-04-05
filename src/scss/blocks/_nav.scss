@@ -161,14 +161,14 @@ $stripe2 : $stripe * $stripe;
   border-right: 0;
   flex-grow: 4;
 
-  .b-nav__list > & {
-    margin-right: rem(-$unit * 8);
-  }
-
   .b-nav__link {
     display: inline-block;
     vertical-align: top;
     padding: 0 rem($unit) !important;
+  }
+
+  .js .b-nav__list > & {
+    margin-right: rem(-$unit * 8);
   }
 }
 

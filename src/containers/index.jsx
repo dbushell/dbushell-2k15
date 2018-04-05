@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import offlinePageProps from '../../dbushell.github.io/api/offline/props.json';
-import Footer from '../components/footer';
-import Nav from '../components/nav';
+import FooterContainer from './footer';
+import NavContainer from './nav';
 import Archive from './archive';
 import Article from './article';
 import Contact from './contact';
@@ -11,9 +11,8 @@ import Page from './page';
 import Patterns from './patterns';
 import Portfolio from './portfolio';
 
-const ver = window.dbushell.ver;
-const history = window.history;
-const docEl = document.documentElement;
+const app = window.dbushell;
+const $html = document.documentElement;
 const $app = document.querySelector('#app');
 const $title = document.querySelector('title');
 const $canonical = document.querySelector('link[rel="canonical"]');
@@ -41,18 +40,21 @@ const fetchInit = {
 function fetchURL(href) {
   const same = href === initProps.pageProps.pageHref;
   const url = new URL(href);
-  const api = `/api${url.pathname}props.json?v=${ver}`.replace('/spa/', '/');
+  const api = `/api${url.pathname}props.json?v=${app.ver}`.replace(
+    '/spa/',
+    '/'
+  );
 
   if (!same) {
-    docEl.classList.add('js-loading');
-    docEl.classList.add('js-loading-anim');
+    $html.classList.add('js-loading');
+    $html.classList.add('js-loading-anim');
   }
   const start = Date.now();
   const onComplete = () => {
     setTimeout(() => {
-      docEl.classList.remove('js-loading');
+      $html.classList.remove('js-loading');
       setTimeout(() => {
-        docEl.classList.remove('js-loading-anim');
+        $html.classList.remove('js-loading-anim');
       }, 300);
     }, Math.max(300 - (Date.now() - start), 0));
   };
@@ -85,10 +87,11 @@ class Root extends Component {
   }
   componentDidMount() {
     const {href} = window.location;
-    history.replaceState({href}, '', href);
+    window.history.replaceState({href}, '', href);
     document.addEventListener('click', this.handleClick);
     window.addEventListener('popstate', this.handlePopState);
-    window.dbushell.refresh(true);
+    app.isUniversal = true;
+    $html.classList.add('js-app');
   }
   componentWillUnmount() {
     window.removeEventListener('click', this.handleDocumentClick);
@@ -112,7 +115,11 @@ class Root extends Component {
     }
   }
   componentDidUpdate() {
-    window.dbushell.refresh();
+    const {pageProps} = this.state;
+    $canonical.setAttribute(
+      'href',
+      `https://dbushell.com${pageProps.pagePath}`
+    );
   }
   handleClick(e) {
     const href = e.target.href || e.target.parentNode.href;
@@ -123,14 +130,14 @@ class Root extends Component {
     if (url.host !== window.location.host) {
       return;
     }
-    history.pushState({href: url.href}, '', url.href);
+    window.history.pushState({href: url.href}, '', url.href);
     window.dispatchEvent(
-      new window.PopStateEvent('popstate', {state: history.state})
+      new window.PopStateEvent('popstate', {state: window.history.state})
     );
     e.preventDefault();
   }
   handlePopState(e) {
-    if (!e.state || !e.state.href) {
+    if (!e || !e.state || !e.state.href) {
       return;
     }
     const {pageProps} = this.state;
@@ -165,8 +172,8 @@ class Root extends Component {
     return (
       <div>
         {React.createElement(el, pageProps)}
-        <Footer />
-        <Nav pagePath={pagePath} />
+        <FooterContainer />
+        <NavContainer pagePath={pagePath} />
       </div>
     );
   }
@@ -174,8 +181,6 @@ class Root extends Component {
 
 function bootApp(props = initProps, isHydration) {
   if (isHydration) {
-    window.dbushell.isUniversal = true;
-    docEl.classList.add('js-app');
     ReactDOM.hydrate(<Root {...props} />, $app);
   } else {
     $app.innerHTML = '';
@@ -184,14 +189,15 @@ function bootApp(props = initProps, isHydration) {
 }
 
 if ($app) {
+  const {pageProps} = initProps;
   // homepage already inlines full stylesheet
-  if (initProps.pageProps.pagePath !== '/') {
+  if (pageProps.pagePath !== '/') {
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = `/assets/css/all.post.css?v=${ver}`;
+    css.href = `/assets/css/all.post.css?v=${app.ver}`;
     document.querySelector('head').appendChild(css);
   }
-  fetchURL(initProps.pageProps.pageHref).then(pageProps => {
-    bootApp({pageProps}, !window.dbushell.isUniversal);
+  fetchURL(pageProps.pageHref).then(pageProps => {
+    bootApp({pageProps}, !app.isUniversal);
   });
 }

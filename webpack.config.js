@@ -25,7 +25,7 @@ module.exports = {
                   debug: true,
                   useBuiltIns: 'usage',
                   targets: {
-                    browsers: ['last 1 versions']
+                    browsers: ['last 1 versions', 'not ie <= 11']
                   }
                 }
               ],

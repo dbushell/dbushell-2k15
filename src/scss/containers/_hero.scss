@@ -69,17 +69,17 @@
   width: 55%;
   left: -5%;
 
-  .js & {
-    opacity: 0;
-    transform: translateY(20%) scale(0.1) rotateZ(-15deg);
-    transition: opacity 300ms ease-in,
-                transform 600ms cubic-bezier(.01,1.4,.6,1.2);
-  }
+  // .js & {
+  //   opacity: 0;
+  //   transform: translateY(20%) scale(0.1) rotateZ(-15deg);
+  //   transition: opacity 300ms ease-in,
+  //               transform 600ms cubic-bezier(.01,1.4,.6,1.2);
+  // }
 
-  .js-anim & {
-    opacity: 1;
-    transform: translateZ(0);
-  }
+  // .js-anim & {
+  //   opacity: 1;
+  //   transform: translateZ(0);
+  // }
 
   img {
     width: 100%;
