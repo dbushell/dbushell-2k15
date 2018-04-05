@@ -30,23 +30,25 @@ const offlineProps = {
   pageProps: offlinePageProps
 };
 
+const fetchInit = {
+  method: 'GET',
+  mode: 'same-origin',
+  headers: {
+    'Content-Type': 'application/json'
+  }
+};
+
 function fetchURL(href) {
   const same = href === initProps.pageProps.pageHref;
   const url = new URL(href);
   const api = `/api${url.pathname}props.json?v=${ver}`.replace('/spa/', '/');
-  const init = {
-    method: 'GET',
-    mode: 'same-origin',
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  };
+
   if (!same) {
     docEl.classList.add('js-loading');
     docEl.classList.add('js-loading-anim');
   }
   const start = Date.now();
-  const finish = () => {
+  const onComplete = () => {
     setTimeout(() => {
       docEl.classList.remove('js-loading');
       setTimeout(() => {
@@ -54,28 +56,22 @@ function fetchURL(href) {
       }, 300);
     }, Math.max(300 - (Date.now() - start), 0));
   };
+  const onFetch = response => {
+    onComplete();
+    if (response.status !== 200 || response.type !== 'basic') {
+      throw new Error('Unknown API response');
+    }
+    return response.json();
+  };
+  const onError = err => {
+    console.log(err);
+    onComplete();
+    return offlineProps.pageProps;
+  };
   return window
-    .fetch(api, init)
-    .then(response => {
-      finish();
-      if (response.status !== 200 || response.type !== 'basic') {
-        throw new Error('Unknown API response');
-      }
-      return response.json().then(pageProps => {
-        try {
-          if (!same && window.ga) {
-            window.ga('set', 'page', pageProps.pagePath);
-            window.ga('send', 'pageview');
-          }
-        } catch (err) {}
-        return pageProps;
-      });
-    })
-    .catch(err => {
-      console.log(err);
-      finish();
-      return offlineProps.pageProps;
-    });
+    .fetch(api, fetchInit)
+    .then(onFetch)
+    .catch(onError);
 }
 
 class Root extends Component {
@@ -176,22 +172,26 @@ class Root extends Component {
   }
 }
 
-function bootApp(props = initProps) {
-  $app.innerHTML = '';
-  docEl.classList.add('js-app');
-  ReactDOM.render(<Root {...props} />, $app);
+function bootApp(props = initProps, isHydration) {
+  if (isHydration) {
+    window.dbushell.isUniversal = true;
+    docEl.classList.add('js-app');
+    ReactDOM.hydrate(<Root {...props} />, $app);
+  } else {
+    $app.innerHTML = '';
+    ReactDOM.render(<Root {...props} />, $app);
+  }
 }
 
 if ($app) {
-  if (initProps.pageProps.pagePath === '/') {
-    bootApp();
-  } else {
+  // homepage already inlines full stylesheet
+  if (initProps.pageProps.pagePath !== '/') {
     const css = document.createElement('link');
     css.rel = 'stylesheet';
     css.href = `/assets/css/all.post.css?v=${ver}`;
     document.querySelector('head').appendChild(css);
-    fetchURL(initProps.pageProps.pageHref).then(pageProps => {
-      bootApp({pageProps});
-    });
   }
+  fetchURL(initProps.pageProps.pageHref).then(pageProps => {
+    bootApp({pageProps}, !window.dbushell.isUniversal);
+  });
 }

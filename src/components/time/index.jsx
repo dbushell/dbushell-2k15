@@ -49,13 +49,17 @@ const Time = props => {
     MMM: abbrMonths[date.getMonth()],
     Y: date.getFullYear()
   };
+  // use dangerouslySetInnerHTML to avoid inline
+  // whitespace issues with ReactDOM.hydrate()
   return (
-    <time {...attr}>
-      {time.dddd}{' '}
-      <b>
-        {time.D} <abbr title={time.MMMM}>{time.MMM}</abbr> {time.Y}
-      </b>
-    </time>
+    <time
+      {...attr}
+      dangerouslySetInnerHTML={{
+        __html: `${time.dddd} <b>${time.D} <abbr title="${time.MMMM}">${
+          time.MMM
+        }</abbr> ${time.Y}</b>`
+      }}
+    />
   );
 };
 export default Time;

@@ -36,6 +36,9 @@ const Footer = props => {
       />
     </a>
   );
+  // use dangerouslySetInnerHTML to avoid inline
+  // whitespace issues with ReactDOM.hydrate()
+
   return (
     <footer {...attr}>
       <Block>
@@ -44,7 +47,11 @@ const Footer = props => {
         <Blog {...blogProps()} />
         <hr />
         <Small>
-          Copyright &copy; {new Date().getFullYear()}{' '}
+          <span
+            dangerouslySetInnerHTML={{
+              __html: `Copyright &copy; ${new Date().getFullYear()} `
+            }}
+          />
           <a href="/">David Bushell</a>
         </Small>
       </Block>

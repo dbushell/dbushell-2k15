@@ -12,10 +12,7 @@ When writing React it's easy to hard-code UI text right into the JavaScript. Thi
 Here's an [example on CodePen](https://codepen.io/dbushell/pen/aYjvaW/):
 
 <div class="b-post__image">
-  <div style="display:block;">
-  <p data-height="300" data-theme-id="0" data-slug-hash="aYjvaW" data-default-tab="result" data-user="dbushell" data-embed-version="2" data-pen-title="Styled input range (slider/progress)" class="codepen">See the Pen <a href="https://codepen.io/dbushell/pen/aYjvaW/">React &amp; Redux - Internationalisation </a> by David Bushell (<a href="https://codepen.io/dbushell">@dbushell</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-  </div>
+  <iframe height="300" scrolling="no" title="React & Redux - Internationalisation" src="//codepen.io/dbushell/embed/aYjvaW/?height=300&theme-id=0&default-tab=result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/dbushell/pen/aYjvaW/">React &amp; Redux - Internationalisation</a> by David Bushell (<a href="https://codepen.io/dbushell">@dbushell</a>) on <a href="https://codepen.io">CodePen</a>.</iframe>
 </div>
 
 Below I document the technique I've been using over:

@@ -10,10 +10,7 @@ I've started a new [Code Snippets](https://codepen.io/collection/nbgEPa) collect
 Stuff like this styled range input:
 
 <div class="b-post__image">
-  <div style="display:block;max-width:45rem;">
-  <p data-height="150" data-theme-id="0" data-slug-hash="awgLZK" data-default-tab="result" data-user="dbushell" data-embed-version="2" data-pen-title="Styled input range (slider/progress)" class="codepen">See the Pen <a href="https://codepen.io/dbushell/pen/awgLZK/">Styled input range (slider/progress)</a> by David Bushell (<a href="https://codepen.io/dbushell">@dbushell</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-  </div>
+  <iframe height="150" scrolling="no" title="Styled input range (slider/progress)" src="//codepen.io/dbushell/embed/awgLZK/?height=150&theme-id=0&default-tab=result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true">See the Pen <a href="https://codepen.io/dbushell/pen/awgLZK/">Styled input range (slider/progress)</a> by David Bushell (<a href="https://codepen.io/dbushell">@dbushell</a>) on <a href="https://codepen.io">CodePen</a>.</iframe>
 </div>
 
 Who would have guessed each browser requires proprietary code?

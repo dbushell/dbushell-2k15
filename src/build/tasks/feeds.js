@@ -20,7 +20,10 @@ const rssTmp = compile('/src/templates/rss.xml');
 const rssEntryTmp = compile('/src/templates/partials/rss-entry.xml');
 
 function loc(href) {
-  return `${global.DBUSHELL.siteProtocol}//${path.join(global.DBUSHELL.siteRoot, href)}`;
+  return `${global.DBUSHELL.siteProtocol}//${path.join(
+    global.DBUSHELL.siteRoot,
+    href
+  )}`;
 }
 
 function lastmod(filePath, isAbs) {
@@ -94,14 +97,17 @@ export default function feeds() {
     });
 
     const rssItems = [];
-    articles.slice(-20).reverse().forEach(props => {
-      rssItems.push({
-        link: loc(props.pagePath),
-        title: props.pageHeading,
-        description: props.pageExcerpt,
-        pubDate: new Date(props.dateUnix).toUTCString()
+    articles
+      .slice(-20)
+      .reverse()
+      .forEach(props => {
+        rssItems.push({
+          link: loc(props.pagePath),
+          title: props.pageHeading,
+          description: props.pageExcerpt,
+          pubDate: new Date(props.dateUnix).toUTCString()
+        });
       });
-    });
 
     const rssXML = rssTmp({
       items: compact(rssItems.map(rssEntryTmp)).join(''),

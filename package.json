@@ -12,10 +12,11 @@
     "start": "npx http-server ./dbushell.github.io/",
     "build": "npx babel-node ./index.js",
     "postbuild": "node ./src/tasks/sw.js",
-    "prettify": "node ./src/tasks/prettify.js --tasks",
+    "prettify": "node ./src/tasks/prettify.js --build --tasks",
     "test": "npx jest",
     "test-update": "npx jest --updateSnapshot",
-    "webpack": "npx webpack --mode production --debug",
+    "webpack:dev": "npx webpack --mode development --debug",
+    "webpack": "npx webpack --mode production",
     "uglify": "cd ./dbushell.github.io/assets/js/ && npx uglifyjs -m --source-map \"url='main.min.js.map'\" -o main.min.js main.js && npx uglifyjs -m --source-map \"url='inline.min.js.map'\" -o inline.min.js inline.js",
     "css": "node ./src/tasks/css.js"
   },
@@ -42,7 +43,10 @@
       "no-unused-vars": "warn",
       "react/no-danger": "warn",
       "react/prop-types": "off",
-      "react/no-unused-prop-types": "off"
+      "react/no-unused-prop-types": "off",
+      "react/jsx-tag-spacing": {
+        "beforeSelfClosing": "allow"
+      }
     },
     "settings": {
       "import/resolver": {

@@ -95,15 +95,17 @@ function renderHandlebars(context) {
  * Render a page container with Footer and Nav components.
  */
 export function renderContainer(container, config) {
-  return `
-${ReactDOMServer.renderToStaticMarkup(React.createElement(container, config))}
-${ReactDOMServer.renderToStaticMarkup(React.createElement(Footer, {
+  return `${ReactDOMServer.renderToStaticMarkup(
+    React.createElement(container, config)
+  )}${ReactDOMServer.renderToStaticMarkup(
+    React.createElement(Footer, {
       ...(config.__footerProps || {})
-    }))}
-${ReactDOMServer.renderToStaticMarkup(React.createElement(Nav, {
+    })
+  )}${ReactDOMServer.renderToStaticMarkup(
+    React.createElement(Nav, {
       ...(config.__navProps || {})
-    }))}
-`;
+    })
+  )}`.trim();
 }
 
 /**
