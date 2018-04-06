@@ -183,7 +183,7 @@ $stripe2 : $stripe * $stripe;
   position: absolute;
   top: 0;
   right: 0;
-  display: none;
+  display: block;
   width: rem($unit * 8);
 
   &:hover:before {

@@ -2,40 +2,52 @@
   "heading": "Website Navigation",
   "items": [
     {
+      "id": "home",
       "order": 1,
       "priority": 1,
       "text": "Home",
       "href": "/"
     },
     {
+      "id": "about",
       "order": 2,
       "priority": 4,
       "text": "About",
       "href": "/about/"
     },
     {
+      "id": "services",
       "order": 3,
       "priority": 2,
       "text": "Services",
       "href": "/services/"
     },
     {
+      "id": "portfolio",
       "order": 4,
       "priority": 5,
       "text": "Portfolio",
       "href": "/showcase/"
     },
     {
+      "id": "blog",
       "order": 5,
       "priority": 6,
       "text": "Blog",
       "href": "/blog/"
     },
     {
+      "id": "contact",
       "order": 6,
       "priority": 3,
       "text": "Contact",
       "href": "/contact/"
+    },
+    {
+      "id": "icons",
+      "order": 7,
+      "priority": 7,
+      "isIcons": true
     }
   ]
 }

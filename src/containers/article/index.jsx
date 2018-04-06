@@ -37,7 +37,6 @@ const Article = props => {
         </Post>
         <hr />
         <Cta {...ctaProps} />
-        <Newsletter />
       </Block>
     </Block>
   );

@@ -40,10 +40,7 @@ const fetchInit = {
 function fetchURL(href) {
   const same = href === initProps.pageProps.pageHref;
   const url = new URL(href);
-  const api = `/api${url.pathname}props.json?v=${app.ver}`.replace(
-    '/spa/',
-    '/'
-  );
+  const api = `/api${url.pathname}props.json?v=${app.ver}`;
 
   if (!same) {
     $html.classList.add('js-loading');
@@ -153,11 +150,16 @@ class Root extends Component {
   render() {
     const {pageProps} = this.state;
     const {pagePath} = pageProps;
+    const footerProps = {};
+    const navProps = {
+      pagePath: pagePath
+    };
     let el;
     if (pagePath === '/') {
       el = Home;
     } else if (/^\/contact\/$/.test(pagePath)) {
       el = Contact;
+      footerProps.isHirable = false;
     } else if (/^\/pattern-library\/$/.test(pagePath)) {
       el = Patterns;
     } else if (/^\/showcase\/$/.test(pagePath)) {
@@ -170,11 +172,11 @@ class Root extends Component {
       el = Page;
     }
     return (
-      <div>
+      <React.Fragment>
         {React.createElement(el, pageProps)}
-        <FooterContainer />
-        <NavContainer pagePath={pagePath} />
-      </div>
+        <FooterContainer {...footerProps} />
+        <NavContainer {...navProps} />
+      </React.Fragment>
     );
   }
 }
