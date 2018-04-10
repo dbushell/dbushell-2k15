@@ -119,6 +119,7 @@ class Root extends Component {
     );
   }
   handleClick(e) {
+    if (e.which !== 1) return;
     const href = e.target.href || e.target.parentNode.href;
     if (typeof href !== 'string') {
       return;

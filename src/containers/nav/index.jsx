@@ -64,6 +64,14 @@ class NavContainer extends Component {
     };
     return <Nav {...props} />;
   }
+  componentDidUpdate(prevProps) {
+    if (this.props.pagePath !== prevProps.pagePath) {
+      this.setState({
+        isMoreActive: false,
+        isMoreHover: false
+      });
+    }
+  }
   handleResize() {
     const self = this;
     // update nav style and nodes
