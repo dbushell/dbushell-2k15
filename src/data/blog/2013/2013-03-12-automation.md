@@ -6,7 +6,7 @@ template: single.html
 title: Automation
 ---
 
-I used to believe hand-crafting every line of code was a necessity. [I u-turned on that opinion](http://dbushell.com/2012/08/27/im-bored-with-code/) and adopted **CSS preprocessors** with much gusto last year.
+I used to believe hand-crafting every line of code was a necessity. [I u-turned on that opinion](https://dbushell.com/2012/08/27/im-bored-with-code/) and adopted **CSS preprocessors** with much gusto last year.
 
 It wasn't so much the syntactical learning curve that initially put me off — they're familiar if you've done any kind of programming — it was the perceived "added complexity" they would bring. For what, one more barrier to entry? The value I've since found:
 
@@ -52,6 +52,6 @@ For projects I'm working on alone these tools have sped up my workflow massively
 
 Sharing and working with others; occasions where I'll have to down tools and do things the old fashioned way? That may be painful, but when I look at how complex browsers are becoming the price of automation is one I'm happy to pay.
 
-And what of fragmentation? That is inevitable in my opinion. When I [wrote](http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/) and [spoke](http://dbushell.com/2013/03/03/a-responsive-day-out/) about responsive navigation recently I shared a lot of practical techniques and concepts. The final code; that was less important. Implementation is becoming too nuanced for copy & paste examples. When it comes to sharing I'm starting to find more value in the automated process rather than the final output.
+And what of fragmentation? That is inevitable in my opinion. When I [wrote](http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/) and [spoke](https://dbushell.com/2013/03/03/a-responsive-day-out/) about responsive navigation recently I shared a lot of practical techniques and concepts. The final code; that was less important. Implementation is becoming too nuanced for copy & paste examples. When it comes to sharing I'm starting to find more value in the automated process rather than the final output.
 
 Automation, for me, is here to stay.

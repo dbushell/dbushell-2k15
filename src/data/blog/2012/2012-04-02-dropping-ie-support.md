@@ -20,7 +20,7 @@ Open Web evangelists will rage at this idea. Accessibility for all is a corners
 
 There are two precedents that I find very worrying here:
 
-1. [Browser support](http://dbushell.com/2012/03/03/forget-about-browser-support/) should never be boolean. Except when the number of potential users is minuscule (e.g. IE 6 in most cases), at which point testing is clearly unprofitable. A tiered visual and functional experience based on feature detection should exist, i.e. progressive enhancement. Any individual browser or device accessing a website is irrelevant in regards to "support"; there are just _too many_.
+1. [Browser support](https://dbushell.com/2012/03/03/forget-about-browser-support/) should never be boolean. Except when the number of potential users is minuscule (e.g. IE 6 in most cases), at which point testing is clearly unprofitable. A tiered visual and functional experience based on feature detection should exist, i.e. progressive enhancement. Any individual browser or device accessing a website is irrelevant in regards to "support"; there are just _too many_.
 2. **Internet Explorer is not that difficult to develop for.** Sure, IE is the butt of all jokes, but the reality is a competent front-end developer should be able to deliver something accessible (based on point 1 above). If IE "doubles" or "triples" your development time then consider hiring new developers.
 
 

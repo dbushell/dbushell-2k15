@@ -46,7 +46,7 @@ It's also worth pointing out that you cannot clear cached CSS no matter how hard
 ## A big refresh
 
 
-My [new site design](http://dbushell.com/2013/02/04/a-new-home/) has a _"From the blog…"_ feature in the page footer. This caused me some concern because dynamic content and caching don't go hand in hand.
+My [new site design](https://dbushell.com/2013/02/04/a-new-home/) has a _"From the blog…"_ feature in the page footer. This caused me some concern because dynamic content and caching don't go hand in hand.
 
 <p class="b-post__image">![latest articles on dbushell.com](/images/2013/02/from-the-blog.png)</p>
 

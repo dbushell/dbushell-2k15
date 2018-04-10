@@ -11,16 +11,16 @@ They say a [monkey hitting keys](http://en.wikipedia.org/wiki/Infinite_monkey_th
 
 ## Most Shared of 2012
 
-1. **[The State of Web Design, 2013](http://dbushell.com/2012/12/10/the-state-of-web-design-2013/)** 10 Dec — 60 shares
-2. [**The Real Cost of Retina**](http://dbushell.com/2012/10/23/the-real-cost-of-retina/)23 Oct — 95 shares
-3. [**Modularity and Style Guides**](http://dbushell.com/2012/04/23/modularity-and-style-guides/)23 Apr — 100 shares
-4. [**Browser Support? Forget It!**](http://dbushell.com/2012/03/03/forget-about-browser-support/)3 Mar — 105 shares
-5. [**Responsive Tables (2)**](http://dbushell.com/2012/01/04/responsive-calendar-demo/)5 Jan — 115 shares
-6. [**Search & Responsive Design**](http://dbushell.com/2012/06/06/search-responsive-design/)6 Jun — 136 shares
-7. [**Nestable jQuery Plugin**](http://dbushell.com/2012/06/17/nestable-jquery-plugin/)17 Jun —171 shares
-8. [**Pikaday: JavaScript datepicker**](http://dbushell.com/2012/10/09/pikaday-javascript-datepicker/)9 Oct — 198 shares
-9. [**SVG, Use it Already**](http://dbushell.com/2012/04/03/svg-use-it-already/)3 Apr — 273 shares
-10. [**A Responsive Design Case Study**](http://dbushell.com/2012/06/17/passenger-focus-responsive-web-design-case-study/)17 Jun — 319 shares
+1. **[The State of Web Design, 2013](https://dbushell.com/2012/12/10/the-state-of-web-design-2013/)** 10 Dec — 60 shares
+2. [**The Real Cost of Retina**](https://dbushell.com/2012/10/23/the-real-cost-of-retina/)23 Oct — 95 shares
+3. [**Modularity and Style Guides**](https://dbushell.com/2012/04/23/modularity-and-style-guides/)23 Apr — 100 shares
+4. [**Browser Support? Forget It!**](https://dbushell.com/2012/03/03/forget-about-browser-support/)3 Mar — 105 shares
+5. [**Responsive Tables (2)**](https://dbushell.com/2012/01/04/responsive-calendar-demo/)5 Jan — 115 shares
+6. [**Search & Responsive Design**](https://dbushell.com/2012/06/06/search-responsive-design/)6 Jun — 136 shares
+7. [**Nestable jQuery Plugin**](https://dbushell.com/2012/06/17/nestable-jquery-plugin/)17 Jun —171 shares
+8. [**Pikaday: JavaScript datepicker**](https://dbushell.com/2012/10/09/pikaday-javascript-datepicker/)9 Oct — 198 shares
+9. [**SVG, Use it Already**](https://dbushell.com/2012/04/03/svg-use-it-already/)3 Apr — 273 shares
+10. [**A Responsive Design Case Study**](https://dbushell.com/2012/06/17/passenger-focus-responsive-web-design-case-study/)17 Jun — 319 shares
 
 
 _("shares" only include tweets and +1's of the original article.)_

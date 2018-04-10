@@ -14,7 +14,7 @@ I believe I'm suppose to write about _writing_. When I started this blog in 2008
 ## What Do I Write About?
 
 
-[I blog](http://dbushell.com/2010/07/12/on-design-blogging/) because it exercises my mind. It forces me to think deeper and it allows me to share ideas and things that I've learnt.
+[I blog](https://dbushell.com/2010/07/12/on-design-blogging/) because it exercises my mind. It forces me to think deeper and it allows me to share ideas and things that I've learnt.
 
 I can knock out a thousand words before breakfast. A nice skill to have but one with many downsides. Primarily: I have more drafted posts than published ones. Only after I've tried to write about something do I realise how much I truly know. I think a lot of people would benefit from analysing the ideas they've expressed; they'll probably come to a similar conclusion.
 

@@ -14,7 +14,7 @@ SVG is more than just a vector graphic format. I'm here to tell you why it's be
 ## Features / Support
 
 
-As amazing as SVG is (and it really is amazing) its usage is not as simply as "browser support" — another reason why you should [forget that idea](http://dbushell.com/2012/03/03/forget-about-browser-support/). All modern browsers now [support](http://caniuse.com/#search=SVG) SVG for image elements and CSS backgrounds. But "support" only extends so far. The SVG spec has a whole load of [filter effects](http://www.w3.org/TR/SVG/filters.html), [interactive events](http://www.w3.org/TR/SVG/interact.html), [animation](http://www.w3.org/TR/SVG/animate.html) and [scripting](http://www.w3.org/TR/SVG/script.html) abilities. While some browsers can render basic vector graphics, not all of them offer this additional functionality. Thankfully, browsers seem to ignore what they can't handle making graceful degradation a possibility.
+As amazing as SVG is (and it really is amazing) its usage is not as simply as "browser support" — another reason why you should [forget that idea](https://dbushell.com/2012/03/03/forget-about-browser-support/). All modern browsers now [support](http://caniuse.com/#search=SVG) SVG for image elements and CSS backgrounds. But "support" only extends so far. The SVG spec has a whole load of [filter effects](http://www.w3.org/TR/SVG/filters.html), [interactive events](http://www.w3.org/TR/SVG/interact.html), [animation](http://www.w3.org/TR/SVG/animate.html) and [scripting](http://www.w3.org/TR/SVG/script.html) abilities. While some browsers can render basic vector graphics, not all of them offer this additional functionality. Thankfully, browsers seem to ignore what they can't handle making graceful degradation a possibility.
 
 Even when features are available they can be notoriously slow. Applying filters is akin to Photoshopping on low memory. Browsers also have very tight "security" restrictions when using [SVG as an image](https://developer.mozilla.org/en/SVG/SVG_as_an_Image) (something to remember or you'll be scratching your head for hours wondering why the damned thing isn't working). **Inline SVG** is a formidable beast. It's XML within your HTML. It can be styled with CSS and manipulated with JavaScript just like the DOM. Unlike HTML, SVG elements can be [transformed](http://www.w3.org/TR/SVG/coords.html#TransformAttribute) and rotated without advanced CSS3. Powerful stuff this SVG, I'm sure you'll agree.
 
@@ -38,9 +38,9 @@ All the bugs I've come across are well known by browser developers but fixes are
 
 With CSS 3D Transforms it's fairly clear why this happens. Manipulating the DOM is an expensive hobby, doing so in 3D space is currently a pipe dream.
 
-There are, however, other situations in which this kind of **early rasterisation** catches us of guard. **Firefox** has a bug (I believe [this one](https://bugzilla.mozilla.org/show_bug.cgi?id=600207)) relating to background images. I've uploaded a [demo and workaround](http://dbushell.com/demos/svg/scaling-09-03-12/) and a screenshot of the problem below:
+There are, however, other situations in which this kind of **early rasterisation** catches us of guard. **Firefox** has a bug (I believe [this one](https://bugzilla.mozilla.org/show_bug.cgi?id=600207)) relating to background images. I've uploaded a [demo and workaround](https://dbushell.com/demos/svg/scaling-09-03-12/) and a screenshot of the problem below:
 
-<p class="b-post__image">[![SVG pixelated rendering in Firefox](/images/2012/03/svg-rendering.png)](http://dbushell.com/demos/svg/scaling-09-03-12/)</p>
+<p class="b-post__image">[![SVG pixelated rendering in Firefox](/images/2012/03/svg-rendering.png)](https://dbushell.com/demos/svg/scaling-09-03-12/)</p>
 
  Blurry SVG is obviously not the desired result.
 

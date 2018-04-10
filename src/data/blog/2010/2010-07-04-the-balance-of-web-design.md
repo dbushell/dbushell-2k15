@@ -42,6 +42,6 @@ There are a couple of annoying things like the **column-break-after** property s
 
 And if you're using Internet Explorer, you'll probably wonder what I'm talking about.
 
-In the end I'm one step closer on my vague mission to make my website perfect in every situation (see previous post on [Using SVG Logos](http://dbushell.com/2010/06/30/using-svg-logos/)). In regards to whether multiple content columns are actually a good thing for usability, I haven't the foggiest! Let me know your "experience" in a comment and I'll be sure to follow up with a report.
+In the end I'm one step closer on my vague mission to make my website perfect in every situation (see previous post on [Using SVG Logos](https://dbushell.com/2010/06/30/using-svg-logos/)). In regards to whether multiple content columns are actually a good thing for usability, I haven't the foggiest! Let me know your "experience" in a comment and I'll be sure to follow up with a report.
 
 _Quick update (7th July) to link to this post _[_"On Problems"_](http://mindgarden.de)_ which presents an excellent philosophy on "responsive design" with some great links for further reading. The blog is another example of media query usage that predates my attempt by many moons!_

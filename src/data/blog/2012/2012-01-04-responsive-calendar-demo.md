@@ -6,9 +6,9 @@ template: single.html
 title: Responsive Tables (and a calendar demo)
 ---
 
-_***Update*** see more [responsive tables](http://dbushell.com/2012/01/05/responsive-tables-2/) progress (5th Jan)._
+_***Update*** see more [responsive tables](https://dbushell.com/2012/01/05/responsive-tables-2/) progress (5th Jan)._
 
-A real short post for future reference! I'm experimenting with a **responsive calendar** design and build. See my _very_ rough [responsive calendar demo](http://dbushell.com/demos/calendar/v1_03-01-12.html).
+A real short post for future reference! I'm experimenting with a **responsive calendar** design and build. See my _very_ rough [responsive calendar demo](https://dbushell.com/demos/calendar/v1_03-01-12.html).
 
 I've found through trial, error, and much pondering that the idea of a responsive calendar is actually not that complex. My demo needs more considered breakpoints and design tweaks but it proves the concept. I'm thinking about developing it into a fully fledged HTML & CSS baseline for others to build upon.
 

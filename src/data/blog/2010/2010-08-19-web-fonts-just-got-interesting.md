@@ -6,7 +6,7 @@ template: single.html
 title: Web Fonts just got interesting
 ---
 
-Around this time last year I was blogging about the then-new [Typekit service](http://dbushell.com/2009/09/19/typekit/) and the news of [Typotheque](http://dbushell.com/2009/10/20/typotheque-offer-web-licenses/) offering web licenses. I enquired as to when (or whether) the big font foundries would embrace the new world of web fonts. Or if they would sit back and watch the licensing nightmare unfold.
+Around this time last year I was blogging about the then-new [Typekit service](https://dbushell.com/2009/09/19/typekit/) and the news of [Typotheque](https://dbushell.com/2009/10/20/typotheque-offer-web-licenses/) offering web licenses. I enquired as to when (or whether) the big font foundries would embrace the new world of web fonts. Or if they would sit back and watch the licensing nightmare unfold.
 
 Well, this month has answered a few of those questions!
 

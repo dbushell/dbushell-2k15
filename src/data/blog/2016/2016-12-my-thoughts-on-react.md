@@ -58,7 +58,7 @@ I was flirting with the idea of using [TypeScript](https://www.typescriptlang.or
 
 ## Dependencies
 
-I suspect a few readers are already balking over the number of names and acronyms I’ve already dropped. A year ago I wrote [“I don't do Angular, is that OK?”](http://dbushell.com/2015/02/04/i-dont-do-angular-is-that-ok/). I deliberated over what I should know as a professional front-end developer.
+I suspect a few readers are already balking over the number of names and acronyms I’ve already dropped. A year ago I wrote [“I don't do Angular, is that OK?”](https://dbushell.com/2015/02/04/i-dont-do-angular-is-that-ok/). I deliberated over what I should know as a professional front-end developer.
 
 The piece [“How it feels to learn JavaScript in 2016”](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f) by _Jose Aguinaga_  sums up this quandary from an amusing, if cynical, perspective shared by many.
 

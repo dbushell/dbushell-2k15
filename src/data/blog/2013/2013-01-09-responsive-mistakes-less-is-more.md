@@ -6,7 +6,7 @@ template: single.html
 title: 'Responsive Mistakes: Less is More'
 ---
 
-This is **part 2** of my [responsive mistakes mini-series](http://dbushell.com/2013/01/06/a-mini-series-of-responsive-mistakes/).
+This is **part 2** of my [responsive mistakes mini-series](https://dbushell.com/2013/01/06/a-mini-series-of-responsive-mistakes/).
 
 Responsive design musing often leans towards a **mobile bias**. It's obvious why. After years of desktop-centric design, mobile is brimming with fresh opportunity.
 
@@ -16,7 +16,7 @@ As it turns out, the mobile perspective is very helpful for us and our clients.�
 ## Hiding content is bad
 
 
-While focus is good, over-reduction isn't. We work to understand a website's goals prior to implementation. We can't then start to discard secondary and tertiary business requirements as the screen size reduces. "Mobile" — whether defined by screen size or portability — gives us **no clue** towards the [user's intentions](http://dbushell.com/2012/03/23/the-mobile-fallacy/).
+While focus is good, over-reduction isn't. We work to understand a website's goals prior to implementation. We can't then start to discard secondary and tertiary business requirements as the screen size reduces. "Mobile" — whether defined by screen size or portability — gives us **no clue** towards the [user's intentions](https://dbushell.com/2012/03/23/the-mobile-fallacy/).
 
 Hiding content is hiding the problem, not a solution to it.
 

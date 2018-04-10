@@ -22,7 +22,7 @@ Stephanie Rieger has a great article: [Mobile users don’t do that](http://ste
 <blockquote><p>Study after study reveals people use their mobile at home, while watching TV. People also use mobile devices for hours while waiting on trains and at airports. For each user who is in a hurry there will be another who stares intently at their device for 20-30 minute stints.</p></blockquote>
 
 
-The fact is we simply cannot understand the user's context based on their device. This type of assertion leads to design that break away from **content parity**. As I wrote [last year](http://dbushell.com/2011/09/14/what-is-mobile/):
+The fact is we simply cannot understand the user's context based on their device. This type of assertion leads to design that break away from **content parity**. As I wrote [last year](https://dbushell.com/2011/09/14/what-is-mobile/):
 
 
 <blockquote><p>Any kind of restriction or removal of content & functionality as a solution to improve usability on small-screens can only lead to user frustration; we’re trying to force [users] down a path they don’t necessarily want to take.</p></blockquote>

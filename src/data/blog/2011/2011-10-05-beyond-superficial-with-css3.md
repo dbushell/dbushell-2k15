@@ -6,7 +6,7 @@ template: single.html
 title: Beyond superficial with CSS3
 ---
 
-Last week I wrote [Building for Future Design](http://dbushell.com/2011/10/01/building-for-future-design/) — the notion: to advance web design we must build on solid foundations. Never forget accessibility.
+Last week I wrote [Building for Future Design](https://dbushell.com/2011/10/01/building-for-future-design/) — the notion: to advance web design we must build on solid foundations. Never forget accessibility.
 
 _Six Revisions_ published the very timely article [Are You Using CSS3 Appropriately?](http://sixrevisions.com/css/using-css3-appropriately/#comment-129212) by _Delwin Campbell_ this week in which he reaches similar conclusions to me; usability, _accessibility_ and user experience are our main objectives.
 

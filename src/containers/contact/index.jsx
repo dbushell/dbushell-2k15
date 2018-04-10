@@ -52,7 +52,7 @@ const Contact = props => {
               <input
                 type="hidden"
                 name="_next"
-                value="http://dbushell.com/contact/?success=true"
+                value="https://dbushell.com/contact/?success=true"
               />
               <input
                 type="hidden"

@@ -12,7 +12,7 @@ My highlight for sure was moving into my new flat. The whole searching, buying, 
 
 ### January
 
-What better way to start the year than to blog a two-parter? I wrote about SVG — using it with various experimental techniques ([part 1](http://dbushell.com/2015/01/26/use-svg-part-1/), [part 2](http://dbushell.com/2015/01/30/use-svg-part-2/)).
+What better way to start the year than to blog a two-parter? I wrote about SVG — using it with various experimental techniques ([part 1](https://dbushell.com/2015/01/26/use-svg-part-1/), [part 2](https://dbushell.com/2015/01/30/use-svg-part-2/)).
 
 Earlier in 2014 I had built a large scale responsive CSS framework for an e-commerce website. In January this year I expanded upon it to add their custom admin interface (to manage products and customers). There will be a link here soon to my portfolio page for this project!
 
@@ -22,17 +22,17 @@ Ending Jan and starting Feb I helped out a couple of regular clients on small pr
 
 Later in the month I wrapped up the final amends for an ongoing project that had crept out of scope. The full work was delivered and paid for but the client relationship had unfortunately soured. The first and last time I'll see this happen. I've since adapted my workflow to ensure expectations are crystal clear. Regardless of the client I now take it upon myself to ensure all parties are on the same page at all times. Recent clients have been very pleased with the added attention I give.
 
-At the end of Feb I used my personal website — as I often do — as a 'guinea pig' to help me understand [Critical CSS and Performance](http://dbushell.com/2015/02/19/critical-css-and-performance/). The results and ensuing feedback were brilliant.
+At the end of Feb I used my personal website — as I often do — as a 'guinea pig' to help me understand [Critical CSS and Performance](https://dbushell.com/2015/02/19/critical-css-and-performance/). The results and ensuing feedback were brilliant.
 
 ### March — June
 
-March saw me begin helping [Houden Bags](http://dbushell.com/2015/03/18/responsive-design-for-houden/) with an assortment of design and dev tasks to finish their e-commerce store. This was my first experience with the Shopify platform and I was pleasantly surprised with how developer-friendly it is.
+March saw me begin helping [Houden Bags](https://dbushell.com/2015/03/18/responsive-design-for-houden/) with an assortment of design and dev tasks to finish their e-commerce store. This was my first experience with the Shopify platform and I was pleasantly surprised with how developer-friendly it is.
 
 Throughout these months I pursued the time consuming activity of flat viewing. It helps to know where you actually want to live and how much you can afford. It took a good few weeks before I really knew what I was looking for.
 
 Thankfully, the work with Houden Bags was flexible, and alongside several smaller jobs, it kept my business ticking along.
 
-In May I rebuilt my WordPress website as a static generated site with the help of [Metalsmith](http://dbushell.com/2015/05/11/wordpress-to-metalsmith/). This was another learning opportunity. And what would a year be without a complete rebuild of my personal website?
+In May I rebuilt my WordPress website as a static generated site with the help of [Metalsmith](https://dbushell.com/2015/05/11/wordpress-to-metalsmith/). This was another learning opportunity. And what would a year be without a complete rebuild of my personal website?
 
 On the 19th May I attended [UpFront Conf](http://lanyrd.com/2015/upfrontconf/).
 
@@ -49,11 +49,11 @@ Turns out it takes a long time to move into a new flat. I spent the best part of
 
 ### October — November
 
-I learned about [Accelerated Mobile Pages](http://dbushell.com/2015/10/20/accelerated-mobile-pages/) (and again, used my own website as patient zero). I attended UpFront Mini because the first one was so well organised.
+I learned about [Accelerated Mobile Pages](https://dbushell.com/2015/10/20/accelerated-mobile-pages/) (and again, used my own website as patient zero). I attended UpFront Mini because the first one was so well organised.
 
 In November I received the perfect project to learn and implement a [ReactJS](https://facebook.github.io/react/) solution. Another project that I really need to highlight in my portfolio.
 
-I also decided it was time to release my [Tales WordPress theme](http://dbushell.com/2015/11/12/tales-wordpress-theme-now-free/) for free (MIT licensed).
+I also decided it was time to release my [Tales WordPress theme](https://dbushell.com/2015/11/12/tales-wordpress-theme-now-free/) for free (MIT licensed).
 
 ### December
 
@@ -67,4 +67,4 @@ Happy New Year!
 
 I'll have plenty of availability for front-end design and development projects next year. I work with everyone from individuals, small businesses, and large web agencies. Contact me and we can discuss services and your requirements.
 
-[Please get in touch.](http://dbushell.com/contact/)
+[Please get in touch.](https://dbushell.com/contact/)

@@ -6,7 +6,7 @@ template: single.html
 title: Using SVG Logos
 ---
 
-_***Update*** 1th November 2011: [The Good, the Bad, and the Logo](http://dbushell.com/2011/11/11/the-good-the-bad-and-the-logo/)_
+_***Update*** 1th November 2011: [The Good, the Bad, and the Logo](https://dbushell.com/2011/11/11/the-good-the-bad-and-the-logo/)_
 
 If you visited this website recently you may have noticed the new logo/emblem that adorns the top centre of the design. For the last few days that logo was simply a _PNG _image. Well this evening** I asked myself why?**** **It's obviously been designed as a vector graphic.
 

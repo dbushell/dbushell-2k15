@@ -20,7 +20,7 @@ Gone are the days where a beautifully interactive website will suffice that cons
 
 Earlier this year I wrote about [Bringing Interactivity To Your Website With Web Standards](http://coding.smashingmagazine.com/2011/02/03/bringing-interactivity-to-your-website-with-web-standards/) for _Smashing Magazine_ showcasing some of the experimental techniques in practice today.
 
-In recent months Adobe demonstrated with [Edge](http://labs.adobe.com/technologies/edge/) and [Muse](http://muse.adobe.com/) that you can build animation and interactivity _with_ web standards and still get it **disastrously wrong**. (I'll explain how to do it _right_ below.) I [had](http://dbushell.com/2011/08/01/adobe-edge-preview/) high hopes for Edge and I do believe the future of web design will continue to move away from its print design influences, but I must remember that websites are more than just skin deep. Aesthetics should not be priority.
+In recent months Adobe demonstrated with [Edge](http://labs.adobe.com/technologies/edge/) and [Muse](http://muse.adobe.com/) that you can build animation and interactivity _with_ web standards and still get it **disastrously wrong**. (I'll explain how to do it _right_ below.) I [had](https://dbushell.com/2011/08/01/adobe-edge-preview/) high hopes for Edge and I do believe the future of web design will continue to move away from its print design influences, but I must remember that websites are more than just skin deep. Aesthetics should not be priority.
 
 The web is the world's digital information archive. It's built upon open standards to ensure accessibility on any connected device. As practitioners we have a responsibility to maintain that basic principle. If we do that we can be [Future Friendly](http://futurefriend.ly/). We can experiment with new design paradigms and we can take advantage of new technology.
 
@@ -54,7 +54,7 @@ At this stage if you cannot access every single page and piece of content on the
 * Write a [print stylesheet](http://printstylesheet.dbushell.com/). If I've separated aesthetics from layout (using the small-screen first approach) this is very easy — I can just hide everything apart from the main content/article.
 
 
-At this stage I have a working, _accessible_ website with content separate from style. It will purposefully deliver progressively better aesthetics to more modern browsers. It will also shape itself to fit on any size screen _without_ simply [removing content or functionality](http://dbushell.com/2011/09/14/what-is-mobile/) (without very strong cause). The code is also perfectly optimised for search engines. Next:
+At this stage I have a working, _accessible_ website with content separate from style. It will purposefully deliver progressively better aesthetics to more modern browsers. It will also shape itself to fit on any size screen _without_ simply [removing content or functionality](https://dbushell.com/2011/09/14/what-is-mobile/) (without very strong cause). The code is also perfectly optimised for search engines. Next:
 
 * I write the JavaScript.
 

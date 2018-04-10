@@ -14,7 +14,7 @@ What about _height_?
 ## The Baseline Grid
 
 
-As an exercise in 'perfection' when I last [updated my website](http://dbushell.com/2012/02/27/spring-cleaning-redesigning-dbushell-com/) I snapped the vertical rhythm strictly to a typographic baseline grid. In theory this isn't complicated. Just make all vertical spacing a multiple of your line-height. Not that easy in practice. Responsive images and videos — anything with a fluid width and aspect ratio — break the baseline. Trying to maintain it regardless is a headache.
+As an exercise in 'perfection' when I last [updated my website](https://dbushell.com/2012/02/27/spring-cleaning-redesigning-dbushell-com/) I snapped the vertical rhythm strictly to a typographic baseline grid. In theory this isn't complicated. Just make all vertical spacing a multiple of your line-height. Not that easy in practice. Responsive images and videos — anything with a fluid width and aspect ratio — break the baseline. Trying to maintain it regardless is a headache.
 
 Personally I just don't agree it's worth the hassle. Keep a baseline within textual content areas of course, but across the whole layout? Don't sweat it. Arrange by eye. Or better yet, why not do it _responsively_?
 

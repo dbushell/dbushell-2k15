@@ -6,7 +6,7 @@ template: single.html
 title: Responsive Mistakes (a mini-series)
 ---
 
-Last week I shared some front-end experience with [5 tips for responsive builds](http://dbushell.com/2013/01/01/five-tips-for-responsive-builds/). It received positive feedback so I thought it'd be fun to continue with a new mini-series. This month I'll be focusing on the _mistakes_ we make. Without further ado, let's start with the biggest:
+Last week I shared some front-end experience with [5 tips for responsive builds](https://dbushell.com/2013/01/01/five-tips-for-responsive-builds/). It received positive feedback so I thought it'd be fun to continue with a new mini-series. This month I'll be focusing on the _mistakes_ we make. Without further ado, let's start with the biggest:
 
 
 ## Smart Phone, Tablet, Desktop
@@ -28,7 +28,7 @@ Acknowledge how little is known about the user's context. Realise that **trying 
 <blockquote><p>Any attempt to draw a line around a particular device class has as much permanence as a literal line in the sand.</p></blockquote>
 
 
-Design and build for an entirely fluid viewport ([don't forget height](http://dbushell.com/2012/11/19/responsive-bases-vertical-spaces/)). Allow content to dictate design breakpoints. Remember that responsive design is not just about fitting content into layouts that negate zooming. Consider the effects of scrolling too; how is usability affected when elements move off screen?
+Design and build for an entirely fluid viewport ([don't forget height](https://dbushell.com/2012/11/19/responsive-bases-vertical-spaces/)). Allow content to dictate design breakpoints. Remember that responsive design is not just about fitting content into layouts that negate zooming. Consider the effects of scrolling too; how is usability affected when elements move off screen?
 
 Give affordance in your design, for example, provide a healthy amount of whitespace around interactive elements for thin pointers and fat fingers. Only get specific after **feature detection **and then **progressively enhance** from an accessible baseline.
 

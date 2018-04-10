@@ -6,7 +6,7 @@ template: single.html
 title: On Responsive Navigation and Rendering
 ---
 
-When I launched my [new website](http://dbushell.com/2013/02/04/a-new-home/) earlier this week I implemented the [off-canvas navigation](http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/) technique I'd written about for Smashing Magazine. It uses silky smooth CSS transitions and looks great on mobile (if I do say so myself).
+When I launched my [new website](https://dbushell.com/2013/02/04/a-new-home/) earlier this week I implemented the [off-canvas navigation](http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/) technique I'd written about for Smashing Magazine. It uses silky smooth CSS transitions and looks great on mobile (if I do say so myself).
 
 A small problem came when I set a high breakpoint. The navigation is always off-canvas up to a width of 60em (that's normally 960px). While it's possible to make the nav element fixed or fluid width — I opted for 70% — it looked awkward on tablet size screens. It's very wide and the menu items are small resulting in masses of whitespace. Some whitespace is good, but this just looked unfinished.
 

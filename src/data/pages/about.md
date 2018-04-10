@@ -16,11 +16,11 @@ Prior to my freelancing life, immediately after graduation, I worked in London's
 
 During this time I worked with just about every client imaginable from the public sector departments to the small local businesses. I found that a personable and attentive approach to discussing a client's business instilled trust. Rather than trying to "sell" a website design I'd involve clients in the process to design it alongside me.
 
-I went freelance early 2013 and kicked things off by speaking at the [Responsive Day Out](http://dbushell.com/2012/12/07/responsive-day-out/) conference. Since then I've provided my design and front-end development skills to many web agencies and clients.
+I went freelance early 2013 and kicked things off by speaking at the [Responsive Day Out](https://dbushell.com/2012/12/07/responsive-day-out/) conference. Since then I've provided my design and front-end development skills to many web agencies and clients.
 
 On the Web, I consider myself self-taught. Programming has fascinated me since the days of dial-up modems and floppy disks (this domain is over a decade old). My formal education is firmly rooted in the finer arts. I graduated with 1st class honours in Graphic Design at Cumbria University.
 
-I write about the web on [my blog](http://dbushell.com/blog) and shares ideas, inspiration, and nonsense [@dbushell](http://twitter.com/dbushell). I've also written [articles](http://smashingmagazine.com/author/david-bushell/) for industry leader Smashing Magazine. I host several popular [projects on GitHub](https://github.com/dbushell). You can find me on [CodePen](http://codepen.io/dbushell/) where I play around with code.
+I write about the web on [my blog](https://dbushell.com/blog) and shares ideas, inspiration, and nonsense [@dbushell](http://twitter.com/dbushell). I've also written [articles](http://smashingmagazine.com/author/david-bushell/) for industry leader Smashing Magazine. I host several popular [projects on GitHub](https://github.com/dbushell). You can find me on [CodePen](http://codepen.io/dbushell/) where I play around with code.
 
 Any questions? <a href="/contact/">Contact me</a>.
 
@@ -30,7 +30,7 @@ I create things for the web with longevity in mind. Designing for the future is 
 
 ## Public Speaking
 
-On March 1st 2013 I spoke at the [Responsive Day Out](http://dbushell.com/2012/12/07/responsive-day-out/) conference in Brighton, UK. My profile photo was taken by [Marc Thiele](http://www.flickr.com/photos/marcthiele/8519276774) during my talk.
+On March 1st 2013 I spoke at the [Responsive Day Out](https://dbushell.com/2012/12/07/responsive-day-out/) conference in Brighton, UK. My profile photo was taken by [Marc Thiele](http://www.flickr.com/photos/marcthiele/8519276774) during my talk.
 
 * * *
 

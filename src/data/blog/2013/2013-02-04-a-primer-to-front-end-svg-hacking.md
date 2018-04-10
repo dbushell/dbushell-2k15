@@ -101,9 +101,9 @@ To aid readability you may even attempt such audacity as this:
 }
 ````
 
-I've thrown up a [UTF-8 test case](http://dbushell.com/demos/svg/utf8uri/test2.html) and the results from quick testing show only Webkit based Safari and Chrome are happy with this arrangement. But this isn't quite right…
+I've thrown up a [UTF-8 test case](https://dbushell.com/demos/svg/utf8uri/test2.html) and the results from quick testing show only Webkit based Safari and Chrome are happy with this arrangement. But this isn't quite right…
 
-It may not be immediately obvious but my pseudo code above is not a valid data URI. While the contents are UTF-8 encoded, the URI itself needs to be [URI encoded](http://en.wikipedia.org/wiki/Percent-encoding). View the source of my last demo in the [test case](http://dbushell.com/demos/svg/utf8uri/test2.html) to see why this is ultimately pointless! The base64 version is always smaller.
+It may not be immediately obvious but my pseudo code above is not a valid data URI. While the contents are UTF-8 encoded, the URI itself needs to be [URI encoded](http://en.wikipedia.org/wiki/Percent-encoding). View the source of my last demo in the [test case](https://dbushell.com/demos/svg/utf8uri/test2.html) to see why this is ultimately pointless! The base64 version is always smaller.
 
 
 ## Object Elements
@@ -156,7 +156,7 @@ To unleash full power you either need to view an SVG file directly in the browse
 <!--[if (gt IE 8)]><!--><svg></svg><!--<![endif]-->
 ````
 
-This is something I've [recently experimented](http://dbushell.com/2013/01/28/gloople-responsive-design-review/) with to reduce HTTP requests. One drawback is that the browser can't cache the image to be used across multiple locations. It does however mean you can [style SVG with CSS](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/SVG_and_CSS) — and via the document stylesheet too which is a maintainability bonus.
+This is something I've [recently experimented](https://dbushell.com/2013/01/28/gloople-responsive-design-review/) with to reduce HTTP requests. One drawback is that the browser can't cache the image to be used across multiple locations. It does however mean you can [style SVG with CSS](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/SVG_and_CSS) — and via the document stylesheet too which is a maintainability bonus.
 
 Browsers that don't support inline SVG aren't going to like the taste of it (hence the conditional comments for old IE). In my use case, an object element with a data URI may have been the better choice.
 

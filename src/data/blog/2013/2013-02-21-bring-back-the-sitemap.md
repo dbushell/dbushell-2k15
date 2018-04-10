@@ -6,7 +6,7 @@ template: single.html
 title: Bring Back the Sitemap?
 ---
 
-I'm doing a small segment on navigation at [Responsive Day Out](http://responsiveconf.com/) (1st March). It's an area of responsive design I enjoy [experimenting with](http://dbushell.com/2013/02/07/on-responsive-navigation-and-rendering/).
+I'm doing a small segment on navigation at [Responsive Day Out](http://responsiveconf.com/) (1st March). It's an area of responsive design I enjoy [experimenting with](https://dbushell.com/2013/02/07/on-responsive-navigation-and-rendering/).
 
 You're probably familiar with [responsive patterns](http://bradfrost.github.com/this-is-responsive/patterns.html#navigation) that transform a traditional menu into something mobile-friendly. Combinations thereof cover most scenarios. If nothing suffices it might be more apt to focus on information architecture before attacking code again.
 

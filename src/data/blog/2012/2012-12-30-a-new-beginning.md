@@ -8,7 +8,7 @@ title: A New Beginning
 
 Everything changes for me at the end of January.
 
-After a wonderful 18 months at [Browser](http://www.browserlondon.com/) and five years living in London I'm heading home, back up north to Manchester — and then almost immediately back down south for [Responsive Day Out](http://dbushell.com/2012/12/07/responsive-day-out/) — but after that I'll be starting something new.
+After a wonderful 18 months at [Browser](http://www.browserlondon.com/) and five years living in London I'm heading home, back up north to Manchester — and then almost immediately back down south for [Responsive Day Out](https://dbushell.com/2012/12/07/responsive-day-out/) — but after that I'll be starting something new.
 
 
 ## What's Next?
@@ -34,7 +34,7 @@ I now run over 10k a week and I'm aiming for a half-marathon in May. What a diff
 ### Write more, write less
 
 
-I've already alluded to changes in [my writing](http://dbushell.com/2012/12/26/a-year-of-writing/). Rather than the bi-monthly epics I tend to slog over I want to publish more frequently on this blog; save the meatier stuff for Smashing Magazine etc.
+I've already alluded to changes in [my writing](https://dbushell.com/2012/12/26/a-year-of-writing/). Rather than the bi-monthly epics I tend to slog over I want to publish more frequently on this blog; save the meatier stuff for Smashing Magazine etc.
 
 
 ### Filter the chirping
@@ -46,6 +46,6 @@ I've authored (ha!) just shy of 10,000 tweets since April, 2009. I don't know wh
 ### Research, Develop
 
 
-The most enjoyable times of 2012 have been the opportunities I've made to share projects like my [lightweight datepicker](http://dbushell.com/2012/10/09/pikaday-javascript-datepicker/) and experiments like my [off-canvas menu](http://dbushell.com/2012/12/22/a-responsive-off-canvas-menu-with-css-transforms-and-transitions/). These tend to be wildly popular, collaborative, and the best learning experiences. I have a long list of random ideas that would serve much better in the public spotlight.
+The most enjoyable times of 2012 have been the opportunities I've made to share projects like my [lightweight datepicker](https://dbushell.com/2012/10/09/pikaday-javascript-datepicker/) and experiments like my [off-canvas menu](https://dbushell.com/2012/12/22/a-responsive-off-canvas-menu-with-css-transforms-and-transitions/). These tend to be wildly popular, collaborative, and the best learning experiences. I have a long list of random ideas that would serve much better in the public spotlight.
 
 And with that, bring on 2013!

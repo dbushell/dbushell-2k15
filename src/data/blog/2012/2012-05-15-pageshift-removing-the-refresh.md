@@ -8,7 +8,7 @@ title: Pageshift
 
 It's 2012, why are we still seeing websites assemble like Optimus Prime?
 
-In January I wrote [Web Design: 2012 and Beyond](http://dbushell.com/2011/12/15/web-design-2012-and-beyond/) to highlight points of interest for the coming year. On **interactivity** I asked, _"Is the page reload a thing of the past?"_. 'Web apps' are all the rage, and while we shouldn't be trying to copy native (the Web is much more than that), surely it's about damn time to rid our browsers of the page refresh?
+In January I wrote [Web Design: 2012 and Beyond](https://dbushell.com/2011/12/15/web-design-2012-and-beyond/) to highlight points of interest for the coming year. On **interactivity** I asked, _"Is the page reload a thing of the past?"_. 'Web apps' are all the rage, and while we shouldn't be trying to copy native (the Web is much more than that), surely it's about damn time to rid our browsers of the page refresh?
 
 Inspiration can be drawn from slide decks like [CSSS](http://leaverou.github.com/CSSS/#intro), [deck.js](http://imakewebthings.com/deck.js/) and [impress.js](http://bartaz.github.com/impress.js/), though they all require very specific markup and single page content. Other solutions built on top of JavaScript MVC frameworks like [Backbone.js](http://documentcloud.github.com/backbone/) require a massive effort to maintain URL [accessible states](http://tomdale.net/2012/05/ember-routing/).
 

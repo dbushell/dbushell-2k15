@@ -20,7 +20,7 @@ Start by writing HTML in a semantic and hierarchical order. This is dictated by 
 ## 2. Maintain a pattern library
 
 
-This is a single page where you can dump all components: typography, menus, forms, feature boxes, content modules etc. A place where design meets implementation. It's your website's melting pot. A handy repository that helps keep visual design consistent and code maintainable. I've written previously on [modularity and style guides](http://dbushell.com/2012/04/23/modularity-and-style-guides/). See this [case study](http://dbushell.com/2012/06/17/passenger-focus-responsive-web-design-case-study/) for an example.
+This is a single page where you can dump all components: typography, menus, forms, feature boxes, content modules etc. A place where design meets implementation. It's your website's melting pot. A handy repository that helps keep visual design consistent and code maintainable. I've written previously on [modularity and style guides](https://dbushell.com/2012/04/23/modularity-and-style-guides/). See this [case study](https://dbushell.com/2012/06/17/passenger-focus-responsive-web-design-case-study/) for an example.
 
 
 ## 3. Stay proportional to text

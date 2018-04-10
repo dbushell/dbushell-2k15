@@ -14,7 +14,7 @@ I'm a big fan of twitter. It's great for self-promotion, news, freebies, interes
 
 ### Search Box
 
-I've made the search box on my [portfolio site](http://dbushell.com) a lot more subtle. No more clunky "default UI" button now. Instead, an elegant inline search icon inspired by Apple :) This cosmetic change balances the visual hierarchy more effectively. It's not like anyone needs to search my site anyway!
+I've made the search box on my [portfolio site](https://dbushell.com) a lot more subtle. No more clunky "default UI" button now. Instead, an elegant inline search icon inspired by Apple :) This cosmetic change balances the visual hierarchy more effectively. It's not like anyone needs to search my site anyway!
 
 ### Wish List
 

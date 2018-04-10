@@ -6,13 +6,13 @@ template: single.html
 title: 'Gloople: Responsive Design Review'
 ---
 
-Following last year's [Passenger Focus](http://dbushell.com/2012/06/17/passenger-focus-responsive-web-design-case-study/) case study, today I present the **Gloople** responsive design review. Gloople is an ecommerce platform with emphasis on social and mobile. We designed and built the website at [Browser](http://www.browserlondon.com).
+Following last year's [Passenger Focus](https://dbushell.com/2012/06/17/passenger-focus-responsive-web-design-case-study/) case study, today I present the **Gloople** responsive design review. Gloople is an ecommerce platform with emphasis on social and mobile. We designed and built the website at [Browser](http://www.browserlondon.com).
 
 _Please bear in mind this is a beta registration launch. The final site, fully optimised, and the ecommerce platform will arive later this year. Sign up for updates._
 
 <p class="b-post__image">![Gloople responsive website design on multiple devices](/images/2013/01/gloople-devices.jpg)</p>
 
-User experience, accessibility, and performance were at the heart of the design direction behind the new Gloople website. As [I wrote](http://dbushell.com/2013/01/06/a-mini-series-of-responsive-mistakes/) earlier this year, responsive design should go beyond simply stacking content vertically on smaller devices.
+User experience, accessibility, and performance were at the heart of the design direction behind the new Gloople website. As [I wrote](https://dbushell.com/2013/01/06/a-mini-series-of-responsive-mistakes/) earlier this year, responsive design should go beyond simply stacking content vertically on smaller devices.
 
 With Gloople we've implemented various design patterns to improve navigation and content discovery. If you saw my [off-canvas navigation](http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/) article on Smashing Magazine, you'll recognise a similar technique with the registration form (pictured above). CSS transforms & transitions are excellent for animation performance.
 
@@ -74,7 +74,7 @@ For Gloople I decided to switch things up by moving from global breakpoints to a
 
 <p class="b-post__image">![](/images/2013/01/gloople-vertical-height.jpg)</p>
 
-Finally, you may have read my article on [height-based queries and viewport units](http://dbushell.com/2012/11/19/responsive-bases-vertical-spaces/) (recognise the early prototype?). I'm employing CSS vertical height units in moderation; they're very buggy. On iOS devices the height calculations seemed to bear no resemblance to the viewport. I've had to disable them on iOS. I think only Chrome on the desktop works well… despite the issues, I believe this aspect of responsive design deserves its primetime.
+Finally, you may have read my article on [height-based queries and viewport units](https://dbushell.com/2012/11/19/responsive-bases-vertical-spaces/) (recognise the early prototype?). I'm employing CSS vertical height units in moderation; they're very buggy. On iOS devices the height calculations seemed to bear no resemblance to the viewport. I've had to disable them on iOS. I think only Chrome on the desktop works well… despite the issues, I believe this aspect of responsive design deserves its primetime.
 
 This was my final project as an employee at Browser. Though I've left London to move back up North, I do hope it isn't the last time I work with those fine folk :)
 
