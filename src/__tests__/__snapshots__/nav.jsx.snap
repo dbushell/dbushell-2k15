@@ -3,19 +3,16 @@
 exports[`Nav component renders with defaults 1`] = `
 "<nav class=\\"b-nav\\" id=\\"nav\\">
   <h2 class=\\"b-nav__title u-vh\\">Website Navigation</h2>
-  <ul class=\\"b-nav__list\\" data-root=\\"true\\">
-    <li class=\\"b-nav__item\\" data-priority=\\"1\\" data-order=\\"1\\"><a href=\\"/\\" class=\\"b-nav__link\\">Home</a></li>
-    <li class=\\"b-nav__item\\" data-priority=\\"4\\" data-order=\\"2\\"><a href=\\"/about/\\" class=\\"b-nav__link\\">About</a></li>
-    <li class=\\"b-nav__item\\" data-priority=\\"2\\" data-order=\\"3\\"><a href=\\"/services/\\" class=\\"b-nav__link\\">Services</a></li>
-    <li class=\\"b-nav__item\\" data-priority=\\"5\\" data-order=\\"4\\"><a href=\\"/showcase/\\" class=\\"b-nav__link\\">Portfolio</a></li>
-    <li class=\\"b-nav__item\\" data-priority=\\"6\\" data-order=\\"5\\"><a href=\\"/blog/\\" class=\\"b-nav__link\\">Blog</a></li>
-    <li class=\\"b-nav__item\\" data-priority=\\"3\\" data-order=\\"6\\"><a href=\\"/contact/\\" class=\\"b-nav__link\\">Contact</a></li>
-    <li class=\\"b-nav__item b-nav__item--icons\\" data-priority=\\"7\\" data-order=\\"7\\"><a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\" target=\\"_blank\\" title=\\"David Bushell on Twitter\\" href=\\"http://twitter.com/dbushell\\"><svg><use xlink:href=\\"/assets/img/icons.svg#twitter\\"></use></svg><span class=\\"u-vh\\">@dbushell</span></a><a class=\\"b-nav__link\\"
-        rel=\\"me noopener noreferrer\\" target=\\"_blank\\" title=\\"David Bushell on GitHub\\" href=\\"https://github.com/dbushell/\\"><svg><use xlink:href=\\"/assets/img/icons.svg#github\\"></use></svg><span class=\\"u-vh\\">GitHub</span></a><a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\"
-        target=\\"_blank\\" title=\\"David Bushell on CodePen\\" href=\\"http://codepen.io/dbushell/\\"><svg><use xlink:href=\\"/assets/img/icons.svg#codepen\\"></use></svg><span class=\\"u-vh\\">CodePen</span></a></li>
+  <ul class=\\"b-nav__list\\">
+    <li data-id=\\"home\\" class=\\"b-nav__item\\"><a href=\\"/\\" class=\\"b-nav__link\\">Home</a></li>
+    <li data-id=\\"about\\" class=\\"b-nav__item\\"><a href=\\"/about/\\" class=\\"b-nav__link\\">About</a></li>
+    <li data-id=\\"services\\" class=\\"b-nav__item\\"><a href=\\"/services/\\" class=\\"b-nav__link\\">Services</a></li>
+    <li data-id=\\"portfolio\\" class=\\"b-nav__item\\"><a href=\\"/showcase/\\" class=\\"b-nav__link\\">Portfolio</a></li>
+    <li data-id=\\"blog\\" class=\\"b-nav__item\\"><a href=\\"/blog/\\" class=\\"b-nav__link\\">Blog</a></li>
+    <li data-id=\\"contact\\" class=\\"b-nav__item\\"><a href=\\"/contact/\\" class=\\"b-nav__link\\">Contact</a></li>
+    <li data-id=\\"icons\\" class=\\"b-nav__item b-nav__item--icons\\"><a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\" title=\\"David Bushell on Twitter\\" href=\\"https://twitter.com/dbushell\\" target=\\"_blank\\"><svg><use xlink:href=\\"/assets/img/icons.svg#twitter\\"></use></svg><span class=\\"u-vh\\">@dbushell</span></a><a class=\\"b-nav__link\\"
+        rel=\\"me noopener noreferrer\\" title=\\"David Bushell on GitHub\\" href=\\"https://github.com/dbushell/\\" target=\\"_blank\\"><svg><use xlink:href=\\"/assets/img/icons.svg#github\\"></use></svg><span class=\\"u-vh\\">GitHub</span></a><a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\"
+        title=\\"David Bushell on CodePen\\" href=\\"https://codepen.io/dbushell/\\" target=\\"_blank\\"><svg><use xlink:href=\\"/assets/img/icons.svg#codepen\\"></use></svg><span class=\\"u-vh\\">CodePen</span></a></li>
   </ul>
-  <div class=\\"b-nav__more\\"><button type=\\"button\\" class=\\"b-nav__link\\"><svg><use xlink:href=\\"/assets/img/icons.svg#nav\\"></use></svg></button>
-    <ul class=\\"b-nav__dropdown\\"></ul>
-  </div>
 </nav>"
 `;
