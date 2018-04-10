@@ -43,7 +43,7 @@ There is "one web" but there is only one device in the user's hand. Relying on 
 I would highly recommend watching Aral Balkan's talk "The Future is Native" from Fronteer 2011. The first 20 minutes sums up the perfect attitude towards user experience and he really makes you think about the crossover between native and the web. His notion "write once, optimise everywhere" is a great thought.
 
 
-<p class="b-post__image"><iframe src="http://player.vimeo.com/video/30659519?title=0&byline=0&portrait=0" frameborder="0" width="400" height="225"></iframe></p>
+<p class="b-post__image"><span class="b-fitvid" style="padding-top:56.25%"><iframe src="http://player.vimeo.com/video/30659519?title=0&byline=0&portrait=0" frameborder="0" width="400" height="225"></iframe></span></p>
 
 
 [Aral Balkan | The Future is Native | Fronteers 2011](http://vimeo.com/30659519) from [Fronteers](http://vimeo.com/fronteers) on [Vimeo](http://vimeo.com).

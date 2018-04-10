@@ -23,7 +23,7 @@ As a Friday coding† experiment I asked myself if I could remove the refresh an
 The screencast frame rate below is a little choppy; best to try it yourself. See [Pageshift on GitHub](https://github.com/dbushell/Pageshift) for the code and a neat little bookmarklet you can try on any website. Some work amazingly, others fail spectacularly.
 
 
-<p class="b-post__image"><iframe src="http://player.vimeo.com/video/42234715" frameborder="0" width="500" height="425"></iframe></p>
+<p class="b-post__image"><span class="b-fitvid" style="padding-top:85%"><iframe src="//player.vimeo.com/video/42234715" frameborder="0" width="500" height="425"></iframe></span></p>
 
 
 

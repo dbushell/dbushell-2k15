@@ -48,7 +48,7 @@ In [the video below](https://vimeo.com/119967106) you can see my site download 
 
 
 
-<p class="b-post__image"><iframe src="//player.vimeo.com/video/119967106?color=99cc66" width="500" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p class="b-post__image"><span class="b-fitvid" style="padding-top:56.25%"><iframe src="//player.vimeo.com/video/119967106?color=99cc66" frameborder="0" allowfullscreen="allowfullscreen"></iframe></span></p>
 
 
 

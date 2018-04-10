@@ -25,7 +25,7 @@ Personally I just don't agree it's worth the hassle. Keep a baseline within text
 Watch the demo video below and you'll see what I mean.
 
 
-<p class="b-post__image"><iframe src="http://player.vimeo.com/video/53866112?badge=0&color=ffffff" frameborder="0" width="605" height="340"></iframe></p>
+<p class="b-post__image"><span class="b-fitvid" style="padding-top:56.25%"><iframe src="//player.vimeo.com/video/53866112?badge=0&color=ffffff" frameborder="0"></iframe></span></p>
 
 Responsive design on two dimensions. And terrible screen recording, apologies for that but I hope it illustrates the point. This is the first prototype of a website we're building at [Browser](http://www.browserlondon.com) that will go live next year. I'll keep you updated. There's a lot of experimentation to follow.
 

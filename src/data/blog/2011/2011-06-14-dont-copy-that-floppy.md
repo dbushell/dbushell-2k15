@@ -29,5 +29,5 @@ Why not start by writing a nice comment on my latest Smashing Magazine article :
 
 
 
-<p class="b-post__image"><iframe width="480" height="390" src="http://www.youtube.com/embed/XWf_jbrpn4o" frameborder="0" allowfullscreen></iframe></p>
+<p class="b-post__image"><span class="b-fitvid" style="padding-top:81.25%"><iframe width="480" height="390" src="http://www.youtube.com/embed/XWf_jbrpn4o" frameborder="0" allowfullscreen></iframe></span></p>
 
