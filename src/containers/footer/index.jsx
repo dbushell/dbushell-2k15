@@ -3,29 +3,33 @@ import Footer from '../../components/footer';
 
 class FooterContainer extends Component {
   componentDidMount() {
-    if (!window.dbushell) {
-      return;
-    }
+    if (!window.dbushell) return;
     if (window.dbushell.isFF || window.dbushell.isIE) {
-      this.handleMount();
+      window.dbushell.load(
+        '/assets/js/vendor/iscroll.min.js?v=' + window.dbushell.ver,
+        () => this.handleIScroll.call(this)
+      );
     }
+  }
+  shouldComponentUpdate(nextProps) {
+    return this.props.isHirable !== nextProps.isHirable;
+  }
+  componentDidUpdate() {
+    this.refreshIScroll();
   }
   render() {
-    return <Footer {...this.props} />;
+    return <Footer {...this.props} onDOMUpdate={() => this.refreshIScroll()} />;
   }
-  handleMount() {
-    window.dbushell.load(
-      '/assets/js/vendor/iscroll.min.js?v=' + window.dbushell.ver,
-      this.handleIScroll
-    );
+  refreshIScroll() {
+    if (!this.scroller) return;
+    this.scroller.refresh();
   }
   handleIScroll() {
-    if (!window.IScroll) {
-      return;
-    }
+    if (!window.IScroll) return;
+    const self = this;
     const $footer = document.getElementById('footer');
     $footer.style.overflow = 'hidden';
-    const scroller = new window.IScroll($footer, {
+    self.scroller = new window.IScroll($footer, {
       mouseWheel: true,
       scrollbars: true,
       disableMouse: true,
@@ -37,9 +41,9 @@ class FooterContainer extends Component {
         .getComputedStyle($footer, null)
         .getPropertyValue('position');
       if (position === 'fixed') {
-        scroller.enable();
+        self.scroller.enable();
       } else {
-        scroller.disable();
+        self.scroller.disable();
       }
     };
     window.addEventListener('resize', footerUpdate);

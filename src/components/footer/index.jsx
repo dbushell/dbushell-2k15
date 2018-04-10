@@ -33,6 +33,7 @@ const Footer = props => {
         className="b-hire__image"
         src="/assets/img/dbushell-for-hire.svg"
         alt="Available for Hire"
+        onLoad={props.onDOMUpdate}
       />
     </a>
   );
