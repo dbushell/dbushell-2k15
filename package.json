@@ -17,7 +17,7 @@
     "test-update": "npx jest --updateSnapshot",
     "webpack:dev": "npx webpack --mode development --debug",
     "webpack": "npx webpack --mode production",
-    "uglify": "cd ./dbushell.github.io/assets/js/ && npx uglifyjs -m --source-map \"url='inline.min.js.map'\" -o inline.min.js inline.js",
+    "uglify": "cd ./dbushell.github.io/assets/js/ && npx uglifyjs -m --source-map \"url='/assets/js/inline.min.js.map'\" -o inline.min.js inline.js",
     "css": "node ./src/tasks/css.js"
   },
   "babel": {

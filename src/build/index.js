@@ -32,7 +32,7 @@ global.DBUSHELL = {
   siteName: 'David Bushell – Web Design (UK)',
   siteDesc:
     'David Bushell make websites. I help small businesses, start-ups, individuals, and fellow web agencies make the most of their web presence.',
-  pageCSS: '/assets/css/main.post.css',
+  pageCSS: '/assets/css/all.post.css',
   pagePath: '/',
   pageHeading: '',
   pageTemplate: 'index'

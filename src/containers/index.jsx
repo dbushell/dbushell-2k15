@@ -19,7 +19,7 @@ const $canonical = document.querySelector('link[rel="canonical"]');
 
 const initProps = {
   pageProps: {
-    pageHref: $canonical.href,
+    pageURL: $canonical.href,
     pagePath: new URL($canonical.href).pathname,
     pageTitle: $title.innerText
   }
@@ -38,7 +38,7 @@ const fetchInit = {
 };
 
 function fetchURL(href) {
-  const same = href === initProps.pageProps.pageHref;
+  const same = href === initProps.pageProps.pageURL;
   const url = new URL(href);
   const api = `/api${url.pathname}props.json?v=${app.ver}`;
 
@@ -85,13 +85,13 @@ class Root extends Component {
   componentDidMount() {
     const {href} = window.location;
     window.history.replaceState({href}, '', href);
-    document.addEventListener('click', this.handleClick);
+    window.addEventListener('click', this.handleClick);
     window.addEventListener('popstate', this.handlePopState);
-    app.isUniversal = true;
     $html.classList.add('js-app');
+    app.isUniversal = true;
   }
   componentWillUnmount() {
-    window.removeEventListener('click', this.handleDocumentClick);
+    window.removeEventListener('click', this.handleClick);
     window.removeEventListener('popstate', this.handlePopState);
   }
   shouldComponentUpdate(nextProps, nextState) {
@@ -106,17 +106,23 @@ class Root extends Component {
     if (pageProps.pagePath === nextState.pageProps.pagePath) {
       return;
     }
-    window.scrollTo(0, 0);
     if ($title) {
       $title.textContent = nextState.pageProps.pageTitle;
     }
+    if ($canonical) {
+      $canonical.setAttribute(
+        'href',
+        `https://dbushell.com${nextState.pageProps.pagePath}`
+      );
+    }
   }
-  componentDidUpdate() {
-    const {pageProps} = this.state;
-    $canonical.setAttribute(
-      'href',
-      `https://dbushell.com${pageProps.pagePath}`
-    );
+  componentDidUpdate(prevProps, prevState) {
+    window.scrollTo(0, 0);
+    // const {pageProps, hState, isPopState} = this.state;
+    // if (isPopState && prevState.hState) {
+    //   console.log(hState, prevState.hState);
+    //   window.scrollTo(0, prevState.hState.scroll);
+    // }
   }
   handleClick(e) {
     if (e.which !== 1) return;
@@ -128,26 +134,46 @@ class Root extends Component {
     if (url.host !== window.location.host) {
       return;
     }
-    window.history.pushState({href: url.href}, '', url.href);
-    window.dispatchEvent(
-      new window.PopStateEvent('popstate', {state: window.history.state})
-    );
     e.preventDefault();
+    const {pageProps} = this.state;
+    if (pageProps.pagePath === url.pathname) {
+      window.scrollTo(0, 0);
+      return;
+    }
+    const hState = {
+      href: url.href
+      // width: this.getWidth(),
+      // scroll: this.getScroll()
+    };
+    window.history.pushState(hState, '', url.href);
+    // window.dispatchEvent(
+    //   new window.PopStateEvent('popstate', {state: hState})
+    // );
+    this.handleHistory(hState);
   }
   handlePopState(e) {
     if (!e || !e.state || !e.state.href) {
       return;
     }
+    this.handleHistory(e.state, true);
+  }
+  handleHistory(hState, isPopState) {
     const {pageProps} = this.state;
-    const url = new URL(e.state.href);
-    if (pageProps.pagePath === url.pathname) {
-      window.scrollTo(0, 0);
-      return;
-    }
-    fetchURL(url.href).then(pageProps => {
-      this.setState(() => ({pageProps}));
+    const url = new URL(hState.href);
+    fetchURL(url.href).then(newPageProps => {
+      this.setState({
+        pageProps: newPageProps
+        // hState: hState,
+        // isPopState: isPopState
+      });
     });
   }
+  // getWidth() {
+  //   return window.innerWidth || $html.clientWidth;
+  // }
+  // getScroll() {
+  //   return window.pageYOffset || $html.scrollTop;
+  // }
   render() {
     const {pageProps} = this.state;
     const {pagePath} = pageProps;
@@ -182,25 +208,14 @@ class Root extends Component {
   }
 }
 
-function bootApp(props = initProps, isHydration) {
-  if (isHydration) {
-    ReactDOM.hydrate(<Root {...props} />, $app);
-  } else {
-    $app.innerHTML = '';
-    ReactDOM.render(<Root {...props} />, $app);
-  }
-}
-
-if ($app) {
-  const {pageProps} = initProps;
-  // homepage already inlines full stylesheet
-  if (pageProps.pagePath !== '/') {
-    const css = document.createElement('link');
-    css.rel = 'stylesheet';
-    css.href = `/assets/css/all.post.css?v=${app.ver}`;
-    document.querySelector('head').appendChild(css);
-  }
-  fetchURL(pageProps.pageHref).then(pageProps => {
-    bootApp({pageProps}, !app.isUniversal);
+app.boot = () => {
+  fetchURL(initProps.pageProps.pageURL).then(pageProps => {
+    const rootComponent = <Root {...{pageProps}} />;
+    if (app.isUniversal) {
+      $app.innerHTML = '';
+      ReactDOM.render(rootComponent, $app);
+    } else {
+      ReactDOM.hydrate(rootComponent, $app);
+    }
   });
-}
+};

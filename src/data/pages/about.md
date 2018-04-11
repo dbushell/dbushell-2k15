@@ -7,7 +7,7 @@ If I gave myself a job title I suppose it would be _Websitemaker_. It gets str
 
 <blockquote>
 <p class="p--quote p--large">What attracted ASE to David was his unique approach to understanding our requirement, and his ability to work with us in driving out the structure, design, and most importantly the key messages and calls to action that we needed from our new website.</p>
-<p class="p--small"><cite>Chris King &ndash; [ASE Consulting](http://www.ase.co.uk/)</cite></p>
+<p class="p--small"><cite>Chris King &ndash; ASE Consulting</cite></p>
 </blockquote>
 
 ## Experience
