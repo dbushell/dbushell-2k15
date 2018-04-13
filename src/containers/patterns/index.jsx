@@ -7,15 +7,14 @@ import Newsletter from '../../components/newsletter';
 import Post from '../../components/post';
 import Sector from '../../components/sector';
 import Sectors from '../../components/sectors';
+import Title from '../../components/title';
 import blogProps from '../../components/blog/defaults.json';
 const Patterns = props => {
   return (
     <Block isMain>
       <Block>
         <Post>
-          <div className="b-post__title">
-            <h1>{props.pageHeading}</h1>
-          </div>
+          <Title heading={props.pageHeading} />
           <hr />
           <h2>Biography</h2>
           <div className="b-post__pattern">

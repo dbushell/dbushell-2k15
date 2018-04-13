@@ -1,14 +1,13 @@
 import React from 'react';
 import Block from '../../components/block';
 import Post from '../../components/post';
+import Title from '../../components/title';
 const Portfolio = props => {
   return (
     <Block isMain>
       <Block>
         <Post>
-          <div className="b-post__title">
-            <h1>{props.pageHeading}</h1>
-          </div>
+          <Title heading={props.pageHeading} />
           <div className="b-post__body">
             <p>Selected web design and front-end development projects.</p>
             <div className="b-folio">

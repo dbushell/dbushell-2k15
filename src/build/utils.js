@@ -63,6 +63,9 @@ export function formatHeading(title) {
   } else {
     title = esc(title);
   }
+  if (words.some(word => word.length > 14)) {
+    return `<span class="u-long">${title}</span>`;
+  }
   return title;
 }
 

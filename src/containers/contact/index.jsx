@@ -4,6 +4,7 @@ import Block from '../../components/block';
 import Field from '../../components/field';
 import Label from '../../components/label';
 import Post from '../../components/post';
+import Title from '../../components/title';
 const contactScript = `
 var href = window.location.href;
 var form = document.getElementById('contact-form');
@@ -33,9 +34,7 @@ const Contact = props => {
     <Block isMain>
       <Block>
         <Post>
-          <div className="b-post__title">
-            <h1>{props.pageHeading}</h1>
-          </div>
+          <Title heading={props.pageHeading} />
           <div className="b-post__body">
             <p>Need help with your website?</p>
             <p className="p--large">

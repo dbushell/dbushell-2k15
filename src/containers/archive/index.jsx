@@ -3,6 +3,7 @@ import Block from '../../components/block';
 import Button from '../../components/button';
 import Excerpt from '../../components/excerpt';
 import Post from '../../components/post';
+import Title from '../../components/title';
 const Archive = props => {
   const nextButton = props.nextPage ? (
     <Button href={props.nextPage} text="Older" />
@@ -26,9 +27,7 @@ const Archive = props => {
     <Block isMain>
       <Block>
         <Post>
-          <div className="b-post__title">
-            <h1>{props.pageHeading}</h1>
-          </div>
+          <Title heading={props.pageHeading} />
           <div className="b-post__body">{items}</div>
           {pagination}
         </Post>

@@ -1,14 +1,10 @@
 import React from 'react';
 import Block from '../../components/block';
 import Cta from '../../components/cta';
-import Time from '../../components/time';
-import Newsletter from '../../components/newsletter';
 import Post from '../../components/post';
-import {formatHeading} from '../../build/utils';
+import Time from '../../components/time';
+import Title from '../../components/title';
 const Article = props => {
-  const title = () => {
-    return {__html: formatHeading(props.pageHeading)};
-  };
   const body = () => {
     return {__html: props.innerHTML};
   };
@@ -31,7 +27,7 @@ const Article = props => {
     <Block isMain>
       <Block>
         <Post>
-          <h1 className="b-post__title" dangerouslySetInnerHTML={title()} />
+          <Title heading={props.pageHeading} />
           {date()}
           <div className="b-post__body" dangerouslySetInnerHTML={body()} />
         </Post>
