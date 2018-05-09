@@ -9,11 +9,11 @@
 <link rel="dns-prefetch" href="//p.typekit.net">
 <link rel="dns-prefetch" href="//use.typekit.net">
 <title>{{pageTitle}}</title>
+<link rel="manifest" href="/manifest.webmanifest?v={{siteVer}}">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-touch-icon.png?v={{siteVer}}">
 <link rel="icon" type="image/png" href="/assets/ico/favicon-32x32.png?v={{siteVer}}" sizes="32x32">
 <link rel="icon" type="image/png" href="/assets/ico/favicon-16x16.png?v={{siteVer}}" sizes="16x16">
 <link rel="shortcut icon" href="/assets/ico/favicon.ico?v={{siteVer}}">
-<link rel="manifest" href="/assets/ico/manifest.json?v={{siteVer}}">
 <meta name="theme-color" content="#ff6680">
 {{#if pageDesc}}
 <meta name="twitter:card" content="summary"/>
@@ -25,8 +25,9 @@
 <link rel="canonical" href="{{siteURL pagePath}}">
 <link rel="alternate" type="application/rss+xml" title="dbushell.com RSS Feed" href="{{siteURL 'rss.xml'}}">
 <script type="text/javascript">
-  var de = document.getElementsByTagName('html')[0];
-  de.className = de.className.replace(/(^|\s)no-js(\s|$)/, '$1js$2');
+  var d = document.documentElement;
+  d.classList.remove('no-js');
+  d.classList.add('js');
 </script>
 <style>
 {{ inlineAsset pageCSS }}
