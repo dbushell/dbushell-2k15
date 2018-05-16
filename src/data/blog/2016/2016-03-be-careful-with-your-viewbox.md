@@ -68,8 +68,9 @@ Why was it being removed? That's because — and this took me an embarrassingly 
 
 I've uploaded an example on [CodePen](http://codepen.io/dbushell/pen/EKaRaV/) to demonstrate:
 
-<span data-height="268" data-theme-id="0" data-slug-hash="EKaRaV" data-default-tab="result" data-user="dbushell" class='codepen'>See the Pen <a href='http://codepen.io/dbushell/pen/EKaRaV/'>SVG icon sprite test case</a> by David Bushell (<a href='http://codepen.io/dbushell'>@dbushell</a>) on <a href='http://codepen.io'>CodePen</a>.</span>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<div class="b-post__image">
+  <iframe height="268" scrolling="no" title="SVG icon sprite test case" src="//codepen.io/dbushell/embed/EKaRaV/?height=150&theme-id=0&default-tab=result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true">See the Pen <a href="https://codepen.io/dbushell/pen/EKaRaV/">SVG icon sprite test case</a> by David Bushell (<a href="https://codepen.io/dbushell">@dbushell</a>) on <a href="https://codepen.io">CodePen</a>.</iframe>
+</div>
 
 I suppose I've learnt two important lessons here:
 

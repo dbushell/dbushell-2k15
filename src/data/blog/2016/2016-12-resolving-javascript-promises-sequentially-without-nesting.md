@@ -64,7 +64,9 @@ Seems like a cleaner solution than nesting?
 
 Here’s a CodePen:
 
-<p data-height="265" data-theme-id="0" data-slug-hash="yVQKar" data-default-tab="js" data-user="dbushell" data-embed-version="2" data-pen-title="Resolve Promises sequentially without nesting" class="codepen">See the Pen <a href="http://codepen.io/dbushell/pen/yVQKar/">Resolve Promises sequentially without nesting</a> by David Bushell (<a href="http://codepen.io/dbushell">@dbushell</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<div class="b-post__image">
+  <iframe height="265" scrolling="no" title="Resolve Promises sequentially without nesting" src="//codepen.io/dbushell/embed/yVQKar/?height=150&theme-id=0&default-tab=js&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true">See the Pen <a href="https://codepen.io/dbushell/pen/yVQKar/">Resolve Promises sequentially without nesting</a> by David Bushell (<a href="https://codepen.io/dbushell">@dbushell</a>) on <a href="https://codepen.io">CodePen</a>.</iframe>
+</div>
+
 
 [Matt Hinchliffe](https://twitter.com/i_like_robots) shared his library of [promise patterns](https://www.npmjs.com/package/promise-patterns) that includes a similar function. I’ve also been experimenting with JavaScript [generators](https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Iterators_and_Generators) and [async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)/[await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await).

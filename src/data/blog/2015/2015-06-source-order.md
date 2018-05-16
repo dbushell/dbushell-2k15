@@ -27,8 +27,9 @@ CSS layout is not entirely independent of HTML source order. As a rule of thumb 
 
 By far the cleanest way to change presentation order I’ve seen is to use [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). It has a built in `order` property. [See my CodePen](http://codepen.io/dbushell/full/rVjoBr/) (embedded below) for an example that uses multiple fallback techniques to achieve the same results without Flexbox.
 
-<div class="b-post__image"><p data-height="250" data-theme-id="0" data-slug-hash="rVjoBr" data-default-tab="result" data-user="dbushell" class='codepen'>See the Pen <a href='http://codepen.io/dbushell/pen/rVjoBr/'>Reversing HTML Source Order</a> by David Bushell (<a href='http://codepen.io/dbushell'>@dbushell</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script></div>
+<div class="b-post__image">
+  <iframe height="250" scrolling="no" title="Reversing HTML Source Order" src="//codepen.io/dbushell/embed/rVjoBr/?height=150&theme-id=0&default-tab=result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true">See the Pen <a href="https://codepen.io/dbushell/pen/rVjoBr/">Reversing HTML Source Order</a> by David Bushell (<a href="https://codepen.io/dbushell">@dbushell</a>) on <a href="https://codepen.io">CodePen</a>.</iframe>
+</div>
 
 This demo introduces a three column layout on viewports 640px and wider.
 
