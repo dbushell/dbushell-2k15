@@ -1,5 +1,7 @@
 import React from 'react';
+import LazyImage from '../lazyimage';
 import defaults from './defaults.json';
+
 const Bio = props => {
   const attr = {
     className: 'b-bio',
@@ -10,7 +12,7 @@ const Bio = props => {
   return (
     <section {...attr}>
       <div className="b-bio__image">
-        <img
+        <LazyImage
           src={props.imageSrc}
           srcSet={props.imageSrcset}
           alt={props.imageAlt}
@@ -25,5 +27,7 @@ const Bio = props => {
     </section>
   );
 };
+
 Bio.defaultProps = defaults;
+
 export default Bio;

@@ -3,6 +3,7 @@ import Block from '../block';
 import Bio from '../bio';
 import Blog from '../blog';
 import Small from '../small';
+import LazyImage from '../lazyimage';
 import blogDefaults from '../blog/defaults.json';
 // Read props live for static site generation to avoid require cache
 function blogProps() {
@@ -29,7 +30,7 @@ const Footer = props => {
   };
   const hire = (
     <a href="/contact/" className="b-hire">
-      <img
+      <LazyImage
         className="b-hire__image"
         src="/assets/img/dbushell-for-hire.svg"
         alt="Available for Hire"

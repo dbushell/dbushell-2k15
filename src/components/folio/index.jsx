@@ -1,12 +1,14 @@
 import React from 'react';
 import Block from '../block';
+import LazyImage from '../lazyimage';
 import defaults from './defaults.json';
+
 const FolioItem = props => {
   return (
     <li className="b-folio__item" style={{backgroundColor: props.bgColor}}>
       <a className="b-folio__link" href={props.href}>
         <span className="b-folio__label">{props.heading}</span>
-        <img
+        <LazyImage
           className="b-folio__image"
           src={props.imageSrc}
           alt={props.imageAlt}
@@ -15,6 +17,7 @@ const FolioItem = props => {
     </li>
   );
 };
+
 const Folio = props => {
   return (
     <div className="c-folio">
@@ -33,5 +36,7 @@ const Folio = props => {
     </div>
   );
 };
+
 Folio.defaultProps = defaults;
+
 export default Folio;

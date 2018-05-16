@@ -82,7 +82,9 @@ class Root extends Component {
     };
     this.handleClick = this.handleClick.bind(this);
     this.handlePopState = this.handlePopState.bind(this);
+    this.handleIntersection = this.handleIntersection.bind(this);
   }
+
   componentDidMount() {
     const {href} = window.location;
     window.history.replaceState({href}, '', href);
@@ -90,11 +92,14 @@ class Root extends Component {
     window.addEventListener('popstate', this.handlePopState);
     $html.classList.add('js-app');
     app.isUniversal = true;
+    this.setupImages();
   }
+
   componentWillUnmount() {
     window.removeEventListener('click', this.handleClick);
     window.removeEventListener('popstate', this.handlePopState);
   }
+
   shouldComponentUpdate(nextProps, nextState) {
     const {pageProps} = this.state;
     if (pageProps.pagePath !== nextState.pageProps.pagePath) {
@@ -102,6 +107,7 @@ class Root extends Component {
     }
     return false;
   }
+
   componentWillUpdate(nextProps, nextState) {
     const {pageProps} = this.state;
     if (pageProps.pagePath === nextState.pageProps.pagePath) {
@@ -117,6 +123,7 @@ class Root extends Component {
       );
     }
   }
+
   componentDidUpdate(prevProps, prevState) {
     window.scrollTo(0, 0);
     // const {pageProps, hState, isPopState} = this.state;
@@ -124,9 +131,65 @@ class Root extends Component {
     //   console.log(hState, prevState.hState);
     //   window.scrollTo(0, prevState.hState.scroll);
     // }
+    this.setupImages();
   }
+
+  setupImages() {
+    const images = document.querySelectorAll('img[data-lazy="false"]');
+    if (!('IntersectionObserver' in window)) {
+      images.forEach(img => {
+        img.src = img.dataset.src;
+        img.dataset.lazy = true;
+      });
+      return;
+    }
+    if (!this._observer) {
+      this._observer = new IntersectionObserver(this.handleIntersection, {
+        rootMargin: '50px 0px',
+        threshold: 0.01
+      });
+    }
+    this._observer.disconnect();
+    images.forEach(img => {
+      this._observer.observe(img);
+    });
+  }
+
+  handleIntersection(entries) {
+    entries.forEach(entry => {
+      if (entry.intersectionRatio <= 0) {
+        return;
+      }
+      const img = entry.target;
+      this._observer.unobserve(img);
+      // this.preloadImage(img.dataset.src).then(() => {
+      //   img.src = img.dataset.src;
+      //   if (img.dataset.srcset) {
+      //     img.srcset = img.dataset.srcset;
+      //   }
+      //   img.dataset.lazy = true;
+      // });
+      img.src = img.dataset.src;
+      if (img.dataset.srcset) {
+        img.srcset = img.dataset.srcset;
+      }
+      img.dataset.lazy = true;
+    });
+  }
+
+  // preloadImage(url) {
+  //   return new Promise((resolve, reject) => {
+  //     const image = new Image();
+  //     image.src = url;
+  //     image.onload = resolve;
+  //     image.onerror = reject;
+  //   });
+  // }
+
   handleClick(e) {
-    if (e.which !== 1) return;
+    if (e.which !== 1) {
+      return;
+    }
     const href = e.target.href || e.target.parentNode.href;
     if (typeof href !== 'string') {
       return;
@@ -152,14 +215,16 @@ class Root extends Component {
     // );
     this.handleHistory(hState);
   }
+
   handlePopState(e) {
     if (!e || !e.state || !e.state.href) {
       return;
     }
     this.handleHistory(e.state, true);
   }
+
   handleHistory(hState, isPopState) {
-    const {pageProps} = this.state;
+    // const {pageProps} = this.state;
     const url = new URL(hState.href);
     fetchURL(url.href).then(newPageProps => {
       this.setState({
@@ -169,19 +234,19 @@ class Root extends Component {
       });
     });
   }
+
   // getWidth() {
   //   return window.innerWidth || $html.clientWidth;
   // }
   // getScroll() {
   //   return window.pageYOffset || $html.scrollTop;
   // }
+
   render() {
     const {pageProps} = this.state;
     const {pagePath} = pageProps;
     const footerProps = {};
-    const navProps = {
-      pagePath: pagePath
-    };
+    const navProps = {pagePath};
     let el;
     if (pagePath === '/') {
       el = Home;
