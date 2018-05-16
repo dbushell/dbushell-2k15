@@ -40,7 +40,8 @@ const fetchInit = {
 function fetchURL(href) {
   const same = href === initProps.pageProps.pageURL;
   const url = new URL(href);
-  const api = `/api${url.pathname}props.json?v=${app.ver}`;
+  // const api = `/api${url.pathname}props.json?v=${app.ver}`;
+  const api = `/api${url.pathname}props.json`;
 
   if (!same) {
     $html.classList.add('js-loading');

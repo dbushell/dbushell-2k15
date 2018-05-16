@@ -1,7 +1,7 @@
 {
   "name": "dbushell.com",
   "private": true,
-  "version": "10.0.2",
+  "version": "10.1.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbushell/dbushell.com.git"
@@ -11,7 +11,6 @@
   "scripts": {
     "start": "npx http-server ./dbushell.github.io/",
     "build": "npx babel-node ./index.js",
-    "postbuild": "node ./src/tasks/sw.js",
     "prettify": "node ./src/tasks/prettify.js --build --tasks",
     "test": "npx jest",
     "test-update": "npx jest --updateSnapshot",
