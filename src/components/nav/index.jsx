@@ -78,7 +78,7 @@ const NavMore = props => {
       className="b-nav__more"
       onMouseEnter={props.onEnter}
       onMouseLeave={props.onLeave}>
-      <button type="button" className="b-nav__link" onClick={onClick}>
+      <button aria-label="Show more links" type="button" className="b-nav__link" onClick={onClick}>
         <Icon id="nav" />
       </button>
       <ul {...dropdownAttr}>
