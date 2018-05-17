@@ -1,5 +1,6 @@
 import React from 'react';
 import Time from '../time';
+
 const Excerpt = props => {
   const attr = {
     className: 'b-post b-post--excerpt'
@@ -21,4 +22,5 @@ const Excerpt = props => {
     </article>
   );
 };
+
 export default Excerpt;

@@ -1,7 +1,8 @@
 import React from 'react';
 import Block from '../block';
 import Sector from '../sector';
-import defaults from './defaults.json';
+import defaults from './defaults';
+
 const Sectors = ({items}) => {
   return (
     <div className="c-sectors">
@@ -18,5 +19,7 @@ const Sectors = ({items}) => {
     </div>
   );
 };
+
 Sectors.defaultProps = defaults;
+
 export default Sectors;

@@ -1,7 +1,8 @@
 import React from 'react';
 import Block from '../block';
 import Button from '../button';
-import defaults from './defaults.json';
+import defaults from './defaults';
+
 const ClientsItem = props => {
   return (
     <blockquote>
@@ -14,6 +15,7 @@ const ClientsItem = props => {
     </blockquote>
   );
 };
+
 const Clients = props => {
   return (
     <div className="c-clients u-dark">
@@ -29,5 +31,7 @@ const Clients = props => {
     </div>
   );
 };
+
 Clients.defaultProps = defaults;
+
 export default Clients;

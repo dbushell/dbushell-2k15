@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Small = props => {
   return (
     <p>
@@ -6,4 +7,5 @@ const Small = props => {
     </p>
   );
 };
+
 export default Small;

@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../button';
 import Star from '../star';
+
 const Sector = props => {
   const attr = {
     className: 'b-sector'
@@ -29,4 +30,5 @@ const Sector = props => {
     </article>
   );
 };
+
 export default Sector;

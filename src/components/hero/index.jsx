@@ -1,7 +1,8 @@
 import React from 'react';
 import Block from '../block';
 import Star from '../star';
-import defaults from './defaults.json';
+import defaults from './defaults';
+
 const Hero = props => {
   return (
     <header className="c-hero">
@@ -28,5 +29,7 @@ const Hero = props => {
     </header>
   );
 };
+
 Hero.defaultProps = defaults;
+
 export default Hero;

@@ -1,7 +1,9 @@
 import React from 'react';
+
 const ButtonLabel = props => {
   return <span className="e-button__label">{props.text}</span>;
 };
+
 const Button = props => {
   const attr = {
     className: 'e-button'
@@ -32,7 +34,9 @@ const Button = props => {
   }
   return button;
 };
+
 Button.defaultProps = {
   text: 'Button'
 };
+
 export default Button;

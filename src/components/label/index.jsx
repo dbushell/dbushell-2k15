@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Label = props => {
   const attr = {
     className: 'e-label',
@@ -6,4 +7,5 @@ const Label = props => {
   };
   return <label {...attr}>{props.text}</label>;
 };
+
 export default Label;

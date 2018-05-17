@@ -1,7 +1,7 @@
 import React from 'react';
 import Block from '../block';
 import LazyImage from '../lazyimage';
-import defaults from './defaults.json';
+import defaults from './defaults';
 
 const FolioItem = props => {
   return (

@@ -4,25 +4,28 @@ import Bio from '../bio';
 import Blog from '../blog';
 import Small from '../small';
 import LazyImage from '../lazyimage';
-import blogDefaults from '../blog/defaults.json';
+
 // Read props live for static site generation to avoid require cache
+/*
 function blogProps() {
-  // if (process.env.NODE_ENV !== 'production') {
-  //   try {
-  //     const fs = require('fs');
-  //     const path = require('path');
-  //     const propsPath = path.join(
-  //       process.cwd(),
-  //       'src/components/blog/defaults.json'
-  //     );
-  //     const props = JSON.parse(fs.readFileSync(propsPath, 'utf8'));
-  //     return props;
-  //   } catch (err) {
-  //     console.log(err);
-  //   }
-  // }
-  return blogDefaults;
+if (process.env.NODE_ENV !== 'production') {
+  try {
+    const fs = require('fs');
+    const path = require('path');
+    const propsPath = path.join(
+      process.cwd(),
+      'src/components/blog/defaults.json'
+    );
+    const props = JSON.parse(fs.readFileSync(propsPath, 'utf8'));
+    return props;
+  } catch (err) {
+    console.log(err);
+  }
 }
+return blogDefaults;
+}
+*/
+
 const Footer = props => {
   const attr = {
     id: 'footer',
@@ -38,14 +41,14 @@ const Footer = props => {
       />
     </a>
   );
-  // use dangerouslySetInnerHTML to avoid inline
+  // Use dangerouslySetInnerHTML to avoid inline
   // whitespace issues with ReactDOM.hydrate()
   return (
     <footer {...attr}>
       <Block>
         <Bio />
         {props.isHirable ? hire : <hr />}
-        <Blog {...blogProps()} />
+        <Blog />
         <hr />
         <Small>
           <span
@@ -59,7 +62,9 @@ const Footer = props => {
     </footer>
   );
 };
+
 Footer.defaultProps = {
   isHirable: true
 };
+
 export default Footer;

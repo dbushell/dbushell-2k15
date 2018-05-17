@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Block = props => {
   if (props.isMain) {
     return (
@@ -21,4 +22,5 @@ const Block = props => {
     </div>
   );
 };
+
 export default Block;

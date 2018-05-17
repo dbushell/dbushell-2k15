@@ -9,40 +9,34 @@
   "author": "David Bushell <david@dbushell.com>",
   "license": "UNLICENSED - Copyright © David Bushell",
   "scripts": {
-    "start": "npx http-server ./dbushell.github.io/ -s -g -S -C ~/src/cert/server.crt -K ~/src/cert/server.key",
+    "start":
+      "npx http-server ./dbushell.github.io/ -s -g -S -C ~/src/cert/server.crt -K ~/src/cert/server.key",
     "build": "npx babel-node ./index.js",
     "prettify": "node ./src/tasks/prettify.js --build --tasks",
     "test": "npx jest",
     "test-update": "npx jest --updateSnapshot",
     "webpack:dev": "npx webpack --mode development --debug",
     "webpack": "npx webpack --mode production",
-    "uglify": "cd ./dbushell.github.io/assets/js/ && npx uglifyjs -m --source-map \"url='/assets/js/inline.min.js.map'\" -o inline.min.js inline.js",
+    "uglify":
+      "cd ./dbushell.github.io/assets/js/ && npx uglifyjs -m --source-map \"url='/assets/js/inline.min.js.map'\" -o inline.min.js inline.js",
     "css": "node ./src/tasks/css.js"
   },
   "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-object-rest-spread"
-    ]
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": ["@babel/plugin-proposal-object-rest-spread"]
   },
   "xo": {
     "space": true,
-    "extends": [
-      "xo-react"
-    ],
-    "envs": [
-      "node",
-      "browser",
-      "jest"
-    ],
+    "extends": ["xo-react"],
+    "envs": ["node", "browser", "jest"],
     "rules": {
       "no-unused-vars": "warn",
       "react/no-danger": "warn",
       "react/prop-types": "off",
       "react/no-unused-prop-types": "off",
+      "react/jsx-closing-bracket-location": {
+        "nonEmpty": "line-aligned"
+      },
       "react/jsx-tag-spacing": {
         "beforeSelfClosing": "allow"
       }
@@ -50,11 +44,7 @@
     "settings": {
       "import/resolver": {
         "node": {
-          "extensions": [
-            ".js",
-            ".jsx",
-            ".json"
-          ]
+          "extensions": [".js", ".jsx", ".json"]
         }
       }
     }
@@ -64,9 +54,7 @@
       "<rootDir>/src/__tests__/shim.js",
       "<rootDir>/src/__tests__/setup.js"
     ],
-    "roots": [
-      "<rootDir>/src/"
-    ],
+    "roots": ["<rootDir>/src/"],
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/",
       "<rootDir>/dbushell.github.io/",

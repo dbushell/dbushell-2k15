@@ -1,6 +1,7 @@
 import React from 'react';
+import pure from '../pure';
 import LazyImage from '../lazyimage';
-import defaults from './defaults.json';
+import defaults from './defaults';
 
 const Bio = props => {
   const attr = {
@@ -30,4 +31,4 @@ const Bio = props => {
 
 Bio.defaultProps = defaults;
 
-export default Bio;
+export default pure(Bio);

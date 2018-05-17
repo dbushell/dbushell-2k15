@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../button';
-import defaults from './defaults.json';
+import defaults from './defaults';
+
 const Cta = props => {
   const paragraph = () => ({
     __html: props.paragraph
@@ -13,5 +14,7 @@ const Cta = props => {
     </div>
   );
 };
+
 Cta.defaultProps = defaults;
+
 export default Cta;

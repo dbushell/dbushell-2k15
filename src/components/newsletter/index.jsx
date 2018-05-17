@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../button';
 import Field from '../field';
 import Label from '../label';
+
 const Newsletter = () => {
   return (
     <aside className="b-newsletter" role="complementary">
@@ -68,4 +69,5 @@ const Newsletter = () => {
     </aside>
   );
 };
+
 export default Newsletter;

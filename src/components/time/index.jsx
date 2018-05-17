@@ -1,4 +1,5 @@
 import React from 'react';
+
 const days = [
   'Sunday',
   'Monday',
@@ -8,6 +9,7 @@ const days = [
   'Friday',
   'Saturday'
 ];
+
 const months = [
   'January',
   'February',
@@ -22,6 +24,7 @@ const months = [
   'November',
   'December'
 ];
+
 const abbrMonths = [
   'Jan',
   'Feb',
@@ -36,6 +39,7 @@ const abbrMonths = [
   'Nov',
   'Dec'
 ];
+
 const Time = props => {
   const date = new Date(props.date);
   const attr = {
@@ -49,7 +53,7 @@ const Time = props => {
     MMM: abbrMonths[date.getMonth()],
     Y: date.getFullYear()
   };
-  // use dangerouslySetInnerHTML to avoid inline
+  // Use dangerouslySetInnerHTML to avoid inline
   // whitespace issues with ReactDOM.hydrate()
   return (
     <time
@@ -62,4 +66,5 @@ const Time = props => {
     />
   );
 };
+
 export default Time;

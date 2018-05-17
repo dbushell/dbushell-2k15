@@ -1,5 +1,8 @@
 import React from 'react';
+import pure from '../pure';
 import Time from '../time';
+import defaults from './defaults';
+
 const BlogItem = props => {
   return (
     <li className="b-blog__item">
@@ -10,6 +13,7 @@ const BlogItem = props => {
     </li>
   );
 };
+
 const Blog = props => {
   const attr = {
     className: 'b-blog',
@@ -26,4 +30,7 @@ const Blog = props => {
     </aside>
   );
 };
-export default Blog;
+
+Blog.defaultProps = defaults;
+
+export default pure(Blog);

@@ -3,9 +3,7 @@ import {formatHeading} from '../../build/utils';
 
 const Title = props => {
   const title = () => ({__html: formatHeading(props.heading)});
-  return (
-    <h1 className="b-post__title" dangerouslySetInnerHTML={title()} />
-  );
+  return <h1 dangerouslySetInnerHTML={title()} className="b-post__title" />;
 };
 
 export default Title;

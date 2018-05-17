@@ -136,7 +136,7 @@ class Root extends Component {
 
   setupImages() {
     const images = document.querySelectorAll('img[data-lazy="false"]');
-    if (!('IntersectionObserver' in window)) {
+    if (!app.isLazy) {
       images.forEach(img => {
         img.src = img.dataset.src;
         img.dataset.lazy = true;

@@ -1,6 +1,7 @@
 import React from 'react';
+import pure from '../pure';
 import Icon from '../icon';
-import defaults from './defaults.json';
+import defaults from './defaults';
 
 const NavItemIcons = props => {
   const {attr} = props;
@@ -37,7 +38,7 @@ const NavItemIcons = props => {
   );
 };
 
-const NavItem = props => {
+const SFCNavItem = props => {
   const attr = {
     'data-id': props.id,
     className: 'b-nav__item'
@@ -58,8 +59,12 @@ const NavItem = props => {
   );
 };
 
+const NavItem = pure(SFCNavItem);
+
 const NavMore = props => {
-  if (!props.items.length) return null;
+  if (props.items.length === 0) {
+    return null;
+  }
   const dropdownAttr = {
     className: 'b-nav__dropdown'
   };
@@ -78,11 +83,15 @@ const NavMore = props => {
       className="b-nav__more"
       onMouseEnter={props.onEnter}
       onMouseLeave={props.onLeave}>
-      <button aria-label="Show more links" type="button" className="b-nav__link" onClick={onClick}>
+      <button
+        aria-label="Show more links"
+        type="button"
+        className="b-nav__link"
+        onClick={onClick}>
         <Icon id="nav" />
       </button>
       <ul {...dropdownAttr}>
-        {props.items.map(item => <NavItem key={item.order} {...item} />)}
+        {props.items.map(item => <NavItem key={item.id} {...item} />)}
       </ul>
     </div>
   );
@@ -104,10 +113,10 @@ const Nav = props => {
     });
   }
   return (
-    <nav className="b-nav" id="nav" ref={props.navRef}>
+    <nav ref={props.navRef} className="b-nav" id="nav">
       <h2 className="b-nav__title u-vh">{props.heading}</h2>
-      <ul className="b-nav__list" ref={props.navListRef}>
-        {props.items.map(item => <NavItem key={item.order} {...item} />)}
+      <ul ref={props.navListRef} className="b-nav__list">
+        {props.items.map(item => <NavItem key={item.id} {...item} />)}
       </ul>
       <NavMore
         isActive={props.isMoreActive}

@@ -1,7 +1,8 @@
 import React from 'react';
 import Block from '../block';
 import Button from '../button';
-import defaults from './defaults.json';
+import defaults from './defaults';
+
 const StepsItem = props => {
   return (
     <article className="c-steps__item">
@@ -31,5 +32,7 @@ const Steps = props => {
     </div>
   );
 };
+
 Steps.defaultProps = defaults;
+
 export default Steps;
