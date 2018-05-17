@@ -4,6 +4,7 @@ import Cta from '../../components/cta';
 import Post from '../../components/post';
 import Time from '../../components/time';
 import Title from '../../components/title';
+
 const Article = props => {
   const body = () => {
     return {__html: props.innerHTML};
@@ -37,8 +38,10 @@ const Article = props => {
     </Block>
   );
 };
+
 Article.defaultProps = {
   pageHeading: 'Untitled',
   dateUnix: Date.now()
 };
+
 export default Article;

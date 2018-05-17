@@ -4,6 +4,7 @@ import Button from '../../components/button';
 import Excerpt from '../../components/excerpt';
 import Post from '../../components/post';
 import Title from '../../components/title';
+
 const Archive = props => {
   const nextButton = props.nextPage ? (
     <Button href={props.nextPage} text="Older" />
@@ -35,7 +36,9 @@ const Archive = props => {
     </Block>
   );
 };
+
 Archive.defaultProps = {
   pageHeading: 'Blog'
 };
+
 export default Archive;

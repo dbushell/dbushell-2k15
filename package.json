@@ -16,7 +16,8 @@
     "test": "npx jest",
     "test-update": "npx jest --updateSnapshot",
     "webpack:dev": "npx webpack --mode development --debug",
-    "webpack": "npx webpack --mode production",
+    "webpack:prod": "npx webpack --mode production",
+    "webpack": "npm run webpack:prod && npm run webpack:dev",
     "uglify":
       "cd ./dbushell.github.io/assets/js/ && npx uglifyjs -m --source-map \"url='/assets/js/inline.min.js.map'\" -o inline.min.js inline.js",
     "css": "node ./src/tasks/css.js"

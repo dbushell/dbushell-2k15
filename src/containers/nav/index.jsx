@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import Nav from '../../components/nav';
-import defaults from '../../components/nav/defaults.json';
+import defaults from '../../components/nav/defaults';
 
 class NavContainer extends Component {
   constructor(props) {
     super(props);
-    // save list of items and references by Id
+    // Save list of items and references by Id
     this.items = props.items.map(item => ({...item}));
     this.itemsById = this.items.reduce((obj, item) => {
       obj[item.id] = item;
@@ -15,26 +15,40 @@ class NavContainer extends Component {
       itemIds: this.items.map(item => item.id),
       moreIds: [],
       isMoreActive: false,
-      isMoreHover: false
+      isMoreHover: false,
+      pagePath: props.pagePath
     };
     this.$nav = React.createRef();
     this.$navList = React.createRef();
+    this.handleResize = this.handleResize.bind(this);
   }
+
+  static getDerivedStateFromProps(nextProps, prevState) {
+    if (nextProps.pagePath !== prevState.pagePath) {
+      return {
+        isMoreActive: false,
+        isMoreHover: false,
+        pagePath: nextProps.pagePath
+      };
+    }
+    return null;
+  }
+
   componentDidMount() {
     if (!window.dbushell) {
       return;
     }
     const self = this;
-    const onRefresh = () => self.handleResize.call(self);
-    window.addEventListener('load', onRefresh);
-    window.addEventListener('resize', onRefresh);
-    window.addEventListener('orientationchange', onRefresh);
+    window.addEventListener('load', self.handleResize);
+    window.addEventListener('resize', self.handleResize);
+    window.addEventListener('orientationchange', self.handleResize);
     window.dbushell.load(
       '/assets/js/vendor/headroom.min.js?v=' + window.dbushell.ver,
       self.handleHeadroom
     );
     self.handleResize();
   }
+
   render() {
     const self = this;
     const {itemIds, moreIds, isMoreActive, isMoreHover} = self.state;
@@ -42,8 +56,8 @@ class NavContainer extends Component {
       ...self.props,
       navRef: self.$nav,
       navListRef: self.$navList,
-      isMoreActive: isMoreActive,
-      isMoreHover: isMoreHover,
+      isMoreActive,
+      isMoreHover,
       items: self.items.filter(item => itemIds.indexOf(item.id) !== -1),
       more: self.items.filter(item => moreIds.indexOf(item.id) !== -1),
       onMoreClick: () => {
@@ -64,17 +78,10 @@ class NavContainer extends Component {
     };
     return <Nav {...props} />;
   }
-  componentDidUpdate(prevProps) {
-    if (this.props.pagePath !== prevProps.pagePath) {
-      this.setState({
-        isMoreActive: false,
-        isMoreHover: false
-      });
-    }
-  }
+
   handleResize() {
     const self = this;
-    // update nav style and nodes
+    // Update nav style and nodes
     const $nav = self.$nav.current;
     const $navList = self.$navList.current;
     const style = window.getComputedStyle($navList, null);
@@ -89,24 +96,24 @@ class NavContainer extends Component {
       }
     });
     $nav.classList.remove('b-nav--min');
-    // organise nav items
+    // Organise nav items
     const itemIds = [...self.state.itemIds];
     const moreIds = [...self.state.moreIds];
-    // update visible nav width
+    // Update visible nav width
     self.navWidth = itemIds.reduce((width, id) => {
       return width + self.itemsById[id].width;
     }, 0);
     if (self.navWidth > self.freeWidth) {
-      // sort by priority
+      // Sort by priority
       itemIds.sort(
         (a, b) => self.itemsById[a].priority - self.itemsById[b].priority
       );
-      // move last items into overflow
+      // Move last items into overflow
       while (self.navWidth > self.freeWidth) {
         moreIds.unshift(itemIds.pop());
         self.navWidth -= self.itemsById[moreIds[0]].width;
       }
-      // add overflow items back into menu
+      // Add overflow items back into menu
     } else {
       while (
         moreIds.length &&
@@ -116,14 +123,15 @@ class NavContainer extends Component {
         itemIds.push(moreIds.shift());
       }
     }
-    // update state
+    // Update state
     self.setState({
-      itemIds: itemIds,
-      moreIds: moreIds,
+      itemIds,
+      moreIds,
       isMoreActive: false,
       isMoreHover: false
     });
   }
+
   handleHeadroom() {
     if (!window.Headroom) {
       return;

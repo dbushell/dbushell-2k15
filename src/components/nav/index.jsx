@@ -104,11 +104,13 @@ const Nav = props => {
       if (item.href === props.pagePath) {
         item.isActive = true;
       }
-      if (
-        /^\/blog\//.test(item.href) &&
-        /^\/\d{4}\/\d{2}\/\d{2}\//.test(props.pagePath)
-      ) {
-        item.isActive = true;
+      if (/^\/blog\//.test(item.href)) {
+        if (
+          /^\/blog\//.test(props.pagePath) ||
+          /^\/\d{4}\/\d{2}\/\d{2}\//.test(props.pagePath)
+        ) {
+          item.isActive = true;
+        }
       }
     });
   }

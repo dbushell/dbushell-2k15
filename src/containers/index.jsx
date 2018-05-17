@@ -108,29 +108,27 @@ class Root extends Component {
     return false;
   }
 
-  componentWillUpdate(nextProps, nextState) {
-    const {pageProps} = this.state;
-    if (pageProps.pagePath === nextState.pageProps.pagePath) {
-      return;
-    }
-    if ($title) {
-      $title.textContent = nextState.pageProps.pageTitle;
-    }
-    if ($canonical) {
-      $canonical.setAttribute(
-        'href',
-        `https://dbushell.com${nextState.pageProps.pagePath}`
-      );
-    }
-  }
-
   componentDidUpdate(prevProps, prevState) {
     window.scrollTo(0, 0);
-    // const {pageProps, hState, isPopState} = this.state;
-    // if (isPopState && prevState.hState) {
-    //   console.log(hState, prevState.hState);
-    //   window.scrollTo(0, prevState.hState.scroll);
-    // }
+    const {pageProps} = this.state;
+    if (pageProps.pagePath !== prevState.pageProps.pagePath) {
+      if ($title) {
+        $title.textContent = pageProps.pageTitle;
+      }
+      if ($canonical) {
+        $canonical.setAttribute(
+          'href',
+          `https://dbushell.com${pageProps.pagePath}`
+        );
+      }
+    }
+    /*
+    const {pageProps, hState, isPopState} = this.state;
+    if (isPopState && prevState.hState) {
+      console.log(hState, prevState.hState);
+      window.scrollTo(0, prevState.hState.scroll);
+    }
+    */
     this.setupImages();
   }
 

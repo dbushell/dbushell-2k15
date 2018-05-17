@@ -5,6 +5,7 @@ import Folio from '../../components/folio';
 import Hero from '../../components/hero';
 import Sectors from '../../components/sectors';
 import Steps from '../../components/steps';
+
 const Home = () => {
   return (
     <Block isMain classList={['c-main--home']}>
@@ -16,8 +17,10 @@ const Home = () => {
     </Block>
   );
 };
+
 Home.defaultProps = {
   pageHeading:
     'David Bushell – Web Design & Front-end Development (based in Manchester, UK)'
 };
+
 export default Home;
