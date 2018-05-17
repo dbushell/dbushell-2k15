@@ -16,6 +16,10 @@
   ol:not([class]) {
     max-width: rem(720 - ($unit * 4));
   }
+
+  .wf-notosans-n4-active & {
+    line-height: 1.7;
+  }
 }
 
 .b-post__date {
@@ -98,6 +102,7 @@
 
     .u-long {
       display: block;
+      hyphens: auto;
       font-size: 80%;
     }
   }

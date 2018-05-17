@@ -13,16 +13,16 @@
 $unit: 7;
 $baseline: $unit * 4;
 
-$p         : 19;
-$p--large  : 24;
+$p         : 18;
+$p--large  : 22;
 $p--small  : 16;
 
-$h1: 45;
-$h2: 35;
-$h3: 30;
-$h4: 25;
-$h5: 20;
-$h6: 20;
+$h1: 42;
+$h2: 30;
+$h3: 28;
+$h4: 22;
+$h5: 18;
+$h6: 18;
 
 $footer--width     : 27;
 $footer--max-width : 400;
@@ -79,12 +79,12 @@ $colour__hairline--dark     : darken($colour__hairline, 15);
 // Font usage for normal, display, script, and monospace stacks
 
 $fonts--stack      : ".SFNSDisplay-Regular", Arial, sans-serif;
-$fonts--default    : "sofia-pro", $fonts--stack;
-$fonts--display    : "futura-pt", $fonts--stack;
+$fonts--default    : "Noto Sans", $fonts--stack;
+$fonts--display    : "Quicksand", $fonts--stack;
 $fonts--monospace  : Monaco, Consolas, monospace;
 
-$fw-normal : 300;
-$fw-medium : 500;
+$fw-normal : 400;
+$fw-medium : 700;
 $fw-bold   : 500;
 
 // now using universal IE stylesheet concept
