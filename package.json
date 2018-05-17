@@ -9,7 +9,7 @@
   "author": "David Bushell <david@dbushell.com>",
   "license": "UNLICENSED - Copyright © David Bushell",
   "scripts": {
-    "start": "npx http-server ./dbushell.github.io/ -s -g",
+    "start": "npx http-server ./dbushell.github.io/ -s -g -S -C ~/src/cert/server.crt -K ~/src/cert/server.key",
     "build": "npx babel-node ./index.js",
     "prettify": "node ./src/tasks/prettify.js --build --tasks",
     "test": "npx jest",

@@ -2,10 +2,11 @@
 
 exports[`Bio component renders with defaults 1`] = `
 "<section class=\\"b-bio\\" role=\\"complementary\\" itemscope=\\"\\" itemType=\\"http://schema.org/Person\\">
-  <div class=\\"b-bio__image\\"><img src=\\"/assets/img/me3@1x.jpg\\" srcSet=\\"/assets/img/me3@1x.jpg 1x, /assets/img/me3@2x.jpg 2x\\" alt=\\"David Bushell\\" /></div>
-  <div class=\\"b-bio__main\\">
+  <div class=\\"b-bio__image\\"><img src=\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\\" alt=\\"David Bushell\\" data-src=\\"/assets/img/me3@1x.jpg\\" data-srcset=\\"/assets/img/me3@1x.jpg 1x, /assets/img/me3@2x.jpg 2x\\" data-lazy=\\"false\\" /></div>
+  <div
+    class=\\"b-bio__main\\">
     <h3 itemProp=\\"name\\"><a href=\\"/about/\\">David Bushell</a></h3>
     <p itemProp=\\"description\\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies — all over the world.</p>
-  </div>
+    </div>
 </section>"
 `;
