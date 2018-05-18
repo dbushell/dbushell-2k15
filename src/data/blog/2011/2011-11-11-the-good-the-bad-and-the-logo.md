@@ -6,7 +6,7 @@ template: single.html
 title: The Good, the Bad, and the Logo
 ---
 
-Back in **June 2010** I wrote about [using SVG](https://dbushell.com/2010/06/30/using-svg-logos/) for your logo. When I realigned my website earlier this year (see: [Designing a new me](https://dbushell.com/2011/05/25/designing-a-new-me/)) I reverted back to the typical PNG and used the `-webkit-min-device-pixel-ratio` to provide a high-res version.
+Back in **June 2010** I wrote about [using SVG](/2010/06/30/using-svg-logos/) for your logo. When I realigned my website earlier this year (see: [Designing a new me](/2011/05/25/designing-a-new-me/)) I reverted back to the typical PNG and used the `-webkit-min-device-pixel-ratio` to provide a high-res version.
 
 Well 17 months ago I wasn't as sharp as I am today with front-end standards and for whatever reason I settled on using the `<object>` and `<embed>` elements... what was I smoking? Well anyway, it didn't occur to me that you can provide an SVG file as the source of an `<img>` element or as a background image in CSS — and I've now done just that, look up! [Browser support](http://caniuse.com/#search=SVG) is pretty much across the board.
 

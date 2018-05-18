@@ -8,7 +8,7 @@ title: Use SVG (part 1)
 
 As you know I'm a big fan of using SVG whenever possible.
 
-<p class="p--small p--light">See my articles ['Resolution Independence With SVG'](http://www.smashingmagazine.com/2012/01/16/resolution-independence-with-svg/) (Jan 2012) and ['A Primer to Front-end SVG Hacking'](https://dbushell.com/2013/02/04/a-primer-to-front-end-svg-hacking/) (Feb 2013) for a retrospective.</p>
+<p class="p--small p--light">See my articles ['Resolution Independence With SVG'](http://www.smashingmagazine.com/2012/01/16/resolution-independence-with-svg/) (Jan 2012) and ['A Primer to Front-end SVG Hacking'](/2013/02/04/a-primer-to-front-end-svg-hacking/) (Feb 2013) for a retrospective.</p>
 
 I'm always looking for the most viable technique; browser support is always changing and content management is an oft-forgotten requirement (or 'restriction', depending how you look at it).
 
@@ -118,7 +118,7 @@ However, to avoid the IE aspect ratio distortion, you'll either have to explicit
 
 So the lesson here is that if you want your "content" images to be responsive and support both SVG and raster image formats — and why wouldn't you? — it's not good enough to simply provide an `<img>` element in the templates. It needs an explicit width, and probably a wrapping element for full control.
 
-Sounds simply, but if you've never used / tested SVG images before in IE this "bug" can be a real nuisance.  If you want to test for yourself I've upload the SVG scaling: [problem](https://dbushell.com/demos/svg/2015-01-26/svg-scale-problem.html), [solution](https://dbushell.com/demos/svg/2015-01-26/svg-scale-solution.html), and [float](https://dbushell.com/demos/svg/2015-01-26/svg-float.html) demos.
+Sounds simply, but if you've never used / tested SVG images before in IE this "bug" can be a real nuisance.  If you want to test for yourself I've upload the SVG scaling: [problem](/demos/svg/2015-01-26/svg-scale-problem.html), [solution](/demos/svg/2015-01-26/svg-scale-solution.html), and [float](/demos/svg/2015-01-26/svg-float.html) demos.
 
 In *Part 2* of this article I'll look at SVG techniques for the "UI" use case.
 

@@ -14,7 +14,7 @@ That's the sort of website launch our clients convince themselves of but never s
 ## Launch & Growth
 
 
-I quietly launched [lovedsgn.com](http://lovedsgn.com) in **July 2010** following up with a simple question: [Do you Love Design?](https://dbushell.com/2010/09/02/do-you-love-design/) I never really explained what LoveDsgn was for — honestly, I didn't know myself — but it had something to do with writing and blogging.
+I quietly launched [lovedsgn.com](http://lovedsgn.com) in **July 2010** following up with a simple question: [Do you Love Design?](/2010/09/02/do-you-love-design/) I never really explained what LoveDsgn was for — honestly, I didn't know myself — but it had something to do with writing and blogging.
 
 <p class="b-post__image">[![LoveDsgn version 1](/images/2012/03/lovedsgn-version-1.png)](/images/2012/03/lovedsgn-version-1.png)</p>
 

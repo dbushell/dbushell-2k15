@@ -6,7 +6,7 @@ pageDesc: 'MacOS Sierra changed stuff. Here’s how to avoid entering your passw
 ---
 
 Managing SSH keys for remote repositories ain't easy to grok. ["Multiple Accounts and SSH
-Keys"](https://dbushell.com/2013/01/27/multiple-accounts-and-ssh-keys/) is to no
+Keys"](/2013/01/27/multiple-accounts-and-ssh-keys/) is to no
 suprise one of my most popular articles. It's
 still relevant and I have to refer to it myself at least once a year.
 

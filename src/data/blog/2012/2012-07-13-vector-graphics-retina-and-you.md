@@ -24,7 +24,7 @@ A classic conference soundbite with zero context. On face value it's ridiculous:
 
 1. CSS is not a "vector-based drawing tool".
 2. Making vector illustrations with "pure CSS" is [madness](http://farukat.es/journal/2010/08/469-pure-css-icons-make-madness-stop) for the very reason that;
-3. [SVG](https://dbushell.com/2012/04/03/svg-use-it-already/) is _the_ standard for vector-based drawing in the browser today.
+3. [SVG](/2012/04/03/svg-use-it-already/) is _the_ standard for vector-based drawing in the browser today.
 
 
 But thinking about the quote further, this literal translation (of possibly poor paraphrasing) is not what Luke Wroblewski actually meant. At least I hope not, I wasn't at the conference. How live tweeters expect anyone to understand a 140 character snippet of a 20–60 minute talk I'll never know. What I hope Luke was referring to was that the advances in CSS allow us to replicate complex UI designs and other visual elements with CSS alone, where 9-slicing bitmap graphics was once a norm. This is excellent for making resolution independent websites, and it leads me nicely onto my second rant:

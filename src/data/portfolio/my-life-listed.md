@@ -4,7 +4,7 @@ Creating a consistent user interface was a big challenge and initial pencil & pa
 
 We decided to separate the mobile website to allow single focus on the main functionality; creating lists. This also allowed us to develop a very fast and bandwidth friendly site for mobile devices. The interface adjusts itself to take advantage of expected touchscreen behaviour.
 
-You can read more about my design process on my blog: [Designing My Life Listed](https://dbushell.com/2011/03/14/designing-mylifelisted/).
+You can read more about my design process on my blog: [Designing My Life Listed](/2011/03/14/designing-mylifelisted/).
 
 <p class="b-post__image">![David Bushell - Web Design - My Life Listed home page.](/images/portfolio/web-design-mylifelisted-1.png)</p>
 

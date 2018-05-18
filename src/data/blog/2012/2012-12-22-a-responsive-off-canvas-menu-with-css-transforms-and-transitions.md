@@ -6,13 +6,13 @@ template: single.html
 title: A Responsive Off-Canvas Menu
 ---
 
-Have a play with my [responsive off-canvas menu](https://dbushell.com/demos/viewport/menu1/). I hadn't intended this to go viral (I'm well aware of the issues!) but since it has I decided to write a proper introduction.
+Have a play with my [responsive off-canvas menu](/demos/viewport/menu1/). I hadn't intended this to go viral (I'm well aware of the issues!) but since it has I decided to write a proper introduction.
 
-<p class="b-post__image">[![A Responsive Off-Canvas Menu](/images/2012/12/off-canvas-menu.png)](https://dbushell.com/demos/viewport/menu1/)</p>
+<p class="b-post__image">[![A Responsive Off-Canvas Menu](/images/2012/12/off-canvas-menu.png)](/demos/viewport/menu1/)</p>
 
-A couple of things to note — this was purely a technical demo to see the performance of CSS transforms & transitions (I've built [experimental monstrosities](https://dbushell.com/2012/05/15/pageshift-removing-the-refresh/) in the past so I felt obliged to do good). The general idea is nothing new. It lacks accessible foundations and unfortunately, as many have fed back, there are rendering issues that cause flickering in some browsers.
+A couple of things to note — this was purely a technical demo to see the performance of CSS transforms & transitions (I've built [experimental monstrosities](/2012/05/15/pageshift-removing-the-refresh/) in the past so I felt obliged to do good). The general idea is nothing new. It lacks accessible foundations and unfortunately, as many have fed back, there are rendering issues that cause flickering in some browsers.
 
-This is part of my research for an upcoming **Smashing Magazine** article and my talk at [Responsive Day Out](https://dbushell.com/2012/12/07/responsive-day-out/). In both I'll be examining design patterns we can use to improve **responsive design** and silence the critics.
+This is part of my research for an upcoming **Smashing Magazine** article and my talk at [Responsive Day Out](/2012/12/07/responsive-day-out/). In both I'll be examining design patterns we can use to improve **responsive design** and silence the critics.
 
 We need to embrace the viewport and do more than stack content vertically; one very long scroll is no better UX than a zoomed out, fixed-width format.
 

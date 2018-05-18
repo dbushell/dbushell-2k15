@@ -6,7 +6,7 @@ template: single.html
 title: Multiple Accounts and SSH Keys
 ---
 
-Now that I'm officially a [self-employed freelancer](https://dbushell.com/2012/12/30/a-new-beginning/) I plan to blog more frequently. In the past I've rarely written very technical articles, but I imagine there are many designer/front-end developer types like me who struggle with this stuff. Tomorrow I'll post a big responsive design case study, I promise.
+Now that I'm officially a [self-employed freelancer](/2012/12/30/a-new-beginning/) I plan to blog more frequently. In the past I've rarely written very technical articles, but I imagine there are many designer/front-end developer types like me who struggle with this stuff. Tomorrow I'll post a big responsive design case study, I promise.
 
 Today I moved my private code repositories onto **[Bitbucket](https://bitbucket.org/)** — my personal WordPress theme and other "secret projects". I don't have the disposable income anymore for premium accounts! I'm keeping my [open-source projects](https://github.com/dbushell) on GitHub (while it remains fashionable). 
 

@@ -18,7 +18,7 @@ Since this is the first laptop I have ever owned I'm not going to write a compre
 
 13-inch with 4GB RAM and 128GB SSD (by the way). I didn't upgrade the storage because who needs that kind of data on a laptop? Probably me I'll no doubt find out, but I have plenty of storage elsewhere if needed.
 
-I'll be sure to post an update after using this for a few months. I just remembered I'm suppose to be [designing a font](https://dbushell.com/2010/11/07/the-typographic-gauntlet/), so if you'll excuse me.
+I'll be sure to post an update after using this for a few months. I just remembered I'm suppose to be [designing a font](/2010/11/07/the-typographic-gauntlet/), so if you'll excuse me.
 
 <p class="medium">* updated to 3.0.2 without bricking the whole website like 3.0 did, fun times!</p>
 

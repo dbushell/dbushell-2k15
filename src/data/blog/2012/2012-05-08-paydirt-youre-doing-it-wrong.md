@@ -11,11 +11,11 @@ title: 'Paydirt: You''re Doing It Wrong'
 
 Neither do I, yet my websites work just fine in Internet Explorer.
 
-Just over a month after the last "we're dropping IE support" [publicity stunt](https://dbushell.com/2012/04/02/dropping-ie-support/), another tech start-up has successfully hit [pay dirt](http://news.ycombinator.com/item?id=3941799) with the exact same bullshit (read: actively _blocking_ IE).
+Just over a month after the last "we're dropping IE support" [publicity stunt](/2012/04/02/dropping-ie-support/), another tech start-up has successfully hit [pay dirt](http://news.ycombinator.com/item?id=3941799) with the exact same bullshit (read: actively _blocking_ IE).
 
 I realise that by sharing this link bait I'm feeding the trolls, but I feel it's important enough to highlight the issues here considering the number of impressionable web developers who actually _applaud_ this line of thinking.
 
-Wholly blocking any browser is insular thinking. It screams of bad practice. Don't talk to me about "costs" involved in supporting certain browsers; _your doing it wrong_. The whole concept of "browser support" is a dangerous perspective to take. I've blogged about it before: [Browser Support? Forget it!](https://dbushell.com/2012/03/03/forget-about-browser-support/) Today's Chrome is tomorrow's IE6. If you're thinking in terms of all-or-nothing you're ignorant of how the Web works.
+Wholly blocking any browser is insular thinking. It screams of bad practice. Don't talk to me about "costs" involved in supporting certain browsers; _your doing it wrong_. The whole concept of "browser support" is a dangerous perspective to take. I've blogged about it before: [Browser Support? Forget it!](/2012/03/03/forget-about-browser-support/) Today's Chrome is tomorrow's IE6. If you're thinking in terms of all-or-nothing you're ignorant of how the Web works.
 
 Take a [progressive enhancement](http://www.alistapart.com/articles/understandingprogressiveenhancement/) approach. Use feature detection to offer a granular level of experience; remain agnostic of device and browser.
 

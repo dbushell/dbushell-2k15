@@ -8,7 +8,7 @@ title: Week in Film
 
 So this arrived from the States today:
 
-[![Day 26 (Tuesday 26-01-2010)](http://farm5.static.flickr.com/4047/4305772045_377edaee0e.jpg)](http://www.flickr.com/photos/dbushell/4305772045/)
+[*photo was lost to time...*]
 
 Lemonade Movie (more info [here](http://lemonademovie.com/)).
 

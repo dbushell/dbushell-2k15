@@ -14,6 +14,6 @@ Anyway, it has been a worthwhile project and if anything I finally built up the 
 
 I'll still be taking daily photos when it takes my fancy.
 
-[![Day 62 (Wednesday 03-03-2010)](http://farm3.static.flickr.com/2699/4412794945_5572eeb73a.jpg)](http://www.flickr.com/photos/dbushell/4412794945/)
+[*photo was lost to time...*]
 
 And I've also got a slightly more [insane project](/2010/02/18/1000-cranes/) on the go...

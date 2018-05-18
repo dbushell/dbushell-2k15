@@ -6,7 +6,7 @@ template: single.html
 title: Reaction Time
 ---
 
-Last week I wrote about [device optimisation](https://dbushell.com/2011/10/18/the-thoughtful-touches/) which adds a much needed bit of pragmatism to the holy grail of timeless, device-agnostic website design.
+Last week I wrote about [device optimisation](/2011/10/18/the-thoughtful-touches/) which adds a much needed bit of pragmatism to the holy grail of timeless, device-agnostic website design.
 
 I touched on a technique that I'll expand here because it can be used more generically. If you're going for a responsive layout with interactive elements this makes a massive difference to UX.
 
@@ -28,7 +28,7 @@ When we add interactivity we purposely slow things down with transitions. This i
 
 The perceivable different in my example above is only noticeable towards the larger extremes. If an elements width only varies between a couple hundred pixels it's probably not worth worrying about.
 
-When I built the [aforementioned](https://dbushell.com/2011/10/18/the-thoughtful-touches/) photography-based website (still in production!) this relative effect was very noticeable. I wrote my JavaScript in standard desktop mode and after a quick round of iPhone testing it become very obvious just how annoyingly slow things were moving at a smaller scale. Relative duration calculations went a _long_ way. It felt snappy, it made the thing usable!
+When I built the [aforementioned](/2011/10/18/the-thoughtful-touches/) photography-based website (still in production!) this relative effect was very noticeable. I wrote my JavaScript in standard desktop mode and after a quick round of iPhone testing it become very obvious just how annoyingly slow things were moving at a smaller scale. Relative duration calculations went a _long_ way. It felt snappy, it made the thing usable!
 
 
 ### One More Thing...

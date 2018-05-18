@@ -10,7 +10,7 @@ Look what arrived today!
 
 **Typographic Conundrums** by _Harry Pearce_.
 
-[![Day 19 (Tuesday 19-01-2010)](http://farm5.static.flickr.com/4063/4287291693_661f6c378b.jpg)](http://www.flickr.com/photos/dbushell/4287291693/)
+[*photo was lost to time...*]
 
 This awesome little book is full of typographic conundrums that need to be visually decoded into revealing a common saying or phrase. Very clever in their wit and simplicity.
 

@@ -12,13 +12,13 @@ It's common practice to maintain a list of supported browsers. Lately, Internet 
 
 What we must realise is that supporting a set of browsers does not mean we aim to deliver the exact same user experience across the board.
 
-Here's what my [home page](https://dbushell.com/) looks like in **Internet Explorer 6**:
+Here's what my [home page](/) looks like in **Internet Explorer 6**:
 
 <p class="b-post__image">[![dbushell.com in Internet Explorer 6](/images/2012/03/v6-ie6.png)](/images/2012/03/v6-ie6.png)</p>
 
-IE6 sees a vertical layout with great typography. There's an assortment of minor aesthetic niceties that are lost but on the whole it's very *accessible*. That's the important thing. Just because I don't "support" IE6 doesn't mean I can't employ a design and build practice that ensures an adequate level of compatibility. I only checked IE6 after development. I knew my process would naturally produce these results based on a few simple techniques to scope style. And because it would take two minutes, I went on to replace the PNG logo with a GIF for IE6 to avoid alpha channel transparency issues (which in turn replaces an SVG logo). A touch of [device optimisation](https://dbushell.com/2012/01/11/device-optimisation/).
+IE6 sees a vertical layout with great typography. There's an assortment of minor aesthetic niceties that are lost but on the whole it's very *accessible*. That's the important thing. Just because I don't "support" IE6 doesn't mean I can't employ a design and build practice that ensures an adequate level of compatibility. I only checked IE6 after development. I knew my process would naturally produce these results based on a few simple techniques to scope style. And because it would take two minutes, I went on to replace the PNG logo with a GIF for IE6 to avoid alpha channel transparency issues (which in turn replaces an SVG logo). A touch of [device optimisation](/2012/01/11/device-optimisation/).
 
-Here's my [website redesign article](https://dbushell.com/2012/02/27/spring-cleaning-redesigning-dbushell-com/) on the **Amazon Kindle**:
+Here's my [website redesign article](/2012/02/27/spring-cleaning-redesigning-dbushell-com/) on the **Amazon Kindle**:
 
 <p class="b-post__image">[![dbushell.com on the Amazon Kindle](/images/2012/03/v6-kindle.jpg)](/images/2012/03/v6-kindle.jpg)</p>
 

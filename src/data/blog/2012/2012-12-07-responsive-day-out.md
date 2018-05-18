@@ -22,4 +22,4 @@ It'll be a while before I finalise my 20 minutes (haven't started yet), but it's
 
 If you're heading to Brighton [give me a shout](http://twitter.com/dbushell). I'll certainly try to accomodate any specific design/build questions.
 
-If you're wondering what my credentials are my focus for the last two years has been [making](https://dbushell.com/2012/06/17/passenger-focus-responsive-web-design-case-study/), [blogging](https://dbushell.com/?s=responsive), and selling to clients all things responsive/device-independent.
+If you're wondering what my credentials are my focus for the last two years has been [making](/2012/06/17/passenger-focus-responsive-web-design-case-study/), [blogging](/?s=responsive), and selling to clients all things responsive/device-independent.

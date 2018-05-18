@@ -24,7 +24,7 @@ That was written by the W3C, *eleven* years ago! [Read HTML Techniques for Web 
 3. **It's bad content and usability.** This can fall into cognitive accessibility because it's not just about taste for quality copy, many disabilities make reading and comprehension difficult (a disability is not even required). There is no context to this style of linking, it reads poorly and the link attracts more attention than the surrounding text while providing zero information.
 
 
-There's also another point the W3C didn't mention: *Search Engine Optimisation*. Or as I like to call it [good website design and development](https://dbushell.com/2011/04/12/seo-is-killing-website-design/) (seriously, the industry would be a better place if clients had never heard the term "SEO", but alas you can't hold back a marketing opportunity).
+There's also another point the W3C didn't mention: *Search Engine Optimisation*. Or as I like to call it [good website design and development](/2011/04/12/seo-is-killing-website-design/) (seriously, the industry would be a better place if clients had never heard the term "SEO", but alas you can't hold back a marketing opportunity).
 
 Search Engines and other HTML parsers have no context, no *semantics* to work with. So if good accessibility and usability guidelines that have been around since the birth of HTML don't persuade you to avoid "click here" links, you might be the sort of person who'll be convinced by "SEO".
 
@@ -36,7 +36,7 @@ Why does this problem still exist? I think party because content and copy are of
 
 This is another reason why content should be the centre piece of all web projects.
 
-As a designer, what can I do? I've written how content and design strategy merge in [The Responsive Design Secret](https://dbushell.com/2011/05/11/the-responsive-design-secret/). In this particular case it's all down to deeper consideration for text-based navigation.
+As a designer, what can I do? I've written how content and design strategy merge in [The Responsive Design Secret](/2011/05/11/the-responsive-design-secret/). In this particular case it's all down to deeper consideration for text-based navigation.
 
 When we have so much opportunity for fancy graphics and interactivity we forget about what the web has always been; a network of linked pages – predominantly text-based. At the start of this article I highlighted other instances of the same problem, "read more" and "next". While our designs cannot demonstrate the omission of "click here" in copy, they can certainly and purposefully avoid these similar examples. With that we can explain to clients and get everybody understanding.
 

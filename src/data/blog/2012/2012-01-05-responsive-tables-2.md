@@ -11,7 +11,7 @@ title: Responsive Tables (2)
 <p>See the link above for more recent developments.</p>
 </div>
 
-My [last article on responsive tables](https://dbushell.com/2012/01/04/responsive-calendar-demo/) was very popular so I've only gone and implemented the idea that I was alluding to with horizontal scrolling!
+My [last article on responsive tables](/2012/01/04/responsive-calendar-demo/) was very popular so I've only gone and implemented the idea that I was alluding to with horizontal scrolling!
 
 <p class="b-post__image">![Responsive Tables (2)](/images/2012/01/rt_05_01_12.png)</p>
 

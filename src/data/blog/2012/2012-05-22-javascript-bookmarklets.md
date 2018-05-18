@@ -8,7 +8,7 @@ title: JavaScript Bookmarklets
 
 I love a good [JavaScript bookmarklet](http://en.wikipedia.org/wiki/Bookmarklet).
 
-They're [fun to play with](https://dbushell.com/2012/05/15/pageshift-removing-the-refresh/) and a great way to hack around on a live website with new code _without_ affecting anyone else's experience. They can also become part of your service; think [Readability's 'Read Now'](http://www.readability.com/bookmarklets) or [Pinterest's 'Pin it!'](http://pinterest.com).
+They're [fun to play with](/2012/05/15/pageshift-removing-the-refresh/) and a great way to hack around on a live website with new code _without_ affecting anyone else's experience. They can also become part of your service; think [Readability's 'Read Now'](http://www.readability.com/bookmarklets) or [Pinterest's 'Pin it!'](http://pinterest.com).
 
 A bookmarklet begins with the following shell:
 

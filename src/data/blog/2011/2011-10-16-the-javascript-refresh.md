@@ -41,4 +41,4 @@ What's going on here — JavaScript in the `head` element? If you're familiar wi
 
 The key to this working is having the JavaScript execute as soon as possible, _before_ the document renders. That's normally a big "no" in development for two reasons: it halts page rendering, and it enters a race condition where the script may try to change elements that haven't loaded yet. In this case we know the `html` element exists and we sacrifice a minuscule performance hit for a bigger reward — no nasty page refreshing and no heavy restyling.
 
-This technique has been around for years but in today's JavaScript-happy world it's good to remind ourselves about staying accessible and [getting the basics right](https://dbushell.com/2011/10/01/building-for-future-design/) for users.
+This technique has been around for years but in today's JavaScript-happy world it's good to remind ourselves about staying accessible and [getting the basics right](/2011/10/01/building-for-future-design/) for users.

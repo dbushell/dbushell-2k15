@@ -6,7 +6,7 @@ template: single.html
 title: The State of Web Design, 2013
 ---
 
-To wrap up 2011 [I wrote a few thoughts](https://dbushell.com/2011/12/15/web-design-2012-and-beyond/) on web design looking forward. Because I found it so helpful to remain focused with this personal reference, I'm doing it again this year.
+To wrap up 2011 [I wrote a few thoughts](/2011/12/15/web-design-2012-and-beyond/) on web design looking forward. Because I found it so helpful to remain focused with this personal reference, I'm doing it again this year.
 
 **I encourage you to do the same!**
 
@@ -18,7 +18,7 @@ This is my personal take:
 ## Improve Responsive
 
 
-In essence [responsive design](https://dbushell.com/2012/06/17/passenger-focus-responsive-web-design-case-study/) is about adapting a website to best fit the **device viewport**. One website for [One Web](http://vimeo.com/27484362). We use CSS media queries to build fluid grids and flexible media. It's worth remembering _why_ we do this. By creating a single _device-independent_ website we gain:
+In essence [responsive design](/2012/06/17/passenger-focus-responsive-web-design-case-study/) is about adapting a website to best fit the **device viewport**. One website for [One Web](http://vimeo.com/27484362). We use CSS media queries to build fluid grids and flexible media. It's worth remembering _why_ we do this. By creating a single _device-independent_ website we gain:
 
 
 * **Accessibility:** a canonical web location without fragmentation of content or users.
@@ -34,19 +34,19 @@ That last point — usability — is one we cannot forget. By adapting to the [d
 <blockquote><p>Scrolling through disparate content types is not a good experience. How do users figure out that other content exists? Finding what they’re looking for becomes a scavenger hunt.</p></blockquote>
 
 
-A partial solution I've explored is [adapting to the viewport height](https://dbushell.com/2012/11/19/responsive-bases-vertical-spaces/). Going further we need to develop more interactive forms of content navigation. I'm a big fan of **off canvas** layouts — [Luke Wroblewski](http://www.lukew.com/ff/entry.asp?1569) and [ZURB](http://www.zurb.com/playground/off-canvas-layouts) can tell you everything. Even simpler is the idea of collapsible content patterns. See [Stuart Robson's accordion to tabs demo](http://www.alwaystwisted.com/post.php?s=2012-10-14-a-responsive-accordian-to-tabs-pattern) (which could easily be fully expanded on large screens). Further to this we may employ [conditional loading](http://24ways.org/2011/conditional-loading-for-responsive-designs/).
+A partial solution I've explored is [adapting to the viewport height](/2012/11/19/responsive-bases-vertical-spaces/). Going further we need to develop more interactive forms of content navigation. I'm a big fan of **off canvas** layouts — [Luke Wroblewski](http://www.lukew.com/ff/entry.asp?1569) and [ZURB](http://www.zurb.com/playground/off-canvas-layouts) can tell you everything. Even simpler is the idea of collapsible content patterns. See [Stuart Robson's accordion to tabs demo](http://www.alwaystwisted.com/post.php?s=2012-10-14-a-responsive-accordian-to-tabs-pattern) (which could easily be fully expanded on large screens). Further to this we may employ [conditional loading](http://24ways.org/2011/conditional-loading-for-responsive-designs/).
 
-There is always a desire — and danger — to adapt to things we don't actually know; context assumptions. Stephanie Rieger reinforces this point in her article: [Mobile users don’t do that](http://stephanierieger.com/mobile-users-dont-do-that/). However, with further development in device API's one day we'll have the data we need. Dan Donald calls this [the reactive web](http://24ways.org/2012/should-we-be-reactive/). I've always erred on the side of caution in this respect — [high-resolution images](https://dbushell.com/2012/10/23/the-real-cost-of-retina/) are trickier than we think — but it's undoubtedly a benefit if done right.
+There is always a desire — and danger — to adapt to things we don't actually know; context assumptions. Stephanie Rieger reinforces this point in her article: [Mobile users don’t do that](http://stephanierieger.com/mobile-users-dont-do-that/). However, with further development in device API's one day we'll have the data we need. Dan Donald calls this [the reactive web](http://24ways.org/2012/should-we-be-reactive/). I've always erred on the side of caution in this respect — [high-resolution images](/2012/10/23/the-real-cost-of-retina/) are trickier than we think — but it's undoubtedly a benefit if done right.
 
 
 ## Reject Isolation
 
 
-I'm not discussing **performance** in detail here because I do not believe _responsive design_ is inherently related. Bad performance is indicative of bad development. [Tim Kadlec shares my opinion](http://24ways.org/2012/responsive-responsive-design/) and addresses the solution. Time to brush up on development on both sides of the pipe. I would highlight Dave Olsen's chapter in [The Mobile Book](https://dbushell.com/2012/12/05/the-mobile-book/) as a perfect place to start.
+I'm not discussing **performance** in detail here because I do not believe _responsive design_ is inherently related. Bad performance is indicative of bad development. [Tim Kadlec shares my opinion](http://24ways.org/2012/responsive-responsive-design/) and addresses the solution. Time to brush up on development on both sides of the pipe. I would highlight Dave Olsen's chapter in [The Mobile Book](/2012/12/05/the-mobile-book/) as a perfect place to start.
 
 Regardless of our design and development ability, the biggest factor to a successful website is the **process**. After really getting to grips with prototyping in iterative cycles this year I've radically changed many of my practices. Photoshop remains a useful tool for me but it no longer produces deliverables. Design "sign-off" no longer exists.
 
-I stand by [my statement](https://dbushell.com/2012/08/27/im-bored-with-code/) that the perceived quality of “hand-crafted” code is becoming too expensive to uphold. CSS pre-processors have allowed me to develop modular patterns while remaining focused on the bigger UX questions. Despite considering myself a front-end designer & developer, I will continue my desire to spend less time coding in 2013. Less head in keyboard, more collaboration with clients, colleagues, and users.
+I stand by [my statement](/2012/08/27/im-bored-with-code/) that the perceived quality of “hand-crafted” code is becoming too expensive to uphold. CSS pre-processors have allowed me to develop modular patterns while remaining focused on the bigger UX questions. Despite considering myself a front-end designer & developer, I will continue my desire to spend less time coding in 2013. Less head in keyboard, more collaboration with clients, colleagues, and users.
 
 
 ## Break the Paradigm

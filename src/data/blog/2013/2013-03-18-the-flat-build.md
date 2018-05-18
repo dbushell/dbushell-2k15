@@ -42,7 +42,7 @@ For me — and this may be entirely my own flaw — none of these apps quite fit
 ## Building your own
 
 
-I like total control and flexibility. I roll my own [automated Grunt tasks](https://dbushell.com/2013/03/12/automation/) to achieve what these apps do (and more).
+I like total control and flexibility. I roll my own [automated Grunt tasks](/2013/03/12/automation/) to achieve what these apps do (and more).
 
 The barrier to entry here is extremely high. I can't deny there's a hell of a lot to learn just to understand how all of the pieces work. I know a lot of people don't like this complexity. I agree to some extent with the arguments against but you do have to consider what knowledge is actually a prerequisite.
 

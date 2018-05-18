@@ -6,7 +6,7 @@ template: single.html
 title: Reaction Time (2)
 ---
 
-A few weeks ago I wrote [Reaction Time](https://dbushell.com/2011/10/25/reaction-time/) explaining the art of **relative** interactivity.
+A few weeks ago I wrote [Reaction Time](/2011/10/25/reaction-time/) explaining the art of **relative** interactivity.
 
 Today I found another perfect example!
 

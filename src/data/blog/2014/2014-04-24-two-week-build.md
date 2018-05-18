@@ -61,7 +61,7 @@ That's some verbose CSS required to restyle against varying background colours
 ## Performance Budget
 
 
-Speaking of web fonts, they account for almost 50% of my [home page](https://dbushell.com/) download. Sounds excessive, but at a grand total of **248kb** my website is positively slim. Given the design's emphasis on typography I find these bytes are well spent.
+Speaking of web fonts, they account for almost 50% of my [home page](/) download. Sounds excessive, but at a grand total of **248kb** my website is positively slim. Given the design's emphasis on typography I find these bytes are well spent.
 
 A run through [WebPageTest](http://www.webpagetest.org/result/140422_NR_MTQ/) gives strong local results:
 

@@ -6,7 +6,7 @@ template: single.html
 title: The Real Cost of Retina
 ---
 
-When the new iPad went on sale earlier this year the interest in high-resolution website design skyrocketed. We saw an influx of half-baked "[Retina](https://dbushell.com/2012/07/13/vector-graphics-retina-and-you/)" solutions.
+When the new iPad went on sale earlier this year the interest in high-resolution website design skyrocketed. We saw an influx of half-baked "[Retina](/2012/07/13/vector-graphics-retina-and-you/)" solutions.
 
 Alongside this the bigger picture — so to speak — of [responsive images](http://www.w3.org/community/respimg/) produced lengthy debate. We're starting to see the fruits of that labour with a new [picture element proposal](http://responsiveimagescg.github.com/picture-element/). This is a good thing but it's not perfect.
 
@@ -30,7 +30,7 @@ We may think that serving high-res images on a website is going to drastically
 
 I can't afford it. At least for the foreseeable future.
 
-Seek [resolution independence](http://coding.smashingmagazine.com/2012/01/16/resolution-independence-with-svg/) by employing a design style more suited to the [medium](https://dbushell.com/2012/09/25/what-is-the-medium/). More visuals through CSS and SVG; less bitmap data.
+Seek [resolution independence](http://coding.smashingmagazine.com/2012/01/16/resolution-independence-with-svg/) by employing a design style more suited to the [medium](/2012/09/25/what-is-the-medium/). More visuals through CSS and SVG; less bitmap data.
 
 *** Update:** this should actually say the size of an image's containing element, [thanks Paul](http://twitter.com/paulrobertlloyd/status/260732321081200640)!
 

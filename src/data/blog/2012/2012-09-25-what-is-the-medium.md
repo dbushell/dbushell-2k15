@@ -20,7 +20,7 @@ And it's got me thinking.
 ### Access
 
 
-As last year neared closing time I spent a quiet day contemplating some of the challenges I would face after the winter festivities had past. [I wrote three points](https://dbushell.com/2011/12/15/web-design-2012-and-beyond/).
+As last year neared closing time I spent a quiet day contemplating some of the challenges I would face after the winter festivities had past. [I wrote three points](/2011/12/15/web-design-2012-and-beyond/).
 
 _Accessibility — _in respect to devices — was the first. This one was obvious. The whole industry had become obsessed with responsive design the year before (2010). My second point, _Screen Resolution and Scalable Graphics_, was also a logical conclusion and it has featured significantly in this year's discourse.
 
@@ -34,13 +34,13 @@ As 2012 has progressed I've had a growing feeling that there is something not qu
 <blockquote><p>In seeking design solutions to this problem, we could create an aesthetic more appropriate to the medium—and perhaps realize that the responsive image problem only exists because our design conventions remain rooted in print.</p></blockquote>
 
 
-I would not go as far as to suggest images are simply wrong for the web, but trying to crowbar them in to suit an old way of design thinking does not get to the root of the problem. We do need something, be it a [picture element](http://dvcs.w3.org/hg/html-proposals/raw-file/tip/responsive-images/responsive-images.html) or not, but **far less so than we think**. Equally I have felt that over emphasis on content and typographic design that [many have explored](https://dbushell.com/2012/05/26/the-restriction-of-type/) leaves something to be desired. It doesn't abuse the medium, but neither does it take advantage of it.
+I would not go as far as to suggest images are simply wrong for the web, but trying to crowbar them in to suit an old way of design thinking does not get to the root of the problem. We do need something, be it a [picture element](http://dvcs.w3.org/hg/html-proposals/raw-file/tip/responsive-images/responsive-images.html) or not, but **far less so than we think**. Equally I have felt that over emphasis on content and typographic design that [many have explored](/2012/05/26/the-restriction-of-type/) leaves something to be desired. It doesn't abuse the medium, but neither does it take advantage of it.
 
 
 ### State
 
 
-The final point I made was: _Interactivity_. That I found difficult to pin down but now I feel a sense of clarity emerging. Websites are interactive in their nature, therefore whenever we try to design a single state we're ignoring the before and after. When you begin to focus design on _user journeys_ and _interactions_ the print aesthetic quickly evaporates. As I've become more immersed in an [agile and iterative workflow](https://dbushell.com/2012/09/17/agile-website-design-and-development/) I've started to see websites for what they are.
+The final point I made was: _Interactivity_. That I found difficult to pin down but now I feel a sense of clarity emerging. Websites are interactive in their nature, therefore whenever we try to design a single state we're ignoring the before and after. When you begin to focus design on _user journeys_ and _interactions_ the print aesthetic quickly evaporates. As I've become more immersed in an [agile and iterative workflow](/2012/09/17/agile-website-design-and-development/) I've started to see websites for what they are.
 
 Websites share the content we see in printed publications, the voices we hear in advertisement, and the functionality we use in applications. We have to deliver on all of these fronts on a medium that cannot replicate any of them to their fullest. Technical limitations aside, these requirements contrast more often than they compliment.
 

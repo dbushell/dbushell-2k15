@@ -18,7 +18,7 @@ Spot on Jobsy!
 ## Now back to web design
 
 
-It made me think about my own practice in web design. Due to subjectivity — or as Jobs would have said, bad taste — there are no "right" answers in design (which Jobs probably wouldn't have said). But there are a lot of very bad answers. My post [Reflecting on Aesthetics](https://dbushell.com/2011/01/16/reflecting-on-aesthetics/) (Jan 2011) describes a little bit of my thinking, obviously inspired by many great designers past.
+It made me think about my own practice in web design. Due to subjectivity — or as Jobs would have said, bad taste — there are no "right" answers in design (which Jobs probably wouldn't have said). But there are a lot of very bad answers. My post [Reflecting on Aesthetics](/2011/01/16/reflecting-on-aesthetics/) (Jan 2011) describes a little bit of my thinking, obviously inspired by many great designers past.
 
 I started practicing _Responsive Web Design_ — the art of adjusting a website to its environment, most noticeably device size — towards the end of 2010. Previously I was designing static websites. Because the ideas and technologies are so new and ever evolving I'm still learning, but then again, so is the whole industry. I've heard a few bozos suggest that responsive web design is a "trend" that will pass. Or it is somehow "boring". I tend to ignore those people. If you think that you don't understand what is fundamentally important in design, let alone the evolution in web access (alright, it's not the holy grail but there's little downside). I'd suggest reading the Jobs biography, and then [Mobile First](http://www.abookapart.com/products/mobile-first) by **Luke Wroblewski**.
 
@@ -56,7 +56,7 @@ The website of [Andersson-Wise](http://www.anderssonwise.com/) architecture says
 [![Andersson-Wise](/images/2011/10/andersson-wise.png)](http://www.anderssonwise.com/)
 
 * **Observation:** this design mixes a print inspired grid with the fluidity of web design. **Lesson:** take full advantage of the space when you have it.
-* **Observation:** Only **one** piece of content is removed on the entire website at a smaller size (and needlessly, in my opinion). **Lesson:** small screen does not mean less content. Read my ramblings on the matter in this post: [What is mobile?](https://dbushell.com/2011/09/14/what-is-mobile/)
+* **Observation:** Only **one** piece of content is removed on the entire website at a smaller size (and needlessly, in my opinion). **Lesson:** small screen does not mean less content. Read my ramblings on the matter in this post: [What is mobile?](/2011/09/14/what-is-mobile/)
 * **Observation:** at smaller sizes the website loads smaller images. **Lesson:** responsive design is not just about screen size; consider everything about the user experience, including bandwidth limitations.
 * **Observation:** on [portfolio pages](http://www.anderssonwise.com/projects/id/29/) the photo gallery transforms from a fullscreen slideshow to a vertical list of images. **Lesson:** consider the user's interaction. In this case scrolling down to see more is a lot easier than operating a slideshow.
 

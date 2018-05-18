@@ -39,6 +39,6 @@ Once a trustworthy test is established we can start implementing the fixed posit
 
 It's worth noting that iOS5 has also added support for **`overflow:scroll`** and **`-webkit-overflow-scrolling:touch`**, meaning that other native style interactions can be replicated a lot easier.
 
-I've designed and built [mobile specific](https://dbushell.com/showcase/my-life-listed/) websites before, as well as many more fully responsive websites. With techniques like this I can see a future where responsive website designs can deliver a natively styled and packaged "web app" that is also accessible on normal mobile & desktop web browsing.
+I've designed and built [mobile specific](/showcase/my-life-listed/) websites before, as well as many more fully responsive websites. With techniques like this I can see a future where responsive website designs can deliver a natively styled and packaged "web app" that is also accessible on normal mobile & desktop web browsing.
 
 A preferable future, I'm sure you'll agree.

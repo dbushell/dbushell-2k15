@@ -45,7 +45,7 @@ I'm using the History API to maintain URLs and native browser navigation. I've a
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse/) is another useful tool from Google.
 
-<p class="b-post__image"><img alt="Lighthouse report for dbushell.com" data-src="/images/blog/2018/dbushell-app-lighthouse.png" data-lazy="false"></p>
+<p class="b-post__image">![Lighthouse report for dbushell.com](/images/blog/2018/dbushell-app-lighthouse.png)</p>
 
 The browser plugin will run an audit and report back in dizzying detail.
 

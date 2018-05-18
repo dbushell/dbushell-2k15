@@ -6,7 +6,7 @@ template: single.html
 title: Modularity and Style Guides
 ---
 
-Last week I wrote about [scoping typographic styles](https://dbushell.com/2012/04/18/scoping-typography-css/) to introduce the concept of **modularity** in CSS. In that example, I removed the common globally defined text styles — for paragraphs, headings and lists etc — and scoped them with a `.text` class to be applied to any block of text-based content. This technique gives us more control and less conflicts.
+Last week I wrote about [scoping typographic styles](/2012/04/18/scoping-typography-css/) to introduce the concept of **modularity** in CSS. In that example, I removed the common globally defined text styles — for paragraphs, headings and lists etc — and scoped them with a `.text` class to be applied to any block of text-based content. This technique gives us more control and less conflicts.
 
 It's one of many techniques I use in front-end website development. Below I'll introduce a few more and how I link them together for the ultimate _Power Up_ ★
 

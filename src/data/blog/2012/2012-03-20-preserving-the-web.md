@@ -22,7 +22,7 @@ This domain [dbushell.com] has been online for coming on 9 years but I made many
 ## Preserving a Website
 
 
-So as it happens I [recently](https://dbushell.com/2012/03/06/design-heroes/) shut up shop at my _other_ blog [Design Heroes](http://designheroes.co.uk). I scheduled a mass deletion for an upcoming free weekend but — thankfully! — Mr. Keith's video intervened. Now, I have no delusion that my little bookmark blog has any value to others, but I do know I'll kick myself in a decade's time when I think back to the day I deleted several years of my life on a hangover Sunday.
+So as it happens I [recently](/2012/03/06/design-heroes/) shut up shop at my _other_ blog [Design Heroes](http://designheroes.co.uk). I scheduled a mass deletion for an upcoming free weekend but — thankfully! — Mr. Keith's video intervened. Now, I have no delusion that my little bookmark blog has any value to others, but I do know I'll kick myself in a decade's time when I think back to the day I deleted several years of my life on a hangover Sunday.
 
 The answer? Perserve the website. I had my doubts about pickling a USB stick so I decided to keep Design Heroes online in suspended animation. This required:
 

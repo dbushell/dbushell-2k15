@@ -6,7 +6,7 @@ template: single.html
 title: Spring Cleaning
 ---
 
-May 2011 — I [redesigned](https://dbushell.com/2011/05/25/designing-a-new-me/) my website (this website) with the primary goal of making it _responsive_. I was happy with the result and it has served me well, but it also lacked some of the finesse of previous iterations. Never being satisfied, I deciding to partake in a little spring cleaning. Well, a little turned into _a lot_.
+May 2011 — I [redesigned](/2011/05/25/designing-a-new-me/) my website (this website) with the primary goal of making it _responsive_. I was happy with the result and it has served me well, but it also lacked some of the finesse of previous iterations. Never being satisfied, I deciding to partake in a little spring cleaning. Well, a little turned into _a lot_.
 
 <p class="b-post__image">[![dbushell.com design progression](/images/2012/02/website-progression.png)](/images/2012/02/website-progression.png)</p>
 

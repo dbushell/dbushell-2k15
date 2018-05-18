@@ -8,7 +8,7 @@ title: Frozen and Flickr
 
 Around here it's nearly zero and covered in snow. I decided to spend the day integrating Flickr.
 
-[![Day-2-Saturday-02-01-2010](http://farm3.static.flickr.com/2546/4236319263_96896064dc.jpg)](http://www.flickr.com/photos/dbushell/4236319263/)
+[*photo was lost to time...*]
 
 If you take a look in the right-hand column of my blog (under Twitter) you should see two of my latest Flickr photos. I say "should" because I'm not 100 percent on the Flickr API I've been experimenting with, but for now I can see photos!
 

@@ -8,7 +8,7 @@ title: First Thursday
 
 Man, this month has been hectic!
 
-[![Day 35 (Thursday 04-02-2010)](http://farm3.static.flickr.com/2697/4330570429_8b2fe98cb7.jpg)](http://www.flickr.com/photos/dbushell/4330570429/)
+[*photo was lost to time...*]
 
 When I'm not at work I'm busy trying to finish an in-depth article on the future of interactive design (featuring the iPad :-). The delay might be a good thing because there has been a some excellent articles on the subject in the past couple days so I'll have a few more points to dicuss, when I get round to it!
 

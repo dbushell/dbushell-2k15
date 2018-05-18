@@ -15,7 +15,7 @@ This is my third conference of the year and I'm getting exceedingly good at it!
 
 A trip up to DIBI meant a late evening train from Kings Cross, a late night arrival to the pre-party (a bit of catching up to do) and an early-ish start. The two track line-up was split evenly between design and development (hence the conference name). Considering this is only its second year we were treating to an amazing venue and as many industry superstars as you could possibly imagine.
 
-Aside from **Mike Kus's** excellent talk (I'd heard it at [FOWD last month](https://dbushell.com/2011/05/17/fowd-day-one-review/)) I was strictly there for design.
+Aside from **Mike Kus's** excellent talk (I'd heard it at [FOWD last month](/2011/05/17/fowd-day-one-review/)) I was strictly there for design.
 
 
 ## The Mechanical Revolution

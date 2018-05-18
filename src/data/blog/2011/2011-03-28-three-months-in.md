@@ -10,7 +10,7 @@ I find it hard to believe we're already (ok, almost) in April.
 
 2011 in web design for me has kicked off with a BOOM! If I do say so myself. I'm no longer interested in just designing websites for clients and clients' clients. I'm doing all that, _and_ I'm pushing it further; looking for opportunities to use new web technologies to provide a better experience. Even if only for a single device or situation.
 
-It can be a difficult judgement because a feature should not exist just for the sake of it – and definitely not for the '_wow-factor_'. I'm a very strong believer that design serves a strict purpose and my design style reflects that (see [Reflecting on Aesthetics](https://dbushell.com/2011/01/16/reflecting-on-aesthetics/)). Despite restraint it's impossible not to get excited about what web browsers can do nowadays. With things like audio & video APIs, device orientation and the good old JavaScript revival, how can I not be blinded from the original purpose of websites I design?
+It can be a difficult judgement because a feature should not exist just for the sake of it – and definitely not for the '_wow-factor_'. I'm a very strong believer that design serves a strict purpose and my design style reflects that (see [Reflecting on Aesthetics](/2011/01/16/reflecting-on-aesthetics/)). Despite restraint it's impossible not to get excited about what web browsers can do nowadays. With things like audio & video APIs, device orientation and the good old JavaScript revival, how can I not be blinded from the original purpose of websites I design?
 
 Is the trick to design a 'standard' website, then carefully sprinkle on some 'HTML5' like the dusting of a Victoria sponge?
 

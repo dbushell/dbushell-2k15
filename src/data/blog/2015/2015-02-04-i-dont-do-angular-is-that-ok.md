@@ -39,7 +39,7 @@ With the rise in popularity of [Angular](https://angularjs.org/) and all the o
 
 Sure, I've dabbled, and trepidations aside, I even think I might like where these frameworks are going (Jeremy Keith has recently [summed up the concerns](https://adactio.com/journal/8245)). But after some pondering it struct me, **do I want to be doing this work?** It's not what I'm best at. I don't really enjoy it.
 
-Is that simply because I haven't taken the time to learn this stuff to a professional level? I've spent a [good amount of time](https://dbushell.com/2013/04/25/ember-data-and-mongodb/) playing with these technologies. I understand the concepts, certainly enough to consider, and doubt, whether I can realistically stretch my range of services so broadly.
+Is that simply because I haven't taken the time to learn this stuff to a professional level? I've spent a [good amount of time](/2013/04/25/ember-data-and-mongodb/) playing with these technologies. I understand the concepts, certainly enough to consider, and doubt, whether I can realistically stretch my range of services so broadly.
 
 It shouldn't be an expectation that a front-end developer can program applications just because the language is now JavaScript. I don't think it is, at least not yet. My frustration stems from the growing number of enquiries I receive, and opportunities I seek out, looking for a front-end developer to build a website, only to discover in follow-up discussion that the entire thing is Angular.
 

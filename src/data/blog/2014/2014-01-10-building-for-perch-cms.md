@@ -26,7 +26,7 @@ I've toyed with other platforms in the past but I've never found the right balan
 ## Working with Perch
 
 
-Since I have static HTML templates and content for this website ([dbushell.com](https://dbushell.com/)) I decided to build a local version on Perch.
+Since I have static HTML templates and content for this website ([dbushell.com](/)) I decided to build a local version on Perch.
 
 With Perch every page can either have its own unique template, or inherit from a master. These page templates can use includes as you might expect (they're written in PHP) so the first thing I did was separate the header and footer.
 

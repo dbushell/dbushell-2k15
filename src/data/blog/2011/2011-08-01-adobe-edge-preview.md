@@ -48,7 +48,7 @@ Combine that with an authoring tool as powerful as Flash and you suddenly have w
 ### Something to consider...
 
 
-At this year's [DIBI conference](https://dbushell.com/2011/06/09/design-it-build-it-dibi/) **Inayaili de León** gave an interesting talk entitled _The Mechanical Revolution_. She raised the very real and pragmatic idea that we should _let go_ of our hand-crafted ideals; allow the machine to work for us.
+At this year's [DIBI conference](/2011/06/09/design-it-build-it-dibi/) **Inayaili de León** gave an interesting talk entitled _The Mechanical Revolution_. She raised the very real and pragmatic idea that we should _let go_ of our hand-crafted ideals; allow the machine to work for us.
 
 Is that not what Adobe Edge aims to do?
 

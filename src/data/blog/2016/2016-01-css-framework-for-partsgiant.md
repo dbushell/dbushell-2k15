@@ -84,4 +84,4 @@ Documentation is very important for a project like this. But it can be overdone.
 
 Documentation wasn’t actually requested by the client (they were only expecting a few comments in the stylesheet). With my approach I was able to deliver something much more readable with very little overhead. What I delivered was simply a product of my process building the CSS framework.
 
-[Looking for a developer/designer for your project? Get in touch!](https://dbushell.com/contact/)
+[Looking for a developer/designer for your project? Get in touch!](/contact/)

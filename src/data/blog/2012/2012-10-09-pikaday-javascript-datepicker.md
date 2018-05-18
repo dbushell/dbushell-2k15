@@ -6,7 +6,7 @@ template: single.html
 title: 'Pikaday: JavaScript datepicker'
 ---
 
-Pikaday is a JavaScript datepicker with a light footprint and easy style-ability with [modular CSS](https://dbushell.com/2012/04/23/modularity-and-style-guides/). It's in 'developer preview mode' but already looking great:
+Pikaday is a JavaScript datepicker with a light footprint and easy style-ability with [modular CSS](/2012/04/23/modularity-and-style-guides/). It's in 'developer preview mode' but already looking great:
 
 <p class="b-post__image">![Pikaday screenshot](/images/2012/10/pikaday.png)</p>
 
@@ -20,7 +20,7 @@ Because as much as we like open standards, the [HTML5 input types](http://www.q
 
 <p class="b-post__image">![Chrome date input](/images/2012/10/dateinput1.png)</p>
 
-This leaves us with a tricky situation. Normally we can safely use new web standards with the knowledge that non-supporting browsers will simply ignore them, or we can use [feature detection](https://dbushell.com/2012/03/03/forget-about-browser-support/) to progressively enhance the experience. With the state of the new input types however, this unfortunately means polyfill-only for the foreseeable future.
+This leaves us with a tricky situation. Normally we can safely use new web standards with the knowledge that non-supporting browsers will simply ignore them, or we can use [feature detection](/2012/03/03/forget-about-browser-support/) to progressively enhance the experience. With the state of the new input types however, this unfortunately means polyfill-only for the foreseeable future.
 
 **Pikaday [demo](http://dbushell.github.com/Pikaday/) and [source](https://github.com/dbushell/Pikaday) on GitHub.**
 
@@ -30,4 +30,4 @@ What's wrong with the ubiquitous [jQuery UI datepicker](http://jqueryui.com/dat
 
 What's next? Please report any bugs and feature requests on the [GitHub issue tracker](https://github.com/dbushell/Pikaday/issues). I'm working on date range and time selection. I'll likely ship it on a live website soon and announce a production-ready version.
 
-(This project has delayed my [redesign](https://dbushell.com/2012/09/30/groundhog-day/) but rest assured it'll happen soon!)
+(This project has delayed my [redesign](/2012/09/30/groundhog-day/) but rest assured it'll happen soon!)

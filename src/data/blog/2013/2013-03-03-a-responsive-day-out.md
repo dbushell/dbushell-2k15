@@ -14,7 +14,7 @@ title: A Responsive Day Out
 
 On Friday 1st March, I spoke at [Responsive Day Out](http://responsiveconf.com/) in Brighton. [Videos at Besquare](http://www.besquare.me/conferences/responsive-day-out/), [Audio of all talks](http://adactio.com/journal/6091/) is available and you can click along to [my slides](https://speakerdeck.com/dbushell/responsive-navigation) too.
 
-What a wonderful day! When [Jeremy asked me](https://dbushell.com/2012/12/07/responsive-day-out/) to speak last year, March seemed eons away. I've never spoken at anywhere near this level before. It was an honour I couldn't refuse and I figured, 20 minutes? I can handle that. I'm so glad I immediately said yes without thinking. I would have talked myself out of one of the best experiences of my life.
+What a wonderful day! When [Jeremy asked me](/2012/12/07/responsive-day-out/) to speak last year, March seemed eons away. I've never spoken at anywhere near this level before. It was an honour I couldn't refuse and I figured, 20 minutes? I can handle that. I'm so glad I immediately said yes without thinking. I would have talked myself out of one of the best experiences of my life.
 
 In ten weeks I jotted down hundreds of notes for my talk on "Responsive Navigation". It wasn't until last week, when I put my slide deck together, that I began to question my ability. Do I even have the knowledge to tackle this subject? With intense scrutiny my bullet points started to seem trivial, obvious.
 
