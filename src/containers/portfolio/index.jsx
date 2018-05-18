@@ -2,6 +2,8 @@ import React from 'react';
 import Block from '../../components/block';
 import Post from '../../components/post';
 import Title from '../../components/title';
+import LazyImage from '../../components/lazyimage';
+
 const Portfolio = props => {
   return (
     <Block isMain>
@@ -21,7 +23,7 @@ const Portfolio = props => {
                     <span className="b-folio__label">
                       Base Creative / WordPress
                     </span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/bcwordpress.png"
                       alt="Building a WordPress Theme designed by Base Creative, London"
@@ -35,7 +37,7 @@ const Portfolio = props => {
                     className="b-folio__link"
                     href="/2015/03/18/responsive-design-for-houden/">
                     <span className="b-folio__label">Houden</span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/houden.png"
                       alt="Houden"
@@ -49,7 +51,7 @@ const Portfolio = props => {
                     className="b-folio__link"
                     href="/2014/05/07/responsive-design-for-uwe-wittwer/">
                     <span className="b-folio__label">Uwe Wittwer</span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/uwewittwer.png"
                       alt="Uwe Wittwer"
@@ -63,7 +65,7 @@ const Portfolio = props => {
                     className="b-folio__link"
                     href="/2016/10/10/building-a-shopify-theme/">
                     <span className="b-folio__label">Shopify Theme</span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/stshopify.png"
                       alt="Building a Shopify Theme"
@@ -77,7 +79,7 @@ const Portfolio = props => {
                     className="b-folio__link"
                     href="/2016/01/04/css-framework-for-partsgiant/">
                     <span className="b-folio__label">PartsGiant</span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/partsgiant.jpg"
                       alt="PartsGiant"
@@ -91,7 +93,7 @@ const Portfolio = props => {
                     className="b-folio__link"
                     href="/2014/02/17/introducing-tales/">
                     <span className="b-folio__label">Tales</span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/tales.jpg"
                       alt="Tales"
@@ -116,7 +118,7 @@ const Portfolio = props => {
                     className="b-folio__link"
                     href="/showcase/origami-unfolded/">
                     <span className="b-folio__label">Origami Unfolded</span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/origami.jpg"
                       alt="Origami Unfolded"
@@ -128,7 +130,7 @@ const Portfolio = props => {
                   style={{backgroundColor: '#661f1f'}}>
                   <a className="b-folio__link" href="/showcase/machinal/">
                     <span className="b-folio__label">Machinal</span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/machinal.jpg"
                       alt="Machinal"
@@ -140,7 +142,7 @@ const Portfolio = props => {
                   style={{backgroundColor: '#e57300'}}>
                   <a className="b-folio__link" href="/showcase/space-opera/">
                     <span className="b-folio__label">Space Opera</span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/space.jpg"
                       alt="Space Opera"
@@ -152,7 +154,7 @@ const Portfolio = props => {
                   style={{backgroundColor: '#e5c72e'}}>
                   <a className="b-folio__link" href="/showcase/seized/">
                     <span className="b-folio__label">Seized</span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/seized.jpg"
                       alt="Seized"
@@ -166,7 +168,7 @@ const Portfolio = props => {
                     className="b-folio__link"
                     href="/showcase/digital-legibility/">
                     <span className="b-folio__label">Digital Legibility</span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/digital.jpg"
                       alt="Digital Legibility"
@@ -180,7 +182,7 @@ const Portfolio = props => {
                     className="b-folio__link"
                     href="/showcase/tamed-aggression/">
                     <span className="b-folio__label">Tamed Aggression</span>
-                    <img
+                    <LazyImage
                       className="b-folio__image"
                       src="/assets/img/portfolio/tamed.jpg"
                       alt="Tamed Aggression"
@@ -236,7 +238,9 @@ const Portfolio = props => {
     </Block>
   );
 };
+
 Portfolio.defaultProps = {
   pageHeading: 'Portfolio'
 };
+
 export default Portfolio;
