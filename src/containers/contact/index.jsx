@@ -96,10 +96,9 @@ class Contact extends Component {
                         <strong>Have a project in mind?</strong>
                       </h4>
                       <p className="p--small">
-                        I can provide a <b>free quote.</b> Please provide as
-                        much detail as possible — budget, requirements,
-                        timelines — so I can answer you quickly. If I’m not
-                        available now we can book in advance.
+                        Please provide as much detail as possible — budget,
+                        requirements, timelines — so I can answer you quickly.
+                        If I’m not available now we can book in advance.
                       </p>
                       <Label field="contact-enquiry" text="Enquiry" />
                       <textarea

@@ -19,7 +19,7 @@ Every project is unique. Rather than offering a set package my approach to desig
 
 <blockquote>
   <p class="p--large p--quote">David was able to display sound reasoning and rationale for the decisions and advice provided to us, with solid industry best practice knowledge.</p>
-  <p class="p--small"><cite>Chris King &ndash; [ASE Consulting](http://www.ase.co.uk/)</cite></p>
+  <p class="p--small"><cite>Chris King &ndash; ASE Consulting</cite></p>
 </blockquote>
 
 Learn more about my [**web design process**](/responsive-design/).

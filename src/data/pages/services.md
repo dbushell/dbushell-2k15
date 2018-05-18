@@ -18,12 +18,12 @@ HTML, CSS, and JavaScript web standards evolve daily. I take every project as an
   <li>Sass</li>
   <li>SVG</li>
   <li>JavaScript</li>
-  <li>jQuery</li>
+  <li>Service Workers</li>
   <li>React</li>
   <li>Node</li>
   <li>Git</li>
-  <li>Grunt</li>
-  <li>PHP</li>
+  <li>Gulp</li>
+  <li>Shopify</li>
   <li>WordPress</li>
 </ul>
 

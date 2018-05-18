@@ -4,7 +4,7 @@ I can pick up the overflow to help deliver your project on time. I pride myself 
 
 <blockquote>
   <p class="p--large p--quote">Highly skilled, personable, helpful and dedicated: David exceeded my expectations to deliver for us on a key project.</p>
-  <p class="p--small"><cite>Frank Fenton &ndash; Head of Digital &ndash; <a href="http://www.dinosaur.co.uk/" target="_blank">Dinosaur UK Ltd.</a></cite></p>
+  <p class="p--small"><cite>Frank Fenton &ndash; Head of Digital &ndash; Dinosaur UK Ltd.</cite></p>
 </blockquote>
 
 Here's how I can help your agency:

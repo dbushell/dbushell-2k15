@@ -7,7 +7,7 @@ pageDesc: 'dbushell.com – or dbushell.app if you like redirects – is now a p
 
 This website – dbushell.com – or [dbushell.app](https://dbushell.app) if you like redirects – is now a **progressive web app!**
 
-What does that mean? Don't let the fancy initialism deceive you. PWAs are websites first and foremost. But they can be installed as apps. What is meant by "app" depends on where the installation happens. As of writing it seems like OSes are still uncertain as to how PWAs should be handled.
+What does that mean? Don't let the fancy initialism deceive you. PWAs are websites first and foremost. But they can be installed like an app. What is meant by "app" depends on where it's installed. As of writing it seems like OSes are still uncertain as to how PWAs are to be treated.
 
 For my website the "add to home screen" experience is just a vanity bookmark. Regardless, there are benefits to transforming your website into a PWA.
 
@@ -37,9 +37,9 @@ Workbox gets one *clinking beer mugs* and two *thumbs up* emojis from me. The ba
 
 ## React Everywhere
 
-PWAs don't require anything special on the front-end but if we want that true app experience a page refresh is *so web*.
+PWAs don't require anything special on the front-end but if it's that true "app experience" we're after page refreshes are *so uncool*.
 
-I've been using React to [generate my static site](/2017/02/13/react-as-a-static-site-generator/) for over a year now. This requires a bit more than just React ([see my Github repo](https://github.com/dbushell/dbushell.com)) but I can reuse most of the React code on the front-end. I added a second step to generate each page as JSON so they load even faster. React 16 introduced `hydrate()` which can efficiently take over server-rendered markup.
+I've been using React to [generate my static site](/2017/02/13/react-as-a-static-site-generator/) for over a year now. This requires a bit more than just React ([see my GitHub repo](https://github.com/dbushell/dbushell.com)) but I can reuse most of the React code on the front-end. I added a second step to generate each page as JSON so they load even faster. React 16 introduced `hydrate()` which can efficiently take over server-rendered markup.
 
 I'm using the History API to maintain URLs and native browser navigation. I've also sprinkled in an experimental `IntersectionObserver` to [lazy load images](https://www.smashingmagazine.com/2018/01/deferring-lazy-loading-intersection-observer-api/).
 
@@ -49,10 +49,10 @@ I'm using the History API to maintain URLs and native browser navigation. I've a
 
 The browser plugin will run an audit and report back in dizzying detail.
 
-Lighthouse isn't easily impressed. I was seeing red lights for days whilst learning new optimisations. I could have sworn it was all green when I checked a few months ago. I suppose the web moves fast and new improvements are always on the horizon. Ideally these things become second nature but crucial milliseconds can easily slip away if you're not careful.
+Lighthouse isn't easily impressed. I was seeing red lights for days whilst learning new optimisations. I could have sworn it was all green when I checked a few months ago. I suppose the web moves fast and new improvements are forever on the horizon. Ideally these things become second nature but crucial milliseconds can easily slip away if you're not careful.
 
 ## Progressive Web
 
-PWAs are really just an encapsulation of modern technologies and the same progressive web development practices that have proved to build solid websites for years. For installation they do need an additional [Web Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) file. Because the number of existing standards to define icons and metadata wasn't enough.
+PWAs are really just an encapsulation of modern technologies and the same progressive web development practices that have long proved to build solid websites. For installation they do need an additional [Web Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) file. Because the number of existing standards to define icons and metadata wasn't enough.
 
 If you need help optimising your website or PWA [get in touch!](/contact/)
