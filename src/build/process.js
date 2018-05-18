@@ -8,7 +8,7 @@ import Prism from 'prismjs';
 import loadLanguages from 'prismjs/components/index';
 import fs from 'fs-extra';
 import frontMatter from 'front-matter';
-import {escSmart, trimExcerpt} from './utils';
+import {escSmart, trimExcerpt, replaceExternalLinks, replaceLazyImages} from './utils';
 
 marked.setOptions({
   smartypants: true,
@@ -33,7 +33,10 @@ marked.setOptions({
  * Convert Markdown to HTML.
  */
 export function markdown(md) {
-  return marked(md);
+  let html = marked(md);
+  html = replaceExternalLinks(html);
+  html = replaceLazyImages(html);
+  return html;
 }
 
 /**

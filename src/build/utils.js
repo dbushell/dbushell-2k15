@@ -79,3 +79,47 @@ export function removePrivateProps(obj) {
     }
   }
 }
+
+/**
+ * Add attributes to external links
+ */
+export function replaceExternalLinks(html) {
+  const matches = [];
+  const rLink = /<a(?:.*?)href="(.*?)"(?:.*?)>(.*?)<\/a>/g;
+  let match = rLink.exec(html);
+  while (match !== null) {
+    if (!/^\//.test(match[1])) {
+      matches.push(match);
+    }
+    match = rLink.exec(html);
+  }
+  matches.forEach(match => {
+    html = html.replace(
+      match[0],
+      `<a rel="noopener noreferrer" target="_blank" href="${match[1]}">${
+        match[2]
+      }</a>`
+    );
+  });
+  return html;
+}
+
+export function replaceLazyImages(html) {
+  const matches = [];
+  const placeholder =
+    'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==';
+  const rLink = /<img(?:.*?)src="(.*?)"(?:.*?)alt="(.*?)"(?:.*?)\/?>/g;
+  let match = rLink.exec(html);
+  while (match !== null) {
+    matches.push(match);
+    match = rLink.exec(html);
+  }
+  matches.forEach(match => {
+    html = html.replace(
+      match[0],
+      `<img src="${placeholder}" data-lazy="false" data-src="${match[1]}" alt="${match[2] ||
+        'no description'}">`
+    );
+  });
+  return html;
+}
