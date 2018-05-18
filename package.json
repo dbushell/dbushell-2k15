@@ -12,7 +12,6 @@
     "start":
       "npx http-server ./dbushell.github.io/ -s -g -S -C ~/src/cert/server.crt -K ~/src/cert/server.key",
     "build": "npx babel-node ./index.js",
-    "prettify": "node ./src/tasks/prettify.js --build --tasks",
     "test": "npx jest",
     "test-update": "npx jest --updateSnapshot",
     "webpack:dev": "npx webpack --mode development --debug",
@@ -20,7 +19,7 @@
     "webpack": "npm run webpack:prod && npm run webpack:dev",
     "uglify":
       "cd ./dbushell.github.io/assets/js/ && npx uglifyjs -m --source-map \"url='/assets/js/inline.min.js.map'\" -o inline.min.js inline.js",
-    "css": "node ./src/tasks/css.js"
+    "css": "node ./src/build/css.js"
   },
   "babel": {
     "presets": ["@babel/preset-env", "@babel/preset-react"],
