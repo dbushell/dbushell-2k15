@@ -121,6 +121,7 @@ class Root extends Component {
           `https://dbushell.com${pageProps.pagePath}`
         );
       }
+      this.setupInlineScripts();
     }
     /*
     const {pageProps, hState, isPopState} = this.state;
@@ -155,6 +156,20 @@ class Root extends Component {
     });
   }
 
+  setupInlineScripts() {
+    const scripts = [].slice.call(
+      document.querySelectorAll('script[data-lazy="script"]')
+    );
+    scripts.forEach(script => {
+      const parent = script.parentNode;
+      script.remove();
+      const newScript = document.createElement('script');
+      newScript.async = true;
+      newScript.innerHTML = script.innerHTML;
+      parent.appendChild(newScript);
+    });
+  }
+
   handleIntersection(entries) {
     entries.forEach(entry => {
       if (entry.intersectionRatio <= 0) {
@@ -162,13 +177,6 @@ class Root extends Component {
       }
       const img = entry.target;
       this._observer.unobserve(img);
-      // this.preloadImage(img.dataset.src).then(() => {
-      //   img.src = img.dataset.src;
-      //   if (img.dataset.srcset) {
-      //     img.srcset = img.dataset.srcset;
-      //   }
-      //   img.dataset.lazy = true;
-      // });
       img.src = img.dataset.src;
       if (img.dataset.srcset) {
         img.srcset = img.dataset.srcset;
@@ -176,15 +184,6 @@ class Root extends Component {
       img.dataset.lazy = true;
     });
   }
-
-  // preloadImage(url) {
-  //   return new Promise((resolve, reject) => {
-  //     const image = new Image();
-  //     image.src = url;
-  //     image.onload = resolve;
-  //     image.onerror = reject;
-  //   });
-  // }
 
   handleClick(e) {
     if (e.which !== 1) {

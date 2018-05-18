@@ -29,6 +29,9 @@
     "space": true,
     "extends": ["xo-react"],
     "envs": ["node", "browser", "jest"],
+    "ignores": [
+      "src/data/**/*"
+    ],
     "rules": {
       "no-unused-vars": "warn",
       "react/no-danger": "warn",
