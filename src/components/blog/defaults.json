@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "pwa-progressive-web-apps",
+      "title": "PWA: Progressive Web Apps",
+      "href": "/2018/05/21/pwa-progressive-web-apps/",
+      "date": 1526896800000
+    },
+    {
       "id": "react-redux-internationalisation",
       "title": "React & Redux - Internationalisation",
       "href": "/2018/04/05/react-redux-internationalisation/",
@@ -30,12 +36,6 @@
       "title": "#TIFU by deleting my work",
       "href": "/2017/08/15/tifu-by-deleting-my-work/",
       "date": 1502791200000
-    },
-    {
-      "id": "ssh-passphrases-in-macos-sierra",
-      "title": "SSH Passphrases in MacOS Sierra (and learning Vim)",
-      "href": "/2017/05/18/ssh-passphrases-in-macos-sierra/",
-      "date": 1495101600000
     }
   ]
 }

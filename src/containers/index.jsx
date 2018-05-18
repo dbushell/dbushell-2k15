@@ -133,7 +133,9 @@ class Root extends Component {
   }
 
   setupImages() {
-    const images = document.querySelectorAll('img[data-lazy="false"]');
+    const images = [].slice.call(
+      document.querySelectorAll('img[data-lazy="false"]')
+    );
     if (!app.isLazy) {
       images.forEach(img => {
         img.src = img.dataset.src;

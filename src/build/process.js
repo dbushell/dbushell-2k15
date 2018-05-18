@@ -5,6 +5,7 @@ import moment from 'moment';
 import striptags from 'striptags';
 import marked from 'marked';
 import Prism from 'prismjs';
+import loadLanguages from 'prismjs/components/index';
 import fs from 'fs-extra';
 import frontMatter from 'front-matter';
 import {escSmart, trimExcerpt} from './utils';
@@ -18,10 +19,11 @@ marked.setOptions({
     }
     try {
       if (!Object.hasOwnProperty.call(Prism.languages, lang)) {
-        require('prismjs/components/prism-' + lang + '.js');
+        loadLanguages(lang);
       }
       return Prism.highlight(code, Prism.languages[lang]);
     } catch (err) {
+      console.log(err);
       return code;
     }
   }
