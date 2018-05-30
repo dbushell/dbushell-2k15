@@ -1,0 +1,68 @@
+/*! Checkbox (element) */
+
+.e-checkbox {
+  cursor: pointer;
+
+  span {
+    display: inline-block;
+    position: relative;
+    padding-left: rem(28 + 14);
+
+    &:after,
+    &:before {
+      content: '';
+      display: block;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: background 100ms, opacity 50ms;
+    }
+
+    &:before {
+      background: $white;
+      border-radius: rem(6);
+      border: rem(2) solid $blue;
+      box-shadow: 0 0 0 rem(2) $beige, rem(2) rem(2) 0 rem(2) $green;
+      height: rem(28);
+      width: rem(28);
+    }
+
+    &:after {
+      background: $blue;
+      border-radius: rem(3);
+      color: $yellow;
+      content: '✓';
+      font-size: rem(12);
+      height: rem(18);
+      line-height: rem(18);
+      opacity: 0;
+      margin-left: rem(5);
+      text-align: center;
+      width: rem(18);
+    }
+  }
+
+  input:checked ~ span {
+    &:after {
+      opacity: 1;
+    }
+  }
+
+  &:focus,
+  &:hover {
+    span:before {
+      background: $yellow;
+    }
+  }
+
+  input:disabled ~ span {
+    cursor: default;
+
+    &:after,
+    &:before {
+      filter: saturate(0.3);
+      opacity: 0.6;
+    }
+  }
+}

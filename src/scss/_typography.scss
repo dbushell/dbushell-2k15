@@ -21,7 +21,7 @@ hr, .hr {
 }
 
 b, strong {
-  font-weight: $fw-bold;
+  font-weight: $fw-medium;
 }
 
 a {
@@ -106,7 +106,6 @@ p, .p {
 
   small {
     display: inline-block;
-    line-height: 1;
     font-size: rem($p--small);
   }
 }

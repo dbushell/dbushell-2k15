@@ -36,6 +36,12 @@
     box-shadow: 0 0 0 rem(2) $beige,
                 0 0 0 rem(4) $blue;
   }
+
+  &:disabled {
+    filter: saturate(0.3);
+    opacity: 0.6;
+    pointer-events: none;
+  }
 }
 
 .e-button--bg1,

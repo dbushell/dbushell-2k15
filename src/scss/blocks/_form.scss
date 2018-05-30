@@ -17,3 +17,19 @@
     margin-bottom: 0;
   }
 }
+
+.b-form__item--submit {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+
+  .e-loading {
+    margin-left: rem(14);
+  }
+}
+
+.e-loading {
+  height: rem(42);
+  user-select: none;
+  width: rem(42);
+}

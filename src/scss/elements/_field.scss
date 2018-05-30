@@ -35,6 +35,12 @@
   &:focus {
     background-color: $yellow;
   }
+
+  &:disabled {
+    filter: saturate(0.3);
+    opacity: 0.6;
+    pointer-events: none;
+  }
 }
 
 .e-field--area {

@@ -197,6 +197,9 @@ class Root extends Component {
     if (url.host !== window.location.host) {
       return;
     }
+    if (e.target.target === '_blank') {
+      return;
+    }
     e.preventDefault();
     const {pageProps} = this.state;
     if (pageProps.pagePath === url.pathname) {

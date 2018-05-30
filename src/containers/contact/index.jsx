@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-import Button from '../../components/button';
 import Block from '../../components/block';
-import Field from '../../components/field';
-import Label from '../../components/label';
+import Form from '../../components/form';
 import Post from '../../components/post';
 import Title from '../../components/title';
+
+const awsHandler =
+  'https://6rovexooub.execute-api.eu-west-1.amazonaws.com/production/contact';
 
 const SuccessMessage = () => (
   <p>
@@ -15,7 +16,7 @@ const SuccessMessage = () => (
 const ErrorMessage = () => (
   <p>
     <strong className="u-error">
-      There was an error submitting your enquiry, please email me on the address
+      There was an error submitting your enquiry, please email me at the address
       above.
     </strong>
   </p>
@@ -28,29 +29,105 @@ class Contact extends Component {
     };
   }
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      form: false,
+      message: false,
+      isWaiting: false
+    };
+    this.formRef = React.createRef();
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
   componentDidMount() {
     if (typeof window !== 'object') {
       return;
     }
     const {href} = window.location;
     if (href.indexOf('?success=true') !== -1) {
-      this._message = SuccessMessage;
+      this.setState({
+        form: false,
+        message: SuccessMessage
+      });
+      return;
     }
     if (href.indexOf('?error') !== -1) {
-      this._message = ErrorMessage;
+      this.setState({
+        form: false,
+        message: ErrorMessage
+      });
+      return;
     }
-    if (this._message) {
-      this.forceUpdate();
+    this.setState({
+      form: Form
+    });
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (this.state.message !== prevState.message) {
+      window.scrollTo(0, 0);
     }
   }
 
+  handleSubmit(e) {
+    const $form = this.formRef.current;
+    e.preventDefault();
+    if (!$form.elements.privacy.checked) {
+      return;
+    }
+    if ($form.elements.whodis.value !== '') {
+      this.setState({
+        form: false,
+        message: ErrorMessage
+      });
+      return;
+    }
+    const startTime = new Date().getTime();
+    const onLoadEnd = state => {
+      const timeDiff = new Date().getTime() - startTime;
+      if (timeDiff < 2000) {
+        return setTimeout(() => onLoadEnd(state), 2000 - timeDiff);
+      }
+      this.setState(state);
+    };
+    const data = JSON.stringify({
+      name: $form.elements.name.value,
+      replyTo: $form.elements.replyTo.value,
+      enquiry: $form.elements.enquiry.value
+    });
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', awsHandler, true);
+    xhr.setRequestHeader('Accept', 'application/json; charset=UTF-8');
+    xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+    xhr.addEventListener('loadend', response => {
+      if (response.target.status === 200) {
+        onLoadEnd({
+          form: false,
+          message: SuccessMessage,
+          isWaiting: false
+        });
+      } else {
+        onLoadEnd({
+          form: false,
+          message: ErrorMessage,
+          isWaiting: false
+        });
+      }
+    });
+    xhr.send(data);
+    this.setState({
+      isWaiting: true
+    });
+  }
+
   render() {
-    const {props, _message: Message} = this;
+    const {isWaiting, form: Form, message: Message} = this.state;
     return (
       <Block isMain>
         <Block>
           <Post>
-            <Title heading={props.pageHeading} />
+            <Title heading={this.props.pageHeading} />
             <div className="b-post__body">
               <p>Need help with your website?</p>
               <p className="p--large">
@@ -59,73 +136,14 @@ class Contact extends Component {
                 </b>
               </p>
               {Message && [<hr key={1} />, <Message key={2} />]}
-              {!Message && [
-                <p key={1}>or use the form below:</p>,
-                <form
+              {Form && [
+                <p key={1}>Email me above or use the form below:</p>,
+                <Form
                   key={2}
-                  className="b-form"
-                  id="contact-form"
-                  method="post"
-                  action="https://formspree.io/hi@dbushell.com">
-                  <input
-                    type="hidden"
-                    name="_next"
-                    value="https://dbushell.com/contact/?success=true"
-                  />
-                  <input
-                    type="hidden"
-                    name="_subject"
-                    value="dbushell.com enquiry"
-                  />
-                  <ul className="b-form__list">
-                    <li className="b-form__item">
-                      <Label field="contact-name" text="Name" />
-                      <Field id="contact-name" name="name" />
-                    </li>
-                    <li className="b-form__item">
-                      <Label field="contact-email" text="Email Address" />
-                      <Field
-                        type="email"
-                        id="contact-email"
-                        name="_replyto"
-                        placeholder="me@example.com…"
-                      />
-                    </li>
-                    <li className="b-form__item">
-                      <h4>
-                        <strong>Have a project in mind?</strong>
-                      </h4>
-                      <p className="p--small">
-                        Please provide as much detail as possible — budget,
-                        requirements, timelines — so I can answer you quickly.
-                        If I’m not available now we can book in advance.
-                      </p>
-                      <Label field="contact-enquiry" text="Enquiry" />
-                      <textarea
-                        required
-                        className="e-field e-field--area"
-                        id="contact-enquiry"
-                        name="enquiry"
-                        rows={5}
-                      />
-                    </li>
-                    <li className="b-form__item u-vh">
-                      <Label
-                        field="contact-human"
-                        text="If you’re human leave the next field blank!"
-                      />
-                      <input
-                        type="text"
-                        id="contact-human"
-                        name="_gotcha"
-                        tabIndex={-1}
-                      />
-                    </li>
-                    <li className="b-form__item">
-                      <Button submit text="Send Message" />
-                    </li>
-                  </ul>
-                </form>
+                  formRef={this.formRef}
+                  onSubmit={e => this.handleSubmit(e)}
+                  isWaiting={isWaiting}
+                />
               ]}
             </div>
           </Post>

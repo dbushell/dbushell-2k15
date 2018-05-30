@@ -17,6 +17,10 @@ const Button = props => {
   if (props.shadow) {
     attr.className += ' e-button--shadow';
   }
+  if (props.disabled) {
+    attr.className += ' e-button--disabled';
+    attr.disabled = true;
+  }
   const label = <ButtonLabel text={props.text} />;
   let button;
   if (props.submit) {

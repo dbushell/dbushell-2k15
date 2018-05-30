@@ -57,6 +57,10 @@ const Footer = props => {
             }}
           />
           <a href="/">David Bushell</a>
+          <br />
+          <a href="/privacy/">
+            <span className="u-dim">Privacy Policy</span>
+          </a>
         </Small>
       </Block>
     </footer>

@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "pageHeading": "Privacy Policy",
+      "pagePath": "/privacy/"
+    },
+    {
       "pageHeading": "Connectivity Issues!",
       "pagePath": "/offline/"
     },
