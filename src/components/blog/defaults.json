@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "availability-september",
+      "title": "Availability - September 2018",
+      "href": "/2018/08/14/availability-september/",
+      "date": 1534240800000
+    },
+    {
       "id": "pwa-progressive-web-apps",
       "title": "PWA: Progressive Web Apps",
       "href": "/2018/05/21/pwa-progressive-web-apps/",
@@ -30,12 +36,6 @@
       "title": "Raspberry Pi + e-Paper module + Node.js",
       "href": "/2017/09/20/raspberry-pi-epaper/",
       "date": 1505901600000
-    },
-    {
-      "id": "tifu-by-deleting-my-work",
-      "title": "#TIFU by deleting my work",
-      "href": "/2017/08/15/tifu-by-deleting-my-work/",
-      "date": 1502791200000
     }
   ]
 }
