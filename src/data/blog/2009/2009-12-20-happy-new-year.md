@@ -26,7 +26,7 @@ That's all for now folks.
 
 Oh go on then, just time for a small rant.
 
-Use to be that a man could walk into Top Shop or River Island and buy a **£20** gift voucher and in exchange hand over **£20** and a small amount of embarrassment from unsuccessfully trying to avoid eye-contact with the women sizing up bras. Now a **£20** gift voucher costs **£25 **(TWENTY FIVE QUID!) at Top Shop. Greedy bastards!
+Use to be that a man could walk into Top Shop or River Island and buy a **£20** gift voucher and in exchange hand over **£20** and a small amount of embarrassment from unsuccessfully trying to avoid eye-contact with the women sizing up bras. Now a **£20** gift voucher costs **£25** (TWENTY FIVE QUID!) at Top Shop. Greedy bastards!
 
 I was light-headed from all the perfume in the air. Had I been more alert I would have phoned the police. To be fair whoever figured out they could charge £25 for £20 is genius.
 
