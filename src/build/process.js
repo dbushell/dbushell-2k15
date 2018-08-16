@@ -32,13 +32,18 @@ marked.setOptions({
 const placeholder =
   'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==';
 
-function imageRenderer(href, title, text) {
+function renderImage(href, title, text) {
   text = typeof text === 'string' ? text : 'no description';
-  return `<p class="b-post__image"><img src="${placeholder}" data-lazy="false" data-src="${href}" alt="${text}"></p>`;
+  return `<p class="b-post__image"><img src="${placeholder}" data-lazy="false" data-src="${href}" alt="${text}"></p>\n`;
+}
+
+function renderParagraph(text) {
+  return /^<p[ |>]/.test(text) ? text : '<p>' + text + '</p>\n';
 }
 
 const renderer = new marked.Renderer();
-renderer.image = imageRenderer;
+renderer.image = renderImage;
+renderer.paragraph = renderParagraph;
 
 /**
  * Convert Markdown to HTML.
