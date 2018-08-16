@@ -30,7 +30,7 @@ $('a.delete').on('click', function(e) {
 
 Replace `confirm()` with your fancy dialog of choice. The function `[window.confirm](https://developer.mozilla.org/en/DOM/window.confirm)` provides a **native** dialog implemented by the browser. More on that later!
 
-<p class="b-post__image">![Browser confirm dialog in Mac OSX](/images/2012/02/macosx-confirm1.png)</p>
+![Browser confirm dialog in Mac OSX](/images/2012/02/macosx-confirm1.png)
 
 That's quite nice but searching the whole DOM for links is fairly intensive. There will also be the initial delay of execution while we wait for the `DOMContentLoaded` event. Users will quick trigger fingers will be able to click "Delete" and see no confirmation request. We also have the issue of microcopy hardcoded in our script (not the best place for it). We could mess around with additional `data-*` attributes but I have a better idea...
 
@@ -43,11 +43,11 @@ Boom! No dependancies, no need to worry about fast fingers, and browser support 
 
 This is perfect for our needs but as you've probably noticed the native confirm dialogs are ugly as hell. On mobile devices (see Android 4.0 and iOS below) the dialogs look slightly better in my opinion. More importantly though, **they work!** Have you ever tried building a custom modal dialog for mobile browsers? Good luck with that!
 
-<p class="b-post__image">![Browser confirm dialog on Android 4.0 and iOS](/images/2012/02/mobile-confirm.png)</p>
+![Browser confirm dialog on Android 4.0 and iOS](/images/2012/02/mobile-confirm.png)
 
 **Going native on mobile is undoubtedly the best experience**. Even native mobile apps use native dialogs. Don't even think about trying to implemented fixed positioning in a mobile web browser it will have you in tears (trust me). The question is: how do we go native on mobile, but provide a custom dialog design for desktop browsers like Chrome, while still gaining the benefits of inline event handlers? Check out the one I designed (based on TJ Holowaychuk's [UIKit](http://visionmedia.github.com/uikit/)):
 
-<p class="b-post__image">![Custom confirmation dialog](/images/2012/02/custom-confirm.png)</p>
+![Custom confirmation dialog](/images/2012/02/custom-confirm.png)
 
 To provide both native and custom dialogs through `confirm()` we need to override the function.
 

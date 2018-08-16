@@ -7,7 +7,7 @@ title: A Responsive Day Out
 ---
 
 
-<p class="b-post__image">![on stage at Responsive Day Out](/images/2013/03/me-at-responsive-day-out.jpg)</p>
+![on stage at Responsive Day Out](/images/2013/03/me-at-responsive-day-out.jpg)
 
 
 <p class="p--small">_Me on stage with Jeremy Keith, Tom Maslen, and Sarah Parmenter. Photos by [Laura Kalbag](http://www.flickr.com/photos/laurakalbag/8522038116/) and [Marc Thiele](http://www.flickr.com/photos/marcthiele/8519278036/)._</p>

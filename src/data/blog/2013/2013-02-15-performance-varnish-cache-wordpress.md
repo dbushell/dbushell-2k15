@@ -24,7 +24,7 @@ With a new virtual server to play with I installed [Varnish Cache](https://www.
 
 Here's a wonderful illustration from [Wiki Commons](http://en.wikipedia.org/wiki/File:Reverse_proxy_h2g2bob.svg):
 
-<p class="b-post__image">![Reverse_proxy_h2g2bob](/images/2013/02/Reverse_proxy_h2g2bob.svg)</p>
+![Reverse_proxy_h2g2bob](/images/2013/02/Reverse_proxy_h2g2bob.svg)
 
 Setting up Varnish required some hacking of Plesk and Apache. I went at it like a lumberjack. In my wisdom I made no record of what I did and I was drinking heavily. That means any day now I might have to hit the _"restore factory settings_" button.
 
@@ -48,7 +48,7 @@ It's also worth pointing out that you cannot clear cached CSS no matter how hard
 
 My [new site design](/2013/02/04/a-new-home/) has a _"From the blog…"_ feature in the page footer. This caused me some concern because dynamic content and caching don't go hand in hand.
 
-<p class="b-post__image">![latest articles on dbushell.com](/images/2013/02/from-the-blog.png)</p>
+![latest articles on dbushell.com](/images/2013/02/from-the-blog.png)
 
 In WordPress you would normally create a template include like so:
 

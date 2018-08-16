@@ -22,7 +22,7 @@ On [colour contrast](http://www.w3.org/TR/AERT#color-contrast) the W3C say:
 
 The suggested algorithm is a shade complicated to calculate in your head. Thankfully tools like Lea Verou's [Contrast Ratio](http://leaverou.github.io/contrast-ratio/) make it easy to check colours before use.
 
-<p class="b-post__image">[![Contrast Ratio](/images/2013/06/contrast-ratio.png)](http://leaverou.github.io/contrast-ratio/)</p>
+![Contrast Ratio](/images/2013/06/contrast-ratio.png)
 
 Though checking individually before use isn't the most efficient process when design is in flux. I say it's easier to get to know what good contrast looks like.
 
@@ -34,7 +34,7 @@ Make an educated guess; confirm later.
 
 There are browser plugins and bookmarklets like [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) that work well but they occasionally flag false positives. It's remarkably difficult to figure out the final browser render by inspecting the DOM. The only way to know exact colours for sure is to render areas _with_ and _without_ text. I've been experimenting with [PhantomJS](http://phantomjs.org/) to do this.
 
-<p class="b-post__image">![checking text contrast on dbushell.com](/images/2013/06/text-colour.png)</p>
+![checking text contrast on dbushell.com](/images/2013/06/text-colour.png)
 
 In the screenshot above you can see all the text nodes on my home page — easy to do in the browser to retrieve the computed text colour and size.
 

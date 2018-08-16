@@ -22,7 +22,7 @@ A good opportunity to try something new, don’t you think?
 
 Last summer I wrote my own Node script for a basic [Mustache](http://mustache.github.io/) templating engine (see: [How I built a Static Site Generator](/2014/07/09/how-i-built-a-static-site-generator/)). This was a fun project and has proven useful in many of my front-end dev jobs. It’s not really a static site generator though. Suitable only for a handful of templates and placeholder content.
 
-<p class="b-post__image"><img src="/images/blog/metalsmith.png" alt="Metalsmith"></p>
+![Metalsmith](/images/blog/metalsmith.png)
 
 I considered using [Jekyll](http://jekyllrb.com) to rebuild my site but I was keen to keep my [Grunt workflow](https://github.com/dbushell/dbushell-Origin) for assets. That’s when I remembered [Metalsmith](http://www.metalsmith.io/):
 
@@ -38,7 +38,7 @@ WordPress can export content as XML. Which is nice but XML hasn’t been “cool
 
 I had to modify the script several times to get the output I wanted. A tedious task for one not fond of, or indeed familiar with, Python. Following a final hour of manual editing, I had a directory of **254 articles** in Markdown format.
 
-<p class="b-post__image"><img src="/images/blog/metalsmith-markdown.png" alt="dbushel.com articles in markdown files"></p>
+![dbushell.com articles in markdown files](/images/blog/metalsmith-markdown.png)
 
 ## Handlebars Templates
 

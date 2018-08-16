@@ -9,7 +9,7 @@ A few weeks ago I was digging through storage and I found an original Raspberry 
 
 The Raspberry Pi / Arduino / single-board computer ecosystem has exploded since then. Maybe I can make a WiFi router, media server, BitTorent box?
 
-<p class="b-post__image">![Raspberry Pi v3 + 1.54inch Waveshare e-Paper module](/images/blog/rpi-epaper.jpg)</p>
+![Raspberry Pi v3 + 1.54inch Waveshare e-Paper module](/images/blog/rpi-epaper.jpg)
 
 ## Upgrading to the Pi
 
@@ -21,7 +21,7 @@ Still, it will be fit for – a yet to be decided – purpose.
 
 Although I'm SSH-ing into the Pi I figured a small display would be nice. I'm using the cheap white 'official' case which doesn't fit a display. I had to make room...
 
-<p class="b-post__image">![Raspberry Pi + e-Paper module (and case)](/images/blog/rpi-case.jpg)</p>
+![Raspberry Pi + e-Paper module (and case)](/images/blog/rpi-case.jpg)
 
 As you can see, I've done a decent job hacking a hole into the cover. Shame about the screws. Also, ignore those scratch marks. I could have glued the board on the inside without drilling. Nevermind! The cases are cheap enough.
 

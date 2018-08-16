@@ -13,7 +13,7 @@ From concept to launch the [new version](/2014/04/21/spring-refresh/) of my 
 
 
 
-<p class="b-post__image">![dbushell.com design in Photoshop](/images/2014/04/dbushell-photoshop.png)</p>
+![dbushell.com design in Photoshop](/images/2014/04/dbushell-photoshop.png)
 
 What you see above is the extent of my ’shopping for the new design. I probably wasted more time setting up those ridiculous guides than I did mocking up the visual concept. Still, for an afternoon's work I found it a worthwhile exercise. I had a checklist in my head of requirements I wanted the new site to address. Getting this far was enough to give me confidence in the design concept.
 
@@ -37,7 +37,7 @@ I spent a solid day tweaking CSS until I was happy with font sizes and vertical
 
 Inspired by Marcin Wichary's work at [Medium](https://medium.com/p/7c03a9274f9), I'm using `linear-gradient` to give fine control over hyperlink underlines. Combined with `text-shadow` to clear descenders this is a very pretty technique:
 
-<p class="b-post__image">![CSS link styles on dbushell.com](/images/2014/04/dbushell-link-style.png)</p>
+![CSS link styles on dbushell.com](/images/2014/04/dbushell-link-style.png)
 
 The standard `text-decoration: underline;` is too obtrusive and `border-bottom` tends to sit too low when used with a generous line height.
 
@@ -65,7 +65,7 @@ Speaking of web fonts, they account for almost 50% of my [home page](/) downloa
 
 A run through [WebPageTest](http://www.webpagetest.org/result/140422_NR_MTQ/) gives strong local results:
 
-<p class="b-post__image">![dbushell.com performance test](/images/2014/04/dbushell-webpagetest.png)</p>
+![dbushell.com performance test](/images/2014/04/dbushell-webpagetest.png)
 
 Aside from [Varnish Cache](/2013/02/15/performance-varnish-cache-wordpress/) on my server I'm not doing anything special. Typekit and Google Analytics' expire headers are giving me a “C” at the end which isn't too worrying. For a handful of small resources I'm not sure using a CDN is worth the investment, or maybe it is… something I need to explore.
 

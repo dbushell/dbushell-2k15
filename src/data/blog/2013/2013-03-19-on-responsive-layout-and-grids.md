@@ -30,7 +30,7 @@ This is how I handle responsive layout:
 
 There are numerous ways to achieve this. The principle is to align elements as columns with an even gutter between them. Here's a five-column example:
 
-<p class="b-post__image">![responsive grid](/images/2013/03/basic-grid.svg)</p>
+![responsive grid](/images/2013/03/basic-grid.svg)
 
 I'd be worried if that surprised you but illustrations make a long article look nice. From [experimentation last year](/2012/03/27/introducing-shiro/) I've been using this CSS construct ever since:
 
@@ -55,7 +55,7 @@ The `.grid` class acts as a container for grid units. The unit padding and negat
 
 Units are outlined in black in the diagram below:
 
-<p class="b-post__image">![responsive grid with margin and padding visible](/images/2013/03/basic-grid-unit.svg)</p>
+![responsive grid with margin and padding visible](/images/2013/03/basic-grid-unit.svg)
 
 You can achieve the same thing with inline blocks or table-cell display. I called this choice trivial. It's not _entirely_ inconsequential. You need to consider browser support and it will affect how you style content inside the grid.
 
@@ -73,7 +73,7 @@ In my opinion there's a fundamentally flawed logic in trying to write a generic 
 
 I write responsive layout CSS on a per-module basis as-and-when required. Let's say I have four feature boxes on my home page:
 
-<p class="b-post__image">![responsive grid layout](/images/2013/03/grid-layout.svg)</p>
+![responsive grid layout](/images/2013/03/grid-layout.svg)
 
 By default they're stacked vertically (I may progressively enhance to a fancy carousel but that's beside the point). On a medium sized viewport I want them two-by-two. Widest breakpoint; one row, four columns.
 
@@ -131,7 +131,7 @@ I've build websites large and small with this philosophy and I really don't see 
 
 Finally, though a website is designed on a grid doesn't mean we have to replicate it entirely with a single code system. In my [Passenger Focus case study](/2012/06/17/passenger-focus-responsive-web-design-case-study/) I highlight the areas where my technique above kicks in (grid units are outlined in blue):
 
-<p class="b-post__image">[![Passenger Focus website grid design](/images/2012/06/pf-grid.png)](/images/2012/06/pf-grid.png)</p>
+![Passenger Focus website grid design](/images/2012/06/pf-grid.png)
 
 The header was designed on the grid but bespoke layout CSS was easier to manage.
 

@@ -34,7 +34,7 @@ Includes are also not the only requirement for productive flat builds to evolve 
 
 I'm not surprised we're seeing trendy apps appear to solve this problem. [Hammer](http://hammerformac.com/), [Mixture](http://mixture.io/), and [CodeKit](http://incident57.com/codekit/) all give it a good go. My first recommendation to anyone looking to improve their flat build process would be to trial these apps. An attractive UI tends to be quickly accessible with a small learning curve.
 
-<p class="b-post__image">![](/images/2013/03/hammer-for-mac.png)</p>
+![](/images/2013/03/hammer-for-mac.png)
 
 For me — and this may be entirely my own flaw — none of these apps quite fit the bill. Because they're "one size fits all" solutions it's difficult to work around them if you have additional requirements. For example, I have SVG assets I want to automatically rasterise as PNG fallbacks.
 

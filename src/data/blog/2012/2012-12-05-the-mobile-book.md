@@ -8,7 +8,7 @@ title: The Mobile Book
 
 Smashing Magazine's **[The Mobile Book](https://shop.smashingmagazine.com/the-mobile-book.html)** is due for dispatch soon. Having had the opportunity to read it I'll cut to the chase for those deliberating a purchase: **it's well worth the cover price**. The e-book edition is a steal!
 
-<p class="b-post__image">[![The Mobile Book - Cover](/images/2012/12/The_Cover.png)](http://www.the-mobile-book.com/)</p>
+![The Mobile Book - Cover](/images/2012/12/The_Cover.png)
 
 Let it be known that this book goes beyond designing for the Web. The core themes are **mobile** and **connectivity**. These seemingly simple ideas — introduced in chapters by Peter-Paul Koch and Stephanie Rieger, respectively — widen the discourse to encompass a greater technological landscape. Perhaps uncomfortably so; our little web buddle is bursting. It will either be side-lined entirely, or prove to be the element that connects _everything_.
 

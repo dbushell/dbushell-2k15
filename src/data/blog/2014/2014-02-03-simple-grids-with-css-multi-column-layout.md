@@ -10,7 +10,7 @@ Last week I began researching CSS layout — what's achievable with the various 
 
 The image below shows a very minimal design for my website's footer (menu and copyright notice) as it appears in a small viewport:
 
-<p class="b-post__image">[![Menu layout (small / mobile screen)](/images/2014/02/menu-small.png)](/images/2014/02/menu-small.png)</p>
+![Menu layout (small / mobile screen)](/images/2014/02/menu-small.png)
 
 The HTML (sans class attributes for readability) is basic:
 
@@ -28,7 +28,7 @@ The HTML (sans class attributes for readability) is basic:
 
 I'm building this website with a "mobile-first" mentality — I'll assume you know how _media queries_ work — so as the screen width increases I want my footer menu to align to three columns:
 
-<p class="b-post__image">[![Menu layout (medium / tablet screen)](/images/2014/02/menu-medium.png)](/images/2014/02/menu-medium.png)</p>
+![Menu layout (medium / tablet screen)](/images/2014/02/menu-medium.png)
 
 If I was building on top of a framework or grid system I might be inclined to over-think the CSS here. I'd probably have to add extra elements in my mark-up to represent columns; adhering to the grid system's conventions. That might even force me to split the menu across multiple list elements. Ugly stuff! Let's keep it simple.
 
@@ -45,7 +45,7 @@ Two declarations are all I need to style the menu. List items will naturally fl
 
 Taking the design further, you can see my desired layout for large screens (aka "desktop") in the image below. I've also overlaid my grid design so you can see alignment.
 
-<p class="b-post__image">[![Menu layout (large / desktop screen)](/images/2014/02/menu-large.png)](/images/2014/02/menu-large.png)</p>
+![Menu layout (large / desktop screen)](/images/2014/02/menu-large.png)
 
 I've actually designed this website using _two_ grids, one with _six columns_, and a second with _nine columns_. Hopefully you can see above how they overlap and work together.
 

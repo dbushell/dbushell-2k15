@@ -14,7 +14,7 @@ When I started freelancing last year I moved in the opposite direction. At my 
 
 Despite adapting it never _quite_ felt comfortable. So after saving enough pennies, I've created the best of both worlds, A.K.A., the classic freelancer set-up:
 
-<p class="b-post__image">![My laptop and monitor set-up](/images/2014/06/new-desktop.jpg)</p>
+![My laptop and monitor set-up](/images/2014/06/new-desktop.jpg)
 
 I'm giving this arrangement a few weeks. I think I'll prefer it over the side by side. (See why below — and yes that is a mighty Logitech B100 mouse, I spare no expense!)
 

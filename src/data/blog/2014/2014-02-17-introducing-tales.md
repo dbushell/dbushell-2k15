@@ -9,7 +9,7 @@ title: Introducing Tales
 
 For the last few weeks I've been working on a little project that I'm excited to announce. That project is called [Tales](http://themes.dbushell.com/tales/) and it's available today.
 
-<p class="b-post__image">[![Tales WordPress theme preview](/images/2014/02/tales-preview-large.png)](http://themes.dbushell.com/tales/)</p>
+![Tales WordPress theme preview](/images/2014/02/tales-preview-large.png)
 
 **[Tales](http://themes.dbushell.com/tales/)** is a responsive WordPress theme tailored for a beautiful reading experience. Its strength and design principle can be summed up in one word; simplicity. Visit the [Tales Demo](http://themes.dbushell.com/tales-demo/) website to see a basic install in action.
 
@@ -25,11 +25,11 @@ What makes Tales so special? First and foremost the theme has been designed with
 
 Tales has been built on solid foundations. A top notch experience is in store for the latest browsers. More importantly older versions like **IE7**, **iOS 3.0**, and **Android 2.2** aren't far of the pace.
 
-<p class="b-post__image">![Tales WordPress theme across mobile devices](/images/2014/02/tales-mobile-devices.jpg)</p>
+![Tales WordPress theme across mobile devices](/images/2014/02/tales-mobile-devices.jpg)
 
 And my all time favourite browser, Internet Explorer 7:
 
-<p class="b-post__image">![Tales WordPress theme in IE7](/images/2014/02/tales-in-ie7.png)</p>
+![Tales WordPress theme in IE7](/images/2014/02/tales-in-ie7.png)
 
 Not too shabby, right?
 
@@ -41,6 +41,6 @@ There's not a great deal to write about here that you can't [see for yourself](
 
 The design aligns to two complimentary grids and a loose baseline within the main content. Five major breakpoints were used to adapt to screen size.
 
-<p class="b-post__image">![Tales WordPress theme grid design](/images/2014/02/tales-grid-desktop.png)</p>
+![Tales WordPress theme grid design](/images/2014/02/tales-grid-desktop.png)
 
 Like what you see? Visit the [Tales website](http://themes.dbushell.com/tales/) for more info on the theme. I've also set up an [email newsletter](http://eepurl.com/M2I9P) for my side projects. Get signed up!

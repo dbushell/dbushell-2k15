@@ -10,7 +10,7 @@ You've all seen social sharing buttons. Twitter's "tweet", Facebook's "like" etc
 
 Here's a screenshot from a popular blog to refresh your memory:
 
-<p class="b-post__image">![Social Sharing Buttons](/images/2011/12/Screen-shot-2011-12-05-at-09.31.42.png)</p>
+![Social Sharing Buttons](/images/2011/12/Screen-shot-2011-12-05-at-09.31.42.png)
 
 They have their place on a website if used intelligently — that's a big *if*! They're difficult to design around and a nightmare for front-end development.
 

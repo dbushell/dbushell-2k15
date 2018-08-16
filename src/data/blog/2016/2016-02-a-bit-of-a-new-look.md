@@ -10,7 +10,7 @@ title: 'A Bit of a New Look'
 
 This iteration has taken longer than usual because the visual changes are much more dramatic. I'm really pleased with the results:
 
-<p class="b-post__image">![dbushell.com design circa 2016](/images/blog/dbushell-v8-intro.png)</p>
+![dbushell.com design circa 2016](/images/blog/dbushell-v8-intro.png)
 
 It's been two years since I last updated the design. That is a record because it's usually an annual tradition. Past updates include: [2014](/2014/04/21/spring-refresh/), [2013](/2013/02/04/a-new-home/), [2012](/2012/02/27/spring-cleaning-redesigning-dbushell-com/), and [2011](/2011/05/25/designing-a-new-me/). Last year I improved [performance](/2015/02/19/critical-css-and-performance/) and [deployment](/2015/05/11/wordpress-to-metalsmith/).
 
@@ -24,11 +24,11 @@ I'm in the process of rewriting [my services](/services/) page and I've introduc
 
 The retro style emerged from the small “For Hire” sign I created for my sidebar/footer last year. It was well received but a few people noted it could be mistaken for an ad because it didn't fit into my design. Too nice to consider removing, I realised it was the ideal starting point to inject more colour and personality into my website.
 
-<p class="b-post__image">![dbushell.com brand colours](/assets/img/dbushell-for-hire.svg)</p>
+![dbushell.com brand colours](/assets/img/dbushell-for-hire.svg)
 
 I spent a long time adjusting the colours to discover the perfect palette:
 
-<p class="b-post__image">![dbushell.com brand colours](/images/blog/dbushell-v8-colours.svg)</p>
+![dbushell.com brand colours](/images/blog/dbushell-v8-colours.svg)
 
 And from here I experimented with typography. I wasn't sure how the script/hand-written style would translate online. It's tricky because such a variety in weights doesn't suit the web. Web fonts are heavy; a big performance cost. Ultimately I knew this style wouldn't be viable to use for headings. I settled on a simple sans-serif, [Futura](https://typekit.com/fonts/futura-pt) being the natural choice.
 
@@ -36,7 +36,7 @@ And from here I experimented with typography. I wasn't sure how the script/hand-
 
 I've always been a fan of off-canvas navigation but I was concerned my previous version was a little too hidden. Is a link unseen a link unclicked? I'll put that hypothesis to the test. My new design has a fixed header with an overflow menu that prioritises key pages.
 
-<p class="b-post__image">![dbushell.com responsive navigation](/images/blog/dbushell-v8-nav.gif)</p>
+![dbushell.com responsive navigation](/images/blog/dbushell-v8-nav.gif)
 
 ## The build
 
@@ -48,7 +48,7 @@ Previous incarnations of my website have had ridiculously good support for legac
 
 My [old typography](/2014/04/24/two-week-build/#typography) used CSS gradients and text shadows to create custom link underlines. I've taken this one step further:
 
-<p class="b-post__image">![dbushell.com link hover effect](/images/blog/dbushell-v8-links.gif)</p>
+![dbushell.com link hover effect](/images/blog/dbushell-v8-links.gif)
 
 Yeah I know, the animations are overkill, but so many websites these days don't even underline links. It's a bit of fun for now.
 

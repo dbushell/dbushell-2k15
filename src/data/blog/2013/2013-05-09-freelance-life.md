@@ -16,7 +16,7 @@ At the end of May I'm attempting the Edinburgh half marathon — 21 kilometres o
 
 Being a freelancer has given me the flexibility for hour-long runs during the day. I was enjoying the late evening runs exploring East London but those nights weren't the most social of activities. I was surprised at how difficult I found the transition to daytime. I suppose it was a lot easier to zone out under moonlight. That and the elevation in the Pennines is a killer.
 
-<p class="b-post__image">![Nike Free 3.0 running shoes](/images/2013/05/nike-free-3.jpg)</p>
+![Nike Free 3.0 running shoes](/images/2013/05/nike-free-3.jpg)
 
 I run so often now I suppose my career is shaping itself around this training. I'll probably do an official marathon at some point to tick it of the bucket list. I'm not one for organised events though, I just enjoy the simplicity of stepping out into the fresh air.
 

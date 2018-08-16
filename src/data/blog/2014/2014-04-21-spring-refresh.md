@@ -8,7 +8,7 @@ title: Spring Refresh
 
 Spring means several things to me: Easter, the conclusion of the football league, and the annual tradition of refreshing my personal website design. This year is more pertinent than usual being one year since [I started freelancing](/2013/02/04/a-new-home/).
 
-<p class="b-post__image">![dbushell.com home page design comparison (2013–2014)](/images/2014/04/home-page-comparison.png)</p>
+![dbushell.com home page design comparison (2013–2014)](/images/2014/04/home-page-comparison.png)
 
 
 

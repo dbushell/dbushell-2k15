@@ -3,12 +3,12 @@ date: 2015-11-12 10:00:00+00:00
 draft: false
 slug: tales-wordpress-theme-now-free
 template: single.html
-title: 'Tales WordPress theme is now free!'
+title: 'Tales WordPress theme is now free'
 ---
 
-<a href="/2014/02/17/introducing-tales/">Tales is a WordPress theme</a> I developed early last year to show that responsive design and legacy browser support are not mutually exclusive.
+[Tales is a WordPress theme](/2014/02/17/introducing-tales/) I developed early last year to show that responsive design and legacy browser support are not mutually exclusive.
 
-<p class="b-post__image">[![Tales WordPress theme preview](/images/2014/02/tales-preview-large.png)](http://themes.dbushell.com/tales/)</p>
+![Tales WordPress theme preview](/images/2014/02/tales-preview-large.png)
 
 For the few months that I sold Tales it provided a small but welcome side income (considering my lack of advertising). Today I'm happy to announce that Tales is now <strong>free to download</strong> and use under the [MIT license](http://themes.dbushell.com/tales/license/).
 

@@ -12,7 +12,7 @@ title: 'Colour Accessibility'
 
 I can see how my website might look with an absence of red perception:
 
-<p class="b-post__image">![dbushell.com in protanopia and protanomaly modes](/images/blog/colour-accessibility-dbushell.png)</p>
+![dbushell.com in protanopia and protanomaly modes](/images/blog/colour-accessibility-dbushell.png)
 
 In protanopia mode the contrast of my menu drops from [2.8](http://leaverou.github.io/contrast-ratio/#white-on-%23ff6680) to [2](http://leaverou.github.io/contrast-ratio/#white-on-%23bdbb7a) which isn't ideal. I'm not going to change my brand colour because of this but in future I'll avoid this combination for lengthier or more subtle text design. From this experiment I've learnt that contrast is a significant factor that is effected by colour blindness.
 

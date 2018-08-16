@@ -10,12 +10,12 @@ Web forms are often a tedious experience. There's a lot to be said for keeping 
 
 To save space and reduce visual noise it's become quite common to repurpose HTML placeholders. But as we should all know: [Placeholder Attribute Is Not A Label!](http://www.webaxe.org/placeholder-attribute-is-not-a-label/) For semantics and accessibility a real `<label>` should precede its corresponding `<input>` field.
 
-<p class="b-post__image">![placeholder label problems](/images/2013/11/placeholder-label-problems.png)</p>
+![placeholder label problems](/images/2013/11/placeholder-label-problems.png)
 
 **Matt D. Smith** recently shared a [floating label pattern](http://mattdsmith.com/float-label-pattern/) for an iOS app:
 
 
-<p class="b-post__image">![floating label form animation](/images/2013/11/form-animation.gif)</p>
+![floating label form animation](/images/2013/11/form-animation.gif)
 <p class="p--small p--light">Copyright © [Matt D. Smith](http://dribbble.com/shots/1254439--GIF-Float-Label-Form-Interaction)</p>
 
 Quite a nice idea if you ask me. I'm not suggesting it should be the default and I don't plan to copy the idea myself in projects but as an experiment I tried to create the effect in HTML & CSS.

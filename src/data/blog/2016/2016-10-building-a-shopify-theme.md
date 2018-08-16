@@ -9,13 +9,13 @@ title: 'Building a Shopify Theme'
 
 **Shopify** is an ecommerce platform that offers themeable store fronts online. I worked alongside the wonderful folks at [**Studio Tangerine**](http://studiotangerine.co.uk/) to develop a Shopify theme. I've documented interesting aspects of the process below.
 
-<p class="b-post__image">![Shopify theme design](/images/blog/shopifytheme-homepage-design.png)</p>
+![Shopify theme design](/images/blog/shopifytheme-homepage-design.png)
 
 ## Getting started
 
 If you're familiar with [my workflow](/2016/07/14/building-a-wordpress-theme/) it will be no surprised that I first translated the design into static HTML & CSS before worrying about integration. Like all good designs this one was very modular so I coded a single page of all components and patterns.
 
-<p class="b-post__image">![Shopify front-end pattern library](/images/blog/shopifytheme-pattern-library.png)</p>
+![Shopify front-end pattern library](/images/blog/shopifytheme-pattern-library.png)
 
 Building this page in the vein of a pattern library gave us the perfect opportunity to review the responsive design and interactive elements in the browser. Elements were tweaked and final decisions were made on things like the responsive navigation. I did preliminary browsering testing to ensure no major rendering issues — much easier to fix now than later!
 
@@ -40,13 +40,13 @@ Themes have to be developed and tested on the Shopify servers. This is not ideal
 
 When a customer clicks the "Add to Basket" button Shopify will take them to the checkout page by default. Shopify does however provide a JavaScript API that makes on-page interactivity a breeze to implement.
 
-<p class="b-post__image">![Shopify theme - interactive 'add to basket'](/images/blog/shopifytheme-addtobasket.gif)</p>
+![Shopify theme - interactive 'add to basket'](/images/blog/shopifytheme-addtobasket.gif)
 
-<p class="b-post__image">![Shopify theme - interactive basket](/images/blog/shopifytheme-basket.gif)</p>
+![Shopify theme - interactive basket](/images/blog/shopifytheme-basket.gif)
 
 For this project I used [**Cart.js**](https://cartjs.org/) which is an API wrapper and library to manage products in the basket. The trick is to override the form submission and call `CartJS.addItem()` passing the product variant ID, quantity, and callbacks. The Shopify API returns product data or a variety of errors such as insufficient stock so the customer can be informed accordingly.
 
-<p class="b-post__image">![Shopify theme - interactive basket](/images/blog/shopifytheme-basket.png)</p>
+![Shopify theme - interactive basket](/images/blog/shopifytheme-basket.png)
 
 I'm using [**Mustache.js**](https://github.com/janl/mustache.js) for HTML templating. When Cart.js updates — new products added or items removed — the on-page basket is re-rendered. To do this I simply pass Mustache the HTML template and JSON data for the products.
 
@@ -76,11 +76,11 @@ If the basket design changes we can just edit the template and not worry about t
 
 Products in Shopify can have up to three options and product variants are generated as combinations thereof. By default Shopify only displays a single `<select>` input to choose all available variants from:
 
-<p class="b-post__image">![Shopify theme - default product option](/images/blog/shopifytheme-product-options-1.png)</p>
+![Shopify theme - default product option](/images/blog/shopifytheme-product-options-1.png)
 
 This isn't an ideal user experience, especially if there are hundreds of variants, so we're using a bit of JavaScript magic to break this field apart into multiple options:
 
-<p class="b-post__image">![Shopify theme - advanced product options](/images/blog/shopifytheme-product-options-2.png)</p>
+![Shopify theme - advanced product options](/images/blog/shopifytheme-product-options-2.png)
 
 The product options for "Size" and "Colour" have a unique UI design. Any other options are renders as individual `<select>` inputs. The default input is hidden and its value is updated to match the variant chosen from these options.
 
@@ -100,17 +100,17 @@ Building a Shopify theme is always a pleasant experience. The platform is very w
 
 It should be noted however that Shopify websites have a set formula with predefined templates. All stores follow the same format and you cant change the admin area (outside of theme settings). For example, each product has a single description:
 
-<p class="b-post__image">![Shopify theme - editing product description](/images/blog/shopifytheme-product-edit.png)</p>
+![Shopify theme - editing product description](/images/blog/shopifytheme-product-edit.png)
 
 To achieve the accordion design for this content requires JavaScript:
 
-<p class="b-post__image">![Shopify theme - product description as accordion design](/images/blog/shopifytheme-product-description.png)</p>
+![Shopify theme - product description as accordion design](/images/blog/shopifytheme-product-description.png)
 
 I used JavaScript to break apart the content by heading elements `<h1>` to `<h6>` before adding the expand/collapse to each section. This technique works fine on the front-end but the admin interface isn't as intuitive as it could be.
 
 Similarly, pages are limited to one content area. To manage the hero carousel we can only provide fields within the theme settings (which are somewhat limited).
 
-<p class="b-post__image">![Shopify theme - carousel settings](/images/blog/shopifytheme-carousel-edit.png)</p>
+![Shopify theme - carousel settings](/images/blog/shopifytheme-carousel-edit.png)
 
 ## Final thoughts
 

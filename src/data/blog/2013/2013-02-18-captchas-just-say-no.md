@@ -12,11 +12,11 @@ I still get asked regularly how to deal with spam. It isn't easy.
 
 I keep seeing new solutions pop up touted as an alterative to CAPTCHAs. Here's the deal: replacing character recognition with other kinds of human tests — like pin the tail on the donkey — **that's still a CAPTCHA!**
 
-<p class="b-post__image">![CAPTCHA](/images/2013/02/CAPTCHA.png)</p>
+![CAPTCHA](/images/2013/02/CAPTCHA.png)
 
 Is this an experience you really want to force upon your users? It's actually _worse_ in my opinion. At least the likes of [reCAPCHA](http://en.wikipedia.org/wiki/ReCAPTCHA) have been ingrained into our psyche (even if they're often illegible). Some stupid Flash game is just that; stupid. It looks terrible. It looks like an advertisement. It's tacky. It's still a lock you're forcing your users to tediously pick.
 
-<p class="b-post__image">![Still a CAPTCHA](/images/2013/02/STILL-A-CAPTCHA.png)</p>
+![Still a CAPTCHA](/images/2013/02/STILL-A-CAPTCHA.png)
 
 And guess what? **It's still a CAPTCHA!**
 

@@ -49,8 +49,7 @@ difficult, it's how accustomed I've grown to a file tree sidebar. I've
 since found [NERDTree](https://github.com/scrooloose/nerdtree) which I've
 bound to `Ctrl+n`. It alleviates a lot of pain.
 
-<p class="b-post__image">![Editing dbushell.com in
-Vim](/images/blog/dbushell-vim-editing.png)</p>
+![Editing dbushell.com in Vim](/images/blog/dbushell-vim-editing.png)
 
 Despite the struggles I do like using Vim. I don't see it replacing
 Sublime Text 3 for long sessions. At least not any time soon. But it is now my

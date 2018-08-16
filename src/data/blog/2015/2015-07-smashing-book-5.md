@@ -8,7 +8,7 @@ title: 'Real-Life Responsive Web Design'
 
 Last week I had the opportunity to read [“Real-Life Responsive Web Design”](http://www.smashingmagazine.com/2015/07/finally-smashing-book-5-is-here-and-its-hot-like-smoking-barrels/), the fifth book in the Smashing Book series.
 
-<p class="b-post__image"><img src="/images/blog/smashing-book-5.png" alt="Smashing Book 5"></p>
+![Smashing Book 5](/images/blog/smashing-book-5.png)
 
 Usually with books like this I will skip to the chapters that immediately catch my eye. This time was different, they all sounded fascinating — and they were! I read the book cover to cover in two sittings.
 

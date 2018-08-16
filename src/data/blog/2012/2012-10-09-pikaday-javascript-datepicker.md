@@ -8,7 +8,7 @@ title: 'Pikaday: JavaScript datepicker'
 
 Pikaday is a JavaScript datepicker with a light footprint and easy style-ability with [modular CSS](/2012/04/23/modularity-and-style-guides/). It's in 'developer preview mode' but already looking great:
 
-<p class="b-post__image">![Pikaday screenshot](/images/2012/10/pikaday.png)</p>
+![Pikaday screenshot](/images/2012/10/pikaday.png)
 
 
 
@@ -18,7 +18,7 @@ Pikaday is a JavaScript datepicker with a light footprint and easy style-ability
 
 Because as much as we like open standards, the [HTML5 input types](http://www.quirksmode.org/html5/inputs.html) lack browser support and are poorly implemented in places; see Chrome (22 as of writing) below:
 
-<p class="b-post__image">![Chrome date input](/images/2012/10/dateinput1.png)</p>
+![Chrome date input](/images/2012/10/dateinput1.png)
 
 This leaves us with a tricky situation. Normally we can safely use new web standards with the knowledge that non-supporting browsers will simply ignore them, or we can use [feature detection](/2012/03/03/forget-about-browser-support/) to progressively enhance the experience. With the state of the new input types however, this unfortunately means polyfill-only for the foreseeable future.
 

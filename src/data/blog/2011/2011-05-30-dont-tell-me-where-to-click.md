@@ -6,7 +6,7 @@ template: single.html
 title: Don't tell me where to click
 ---
 
-<p class="b-post__image">![Click Here - Apple's Magic Mouse](/images/2011/05/clickhere.jpg)</p>
+![Click Here - Apple's Magic Mouse](/images/2011/05/clickhere.jpg)
 
 **"*click here*", "*read more*", "*next*"** – a bad habit that just won't go away, and I'm to blame as much as the next designer (at least the "more" end of the spectrum, if that will save integrity).
 

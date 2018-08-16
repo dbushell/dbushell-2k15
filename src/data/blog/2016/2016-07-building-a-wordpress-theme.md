@@ -9,7 +9,7 @@ title: 'Building a WordPress Theme'
 
 I was delighted when [Base Creative](https://www.basecreative.co.uk/) asked me to help build a beautifully designed website on WordPress. It’s always a joy to work with Base Creative knowing that my role is made easier by the care and attention they deliver.
 
-<p class="b-post__image">![Website design by Base Creative, London](/images/blog/wordpress-bc-theme.png)</p>
+![Website design by Base Creative, London](/images/blog/wordpress-bc-theme.png)
 
 <p class="p--large">In this review I’ll showcase a few of the defining techniques and challenges that made this an interesting project to deliver. As usual I started with a static HTML build allowing me to focus on CSS and responsiveness in the browser.</p>
 
@@ -19,7 +19,7 @@ I was delighted when [Base Creative](https://www.basecreative.co.uk/) asked me t
 
 Overall the design adapted nicely across devices. The “article” component, used for listings blog posts, proved most challenging to code. The screenshots below illustrate how articles are designed to sit within a grid, resize, and change layout across breakpoints.
 
-<p class="b-post__image">![Blog article design by Base Creative, London](/images/blog/wordpress-bc-articles.png)</p>
+![Blog article design by Base Creative, London](/images/blog/wordpress-bc-articles.png)
 
 Where possible I always aim to use standardised WordPress features. [**Post Thumbnails**](https://codex.wordpress.org/Post_Thumbnails) were the logical target for these article images. It’s important to avoid requiring multiple images because they make content management a chore.
 
@@ -35,7 +35,7 @@ With ACF I’ll often create a general options page to configure content. The ho
 
 *When building a WordPress theme it’s important to consider all scenarios and provide safe defaults alongside more granular control for the author if they desire*.
 
-<p class="b-post__image">![WordPress homepage options](/images/blog/wordpress-bc-general-settings.png)</p>
+![WordPress homepage options](/images/blog/wordpress-bc-general-settings.png)
 
 It’s debatable whether to show these fields on the general options page or when editing the homepage itself. Because there is similar featured content that appears across multiple templates I opted to keep all of these options in one place.
 
@@ -43,7 +43,7 @@ It’s debatable whether to show these fields on the general options page or whe
 
 Some blog posts will lead with a YouTube video. To provide the necessary CMS fields and taxonomy I combined the standard WordPress [Post Formats](https://codex.wordpress.org/Post_Formats) with conditional ACF options:
 
-<p class="b-post__image">![WordPress post formats](/images/blog/wordpress-bc-video-format.png)</p>
+![WordPress post formats](/images/blog/wordpress-bc-video-format.png)
 
 It would have been easier to simply expect the author to paste embed code within the main content editor. This is bad practice for several reasons:
 
@@ -73,7 +73,7 @@ After some trial and error I settled on the aptly named, if a tad longwinded, [�
 
 For the infinite scroll to work you first implement the blog with standard “Previous” and “Next” pagination. At this stage blog pages are now perfectly **accessible** and **indexable**. Then you tell the plugin your CSS selectors:
 
-<p class="b-post__image">![WordPress infinite scroll plugin settings](/images/blog/wordpress-bc-infinite-scroll.png)</p>
+![WordPress infinite scroll plugin settings](/images/blog/wordpress-bc-infinite-scroll.png)
 
 These selectors match the HTML structure I’ve used for blog listings and pagination:
 
@@ -92,7 +92,7 @@ These selectors match the HTML structure I’ve used for blog listings and pagin
 
 The plugin uses JavaScript to replace the pagination with a customisable “More” button:
 
-<p class="b-post__image">![WordPress infinite scroll loading](/images/blog/wordpress-bc-infinite-load.gif)</p>
+![WordPress infinite scroll loading](/images/blog/wordpress-bc-infinite-load.gif)
 
 When clicked, blog posts from previous pages are loaded and appended to the grid. There is of course an option to automatically load new articles on scroll for the true “infinite scroll” effect. Personally I prefer a button because unexpected changes that force the page to repaint can cause scroll lag and jumpiness on mobile.
 
@@ -102,7 +102,7 @@ This is a clean example of **progressive enhancement** in action.
 
 Once I’ve built a theme I’ll take time to ensure the WordPress admin area is presented as nicely as possible. One particularly nice touch is to give the content editor the same typographic style and web fonts as the theme.
 
-<p class="b-post__image">![WordPress content editor](/images/blog/wordpress-bc-editor.png)</p>
+![WordPress content editor](/images/blog/wordpress-bc-editor.png)
 
 
 

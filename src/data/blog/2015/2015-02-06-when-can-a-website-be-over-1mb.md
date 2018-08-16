@@ -10,7 +10,7 @@ When a new website is released for a popular or high profile brand there are tw
 
 Initial reaction to the new [Majora's Mask 3DS](http://zelda.com/majoras-mask/) website has been no different.
 
-<p class="b-post__image">![Majora's Mask](/images/2015/02/majoras-mask.png)</p>
+![Majora's Mask](/images/2015/02/majoras-mask.png)
 
 Granted, it's rather chunky. Fullscreen on my 1920 × 1080 monitor I downloaded 2.5MB of images alone. The whole thing is over 3MB, not counting the video content that starts to preload (60+ MB before I stopped it).
 

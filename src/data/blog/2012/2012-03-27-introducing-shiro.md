@@ -24,6 +24,6 @@ To solve this little conundrum I've been experimenting with a basic responsive g
 
 Here's what it looks like in IE6:
 
-<p class="b-post__image">[![Shiro in IE6](/images/2012/03/shiro-ie6.png)](/images/2012/03/shiro-ie6.png)</p>
+![Shiro in IE6](/images/2012/03/shiro-ie6.png)
 
 PS, I will be dogfooding this in the coming weeks so expect updates!

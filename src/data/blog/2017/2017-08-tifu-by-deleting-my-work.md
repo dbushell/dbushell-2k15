@@ -7,7 +7,7 @@ pageDesc: 'I lost two days’ work 😱 (and restored it from Chrome’s cache �
 
 Ever get that feeling you’ve lost something?
 
-<p class="b-post__image">![me after deleting two days’ work](/images/blog/scared-spongebob.gif)</p>
+![me after deleting two days’ work](/images/blog/scared-spongebob.gif)
 
 I’ve long been a paying user of CodePen. It’s nice for sharing snippets, quick mock-ups, or messing around with code. [CodePen Projects](https://codepen.io/pro/projects) is a newish addition. It provides a more complete development environment.
 

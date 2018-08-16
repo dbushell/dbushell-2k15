@@ -32,7 +32,7 @@ A casualty of this set up is [CSS fixed positioning](http://bradfrostweb.com/blo
 
 **Screen 3** shows the disaster that is user zooming and fixed elements. **Screen 4** shows my hack (what I hypothesised to be a more desirable result).
 
-<p class="b-post__image">[![CSS fixed position](/images/2013/09/css-fixed-position1.png)](/images/2013/09/css-fixed-position1.png)</p>
+![CSS fixed position](/images/2013/09/css-fixed-position1.png)
 
 Technically what mobile browsers are doing is not a bug. It is the correct result but unfortunately not a nice one.
 

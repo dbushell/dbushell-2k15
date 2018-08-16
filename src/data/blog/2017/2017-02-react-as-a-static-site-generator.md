@@ -25,13 +25,13 @@ I got off to a false start. Last year's [redesign project](/2016/02/29/a-bit-of-
 
 Restart. Step one: write components with existing markup. Step two: improve modularity once my site is rendering (still to do as of writing this).
 
-<p class="b-post__image">![Example code for my React components](/images/blog/dbushell-react-components.png)</p>
+![Example code for my React components](/images/blog/dbushell-react-components.png)
 
 All my [React components](https://github.com/dbushell/dbushell.com/tree/master/src/components) are functional/stateless. There is no logic to them because I'm don't plan to render client-side. I don't need to worry about an API serving data to the browser. My build script parse data and pass it along to React properties once to render HTML.
 
 Some components — e.g. the [Bio](https://github.com/dbushell/dbushell.com/tree/master/src/components/bio)[graphy] — load default props from a JSON file. Lazier components have data hardcoded in the HTML ([Newletter](https://github.com/dbushell/dbushell.com/blob/master/src/components/newsletter/index.jsx) for example). When I get time I'll do a proper job abstracting these. It's not an urgent task because I doubt I'll ever need more than one instance.
 
-<p class="b-post__image"><a href="/images/blog/dbushell-react-dataflow.svg">![dbushell.com build process data flow](/images/blog/dbushell-react-dataflow.svg)</a></p>
+![dbushell.com build process data flow](/images/blog/dbushell-react-dataflow.svg)
 
 The [Blog](https://github.com/dbushell/dbushell.com/tree/master/src/components/blog) component is an interesting one. It displays recent posts and appears on all pages. It too loads JSON. I have a task to update this file before rendering (rather than passing new props from the parent). The reason for that is incidental, but it does allow pages to render with up-to-date content without parsing all of the blog data again.
 

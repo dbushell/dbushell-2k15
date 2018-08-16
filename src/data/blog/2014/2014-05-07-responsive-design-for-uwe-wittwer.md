@@ -18,7 +18,7 @@ title: Responsive Design for Uwe Wittwer
 
 
 
-<p class="b-post__image">![Uwe Wittwer - Responsive Website Design](/images/2014/05/uwe-wittwer-website-design.png)</p>
+![Uwe Wittwer - Responsive Website Design](/images/2014/05/uwe-wittwer-website-design.png)
 
 [Atelier Uwe Wittwer](http://uwewittwer.com) came to me in late 2013 requesting a new responsive design. With an ideal brief and a small but workable budget, I was delighted to help.
 
@@ -30,11 +30,11 @@ We immediately jumped into code and content. While the client focused on infor
 
 The minimalist nature of the design gave us ample space to experiment with. To house the global navigation we opted for a vertical sidebar (rather than the usual horizontal header links). See the home page design below:
 
-<p class="b-post__image">![Uwe Wittwer - Fixed Navigation Design](/images/2014/05/uwe-wittwer-fixed-nav-design.png)</p>
+![Uwe Wittwer - Fixed Navigation Design](/images/2014/05/uwe-wittwer-fixed-nav-design.png)
 
 The fixed sidebar — which remains in place when the page scrolls — becomes visible on viewports wider than around 820 pixels (`51.25em` to be precise). This suits many tablet devices as well as larger screens, though the specific breakpoint was chose to fit the content (not a particular device). On mobile / small-screen the navigation takes the form of my tried and tested off-canvas technique.
 
-<p class="b-post__image">![Uwe Wittwer - Mobile Design](/images/2014/05/uwe-wittwer-mobile-design.png)</p>
+![Uwe Wittwer - Mobile Design](/images/2014/05/uwe-wittwer-mobile-design.png)
 
 Responsive navigation can be difficult to handle when device orientation — portrait or landscape — or browser resize — crosses the breakpoint between on / off-canvas. By maintaining a vertical design throughout we minimised the possible confusion this jump can cause.
 
@@ -46,7 +46,7 @@ To add a final touch of class to the design, we adapted a set of custom icons
 
 The **"Publications"** page is a rich index of external links and downloads. To ease navigating around this content we combined on-page anchor links at the top of the page followed by highly visible section headers to define each area.
 
-<p class="b-post__image">![Uwe Wittwer - Section Navigation](/images/2014/05/uwe-wittwer-section-navigation.png)</p>
+![Uwe Wittwer - Section Navigation](/images/2014/05/uwe-wittwer-section-navigation.png)
 
 The section headers automatically attach and detach to the top of the viewport as the page scrolls. They provide a helpful "return to top" link designed to align seamlessly alongside the global navigation link.
 

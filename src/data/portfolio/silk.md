@@ -2,4 +2,4 @@ Silk is a hand made hard-back cover designed for Alessandro Baricco's novel, Sil
 
 The book is wrapped in a thin silk cloth that partially covers a traditional Japanese style brush painting. The half size sleeve sits on the last third of the book with the title varnished. The sleeve includes both English and Japanese and the kanji logograph on the front translates directly to 'Silk'.
 
-<p class="b-post__image">![David Bushell - Silk - Book cover.](/images/portfolio/silk1.png)</p>
+![David Bushell - Silk - Book cover.](/images/portfolio/silk1.png)

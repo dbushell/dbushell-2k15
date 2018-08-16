@@ -6,7 +6,7 @@ pageDesc: 'They’re a thing. I used one to make my website more accessible offl
 ---
 
 They’re a thing. [Google describes](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers) them as a “technical foundation”.
-  
+
 What I’ve learnt is that a service worker is a JavaScript file. It runs in it’s own little world behind a website. That means it can’t access the DOM. What it can do is proxy network requests and access a storage cache.
 
 I'm sure they can do more but I'm still learning.
@@ -15,7 +15,7 @@ I'm sure they can do more but I'm still learning.
 
 If you’ve ever tried to visit a website with no connection you’ll have seen a default browser error page like this:
 
-<p class="b-post__image">![Chrome offline page](/images/blog/chrome-offline.png)</p>
+![Chrome offline page](/images/blog/chrome-offline.png)
 
 Who hasn't, right? This is easily happenable on mobile networks where connections are flaky. Or on poor WiFi networks that balk at more than three devices.
 
@@ -23,7 +23,7 @@ Maybe the connection is fine but a web server fails to response. Maybe a data ce
 
 I've setup a service worker to cache my web pages and assets a user requests. They remain accessible offline. If the user requests a new page they see:
 
-<p class="b-post__image">![Service worker offline page](/images/blog/dbushell-offline.png)</p>
+![Service worker offline page](/images/blog/dbushell-offline.png)
 
 Cool, huh?
 
@@ -33,7 +33,7 @@ For a humble portfolio and blog like mine this is a nice-to-have feature. Users 
 
 A neat trick is to serve a fallback SVG image should any image request fail. Mine in action looks like this:
 
-<p class="b-post__image">![Service worker offline image](/images/blog/dbushell-offline-image.png)</p>
+![Service worker offline image](/images/blog/dbushell-offline-image.png)
 
 It's possible to pre-cache stuff before the user requests it. I'm not sure of the limits. I'm guessing it's ill advised to cache an entire website. My website attempts to cache top-level HTML to boost perceived performance.
 

@@ -6,9 +6,9 @@ We decided to separate the mobile website to allow single focus on the main func
 
 You can read more about my design process on my blog: [Designing My Life Listed](/2011/03/14/designing-mylifelisted/).
 
-<p class="b-post__image">![David Bushell - Web Design - My Life Listed home page.](/images/portfolio/web-design-mylifelisted-1.png)</p>
+![David Bushell - Web Design - My Life Listed home page.](/images/portfolio/web-design-mylifelisted-1.png)
 
-<p class="b-post__image">![David Bushell - Web Design - My Life Listed sign up page.](/images/portfolio/web-design-mylifelisted-2.png)</p>
+![David Bushell - Web Design - My Life Listed sign up page.](/images/portfolio/web-design-mylifelisted-2.png)
 
 <p class="p--small">Design and front-end development by David Bushell at Base Creative</p>
 

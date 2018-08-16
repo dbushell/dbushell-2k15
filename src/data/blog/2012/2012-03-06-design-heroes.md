@@ -8,7 +8,7 @@ title: Design Heroes
 
 My bookmark blog [Design Heroes](http://designheroes.co.uk) has built quite a following over the last few years — who said RSS was dead? — but being more active on Twitter ([@dbushell](http://twitter.com/dbushell)) has made this blog redundant (and a pain to maintain).
 
-<p class="b-post__image">![Design Heroes](/images/2012/03/design-heroes.png)</p>
+![Design Heroes](/images/2012/03/design-heroes.png)
 
 Design Heroes was my "original" web project so I've been hesitant to let it die but lack of time has inevitably seen that happen anyway! It was a great website to experiment with, the first one I ever built with "HTML5". I'll keep it online as an archive and post/tweet further resources from now on. I have a few ideas to present those tweets beyond the fire hose too. While those ideas are in the think factory I'm using [ThinkUp](http://thinkupapp.com/) to own _my_ data. Don't expect it back from Twitter anytime soon!
 

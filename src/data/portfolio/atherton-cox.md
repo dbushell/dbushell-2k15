@@ -4,9 +4,9 @@ The style mimics that of the salons interior and makes maximum use of the profes
 
 White space and restraint in content saturation plays a big part in a successful web design.
 
-<p class="b-post__image">![David Bushell - Web Design - Atherton Cox home page.](/images/portfolio/web-design-atherton-cox-1.png)</p>
+![David Bushell - Web Design - Atherton Cox home page.](/images/portfolio/web-design-atherton-cox-1.png)
 
-<p class="b-post__image">![David Bushell - Web Design - Atherton Cox contact page.](/images/portfolio/web-design-atherton-cox-2.png)</p>
+![David Bushell - Web Design - Atherton Cox contact page.](/images/portfolio/web-design-atherton-cox-2.png)
 
 <p class="p--small">[Visit Atherton Cox](http://www.athertoncox.co.uk)</p>
 

@@ -8,7 +8,7 @@ title: Test Driven Development
 
 I've been hacking away at my side project [Macaque](/2013/04/07/macaque-a-new-project/) today. It's quickly becoming the world's most over-engineered to-do app. At the moment it's categorising primates:
 
-<p class="b-post__image">![macaque-index](/images/2013/04/macaque-index.png)</p>
+![macaque-index](/images/2013/04/macaque-index.png)
 
 Isn't it beautiful?
 
@@ -39,7 +39,7 @@ describe('Lists', function() {
 
 When I run all tests from the command line:
 
-<p class="b-post__image">![Mocha tests](/images/2013/04/macaque-mocha-tests.png)</p>
+![Mocha tests](/images/2013/04/macaque-mocha-tests.png)
 
 Pretty cool, right?
 

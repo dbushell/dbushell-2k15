@@ -10,7 +10,7 @@ I've started writing a jQuery plugin called [Nestable — try it out](http://dbu
 
 **Nestable** is an interactive hierarchical list. You can drag and drop to rearrange the order. It even works well on touch-screens. If you're familiar with the way [WordPress](http://codex.wordpress.org/WordPress_Menu_User_Guide) allows the user to manage menus, this will be used for a similar UI.
 
-<p class="b-post__image">[![Nestable](/images/2012/06/nestable.png)](http://dbushell.github.com/Nestable/)</p>
+![Nestable](/images/2012/06/nestable.png)
 
 The only similar thing I could find was [nestedSortable](https://github.com/mjsarfatti/nestedSortable) by _Manuele J Sarfatti_ which is dependent on jQuery UI. It works perfectly but I have an irrational dislike for jQuery UI. It just seems so heavy! I may eventually make my version with no dependencies but for now vanilla jQuery is required. Nestable is the result of one afternoon's work so it's not fully featured nor fully tested. It does seem to work rather splendidly though.
 

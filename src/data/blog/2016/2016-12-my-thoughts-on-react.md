@@ -14,7 +14,7 @@ Unlike other libraries something about React just clicked with me. Back in Octob
 
 Below this huge logo are some of my thoughts on React.
 
-<p class="b-post__image">![the React logo](/images/blog/react_logo_og.png)</p>
+![the React logo](/images/blog/react_logo_og.png)
 
 React has its own [JSX syntax](https://facebook.github.io/react/docs/jsx-in-depth.html) for writing components. JSX tightly couples HTML with JavaScript in a readable fashion. It does not adhere to a ‘separation of concerns’ in that regard. Rather, it fully embraces the alternative.
 

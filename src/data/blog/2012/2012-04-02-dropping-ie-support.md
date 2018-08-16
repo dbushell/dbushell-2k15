@@ -16,7 +16,7 @@ Aside from profit, other benefits listed were: employee satisfaction, productivi
 
 Open Web evangelists will rage at this idea. Accessibility for all is a cornerstone of good website development. The phrase "best view in..." keeps rearing its ugly head. The idea of "only viewable in..." is even worse.
 
-<p class="b-post__image">[![4ormat sign-up IE blocked](/images/2012/04/Screen-shot-2012-04-02-at-14.00.51.png)](/images/2012/04/Screen-shot-2012-04-02-at-14.00.51.png)</p>
+![4ormat sign-up IE blocked](/images/2012/04/Screen-shot-2012-04-02-at-14.00.51.png)
 
 There are two precedents that I find very worrying here:
 

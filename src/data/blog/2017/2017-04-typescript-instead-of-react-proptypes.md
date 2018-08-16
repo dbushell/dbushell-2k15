@@ -36,7 +36,7 @@ const Button: React.SFC<ButtonProps> = props => {
 
 Now when I use the `<Button/>` component my editor shows useful info like missing props and specific types:
 
-<p class="b-post__image">![TypeScript in action with React development](/images/blog/dbushell-button-typescript.gif)</p>
+![TypeScript in action with React development](/images/blog/dbushell-button-typescript.gif)
 
 That sure beats runtime validation.
 

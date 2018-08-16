@@ -20,7 +20,7 @@ My use case is very particular, see related articles:
 
 Gulp is a build system that runs on [Node](http://nodejs.org/) like Grunt. While Grunt is an all-purpose task runner, Gulp is based around streaming — sending files through filters / pipes to do things like preprocessing, minification, and concatenation.
 
-<p class="b-post__image">![gulp](/images/2014/04/gulp.png)</p>
+![gulp](/images/2014/04/gulp.png)
 
 For a helpful guide see Mark Goodyear's article: [Getting started with gulp](http://markgoodyear.com/2014/01/getting-started-with-gulp/).
 
