@@ -8,7 +8,7 @@ import Prism from 'prismjs';
 import loadLanguages from 'prismjs/components/index';
 import fs from 'fs-extra';
 import frontMatter from 'front-matter';
-import {escSmart, trimExcerpt, replaceExternalLinks, replaceLazyImages} from './utils';
+import {escSmart, trimExcerpt, replaceExternalLinks} from './utils';
 
 marked.setOptions({
   smartypants: true,
@@ -29,13 +29,24 @@ marked.setOptions({
   }
 });
 
+const placeholder =
+  'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==';
+
+function imageRenderer(href, title, text) {
+  text = typeof text === 'string' ? text : 'no description';
+  return `<p class="b-post__image"><img src="${placeholder}" data-lazy="false" data-src="${href}" alt="${text}"></p>`;
+}
+
+const renderer = new marked.Renderer();
+renderer.image = imageRenderer;
+
 /**
  * Convert Markdown to HTML.
  */
 export function markdown(md) {
-  let html = marked(md);
+  let html = marked(md, {renderer});
   html = replaceExternalLinks(html);
-  html = replaceLazyImages(html);
+  // Deprecated: html = replaceLazyImages(html);
   return html;
 }
 
