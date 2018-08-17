@@ -8,9 +8,7 @@ title: Do you Love Design?
 
 Before I get into the meaty part of this post I'd like to share this by [Kyle Steed](http://kylesteed.com/2010/epic-shmepic/):
 
-
-<blockquote><p>Homer’s “Iliad” and “Odyssey” are epic. Beowulf is epic. The design you saw last night on Dribbble is not epic.</p></blockquote>
-
+> Homer’s “Iliad” and “Odyssey” are epic. Beowulf is epic. The design you saw last night on Dribbble is not epic.
 
 Funny and true. I'm guilty of this myself, despite vowing a _very _long time ago never to write a blog titled _"30 Incredibly Awesome Epic Web Designs"_ or anything remotely similar. I only bring this up because I may need to justify myself in a few minutes...
 
@@ -18,9 +16,7 @@ Anyway to the main feature.
 
 When I've not been at work, I've been 'hard at work' designing and building a brand new website called [LoveDsgn](http://lovedsgn.com). Here's the elevator pitch:
 
-
-<blockquote><p>LoveDsgn is a new social website for designers, typographers, all kinds of creative people. It's a platform for sharing, discussing and improving your creative output.<p></blockquote>
-
+> LoveDsgn is a new social website for designers, typographers, all kinds of creative people. It's a platform for sharing, discussing and improving your creative output.
 
 What makes this different from other 'social portfolio' websites is that LoveDsgn actively encourages constructive feedback. The focus is on typography and writing on creativity (you can showcase your articles too). A large 640x360 canvas is available to display work with each post. Ultimately the site is curated by the members and they'll dictate the content and features to come.
 

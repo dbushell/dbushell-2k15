@@ -5,10 +5,9 @@ Based in the UK, somewhere near Manchester, I design and build websites as a fre
 If I gave myself a job title I suppose it would be _Websitemaker_. It gets straight to the point. While I specialise in design and front-end, my experience and knowledge covers a whole lot more. So if anyone asks, tell them [I make websites](/services/).
 
 
-<blockquote>
-<p class="p--quote p--large">What attracted ASE to David was his unique approach to understanding our requirement, and his ability to work with us in driving out the structure, design, and most importantly the key messages and calls to action that we needed from our new website.</p>
-<p class="p--small"><cite>Chris King &ndash; ASE Consulting</cite></p>
-</blockquote>
+> What attracted ASE to David was his unique approach to understanding our requirement, and his ability to work with us in driving out the structure, design, and most importantly the key messages and calls to action that we needed from our new website.
+>
+> <cite>Chris King &ndash; ASE Consulting</cite>
 
 ## Experience
 

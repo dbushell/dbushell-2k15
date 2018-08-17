@@ -10,29 +10,23 @@ Before I ramble on, if you haven't seen Jeremy Keith's talk on time, networks an
 
 In regards to our content he says:
 
-
-<blockquote><p>Publish it. Publish it on the network. Put it out there, using standardised formats. Care for the URLs. Make sure those URLs last. And make lots of copies, and allow people to make lots of copies.</p></blockquote>
-
+> Publish it. Publish it on the network. Put it out there, using standardised formats. Care for the URLs. Make sure those URLs last. And make lots of copies, and allow people to make lots of copies.
 
 When I first watched this talk I felt somewhat enlightened. Suddenly I understood the importance of archiving our digital history. Then I remembered many occasions in the past where I've had a similar revelation. These occasions had something in common, I was looking for work I'd lost to time.
 
 This domain [dbushell.com] has been online for coming on 9 years but I made many more amateur contributions to the _World Wide Web_ when I was a youngling. Probably embarrasing things, likely many Geocities websites, but _mine_ nonetheless. I've searched many archives but most or my "early years" are lost.
 
-
 ## Preserving a Website
-
 
 So as it happens I [recently](/2012/03/06/design-heroes/) shut up shop at my _other_ blog [Design Heroes](http://designheroes.co.uk). I scheduled a mass deletion for an upcoming free weekend but — thankfully! — Mr. Keith's video intervened. Now, I have no delusion that my little bookmark blog has any value to others, but I do know I'll kick myself in a decade's time when I think back to the day I deleted several years of my life on a hangover Sunday.
 
 The answer? Perserve the website. I had my doubts about pickling a USB stick so I decided to keep Design Heroes online in suspended animation. This required:
-
 
 * Minimising external resources.
 * Removing the underlying CMS and database.
 * Maintaining/redirecting the original URLs.
 * Making a copy of the website for download.
 * Adding a notice for future visitors.
-
 
 Design Heroes has just under 1000 pages so manual archival wasn't an attractive option. I started by editing the PHP templates to remove things like social buttons and searching — interactivity that isn't going to work in the deep freeze.
 

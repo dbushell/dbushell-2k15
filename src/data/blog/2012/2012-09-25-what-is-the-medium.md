@@ -10,35 +10,25 @@ title: What is the medium?
 
 The article above is _jam packed_ with goodness. I've been racking my brain this year trying to understand the web as a medium and Paul does a wonderfully succinct job of encapsulating that idea in a way that I've never quite managed.
 
-
-<blockquote><p>To properly design for a medium, you need to understand it. I like to think of the web as a kind of material, with unique characteristics we can take advantage of, and limits it can reach before it breaks.</p></blockquote>
-
+> To properly design for a medium, you need to understand it. I like to think of the web as a kind of material, with unique characteristics we can take advantage of, and limits it can reach before it breaks.
 
 And it's got me thinking.
 
-
 ### Access
-
 
 As last year neared closing time I spent a quiet day contemplating some of the challenges I would face after the winter festivities had past. [I wrote three points](/2011/12/15/web-design-2012-and-beyond/).
 
 _Accessibility — _in respect to devices — was the first. This one was obvious. The whole industry had become obsessed with responsive design the year before (2010). My second point, _Screen Resolution and Scalable Graphics_, was also a logical conclusion and it has featured significantly in this year's discourse.
 
-
 ### Visuals
-
 
 As 2012 has progressed I've had a growing feeling that there is something not quite right with the recent focus on "responsive images". Paul hits the nail of the head:
 
-
-<blockquote><p>In seeking design solutions to this problem, we could create an aesthetic more appropriate to the medium—and perhaps realize that the responsive image problem only exists because our design conventions remain rooted in print.</p></blockquote>
-
+> In seeking design solutions to this problem, we could create an aesthetic more appropriate to the medium—and perhaps realize that the responsive image problem only exists because our design conventions remain rooted in print.
 
 I would not go as far as to suggest images are simply wrong for the web, but trying to crowbar them in to suit an old way of design thinking does not get to the root of the problem. We do need something, be it a [picture element](http://dvcs.w3.org/hg/html-proposals/raw-file/tip/responsive-images/responsive-images.html) or not, but **far less so than we think**. Equally I have felt that over emphasis on content and typographic design that [many have explored](/2012/05/26/the-restriction-of-type/) leaves something to be desired. It doesn't abuse the medium, but neither does it take advantage of it.
 
-
 ### State
-
 
 The final point I made was: _Interactivity_. That I found difficult to pin down but now I feel a sense of clarity emerging. Websites are interactive in their nature, therefore whenever we try to design a single state we're ignoring the before and after. When you begin to focus design on _user journeys_ and _interactions_ the print aesthetic quickly evaporates. As I've become more immersed in an [agile and iterative workflow](/2012/09/17/agile-website-design-and-development/) I've started to see websites for what they are.
 
@@ -50,15 +40,11 @@ Or on the contrary, as Paul suggests and I'm inclined to agree, perhaps we're as
 
 Paul concludes his article:
 
-
-<blockquote><p>As we enter the third decade of the web’s existence, we should be gaining a sense of what works, and what doesn’t. We should now have the confidence to choose which aspects of other media and platforms to take inspiration from, and which to ignore.</p></blockquote>
-
+> As we enter the third decade of the web’s existence, we should be gaining a sense of what works, and what doesn’t. We should now have the confidence to choose which aspects of other media and platforms to take inspiration from, and which to ignore.
 
 I agree to an extent but in terms of a true aesthetic, _what works and what doesn't_ is time sensitive. I think I've been missing a fourth cornerstone:
 
-
 ### Time
-
 
 Can we produce a design that evolves over _time_? Website makers should already be well versed in the art of progressive enhancement. A development technique that allow us to deliver the cutting edge while still maintaining support for the past. With this we're effectively creating a website that changes in style and functionality to suit the technology snapshot that's viewing it. Many developers are becoming quite adept at this practice, but how many designers are questioning just how far into the future it's possible to go?
 

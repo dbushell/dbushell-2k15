@@ -26,9 +26,7 @@ Sometimes simplicity _does_ involve jQuery and HTML5 APIs—but more often than 
 
 A quote from Kenya Hara's book _Designing Design_:
 
-
-<blockquote><p>The future lies ahead of us, but behind us there is also a great accumulation of history – a resource for imagination and creativity. I think we call “creative” that dynamism of intellectual conception that flows back and forth between the future and the past.</p></blockquote>
-
+> The future lies ahead of us, but behind us there is also a great accumulation of history – a resource for imagination and creativity. I think we call “creative” that dynamism of intellectual conception that flows back and forth between the future and the past.
 
 Those working in graphic design know this all too well, but sometimes I think web designers forget their past. It's worth remembering that XHTML 2.0 was scrapped in favour of HTML5; a standard designed on top of what _already existed_.
 

@@ -7,16 +7,9 @@ portfolio: true
 title: Responsive Design for Uwe Wittwer
 ---
 
-<blockquote>
-
-<p class="p--large">David immediately grasped our taste in design and our technical requirements for a modern, responsive design after only a short brief by mail and phone.</p>
-
-
-<p class="p--small"><cite>Kevin Mueller, _Studio Manager for Uwe Wittwer_</cite></p>
-
-</blockquote>
-
-
+> David immediately grasped our taste in design and our technical requirements for a modern, responsive design after only a short brief by mail and phone.
+>
+> <cite>Kevin Mueller, _Studio Manager for Uwe Wittwer_</cite>
 
 ![Uwe Wittwer - Responsive Website Design](/images/2014/05/uwe-wittwer-website-design.png)
 
@@ -24,9 +17,7 @@ title: Responsive Design for Uwe Wittwer
 
 We immediately jumped into code and content. While the client focused on information architecture I worked on aspects of typographic and structural design. We then swapped roles, giving opportunity for feedback from both sides. This process repeated as we molded the website design into shape. The result was a flat HTML & CSS website; a cost effective solution that the client could take in-house and integrate with their CMS.
 
-
 ## Fixed / Responsive Navigation
-
 
 The minimalist nature of the design gave us ample space to experiment with. To house the global navigation we opted for a vertical sidebar (rather than the usual horizontal header links). See the home page design below:
 
@@ -40,9 +31,7 @@ Responsive navigation can be difficult to handle when device orientation — po
 
 To add a final touch of class to the design, we adapted a set of custom icons to compliment the navigation links.
 
-
 ## Multiple Sections
-
 
 The **"Publications"** page is a rich index of external links and downloads. To ease navigating around this content we combined on-page anchor links at the top of the page followed by highly visible section headers to define each area.
 
@@ -50,18 +39,11 @@ The **"Publications"** page is a rich index of external links and downloads. To 
 
 The section headers automatically attach and detach to the top of the viewport as the page scrolls. They provide a helpful "return to top" link designed to align seamlessly alongside the global navigation link.
 
-
 ## Client Testimonial
 
-
-
-
-<blockquote>
-<p>Having David Bushell design our new website was a very rewarding experience on several levels: David immediately grasped our taste in design and our technical requirements for a modern, responsive design after only a short brief by mail and phone. The feedback phase was short and effective. David provided us with beautiful and cost effective templates for our CMS that surpassed our high expectations from both the design and the tech perspective. We are looking forward to working with David again on all our future projects.</p>
-<p class="p--small"><cite>Kevin Mueller, _Studio Manager for Uwe Wittwer_</cite></p>
-
-</blockquote>
-
+> Having David Bushell design our new website was a very rewarding experience on several levels: David immediately grasped our taste in design and our technical requirements for a modern, responsive design after only a short brief by mail and phone. The feedback phase was short and effective. David provided us with beautiful and cost effective templates for our CMS that surpassed our high expectations from both the design and the tech perspective. We are looking forward to working with David again on all our future projects.
+>
+> <cite>Kevin Mueller, _Studio Manager for Uwe Wittwer_</cite>
 
 [www.uwewittwer.com](http://uwewittwer.com)
 

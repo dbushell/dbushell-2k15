@@ -12,15 +12,11 @@ This problem occurs from very good practices. We have to make sure pages are acc
 
 There's a nice technique to avoid the annoying visual kick.
 
-
 ## Document Ready?
-
 
 The trick is understanding how JavaScript executes. For religious jQuery users like I'm forever living inside the [document ready event](http://api.jquery.com/ready/).
 
-
-<blockquote><p>While JavaScript provides the load event for executing code when a page is rendered, this event does not get triggered until all assets such as images have been completely received. In most cases, the script can be run as soon as the DOM hierarchy has been fully constructed.</p></blockquote>
-
+> While JavaScript provides the load event for executing code when a page is rendered, this event does not get triggered until all assets such as images have been completely received. In most cases, the script can be run as soon as the DOM hierarchy has been fully constructed.
 
 This means that the whole DOM has loaded and is ready to be manipulated. Sadly for us it also means the web browser has likely rendered the page and all its default visual states. Seeing JavaScript force a re-render is not a nice effect.
 

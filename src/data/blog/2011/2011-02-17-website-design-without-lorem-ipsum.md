@@ -12,9 +12,7 @@ Partly because I could recite more words of *Lorem Ipsum* than I could numbers o
 
 I don't agree with some of my thoughts from 2009, but this reasoning still stands:
 
-
-<blockquote><p>The problem with using Lorem Ipsum is that it doesn’t give a proper sense or provoke thoughts as to what will eventually replace it.</p></blockquote>
-
+> The problem with using Lorem Ipsum is that it doesn’t give a proper sense or provoke thoughts as to what will eventually replace it.
 
 So has a year sober of Lorem Ipsum been beneficial?
 

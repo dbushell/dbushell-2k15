@@ -12,9 +12,7 @@ title: Groundhog Day
 
 [June 2009](/2009/06/06/website-update/), [August 2009](/2009/08/26/redesign-or-realign/), [June 2010](/2010/06/26/dbushell-v4/), [May 2011](/2011/05/25/designing-a-new-me/), [February 2012](/2012/02/27/spring-cleaning-redesigning-dbushell-com/). At this point the cycle is hardly a surprise and I guess I should embrace the prospect rather than tweet about it. Last time I said:
 
-
-<blockquote><p>A complete overhaul of the build and a touch of class to the design. You’re seeing it now (unless you’ve arrived here from a future redesign. In that case, how long did this one last?)</p></blockquote>
-
+> A complete overhaul of the build and a touch of class to the design. You’re seeing it now (unless you’ve arrived here from a future redesign. In that case, how long did this one last?)
 
 About seven months then? I'm actually _really_ happy with my current iteration. It concluded an idea and style I'd be honing for several years. At some point along the journey I even stumbling upon the value of adding screenshots to each launch article (makes for a less confusing read in retrospective).
 

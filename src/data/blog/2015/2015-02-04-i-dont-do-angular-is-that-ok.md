@@ -10,18 +10,13 @@ I've never been one to care for job titles. One or two words can't adequately ex
 
 On my homepage:
 
-
-<blockquote><p>"I design, build & write all things web"</p></blockquote>
-
+> "I design, build & write all things web"
 
 Then I list:
-
-
 
 * [Responsive Design](/responsive-design/)
 * [Front-end Development](/front-end-development/)
 * [Process & Strategy](/process-and-strategy/)
-
 
 These pages are a delicate balance of an intelligent, thoughtful, and succinct description of my 'craft', and some SEO bingo because that's an unfortunate reality. In my sidebar-slash-footer:
 <em class="p--light">"I freelance for small businesses, start-ups, individuals, and fellow web agencies."</em>

@@ -14,9 +14,7 @@ On August 16th [Adobe announce](http://blog.typekit.com/2010/08/16/typekit-and-a
 
 Yesterday brought with it the announcement of  [WebType.com](http://www.webtype.com/) - another web font service backed by **Font Bureau** and **Ascender Corp**.
 
-
-<blockquote><p>Led by Font Bureau and Ascender Corp., Webtype.com introduces a new range of web fonts optimized for high quality text rendering across browsers. Webtype.com launches an innovative web font service to improve web typography.</p></blockquote>
-
+> Led by Font Bureau and Ascender Corp., Webtype.com introduces a new range of web fonts optimized for high quality text rendering across browsers. Webtype.com launches an innovative web font service to improve web typography.
 
 Inspired stuff, and it packs a hefty fee. Unlike Typekit you're not buying access to a library of fonts - you're paying for just one. With [Typekit](https://typekit.com/plans) it's impossible to pay more than $99 a year (for full library access and unlimited font/site usage). With Webtype that won't even buy you [News Gothic Regular](http://www.webtype.com/font/news-gothic-regular/) on their top license "Business Plan".
 

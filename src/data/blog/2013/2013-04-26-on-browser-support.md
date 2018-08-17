@@ -8,9 +8,7 @@ title: On Browser Support
 
 The recently launched [jQuery 2.0](http://blog.jquery.com/2013/04/18/jquery-2-0-released/) leaves behind support for IE6–8. This has lead to some interesting opinions on what browsers we should be supporting. Here's my take:
 
-
 ## Defining support
-
 
 Supporting a browser to me does not mean that a website will be identical in form and function. That is a fool's errand leading to an unmanageable mess of polyfills and hacks.
 
@@ -18,9 +16,7 @@ I consider a browser supported if I **actively test** the core content and funct
 
 I divide attention proportional to browser usage. I'm not going to deliver the _best possible_ experience IE7 is capable of but it's certainly not going to be broken.
 
-
 ## Deciding where to test
-
 
 When I tell people I often support IE7 the common response is "why?" — followed by an assertion that browser statistics show IE7 usage is now insignificant enough not to warrant attention. How could you possibly know that? I haven't told you which website I'm building yet!
 
@@ -28,9 +24,7 @@ You see, aggregate statistics are a useful baseline — at least localised, not
 
 Other factors to considered include:
 
-
 ## Budget and customers
-
 
 Projects are more often than not limited in the funds department. Sometimes it's just not financially viable to support and test the long-tail of browsers and devices. This can be a tricky situation in regards to client expectations.
 
@@ -38,15 +32,11 @@ Is the cost of development going to outweigh the loss in revenue that comes from
 
 For this reason alone a blanket list of supported browsers shouldn't be set in stone. When I wrote about [browser support](/2012/03/03/forget-about-browser-support/) last year I said:
 
-
-<blockquote><p>A traditional browser support list is completely ignorant of a website’s requirements. It wrongly aims for parity across browsers and leads to much wasted time and money.</p></blockquote>
-
+> A traditional browser support list is completely ignorant of a website’s requirements. It wrongly aims for parity across browsers and leads to much wasted time and money.
 
 Study requirements in detail. Adjust design and development practices to suit the bottom line. Doing this will tame the client's expectations and make them confident with your advice.
 
-
 ## Effort and time
-
 
 When the [previous iteration](/2012/03/03/forget-about-browser-support/) of dbushell.com launched last March I supported IE6. Yes, that's a _six_. Why? Because the effort required was minimal. Even though the nature of my website means that Internet Explorer as a whole is barely represented in the logs. When I [realigned this year](/2013/02/04/a-new-home/) the design was more ambitious and I moved the boundaries up to IE8 and above.
 

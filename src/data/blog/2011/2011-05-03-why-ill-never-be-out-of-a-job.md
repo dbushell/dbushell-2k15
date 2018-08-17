@@ -12,11 +12,11 @@ Now, I'm not one to be cynical (and I've pledged to [avoid negativity](/2011/04/
 
 [![Webby Awards - Best Navigation/Structure - Screenshot 1](/images/2011/05/webbyawards.png)](http://www.hidden-heroes.net/)
 
-<p class="medium">The Webby Awards winner for Best Navigation/Structure.</p>
+The Webby Awards winner for Best Navigation/Structure.
 
 I'm seriously stunned!
 
-Now forgetting the fact that this website is 100% Flash and takes literally _minutes _to load – it has one of **the worst** pieces of "navigation" and "structure" I have ever seen.
+Now forgetting the fact that this website is 100% Flash and takes literally _minutes_ to load – it has one of **the worst** pieces of "navigation" and "structure" I have ever seen.
 
 Here is what's wrong:
 
@@ -31,15 +31,13 @@ No matter which bars you've previously clicked, you are then presented with this
 
 ![Webby Awards - Best Navigation/Structure - Screenshot 2](/images/2011/05/webby2.png)
 
-<p class="medium">I can't actually link to this page because the website is developed in Flash (poorly).</p>
+> I can't actually link to this page because the website is developed in Flash (poorly).
 
 Once loaded an animated cursor proceeds to demonstrate how you're suppose to drag the next part of the "_Best Navigation/Structure_" into view. Blink and you'll miss it. **And you _will _miss it**, because it took five minutes to load and you've clicked to another tab, or given up entirely.
 
-Is **usability **not the number one criteria for _"Best Navigation/Structure_"? Let's see what the [Webby Awards](http://www.webbyawards.com/entries/criteria.php) says about this:
+Is **usability** not the number one criteria for _"Best Navigation/Structure_"? Let's see what the [Webby Awards](http://www.webbyawards.com/entries/criteria.php) says about this:
 
-
-<blockquote><p>Sites with good structure and navigation are consistent, intuitive and transparent. They allow you to form a mental model of the information provided, where to find things, and what to expect when you click. Good navigation gets you where you want to go quickly and offers easy access to the breadth and depth of the site's content.</p></blockquote>
-
+> Sites with good structure and navigation are consistent, intuitive and transparent. They allow you to form a mental model of the information provided, where to find things, and what to expect when you click. Good navigation gets you where you want to go quickly and offers easy access to the breadth and depth of the site's content.
 
 Now I ask openly – what part of that criteria is reflected in the winning site above? None at all. It has a closer resemblance to a [Dan Brown](http://www.amazon.co.uk/Vinci-Code-Dan-Brown/dp/0552149519/) novel.
 

@@ -10,9 +10,7 @@ As most people know I don't 'do things by half' and taking on ambitious projects
 
 Last week I launched **[xheight.dbushell.com](http://xheight.dbushell.com)** as a blog for many more designers than just myself to discuss the theory of design from experience and aspirations.
 
-
-<blockquote><p>**xheight** aims to share the inner-most secrets of professional designers. On one hand, this blog will allow its authors to understand their own discipline, but more importantly, it will allow others a new perspective on what design can mean.</p></blockquote>
-
+> **xheight** aims to share the inner-most secrets of professional designers. On one hand, this blog will allow its authors to understand their own discipline, but more importantly, it will allow others a new perspective on what design can mean.
 
 As expected it's had a very positive reception, and why wouldn't it? Nothing helps us more in design than studying the approach of others. **xheight** is focusing on theory over practical techniques which for some is a difficult concept to grasp. Their loss!
 

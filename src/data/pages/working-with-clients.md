@@ -6,10 +6,9 @@ I've worked successfully with many businesses. From large national organisations
 * We'll discuss viable solutions based on your budget and requirements
 * My workflow will adapt to fit your availability and expertise
 
-<blockquote>
-  <p class="p--large p--quote">David quickly immersed himself within the workings of our industry, and created a plan that concisely reflected [our] needs.</p>
-  <p class="p--small"><cite>Jon Home &ndash; Director &ndash; Asset Management &ndash; <a href="/2013/08/09/responsive-design-for-kings-transfer/">King’s Transfer Van Lines Inc.</a></cite></p>
-</blockquote>
+> David quickly immersed himself within the workings of our industry, and created a plan that concisely reflected [our] needs.
+>
+> <cite>Jon Home &ndash; Director &ndash; Asset Management &ndash; <a href="/2013/08/09/responsive-design-for-kings-transfer/">King’s Transfer Van Lines Inc.</a></cite>
 
 Every project is unique. Rather than offering a set package my approach to design ensures we're creating a website that works for your business:
 
@@ -17,10 +16,9 @@ Every project is unique. Rather than offering a set package my approach to desig
 * You'll receive regular updates not big surprises that require "sign off"
 * We'll test and iterate ideas in the web browser and on devices
 
-<blockquote>
-  <p class="p--large p--quote">David was able to display sound reasoning and rationale for the decisions and advice provided to us, with solid industry best practice knowledge.</p>
-  <p class="p--small"><cite>Chris King &ndash; ASE Consulting</cite></p>
-</blockquote>
+> David was able to display sound reasoning and rationale for the decisions and advice provided to us, with solid industry best practice knowledge.
+>
+> <cite>Chris King &ndash; ASE Consulting</cite>
 
 Learn more about my [**web design process**](/responsive-design/).
 

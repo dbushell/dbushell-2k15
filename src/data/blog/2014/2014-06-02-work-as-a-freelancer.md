@@ -12,9 +12,7 @@ Client work has been steady and I have a couple of stand out portfolio pieces re
 
 To-date most of my work has come from enquiries. That is to say, I haven't gone looking directly for jobs. I feel that needs to change. I need to be more proactive.
 
-
 ## Thinking Proactively
-
 
 To survive on enquiries alone sounds like a wonderful position. Some may call this lucky but I believe it's down to hard work. I've built up a reputable online presence blogging and otherwise contributing to the industry. I credit these efforts in large to why I was hired full-time in the past.
 
@@ -26,11 +24,7 @@ I am hugely appreciative of the opportunities I've had to talk on stage, I'm ju
 
 Earlier today [I tweeted](https://twitter.com/dbushell/status/473412541562228737):
 
-
-<blockquote>
-<p class="p--large p--quote">freelancers — any tips / resources on proactively acquiring work? (as opposed to waiting for enquires)</p>
-</blockquote>
-
+> freelancers — any tips / resources on proactively acquiring work? (as opposed to waiting for enquires)
 
 The response was excellent.
 

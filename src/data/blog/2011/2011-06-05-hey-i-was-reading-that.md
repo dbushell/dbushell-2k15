@@ -10,15 +10,11 @@ I'm a huge fan of web typography, but we'll have to wait a bit longer to catch u
 
 Twitter surged last week with the news of [Futura's arrival at Typekit](http://blog.typekit.com/2011/06/01/futura/).
 
-
-<blockquote><p>Futura PT’s classic design — tall ascenders, near perfect geometric shapes — make it both instantly recognizable and irrepressibly modern.</p></blockquote>
-
+> Futura PT’s classic design — tall ascenders, near perfect geometric shapes — make it both instantly recognizable and irrepressibly modern.
 
 Indeed, and browser rendering makes it entirely _unrecognisable_. We've known this for a while; Futura has been available on less popular/more pricy services for months. See the example from Typekit's blog:
 
-![Futura - rendering at text sizes - Typekit](/images/2011/06/Rendering-at-text-sizes.png)
-<em class="medium">Image © 2011 Typekit, Inc. </em>
-
+![Futura - rendering at text sizes - Typekit - Image © 2011 Typekit, Inc.](/images/2011/06/Rendering-at-text-sizes.png)
 
 The rendering is passible on a Mac, dreadful on Windows—and that's just regular Futura Book. Light and _Light Italic_ are going to be atomic-thin. Typekit says this is "strikingly legible". I'm not sure that's a compliment. Play around with the [Futura Type Specimen](http://typekit.com/fonts/futura-pt) and you'll see for yourself:
 
@@ -32,9 +28,7 @@ Those sub-pixels are being tortured. I daren't check how it's displayed on a Win
 
 There's nothing wrong with Futura's design or Typekit's serving it's simply a technical limitation. But it's an issue that is evidentially being ignored by many web designers.
 
-
 ## Web Typography Limitations
-
 
 Futura and many (actually most) other web fonts can never be used for body copy. At least not until we're all sat infront of desktop displays that match the _pixels-per-inch_ of the iPhone's Retina screen. If you thought browser upgrading was a slow and frustrating process, you'll cry when you realise we'll be designing for old hardware for decades longer.
 
@@ -48,9 +42,7 @@ To be fair, design on the web has matured a lot in the last few years but lack o
 
 Websites are designed to serve a purpose. Normally to promote and sell a product or service. They are not a canvas for us to throw every new technology at. While these things do often help provide a better solution it's almost always simple _clarity_ that works best, not illegible web fonts.
 
-
 * * *
-
 
 In other news, on June 7th _Monotype Imaging_ are releasing a new digital version of **Helvetica** including display weights under its original name "Neue Haas Grotesk".
 

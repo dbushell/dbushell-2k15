@@ -6,8 +6,7 @@ template: single.html
 title: 'Paydirt: You''re Doing It Wrong'
 ---
 
-<blockquote><p>We don't spend hours debugging obscure IE bugs...</p></blockquote>
-
+> We don't spend hours debugging obscure IE bugs...
 
 Neither do I, yet my websites work just fine in Internet Explorer.
 

@@ -8,11 +8,9 @@ title: HTML5 for Web Designers
 
 The latest addition to my design book library (well, shelf) is the much anticipated [HTML5 for Web Designers](http://books.alistapart.com/) by [Jeremy Keith](http://adactio.com/), published by A Book Apart.
 
+> The HTML5 spec is 900 pages and hard to read. HTML5 for Web Designers is 85 pages and fun to read. Easy choice.
 
-<blockquote><p>The HTML5 spec is 900 pages and hard to read. HTML5 for Web Designers is 85 pages and fun to read. Easy choice.</p></blockquote>
-
-
-I've been very excited to read this book not just because of the topic and author (both exciting in their own way), but also because of the connection to [A List Apart](http://www.alistapart.com/), perhaps _**the **_website for web designers and developers.
+I've been very excited to read this book not just because of the topic and author (both exciting in their own way), but also because of the connection to [A List Apart](http://www.alistapart.com/), perhaps _**the**_ website for web designers and developers.
 
 For me the first two chapters were the most rewarding. _"A Brief History of Markup"_ and _"The Design of HTML5"_ give a great overview of the HTML5 language. It's clear that Jeremy Keith has invested a lot of time following web standards and has a detailed knowledge of them.
 

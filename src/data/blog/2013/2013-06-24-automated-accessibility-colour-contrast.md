@@ -10,15 +10,11 @@ In my quest to [automate my entire job](/2013/04/30/origin/) I've moved into th
 
 I'm guilty myself so I'm keen to implement automated checks into my process.
 
-
 ## Colour Contrast
-
 
 On [colour contrast](http://www.w3.org/TR/AERT#color-contrast) the W3C say:
 
-
-<blockquote><p>Ensure that foreground and background color combinations provide sufficient contrast when viewed by someone having color deficits or when viewed on a black and white screen</p></blockquote>
-
+> Ensure that foreground and background color combinations provide sufficient contrast when viewed by someone having color deficits or when viewed on a black and white screen
 
 The suggested algorithm is a shade complicated to calculate in your head. Thankfully tools like Lea Verou's [Contrast Ratio](http://leaverou.github.io/contrast-ratio/) make it easy to check colours before use.
 
@@ -28,9 +24,7 @@ Though checking individually before use isn't the most efficient process when de
 
 Make an educated guess; confirm later.
 
-
 ## More powerful tools
-
 
 There are browser plugins and bookmarklets like [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) that work well but they occasionally flag false positives. It's remarkably difficult to figure out the final browser render by inspecting the DOM. The only way to know exact colours for sure is to render areas _with_ and _without_ text. I've been experimenting with [PhantomJS](http://phantomjs.org/) to do this.
 

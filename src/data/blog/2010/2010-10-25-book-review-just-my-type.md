@@ -12,9 +12,7 @@ So much so that I purchased and read it as fast as humanly possible.
 
 The book starts with a chapter on Comic Sans, illustrating the significant impact a font can have. It follows on with a second story then quickly moves onto a brief history of typography, from Gutenberg’s Bible to type classifications. The chapter is an adequate explanation for non type-geeks and a nice reminder with a comical reference for the more discerning of us.
 
-
-<blockquote><p>Just My Type is a book of stories about fonts. It examines how Helvetica and Comic Sans took over the world. It explains why we are still influenced by type choices made more than 500 years ago, and why the T in the Beatles logo is longer than the other letters.</p></blockquote>
-
+> Just My Type is a book of stories about fonts. It examines how Helvetica and Comic Sans took over the world. It explains why we are still influenced by type choices made more than 500 years ago, and why the T in the Beatles logo is longer than the other letters.
 
 The follow chapters pick up on the historical significance of certain typefaces while exploring modern day  usage and perception of typography. While discussing type without mentioning American and European influencers would be impossible, the book remains a definitely British affair, always returning to the streets of London. The cultural references, insight and just plain fascinating stories are what set this book apart from the myriad of other factual but dull typographic essays.
 

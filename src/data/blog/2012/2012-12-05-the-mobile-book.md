@@ -12,31 +12,19 @@ Smashing Magazine's **[The Mobile Book](https://shop.smashingmagazine.com/the-mo
 
 Let it be known that this book goes beyond designing for the Web. The core themes are **mobile** and **connectivity**. These seemingly simple ideas — introduced in chapters by Peter-Paul Koch and Stephanie Rieger, respectively — widen the discourse to encompass a greater technological landscape. Perhaps uncomfortably so; our little web buddle is bursting. It will either be side-lined entirely, or prove to be the element that connects _everything_.
 
-
 ## Mobile
 
-
-
-
-<blockquote><p>“Differentiation” is the positive way of looking at this process, while “fragmentation” is the negative way. The word you use depends on whether you think it is a good idea.</p></blockquote>
-
+> “Differentiation” is the positive way of looking at this process, while “fragmentation” is the negative way. The word you use depends on whether you think it is a good idea.
 
 **Peter-Paul Koch** sets the mobile scene by outlining the evolving business models behind mobile operators, device manufacturers, and OS vendors. He summarises a three-way war of attrition and provides insightful rational behind the state of mobile and what we should expect. He then hits us with the reality of what this means for web development. A point reiterated throughout this chapter is the locality of statistics. Data outside of our client's logs is rarely useful. I won't paraphrase his further sage advice, you need to read that for yourself.
 
-
 ## Connectivity
 
-
-
-
-<blockquote><p>Most of the technologies we will encounter in the decades to come are already here, just waiting to be discovered and experimented with by a whole new generation of designers and developers.</p></blockquote>
-
+> Most of the technologies we will encounter in the decades to come are already here, just waiting to be discovered and experimented with by a whole new generation of designers and developers.
 
 **Stephanie Rieger** explores the connected world. The _Internet of Things_ and the technologies that drive it. Parallels are drawn to indicate how the Web may intertwine itself with this future, raising the question: just how recognisable will the Web become from today's experience? Right now it's — for the most part — a mere digital translation of printed media. A few bells and whistles but nothing revolutionary. Compare that to the Web's _potential_ in a future of ubiquitous connectivity and your mind will be racing for many late nights to come.
 
-
 ## Responsive & UX
-
 
 Follow these wonderful openers, The Mobile Book takes a turn into more familiar territory. **Trent Walton**, **Brad Frost**, and **Dave Olsen** collectively summarise a complete (as possible) set of the latest ideas, techniques, and principles surrounding responsive design. A nice mix of code and theory. If your build skills are a little outdated, between Trent and Brad you'll learn much to reinforce your responsive foundations.
 
@@ -46,9 +34,7 @@ I would highlight Dave Olsen's chapter on _"Optimizing For Mobile"_ as the **mus
 
 Closing Smashing Magazine's best book to date (did I mention that?) are two chapters on _UX Design For Mobile_, by **Dennis Kardys** and **Josh Clark**. I'll leave you to discover the wisdom here as I feel this review is getting a little long, but following introduction and implementation, the UX perspective ends the book with a welcome human touch.
 
-
 ## A Final Word
-
 
 **Jeremy Keith** begins the forward, _"this book is an artefact of its time"_.
 

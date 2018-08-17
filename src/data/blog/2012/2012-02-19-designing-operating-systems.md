@@ -18,17 +18,11 @@ Meanwhile, Microsoft blogged about [Redesigning the Windows Logo](http://window
 
 ![Windows 8 Logo](/images/2012/02/windows-8-logo.png)
 
-
-
-
-<blockquote><p>It was important that the new logo carries our Metro principle of being “Authentically Digital”. By that, we mean it does not try to emulate faux-industrial design characteristics such as materiality (glass, wood, plastic, etc.).</p></blockquote>
-
+It was important that the new logo carries our Metro principle of being “Authentically Digital”. By that, we mean it does not try to emulate faux-industrial design characteristics such as materiality (glass, wood, plastic, etc.).
 
 If it wasn't for the incredibly cheesy "Authentically Digital" line I'd say that was a deservedly accurate jab at Apple. I make no comment on how usable either system will proved to be, I only note that Microsoft find themselves in the unusual position of taking a refreshing step forward in UI design, while Apple seem hell-bent on designing themselves into a tediously well veneered corner.
 
-
 ## Regarding the Web
-
 
 Last year I highlighted several challenges we'll face in [web design for 2012](/2011/12/15/web-design-2012-and-beyond/) with a side note on why we must avoid the Apple influence and instead pay more attention to Microsoft, however untrendy that may be. I also wrote [Resolution Independence](http://coding.smashingmagazine.com/2012/01/16/resolution-independence-with-svg/) for Smashing Magazine to primarily champion further scalable graphic usage on the web.
 
@@ -38,8 +32,6 @@ What does all of this mean?
 
 Apple do not care about the web. They're creating a digital world in which everything is client side and native. They'll happily make use of web technologies when it suits ([iBooks](http://www.glazman.org/weblog/dotclear/index.php?post/2012/01/20/iBooks-Author-a-nice-tool-but) for example), but the web as a platform? Not for Apple. Is that approach wrong? Not necessarily, I could not say, but it's something us web designers need to recognise and not replicate.
 
-
 * * *
-
 
 Oh, and like me you were probably pissed off by John Naughton's incredibly ill-informed [Graphic designers are ruining the web](http://www.guardian.co.uk/technology/2012/feb/19/john-naughton-webpage-obesity) piece in the Guardian but he does stumble around some genuine points. He just fails to articulate reasoning for either side.

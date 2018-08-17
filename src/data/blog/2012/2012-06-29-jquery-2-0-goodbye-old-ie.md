@@ -8,15 +8,11 @@ title: jQuery 2.0, "Goodbye Old IE"
 
 jQuery 2.0, expected release "early 2013", will drop support for Internet Explorer 6–8.
 
-
-<blockquote><p>jQuery was conceived specifically to address the differences in browsers, so we’re not going to abandon the essence of our philosophy and simply disregard the millions of active Internet users who (for whatever reasons) still use oldIE. Yet we also want to move ahead and take advantage of modern browsers, especially the growing mobile market.</p></blockquote>
-
+> jQuery was conceived specifically to address the differences in browsers, so we’re not going to abandon the essence of our philosophy and simply disregard the millions of active Internet users who (for whatever reasons) still use oldIE. Yet we also want to move ahead and take advantage of modern browsers, especially the growing mobile market.
 
 jQuery version 1.9 will be fully API compatible, so for websites developed in 2013 it will be worth conditionally serving both versions so that modern browsers get a performance boost. The official press release has example code for this: [jQuery Core: Version 1.9 and Beyond](http://blog.jquery.com/2012/06/28/jquery-core-version-1-9-and-beyond/).
 
-
 ## Good News?
-
 
 In short, yes. This is great news. I've lambasted website owners before for [actively blocking](/2012/04/02/dropping-ie-support/) and [celebrating](/2012/05/08/paydirt-youre-doing-it-wrong/) their lack of IE support, so what makes this news any different?
 

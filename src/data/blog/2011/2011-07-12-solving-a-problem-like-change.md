@@ -6,15 +6,13 @@ template: single.html
 title: Solving a Problem like Change
 ---
 
-A while back the [**Gawker** ](http://gawker.com)network redesigned their line-up and the Internet revolted. It was bad, very _very _bad. The design, the usability, the technical implementation—it had people scratching their heads.
+A while back the [**Gawker**](http://gawker.com)network redesigned their line-up and the Internet revolted. It was bad, very _very _bad. The design, the usability, the technical implementation—it had people scratching their heads.
 
-Yesterday [**TechCrunch** ](http://techcrunch.com)launched a redesign and, well, it's not quite 'a Gawker'.
+Yesterday [**TechCrunch**](http://techcrunch.com)launched a redesign and, well, it's not quite 'a Gawker'.
 
 ![New TechCrunch Logo & Website Design](/images/2011/07/techcrunch.png)
 
-
-<blockquote><p>We used AOL Paint, which comes free on the AOL CD and has this sweet UltraLogoMatic2000 feature.</p></blockquote>
-
+> We used AOL Paint, which comes free on the AOL CD and has this sweet UltraLogoMatic2000 feature.
 
 To their credit TechCrunch recognised the inevitable backlash and posted several witty, self-deprecating (at the same time 'fuck you') style posts in true TC fashion. An entertaining and on-brand launch that threw a proactive punch towards the change haters. As anyone in the <del>design industry</del> world knows: **people don't like change**.
 
@@ -22,9 +20,7 @@ The problem is how do you separate real feedback from the hate bandwagon? More 
 
 TechCrunch came out with a strong 'don't care' attitude, but that's not a universal solution and it will never play to everyone's taste. It also doesn't change the fact that the new design really_ isn't that good_. There's a telling quote from the [launch article](http://techcrunch.com/2011/07/11/redesigning-techcrunch-we-picked-this-logo-just-to-piss-you-off/): _"After our eighth rejected visual design..."_. Eight rejected designs? Now granted, I've never lead a design project under the gaze of a giant like AOL, but surely if a project gets that far it's undoubtedly suffering from disastrous managerial hands? Personally I'm indifferent to the new design. As a website it's no better, no worse than the old. It's just _different_.
 
-
 ## Avoiding Change
-
 
 What's the solution? You have to avoid the need for drastic change to begin with.
 

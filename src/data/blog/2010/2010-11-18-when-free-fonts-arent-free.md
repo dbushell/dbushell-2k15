@@ -8,49 +8,35 @@ title: When Free Fonts Aren’t Free
 
 [Font Squirrel](http://www.fontsquirrel.com) is one of the best online resources for finding high quality (and almost free) fonts. I do rate it very highly, and [@font-face generator](http://www.fontsquirrel.com/fontface/generator) is the work of magic elves in my opinion.
 
-
-<blockquote><p>"Font Squirrel is your best resource for FREE, hand-picked, high-quality, commercial-use fonts. Even if that means we send you elsewhere to get them."</p></blockquote>
-
+> "Font Squirrel is your best resource for FREE, hand-picked, high-quality, commercial-use fonts. Even if that means we send you elsewhere to get them."
 
 There is one caveat to my love though.
 
 The tagline **"100% free for commercial use"** is, in my humble opinion, very misleading. It implies (and correct me if I'm wrong) that all fonts on the website are 100% free for commercial use. Things aren't as simple as that. In good faith and as a public service I present evidence to the contrary. Not to vilify Font Squirrel in any way, but only to point out that a free lunch is very rare.
 
-<p class="medium">**Disclaimer:** I know Font Squirrel aren't intentionally misleading anyone and you would be naive to use a font without reading the license thoroughly. See my conclusion at the end of this article.</p>
-
-
-
+**Disclaimer:** I know Font Squirrel aren't intentionally misleading anyone and you would be naive to use a font without reading the license thoroughly. See my conclusion at the end of this article.
 
 ### Allers
 
-
 [Allers](http://www.fontsquirrel.com/fonts/Aller) by Dalton Maag Ltd is the 2nd _most downloaded_ font but it has limitations. First point of notice from the license agreement is this:
 
-
-<blockquote><p>Use by more than 25 Users, or equivalent Website Visitors, is a breach of this Free Licence Agreement, and instead requires a **commercial licence**.</p></blockquote>
-
+> Use by more than 25 Users, or equivalent Website Visitors, is a breach of this Free Licence Agreement, and instead requires a **commercial licence**.
 
 A very fair deal considering you're paying nothing, but the mention of a _commercial licence_ is worrying, and equivalent website visitors is just confusing. Since Font Squirrel makes a big deal about @font-face embedding this is important to understand.
 
 Later in the agreement this is defined as:
 
-
-<blockquote><p>Website Visitors are included in the Licensed Unit at the equivalence of 1,000 (one thousand) Website Visitors per day being equal to 1 (one) User of the Font Software.</p></blockquote>
-
+> Website Visitors are included in the Licensed Unit at the equivalence of 1,000 (one thousand) Website Visitors per day being equal to 1 (one) User of the Font Software.
 
 So you're allowed to embed the font providing you have less than 25,000 visitors a day. That's a lot and nothing to worry about for most people. The license mentions conversion to EOT format is allowed. You need to visit [Dalton Maag](http://www.daltonmaag.com/about/web_embedding_faq.html) for more information: Cufon, EOT and WOFF are acceptable, TTF, OTF and SVG are **not allowed**.
 
 I'm highlighting **Allers** because it took a big effort to understand the license and to find the additional terms. While the terms are _very_ generous there are many limitations that affect "free" usage, not to mention the non-free commercial license. I wouldn't call this "100% free".
 
-
 ### Windsong & friends
-
 
 [Windsong](http://www.fontsquirrel.com/license/Windsong) is the 4th _most downloaded_ Font Squirrel font. It has an interesting license page:
 
-
-<blockquote><p>This font was found on the internet and did not come with a license. While we try to make sure that all the fonts on fontsquirrel.com are properly licensed for commercial use, there are many fonts that have either been abandoned by their authors or the authors distribute their fonts without an explicit license.</p></blockquote>
-
+> This font was found on the internet and did not come with a license. While we try to make sure that all the fonts on fontsquirrel.com are properly licensed for commercial use, there are many fonts that have either been abandoned by their authors or the authors distribute their fonts without an explicit license.
 
 Translation: No idea if this font is "100% free for commercial use" or not, who knows?
 
@@ -60,9 +46,7 @@ You get the point.
 
 In all likelihood these fonts are free to use but would you risk using them commercially? In client work? I've found other fonts like Gotham "on the internet" that "did not come with a license". I wouldn't touch them with a barge pole.
 
-
 ### In Conclusion
-
 
 The lesson here is check the license meticulously before using any "free" font commercially, especially if you're embedding it with @font-face.
 

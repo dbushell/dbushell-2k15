@@ -18,9 +18,7 @@ The iPhone is not a success because designers are Apple fan-boys, it's a success
 
 [![IA Writer for Mac](/images/2011/05/iawriter.jpg)](/images/2011/05/iawriter.jpg)
 
-
-<blockquote><p>A better tool doesn’t make a better craftsman, but a good tool makes working a pleasure. iA Writer for Mac is a digital writing tool that makes sure that all your thoughts go into the text instead of the program. iA Writer has no preferences. It is how it is. It works like it works.</p></blockquote>
-
+> A better tool doesn’t make a better craftsman, but a good tool makes working a pleasure. iA Writer for Mac is a digital writing tool that makes sure that all your thoughts go into the text instead of the program. iA Writer has no preferences. It is how it is. It works like it works.
 
 "Focus Mode" (Command+D) is perfect. It focuses you on a single sentence emphasising the importance to _write on_, read later. A common and much used writing technique that works for most people.
 
@@ -30,9 +28,7 @@ Keyboard shortcuts are something I'll have to get use to. Call me ignorant (I'm 
 
 Should all software be like **IA Writer**? Can it? I think so. When designing interfaces we should explore this philosophy. **Antoine de Saint Exupéry** said it best:
 
-
-<blockquote><p>It seems that perfection is attained not when there is nothing more to add, but when there is nothing more to remove.</p></blockquote>
-
+> It seems that perfection is attained not when there is nothing more to add, but when there is nothing more to remove.
 
 These ideas are not new but it's too easy to lose focus with so much demand from elsewhere. You have to remain focused from the users perspective. What is the main goal they want to achieve?
 

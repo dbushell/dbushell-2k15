@@ -2,10 +2,9 @@
 
 I can pick up the overflow to help deliver your project on time. I pride myself in communication and initiative to ensure my involvement is always seamless, flexible, cost-effective, and the highest of quality.
 
-<blockquote>
-  <p class="p--large p--quote">Highly skilled, personable, helpful and dedicated: David exceeded my expectations to deliver for us on a key project.</p>
-  <p class="p--small"><cite>Frank Fenton &ndash; Head of Digital &ndash; Dinosaur UK Ltd.</cite></p>
-</blockquote>
+> Highly skilled, personable, helpful and dedicated: David exceeded my expectations to deliver for us on a key project.
+>
+> <cite>Frank Fenton &ndash; Head of Digital &ndash; Dinosaur UK Ltd.</cite>
 
 Here's how I can help your agency:
 

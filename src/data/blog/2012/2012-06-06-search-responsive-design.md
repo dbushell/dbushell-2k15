@@ -18,9 +18,7 @@ Optimising for search engines is just plain good, standards-based development. R
 
 Today Google published an article on their [official webmaster blog](http://googlewebmastercentral.blogspot.co.uk/2012/06/recommendations-for-building-smartphone.html) saying (emphasis mine):
 
-
-<blockquote><p>When building a website that targets smartphones, Google supports three different configurations: 1. Sites that use responsive web design, i.e. sites that serve all devices on the same set of URLs, with each URL serving the same HTML to all devices and using just CSS to change how the page is rendered on the device. **This is Google’s recommended configuration**. [...]</p></blockquote>
-
+> When building a website that targets smartphones, Google supports three different configurations: 1. Sites that use responsive web design, i.e. sites that serve all devices on the same set of URLs, with each URL serving the same HTML to all devices and using just CSS to change how the page is rendered on the device. **This is Google’s recommended configuration**. [...]
 
 Responsive web design and [content parity](http://bradfrostweb.com/blog/mobile/content-parity/).
 

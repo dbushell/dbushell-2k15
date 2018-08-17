@@ -18,9 +18,7 @@ I recently slated The Boston Globe (and others before it) for their website's 
 
 Apple's [Newsstand](http://www.apple.com/ios/features.html#newsstand) app is another recipe for failure as this article explains: [The last spasms of a dying business model – Why the Guardian iPad App is a step into the past](http://thetalldesigner.com/blog/2011/10/15/the-last-spasms-of-a-dying-business-model-why-the-guardian-ipad-app-is-a-step-into-the-past/):
 
-
-<blockquote><p>The Guardian app is a step backwards not forwards, it is trying to fit an old media paradigm (the daily print) into a world where days don’t really exist, into a world where we can update things as they happen, in a world where you can write an article about a terrorist attack as soon as it happens in 6 words, extend it to 6 paragraphs an hour later and extend that to a 6 section in depth analysis. None of the possibilities and advantages of working with a fast, constantly connected smart media device are used, even when doing so would be cheaper.</p></blockquote>
-
+> The Guardian app is a step backwards not forwards, it is trying to fit an old media paradigm (the daily print) into a world where days don’t really exist, into a world where we can update things as they happen, in a world where you can write an article about a terrorist attack as soon as it happens in 6 words, extend it to 6 paragraphs an hour later and extend that to a 6 section in depth analysis. None of the possibilities and advantages of working with a fast, constantly connected smart media device are used, even when doing so would be cheaper.
 
 Why are news paywalls and static apps doomed to fail?
 
@@ -30,9 +28,7 @@ In website and app design we talk about "user experience". To be successful onli
 
 For the news industry there is a big problem.
 
-
 ## Defining Memories
-
 
 Two major world events almost a decade apart signify this change for me.
 
@@ -46,9 +42,7 @@ In 2001 the press informed me. In less than ten years I now bypass it entirely.
 
 I'm not saying there is no longer any value in traditional news and journalism, only that society has changed; the public informs itself. What is worse than a poorly implemented news app? A news app with no users. Sure some users will exists today, but what about future generations? This raises a difficult question for all businesses transitioning to a digital future. Regardless of technology, has _society_ left you behind?
 
-
 ## Storytelling
-
 
 Personally I hold no sentimental value towards "print".
 
@@ -62,9 +56,7 @@ I hope more journalists like Jeff Jarvis recognise this change. Their users — 
 
 This week's BBC [Newsnight](http://news.bbc.co.uk/1/hi/programmes/newsnight/9614587.stm) highlighted what sad state of affairs the British press is really in. On the topic of phone hacking, Jeremy Paxman questions Steve Coogan & Louise Mensch on whether "tabloid fluff" is the price we pay for a free press and the survival of newspapers. Coogan rightly questions why newspapers have the right to exist if they cannot sustain themselves with real news. Paxman equates the death of newspapers to the death of a "free press". Only Coogan hints at the necessity of the press in modern society.
 
-
 * * *
-
 
 I can't pretend to fully understand the future of the news industry but it is fascinating to watch unfold. As someone who designs and builds for the web I talk a lot about "the user", now I feel I should be talking more about "the public" — a very significant part of the user's context.
 

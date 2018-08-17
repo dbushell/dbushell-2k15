@@ -8,9 +8,7 @@ title: Think Different
 
 I stumbled across one of Apple's classic ad campaigns. Watch Jobs pitch it below:
 
-
-
-<p class="small">Found this via [Young Guns vs. Old Ones](http://www.younggunsvsoldones.com/2010/08/31/steve-jobs-think-different-pitch/).</p>
+Found this via [Young Guns vs. Old Ones](http://www.younggunsvsoldones.com/2010/08/31/steve-jobs-think-different-pitch/).
 
 Inspiring, and a masterpiece of advertisement.
 
@@ -22,9 +20,7 @@ The problem with the interface of iTunes Store & Ping is that by all accounts it
 
 To quote Apple on HTML5:
 
-
-<blockquote><p>These web standards are open, reliable, highly secure, and efficient. They allow web designers and developers to create advanced graphics, typography, animations, and transitions. **Standards aren’t add-ons to the web. They are the web.** And you can start using them today.</p></blockquote>
-
+> These web standards are open, reliable, highly secure, and efficient. They allow web designers and developers to create advanced graphics, typography, animations, and transitions. **Standards aren’t add-ons to the web. They are the web.** And you can start using them today.
 
 **"Standards aren’t add-ons to the web. They are the web."** But apparently not good enough for iTunes and Ping? I guess those two are just add-ons then. Only available in certain countries.
 

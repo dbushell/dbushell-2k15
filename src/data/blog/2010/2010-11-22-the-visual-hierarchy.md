@@ -10,15 +10,11 @@ I've written a little web design article for [Base Creative](http://www.basecre
 
 Here's a snippet:
 
-
-<blockquote>There is more to design than making things look attractive and truth be told that’s the easy part. In regards to web design the actual aesthetics of a website have very little bearing on its success. Style is superficial and becomes more subjective the heavier it is applied. [...] a website user will make a split second reaction concerning their interest in a website. Therefore it is very wise to plan the structure of content. We must acknowledge what the user is looking for and make sure they see it.</blockquote>
-
+> There is more to design than making things look attractive and truth be told that’s the easy part. In regards to web design the actual aesthetics of a website have very little bearing on its success. Style is superficial and becomes more subjective the heavier it is applied. [...] a website user will make a split second reaction concerning their interest in a website. Therefore it is very wise to plan the structure of content. We must acknowledge what the user is looking for and make sure they see it.
 
 Read the juicy parts of [The Visual Hierarchy](http://www.basecreative.eu/news/david-bushell/2010/11/22/the-visual-hierarchy) over on the Base Creative blog.
 
-
 ### More!
-
 
 I realise I don't blog enough about website design! Should I be writing more? I'm rather pleased with this article and plan to turn it into a mini-series.
 

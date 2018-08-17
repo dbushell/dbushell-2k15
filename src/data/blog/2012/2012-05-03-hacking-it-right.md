@@ -10,8 +10,6 @@ Developing with open web standards that are to be interpreted by literally hundr
 
 A long time ago I learnt that in order to improve my ability to build websites I had to understand exactly what was happening. This idea is summed up in an excellent article by Nicole Sullivan, [Cross-Browser Debugging CSS](http://www.stubbornella.org/content/2012/05/02/cross-browser-debugging-css/):
 
-
-<blockquote><p>If there is a discrepancy between these good browsers, chances are you are working against CSS. Do not try to hack around discrepancies between good browsers. Your goal is to figure out *why* it is being interpreted differently. Usually there is a very good reason.</p></blockquote>
-
+> If there is a discrepancy between these good browsers, chances are you are working against CSS. Do not try to hack around discrepancies between good browsers. Your goal is to figure out *why* it is being interpreted differently. Usually there is a very good reason.
 
 Every front-end developer starts out by writing bad code. Acknowledging that is key to improvement. If you write HTML & CSS once and then hack to fit, the reasons why browser discrepancies appeared in the first place are never understood. You never learn; you blame the browser. It's an endless cycle of frustration. If you continue to have difficulties you're hacking in the wrong direction. Tear it down and build it back up again until you understand what is happening.

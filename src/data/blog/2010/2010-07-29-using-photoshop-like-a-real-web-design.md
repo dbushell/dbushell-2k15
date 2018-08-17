@@ -10,21 +10,17 @@ There has been a lot of debate recently in the web design social networks about 
 
 Today Smashing Magazine published a great article by Thomas Giannattasio, [*"In Defense of Photoshop"*](http://www.smashingmagazine.com/2010/07/29/in-defense-of-photoshop/). He raises the point that:
 
-
-<blockquote><p>Photoshop can be used to create impeccable designs, but after hours of hard work, you end up with a static mock-up that is incapable of emulating the experience one gets when the design is converted to mark-up and viewed in the browser.</p></blockquote>
-
+> Photoshop can be used to create impeccable designs, but after hours of hard work, you end up with a static mock-up that is incapable of emulating the experience one gets when the design is converted to mark-up and viewed in the browser.
 
 And this would be my main point if I were to articulate an argument on why web designers should be able to code. Simply put, if you can't code and don't understand HTML and CSS - **you are not designing a website**.
 
 In the article linked above Giannattasio makes an excellent feature suggestion for Photoshop allowing users to *'shop* semantically closer to the DOM and CSS properties available. I don't know why Adobe haven't been innovating features like this for years. It would definitely aid those '*web designers*' who can't code. It would simplfy things for pros too but in truth a professional web designer should be able to:
-
 
 * Keep a running mental visualisation of the DOM as the design evolves.
 * Understand the limitations of HTML/CSS and browser quirks.
 * Know exactly what mark-up and styling will be needed to create each element.
 * Know exactly how raster images will be implemented.
 * Know exactly how the page is going to flow and transform at different resolutions.
-
 
 If you can't do these things you are not designing a website. **Don't blame the tools.** While the CSS idea in Photoshop could be helpful it isn't necessary (or relevant to the software). You should already know what techniques to use to mimic CSS (hint: *blending options*, not *filters*).
 
