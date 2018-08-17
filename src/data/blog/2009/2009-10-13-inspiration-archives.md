@@ -44,6 +44,5 @@ That's the reason I believe every designer should keep at least one inspiration 
 
 Be careful not to over saturate your mind with good design though. You need room in their to remember where you left your wallet.
 
-
 💤 * It's quite funny how Web 2.0 sites like Flickr drop the "e" when once upon a time during the dot-com boom adding "e-" to the start of your company was a mandatory right of passage.
 

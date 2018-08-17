@@ -8,12 +8,9 @@ title: Readable Type
 
 Readability and Legibility are words often interchanged in general conversation, however they both have a significant difference when thinking about the text we use on websites (and in all digital and printed work).
 
-
 This article was written for a presentation at [Base Creative](http://www.basecreative.eu).
 
-
 ### Readability
-
 
 If we are providing a piece of textual information readability can be defined as how easy that information can be consumed by the reader.  Readable text can be understood quickly and easily. The text should flow at a comfortable pace as we read each word. Text with low readability often contains long and complicated words in place of shorter and more common words. Sentences can be too long or even too short, and their structures can be erratic. Commas are used unnecessarily. All these characteristics disrupt the reading flow and make information difficult to digest. A child’s storybook has far more readability than a legal document (although arguably written with low readability on purpose).
 
@@ -21,9 +18,7 @@ Readability is important on websites for two more specific reasons. Firstly, whe
 
 The second issue regarding readability and websites centres on usability. Choosing the correct words to use for menu items, links and headings has a strong influence on how users interact with the website. Menu items especially need to be short but descriptive. Menu items that are too long become less noticeable because the menu is harder to scan quickly. If a menu item has low readability it is very unappealing for a user to click on.
 
-
 ### Legibility
-
 
 Legibility is an indication of how recognizable text is in terms of its design, size and setting. It focuses on individual letterforms and how they are distinguished. Decorative typefaces such as cursive, stencil or graffiti styles are less legible than a simple 'sans serif' like Arial. A paragraph worded with perfect readability can be made illegible with the wrong font. The balance needed with legibility is a design choice. As well as style the font’s size, weight, colour and spacing are other factors that affect legibility.
 

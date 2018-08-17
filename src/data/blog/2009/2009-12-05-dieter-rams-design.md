@@ -27,10 +27,9 @@ The Apple Hi-Fi was a major flop and was discontinued (good thing they make thos
 That's not Apple's only homage to Dieter Rams:
 
 ![Braun calculator and Apple iPhone calculator app - from scleroplex on Flickr](/images/blog/dieter-rams-calculator.jpg)
-Image courtesy of [scleroplex](http://www.flickr.com/photos/scleroplex/2515381727/in/pool-464886@N22) on Flickr
+
+💤 Image courtesy of [scleroplex](http://www.flickr.com/photos/scleroplex/2515381727/in/pool-464886@N22) on Flickr
 
 Imagine designing something that looks fresh 30, 40, even 50 years on?
-
-
 
 [This post on Gizmodo](http://gizmodo.com/343641/1960s-braun-products-hold-the-secrets-to-apples-future) digs deeper into Rams' influence on Apple. Interesting stuff.

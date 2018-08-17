@@ -16,11 +16,9 @@ So wrapping hasn't been successful, but it has been a great year working at Base
 
 I've decided to make some end-of-year resolutions. (Different than new year resolutions in that I don't plan to ignore them come February.)
 
-
 * **Blog more!** There is so much web and design related stuff I should be writing about. I actually have a long list of good topics I'd like to share.
 * **Personal projects.** This year I updated my website and launched [Design Heroes](http://www.designheroes.co.uk). Next year I'm going to be doing a lot more!
 * **Buy a new lightbulb.** I'm sat in the dark here.
-
 
 That's all for now folks.
 

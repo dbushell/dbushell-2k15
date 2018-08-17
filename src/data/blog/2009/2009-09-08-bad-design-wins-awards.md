@@ -12,13 +12,9 @@ That's because agencies create them specifically to win awards. They get run onc
 
 Take DDB Brasil's latest "award winning" ad for example:
 
-
-
 Anyone with an ounce of common sense would stay as far away as possible from such a terrible idea. Needless to say DDB Brasil were eventually [stripped of their award](http://adage.com/agencynews/article?article_id=138833), but why did they get one in the first place? What happened to awarding advertisements based on the return for clients? Surely that's the only reason ads exist in the first place.
 
-
 ### Accountability
-
 
 Watch the [PSFK Good Ideas in Advertising](http://www.psfk.com/2009/08/video-psfk-presents-good-ideas-in-advertising-part-ii.html) video here. The panel makes an excellent point about **accountability** - i.e. the agencies responsibility towards the outcome of a campaign. Awarding ads like the one above certainly doesn't promote accountability. I don't think the problem is just within advertising, it's widespread across all design and media. I often look at the stuff that wins design awards and ask myself how has the client benefited?
 

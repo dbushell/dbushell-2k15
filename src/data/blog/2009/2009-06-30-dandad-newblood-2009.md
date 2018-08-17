@@ -43,7 +43,7 @@ Read more about [Shellsuit Zombie](http://www.shellsuitzombie.co.uk/shellsuitzom
 
 ### Photos
 
-![](images/blog/dandad-newblood/cara-mcfadyen-lightbulbs.jpg)
+![](/images/blog/dandad-newblood/cara-mcfadyen-lightbulbs.jpg)
 
 ![](/images/blog/dandad-newblood/cumbria-university.jpg)
 
