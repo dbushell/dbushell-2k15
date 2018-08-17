@@ -22,12 +22,12 @@ Wait...didn't Adobe just announce _News Gothic_ as one of their flagship fonts o
 
 Regardless of who is selling what, the big question is now on price. If Webtype is successful how long do you think Adobe will remain loyal to Typekit?
 
-A few months ago Google launched the [Google Font API](http://code.google.com/apis/webfonts/) providing a great selection of embeddable _free _fonts. Of course, if the font is free you can go ahead an embed it directly. Though using a content delivery network like Google provides can have an advantage.
+A few months ago Google launched the [Google Font API](http://code.google.com/apis/webfonts/) providing a great selection of embeddable _free_ fonts. Of course, if the font is free you can go ahead an embed it directly. Though using a content delivery network like Google provides can have an advantage.
 
 If free is not your flavour, you could also choose the moderately priced [FontDeck](http://fontdeck.com) which has a curious selection of smaller foundries who seem quite content to band together selling yearly licenses on a per-font basis, in a similar manner to Webtype.
 
 All this variety is to be excepted with a brand new market. Time will tell which model will be most successful (I'm guessing this cheapest).
 
-The crazy thing with all these web font services is that you're only buying access to a font for _one year_. If you don't cough up more cash the next year they will switch it off and you're left with _Arial _or _Georgia _as your fall-back.
+The crazy thing with all these web font services is that you're only buying access to a font for _one year_. If you don't cough up more cash the next year they will switch it off and you're left with _Arial_ or _Georgia_ as your fall-back.
 
-To be honest with the exception of possibly Typekit these pricing plans are ridiculous. With a few websites in your portfolio you'll be paying hundreds of pounds annually. That's ludicrous if you consider many of these font designs are in public domain. That's why both Typekit and Webtype can offer _News Gothic_ and why there are a million and one flavours of _Garamond _floating around. I'm all for paying designers a fair price, but when they [died in 1561](http://en.wikipedia.org/wiki/Garamond)...
+To be honest with the exception of possibly Typekit these pricing plans are ridiculous. With a few websites in your portfolio you'll be paying hundreds of pounds annually. That's ludicrous if you consider many of these font designs are in public domain. That's why both Typekit and Webtype can offer _News Gothic_ and why there are a million and one flavours of _Garamond_ floating around. I'm all for paying designers a fair price, but when they [died in 1561](http://en.wikipedia.org/wiki/Garamond)...

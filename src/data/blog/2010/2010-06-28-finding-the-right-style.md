@@ -12,6 +12,6 @@ At [Base Creative](http://www.basecreative.eu) we're doing a series of blog post
 
 Read the rest of ["Finding the right style"](http://www.basecreative.eu/news/david-bushell/2010/06/28/finding-the-right-style/) on the Base Creative blog.
 
-Presenting various websites with different styles is a very common technique among design agencies. For the reasons stated in the article above (namely visualising communication) it's incredibly useful, especially for clients. Obviously the final website we _actually _design will not be a copy of the ones we present but there are inevitably some ideas that can be drawn from them. Ultimately the presentation is there to give the client something visual to discuss from. It's a way to qualify "design words" - when they say "corporate" do they mean what _I see_ as corporate?
+Presenting various websites with different styles is a very common technique among design agencies. For the reasons stated in the article above (namely visualising communication) it's incredibly useful, especially for clients. Obviously the final website we _actually_ design will not be a copy of the ones we present but there are inevitably some ideas that can be drawn from them. Ultimately the presentation is there to give the client something visual to discuss from. It's a way to qualify "design words" - when they say "corporate" do they mean what _I see_ as corporate?
 
 I'd be interested to know how other agencies go about discussing website design ideas with their clients. Leave a comment below!

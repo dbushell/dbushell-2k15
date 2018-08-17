@@ -8,9 +8,7 @@ title: Pentagram Marks
 
 I just so happened to feature the book [Pentagram Marks on Design Heroes](http://designheroes.co.uk/link/pentagram-marks) a few weeks ago. Now that I've recieved a copy (birthday present) I though it deserved a full review! Click above, or read below:
 
-
 ### My review of Pentagram Marks *
-
 
 ![Pentagram Marks](http://designheroes.co.uk/file/dhp-2614.jpg)
 
@@ -18,13 +16,13 @@ I just so happened to feature the book [Pentagram Marks on Design Heroes](http:/
 
 The book is delightfully smallish in stature at an estimated 7.5 x 6 inches and the 400 page depth adds enough weight that it feels important in your hand. The cover is double folded card with a matt finish in red. I'm not going to guess a Pantone but from an artistic point of view I can see hints of blue in there. Not to get too hung up on the red but it's obviously been carefully chosen.
 
-The title is set in** Pentagram's** logo font which I believe is _AT Modern Twenty_ after a few googles. The word "Marks" is printed in the slightly-blueish-red tinted slightly lighter and also subtlety debossed, which adds a bit of class.
+The title is set in **Pentagram's** logo font which I believe is _AT Modern Twenty_ after a few googles. The word "Marks" is printed in the slightly-blueish-red tinted slightly lighter and also subtlety debossed, which adds a bit of class.
 
 The spine is perfectly minimalist, perfect bound, sans-serif, even the publishes logo looks good. The back cover is the pure red paper stock with a small white barcode sticker in the bottom right corner. This is also a nice touch.
 
-With the exception of the single page introduction the 400 pages consist of a logo centre stage, and bottom right: _organisation _(bold), _year_ [of design], _description of organisation_. The layout is simple and does the job. It's by no means a "classic" but it's not over-designed either. Simplicity in design is hard to master. There are no page numbers, any questionable necessity would not justify their overshadowing presence on the page. I can imagine hours of debate over the smallest layout decision. Either that, or knowing those crafty Pentagram partners they probably knocked it up in 2 hours (show offs!).
+With the exception of the single page introduction the 400 pages consist of a logo centre stage, and bottom right: _organisation_ (bold), _year_ [of design], _description of organisation_. The layout is simple and does the job. It's by no means a "classic" but it's not over-designed either. Simplicity in design is hard to master. There are no page numbers, any questionable necessity would not justify their overshadowing presence on the page. I can imagine hours of debate over the smallest layout decision. Either that, or knowing those crafty Pentagram partners they probably knocked it up in 2 hours (show offs!).
 
-There are a couple of other interesting things to note. The logos are ordered alphabetically ascending by organisation name. I would have initially expected chronological order, but the more I think about it I'm beginning to agree with this choice. Logos should be timeless so suggesting "old" and "new" is unimportant. And now I realise exactly _why _this book doesn't need page numbers. You're only ever going to be referencing a particular logo from its name.
+There are a couple of other interesting things to note. The logos are ordered alphabetically ascending by organisation name. I would have initially expected chronological order, but the more I think about it I'm beginning to agree with this choice. Logos should be timeless so suggesting "old" and "new" is unimportant. And now I realise exactly _why_ this book doesn't need page numbers. You're only ever going to be referencing a particular logo from its name.
 
 Another point of note is the lack of a "designer" attribute. We are therefore forced to see **Pentagram **as a single entity, and not a collective of ever changing partners.
 

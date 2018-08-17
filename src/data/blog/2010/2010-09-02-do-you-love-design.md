@@ -10,7 +10,7 @@ Before I get into the meaty part of this post I'd like to share this by [Kyle St
 
 > Homer’s “Iliad” and “Odyssey” are epic. Beowulf is epic. The design you saw last night on Dribbble is not epic.
 
-Funny and true. I'm guilty of this myself, despite vowing a _very _long time ago never to write a blog titled _"30 Incredibly Awesome Epic Web Designs"_ or anything remotely similar. I only bring this up because I may need to justify myself in a few minutes...
+Funny and true. I'm guilty of this myself, despite vowing a _very_ long time ago never to write a blog titled _"30 Incredibly Awesome Epic Web Designs"_ or anything remotely similar. I only bring this up because I may need to justify myself in a few minutes...
 
 Anyway to the main feature.
 
@@ -22,7 +22,7 @@ What makes this different from other 'social portfolio' websites is that LoveDsg
 
 It's been a real slog finding time to get LoveDsgn ready to launch but it's here now! Thanks to the 300+ community that have helped so far. They're the people that will make this website a great place to visit, not me.
 
-Returning to the article linked above I feel I need to justify using the word "Love". For designers like myself and those posting on [LoveDsgn](http://lovedsgn.com) this stuff is our day job _and _our hobby. Design is not a 9-5 job. It's impossible to do if you're not incredibly passionate and obsessed about everything related to the subject. Therefore the word "love" is rather accurate in my opinion.
+Returning to the article linked above I feel I need to justify using the word "Love". For designers like myself and those posting on [LoveDsgn](http://lovedsgn.com) this stuff is our day job _and_ our hobby. Design is not a 9-5 job. It's impossible to do if you're not incredibly passionate and obsessed about everything related to the subject. Therefore the word "love" is rather accurate in my opinion.
 
 As for the trendy vowel removal in "Dsgn", well that was for brevity's sake (and I already owned the domain). We're also using the domain [http://♥dsgn.ws](http://xn--dsgn-4u3b.ws/) for short URLs. I think that's pretty cool.
 

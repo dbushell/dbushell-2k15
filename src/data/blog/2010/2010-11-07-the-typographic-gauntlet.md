@@ -14,7 +14,7 @@ My last "creative challenge" was to fold [1000 origami cranes](/2010/02/18/1000
 
 💤 (My daily photo project also failed but let's just forget about that one too...)
 
-Back to this new challenge – I'll be designing a new font every 8_ish_ weeks giving me a deadline of the New Year for font #1. They'll be entirely different designs. No typeface with weight variations. I'll be tackling serifs, sans-serifs, mono-spaces, erm... slabs, serifs, everything. Neo-grotesque.
+Back to this new challenge – I'll be designing a new font every 8-_ish_ weeks giving me a deadline of the New Year for font #1. They'll be entirely different designs. No typeface with weight variations. I'll be tackling serifs, sans-serifs, mono-spaces, erm... slabs, serifs, everything. Neo-grotesque.
 
 As proof I'll be publishing a special online poster & blog post with the actual font embedded using a bit of CSS3 magic. I make no promise of legibility, but I do hope at least a few of my fonts turn out surprisingly decent. And if that's the case I'll flog them for a good price.
 

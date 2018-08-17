@@ -30,4 +30,4 @@ I'm going to retreat behind the safety of my Kindle and its trusty wall of text,
 
 Perhaps it's because I refuse to buy an iPad...
 
-_Update 17th January 2011 - [How Facebook Ship Code](http://framethink.wordpress.com/2011/01/17/how-facebook-ships-code/) - a fascinating article on the engineer driven environment at the world's biggest website. I wonder how many designers they have? _
+**Update 17th January 2011** - [How Facebook Ship Code](http://framethink.wordpress.com/2011/01/17/how-facebook-ships-code/) - a fascinating article on the engineer driven environment at the world's biggest website. I wonder how many designers they have?

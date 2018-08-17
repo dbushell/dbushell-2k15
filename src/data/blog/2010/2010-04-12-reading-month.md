@@ -16,7 +16,7 @@ My area of work (web design) generally starts with some kind of existing brandin
 
 ![Logo Design Love - a guide to creating iconic brand identities](/images/blog/logo-design-love-book.jpg)
 
-To compensate I tend to browse a lot of design blogs including [Logo Design Love](http://www.logodesignlove.com) - run by [David Airey](http://www.davidairey.com). The [book](http://www.logodesignlovebook.com/) _"Logo Design Love - A Guide to Creating Iconic Brand Identities" _was released earlier this year and it filled one of my Mac-less weeks very nicely.
+To compensate I tend to browse a lot of design blogs including [Logo Design Love](http://www.logodesignlove.com) - run by [David Airey](http://www.davidairey.com). The [book](http://www.logodesignlovebook.com/) _"Logo Design Love - A Guide to Creating Iconic Brand Identities"_ was released earlier this year and it filled one of my Mac-less weeks very nicely.
 
 This book is excellent!
 

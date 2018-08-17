@@ -12,9 +12,7 @@ While studying design it's easy to get trapped inside a small world. It takes ti
 
 I guess what I value most is first hand opinion. The way I've learnt to connect to the design world is through that much loved phrase _"social media"_. Following personal and professional design blogs and tweeting designers is hugely beneficial to gaining design knowledge, inspiration, motivation, perspective and critique. In fact, I'd say it's essential.
 
-
 ### Why I blog
-
 
 For those reasons I blog about design myself. I write my personal ideas here at [dbushell.com](https://dbushell.com) and [@dbushell](http://twitter.com/dbushell), and I write about other peoples ideas at [Design Heroes](http://designheroes.co.uk). All of these websites have transformed over the last year in the way I use them but the aim remains the same – to share, discuss, inform (hopefully) and promote.
 
