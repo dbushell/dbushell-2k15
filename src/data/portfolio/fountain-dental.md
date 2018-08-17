@@ -7,6 +7,6 @@ Website launched in May 2009
 
 [← Return to Portfolio](/showcase)
 
-🤫 Design and front-end development by David Bushell at [Base Creative](http://www.basecreative.eu)
+💤 Design and front-end development by David Bushell at [Base Creative](http://www.basecreative.eu)
 
 ![David Bushell - Web Design - Fountain Dental home page.](/images/portfolio/web-design-fountain-dental-1.png)

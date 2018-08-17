@@ -1,6 +1,6 @@
 This policy explains how data is used when contacting **dbushell.com**.
 
-🤫 Last updated: 2018-05-30
+💤 Last updated: 2018-05-30
 
 #### How data is collected
 
@@ -22,7 +22,7 @@ Just me; David Bushell [<hi@dbushell.com\>](mailto:hi@dbushell.com)
 
 **Privacy policy changes**
 
-🤫 Changes to this privacy policy will come into effect once published at this URL:
+💤 Changes to this privacy policy will come into effect once published at this URL:
 
 `https://dbushell.com/privacy/`
 

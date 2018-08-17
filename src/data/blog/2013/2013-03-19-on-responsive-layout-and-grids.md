@@ -105,7 +105,7 @@ The additional CSS I need is minimal:
 
 In practice it's a bit more complicated because I'm ignoring vertical spacing here but my basic principle still applies: **avoid defining layout until I need it**.
 
-🤫 (In practice I actually use a lot of CSS preprocessor techniques to avoid multiple classes.)
+💤 (In practice I actually use a lot of CSS preprocessor techniques to avoid multiple classes.)
 
 
 

@@ -8,7 +8,7 @@ title: Use SVG (part 1)
 
 As you know I'm a big fan of using SVG whenever possible.
 
-🤫 See my articles ['Resolution Independence With SVG'](http://www.smashingmagazine.com/2012/01/16/resolution-independence-with-svg/) (Jan 2012) and ['A Primer to Front-end SVG Hacking'](/2013/02/04/a-primer-to-front-end-svg-hacking/) (Feb 2013) for a retrospective.
+💤 See my articles ['Resolution Independence With SVG'](http://www.smashingmagazine.com/2012/01/16/resolution-independence-with-svg/) (Jan 2012) and ['A Primer to Front-end SVG Hacking'](/2013/02/04/a-primer-to-front-end-svg-hacking/) (Feb 2013) for a retrospective.
 
 I'm always looking for the most viable technique; browser support is always changing and content management is an oft-forgotten requirement (or 'restriction', depending how you look at it).
 
@@ -27,7 +27,7 @@ Naming isn't important, recognising different use cases is. We could sprite up U
 
 For individual "content" images there's no better alternative than a good ol' fashioned `<img>` element. It'll work<sup>*</sup> with both SVG and raster sources (PNG, JPEG, etc) — whatever the website owner uploads.
 
-🤫 * providing the server and CMS whitelist the MIME type: `image/svg+xml` (a common oversight)
+💤 * providing the server and CMS whitelist the MIME type: `image/svg+xml` (a common oversight)
 
 In my opinion [browser support](http://caniuse.com/#feat=svg) is good enough today that an SVG fallback isn't required.
 

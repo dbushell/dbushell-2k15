@@ -52,5 +52,5 @@ This side-effect is less noticeable during animation and on high pixel density s
 
 Anyway, I don't think it's a game changer. It's still far better than what users will see on older PCs without ClearType.
 
-🤫 _iPad Mini PSD by [Anton Kudin](http://dribbble.com/shots/841755-iPhones-iPad-minis-PSD) and Nokia Lumia 920 by [Matias Gallipoli](http://dribbble.com/shots/780376-lumia-920-yellow)_
+💤 _iPad Mini PSD by [Anton Kudin](http://dribbble.com/shots/841755-iPhones-iPad-minis-PSD) and Nokia Lumia 920 by [Matias Gallipoli](http://dribbble.com/shots/780376-lumia-920-yellow)_
 

@@ -8,6 +8,6 @@ The style is reminiscent of the professional, high quality products. The home p
 
 ![David Bushell - Web Design - Peerless product page.](/images/portfolio/web-design-peerless-2.png)
 
-🤫 Website launched in January 2010
+💤 Website launched in January 2010
 
-🤫 Design and front-end development by David Bushell at Base Creative
+💤 Design and front-end development by David Bushell at Base Creative

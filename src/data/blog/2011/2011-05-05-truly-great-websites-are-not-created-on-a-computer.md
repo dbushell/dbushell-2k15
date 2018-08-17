@@ -67,5 +67,5 @@ My point is – you could take the world's best _Designer_, _Developer_, or _Cop
 
 That's because **great websites** are not created on a computer.
 
-🤫 (Although you could probably produce a mediocre one.)
+💤 (Although you could probably produce a mediocre one.)
 

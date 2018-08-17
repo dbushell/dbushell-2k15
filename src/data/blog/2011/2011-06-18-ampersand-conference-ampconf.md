@@ -12,7 +12,7 @@ I knew I didn't want to see a show & tell, nor basic print typography knowledge 
 
 ![Brighton Pier](/images/2011/06/ampersand1.jpg)
 
-🤫 Brighton, 17th June 2011. This photo may have been manipulated using Adobe® Photoshop® software.
+💤 Brighton, 17th June 2011. This photo may have been manipulated using Adobe® Photoshop® software.
 
 To my joy this conference wasn't about _designing_ with type. It had more of a "where are we now?" flavour to it. The talks put digital typography into perspective, with strong pride in how we've got this far, and clear direction towards an exciting future.
 

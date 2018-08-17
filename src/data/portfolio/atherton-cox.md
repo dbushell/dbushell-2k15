@@ -8,8 +8,8 @@ White space and restraint in content saturation plays a big part in a successful
 
 ![David Bushell - Web Design - Atherton Cox contact page.](/images/portfolio/web-design-atherton-cox-2.png)
 
-🤫 [Visit Atherton Cox](http://www.athertoncox.co.uk)
+💤 [Visit Atherton Cox](http://www.athertoncox.co.uk)
 
-🤫 Website launched in August 2010
+💤 Website launched in August 2010
 
-🤫 Design and front-end development by David Bushell at Base Creative
+💤 Design and front-end development by David Bushell at Base Creative

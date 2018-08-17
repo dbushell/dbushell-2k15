@@ -62,6 +62,6 @@ Oh, and for comparison here's version 3. Notice the similarities?
 
 [![dbushell.com version 3](/images/2011/05/dbushellv3-300x224.jpg)](/images/2011/05/dbushellv3.jpg)
 
-🤫 Thanks to [Minimal Sites](http://www.minimalsites.com/david-bushell) for saving that screenshot!
+💤 Thanks to [Minimal Sites](http://www.minimalsites.com/david-bushell) for saving that screenshot!
 
 [Love](http://lovedsgn.com/post/6554)

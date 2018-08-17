@@ -10,7 +10,7 @@ title: A Responsive Day Out
 ![on stage at Responsive Day Out](/images/2013/03/me-at-responsive-day-out.jpg)
 
 
-🤫 _Me on stage with Jeremy Keith, Tom Maslen, and Sarah Parmenter. Photos by [Laura Kalbag](http://www.flickr.com/photos/laurakalbag/8522038116/) and [Marc Thiele](http://www.flickr.com/photos/marcthiele/8519278036/)._
+💤 _Me on stage with Jeremy Keith, Tom Maslen, and Sarah Parmenter. Photos by [Laura Kalbag](http://www.flickr.com/photos/laurakalbag/8522038116/) and [Marc Thiele](http://www.flickr.com/photos/marcthiele/8519278036/)._
 
 On Friday 1st March, I spoke at [Responsive Day Out](http://responsiveconf.com/) in Brighton. [Videos at Besquare](http://www.besquare.me/conferences/responsive-day-out/), [Audio of all talks](http://adactio.com/journal/6091/) is available and you can click along to [my slides](https://speakerdeck.com/dbushell/responsive-navigation) too.
 

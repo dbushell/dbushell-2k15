@@ -40,15 +40,15 @@ function renderImage(href, title, text) {
 
 function renderParagraph(text) {
   if (text.length > 2) {
-    const newText = toArray(text).splice(1).join('').trim();
-    // if (text.startsWith('🤔')) {
-    //   return `<p class="p--small">${newText}</p>\n`;
-    // }
-    if (text.startsWith('🤫')) {
-      return `<p class="p--small u-dim">${newText}</p>\n`;
-    }
+    const newText = toArray(text)
+      .splice(1)
+      .join('')
+      .trim();
     if (text.startsWith('📢')) {
       return `<p class="p--large">${newText}</p>\n`;
+    }
+    if (text.startsWith('💤')) {
+      return `<p class="p--small u-dim">${newText}</p>\n`;
     }
   }
   return /^<p[ |>]/.test(text) ? text : `<p>${text}</p>\n`;

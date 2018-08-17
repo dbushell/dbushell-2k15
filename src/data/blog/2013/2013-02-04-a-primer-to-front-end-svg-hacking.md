@@ -8,7 +8,7 @@ title: A Primer to Front-end SVG Hacking
 
 Using [SVG](https://developer.mozilla.org/en/docs/SVG) (Scalable Vector Graphics) on websites is a lot safer than many front-end developers think. Authoring aside — I wouldn't suggest trying to hand-code an illustration more complex than a triangle* — the standard is well supported in browsers today and perfect for [resolution independence](http://coding.smashingmagazine.com/2012/01/16/resolution-independence-with-svg/) when CSS and icon fonts aren't suitable.
 
-🤫 _* Quick fire question: at which corner does this right-angle triangle point?_
+💤 _* Quick fire question: at which corner does this right-angle triangle point?_
 
 
 
@@ -174,5 +174,5 @@ Protip: you can also minify SVG — [SVG Optimzer](https://github.com/svg/svgo)�
 
 Pro-protip: **Scott Jehl's** [grunticon](https://github.com/filamentgroup/grunticon) automagically converts SVG files to PNG and data URIs.
 
-🤫 That triangle points top-left. I would also have accepted north-west.
+💤 That triangle points top-left. I would also have accepted north-west.
 

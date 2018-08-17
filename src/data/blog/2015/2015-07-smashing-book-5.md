@@ -12,7 +12,7 @@ Last week I had the opportunity to read [“Real-Life Responsive Web Design”](
 
 Usually with books like this I will skip to the chapters that immediately catch my eye. This time was different, they all sounded fascinating — and they were! I read the book cover to cover in two sittings.
 
-🤫 Disclaimer: I was given the book for free with no strings attached. I’m under no obligation to review the book or write kind words, these are my genuine opinions.
+💤 Disclaimer: I was given the book for free with no strings attached. I’m under no obligation to review the book or write kind words, these are my genuine opinions.
 
 As with all books in the series, this book collates the red hot topics that are defining front-end development in 2015 and the foreseeable future. The content is conference level of quality in detail, research, and delivery (and I’ve seen many of the authors speak).
 

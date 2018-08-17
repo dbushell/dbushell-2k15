@@ -11,7 +11,7 @@ A [couple of weeks ago](/2013/04/07/macaque-a-new-project/) I embarked upon a ne
 ![Macaque app screenshot](/images/2013/04/screenshot.png)
 
 
-🤫 [Twitter Bootstrap](http://twitter.github.io/bootstrap/) is a great UI toolkit for prototypes. Don't let it seduce you, my underlying code ain't pretty!
+💤 [Twitter Bootstrap](http://twitter.github.io/bootstrap/) is a great UI toolkit for prototypes. Don't let it seduce you, my underlying code ain't pretty!
 
 
 
