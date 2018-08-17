@@ -24,9 +24,7 @@ _"Completely Automated Public Turing test to tell Computers and Humans Apart"_. 
 
 More to the point, CAPTCHAs aren't even an entire solution to spam. It costs a matter of dollars to employ real humans in developing nations to submit thousands of forms.
 
-
 ## What is the answer?
-
 
 If there was a silver bullet we wouldn't have the nonsense above. Ideally your system should track and detect automated or fraudulent behaviour. The reality is that not even Twitter, Facebook, or Google can do this 100% effectively. Big banking institutions can't either. If the incentive is high enough, people will find a way to cheat the system.
 

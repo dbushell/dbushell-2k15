@@ -10,9 +10,7 @@ Now that I'm officially a [self-employed freelancer](/2012/12/30/a-new-beginning
 
 Today I moved my private code repositories onto **[Bitbucket](https://bitbucket.org/)** — my personal WordPress theme and other "secret projects". I don't have the disposable income anymore for premium accounts! I'm keeping my [open-source projects](https://github.com/dbushell) on GitHub (while it remains fashionable). 
 
-
 ## Multiple SSH keys
-
 
 Problem is, Bitbucket doesn't allow you to use the same SSH key with more than one Bitbucket account. I still have my old work account to tidy up loose ends.
 

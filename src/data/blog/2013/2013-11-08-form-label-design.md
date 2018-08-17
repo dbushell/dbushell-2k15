@@ -14,7 +14,6 @@ To save space and reduce visual noise it's become quite common to repurpose HTML
 
 **Matt D. Smith** recently shared a [floating label pattern](http://mattdsmith.com/float-label-pattern/) for an iOS app:
 
-
 ![floating label form animation](/images/2013/11/form-animation.gif)
 
 💤 Copyright © [Matt D. Smith](http://dribbble.com/shots/1254439--GIF-Float-Label-Form-Interaction)
@@ -25,11 +24,7 @@ With JavaScript this would be easy but where's the fun in that?
 
 Here is [my result on CodePen](http://codepen.io/dbushell/full/ruDAb):
 
-
 See the Pen [ruDAb](http://codepen.io/dbushell/pen/ruDAb) by David Bushell ([@dbushell](http://codepen.io/dbushell)) on [CodePen](http://codepen.io)
-
-
-
 
 The HTML is very simple so providing fall back styles for older browsers should be easy (IE9 and below don't support `placeholder` attributes).
 
@@ -40,10 +35,7 @@ The HTML is very simple so providing fall back styles for older browsers should 
 </div>
 ````
 
-
-
 ## The Need for JavaScript
-
 
 It's impossible to tell if an input field is empty with CSS selectors (the `:empty` pseudo-class represents any element that has no children). My experiment abuses `:valid` and because the input field has a `required` attribute it becomes invalid when empty. For this reason the technique only works as expected on `<input type="text">`. With more complex validation requirements, like an email, the floating label won't appear immediately.
 

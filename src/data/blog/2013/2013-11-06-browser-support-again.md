@@ -14,12 +14,10 @@ As I've said time and time again, external decisions and [aggregated statistics
 
 I don't criticise Google because that's clearly their business decision but simply following suit is ignorant. My advice is alway thus:
 
-
 * build for the reality of the website in question
 * address the definition of support feature by feature
 * don't try to design and develop for one canonical experience
 * test and assess as you go (climbing up a [waterfall](http://en.wikipedia.org/wiki/Waterfall_model) isn't fun)
-
 
 It's all about the mindset. Trying to maintain a list of supported browsers will just as likely cause problems as opposed to preventing them. While it will always be true that at some point older browsers just have to be abandoned, be aware of how you're making that decision. Only after I have a grasp of a websites objectives and budget do I go on to design and build an appropriate solution — one that reaches as much of the target audience as possible.
 

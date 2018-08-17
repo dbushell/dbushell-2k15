@@ -17,17 +17,13 @@ Macaque lives! If you've been following my recent blog posts —
 
 I've forked Macaque to use as my personal list app over the next few weeks while I focus on client work. It has a couple of known bugs but nothing that can't be fixed with a good ol' refresh. Hopefully when I jump back into development [Ember Data](https://github.com/emberjs/data) will be more mature.
 
-
 ## Ember Data and MongoDB
-
 
 Using Ember has been a great learning exercise. After plenty of head scratching and many hours digging around in the source I'm now feeling comfortable with the core concepts.
 
 If you're using MongoDB behind your API here's a few things I've learnt:
 
-
 ## Primary IDs
-
 
 MongoDB's default primary key is an [ObjectId](http://docs.mongodb.org/manual/reference/object-id/) in the `_id` field. Ember Data doesn't like the underscore. Initially I was using [Mongoose](http://mongoosejs.com/docs/guide.html#virtuals) to add virtual `id` properties. It's actually a lot easier to manage this client-side by extending the `RESTAdapter`:
 
@@ -51,9 +47,7 @@ Macaque.Store = DS.Store.extend({
 
 In here you can also specify the URL and namespace for the API.
 
-
 ## Serializing the Primary ID
-
 
 When the API is called to load a record its ID is serialized in the URL. For example, when a list in Macaque is viewed the `RESTAdapter` loads data from this endpoint:
 
@@ -97,14 +91,11 @@ Macaque.RESTAdapter = DS.RESTAdapter.extend({
 });
 ````
 
-
 💤 (I've removed the previous code for brevity.)
 
 Now our ObjectId values are never inadvertently converted to numbers. With these two changes Ember Data will play nicely with your MongoDB records.
 
-
 ## Many More Things…
-
 
 This is something I've been experimenting with so I'm not convinced it's actually the correct approach. I thought it was worth sharing nonetheless because I'd imagine it's a common issue. Anyway, if you have **many-to-many** relationships like I do in Macaque:
 

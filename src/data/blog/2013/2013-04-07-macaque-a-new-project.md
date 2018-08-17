@@ -14,20 +14,15 @@ This project exists because:
 * I've failed to find a list app I like (oh lord, please don't suggest one)
 * I'd like to _own_ my data and 'reinvent' the list app experience (for myself)
 
-
 If you care you can follow my [progress on GitHub](https://github.com/dbushell/Macaque). I'm keeping the features stupidly simple because there is already so much to consider.
 
-
 ## Starting point
-
 
 I've played with Node before but I'm starting Ember development with a blank slate. This weekend I've been casually introducing myself.
 
 While I dived into Ember routes and templates I threw together a quick [Express](http://expressjs.com/) app to serve fake API data. I feel comfortable with that now. I can see a list of tasks! The next step is add, edit, and delete functionality. That means going back to data storage and a real API. I want to do this quickly because it's not my main interest.
 
-
 ## Moving forward
-
 
 Once the API is ready I'll return to Ember and implement the functionality. For UI design I'll start with either [Bootstrap](http://twitter.github.io/bootstrap/) or [Foundation](http://foundation.zurb.com/) so it's not ugly. I'll be designing the final interface as I learn Ember and will eventually throw out the framework and rebuild the HTML & CSS from scratch. The interaction design I'm envisioning will require advanced Ember concepts (I expect) so it will be useful to having a basic version in place first.
 

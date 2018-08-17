@@ -12,13 +12,11 @@ As designers it means finding a style that suits the Web as a medium; taking adv
 
 There's only so much we can do client-side. It's always a trade off. It all goes downhill after `<!DOCTYPE html>`. I like Mark Perkins' idea of a [responsive budget](http://clearleft.com/thinks/responsivedesignonabudget/).
 
-
 ## Before the browser
-
 
 What many people in my position forget are the bottlenecks that exist server-side and across the Internet at large. Not much point minifying CSS if you're sharing some backwater server with a hundred others for five bucks a month.
 
-A while ago I moved hosting to [Heart Internet VPS](http://www.heartinternet.co.uk/vps/). (Before they started sponsoring my blog </disclaimer>.) Media Temple's Grid hosting was terrible, but this was as much a move to consolidate my hosting and domains (away from GoDaddy).
+A while ago I moved hosting to [Heart Internet VPS](http://www.heartinternet.co.uk/vps/). (Before they started sponsoring my blog `</disclaimer>`.) Media Temple's Grid hosting was terrible, but this was as much a move to consolidate my hosting and domains (away from GoDaddy).
 
 With a new virtual server to play with I installed [Varnish Cache](https://www.varnish-cache.org/). Varnish sits in front of the web server and takes over port 80. That means when you hit a page on my site you're served pre-rendered HTML and cached assets by Varnish. You never normally reach the "AMP" part of the LAMP stack (Apache, MySQL, and PHP).
 
@@ -32,9 +30,7 @@ Until that day comes, my website is lightning fast.
 
 What I do know is blogged below for future reference:
 
-
 ## Varnish and WordPress
-
 
 Varnish isn't plug-and-play. It comes with its own [configuration language](https://www.varnish-cache.org/docs/3.0/reference/vcl.html). This config file tells Varnish how to handle all requests and caching. To make Varnish play nicely with WordPress I borrowed heavily from [Donncha O Caoimh's](http://ocaoimh.ie/2011/08/09/speed-up-wordpress-with-apache-and-varnish/) work.
 
@@ -42,9 +38,7 @@ Basically you want to avoid caching the admin area and requests where a user has
 
 It's also worth pointing out that you cannot clear cached CSS no matter how hard you hit ⌘R — but then you shouldn't be making live edits via FTP anyway…
 
-
 ## A big refresh
-
 
 My [new site design](/2013/02/04/a-new-home/) has a _"From the blog…"_ feature in the page footer. This caused me some concern because dynamic content and caching don't go hand in hand.
 
@@ -79,9 +73,7 @@ require($path . 'wp-blog-header.php');
 
 This ensures my latest posts [WP_Query](http://codex.wordpress.org/Class_Reference/WP_Query) can run when the template include is accessed independently of the theme. The next step is to let Varnish know when to clear the cache for certain URLs.
 
-
 ## Clearing the cache
-
 
 In my WordPress theme `function.php` I have:
 

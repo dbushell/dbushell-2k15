@@ -14,9 +14,7 @@ Isn't it beautiful?
 
 As you can see, my big ideas for Macaque focus on design but I am building it end-to-end. For the supporting back-end I've spent the weekend writing and testing an API. I could have thrown together a diabolical concoction of PHP and MySQL and been done with it. However, since I genuinely plan to use this app, I've opted for an ultra-trendy Node solution.
 
-
 ## Testing an API
-
 
 My app has a very simple RESTful API that interfaces with a [Mongo](http://www.mongodb.org/) database. My API can retrieve, edit, and add items to one or more lists. That's innovation right there. You can follow my [code progress on GitHub](https://github.com/dbushell/Macaque).
 
@@ -45,9 +43,7 @@ Pretty cool, right?
 
 This effort has already paid dividends when I came to refactor my API to make use of [Mongoose](http://mongoosejs.com/) — a library that provides schema, data validation, and generally easier coding. I had to rewrite much of my code but running the tests again gave me instant confidence it was correct.
 
-
 ## Onwards
-
 
 I've already got [Ember](http://emberjs.com/) working with the API to output list and task templates. It's now time to focus on design of the front-end user interface.
 

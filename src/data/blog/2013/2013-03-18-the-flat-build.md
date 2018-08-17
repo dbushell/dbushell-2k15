@@ -12,9 +12,7 @@ It's becoming increasingly apparent that merging the design and dev process in a
 
 Getting to the browser sooner — where changes are fast but welcome — makes the flat build an obvious bottleneck to progress. The most apparent issue is shared code. The global elements used across multiple pages. Design and structure is going to change and manually updating flat build files is tedious and prone to fragmentation.
 
-
 ## The old way
-
 
 it used to be the only time I'd do a flat build was post-design. I'd use PHP includes because CMS integration was the main task at hand; the end game.
 
@@ -28,9 +26,7 @@ Now that flat builds are introduced as soon as possible I could continue to use 
 
 Includes are also not the only requirement for productive flat builds to evolve throughout the project. Asset management can also be a big bottleneck.
 
-
 ## The apps
-
 
 I'm not surprised we're seeing trendy apps appear to solve this problem. [Hammer](http://hammerformac.com/), [Mixture](http://mixture.io/), and [CodeKit](http://incident57.com/codekit/) all give it a good go. My first recommendation to anyone looking to improve their flat build process would be to trial these apps. An attractive UI tends to be quickly accessible with a small learning curve.
 
@@ -38,9 +34,7 @@ I'm not surprised we're seeing trendy apps appear to solve this problem. [Hamme
 
 For me — and this may be entirely my own flaw — none of these apps quite fit the bill. Because they're "one size fits all" solutions it's difficult to work around them if you have additional requirements. For example, I have SVG assets I want to automatically rasterise as PNG fallbacks.
 
-
 ## Building your own
-
 
 I like total control and flexibility. I roll my own [automated Grunt tasks](/2013/03/12/automation/) to achieve what these apps do (and more).
 
@@ -50,11 +44,7 @@ As long as you're not introducing more work than you're going to save — which 
 
 💤 _(For some reason — maybe it is irrational — I have a deep hatred for CoffeeScript but ranting here would totally default my own points so I'll hold my tongue!)_
 
-
-
-
 ## Missing pieces
-
 
 Naturally the inclination to do it yourself results in a half-baked solution. My Grunt set up is missing a HTML preprocessor, which if you remember is 50% of this article.
 
@@ -80,9 +70,7 @@ Which is quite cool to allow for namespacing.
 
 Feel free to poke around the [code in this gist](https://gist.github.com/dbushell/5186122). It's not an actual project repo yet because it's missing vital features like relative asset/anchor URLs. Manual management of those is even more painful than basic includes.
 
-
 ## Perspective
-
 
 For me, mastering the flat build process is as much an opportunity to experiment as it is about actually increasing productivity.
 
@@ -90,9 +78,7 @@ By developing my own solution I'm starting to unearth a whole new batch of poten
 
 You might decide to use an app or a task automator like me. I'd been very intrigued if you still prefer to use no tools at all aside from a text editor. Whatever you do, please write about your techniques are requirements.
 
-
 ## Updates
-
 
 [Middleman](http://middlemanapp.com/) and [Yeoman](http://yeoman.io/) have been mentioned (thanks [@mattberridge](http://twitter.com/mattberridge) and [@patrickhamann](http://twitter.com/patrickhamann)). And of course full-on static site generators like [Jekyll](https://github.com/mojombo/jekyllJekyll) may serve both development and deployment purposes.
 

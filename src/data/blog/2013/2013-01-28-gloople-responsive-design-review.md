@@ -22,9 +22,7 @@ On the features page you'll see an accordion-to-modal pattern.
 
 This was surprisingly simple to implement. My biggest concern was making the modal scrollable should it not fit exactly on screen. Rather than absolutely positioning the modal over the main content, I fixed the main element, thus allowing the modal to sit in the normal document flow — I'll upload a demo of this technique soon!
 
-
 ## Scalable Graphics
-
 
 You'll immediately notice the amount of SVG (scalable vector graphics) we're using on Gloople. The illustrative, flat-colour aesthetic is as much about creating a modern brand as it is about creating a style suitable for the Web — fast loading; high definition.
 
@@ -36,9 +34,7 @@ Generating CSS with [Compass](http://compass-style.org/) makes this workflow a b
 
 There are SVG optimisers like [SVGO](https://github.com/svg/svgo/) to reduce file size by removing unnecessary meta data, elements, and whitespace (this is on the to-do list). Unfortunately a few browsers have rendering bugs — e.g. [Chrome on Android](http://code.google.com/p/chromium/issues/detail?id=161982) (now fixed) — that result in early rasterisation. You may opt for a 2x resolution PNG if sharp definition is priority _right now_.
 
-
 ## Inline SVG
-
 
 For the larger feature page illustrations we're writing SVG directly inline of the HTML (view-source to see what I mean).
 
@@ -60,15 +56,11 @@ In the PHP template this is outputted straight into the rendered HTML. The page 
 
 In truth, this is not easy to _content manage_. Two images, raster & vector, need to be art-worked and uploaded. Anyone know a command line tool to create a rasterised version of an SVG image? That would be the preferred deployment step.
 
-
 ## Responsive Images
-
 
 Of course, you can't deny a website of photography. The big hero images are automatically cropped at three difference dimensions (small, medium, large). I then modified Scott Jehl's [picture element polyfill](https://github.com/scottjehl/picturefill); rather than simply providing the smallest image as default, I'm using the [cookies technique](http://blog.keithclark.co.uk/responsive-images-using-cookies/) to predict which of the three images is best suited. Rather experimental — I wasn't planning to ship it — but it actually works quite well.
 
-
 ## Media Queries and Sass
-
 
 For Gloople I decided to switch things up by moving from global breakpoints to a more modular pattern. I found[ Jake Archibald's old IE](http://jakearchibald.github.com/sass-ie/) mixin useful. Sass includes are broken down by modular, .e.g. features, pricing, blog. Each of these files has their own set of media queries particular to their content. This makes it so much easier to understand how each modular changes. While you can no longer see an overview of what happens to _everything_ at a particular breakpoint, that's what the browser is for.
 
@@ -78,5 +70,4 @@ Finally, you may have read my article on [height-based queries and viewport unit
 
 This was my final project as an employee at Browser. Though I've left London to move back up North, I do hope it isn't the last time I work with those fine folk :)
 
-_Thanks to Erik K for the [Surface template](http://dribbble.com/shots/860650-Freebie-Microsoft-Surface-RT-psd-and-ai-templates), and ~slaveoffear for the [Nexus 4](http://slaveoffear.deviantart.com/art/Nexus-4-PSD-339422726).
-_
+Thanks to Erik K for the [Surface template](http://dribbble.com/shots/860650-Freebie-Microsoft-Surface-RT-psd-and-ai-templates), and ~slaveoffear for the [Nexus 4](http://slaveoffear.deviantart.com/art/Nexus-4-PSD-339422726).

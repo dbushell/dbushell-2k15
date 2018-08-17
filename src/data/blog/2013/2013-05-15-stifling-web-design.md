@@ -10,9 +10,7 @@ The only way to truly experience and evaluate a website design is in a web brows
 
 _High-fidelity_ design mock-ups have established themselves as a waypoint within the process of website making. Somewhere between the initial briefing and final deployment lies the well honed Don Draper reveal followed by — and who are we kidding? — client sign-off.
 
-
 ## Designing with Code
-
 
 Some responsive design aficionados are keen to scoff at this practice. If you're not "designing in the browser" it's time to get with the program. Their manifesto being that design mock-ups in [software of choice] cannot possibly be appropriate any longer.
 
@@ -24,9 +22,7 @@ Web design, of course, is more than just applying visual style. It requires aspe
 
 The browser gives us direct feedback on what's becoming an ever more difficult and scrutinised task. With that said, I'm hard pressed to think of anything more stifling than to use HTML & CSS to achieve the waypoints that lead to a final design. It's a horribly tedious and distracting way to express creativity. This idea shuns high-fidelity design mock-ups for another equally inadequate extreme. The browser is a terrible tool for design. Sure, both methods can deliver a website, but are these polar opposites our only option?
 
-
 ## A Matter of Process
-
 
 Rather than dropping everything we know — which seems to be the sentiment behind the "RWD has killed Photoshop" notion — we need to adjust our process so that we can develop _alongside_ design. [Agile, not waterfall](http://alistapart.com/article/gettingrealaboutagiledesign).
 

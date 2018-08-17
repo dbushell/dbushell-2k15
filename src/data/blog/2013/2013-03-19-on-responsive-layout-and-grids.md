@@ -10,9 +10,7 @@ I often get asked which responsive grid system I use. This is a very frustrating
 
 This article is my response to that question.
 
-
 ## Anatomy of a grid system
-
 
 Responsive grid systems can be broken into two main parts:
 
@@ -24,9 +22,7 @@ Most systems I see feature a largely trivial decision around part #1 and a load 
 
 This is how I handle responsive layout:
 
-
 ## Part 1 — the basic unit
-
 
 There are numerous ways to achieve this. The principle is to align elements as columns with an even gutter between them. Here's a five-column example:
 
@@ -63,9 +59,7 @@ Personally I like to separate these layout elements with an extra `div` to avoid
 
 When support for [CSS Flexbox](http://www.w3.org/TR/css3-flexbox/) hits critical mass I'll likely transition towards that for grid units. It has a magic `order` property that will solve responsive layout _forever_.
 
-
 ## Part 2 — responsive layout
-
 
 This is the meat and potatoes of a responsive grid system and the reason I ultimately reject many of them. The ones that try to offer pre-defined classes for every possible column arrangement are a lost cause.
 
@@ -107,11 +101,7 @@ In practice it's a bit more complicated because I'm ignoring vertical spacing he
 
 💤 (In practice I actually use a lot of CSS preprocessor techniques to avoid multiple classes.)
 
-
-
-
 ## Abstraction
-
 
 This doesn't mean I can't abstract and reuse common layouts. If my features module is used beyond the home page I just apply CSS with a non page-specific class name.
 
@@ -119,15 +109,11 @@ Say I reuse the features module on the "blog" page but it's now nested inside an
 
 You can't define good responsive breakpoints until you know content and location. That's another reason to avoid pre-defined systems.
 
-
 ## Job done
-
 
 I've build websites large and small with this philosophy and I really don't see a situation where it needs to be any more complicated. I love modular CSS as much as the next person but there's a point where it becomes an abstraction too far. Don't solve a problem until it exists. From my experience, trying to find a pre-defined system for every permutation of nested grids is a fool's errand.
 
-
 ## Design vs code
-
 
 Finally, though a website is designed on a grid doesn't mean we have to replicate it entirely with a single code system. In my [Passenger Focus case study](/2012/06/17/passenger-focus-responsive-web-design-case-study/) I highlight the areas where my technique above kicks in (grid units are outlined in blue):
 

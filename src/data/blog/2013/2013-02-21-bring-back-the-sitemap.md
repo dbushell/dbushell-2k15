@@ -10,9 +10,7 @@ I'm doing a small segment on navigation at [Responsive Day Out](http://responsiv
 
 You're probably familiar with [responsive patterns](http://bradfrost.github.com/this-is-responsive/patterns.html#navigation) that transform a traditional menu into something mobile-friendly. Combinations thereof cover most scenarios. If nothing suffices it might be more apt to focus on information architecture before attacking code again.
 
-
 ## Table of contents
-
 
 For small viewports I'm a big fan of reveal patterns that initially hide the global menu. Doing so makes you remember that this menu isn't the single point of navigation. It also begs the question: just how vital is a global menu?
 

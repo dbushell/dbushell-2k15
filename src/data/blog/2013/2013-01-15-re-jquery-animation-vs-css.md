@@ -29,7 +29,6 @@ The proof is in testing so let's see both in action:
 3. This particular plugin has a [bug](https://github.com/benbarnett/jQuery-Animate-Enhanced/issues/102) — or lacks support — for percentages. That means I have to calculate `$('#nav').width()` on the fly.
 4. It causes animation flickering for the reasons highlighted at the end of [my article](http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/).
 
-
 **[jQuery Enhanced Demo](http://dbushell.github.com/Responsive-Off-Canvas-Menu/extras/step3-jquery-enhanced.html)**
 
 Issues aside, this plugin basically achieves something close to my final demo (and in fairness, the last two issues could be fixed). However, for the price of jQuery and a plugin — and the first two issues — it's ultimately needless complexity. Do consider this plugin though if you want to retro-fit existing builds.

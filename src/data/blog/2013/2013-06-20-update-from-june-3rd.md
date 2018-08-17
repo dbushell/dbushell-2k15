@@ -12,10 +12,8 @@ On June 3rd I wrote an article entitled [The Raster Image Paradox](/2013/06/03/t
 
 Both of whom make perfectly valid points around two contradictory concerns. The concept of a responsive image implementation in the browser would allow two main abilities:
 
-
 * To serve smaller images to smaller screens to save bytes downloaded
 * To serve high definition images to high-PPI screens for better visual quality
-
 
 These ideas are often at odds. No technology can find the appropriate line between performance and quality. This is a human decision that we should already be making _today_.
 

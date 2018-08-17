@@ -20,17 +20,13 @@ In ten weeks I jotted down hundreds of notes for my talk on "Responsive Navigati
 
 I trusted my gut. After a whirlwind three days I'm now relaxing at home and I think I might — just might — have avoided total disaster!
 
-
 ## The conference
-
 
 It may be that I'm slightly biased but Responsive Day Out was brilliant. Best conference I've ever attended. The shorter 20 minute format with Q&A allowed for more variety and honest discussion. I was glad to be second on the bill. I'll have to watch [@sazzy's](https://twitter.com/sazzy) talk again. As the only person to take stage before me I spent the entirety of her talk taking in deep breathes, trying to forget about the 400 people sat behind me.
 
 The attendees were in great spirit. It seemed like my Twitter feed had descended upon Brighton. Too many people to name but it was an absolute pleasure to meet you!
 
-
 ## On first-time speaking
-
 
 Relief — I was expecting to feel overwhelming relief, stepping off stage after my time in the spotlight. In the days leading up, thoughts of _"too late to back down now"_ and _"just get it over with"_ were all I had to stem the bouts of anxiety. I'm sure there are better techniques than suppression but that's all I've ever known.
 

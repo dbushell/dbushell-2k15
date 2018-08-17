@@ -10,17 +10,13 @@ Using [SVG](https://developer.mozilla.org/en/docs/SVG) (Scalable Vector Graphics
 
 💤 _* Quick fire question: at which corner does this right-angle triangle point?_
 
-
-
 ````markup
 <polygon points="0,100 0,0 100,0 "/>
 ````
 
 I'm going to walk you through many conceivable implementations:
 
-
 ## Image Elements
-
 
 Basic usage is as simple as swapping out a regular raster graphic — PNG, JPEG, or GIF — with an SVG file. Here's an example in HTML:
 
@@ -55,7 +51,6 @@ if (!Modernizr.svg) {
 </div>
 ````
 
-
 ````css
 .lt-ie9 #logo,
 .no-svg #logo {
@@ -73,9 +68,7 @@ You'll notice I've used the "lt-ie9" class. You can apply this to the `<html>` e
 
 With the techniques above the worse case scenario is that two assets are downloaded. Eventually those legacy browsers will fade away and you can remove the fallbacks.
 
-
 ## CSS Background Images
-
 
 Like I mentioned, you can use SVG anywhere images are permitted:
 
@@ -105,9 +98,7 @@ I've thrown up a [UTF-8 test case](/demos/svg/utf8uri/test2.html) and the resu
 
 It may not be immediately obvious but my pseudo code above is not a valid data URI. While the contents are UTF-8 encoded, the URI itself needs to be [URI encoded](http://en.wikipedia.org/wiki/Percent-encoding). View the source of my last demo in the [test case](/demos/svg/utf8uri/test2.html) to see why this is ultimately pointless! The base64 version is always smaller.
 
-
 ## Object Elements
-
 
 If you were experimenting with SVG a couple of years ago like I was you'll be more familiar with the object element:
 
@@ -133,7 +124,6 @@ If the browser doesn't recognise the object element's MIME type it won't downloa
 </object>
 ````
 
-
 ````css
 #logo div {
     width: 300px;
@@ -144,9 +134,7 @@ If the browser doesn't recognise the object element's MIME type it won't downloa
 
 The object element effectively replaces it's default content with the SVG data. Only if the browser doesn't support SVG does the element inside get styled. This to my knowledge is the best way to use SVG without any overhead.
 
-
 ## Inline of HTML
-
 
 With the methods highlighted above we actually lose a lot of SVG's potential. For security reasons [SVG as an image](https://developer.mozilla.org/en-US/docs/SVG/SVG_as_an_Image) has scripting and external resource loading disabled in Firefox (and from my testing Webkit browsers follow suit).
 
@@ -160,9 +148,7 @@ This is something I've [recently experimented](/2013/01/28/gloople-responsive-de
 
 Browsers that don't support inline SVG aren't going to like the taste of it (hence the conditional comments for old IE). In my use case, an object element with a data URI may have been the better choice.
 
-
 ## The Holy Grail
-
 
 There is one technique where SVG will shine in future. That's the use of [fragment identifiers](http://www.w3.org/TR/SVG/linking.html#LinksIntoSVG) — **Peter Gasston** has a friendlier explanation in his article: [Better SVG Sprites With Fragment Identifiers](http://www.broken-links.com/2012/08/14/better-svg-sprites-with-fragment-identifiers/), as does **Simurai**: [SVG Stacks](http://simurai.com/post/20251013889/svg-stacks). Firefox and IE10 are leading the charge here ([compatibility table](http://caniuse.com/svg-fragment)).
 

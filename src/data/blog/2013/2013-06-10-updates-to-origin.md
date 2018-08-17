@@ -8,9 +8,7 @@ title: Updates to Origin
 
 Back in April I published my [front-end starting point](/2013/04/30/origin/) on GitHub. It includes basic HTML & CSS and many [Grunt](http://gruntjs.com/) tasks to automate compilation, minification, optimisation, and rasterisation.
 
-
 ## What's new
-
 
 My custom [SVG rasterisation task](https://github.com/dbushell/dbushell-Origin/blob/master/tasks/rasterize.js) was poorly written. It brought my laptop to a standstill while churning through as many phantom.js processes as there were SVG files. I've now improved that, mostly with a sexy progress bar:
 
