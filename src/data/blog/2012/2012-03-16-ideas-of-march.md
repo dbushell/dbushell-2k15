@@ -10,9 +10,7 @@ If you haven't read an _Ideas of March_ post yet they all start by explaining wh
 
 I believe I'm suppose to write about _writing_. When I started this blog in 2008 post-graduation it began as a tiny link hidden away in the footer of my portfolio website. I couldn't write back then. Now, five years on, I've become exceedingly efficient at it (if you'll excuse the Matrix quote) and this blog has _become_ my website. That's not to suggest I've gotten any better at writing (obviously), only that I've become more prolific.
 
-
 ## What Do I Write About?
-
 
 [I blog](/2010/07/12/on-design-blogging/) because it exercises my mind. It forces me to think deeper and it allows me to share ideas and things that I've learnt.
 

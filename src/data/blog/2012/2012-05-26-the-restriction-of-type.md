@@ -23,9 +23,7 @@ I don't post these screenshots to unfairly call people out, only to note how *di
 
 I do realise that I am opening *myself* up for criticism here, so I'll start.
 
-
 ## A Loss of Identity
-
 
 My website design is also very much content focused. To aid my goal of [content parity](http://bradfrostweb.com/blog/mobile/content-parity/) I continued a minimal design style that my personal websites have always had, but the over focus has led to a rather plain small-screen experience:
 

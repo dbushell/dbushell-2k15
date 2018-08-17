@@ -12,11 +12,9 @@ Alongside this the bigger picture — so to speak — of [responsive images](ht
 
 To accurately serve the best image we need to know:
 
-
 * Screen resolution *
 * Screen pixel density
 * Connection bandwidth
-
 
 The first two can be achieved today with [CSS3 media queries](http://www.w3.org/TR/css3-mediaqueries/). Understanding connection bandwidth is still a long way away (see [The Network Information API](http://dvcs.w3.org/hg/dap/raw-file/tip/network-api/Overview.html) and [HTTP Client Hints](https://docs.google.com/document/d/1xCtGvPbvVLacg45MWdAlLBnuWa7sJM1cEk1lI6nv--c/mobilebasic?pli=1)). I've seen responsive image implementations that claim to estimate this — they're not good enough. And even if we achieve this trifecta we're forgetting a forth point:
 

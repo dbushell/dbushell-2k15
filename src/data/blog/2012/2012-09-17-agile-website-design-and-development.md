@@ -12,9 +12,7 @@ If you know nothing about Agile, it involves breaking down a project into indivi
 
 Those that speak "agile" contrast the methodology to the more traditional "waterfall" approach whereby stages of planning, design, development, and testing are all done in very long, individual, and sequential steps. The problem here is that waterfalls cascade down. As every stage is "signed off", everyone involved in the project slowly begins to realise that it's going in the wrong direction. The client ends up with a website far from what they envisioned. Working this way perpetuates and compounds misinterpretation and provides no opportunity for correction. Agile solves that problem.
 
-
 ## Website Design (The Right Way)
-
 
 When designing websites in an agile development process the work has to follow the same iterative flow. This means that the upfront deliverables are kept to the bare minimum. Prior to development, a certain level of "design vision" is required to get a sense of the aesthetic style and brand, same too for core layout challenges, but ultimately design is about doing _just enough_ to get by.
 
@@ -26,9 +24,7 @@ This is tricky because good design requires a certain amount of holistic thinkin
 
 As a front-end developer (and designer) I work alongside the back-end developer as each release begins. It's important that communication is continuous so that both sides accommodate each other. Because design influences development and vice-versa, working in silos is a recipe for disaster. It's also my job to bring in the big guns when additional input is required from fellow non-dev designers.
 
-
 ## Thoughts So Far
-
 
 The benefits of Agile development should be clear but I can tell you with first-hand experience they become starkly apparent, especially when your past projects have been stuck in the waterfall workflow. Designing this way is not immediately intuitive. Initially you feel like you're committing to a style before you've had a chance to explore, but you must remember that Agile is a feedback and test-driven process. It makes little sense to design a whole website prior to development. This is the point at which understanding between all parties is at its lowest. By working in iterative release cycles, design evolves and in reality you get _more_ time to improve and perfect it.
 

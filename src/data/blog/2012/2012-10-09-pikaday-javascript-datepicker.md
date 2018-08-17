@@ -10,11 +10,7 @@ Pikaday is a JavaScript datepicker with a light footprint and easy style-ability
 
 ![Pikaday screenshot](/images/2012/10/pikaday.png)
 
-
-
-
 ## Why now?
-
 
 Because as much as we like open standards, the [HTML5 input types](http://www.quirksmode.org/html5/inputs.html) lack browser support and are poorly implemented in places; see Chrome (22 as of writing) below:
 

@@ -22,7 +22,6 @@ They say a [monkey hitting keys](http://en.wikipedia.org/wiki/Infinite_monkey_th
 9. [**SVG, Use it Already**](/2012/04/03/svg-use-it-already/)3 Apr — 273 shares
 10. [**A Responsive Design Case Study**](/2012/06/17/passenger-focus-responsive-web-design-case-study/)17 Jun — 319 shares
 
-
 _("shares" only include tweets and +1's of the original article.)_
 
 I'm happy to see that live case studies, usable resources, and practical code/commentary are most popular. Despite publishing 50 articles this year I have double that number of abandoned drafts. That's a lot of wasted time! That demands a change in strategy; more frequent writing and more concise topics.

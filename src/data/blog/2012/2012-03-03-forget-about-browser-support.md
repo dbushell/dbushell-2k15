@@ -24,19 +24,15 @@ Here's my [website redesign article](/2012/02/27/spring-cleaning-redesigning-db
 
 Absolutely perfect! I don't know if many people have read my blog on their Kindle. I would guess not many, if anyone at all. So did I waste my time? How many hours did I spend testing on this device? None. The first and only time I checked was to take a photo. But what if it did look shit on the Kindle, do I go and fix it?
 
-
 ## What Browsers Do I Support?
 
-
-Between 3rd March **2009** and 3rd March **2010** mobile traffic to my website accounted for 1.3% of visitors. The following 12 months through 2010–2011 saw 2.47%. Over the last 12 months — up until today — my site has seen** 8.47% of visitors on mobile devices**. Over the same period Internet Explorer hit 7.18% — for all versions. (Opera was outnumbered by mobile the year before.)
+Between 3rd March **2009** and 3rd March **2010** mobile traffic to my website accounted for 1.3% of visitors. The following 12 months through 2010–2011 saw 2.47%. Over the last 12 months — up until today — my site has seen **8.47% of visitors on mobile devices**. Over the same period Internet Explorer hit 7.18% — for all versions. (Opera was outnumbered by mobile the year before.)
 
 We've seen eras where one browser dominated the scene. Currently we're in a time where none do. All of these mobile devices may not rank highly on their own but as a whole they represent a huge portion of the user base I cannot ignore.
 
 Having a supported list for all the "popular" browsers doesn't cut the mustard anymore. It doesn't reflect reality. Does anyone actually write a whole list of supported mobile devices into a contract? Maybe a vague reference to smartphones "like the iPhone"?
 
-
 ### A Better Perspective
-
 
 Instead of focusing on versions we should focus on standards and practices that allow our websites to stretch as far back as possible while reaching as far forward as possible. With that in mind **our efforts should still look forward**. An issue in a legacy browser drops away quickly, a new idea in a modern browser has a whole lifecycle to pass through. That's where priorities should lie.
 
@@ -46,9 +42,7 @@ The website should reflect the design comps, normally three generic "desktop", "
 
 I believe questions of support should only be raised when individual elements of a website are planned. If an element is of critical importance to functionality, build it with a wider range of fallbacks. If a layout is essential to usability or call-to-action, design alternatives when the ideal is not possible (you have to do this anyway for a responsive design). Use progressive enhancement techniques to ensure these differences are scoped. **Consider the project budget** to decide if supporting *Element X* for browsers that implement *Feature Y* is worth the investment. Don't blindly follow a support list.
 
-
 ## Forget The Browser Support List
-
 
 Maintaining a browser support list for clients has the potential to do more damage than good in my opinion. It does not reflect the reality of how websites are built, nor the devices which access them. It gives clients and developers alike the wrong impressive of what we should be trying to achieve. A traditional browser support list is completely ignorant of a website's requirements. It wrongly aims for parity across browsers and leads to much wasted time and money. Labelling individual browsers as all or nothing is madness. Considering what the web's future is shaping up to be like, it's also futile.
 

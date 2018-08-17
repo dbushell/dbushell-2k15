@@ -12,4 +12,4 @@ We're hiring at [Browser](http://www.browserlondon.com/hiring/). If you like m
 
 Hit the website for more [info and contact details](http://www.browserlondon.com/hiring/).
 
-Recruitment agencies, try: [+44 (0) 8705 244622](tel:+44 (0) 8705 244622).
+Recruitment agencies, try: +44 (0) 8705 244622.

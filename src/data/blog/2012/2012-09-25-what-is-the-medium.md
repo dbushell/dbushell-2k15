@@ -36,7 +36,7 @@ Websites share the content we see in printed publications, the voices we hear in
 
 Perhaps the mistakes made time and time again in website design are not due to ignorance but to the fact that the medium is inadequate for what is being asked of it?
 
-Or on the contrary, as Paul suggests and I'm inclined to agree, perhaps we're asking too much to begin with. Instead of trying to shape the web into something it's not we should instead identify the true "web aesthetic". When we try to achieve this however, we are faced with an uneasy truth; the** web changes as much as it remains the same**.
+Or on the contrary, as Paul suggests and I'm inclined to agree, perhaps we're asking too much to begin with. Instead of trying to shape the web into something it's not we should instead identify the true "web aesthetic". When we try to achieve this however, we are faced with an uneasy truth; the **web changes as much as it remains the same**.
 
 Paul concludes his article:
 

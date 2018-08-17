@@ -8,7 +8,7 @@ title: Scoping Typography CSS
 
 _I'm writing a very long article on front-end dev builds, this is a quick prelude to that!_
 
-It's common practice to define** global typography style** early in a stylesheet. This makes a lot of sense. After all, a good design has consistent typography with a clear hierarchy throughout. When writing this CSS, [type selectors](http://www.w3.org/TR/CSS2/selector.html#type-selectors) like:
+It's common practice to define **global typography style** early in a stylesheet. This makes a lot of sense. After all, a good design has consistent typography with a clear hierarchy throughout. When writing this CSS, [type selectors](http://www.w3.org/TR/CSS2/selector.html#type-selectors) like:
 
 ````css
 h1 { font-weight: bold; }
@@ -17,10 +17,8 @@ p { font-size: 1em; line-height: 1.5em; }
 
 are necessary; adding classes to every text element isn't feasible when you consider content managed websites and WYSIWYG editors. You'd have to be a nutter to do `<p class="paragraph">` everywhere. Global styles are great but there are a few catches:
 
-
 * Unique elements exist that are exceptions to the rule.
 * Many UI elements maintain semantics but are visually worlds apart from textual content, e.g. navigation with `<ul>` are rarely designed as simple bullet points.
-
 
 The first example can easily be solved with small "modifier" classes like `<p class="error">`. The second example requires hard overriding of styles.
 

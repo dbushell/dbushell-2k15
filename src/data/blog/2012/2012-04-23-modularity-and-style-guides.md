@@ -12,17 +12,13 @@ It's one of many techniques I use in front-end website development. Below I'll i
 
 _**Disclaimer:** there's no holy grail to building a website!_
 
-
 ## Modularity
-
 
 If you're familiar with [SMACSS](http://smacss.com/), [OOCSS](https://github.com/stubbornella/oocss/wiki) or [BEM](http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/) you'll understand the concept of creating reusable "blocks" or "modules". These are patterns, both visually and in code, that can be reused and expanded upon when building web pages. Done right, time and complexity are significantly reduced. If you tackle each page one at a time, element by element, you end up repeating the same code over and over again. Methodologies like modularity solve the repetition problem exponentially as a website grows.
 
 Before you get modular you need something to build.
 
-
 ## Style Guides
-
 
 **[Style guides](http://24ways.org/2011/front-end-style-guides)** (or pattern libraries) are the _perfect_ place to start a website build and a modular base. They bridge the gap between design and development. They're somewhat similar to a traditional brand guidelines but contain less fluff & nonsense and 100% practical code examples.
 
@@ -30,14 +26,12 @@ A good style guide starts with the basics like typography (see above) and moves 
 
 **The benefits of building a style guide first are enormous:**
 
-
 * It shows the design elements you have at your disposal.
 * Its shows the design elements you _lack_.
 * It defines the modular HTML/CSS building blocks for the whole website.
 * It provides an accessible baseline on which to build upon.
 * It allows you to test code early in browsers and on devices.
 * Oh, and it leaves a design & build blueprint for future development.
-
 
 Building the guide highlights weaknesses in a design (before it's too late) and sets  you on the path to build simplicity. Just throw all the elements onto one very long page; don't waste too much time formatting it. The benefits are so incredible — I feel embarrassed for not utilising the style guide sooner! I use to consider them as _additional_ work but actually it results in far less. Whether you choose to expose and bill the style guide to the client is a question for another day. If you're a developer just do it anyway; it'll make your life a whole lot easier.
 

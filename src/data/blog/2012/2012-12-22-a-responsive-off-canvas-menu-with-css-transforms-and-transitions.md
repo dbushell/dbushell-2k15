@@ -8,7 +8,7 @@ title: A Responsive Off-Canvas Menu
 
 Have a play with my [responsive off-canvas menu](/demos/viewport/menu1/). I hadn't intended this to go viral (I'm well aware of the issues!) but since it has I decided to write a proper introduction.
 
-![A Responsive Off-Canvas Menu](/images/2012/12/off-canvas-menu.png)]
+![A Responsive Off-Canvas Menu](/images/2012/12/off-canvas-menu.png)
 
 A couple of things to note — this was purely a technical demo to see the performance of CSS transforms & transitions (I've built [experimental monstrosities](/2012/05/15/pageshift-removing-the-refresh/) in the past so I felt obliged to do good). The general idea is nothing new. It lacks accessible foundations and unfortunately, as many have fed back, there are rendering issues that cause flickering in some browsers.
 

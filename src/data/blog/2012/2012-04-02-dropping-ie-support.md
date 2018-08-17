@@ -25,6 +25,6 @@ Ultimately, website owners can do what they choose. I think an idea like activel
 
 It does, however, set a dangerous example to those who make websites.
 
-If you're a so-called _website designer_ or _website developer_ then stop bitching.** Learn to do your job**. It's irresponsible towards your employer to project such a negative light on one browser just because you lack the skills to do your job properly.
+If you're a so-called _website designer_ or _website developer_ then stop bitching. **Learn to do your job**. It's irresponsible towards your employer to project such a negative light on one browser just because you lack the skills to do your job properly.
 
 Rather than whining like a baby when you're pulled out of your cosy Apple eco-system full of Webkit-based browsers and high resolution devices, face the real world. Recognise that a little bit of hard work and less fun goes a long, long way.

@@ -12,15 +12,11 @@ The whole include (which uses an iframe) weights in at close to **500kb** and u
 
 Using this embedded play button is going to slow down your whole website if implemented poorly. Combine it with other social network goodies from Facebook et al and you're presenting a _very_ long loading experience to your users. That's not good. Speed — or the perception thereof — is massively important. Imagine trying to load a website over a 3G network when half a megabyte of Facebook like button is shipped to your device before anything else. Awful! Yet most websites are still developed this way.
 
-
 ## Asynchronous Loading
-
 
 This is where asynchronous loading comes into play. Websites should defer the loading on non-critical elements (like sharing buttons and rich media) until the main content has been downloaded and initially rendered. Not a trivial task! Many social networks offer [asynchronous methods](http://css-tricks.com/thinking-async/) but they don't defer for long. I've been developing [Socialite.js](http://socialitejs.com/) for that exact reason.
 
-
 ## Extending Socialite.js
-
 
 Today I've added the Spotify Play Button to [Socialite.js](http://socialitejs.com/). And if everything works, the link below should by now have magically transformed into a play button!
 

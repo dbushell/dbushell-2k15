@@ -26,7 +26,7 @@ Of course, simply decorating your website with sharing buttons for every social 
 
 Social widgets are a stopgap solution; use with care. I suspect **[Web Intents](http://webintents.org/)** will replace them in the near future, so I guess my conclusion is to avoid ignoring a concept entirely because it lacks sophistication at present. I realise my hypocrisy in dismissing QR codes — [but come on!](http://picturesofpeoplescanningqrcodes.tumblr.com/) I'll happily eat these words if proven wrong.
 
-***Update* **some great responses on Twitter:
+**Update** some great responses on Twitter:
 
 > @[dbushell](https://twitter.com/dbushell) Making sharing harder can be a good thing; without buttons we might see more considered comments alongside the links people share.
 >

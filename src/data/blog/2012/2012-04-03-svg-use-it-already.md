@@ -16,9 +16,7 @@ I know SVG is not perfect. There's no hinting; the holy grail of [pixel-perfect
 
 When you consider the amazing things we'll be doing with SVG in the future — [animation and scripting](http://blogs.adobe.com/webplatform/2012/03/30/svg-animations-css-animations-css-transitions/) and [sprite stacks](http://simurai.com/post/20251013889/svg-stacks) to name just two — **it's time to start learning now**.
 
-
 ## Fallback Techniques
-
 
 When using SVG with a CSS `background-image` providing a fallback using the fine art of feature detection is very easy. Use [Modernizr](http://modernizr.com/) to add the `.svg` class to the `<html>` element then you have a hook to specify both sources. If the class is added before the default styles are applied modern browsers won't download both images or flash any content (so put Modernizr in your `<head>`). If you decide to go PNG by default the rare case of no JavaScript and no SVG is covered.
 

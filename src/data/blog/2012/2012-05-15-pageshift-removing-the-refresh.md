@@ -14,21 +14,15 @@ Inspiration can be drawn from slide decks like [CSSS](http://leaverou.github.co
 
 As a Friday coding† experiment I asked myself if I could remove the refresh and add page transitions to a website that was already built...
 
+## Say hello to Pageshift
 
-## Say hello to Pageshift****
-
-
-**[Pageshift](https://github.com/dbushell/Pageshift) **is undoubtedly the worst thing I've ever written for the Web!
+[Pageshift](https://github.com/dbushell/Pageshift) is undoubtedly the worst thing I've ever written for the Web!
 
 The screencast frame rate below is a little choppy; best to try it yourself. See [Pageshift on GitHub](https://github.com/dbushell/Pageshift) for the code and a neat little bookmarklet you can try on any website. Some work amazingly, others fail spectacularly.
 
-
 <p class="b-post__image"><span class="b-fitvid" style="padding-top:85%"><iframe src="//player.vimeo.com/video/42234715" frameborder="0" width="500" height="425"></iframe></span></p>
 
-
-
 ### This is a prototype!
-
 
 It does a pretty tidy job of swapping out `<body>` elements with CSS transitions and 3D transforms. A lot of `<head>` meta data is also updated. It even supports the History API. It only works on internal links. All JavaScript gets stripped for the time being until I figure out the best way to handle that.
 

@@ -16,9 +16,7 @@ The only similar thing I could find was [nestedSortable](https://github.com/mjsa
 
 As always the [code is freely available on GitHub](https://github.com/dbushell/Nestable). That would be a good place to submit feature requests too as I'll no doubt be spend a few more hours hacking this soon.
 
-
 ## Update 28th June 2012
-
 
 I've pushed quite a few changes to [jQuery Nestable](http://dbushell.github.com/Nestable/):
 
