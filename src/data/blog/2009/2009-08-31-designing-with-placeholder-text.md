@@ -46,5 +46,5 @@ At least as much as I can. Any short text such as menu items, headings, introduc
 
 And yes, clients will look at the text first just like they'll look at Lorem Ipsum first, but now they're going to see that I care about typography – and more importantly their business.
 
-🤔 I was planning to write a rather cynical article titled "No one is going to read your website anyway" and suggest replacing all sentences longer than two lines with filler but that's not entirely fair or true and dolor sit amet, consectetur adipiscing elit. Mauris sagittis lacinia erat...
+🤫 I was planning to write a rather cynical article titled "No one is going to read your website anyway" and suggest replacing all sentences longer than two lines with filler but that's not entirely fair or true and dolor sit amet, consectetur adipiscing elit. Mauris sagittis lacinia erat...
 

@@ -1,4 +1,4 @@
-<p class="p--large">Need a reliable hand with design, front-end, or a bit of everything?</p>
+📢 Need a reliable hand with design, front-end, or a bit of everything?
 
 I can pick up the overflow to help deliver your project on time. I pride myself in communication and initiative to ensure my involvement is always seamless, flexible, cost-effective, and the highest of quality.
 

@@ -30,7 +30,7 @@ Right now this page is only accessible via a tiny link in the footer. The questi
 
 And if so, what icon do I use? [Answers in a tweet](http://twitter.com/dbushell) please.
 
-<p class="p--small">I may bring back comments at some point this year!</p>
+🤫 I may bring back comments at some point this year!
 
 ## Update (22nd Feb 2013)
 

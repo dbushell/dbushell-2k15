@@ -34,5 +34,5 @@ Check out [www.designheroes.co.uk](http://www.designheroes.co.uk) and let me kno
 
 The site is also my first full site experiment with HTML5 and CSS3. There are some fancy features being used like _text-shadow_ and _border-radius_ that should degrade nicely in older browsers. I've tested in IE8, IE7, Firefox and Safari. I only test in IE6 if I'm being paid! It doesn't validate yet but it will once I've cleaned it up a little.
 
-<p class="p--small">Thanks to [dictionary.com](http://dictionary.reference.com/browse/heroes) for the definition of "hero"!</p>
+🤫 Thanks to [dictionary.com](http://dictionary.reference.com/browse/heroes) for the definition of "hero"!
 

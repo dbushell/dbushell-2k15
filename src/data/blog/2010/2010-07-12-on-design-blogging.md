@@ -28,5 +28,5 @@ From the feedback I get on this site and my other online ventures blogging conti
 
 I encourage you all to blog about design!
 
-<p class="p--small">(and delete your Facebook account - Facebook is a truly evil company!)</p>
+🤫 (and delete your Facebook account - Facebook is a truly evil company!)
 

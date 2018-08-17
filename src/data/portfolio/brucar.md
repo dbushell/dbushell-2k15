@@ -6,9 +6,9 @@ Forms should not be difficult or boring to use!
 
 ![David Bushell - Web Design - My Life Listed home page.](/images/portfolio/web-design-brucar-1.png)
 
-<p class="p--small">[Visit brucar.com](http://www.brucar.com)</p>
+🤫 [Visit brucar.com](http://www.brucar.com)
 
-<p class="p--small">Website launched in November 2011</p>
+🤫 Website launched in November 2011
 
-<p class="p--small">Design and front-end development by David Bushell at Base Creative</p>
+🤫 Design and front-end development by David Bushell at Base Creative
 

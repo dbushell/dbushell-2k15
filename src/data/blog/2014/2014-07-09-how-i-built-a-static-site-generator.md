@@ -41,7 +41,7 @@ To understand exactly how it worked I rewrote the task line-for-line. It was an
 
 Checkout **[dbushell-grunt-Mustatic](https://github.com/dbushell/dbushell-grunt-mustatic)** on GitHub.
 
-<p class="p--small">I've prefixed the name with `dbushell-` to indicate it's still very much a work in progress. It's likely to follow an unpredictable roadmap. All code is under the MIT license!</p>
+🤫 I've prefixed the name with `dbushell-` to indicate it's still very much a work in progress. It's likely to follow an unpredictable roadmap. All code is under the MIT license!
 
 
 

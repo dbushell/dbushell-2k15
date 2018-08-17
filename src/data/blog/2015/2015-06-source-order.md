@@ -15,7 +15,7 @@ On small viewports — mobile phones for example — a vertical layout that mimi
 Basic stuff. Design can be a lot more creative.
 
 > Compositional flow determines how the eye is led through a design: where it looks first, where it looks next, where the eye pauses, and how long it stays.
-><p class="p--small"><cite>Steven Bradley [Design Principles: Compositional Flow And Rhythm](http://www.smashingmagazine.com/2015/04/29/design-principles-compositional-flow-and-rhythm/)</cite></p>
+> <cite>Steven Bradley [Design Principles: Compositional Flow And Rhythm](http://www.smashingmagazine.com/2015/04/29/design-principles-compositional-flow-and-rhythm/)</cite>
 
 **What happens when HTML source order differs from CSS presentation order?**
 

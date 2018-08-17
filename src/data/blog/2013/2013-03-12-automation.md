@@ -29,7 +29,7 @@ This change in methodology has highlighted many more bottlenecks in my design an
 * SVG optimisation/minifying with [SVGO](https://github.com/svg/svgo)
 * SVG rasterisation *
 
-<p class="p--small">_* to create PNGs from SVGs I use a [PhantomJS](http://phantomjs.org/) script (heavily based on [Grunticon](https://github.com/filamentgroup/grunticon))_</p>
+🤫 _* to create PNGs from SVGs I use a [PhantomJS](http://phantomjs.org/) script (heavily based on [Grunticon](https://github.com/filamentgroup/grunticon))_
 
 I'm even working on my own Node.js tasks to build HTML includes for faster prototyping. I really like [Hammer for Mac](http://hammerformac.com/) but its all-or-nothing simplicity sits awkwardly with my additional requirements. [Mixture](http://mixture.io/) is another tool I look forward to testing.
 

@@ -8,7 +8,7 @@ title: Redesign or Realign?
 
 Over the past few years I've been continually developing my own "brand" - a consistent look and feel for my portfolio, CV, letterhead (never sent one), business cards (499 gathering dust), websites, mugs, t-shirts...
 
-🤔 Update 30th August 09 - New blog design online!
+🤫 Update 30th August 09 - New blog design online!
 
 From the beginning I've gone for the whole minimalist green/silver style. I think it has enough personality without being overpowering when combined with my varied portfolio work. The design style has evolved slowly and I'm rather happy with it especially this 2nd version of my website. However, I do think this blog leaves much to be desired (it was a slight after thought that I should be writing about my career choice).
 

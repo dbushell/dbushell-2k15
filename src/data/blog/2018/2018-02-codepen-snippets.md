@@ -17,7 +17,7 @@ Who would have guessed each browser requires proprietary code?
 
 I'll add a new Pen whenever I find a common design pattern that provokes a *'how do I build this?!'* If the browser ballet insists on unusual CSS trickery I’ll log my findings. As with all web development anything older than a few months is likely a bit dated. Browser support will vary but tested to my satisfaction for at least one project<sup>†</sup>. That’s at least all modern browsers with a graceful fallback in older IE.
 
-<p class="p--small"><sup>†</sup> not a guarantee.</p>
+🤫 <sup>†</sup> not a guarantee.
 
 If you’d like to share an improvement – fork away! Or leave a comment. Please use the CodePen comments so others’ can learn from you. I may or may not update older snippets. Some may become irrelevant as CSS specs develop.
 

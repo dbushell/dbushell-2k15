@@ -48,7 +48,7 @@ The barrier to entry here is extremely high. I can't deny there's a hell of a lo
 
 As long as you're not introducing more work than you're going to save — which is the whole point — I'm all for choosing the tools that suit you and your team. Personally, things like CoffeeScript and HTML abstractions are a step too far for me. I can't however deny other people find them more productive. If I'm not working independently on a project it'd be ignorant of me to default to this Grunt set up. That's the important decision.
 
-<p class="p--small">_(For some reason — maybe it is irrational — I have a deep hatred for CoffeeScript but ranting here would totally default my own points so I'll hold my tongue!)_</p>
+🤫 _(For some reason — maybe it is irrational — I have a deep hatred for CoffeeScript but ranting here would totally default my own points so I'll hold my tongue!)_
 
 
 

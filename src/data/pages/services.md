@@ -1,4 +1,4 @@
-<p class="p--large">Find out how I can help <a href="/working-with-clients/"><b>your business</b></a> or <a href="/working-with-agencies/"><b>your agency</b></a>.</p>
+📢 Find out how I can help [**your business**](/working-with-clients/) or [**your agency**](/working-with-agencies/).
 
 ## [Responsive Design](/responsive-design/)
 

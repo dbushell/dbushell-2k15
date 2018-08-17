@@ -98,7 +98,7 @@ Macaque.RESTAdapter = DS.RESTAdapter.extend({
 ````
 
 
-<p class="p--small">(I've removed the previous code for brevity.)</p>
+🤫 (I've removed the previous code for brevity.)
 
 Now our ObjectId values are never inadvertently converted to numbers. With these two changes Ember Data will play nicely with your MongoDB records.
 

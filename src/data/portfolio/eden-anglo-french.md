@@ -8,8 +8,8 @@ The green and brown colour theme complements the natural wood photography, the o
 
 ![David Bushell - Web Design - Eden Anglo French veneer gallery page.](/images/portfolio/web-design-eden-anglo-french-2.png)
 
-<p class="p--small">[Visit Eden Anglo French](http://www.veneermerchant.co.uk)</p>
+🤫 [Visit Eden Anglo French](http://www.veneermerchant.co.uk)
 
-<p class="p--small">Website launched in June 2009</p>
+🤫 Website launched in June 2009
 
-<p class="p--small">Design and front-end development by David Bushell at Base Creative</p>
+🤫 Design and front-end development by David Bushell at Base Creative

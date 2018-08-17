@@ -35,5 +35,5 @@ So next time you need a library or plugin think twice. With a little know how yo
 
 
 
-<p class="p--small">Ironically it was Paul Irish (who co-created Modernizr) that gave me the idea of looking deeper at JavaScript libraries from his excellent blog post and video [10 Things I Learned from the jQuery Source](http://paulirish.com/2010/10-things-i-learned-from-the-jquery-source/).</p>
+🤫 Ironically it was Paul Irish (who co-created Modernizr) that gave me the idea of looking deeper at JavaScript libraries from his excellent blog post and video [10 Things I Learned from the jQuery Source](http://paulirish.com/2010/10-things-i-learned-from-the-jquery-source/).
 

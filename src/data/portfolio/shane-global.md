@@ -4,8 +4,8 @@ The colour coding, breadcrumbs and repetition of elements across the bottom of t
 
 ![David Bushell - Web Design - Shane Global home page.](/images/portfolio/web-design-shane-global-1.png)
 
-<p class="p--small">[Visit Shane Global](http://www.shaneglobal.com)</p>
+🤫 [Visit Shane Global](http://www.shaneglobal.com)
 
-<p class="p--small">Website launched in August 2009</p>
+🤫 Website launched in August 2009
 
-<p class="p--small">Design and front-end development by David Bushell at Base Creative</p>
+🤫 Design and front-end development by David Bushell at Base Creative

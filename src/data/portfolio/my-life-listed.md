@@ -10,8 +10,8 @@ You can read more about my design process on my blog: [Designing My Life Listed]
 
 ![David Bushell - Web Design - My Life Listed sign up page.](/images/portfolio/web-design-mylifelisted-2.png)
 
-<p class="p--small">Design and front-end development by David Bushell at Base Creative</p>
+🤫 Design and front-end development by David Bushell at Base Creative
 
-<p class="p--small">[Visit My Life Listed](http://www.mylifelisted.com)</p>
+🤫 [Visit My Life Listed](http://www.mylifelisted.com)
 
-<p class="p--small">Website launched in March 2011</p>
+🤫 Website launched in March 2011

@@ -38,5 +38,5 @@ I should note this is a review of the mass print paperback version. The limited 
 
 You can buy [Pentagram Marks on Amazon](http://www.amazon.co.uk/gp/product/1856696685).
 
-<p class="p--small">* This review was originally publishes on [Design Heroes](http://designheroes.co.uk/link/pentagram-marks).</p>
+🤫 * This review was originally publishes on [Design Heroes](http://designheroes.co.uk/link/pentagram-marks).
 
