@@ -26,14 +26,13 @@ Here is what's wrong:
 * Nothing noticeable happens when a bar is clicked, though when you move your cursor away the label is persistent.
 * Finally, "_Enter Exhibition_" has to be clicked (now enabled, by the way).
 
-
 No matter which bars you've previously clicked, you are then presented with this:
 
 ![Webby Awards - Best Navigation/Structure - Screenshot 2](/images/2011/05/webby2.png)
 
 > I can't actually link to this page because the website is developed in Flash (poorly).
 
-Once loaded an animated cursor proceeds to demonstrate how you're suppose to drag the next part of the "_Best Navigation/Structure_" into view. Blink and you'll miss it. **And you _will _miss it**, because it took five minutes to load and you've clicked to another tab, or given up entirely.
+Once loaded an animated cursor proceeds to demonstrate how you're suppose to drag the next part of the "_Best Navigation/Structure_" into view. Blink and you'll miss it. **And you _will_ miss it**, because it took five minutes to load and you've clicked to another tab, or given up entirely.
 
 Is **usability** not the number one criteria for _"Best Navigation/Structure_"? Let's see what the [Webby Awards](http://www.webbyawards.com/entries/criteria.php) says about this:
 

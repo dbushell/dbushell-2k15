@@ -30,9 +30,7 @@ In truth though, it's probably wise to really consider what can be printed. A lo
 
 What do you think? <del>Maybe I should start a campaign?</del>
 
-
 ### Update!
-
 
 I did it: [see printstylesheet.dbushell.com](http://printstylesheet.dbushell.com) and join the revolution!
 

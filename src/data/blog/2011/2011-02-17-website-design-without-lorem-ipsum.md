@@ -22,7 +22,6 @@ I can say unequivocally that designing websites **without Lorem Ipsum** has impr
 * It forces you to acquire a deeper understanding of the client's business. To design *their website* you should be able to quickly write sample headlines, navigation, and micro-copy specific to them (not necessarily good copy – but relevant copy). Not only does this help you nail the design, but is also impresses the client and ensures their confidence in you.
 * Considering words is important. Sometimes they will be long and if the final content doesn't fit into your design – that's your fault. There are always reasonable limitations to content length. With a design that considers this from the start the boundaries will be understood and worked around by both designer and client.
 
-
 These benefits are invaluable to a successful project. Any misunderstanding of the brief and client are caught *early*. It's perfectly fine to clear things up in the first design meeting, it's not so good when the website is being built and populated.
 
 I still use Lorem Ipsum from time to time. It's useful for showing large paragraph designs like a blog post (where writing the whole thing would be silly). I just make a point of testing the design through extremes of short and long content.

@@ -8,9 +8,7 @@ title: Simplicity and Sexy Buttons
 
 I've [mentioned](/2011/03/28/three-months-in/) [simplicity](/2011/01/16/reflecting-on-aesthetics/) a few times before but I thought I'd expand on this concept within web design as it's such a fundamental part of my process.
 
-
 ### Simplicity in Aesthetics
-
 
 Although aesthetics are perhaps the least important aspect of website design they are initially the most noticeable, at least for demonstration purposes.
 
@@ -32,9 +30,7 @@ Making something complex like a website look simple requires a _very_ fine bala
 
 This doesn't mean button number four will never exist in my designs, but if it does, it will be a very considered and late amendment to add emphasis and attraction where needed.
 
-
 ### Simplicity in User Experience
-
 
 I work on navigation layout and content structure first, where size and positioning dictates everything. I then build up a consistent visual language for elements to fine tune the balance (this is where said buttons make an appearance).
 

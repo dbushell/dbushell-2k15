@@ -3,7 +3,7 @@ date: 2011-06-09 11:49:41+00:00
 excerpt: None
 slug: design-it-build-it-dibi
 template: single.html
-title: 'Design it. Build it. #DIBI'
+title: 'Design it. Build it.'
 ---
 
 **Location:** The Sage, Gateshead.
@@ -17,9 +17,7 @@ A trip up to DIBI meant a late evening train from Kings Cross, a late night arri
 
 Aside from **Mike Kus's** excellent talk (I'd heard it at [FOWD last month](/2011/05/17/fowd-day-one-review/)) I was strictly there for design.
 
-
 ## The Mechanical Revolution
-
 
 **Inayaili de Leon** started the day with a pragmatic view on how machines are intruding on our job.
 
@@ -33,25 +31,19 @@ There was a sincerity to this talk as Yaili admitted herself how difficult it ca
 
 I've taken away the feeling that I should consider this more. I've often thought of tools like LESS CSS to be "something else to learn", a needless complexity. I'd rather fill my head with design knowledge not machine manuals. I guess this will change as machines evolve. At present I feel sites like [css3generator.com](http://css3generator.com/) are sufficient for me.
 
-
 ## Design to where the web will be
-
 
 **Faruk Ateş** emphasised the importance of looking forward. The talk took a philosophical view on design and development. We must understand the web's history but also its emerging technologies. Ideas lead to form, this is design. Form leads to product, this is development. Web browser versions don't matter so much as capabilities.
 
 Take a step back and ask if you're going in the right direction. By focusing up-close the bigger picture is missed. In a practical sense, less important elements of design distract from the overall purpose. Focus on content and the best possible experience should always direct the project.
 
-
 ## Visualising Design
-
 
 **Brian Suda's** talk on data visualisation flew by in a fascinating 40 minutes. He showed how different perspectives on data can give false impressions and how detail in the wrong areas distract from data.
 
 We learned about the "data to ink/pixel ratio" where 1:1 is perfection—a seismograph being the best example; every part of the visualisation is data. Often the best graphs tell one story and _only_ one story. They shouldn't try to feed us every statistic at every angle.
 
-
 ## One Web
-
 
 **Jeremy Keith** stole the show for me. His talk was energetic, enthusiastic and deeply inspiring with a great mix of history, philosophy and practical knowledge. Themes included his usual advocacy of semantic HTML, progressive enhancement and responsive design, but it was the overriding idea of _one web_ that gave such clarity and depth to his talk.
 
@@ -69,17 +61,13 @@ The context of the users has always been important. Devices do not dictate conte
 
 If you get a chance to see Jeremy's talk live or on video I highly recommend you watch.
 
-
 ## What Makes a Design Seem Intuitive
-
 
 **Jared Spool** is a very funny man.  He demonstrated with much jest that content will lose focus to bad design. Good design is invisible like good air conditioning (no one ever mentions it when it _just works_).
 
 Through his research Jared has found that it's not just pure novelty and it's not just complexity that can upset a users intuition. We learned about "current knowledge" and "target knowledge" of the user, how they change, and what we can do to align them. He suggested we spend a couple of hours every month watching how users interact.
 
-
 ## What every web designer should know
-
 
 **Jeffrey Zeldman** ended the day with a somewhat scattered presentation.
 
@@ -87,9 +75,7 @@ He's a charismatic and funny guy, though I suspect either hungover or jet-lagged
 
 Despite that is was an friendly and humble ending to a great conference that connected everyone. He highlighted the core concepts and ideas that are deeply rooted in every design professional. I can see why Jeffrey is so well respected in our industry.
 
-
 ## Final Thoughts on DIBI
-
 
 I was surprised at the standard of DIBI's production.
 
@@ -97,8 +83,6 @@ The venue and set up rivalled FOWD in quality and on a purely inspiration-to-tal
 
 Speaking of **Ethan Marcotte**, I read the recently published [Responsive Web Design](http://www.abookapart.com/products/responsive-web-design) on the train up to Newcastle. I've written so much lately on the topic that I won't write a review. I'll only say that it is without a doubt _the _most important book for web designers today. **Read this book!**
 
-
 * * *
-
 
 Big hello to everyone I met in person! I'm beginning to think Twitter avatars need similar requirements to passport photos. If I didn't spot you I'll be at [Ampersand](http://ampersandconf.com/) next Friday, say hello!

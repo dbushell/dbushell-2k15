@@ -22,8 +22,8 @@ However, there is an in-between. My fixed-width sites have an outer container of
 
 The [1140px CSS Grid System](http://cssgrid.net) is an excellent example and perfect to design on. Just keep in mind how you plan elements to resize and again, build to fit rather than relying on the generic column markup.
 
-At Base Creative we have made a considered decision to drop IE6 browser support on most new projects. **We design websites for the future, not the 20th century. **Responsive design takes a lot more attention to detail but it is vital for a modern website. The web design techniques that I've made a transition to over the last year ensure a great web experience on all devices, from phones to tablets and back to the desktop. Build this on the foundations of accessibility, aesthetics, content, call-to-action and usability and you have an excellent website.
+At Base Creative we have made a considered decision to drop IE6 browser support on most new projects. **We design websites for the future, not the 20th century.** Responsive design takes a lot more attention to detail but it is vital for a modern website. The web design techniques that I've made a transition to over the last year ensure a great web experience on all devices, from phones to tablets and back to the desktop. Build this on the foundations of accessibility, aesthetics, content, call-to-action and usability and you have an excellent website.
 
 The way I make websites today is not the way it has been done in the past, it is not the way it will be done in years to come, but it is _the best way_ for the present and foreseeable future.
 
-_Transitioning _as a web designer is a necessity.
+_Transitioning_ as a web designer is a necessity.

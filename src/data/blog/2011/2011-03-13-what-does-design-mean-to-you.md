@@ -12,9 +12,7 @@ What fascinates me more though is reading what _other_ designers have to say. Fo
 
 Below is a few paragraphs from the article I'm writing to give you an idea of the style and purpose of this new blog (title still to be decided).
 
-
 * * *
-
 
 Trying to describe the direction design takes can be near impossible in the moment. There is no linear step towards a perfect design solution. A synapses fires, triggered by a spontaneous lateral association—often later forgotten—resulting in an idea.
 
@@ -30,8 +28,6 @@ Designers must keep up to date with their peers. With the world at their fingert
 
 For the most part a professional designer balances somewhere in-between. Content with the coin spinning, uncertain as to which side it will land next, but positive of the amazing opportunities within reach...
 
-
 * * *
-
 
 _**If you're a professional designer and blogger** (in any discipline) and would like to contribute, leave a comment below (or [tweet me](http://twitter.com/dbushell)) and I'll get in touch with more details. I'll be contacting a few people directly over the next few weeks._

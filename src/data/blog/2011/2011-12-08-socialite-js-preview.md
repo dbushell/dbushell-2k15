@@ -22,11 +22,9 @@ These `<script>`s and subsequent `<iframe>`s are massive! They request a boat
 
 Here are the issues with sharing buttons:
 
-
 * Their activation scripts run on the `DOMContentLoaded` and download a mass of resources.
 * They all have different defaults, most of which are inaccessible and empty elements.
 * It's not easy to implement multiple instances and very difficult to activate new buttons after load.
-
 
 I've had enough!
 
@@ -36,9 +34,7 @@ I'm fed up of seeing websites hang while these gems are downloading. That experi
 
 I've written a solution:
 
-
 ## Previewing Socialite.js
-
 
 [Socialite.js](http://socialitejs.com) handles the activation of sharing buttons for you. All you need to do is write the default element any way you care and then activate it with Socialite, any time you wish!
 

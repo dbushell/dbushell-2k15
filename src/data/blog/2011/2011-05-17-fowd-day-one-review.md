@@ -12,9 +12,7 @@ Below is a bit of a brain dump so I don't forget, but I think everyone can benef
 
 Here's what I've taken away from today:
 
-
 ### Transforming ideas into Interfaces
-
 
 **[Aarron Walter](http://aarronwalter.com/)** kicked off with an inspiring talk on independent ideas.
 
@@ -24,9 +22,7 @@ I've never been much of a wireframer and that's because my design process has be
 
 **Generate, incubate and evaluate.**
 
-
 ### Intrigue Me: Writing Compelling, Credible Content
-
 
 For the second talk I switched to track two with **[Stephanie Hay](http://twitter.com/#!/steph_hay)**. My biggest focus in the last few months has been to bring content back to the heart of my creative process. Stephanie's talk was very valuable in understanding good content.
 
@@ -36,29 +32,21 @@ This talk was superb because it really cemented the change in website strategy 
 
 Oh, and "log in" and "sign up" are two words ;)
 
-
 ### 10 Development Concepts Designers Should Know
-
 
 **[Rachel Andrew](http://www.rachelandrew.co.uk/)** gave insight from a developers perspective, particularly where headaches can occur and what questions often get left unanswered. One point that resinated with me was forgetting the "else". We always design the expected flow, but what happens if an error occurs? Considering website design from a programming point of view can often lead to good user experience questions.
 
 I understand a fair bit about development but how much do I actually consider things from that perspective?
 
-
 ### Web Fonts: Type Choices & Type Use
-
 
 **[Dan Rhatigan](http://www.ultrasparky.org/)** gave a very solid talk on web type. I wrote my Uni dissertation on "_An Examination into the Significance of Legibility in Digital Typography_" so I didn't make many notes. In all honesty though, with all the excitement of web fonts I've occasionally forgot the rending issues; they're big. A lot of fonts just aren't suited for screen pixel density.
 
-
 ### Slide to Unlock
-
 
 **[Sarah Parmenter](http://www.sazzy.co.uk/)** took us through a newbies guide to iOS design. I was too busy listening to take notes but Sarah has a lot of experience and presented a very practical guide on what needs to be considered. Themes such as common sense, simplicity and focus on the main feature, content and inspiration were reflected in all of today's talks.
 
-
 ### The New Design Language
-
 
 **[Dan Rubin](http://superfluouslife.org)** hosted quite a deep talk about the industry's vocabulary with a big call to define and refine the words we use for a better future.
 
@@ -68,9 +56,7 @@ Dan went on the explain why "Web" and "Responsive Design" were such good terms. 
 
 Design language is something many of us don't pay much attention to.
 
-
 ### Making the New Design Language
-
 
 **[Aral Balkan](http://aralbalkan.com/)** ended the day with likely everyones favourite talk – an energetic and very funny look at the _dos_ and _don'ts_ of user experience.
 
@@ -82,9 +68,7 @@ There's a lot of common sense that gets lost in "design by committee". Design is
 
 Above all don't settle for mediocrity, don't be evil.
 
-
 ### End of Day One
-
 
 First impressions of FOWD have been _very_ positive. I'll be back tomorrow and probably in future years! The format is intense and making a lot of notes is vital for remembering the real value on offer.
 

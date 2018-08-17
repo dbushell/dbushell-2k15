@@ -16,13 +16,11 @@ I'm using the [conditional comments trick](http://html5boilerplate.com/docs/The-
 
 I do plan to realign/redesign my website again early next year. I'm also well aware I've made a few mistakes in my current markup and CSS — that's a weasely disclaimer because I'm about to get very deep...
 
-
 ## The H1 Debate
-
 
 You may have noticed my logo is actually a CSS background applied to the document's first `<h1>`.
 
-Many professional developers and semantic purists including **Harry Roberts** — whom I very much respect — will argue that [you're logo is not a <h1>](http://csswizardry.com/2010/10/your-logo-is-an-image-not-a-h1/). I agree with everything Harry says regarding his approach, which _is_ perfectly fine, but there is an alternative. To make sense of that, allow me to explain!
+Many professional developers and semantic purists including **Harry Roberts** — whom I very much respect — will argue that [you're logo is not a `<h1>`](http://csswizardry.com/2010/10/your-logo-is-an-image-not-a-h1/). I agree with everything Harry says regarding his approach, which _is_ perfectly fine, but there is an alternative. To make sense of that, allow me to explain!
 
 I could say that in my case I don't even have a "logo", more of a stylised typographic illustration of my main heading "David Bushell does design". I could also, in theory, achieve that style using CSS3 and not require an image replacement technique at all thus taking myself out of the equation, but I digress.
 
@@ -40,9 +38,7 @@ Content and users come before SEO, in fact, they influence SEO (not vice-versa).
 
 There are semantics, and then there are HTML semantics. A "logo" can be interpreted in different ways that don't necessarily conflict with properly built websites.
 
-
 * * *
-
 
 Finally, what about logos made purely out of "CSS"? No. Never. That is absolutely, categorically, _**illogical**_. As a quirky esoteric challenge then sure, knock yourself out — but in practice? Don't even joke about it!
 

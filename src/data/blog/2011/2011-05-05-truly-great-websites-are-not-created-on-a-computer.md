@@ -12,9 +12,7 @@ This couldn't be further from the truth. **Great websites are not created on a c
 
 **Great websites** need a healthy partnership between agency and client. Since the client is paying for the service and expertise, it's the agencies responsibility to managed the project and maintain the relationship and direction.
 
-
 ### On Strategy
-
 
 Once fair contract formalities are agreed upon the website strategy is discussed. This initial meeting is vital for the _Designer_ to understand the business, the audience, and the website goals. This reassures the client of their confidence in the agencies ability.
 
@@ -26,7 +24,6 @@ Everything that happens between the _Designer_ and the computer is a result of t
 
 Before any design happens we meet with the client to talk "strategy". We do this to achieve the following:
 
-
 * Everyone _knows_ what the website aims to achieve.
 * Everyone _knows_ who will be looking at the website and of whom it needs to attract.
 * Everyone _understands_ the brand and aesthetic preferences.
@@ -34,22 +31,17 @@ Before any design happens we meet with the client to talk "strategy". We do this
 * Everyone has _an idea_ of the content and how it will be structured.
 * Everyone has _an idea_ of how long the project will take, and what process is involved.
 
-
 There are many more things that can be learnt, but the point is that no one can proceed or start a website design without a strategy. And most certainly, no one can design a **great website** with just a brief landing on their desk and no more input.
 
 But that's not it!
 
-
 ### On Process
-
 
 The design process includes not just regular client feedback, but regular client _involvement_. There's a significant different. Feedback is on questions like "Does this fit the brand style?", "Is this what you imagined?". _Involvement_ is much more, it's teamwork. It's an acknowledgement that we are all designing this website together, connecting the business to the talent, to the specialist knowledge on both ends. For this to happen their needs to be fluidity and consistency in the process, and no secrets or set backs.
 
-As we know it's the agencies responsibility to maintain this design relationship (and that isn't done in Photoshop!). Failure to maintain honest communication and scheduling leads to the biggest problem I noted above. However, if we're all aiming for a **great website **this is very easy to avoid. Every decision should be made openly with the project goals at heart.
-
+As we know it's the agencies responsibility to maintain this design relationship (and that isn't done in Photoshop!). Failure to maintain honest communication and scheduling leads to the biggest problem I noted above. However, if we're all aiming for a **great website** this is very easy to avoid. Every decision should be made openly with the project goals at heart.
 
 ### On Content
-
 
 The most important part of a website is its content – the non-superfluous elements that users are going to see, read and watch. Content sells products and services (or fails to, which is more often the case). A website design must centre around content.
 
@@ -57,9 +49,7 @@ Content is defined somewhere between what the user expects to see and what the w
 
 Content should dicate design. The oposite is rarely a good idea, though design can heighten the visual impact of content (regardless of it's value).
 
-
 * * *
-
 
 Well that's an abrupt end for part one! I'll write more on this topic soon...
 

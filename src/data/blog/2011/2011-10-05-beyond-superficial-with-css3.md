@@ -20,7 +20,7 @@ I don't like that thinking. Popular _usage_ has been superficial to-date but th
 
 Where can CSS3 take us beyond superficial sprinkles? I don't have all the answers, but I do believe the future of web design will be hugely influenced by what we can innovate with CSS3 (and friends). Second only to the **devices** that support these web standards.
 
-I'd point to the recently launched [Apple iPhone 4S website](http://www.apple.com/iphone/) as a tantalising example of where our future could lead us (you'll have to [visit](http://www.apple.com/iphone/) and click through the slideshow). Nothing more than a very advanced image slideshow I'm sure you'll agree and — if you can get past the fact that I (a designer) have chosen Apple as an example — that sort of design ships products and delights users. It is a very _small _but definitely not _superficial _step into a new standard of design.
+I'd point to the recently launched [Apple iPhone 4S website](http://www.apple.com/iphone/) as a tantalising example of where our future could lead us (you'll have to [visit](http://www.apple.com/iphone/) and click through the slideshow). Nothing more than a very advanced image slideshow I'm sure you'll agree and — if you can get past the fact that I (a designer) have chosen Apple as an example — that sort of design ships products and delights users. It is a very _small_ but definitely not _superficial_ step into a new standard of design.
 
 [![Apple iPhone 4S website (as of 5th October 2011)](/images/2011/10/appleiphone4s.png)](http://www.apple.com/iphone/)
 _Apple's iPhone 4S website with a CSS3 transform slideshow._

@@ -12,9 +12,7 @@ I've written a new article for **Smashing Magazine** entitled [Understanding Co
 
 I do like to tackle the difficult topics. They often require a lot of research and I tend to arrive at the other end knowing a lot more than I thought I did! This one was surprisingly more fun than it sounds...
 
-
 ## Start Writing
-
 
 Writing is an amazing technique for self-improvement. It forces you to articulate your ideas and express yourself in ways you've never considered before.
 
@@ -25,9 +23,6 @@ Allow your creativity to flow in all formats.
 For me, writing about web design has improved my game rapidly. Doing it publicly (which is not essential to educate yourself) has introduced me to new people and opened many doors within the industry. So go forth and write!
 
 Why not start by writing a nice comment on my latest Smashing Magazine article :)
-
-
-
 
 <p class="b-post__image"><span class="b-fitvid" style="padding-top:81.25%"><iframe width="480" height="390" src="http://www.youtube.com/embed/XWf_jbrpn4o" frameborder="0" allowfullscreen></iframe></span></p>
 

@@ -6,7 +6,7 @@ template: single.html
 title: Launching xheight
 ---
 
-As most people know I don't 'do things by half' and taking on ambitious projects is generally how I role these days. (Not Sunday though, I refused to take things serious on Sunday.)
+As most people know I don't do things by half and taking on ambitious projects is generally how I role these days. (Not Sunday though, I refused to take things serious on Sunday.)
 
 Last week I launched **[xheight.dbushell.com](http://xheight.dbushell.com)** as a blog for many more designers than just myself to discuss the theory of design from experience and aspirations.
 

@@ -3,7 +3,7 @@ date: 2011-06-18 12:39:00+00:00
 excerpt: None
 slug: ampersand-conference-ampconf
 template: single.html
-title: 'Ampersand Conference #ampconf'
+title: 'Ampersand Conference'
 ---
 
 Yesterday I braved the "adverse weather conditions" to attend [Ampersand](http://www.ampersandconf.com/), the web typography conference in **Brighton**. My expectations were undecided.

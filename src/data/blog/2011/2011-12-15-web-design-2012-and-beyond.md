@@ -12,31 +12,23 @@ The year is ending, I guess it's time to look forward?
 
 Three ideas I suspect will be hot (or hotter) topics in the coming months:
 
-
 ### 1. Website Accessibility
 
-
-****I'm not just talking about support for varying disabilities — or the proverbial screen reader, as important as that is — I'm talking about access for _all_ users. We're seeing ever maturing practices in device-agnostic website development. Why? Because web access is hugely diverse in users, devices and browsers. A website cannot be a fixed entity ignorant of that reality. [Responsive website design](http://www.alistapart.com/articles/responsive-web-design/) exploded this year alongside the [mobile first](http://www.lukew.com/ff/entry.asp?933) strategy. If those two ideas aren't part of your process by now you're very much behind. HTML semantics were [challenged](http://coding.smashingmagazine.com/2011/11/11/our-pointless-pursuit-of-semantic-value/) and rightfully [defended](http://coding.smashingmagazine.com/2011/11/12/pursuing-semantic-value/).
+I'm not just talking about support for varying disabilities — or the proverbial screen reader, as important as that is — I'm talking about access for _all_ users. We're seeing ever maturing practices in device-agnostic website development. Why? Because web access is hugely diverse in users, devices and browsers. A website cannot be a fixed entity ignorant of that reality. [Responsive website design](http://www.alistapart.com/articles/responsive-web-design/) exploded this year alongside the [mobile first](http://www.lukew.com/ff/entry.asp?933) strategy. If those two ideas aren't part of your process by now you're very much behind. HTML semantics were [challenged](http://coding.smashingmagazine.com/2011/11/11/our-pointless-pursuit-of-semantic-value/) and rightfully [defended](http://coding.smashingmagazine.com/2011/11/12/pursuing-semantic-value/).
 
 Tech giants including [Microsoft](http://msdn.microsoft.com/en-us/library/windows/apps/br211386.aspx), [Adobe](http://labs.adobe.com/technologies/edge/), [Apple](http://www.apple.com/html5/) and [Facebook](https://developers.facebook.com/html5/) — all famous for their internet walled gardens — have publicly stated recognition of the web's future in HTML5. Whether their current plans favour accessibility is debatable but considering the ubiquity of the web and its standards are gaining mainstream understanding, we're seeing a demand from clients and users alike for web access that isn't restricted to one device. I've been presenting initial design mockups to clients on various devices, big and small, for over a year now and it's a brilliant experience. They just get it! They immediately start considering the user and what content is important (and not the logo size).
 
-
 ### 2. Screen Resolution and Scalable Graphics
 
-
-****Responsive design has highlighted to need for [responsive images](http://www.cloudfour.com/responsive-imgs-part-3-future-of-the-img-tag/) for multiple resolutions. The use of [web fonts](http://24ways.org/2011/displaying-icons-with-fonts-and-data-attributes) for icons has also gained popularity, though not quite with me! In my opinion **SVG** is a sleeping web standard that's going to see rejuvenation soon. This year has seen cross-browser support for SVG as a source for `img` elements and the CSS `background-image` property. Scalability is vital when we have screens ranging from 3–30 inches with pixel densities between 100–300 pixels-per-inch all accessing the same site.
+Responsive design has highlighted to need for [responsive images](http://www.cloudfour.com/responsive-imgs-part-3-future-of-the-img-tag/) for multiple resolutions. The use of [web fonts](http://24ways.org/2011/displaying-icons-with-fonts-and-data-attributes) for icons has also gained popularity, though not quite with me! In my opinion **SVG** is a sleeping web standard that's going to see rejuvenation soon. This year has seen cross-browser support for SVG as a source for `img` elements and the CSS `background-image` property. Scalability is vital when we have screens ranging from 3–30 inches with pixel densities between 100–300 pixels-per-inch all accessing the same site.
 
 If the rumours of [Apple's high res displays](http://www.macrumors.com/2011/12/14/apple-to-launch-2880x1800-resolution-retina-display-macbook-pro-in-q2-2012/) for 2012 are true — and if it's not next year or not Apple it's only a matter of time — the single resolution raster graphics used on the web today are in trouble. They're noticeably poor on high density mobile screens and that difference will only be exaggerated on the larger desktop & laptop screens we'll soon see climbing the dizzying heights of 300 PPI. CSS3 has gone a long way to provide resolution independent styles but SVG is needed for more complex icons, UI elements, logos and vector graphics elsewhere. Pixel units are a rare sight in modern web development.
 
-
 ### 3. Interactivity
 
-
-****We can safely say that fixed-width designs are a thing of the past. I'd also include static layouts as a hangover from the printed page paradigm yet they're still a staple of website design. I'm not suggesting elements should be whizzing around aimlessly but touch screen interfaces are teaching us of a new way to think about accessing content. Is the page reload a thing of the past? With the [JavaScript history object](https://developer.mozilla.org/en/DOM/Manipulating_the_browser_history) we can still maintain the fundamental integrity that URLs give the web while exploring new methods of navigation and interaction. With an inevitable surge in web apps we're in for a UI and UX treat.
-
+We can safely say that fixed-width designs are a thing of the past. I'd also include static layouts as a hangover from the printed page paradigm yet they're still a staple of website design. I'm not suggesting elements should be whizzing around aimlessly but touch screen interfaces are teaching us of a new way to think about accessing content. Is the page reload a thing of the past? With the [JavaScript history object](https://developer.mozilla.org/en/DOM/Manipulating_the_browser_history) we can still maintain the fundamental integrity that URLs give the web while exploring new methods of navigation and interaction. With an inevitable surge in web apps we're in for a UI and UX treat.
 
 * * *
-
 
 From a web design perspective this raises several points to consider.
 

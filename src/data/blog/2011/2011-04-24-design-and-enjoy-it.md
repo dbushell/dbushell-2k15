@@ -10,7 +10,7 @@ I design websites all day which means I'm one click away from the design communi
 
 Participation is [rewarding](/about/) but exposure can be difficult to control. On a good day it leads to inspiration that keeps me up at night in awe. Other times I'm left feeling like a mighty small fish. At worst I develop a sense of frustation when reading something that just doesn't sit right with me (which generally includes a heavy dose of negativity).
 
-What I'm starting to realise now is that allowing such things to depress me is crazy! The world is _too big_, too grand! There are so many good, positive designer working _right now – _why focus on anything else?
+What I'm starting to realise now is that allowing such things to depress me is crazy! The world is _too big_, too grand! There are so many good, positive designer working right now – why focus on anything else?
 
 It's too easy to fall into the negativity trap. I'd be a hypocrite to say I'm never cynical and I've never ranted about design-related topics (a certain amount of that is probably healthy) but from now on I'm never going to let anything demotivate me again.
 
@@ -22,9 +22,7 @@ That doesn't mean I'll ignore the difficult and controversial topics and close m
 
 Design and enjoy it.
 
-
 * * *
-
 
 _Update 25th April - Thinking about it more practically it would seem obvious that everyone naturally has emotional swings in their outlook. The key is recognising when someone is off kilter and either guiding them if I can, or ignoring them when it's "killing my mojo" – thanks for the comments everyone!_
 

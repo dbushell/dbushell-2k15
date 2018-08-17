@@ -6,7 +6,7 @@ template: single.html
 title: Adobe Edge Preview
 ---
 
-My first foray into programming was **Flash ActionScript **and thus I've always had a place in my heart for the damned software. (With the release of ActionScript 3 I even learnt a bit about _real_ programming.) Even now — despite my flag waving for web standards — I do still secretly love Flash, regardless of how deprecated it may appear.
+My first foray into programming was **Flash ActionScript** and thus I've always had a place in my heart for the damned software. (With the release of ActionScript 3 I even learnt a bit about _real_ programming.) Even now — despite my flag waving for web standards — I do still secretly love Flash, regardless of how deprecated it may appear.
 
 ### A missed opportunity
 

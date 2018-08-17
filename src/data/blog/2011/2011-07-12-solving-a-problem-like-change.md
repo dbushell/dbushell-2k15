@@ -26,7 +26,7 @@ What's the solution? You have to avoid the need for drastic change to begin with
 
 Continually access and iterate; don't allow your website to get behind. That's not to say you should create a redesign and then release elements slowly, I'm saying you should **never** need a major overhaul of the same website and brand to catch up. Websites aren't like physical products. Updates should be frequent and fluid with no identifiable steps between versions. Take a leaf from Google's book.
 
-Designers like to call this realigning (as oppose to re_designing_). But it's more than that; recognise changes in technology, users, content strategy and popular trends and react to them quickly.
+Designers like to call this realigning (as oppose to redesigning). But it's more than that; recognise changes in technology, users, content strategy and popular trends and react to them quickly.
 
 The old TechCrunch had fallen behind. It looked like a website from a past era (just a few years on the web timeline). When this happens bureaucracy creeps in and the dreaded redesign leads to the same inevitable result. The real issues aren't addressed and any _changes_ are purely subjective.
 

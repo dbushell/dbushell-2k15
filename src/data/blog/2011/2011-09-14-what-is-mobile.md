@@ -18,7 +18,6 @@ Screen size is part of the **user's context** that we _can_ detect and make adju
 * Be careful of assuming browsing habits.
 * Be careful of prioritising content and restricting functionality.
 
-
 In front-end development we do _feature_ detection, not browser or device detection. In design we should be considering what knowledge we have in terms of the user and their context. In reality, we have very few hard facts about either.
 
 When designing websites we have to prioritise content by making a lot of assertions on what the user is trying to achieve. That's somewhat easier for functionality-based websites where a single page may be dedicated to one task. For content-based websites this is a lot harder, particularly if there are business interests to push. Therefore any kind of restriction or removal of content & functionality as a solution to improve usability on small-screens can only lead to user frustration; we're trying to force them down a path they don't necessarily want to take.

@@ -24,32 +24,24 @@ It is however, _best viewed_ on an **iPhone** or **iPad**.
 
 The transitions, animations, and touch events offer an exceptional user experience. The breakpoints (image size and effect speed) are all optimised around Apple's devices. The iPhone 4 even gets its own high-res logo and sprite. These devices received a lot of attention.
 
-
 ## Wait, One Web?
-
 
 Why so much focus on Apple devices if we're suppose to subscribe to the "one web" philosophy?
 
 Here's the thing: the two ideas are not necessarily mutually exclusive. The website is fully accessible, fully future-proof. Every page and photo has its own URL. While JavaScript and CSS3 makes the site feel silky smooth, neither are required — but there are **three** fallback techniques to ensure interactivity.
 
-When you get the basics right is there any reason not to go the extra mile for specific devices? Particularly when the client and the users have specific uses in mind. (This particular website will be heavily demoed on an iPad.) I've always taken the progressive enhancement approach and opted for feature detection over device detection (none of that here) but I've never thoroughly consider device _optimisation _until now. It's fairly easy to pick breakpoints that verge on some average, but there's always an opportunity to consider the best possible experience on specific devices and browsers. After all, is that not what we do with IE stylesheets? Sometimes the average doesn't suit anything.
+When you get the basics right is there any reason not to go the extra mile for specific devices? Particularly when the client and the users have specific uses in mind. (This particular website will be heavily demoed on an iPad.) I've always taken the progressive enhancement approach and opted for feature detection over device detection (none of that here) but I've never thoroughly consider device _optimisation_ until now. It's fairly easy to pick breakpoints that verge on some average, but there's always an opportunity to consider the best possible experience on specific devices and browsers. After all, is that not what we do with IE stylesheets? Sometimes the average doesn't suit anything.
 
 There is "one web" but there is only one device in the user's hand. Relying on a specific device or browser is bad, offering something special when possible is not.
 
-
 * * *
-
 
 I would highly recommend watching Aral Balkan's talk "The Future is Native" from Fronteer 2011. The first 20 minutes sums up the perfect attitude towards user experience and he really makes you think about the crossover between native and the web. His notion "write once, optimise everywhere" is a great thought.
 
-
 <p class="b-post__image"><span class="b-fitvid" style="padding-top:56.25%"><iframe src="http://player.vimeo.com/video/30659519?title=0&byline=0&portrait=0" frameborder="0" width="400" height="225"></iframe></span></p>
-
 
 [Aral Balkan | The Future is Native | Fronteers 2011](http://vimeo.com/30659519) from [Fronteers](http://vimeo.com/fronteers) on [Vimeo](http://vimeo.com).
 
-
 * * *
-
 
 Oh, and I'll show off the website I'm talking about as soon as it launches!

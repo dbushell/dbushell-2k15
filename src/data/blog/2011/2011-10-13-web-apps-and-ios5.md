@@ -17,7 +17,6 @@ In the past we've had to either:
 1. Use JavaScript to regularly reposition elements accordingly based on the documents scroll offset (to keep them in view). Very noticeably laggy and thus unacceptable.
 2. Use **`position:absolute`** (top & bottom) on all containing elements so that the document is never larger than the viewport, then re-implement scrolling on the main container with JavaScript and touch event listeners. This is *OK* — Google's Ryan Fioravanti [explains how](http://code.google.com/mobile/articles/webapp_fixed_ui.html) — but it does cause gotchas with form elements, and trying to re-implement the smooth, native scrolling of the iPhone seems silly.
 
-
 The lack of fixed positioning in Mobile Safari is a real headache for creating web apps. Matteo Spinelli — *the developer of [iScroll](http://cubiq.org/iscroll-4)* — knows this [all too well](http://cubiq.org/ios5-the-first-true-web-app-ready-platform). He envisions a future where most "native apps" are simply wrappers for responsive websites. A distinctly advantageous method:
 
 > Web apps are much more than position:fixed or webGL. You can update them on the fly, build your own business model on them, ask for a subscription fee, have your users pay for additional features, or make them completely free.
