@@ -16,9 +16,7 @@ Had web fonts failed to load I wouldn't have known otherwise. Of course, in comp
 
 Laura is able to control the design this way because the web fonts are loaded via JavaScript and CSS has been written to address both scenarios.
 
-
 ## Asynchronicity
-
 
 By themselves web fonts aren't dependant on JavaScript but many font providers require it to control usage and deter theft. Regardless, given their relatively large download size and our desire for progressive enhancement, I find asynchronous JavaScript loading to be a useful practice.
 

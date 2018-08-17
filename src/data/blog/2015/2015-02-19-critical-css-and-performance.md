@@ -26,19 +26,11 @@ My page `<head>` now looks something like this:
 <script> /* ... */ loadCSS('style.css'); </script>
 ````
 
-
-
-
-
 * `<noscript>` as a fallback to provide the original stylesheet
 * 10KB of inline CSS that can be rendered straight away
 * JavaScript to asynchronously download more (see [loadCSS](https://github.com/filamentgroup/loadCSS) by Filament Group)
 
-
-
-
 ## The Results
-
 
 To see if this technique improves 'time to visible content', I’m using [Chrome’s device emulator](https://developer.chrome.com/devtools/docs/device-mode) to throttle the network speed to its slowest setting: GPRS (50Kbps 500ms RTT), equivalent to an awful 2G signal.
 
@@ -46,11 +38,7 @@ In relatable numbers that’s a download speed of 6.25KB/s. Therefore my homepag
 
 In [the video below](https://vimeo.com/119967106) you can see my site download before and after optimisation.
 
-
-
 <p class="b-post__image"><span class="b-fitvid" style="padding-top:56.25%"><iframe src="//player.vimeo.com/video/119967106?color=99cc66" frameborder="0" allowfullscreen="allowfullscreen"></iframe></span></p>
-
-
 
 If you've been paying attention the point of this optimisation isn't to download the entire page faster, but to render content sooner. The results are impressive. Across multiple tests I've found that content is on screen **at least 6 seconds earlier** than before.
 

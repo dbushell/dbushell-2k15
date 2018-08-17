@@ -14,16 +14,12 @@ I'm always looking for the most viable technique; browser support is always cha
 
 When building a front-end I split graphical assets into two categories:
 
-
 1. "content" — images that'll change in relation to the content (likely via a CMS)
 2. "UI" — anything that's integral to the website design
 
-
 Naming isn't important, recognising different use cases is. We could sprite up UI icons, maybe even embed them within stylesheets — in *Part 2* I'll look at these techniques — but using images inside content realistically requires individual files. That's the reality / state of CMS today.
 
-
 ## The content `<img>`
-
 
 For individual "content" images there's no better alternative than a good ol' fashioned `<img>` element. It'll work<sup>*</sup> with both SVG and raster sources (PNG, JPEG, etc) — whatever the website owner uploads.
 
@@ -43,7 +39,6 @@ With responsive design, Internet Explorer doesn't scale the `<img>` as one might
   </div>
 </article>
 ````
-
 
 ````css
 .media__image {
@@ -79,7 +74,6 @@ img {
 }
 ````
 
-
 ````markup
 <article class="media">
   <div class="media__image">
@@ -95,8 +89,6 @@ The same idea applies when floating an image to allow text to wrap around:
 
 ![IE SVG Float](/images/2015/01/IE-svg-float.png)
 
-
-
 ````markup
 <article class="prose">
   <img src="smile.svg" class="prose__image">
@@ -109,12 +101,9 @@ Ideally all we need to use is `.prose__image { max-width: 20%; }` and the imag
 * no wider than 20% of the parent element
 * no wider than the source image width (300px)
 
-
 However, to avoid the IE aspect ratio distortion, you'll either have to explicitly set a width — `.prose__image { width: 20%; }` — or define a global `<img>` width of 100% and use `max-width` here. This unfortunately means the second point is no longer met by any browser. An additional parent element would be required like our media object example above. This may be difficult if the image is embedded inside a CMS WYSIWYG — ew! but that's a bigger problem...
 
-
 ## In conclusion
-
 
 So the lesson here is that if you want your "content" images to be responsive and support both SVG and raster image formats — and why wouldn't you? — it's not good enough to simply provide an `<img>` element in the templates. It needs an explicit width, and probably a wrapping element for full control.
 

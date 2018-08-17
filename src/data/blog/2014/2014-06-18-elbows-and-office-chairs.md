@@ -33,4 +33,5 @@ We can do our best to design responsively using sensible defaults, media queri
 My set-up with the laptop closer to me therefore seems like the most natural arrangement. It helps reduce the difference and keeps text in my line of sight at a readable size. A side by side arrangement would force too much refocusing. I'll see how it goes! It may turn out worse for my posture.
 
 Now if only I can get the damn colours to match…
-  *[PPI]: pixels per inch
+
+*[PPI]: pixels per inch

@@ -10,13 +10,11 @@ title: 'Gulp: First Impressions'
 
 My use case is very particular, see related articles:
 
-
 * [Automation](/2013/03/12/automation/)
 * [The Flat Build](/2013/03/18/the-flat-build/)
 * [The Flat Build (2)](/2013/04/05/the-flat-build-2/)
 * [Origin](/2013/04/30/origin/)
 * [Updates to Origin](/2013/06/10/updates-to-origin/)
-
 
 Gulp is a build system that runs on [Node](http://nodejs.org/) like Grunt. While Grunt is an all-purpose task runner, Gulp is based around streaming — sending files through filters / pipes to do things like preprocessing, minification, and concatenation.
 

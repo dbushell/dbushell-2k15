@@ -6,7 +6,6 @@ template: single.html
 title: 'September Update'
 ---
 
-
 Good afternoon! So it’s been a while since I last blogged. Turns out buying a home takes longer than I imagined!
 
 [When I left London](/2012/12/30/a-new-beginning/) in 2012, I moved back in with my parents  (temporarily) to embark upon a freelance career. Work has been steady, not easy, but rewarding and I’m much happier out of the “Big Smoke”.

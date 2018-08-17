@@ -29,9 +29,7 @@ There's been two additions I've felt the need for:
 
 **Context:** the most common example would be a way to highlight the current page in the main navigation (a single include).
 
-
 ## Inspiration & Inception
-
 
 It was Brad Frost's article on ["Designing with Dynamic Content"](http://bradfrostweb.com/blog/post/designing-with-dynamic-content/) that finally pushed me to employ a more robust tool. While his project [Pattern Lab](http://patternlab.io/) does more than I want, its use of [Mustache](http://mustache.github.io/) templates looked perfect.
 
@@ -43,11 +41,7 @@ Checkout **[dbushell-grunt-Mustatic](https://github.com/dbushell/dbushell-grunt
 
 💤 I've prefixed the name with `dbushell-` to indicate it's still very much a work in progress. It's likely to follow an unpredictable roadmap. All code is under the MIT license!
 
-
-
-
 ### How does it work?
-
 
 My `templates` directory follows this structure:
 
@@ -116,9 +110,7 @@ More context awareness is required for URLs. When the navigation partial is rend
 
 One solution might be to write *absolute* URLs. Simply prefixing with `/` would allow URLs to resolve properly on any domain at root level, but not locally from `file://`. My solution was to write a *post-render* function that converts all relative URLs based on template depth. This assumes all URLs are written relative to root level (like those in my navigation example).
 
-
 ## Reinventing the Wheel
-
 
 Now at this point I realise I'm well on the way to building my own static-site generator (of which [myriad already exist](http://www.staticgen.com/)). I suppose you could say [my Grunt tasks](https://github.com/dbushell/dbushell-Origin) as a whole are exactly that. A DIY solution that's more flexible and interchangeable.
 

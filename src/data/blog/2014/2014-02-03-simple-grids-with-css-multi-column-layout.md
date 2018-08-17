@@ -78,5 +78,4 @@ Whether you utilise a pre-made grid system, define one of your own, or just writ
 
 CSS has a lot to offer. Mix and match coding techniques to find the simplest method and abstract common patterns to keep your CSS tidy and reusable.
 
-
-  *[HTML]: HyperText Markup Language
+*[HTML]: HyperText Markup Language

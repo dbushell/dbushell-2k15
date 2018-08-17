@@ -12,9 +12,7 @@ I was planning to follow up with a technical overview of **SVG sprites**, but r
 
 Read that first!
 
-
 ## Browser testing
-
 
 To truly understand how things works I've been experimenting. I created a single SVG sprite that combines multiple techniques for easy testing. It's worth spending some time inspecting the SVG source as there's quite a lot going on. The sprite contains 3 icons and looks like this when viewed alone:
 
@@ -71,10 +69,7 @@ See the full source below (scroll past for explanation and findings).
 </svg>
 ````
 
-
-
 ## What's what?
-
 
 The icons are first defined as `<symbol>` elements. They can be reused on any web page:
 
@@ -90,9 +85,7 @@ If the SVG source is inline of the HTML document the gradients will work. Firefo
 
 For simple icons — my kinda style — this is my favourite technique because the `<symbol>` elements do not need to be positioned in the sprite. IE does need a bit of [JavaScript help](https://github.com/jonathantneal/svg4everybody) but it's not too painful.
 
-
 ### Other techniques
-
 
 You may have noticed at the end of my sprite I _did_ position `<use>` elements and define a `<view>` for each icon. This is what you see when viewing the sprite standalone (the `<symbol>` definitions are invisible otherwise). This isn't required for the technique above, but it does enable two more:
 
@@ -119,9 +112,7 @@ Unfortunately **only Firefox** is happy with this technique.
 
 It is possible to simply reference `background: url('sprite.svg')` and set a `background-position` for each icon — i.e. the old fashioned way. However, hard-coding icon positions inside both the SVG and CSS files would be too much hassle for 2015. The perfect sprite technique would not care for positioning and keep all styles in the stylesheet. [SVG stacks](http://simurai.com/blog/2012/04/02/svg-stacks/) may be another method but it too lacks browser support.
 
-
 ## In conclusion
-
 
 While none of these techniques are perfect. I find it very interesting that it's possible to create a single SVG sprite that supports multiple uses.
 

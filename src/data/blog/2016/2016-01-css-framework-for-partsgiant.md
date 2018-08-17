@@ -7,7 +7,7 @@ portfolio: true
 title: 'CSS Framework for PartsGiant'
 ---
 
-** [PartsGiant](http://www.partsgiant.com/) is a soon to launch e-commerce store based in Michigan, USA. **
+**[PartsGiant](http://www.partsgiant.com/) is a soon to launch e-commerce store based in Michigan, USA.**
 
 I was hired to build the [PartsGiant](http://www.partsgiant.com/) front-end CSS framework and HTML templates. The work would be done in stages throughout the year. This required flexibility on my part and scalability in the codebase I developed.
 

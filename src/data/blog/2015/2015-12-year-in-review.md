@@ -42,7 +42,6 @@ By July I had found my flat. Lawyers were doing whatever they do. I'd get the ke
 
 The e-commerce project I had worked on in January was back with the third piece of their front-end puzzle. Despite being responsive, it was decided that a set of dedicated mobile templates would allow a more tailored experience and better performance for certain devices. The modularity of our CSS framework and templates to-date made it very easy for me to piece together a reduced, even slimmer version.
 
-
 ### August
 
 Turns out it takes a long time to move into a new flat. I spent the best part of 3 weeks painting and decorating with my Dad. Initially fun, quickly exhausting, but well worth the effort.

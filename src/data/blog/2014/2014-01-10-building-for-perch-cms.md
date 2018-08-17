@@ -12,9 +12,7 @@ title: Building for Perch CMS
 
 Perch is a very good CMS for both development ease and content editing. After spending a week with Perch I feel confident it can handle my typical client website and I look forward to using it in production soon. Here's my experience so far.
 
-
 ## A little background
-
 
 WordPress has long been my CMS of choice. While the overall experience isn't the most polished it does offer unrivalled depth in resources and community. Given my years with the platform it's nigh impossible for me to become unstuck. What makes WordPress so good is that it quietly solves problems and offers so many little features you rarely notice are essential but miss if they don't exist. It's a hodgepodge for sure but it always gets the job done, one way or another.
 
@@ -22,9 +20,7 @@ I'm content with WordPress from a developer perspective, but for website owners 
 
 I've toyed with other platforms in the past but I've never found the right balance between development and editing. How does Perch fare?
 
-
 ## Working with Perch
-
 
 Since I have static HTML templates and content for this website ([dbushell.com](/)) I decided to build a local version on Perch.
 
@@ -68,9 +64,7 @@ Template tags act as placeholders for content and define the field required for 
 
 I found this combination of regions and templates very intuitive and quick to build. There are no CMS constraints to worry about when designing page content. This is very different — and hugely refreshing — from my experience with WordPress which requires additional plugins like [Advanced Custom Fields](http://www.advancedcustomfields.com/) to do anything more complex than a single editable WYSIWYG area.
 
-
 ## Extending with Perch Apps
-
 
 Perch can be extended with "Apps" that add a new section to the admin area to manage specific content. While pages are very generic with content defined by editable regions, apps can be more prescribed in their content structure and functionality. I'm not keen on the word "App" in this context but I won't lose sleep over it!
 
@@ -98,9 +92,7 @@ perch_blog_custom(array(
 
 Similar to how partial templates are assigned to regions, the blog app allowed me to define a template I named `post_in_footer.html` in which I have access to special template tags like `<perch:blog id="postTitle" />` within the HTML.
 
-
 ## No hidden code
-
 
 One aspect of Perch that has delighted me is that I've never once had to compromise on markup to conform to a particular convention.
 
@@ -127,9 +119,7 @@ Perch handles these situations a lot better. The blog app provides the function 
 
 Perch is fully transparent. Wherever I'm listing categories I can opt to style this default template or create and specify my own. All the template variables are there too so I don't need to go hunting through documentation.
 
-
 ## Final thoughts
-
 
 Perch is remarkably simple and flexible and I find the way that it handles templates to be very smart. With the core platform and blog app you have something that can compete with vanilla WordPress in my opinion. WordPress still wins on blogging functionality, and developing the templates really isn't too painful here, but when it comes to managing content for non-blog website design, Perch is a breath of fresh air.
 

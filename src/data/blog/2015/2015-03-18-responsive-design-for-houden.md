@@ -11,9 +11,7 @@ title: Responsive Design for Houden
 
 I was hired to improve aspects of the design and user experience with the help of new brand guidelines and a base template already under development at [Shopify](http://www.shopify.com/). Below is a preview of the design and code I've been working on.
 
-
 ## Design in CodePen
-
 
 My first task was to update the header / navigation, and design a responsive hero unit. This would need to support multiple layouts. I decided on a new approach for me, using [CodePen](http://codepen.io/) as a tool for live, in-browser designing.
 
