@@ -18,9 +18,7 @@ Then I list:
 * [Front-end Development](/front-end-development/)
 * [Process & Strategy](/process-and-strategy/)
 
-These pages are a delicate balance of an intelligent, thoughtful, and succinct description of my 'craft', and some SEO bingo because that's an unfortunate reality. In my sidebar-slash-footer:
-<em class="p--light">"I freelance for small businesses, start-ups, individuals, and fellow web agencies."</em>
- — i.e. pretty much anyone willing to pay me.
+These pages are a delicate balance of an intelligent, thoughtful, and succinct description of my 'craft', and some SEO bingo because that's an unfortunate reality. In my sidebar-slash-footer: _"I freelance for small businesses, start-ups, individuals, and fellow web agencies."_ — i.e. pretty much anyone willing to pay me.
 
 I try to emphasis web design first because it's what I enjoy most. Though really, design & build are part of the same package. Figuring out clean and sometimes clever CSS for a responsive layout is a lot of fun.
 

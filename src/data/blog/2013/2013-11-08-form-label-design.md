@@ -16,7 +16,8 @@ To save space and reduce visual noise it's become quite common to repurpose HTML
 
 
 ![floating label form animation](/images/2013/11/form-animation.gif)
-<p class="p--small p--light">Copyright © [Matt D. Smith](http://dribbble.com/shots/1254439--GIF-Float-Label-Form-Interaction)</p>
+
+🤫 Copyright © [Matt D. Smith](http://dribbble.com/shots/1254439--GIF-Float-Label-Form-Interaction)
 
 Quite a nice idea if you ask me. I'm not suggesting it should be the default and I don't plan to copy the idea myself in projects but as an experiment I tried to create the effect in HTML & CSS.
 

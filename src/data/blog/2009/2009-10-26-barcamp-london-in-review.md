@@ -14,7 +14,7 @@ I didn't know anything about [BarCamp](http://www.barcamplondon.org) until a wee
 
 After a pleasant welcome the first talk I attended was:
 
-<p class="note">(I tried to note the name of every speaker and their website and twitter name etc so forgive me if I've missed some details. There were also a few talks that went straight over my head (like the Google Wave discussion) but they were none the less very interesting.)</p>
+<p class="p--small">(I tried to note the name of every speaker and their website and twitter name etc so forgive me if I've missed some details. There were also a few talks that went straight over my head (like the Google Wave discussion) but they were none the less very interesting.)</p>
 
 
 

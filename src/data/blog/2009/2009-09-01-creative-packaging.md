@@ -8,9 +8,7 @@ title: Creative Packaging
 
 Creative Review unleashes some experimental packaging for their latest magazine. More exciting than a brown envelope.
 
-
-<p class="quote">"CR subscribers will notice something unusual about their CR package this month when it arrives on their doormats"</p>
-
+> "CR subscribers will notice something unusual about their CR package this month when it arrives on their doormats"
 
 I certainly did, it arrived in several pieces on my doormat.
 

@@ -109,6 +109,7 @@
     "lodash.clonedeep": "^4.5.0",
     "lodash.compact": "^3.0.1",
     "lodash.merge": "^4.6.1",
+    "lodash.toarray": "^4.4.0",
     "marked": "^0.4.0",
     "moment": "^2.22.2",
     "node-sass": "^4.9.3",

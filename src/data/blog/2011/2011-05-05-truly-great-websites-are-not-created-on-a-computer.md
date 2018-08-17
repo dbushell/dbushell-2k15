@@ -67,5 +67,5 @@ My point is – you could take the world's best _Designer_, _Developer_, or _Cop
 
 That's because **great websites** are not created on a computer.
 
-<p class="medium">(Although you could probably produce a mediocre one.)</p>
+<p class="p--small">(Although you could probably produce a mediocre one.)</p>
 

@@ -36,8 +36,7 @@ Anyway, if you load critical content and style first, late-load the rich stuff o
 
 I want to restate: statistics can be misleading and wrongly applied. Browser usage is a common one; the global average means nothing to an individual website, yet I see the numbers quoted often.
 
-<p class="p--small p--light">I may regret writing this article when I have to tell a future client they're nothing special and a fullscreen carousel won't increase the bottom line.</p>
+🤫 I may regret writing this article when I have to tell a future client they're nothing special and a fullscreen carousel won't increase the bottom line.
 
-
-<p class="p--small p--light">I failed to complete Majora's Mask on the 64. Anyone who says they enjoyed it is lying!</p>
+🤫 I failed to complete Majora's Mask on the 64. Anyone who says they enjoyed it is lying!
 

@@ -10,7 +10,7 @@ title: The Art of Nadeem Chughtai
 
 Last Friday I visited the [Secret Blisters](/2009/06/28/secret-blisters/) screen print poster show and I also had the opportunity to pop into [Absorb Art Studios](http://www.absorb-arts.co.uk/index.php) who had a summer gallery showing next door. There were several artists that stood out, the first of which I'd like to share on this blog is Nadeem Chughtai.
 
-<p class="quote">“The character I use was created as my tool to express what I wanted to say. It can be any one of us, it just represents the human species”</p>
+> “The character I use was created as my tool to express what I wanted to say. It can be any one of us, it just represents the human species”
 
 What I really like about his work in the use of bright, colourful light to cast these ominous human-like shapes into shadow. I see them and slow moving, pondering figures as if they're in some kind off purgatory. The sense of emotion is very powerful, is it coincidence most of these figures are looking/walking towards the light? It's as if time has stopped still and they are exploring the deepest of thoughts.
 

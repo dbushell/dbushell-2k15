@@ -6,7 +6,7 @@ template: single.html
 title: 'A Bit of a New Look'
 ---
 
-<p class="p--large">I redesigned my website!</p>
+I redesigned my website!
 
 This iteration has taken longer than usual because the visual changes are much more dramatic. I'm really pleased with the results:
 

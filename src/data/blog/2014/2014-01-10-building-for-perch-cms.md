@@ -8,7 +8,7 @@ title: Building for Perch CMS
 
 [Perch CMS](http://grabaperch.com/) has been on my radar for a few years now and given the praise I continue to see I figured it was time to learn the ins and outs of Perch development.
 
-<p class="is-centred">![Perch logo](/images/2014/01/perch-logo.png)</p>
+![Perch logo](/images/2014/01/perch-logo.png)
 
 Perch is a very good CMS for both development ease and content editing. After spending a week with Perch I feel confident it can handle my typical client website and I look forward to using it in production soon. Here's my experience so far.
 

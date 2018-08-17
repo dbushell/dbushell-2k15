@@ -11,7 +11,7 @@ I was delighted when [Base Creative](https://www.basecreative.co.uk/) asked me t
 
 ![Website design by Base Creative, London](/images/blog/wordpress-bc-theme.png)
 
-<p class="p--large">In this review I’ll showcase a few of the defining techniques and challenges that made this an interesting project to deliver. As usual I started with a static HTML build allowing me to focus on CSS and responsiveness in the browser.</p>
+In this review I’ll showcase a few of the defining techniques and challenges that made this an interesting project to deliver. As usual I started with a static HTML build allowing me to focus on CSS and responsiveness in the browser.
 
 * * *
 

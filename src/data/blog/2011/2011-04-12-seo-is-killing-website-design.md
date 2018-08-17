@@ -63,7 +63,7 @@ And the big one:
 
 If SEO fits into this grand design, what's my problem with it?
 
-<p class="small">_* It's worth noting that nothing mentioned above can help a fundamentally poor product & service._</p>
+<p class="p--small">_* It's worth noting that nothing mentioned above can help a fundamentally poor product & service._</p>
 
 
 

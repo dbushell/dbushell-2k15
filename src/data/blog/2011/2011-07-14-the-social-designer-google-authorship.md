@@ -16,7 +16,7 @@ One thing I realised quickly in my career is the importance of having a consiste
 
 But a Google profile is more than your normal web presence:
 
-<p class="small">![Google search for "Circle me" showing an author profile](/images/2011/07/google-social-search.png)Google search for "Circle me".</p>
+![Google search for "Circle me" showing an author profile](/images/2011/07/google-social-search.png)
 
 What you're seeing in the first search result is the [Google Authorship](http://www.google.com/support/webmasters/bin/answer.py?answer=1229920) program in action. Because my blog links to my Google+ profile reciprocally, Google knows I'm the author of that page and shows my mugshot. With the right development I can link to my profile on every website I publish content for. See [Graham Smith's guide to Google Authorship](http://imjustcreative.com/implementing-google-authorship-markup-on-your-website/2011/07/07/) for a designer-friendly introduction.
 

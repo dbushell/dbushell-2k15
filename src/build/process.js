@@ -8,6 +8,7 @@ import Prism from 'prismjs';
 import loadLanguages from 'prismjs/components/index';
 import fs from 'fs-extra';
 import frontMatter from 'front-matter';
+import toArray from 'lodash.toarray';
 import {escSmart, trimExcerpt, replaceExternalLinks} from './utils';
 
 marked.setOptions({
@@ -38,7 +39,16 @@ function renderImage(href, title, text) {
 }
 
 function renderParagraph(text) {
-  return /^<p[ |>]/.test(text) ? text : '<p>' + text + '</p>\n';
+  if (text.length > 2) {
+    const newText = toArray(text).splice(1).join('').trim();
+    if (text.startsWith('🤔')) {
+      return `<p class="p--small">${newText}</p>\n`;
+    }
+    if (text.startsWith('🤫')) {
+      return `<p class="p--small u-dim">${newText}</p>\n`;
+    }
+  }
+  return /^<p[ |>]/.test(text) ? text : `<p>${text}</p>\n`;
 }
 
 const renderer = new marked.Renderer();

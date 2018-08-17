@@ -3,7 +3,7 @@ date: 2011-06-18 12:39:00+00:00
 excerpt: None
 slug: ampersand-conference-ampconf
 template: single.html
-title: 'Ampersand Conference! #ampconf'
+title: 'Ampersand Conference #ampconf'
 ---
 
 Yesterday I braved the "adverse weather conditions" to attend [Ampersand](http://www.ampersandconf.com/), the web typography conference in **Brighton**. My expectations were undecided.
@@ -11,14 +11,12 @@ Yesterday I braved the "adverse weather conditions" to attend [Ampersand](http:/
 I knew I didn't want to see a show & tell, nor basic print typography knowledge presented as a new web-revelation (neither is it new, nor new to the web). Thankfully I was rewarded with an historical, technical and above all expertly analytical, _mature_ look at digital typography.
 
 ![Brighton Pier](/images/2011/06/ampersand1.jpg)
-<em class="medium">Brighton, 17th June 2011. This photo may have been manipulated using Adobe® Photoshop® software.</em>
 
+🤫 Brighton, 17th June 2011. This photo may have been manipulated using Adobe® Photoshop® software.
 
 To my joy this conference wasn't about _designing_ with type. It had more of a "where are we now?" flavour to it. The talks put digital typography into perspective, with strong pride in how we've got this far, and clear direction towards an exciting future.
 
-
 ## True Craftsmanship
-
 
 Both **Jonathan Hoefler** and **David Berlow** took us on journeys of experience and dedication to the craft. They earned much respect for the difficulty involved in font creation. The time and skill needed is second to none in the design world. It makes the (generally acceptable) practices in website design look like a dogs dinner in comparison. Which, incidentally, is how I looked after venturing to the end of Brighton peer (photo evidence above).
 
@@ -28,9 +26,7 @@ A few weeks ago I wrote about [the poor state of web fonts](/2011/06/05/hey-i-wa
 
 As web designers we have the benefit that good typographic design existed long before the machines that introduced our canvas. We must be careful and not ignorant of the differences while technology lags.
 
-
 ## On the Day
-
 
 The speakers gave an excellent show.
 

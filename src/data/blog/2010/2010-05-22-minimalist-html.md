@@ -8,9 +8,7 @@ title: Minimalist HTML?
 
 As part of the ongoing Design Heroes project we've started to include longer reviews with juicier content! The latest feature is on web designer and strategist Giuseppe Scappaticcio and his glorious website (and it's source!). [Read the review on Design Heroes](http://designheroes.co.uk/link/giuseppe-scappaticcio), see a snippet below:
 
-
-<p class="quote">"Really conserve your HTML as if it's a non-renewable source. Give the page a little shake after completion and see which DIVs fall out. Make a sport of it, go hunting for all those wild DIVs. Cure your divitis."</p>
-
+> "Really conserve your HTML as if it's a non-renewable source. Give the page a little shake after completion and see which DIVs fall out. Make a sport of it, go hunting for all those wild DIVs. Cure your divitis."
 
 [Find the rest of here...](http://designheroes.co.uk/link/giuseppe-scappaticcio)
 

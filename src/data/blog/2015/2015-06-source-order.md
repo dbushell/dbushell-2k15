@@ -10,7 +10,7 @@ Content should follow a logical top-to-bottom order within HTML. CSS is used to 
 
 On small viewports — mobile phones for example — a vertical layout that mimics the HTML order is generally a safe default. For wider viewports it is common to introduce more complex layout that flows LTR (left to right) and TTB (top to bottom).
 
-<p class="p--small p--light">I’m assuming English language content but the same ideas apply in reverse.</p>
+🤫 I’m assuming English language content but the same ideas apply in reverse.
 
 Basic stuff. Design can be a lot more creative.
 

@@ -12,7 +12,7 @@ Watch this [TEDxSantaCruz talk by **Roger McNamee**](http://www.youtube.com/wat
 <p class="b-post__image"><span class="b-fitvid" style="padding-top:56.25%"><iframe src="http://www.youtube.com/embed/aR6jLD1USW0" frameborder="0"></iframe></span></p>
 
 
-<p class="medium">_Please ignore the irony of the above video if it happens to embed with Flash! YouTube promises HTML5 video in the future through the wonders of this iframe..._</p>
+<p class="p--small">_Please ignore the irony of the above video if it happens to embed with Flash! YouTube promises HTML5 video in the future through the wonders of this iframe..._</p>
 
 Watch all 16 minutes, it's well worth it.
 

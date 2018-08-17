@@ -20,5 +20,5 @@ Since this is the first laptop I have ever owned I'm not going to write a compre
 
 I'll be sure to post an update after using this for a few months. I just remembered I'm suppose to be [designing a font](/2010/11/07/the-typographic-gauntlet/), so if you'll excuse me.
 
-<p class="medium">* updated to 3.0.2 without bricking the whole website like 3.0 did, fun times!</p>
+<p class="p--small">* updated to 3.0.2 without bricking the whole website like 3.0 did, fun times!</p>
 

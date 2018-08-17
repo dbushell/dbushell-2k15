@@ -102,18 +102,18 @@ The entries are compiled into a single `sitemap.xml` file which is added to the 
 My final Metalsmith plugin order runs as following:
 
 * [metalsmith-**drafts**](https://github.com/segmentio/metalsmith-drafts)
-<br><span class="p--small p--light">remove markdown files marked as draft</span>
-* *dbushell-metalsmith-**markup***
-<br><span class="p--small p--light">clean up intermediate code due to imperfect WordPress conversion</span>
+ - remove markdown files marked as draft
+* _dbushell-metalsmith-**markup**_
+ - clean up intermediate code due to imperfect WordPress conversion
 * [metalsmith-**markdown**](https://github.com/segmentio/metalsmith-markdown)
-<br><span class="p--small p--light">convert Markdown content to HTML</span>
+ - convert Markdown content to HTML
 * [metalsmith-**collections**](https://github.com/segmentio/metalsmith-collections)
-<br><span class="p--small p--light">create two group for all blog posts and “From the Blog…” list</span>
+ - create two group for all blog posts and “From the Blog…” list
 * [metalsmith-**pagination**](https://github.com/blakeembrey/metalsmith-pagination)
-<br><span class="p--small p--light">generate pages for my [blog index](/blog/)</span>
+ - generate pages for my [blog index](/blog/)
 * [metalsmith-**permalinks**](https://github.com/segmentio/metalsmith-permalinks)
-<br><span class="p--small p--light">combined with [metalsmith-branch](https://github.com/ericgj/metalsmith-branch)</span>
-* *dbushell-metalsmith-**sitemap***
+ - combined with [metalsmith-branch](https://github.com/ericgj/metalsmith-branch)
+* _dbushell-metalsmith-**sitemap**_
 
 As you can see, I’m not using Metalsmith to process any assets. I have an existing [Grunt workflow](https://github.com/dbushell/dbushell-Origin) to handle them.  I’ve [uploaded my website source](https://github.com/dbushell/dbushell-com) to Github for anyone interested. Both Metalsmith and Grunt build tasks have been combined.
 

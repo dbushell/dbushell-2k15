@@ -30,7 +30,7 @@ Another point of note is the lack of a "designer" attribute. We are therefore fo
 
 The logos are presented in black and white:
 
-<p class="quote">"Isolating them in black and white helps us appreciate these marks as unique formal solutions, and highlights the contrasts and occasional similarities among them."</p>
+> "Isolating them in black and white helps us appreciate these marks as unique formal solutions, and highlights the contrasts and occasional similarities among them."
 
 To suggest that all 400 logos are classics of design would be rather silly. Some of the logos are downright awful. But then you flick past the [V&A](http://www.vam.ac.uk/) logo you understand why Pentagram has published their own logo book. There are a few pleasant touches, such as Puffin Books and Penguin Books facing each other on facing pages. No sloppy editing here.
 
@@ -38,5 +38,5 @@ I should note this is a review of the mass print paperback version. The limited 
 
 You can buy [Pentagram Marks on Amazon](http://www.amazon.co.uk/gp/product/1856696685).
 
-<p class="note">* This review was originally publishes on [Design Heroes](http://designheroes.co.uk/link/pentagram-marks).</p>
+<p class="p--small">* This review was originally publishes on [Design Heroes](http://designheroes.co.uk/link/pentagram-marks).</p>
 
