@@ -24,14 +24,15 @@ module.exports = (env, argv) => ({
                 {
                   debug: argv.mode === 'development',
                   useBuiltIns: 'usage',
+                    corejs: 3,
                   targets: {
-                    browsers: ['last 1 versions', 'not ie <= 11']
+                    browsers: ['>1%']
                   }
                 }
               ],
               ['@babel/preset-react']
             ],
-            plugins: ['@babel/plugin-proposal-object-rest-spread']
+            plugins: []
           }
         }
       }

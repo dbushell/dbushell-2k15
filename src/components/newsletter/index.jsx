@@ -57,6 +57,7 @@ const Newsletter = () => {
           <div className="b-form__item">
             <div className="u-vh" aria-hidden="true">
               <input
+                readOnly
                 type="text"
                 name="b_f1621b8d47b205bc9a898c68f_84a4c62ca9"
                 value=""
