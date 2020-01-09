@@ -10,9 +10,13 @@ exports[`Nav component renders with defaults 1`] = `
     <li data-id=\\"portfolio\\" class=\\"b-nav__item\\"><a href=\\"/showcase/\\" class=\\"b-nav__link\\">Portfolio</a></li>
     <li data-id=\\"blog\\" class=\\"b-nav__item\\"><a href=\\"/blog/\\" class=\\"b-nav__link\\">Blog</a></li>
     <li data-id=\\"contact\\" class=\\"b-nav__item\\"><a href=\\"/contact/\\" class=\\"b-nav__link\\">Contact</a></li>
-    <li data-id=\\"icons\\" class=\\"b-nav__item b-nav__item--icons\\"><a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\" title=\\"David Bushell on Twitter\\" href=\\"https://twitter.com/dbushell\\" target=\\"_blank\\"><svg><use xlink:href=\\"/assets/img/icons.svg#twitter\\"></use></svg><span class=\\"u-vh\\">@dbushell</span></a><a class=\\"b-nav__link\\"
-        rel=\\"me noopener noreferrer\\" title=\\"David Bushell on GitHub\\" href=\\"https://github.com/dbushell/\\" target=\\"_blank\\"><svg><use xlink:href=\\"/assets/img/icons.svg#github\\"></use></svg><span class=\\"u-vh\\">GitHub</span></a><a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\"
-        title=\\"David Bushell on CodePen\\" href=\\"https://codepen.io/dbushell/\\" target=\\"_blank\\"><svg><use xlink:href=\\"/assets/img/icons.svg#codepen\\"></use></svg><span class=\\"u-vh\\">CodePen</span></a></li>
+    <li data-id=\\"icons\\" class=\\"b-nav__item b-nav__item--icons\\"><a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\" title=\\"David Bushell on Twitter\\" href=\\"https://twitter.com/dbushell\\" target=\\"_blank\\"><svg>
+          <use xlink:href=\\"/assets/img/icons.svg#twitter\\"></use>
+        </svg><span class=\\"u-vh\\">@dbushell</span></a><a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\" title=\\"David Bushell on GitHub\\" href=\\"https://github.com/dbushell/\\" target=\\"_blank\\"><svg>
+          <use xlink:href=\\"/assets/img/icons.svg#github\\"></use>
+        </svg><span class=\\"u-vh\\">GitHub</span></a><a class=\\"b-nav__link\\" rel=\\"me noopener noreferrer\\" title=\\"David Bushell on CodePen\\" href=\\"https://codepen.io/dbushell/\\" target=\\"_blank\\"><svg>
+          <use xlink:href=\\"/assets/img/icons.svg#codepen\\"></use>
+        </svg><span class=\\"u-vh\\">CodePen</span></a></li>
   </ul>
 </nav>"
 `;

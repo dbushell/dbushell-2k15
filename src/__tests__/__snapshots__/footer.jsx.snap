@@ -5,29 +5,27 @@ exports[`Footer component renders with defaults 1`] = `
   <div class=\\"b-block\\">
     <section class=\\"b-bio\\" role=\\"complementary\\" itemscope=\\"\\" itemType=\\"http://schema.org/Person\\">
       <div class=\\"b-bio__image\\"><img src=\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\\" alt=\\"David Bushell\\" data-src=\\"/assets/img/me3@1x.jpg\\" data-srcset=\\"/assets/img/me3@1x.jpg 1x, /assets/img/me3@2x.jpg 2x\\" data-lazy=\\"false\\" /></div>
-      <div
-        class=\\"b-bio__main\\">
+      <div class=\\"b-bio__main\\">
         <h3 itemProp=\\"name\\"><a href=\\"/about/\\">David Bushell</a></h3>
         <p itemProp=\\"description\\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies — all over the world.</p>
-  </div>
-  </section><a href=\\"/contact/\\" class=\\"b-hire\\"><img class=\\"b-hire__image\\" src=\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\\" alt=\\"Available for Hire\\" data-src=\\"/assets/img/dbushell-for-hire.svg\\" data-lazy=\\"false\\"/></a>
-  <aside
-    class=\\"b-blog\\" role=\\"navigation\\">
-    <div class=\\"b-blog__title\\">
-      <h3>From the blog…</h3>
-    </div>
-    <ul class=\\"b-blog__list\\">
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/08/14/availability-september/\\">Availability - September 2018</a><time class=\\"time\\" dateTime=\\"2018-08-14T10:00:00.000Z\\">Tuesday <b>14 <abbr title=\\"August\\">Aug</abbr> 2018</b></time></li>
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/05/21/pwa-progressive-web-apps/\\">PWA: Progressive Web Apps</a><time class=\\"time\\" dateTime=\\"2018-05-21T10:00:00.000Z\\">Monday <b>21 <abbr title=\\"May\\">May</abbr> 2018</b></time></li>
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/04/05/react-redux-internationalisation/\\">React &amp; Redux - Internationalisation</a><time class=\\"time\\" dateTime=\\"2018-04-05T10:00:00.000Z\\">Thursday <b>5 <abbr title=\\"April\\">Apr</abbr> 2018</b></time></li>
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/02/21/codepen-snippets/\\">CodePen Snippets</a><time class=\\"time\\" dateTime=\\"2018-02-21T10:00:00.000Z\\">Wednesday <b>21 <abbr title=\\"February\\">Feb</abbr> 2018</b></time></li>
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/01/11/hello-2018/\\">Hello Twenty Eighteen</a><time class=\\"time\\" dateTime=\\"2018-01-11T10:00:00.000Z\\">Thursday <b>11 <abbr title=\\"January\\">Jan</abbr> 2018</b></time></li>
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/09/20/raspberry-pi-epaper/\\">Raspberry Pi + e-Paper module + Node.js</a><time class=\\"time\\" dateTime=\\"2017-09-20T10:00:00.000Z\\">Wednesday <b>20 <abbr title=\\"September\\">Sep</abbr> 2017</b></time></li>
-    </ul>
+      </div>
+    </section><a href=\\"/contact/\\" class=\\"b-hire\\"><img class=\\"b-hire__image\\" src=\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\\" alt=\\"Available for Hire\\" data-src=\\"/assets/img/dbushell-for-hire.svg\\" data-lazy=\\"false\\" /></a>
+    <aside class=\\"b-blog\\" role=\\"navigation\\">
+      <div class=\\"b-blog__title\\">
+        <h3>From the blog…</h3>
+      </div>
+      <ul class=\\"b-blog__list\\">
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/08/14/availability-september/\\">Availability - September 2018</a><time class=\\"time\\" dateTime=\\"2018-08-14T10:00:00.000Z\\">Tuesday <b>14 <abbr title=\\"August\\">Aug</abbr> 2018</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/05/21/pwa-progressive-web-apps/\\">PWA: Progressive Web Apps</a><time class=\\"time\\" dateTime=\\"2018-05-21T10:00:00.000Z\\">Monday <b>21 <abbr title=\\"May\\">May</abbr> 2018</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/04/05/react-redux-internationalisation/\\">React &amp; Redux - Internationalisation</a><time class=\\"time\\" dateTime=\\"2018-04-05T10:00:00.000Z\\">Thursday <b>5 <abbr title=\\"April\\">Apr</abbr> 2018</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/02/21/codepen-snippets/\\">CodePen Snippets</a><time class=\\"time\\" dateTime=\\"2018-02-21T10:00:00.000Z\\">Wednesday <b>21 <abbr title=\\"February\\">Feb</abbr> 2018</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/01/11/hello-2018/\\">Hello Twenty Eighteen</a><time class=\\"time\\" dateTime=\\"2018-01-11T10:00:00.000Z\\">Thursday <b>11 <abbr title=\\"January\\">Jan</abbr> 2018</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/09/20/raspberry-pi-epaper/\\">Raspberry Pi + e-Paper module + Node.js</a><time class=\\"time\\" dateTime=\\"2017-09-20T10:00:00.000Z\\">Wednesday <b>20 <abbr title=\\"September\\">Sep</abbr> 2017</b></time></li>
+      </ul>
     </aside>
-    <hr/>
-    <p><small><span>Copyright &copy; 2018 </span><a href=\\"/\\">David Bushell</a><br/><a href=\\"/privacy/\\"><span class=\\"u-dim\\">Privacy Policy</span></a></small></p>
-    </div>
+    <hr />
+    <p><small><span>Copyright &copy; 2020 </span><a href=\\"/\\">David Bushell</a><br /><a href=\\"/privacy/\\"><span class=\\"u-dim\\">Privacy Policy</span></a></small></p>
+  </div>
 </footer>"
 `;
 
@@ -36,28 +34,27 @@ exports[`Footer component renders without "for hire" element 1`] = `
   <div class=\\"b-block\\">
     <section class=\\"b-bio\\" role=\\"complementary\\" itemscope=\\"\\" itemType=\\"http://schema.org/Person\\">
       <div class=\\"b-bio__image\\"><img src=\\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\\" alt=\\"David Bushell\\" data-src=\\"/assets/img/me3@1x.jpg\\" data-srcset=\\"/assets/img/me3@1x.jpg 1x, /assets/img/me3@2x.jpg 2x\\" data-lazy=\\"false\\" /></div>
-      <div
-        class=\\"b-bio__main\\">
+      <div class=\\"b-bio__main\\">
         <h3 itemProp=\\"name\\"><a href=\\"/about/\\">David Bushell</a></h3>
         <p itemProp=\\"description\\">Based in the UK, near Manchester, I freelance for small businesses, start-ups, individuals, and fellow web agencies — all over the world.</p>
-  </div>
-  </section>
-  <hr/>
-  <aside class=\\"b-blog\\" role=\\"navigation\\">
-    <div class=\\"b-blog__title\\">
-      <h3>From the blog…</h3>
-    </div>
-    <ul class=\\"b-blog__list\\">
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/08/14/availability-september/\\">Availability - September 2018</a><time class=\\"time\\" dateTime=\\"2018-08-14T10:00:00.000Z\\">Tuesday <b>14 <abbr title=\\"August\\">Aug</abbr> 2018</b></time></li>
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/05/21/pwa-progressive-web-apps/\\">PWA: Progressive Web Apps</a><time class=\\"time\\" dateTime=\\"2018-05-21T10:00:00.000Z\\">Monday <b>21 <abbr title=\\"May\\">May</abbr> 2018</b></time></li>
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/04/05/react-redux-internationalisation/\\">React &amp; Redux - Internationalisation</a><time class=\\"time\\" dateTime=\\"2018-04-05T10:00:00.000Z\\">Thursday <b>5 <abbr title=\\"April\\">Apr</abbr> 2018</b></time></li>
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/02/21/codepen-snippets/\\">CodePen Snippets</a><time class=\\"time\\" dateTime=\\"2018-02-21T10:00:00.000Z\\">Wednesday <b>21 <abbr title=\\"February\\">Feb</abbr> 2018</b></time></li>
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/01/11/hello-2018/\\">Hello Twenty Eighteen</a><time class=\\"time\\" dateTime=\\"2018-01-11T10:00:00.000Z\\">Thursday <b>11 <abbr title=\\"January\\">Jan</abbr> 2018</b></time></li>
-      <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/09/20/raspberry-pi-epaper/\\">Raspberry Pi + e-Paper module + Node.js</a><time class=\\"time\\" dateTime=\\"2017-09-20T10:00:00.000Z\\">Wednesday <b>20 <abbr title=\\"September\\">Sep</abbr> 2017</b></time></li>
-    </ul>
-  </aside>
-  <hr/>
-  <p><small><span>Copyright &copy; 2018 </span><a href=\\"/\\">David Bushell</a><br/><a href=\\"/privacy/\\"><span class=\\"u-dim\\">Privacy Policy</span></a></small></p>
+      </div>
+    </section>
+    <hr />
+    <aside class=\\"b-blog\\" role=\\"navigation\\">
+      <div class=\\"b-blog__title\\">
+        <h3>From the blog…</h3>
+      </div>
+      <ul class=\\"b-blog__list\\">
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/08/14/availability-september/\\">Availability - September 2018</a><time class=\\"time\\" dateTime=\\"2018-08-14T10:00:00.000Z\\">Tuesday <b>14 <abbr title=\\"August\\">Aug</abbr> 2018</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/05/21/pwa-progressive-web-apps/\\">PWA: Progressive Web Apps</a><time class=\\"time\\" dateTime=\\"2018-05-21T10:00:00.000Z\\">Monday <b>21 <abbr title=\\"May\\">May</abbr> 2018</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/04/05/react-redux-internationalisation/\\">React &amp; Redux - Internationalisation</a><time class=\\"time\\" dateTime=\\"2018-04-05T10:00:00.000Z\\">Thursday <b>5 <abbr title=\\"April\\">Apr</abbr> 2018</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/02/21/codepen-snippets/\\">CodePen Snippets</a><time class=\\"time\\" dateTime=\\"2018-02-21T10:00:00.000Z\\">Wednesday <b>21 <abbr title=\\"February\\">Feb</abbr> 2018</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/01/11/hello-2018/\\">Hello Twenty Eighteen</a><time class=\\"time\\" dateTime=\\"2018-01-11T10:00:00.000Z\\">Thursday <b>11 <abbr title=\\"January\\">Jan</abbr> 2018</b></time></li>
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2017/09/20/raspberry-pi-epaper/\\">Raspberry Pi + e-Paper module + Node.js</a><time class=\\"time\\" dateTime=\\"2017-09-20T10:00:00.000Z\\">Wednesday <b>20 <abbr title=\\"September\\">Sep</abbr> 2017</b></time></li>
+      </ul>
+    </aside>
+    <hr />
+    <p><small><span>Copyright &copy; 2020 </span><a href=\\"/\\">David Bushell</a><br /><a href=\\"/privacy/\\"><span class=\\"u-dim\\">Privacy Policy</span></a></small></p>
   </div>
 </footer>"
 `;
