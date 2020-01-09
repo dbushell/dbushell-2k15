@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "blogging-in-2020",
+      "title": "Blogging in 2020",
+      "href": "/2020/01/10/blogging-in-2020/",
+      "date": 1578650400000
+    },
+    {
       "id": "availability-september",
       "title": "Availability - September 2018",
       "href": "/2018/08/14/availability-september/",
@@ -30,12 +36,6 @@
       "title": "Hello Twenty Eighteen",
       "href": "/2018/01/11/hello-2018/",
       "date": 1515664800000
-    },
-    {
-      "id": "raspberry-pi-epaper",
-      "title": "Raspberry Pi + e-Paper module + Node.js",
-      "href": "/2017/09/20/raspberry-pi-epaper/",
-      "date": 1505901600000
     }
   ]
 }
