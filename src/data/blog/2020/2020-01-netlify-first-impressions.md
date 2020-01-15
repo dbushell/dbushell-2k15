@@ -9,7 +9,7 @@ pageDesc: 'The one where I stop pretending to know Netlify and learn it.'
 
 ![Netlify logo](/images/blog/2020/netlify-logo.png)
 
-[JAMstack](https://jamstack.org/) is a popular/confusing term covering static sites and the new tech surrounding them. I've long adhered to such a philosophy for [personal projects](http://dbushell.localhost:8080/2014/07/09/how-i-built-a-static-site-generator/) but stuck to WordPress-like solutions for client work. The necessity of a <abbr title="Content Management System">CMS</abbr> being the main factor, but has "JAMstack" caught up?
+[JAMstack](https://jamstack.org/) is a popular/confusing term covering static sites and the new tech surrounding them. I've long adhered to such a philosophy for [personal projects](/2014/07/09/how-i-built-a-static-site-generator/) but stuck to WordPress-like solutions for client work. The necessity of a <abbr title="Content Management System">CMS</abbr> being the main factor, but has "JAMstack" caught up?
 
 I need to catch up for sure. This week I've been learning Netlify.
 
