@@ -77,6 +77,6 @@ I added a couple of fields for my template:
 
 The editor experience is functional. Not much to say there. You get a lot of form fields based on your data. In the background it commits new changes to the Git repo and redeploys to Netlify. A downside to the [JAMstack](https://jamstack.org/) approach is that it's a bit slow to deploy changes.
 
-I deliver a lot of WordPress sites. From an editing perspective those clients would find Netlify CMS rather lackluster in comparision. However, the pros and cons of each platform go much deeper. I'm not even sure how I'd define "client-friendly". Too many factors. I can imagine scenarios where I'd consider Netlify CMS.
+I deliver a lot of WordPress sites. From an editing perspective those clients would find Netlify CMS rather lacklustre in comparison. However, the pros and cons of each platform go much deeper. I'm not even sure how I'd define "client-friendly". Too many factors. I can imagine scenarios where I'd consider Netlify CMS.
 
 Time well spent and another tool in the belt.
