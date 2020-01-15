@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "netlify-first-impressions",
+      "title": "Netlify: First Impressions",
+      "href": "/2020/01/15/netlify-first-impressions/",
+      "date": 1579082400000
+    },
+    {
       "id": "blogging-in-2020",
       "title": "Blogging in 2020",
       "href": "/2020/01/10/blogging-in-2020/",
@@ -30,12 +36,6 @@
       "title": "CodePen Snippets",
       "href": "/2018/02/21/codepen-snippets/",
       "date": 1519207200000
-    },
-    {
-      "id": "hello-2018",
-      "title": "Hello Twenty Eighteen",
-      "href": "/2018/01/11/hello-2018/",
-      "date": 1515664800000
     }
   ]
 }

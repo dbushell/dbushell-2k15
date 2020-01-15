@@ -6,6 +6,11 @@ template: single.html
 title: How I built a Static Site Generator
 ---
 
+<div class="b-boxed b-boxed--dark u-dark">
+  <h3>NEW: <a href="/2017/02/13/react-as-a-static-site-generator/">React as a Static Site Generator</a></h3>
+  <p>I now used React! See my new approach above.</p>
+</div>
+
 I used to build websites with nothing but a text editor.
 
 Now I have an [army of tools](/2014/06/10/dependency-overload/) at my finger tips. When I began to establish [my Grunt tasks](/2013/04/30/origin/) I wanted something basic for HTML. My biggest gripe was *repetition*. The simple concept of "includes" was all I wanted.
