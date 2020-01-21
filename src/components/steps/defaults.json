@@ -1,18 +1,18 @@
 {
   "items": [
     {
-      "href": "/responsive-design/",
-      "heading": "Responsive Web Design",
-      "description": "I design websites that work across all devices. They’re fluid and adaptive, just like my process.",
+      "href": "/front-end-development/",
+      "heading": "Front-end Development",
+      "description": "HTML, CSS, & JavaScript. There’s web standards and then there’s browsers, and I know both.",
       "button": {
         "href": "/contact/",
         "text": "Hire me!"
       }
     },
     {
-      "href": "/front-end-development/",
-      "heading": "Front-end Development",
-      "description": "HTML, CSS, & JavaScript - there’s web standards and then there’s browsers, and I know both."
+      "href": "/responsive-design/",
+      "heading": "Responsive Design",
+      "description": "I design websites that work across all devices. They’re fluid and adaptive, just like my process."
     },
     {
       "href": "/services/",

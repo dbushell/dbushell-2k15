@@ -1,4 +1,31 @@
+## [Front-end Development](/front-end-development/)
+
+Static design mock-ups may look pretty, but you can’t experience true performance in Photoshop. Find out how I deliver [front-end development](/front-end-development/).
+
+**Favourite tools and technologies:**
+
+<ul class="b-boxed b-boxed--spec">
+  <li>HTML / CSS</li>
+  <li>Sass</li>
+  <li>SVG</li>
+  <li>PHP</li>
+  <li>JavaScript</li>
+  <li>React</li>
+  <li>Vue.js</li>
+  <li>Node</li>
+  <li>Git</li>
+  <li>Gulp</li>
+  <li>WordPress</li>
+  <li>Shopify</li>
+  <li>Netlify</li>
+  <li>JAMStack</li>
+  <li>Cloudflare</li>
+  <li>Service Workers</li>
+</ul>
+
 📢 Find out how I can help [**your business**](/working-with-clients/) or [**your agency**](/working-with-agencies/).
+
+<hr>
 
 ## [Responsive Design](/responsive-design/)
 
@@ -6,38 +33,15 @@ Mobile phones, tablets, desktops — can we even categorise these days? I specia
 
 <hr>
 
-## [Front-end Development](/front-end-development/)
+## [Content Management](/wordpress-and-cms-integration/)
 
-HTML, CSS, and JavaScript web standards evolve daily. I take every project as an opportunity to refresh my methods and hone my practice.
-
-**Favourite tools and technologies:**
-
-<ul class="b-boxed b-boxed--spec">
-  <li>HTML5</li>
-  <li>CSS</li>
-  <li>Sass</li>
-  <li>SVG</li>
-  <li>JavaScript</li>
-  <li>Service Workers</li>
-  <li>React</li>
-  <li>Node</li>
-  <li>Git</li>
-  <li>Gulp</li>
-  <li>Shopify</li>
-  <li>WordPress</li>
-</ul>
-
-<hr>
-
-## [WordPress & CMS](/wordpress-and-cms-integration/)
-
-I have extensive knowledge of PHP and particularly WordPress theme development. I’m also very proficient in other HTML template languages.
+I have extensive knowledge of WordPress & Gutenberg development. I’m also proficient in many HTML and JavaScript template languages as well as alternative serverless solutions.
 
 <hr>
 
 ## [Process & Strategy](/process-and-strategy/)
 
-From scoping requirements to planning content — through design and development — collaboration between myself and clients is paramount.
+From scoping requirements to planning content — through design and development — collaboration between myself and my clients is paramount.
 
 <div class="b-boxed b-boxed--dark u-dark">
   <h3>Get a free quote&hellip;</h3>

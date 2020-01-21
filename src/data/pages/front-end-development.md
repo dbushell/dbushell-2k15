@@ -2,50 +2,63 @@
   <img src="/assets/img/dbushell-website.svg" alt="dbushell.com front-end development" style="width:500px;">
 </p>
 
-Static design mock-ups may look pretty, but you can't experience interaction or performance in Photoshop. I work in iterations of design, prototype, test and review — no decisions are made away from the browser.
+Static design mock-ups may look pretty, but you can't experience true performance in Photoshop. I prefer to work in iterations of design, prototype, test and review — allowing final decisions to be made in the browser.
 
-HTML, CSS, and JavaScript web standards evolve daily. I take every project as an opportunity to refresh my methods and hone my practice. An intrinsic knowledge of the front-end is a cornerstone of usable website design.
+Through coding I can deliver:
+
+* An entire website ...
+* ... or just a little bit of maintenance?
+* Templates for many frameworks
+* Pattern and component libraries
+* Build and deployment workflows
+* Front-end performance reviews
+* Progressive Web Apps
+
+Web standards are ever-evolving. I see each project as an opportunity to refresh my methods and hone my practice. I understand the quirks of old browsers and the benefits of new technology. I use progressive enhancement to deliver accessible websites based on an intrinsic knowledge of the front-end.
 
 **Favourite tools and technologies:**
 
 <ul class="b-boxed b-boxed--spec">
-  <li>HTML5</li>
-  <li>CSS</li>
+  <li>HTML / CSS</li>
   <li>Sass</li>
   <li>SVG</li>
+  <li>PHP</li>
   <li>JavaScript</li>
-  <li>jQuery</li>
   <li>React</li>
+  <li>Vue.js</li>
   <li>Node</li>
   <li>Git</li>
-  <li>Grunt</li>
-  <li>PHP</li>
+  <li>Gulp</li>
   <li>WordPress</li>
+  <li>Gutenberg</li>
+  <li>Shopify</li>
+  <li>Netlify</li>
+  <li>Cloudflare</li>
+  <li>Service Workers</li>
 </ul>
 
-### Building for browsers
+I'm not fussy. I can work with high-fidelity design software or back-of-the-napkin sketches. My background in design gives me an intuitive understanding to interpret, iterate upon, and best utilise visual concepts.
 
-**I'm not** IE-phobic! I understand the quirks of old browsers and use progressive enhancement to deliver accessible pages appropriate to each browser's capabilities. Universal "pixel perfection" is a detrimental idea; I get the details right where they matter.
-
-### Featured case studies
-
-* [CSS Framework for PartsGiant](/2016/01/04/css-framework-for-partsgiant/)
-* [CodePen Prototyping for Houden](/2015/03/18/responsive-design-for-houden/)
-* [Introducing Tales](/2014/02/17/introducing-tales/)
 
 ### Featured articles
 
+Whenever possible I share case studies and knowledge on [my blog](/blog/). Here's a select few of my favourite articles from years past:
+
+* [PWA: Progressive Web Apps](/2018/05/21/pwa-progressive-web-apps/)
+* [React as a Static Site Generator](/2017/02/13/react-as-a-static-site-generator/)
+* [CSS Framework for PartsGiant](/2016/01/04/css-framework-for-partsgiant/)
+* [CodePen Prototyping for Houden](/2015/03/18/responsive-design-for-houden/)
 * [Critical CSS and Performance](/2015/02/19/critical-css-and-performance/)
-* [WordPress to Metalsmith](/2015/05/11/wordpress-to-metalsmith/)
+* [Introducing Tales](/2014/02/17/introducing-tales/)
 * [Two Week Build](/2014/04/24/two-week-build/)
 
 <hr>
 
 ## I also do&hellip;
 
-* <a href="/responsive-design/">Responsive website design</a>
-* <a href="/process-and-strategy/">Process and strategy</a>
-* <a href="/wordpress-and-cms-integration/">WordPress &amp; CMS integration</a>
+* <a href="/responsive-design/">Responsive Design</a>
+* <a href="/wordpress-and-cms-integration/">WordPress &amp; CMS</a>
+* <a href="/process-and-strategy/">Process &amp; Strategy</a>
 
 <div class="b-boxed b-boxed--dark u-dark">
   <h3>Get a free quote&hellip;</h3>

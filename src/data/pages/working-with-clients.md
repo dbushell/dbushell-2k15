@@ -20,7 +20,7 @@ Every project is unique. Rather than offering a set package my approach to desig
 >
 > <cite>Chris King &ndash; ASE Consulting</cite>
 
-Learn more about my [**web design process**](/responsive-design/).
+Learn more about my [web design process](/responsive-design/).
 
 And if you're unsure about the technical stuff I'll help with web hosting and domains to ensure your website gets up and running smoothly.
 
