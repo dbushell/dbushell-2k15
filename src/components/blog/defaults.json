@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "a-morning-with-vuejs",
+      "title": "A Morning with Vue.js",
+      "href": "/2020/01/23/a-morning-with-vuejs/",
+      "date": 1579773600000
+    },
+    {
       "id": "netlify-first-impressions",
       "title": "Netlify: First Impressions",
       "href": "/2020/01/15/netlify-first-impressions/",
@@ -30,12 +36,6 @@
       "title": "React & Redux - Internationalisation",
       "href": "/2018/04/05/react-redux-internationalisation/",
       "date": 1522922400000
-    },
-    {
-      "id": "codepen-snippets",
-      "title": "CodePen Snippets",
-      "href": "/2018/02/21/codepen-snippets/",
-      "date": 1519207200000
     }
   ]
 }

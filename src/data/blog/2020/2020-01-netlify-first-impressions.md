@@ -21,12 +21,6 @@ For this trial I used one of my existing [React projects](https://github.com/dbu
 
 Let's see how easy it is to ship on Netlify.
 
-<style>
-[src$="netlify-logo.png"] {
-  max-width: 600px;
-}
-</style>
-
 ![React example (counter app)](/images/blog/2020/react-example-counter.png)
 
 The build process for this includes:
@@ -67,12 +61,6 @@ The CMS is configured through a `config.yml` to define data structure and file l
 
 I added a couple of fields for my template:
 
-<style>
-[src$="netlify-cms.png"] {
-  max-width: 600px;
-}
-</style>
-
 ![Netlify CMS editing](/images/blog/2020/netlify-cms.png)
 
 The editor experience is functional. Not much to say there. You get a lot of form fields based on your data. In the background it commits new changes to the Git repo and redeploys to Netlify. A downside to the [JAMstack](https://jamstack.org/) approach is that it's a bit slow to deploy changes.
@@ -80,3 +68,12 @@ The editor experience is functional. Not much to say there. You get a lot of for
 I deliver a lot of WordPress sites. From an editing perspective those clients would find Netlify CMS rather lacklustre in comparison. However, the pros and cons of each platform go much deeper. I'm not even sure how I'd define "client-friendly". Too many factors. I can imagine scenarios where I'd consider Netlify CMS.
 
 Time well spent and another tool in the belt.
+
+<style>
+.b-post [src$="netlify-logo.png"] {
+  width: 600px;
+}
+.b-post [src$="netlify-cms.png"] {
+  width: 600px;
+}
+</style>

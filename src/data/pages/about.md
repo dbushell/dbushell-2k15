@@ -1,4 +1,4 @@
-Based in the UK, somewhere near Manchester, I design, build, and consult upon all things Web for small businesses, start-ups, individuals, and fellow web agencies — all over the world. It's quite a fun job if I'm honest.
+Based in the UK, somewhere near Manchester, I design, build, and consult upon all things web for small businesses, start-ups, individuals, and fellow web agencies — all over the world. It's quite a fun job if I'm honest.
 
 ![David Bushell](/images/2012/12/david-bushell1.jpg)
 
@@ -21,7 +21,7 @@ During this time I worked with just about every type of client imaginable. From 
 
 In early 2013 I moved back up North to venture out as a freelancer. I kicked things off by speaking at the [Responsive Day Out](/2012/12/07/responsive-day-out/) conference in Brighton, UK. Since then I've continue to provide my skills to many web agencies and clients.
 
-On the Web, I consider myself self-taught. Programming has fascinated me since the days of dial-up modems and floppy disks. My formal education is firmly rooted in the finer arts. I graduated with 1st class honours in Graphic Design at Cumbria University, UK.
+On the web, I consider myself self-taught. Programming has fascinated me since the days of dial-up modems and floppy disks. My formal education is firmly rooted in the finer arts. I graduated with 1st class honours in Graphic Design at Cumbria University, UK.
 
 ### My Work Online
 

@@ -1,6 +1,6 @@
 <p class="b-post__image b-post__image--centred"><img src="/assets/img/responsive-design.png" alt="Responsive Design on a Microsoft Surface and Nexus 4"></p>
 
-The number of web-accessible devices is staggeringly and wonderful. This can be a daunting canvas for design without a modern responsive approach. I specialise in embracing the web's ubiquity. It's my job to design for all experiences because successful websites remain accessible to the whole audience.
+The number of web-accessible devices is staggeringly wonderful. This can be a daunting canvas for design without a modern responsive approach. I specialise in embracing the web's ubiquity. It's my job to design for all experiences because successful websites remain accessible to the whole audience.
 
 My web design process is heavily feedback driven. It allows for the best collaboration between all parties; myself and other developers, website stateholders, and the eventual end-users.
 

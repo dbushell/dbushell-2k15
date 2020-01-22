@@ -15,12 +15,12 @@ exports[`Footer component renders with defaults 1`] = `
         <h3>From the blog…</h3>
       </div>
       <ul class=\\"b-blog__list\\">
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/01/23/a-morning-with-vuejs/\\">A Morning with Vue.js</a><time class=\\"time\\" dateTime=\\"2020-01-23T10:00:00.000Z\\">Thursday <b>23 <abbr title=\\"January\\">Jan</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/01/15/netlify-first-impressions/\\">Netlify: First Impressions</a><time class=\\"time\\" dateTime=\\"2020-01-15T10:00:00.000Z\\">Wednesday <b>15 <abbr title=\\"January\\">Jan</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/01/10/blogging-in-2020/\\">Blogging in 2020</a><time class=\\"time\\" dateTime=\\"2020-01-10T10:00:00.000Z\\">Friday <b>10 <abbr title=\\"January\\">Jan</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/08/14/availability-september/\\">Availability - September 2018</a><time class=\\"time\\" dateTime=\\"2018-08-14T10:00:00.000Z\\">Tuesday <b>14 <abbr title=\\"August\\">Aug</abbr> 2018</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/05/21/pwa-progressive-web-apps/\\">PWA: Progressive Web Apps</a><time class=\\"time\\" dateTime=\\"2018-05-21T10:00:00.000Z\\">Monday <b>21 <abbr title=\\"May\\">May</abbr> 2018</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/04/05/react-redux-internationalisation/\\">React &amp; Redux - Internationalisation</a><time class=\\"time\\" dateTime=\\"2018-04-05T10:00:00.000Z\\">Thursday <b>5 <abbr title=\\"April\\">Apr</abbr> 2018</b></time></li>
-        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/02/21/codepen-snippets/\\">CodePen Snippets</a><time class=\\"time\\" dateTime=\\"2018-02-21T10:00:00.000Z\\">Wednesday <b>21 <abbr title=\\"February\\">Feb</abbr> 2018</b></time></li>
       </ul>
     </aside>
     <hr />
@@ -45,12 +45,12 @@ exports[`Footer component renders without "for hire" element 1`] = `
         <h3>From the blog…</h3>
       </div>
       <ul class=\\"b-blog__list\\">
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/01/23/a-morning-with-vuejs/\\">A Morning with Vue.js</a><time class=\\"time\\" dateTime=\\"2020-01-23T10:00:00.000Z\\">Thursday <b>23 <abbr title=\\"January\\">Jan</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/01/15/netlify-first-impressions/\\">Netlify: First Impressions</a><time class=\\"time\\" dateTime=\\"2020-01-15T10:00:00.000Z\\">Wednesday <b>15 <abbr title=\\"January\\">Jan</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/01/10/blogging-in-2020/\\">Blogging in 2020</a><time class=\\"time\\" dateTime=\\"2020-01-10T10:00:00.000Z\\">Friday <b>10 <abbr title=\\"January\\">Jan</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/08/14/availability-september/\\">Availability - September 2018</a><time class=\\"time\\" dateTime=\\"2018-08-14T10:00:00.000Z\\">Tuesday <b>14 <abbr title=\\"August\\">Aug</abbr> 2018</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/05/21/pwa-progressive-web-apps/\\">PWA: Progressive Web Apps</a><time class=\\"time\\" dateTime=\\"2018-05-21T10:00:00.000Z\\">Monday <b>21 <abbr title=\\"May\\">May</abbr> 2018</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/04/05/react-redux-internationalisation/\\">React &amp; Redux - Internationalisation</a><time class=\\"time\\" dateTime=\\"2018-04-05T10:00:00.000Z\\">Thursday <b>5 <abbr title=\\"April\\">Apr</abbr> 2018</b></time></li>
-        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2018/02/21/codepen-snippets/\\">CodePen Snippets</a><time class=\\"time\\" dateTime=\\"2018-02-21T10:00:00.000Z\\">Wednesday <b>21 <abbr title=\\"February\\">Feb</abbr> 2018</b></time></li>
       </ul>
     </aside>
     <hr />
