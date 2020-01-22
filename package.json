@@ -1,7 +1,7 @@
 {
   "name": "dbushell.com",
   "private": true,
-  "version": "10.3.0",
+  "version": "10.4.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbushell/dbushell.com.git"
@@ -9,7 +9,7 @@
   "author": "David Bushell <david@dbushell.com>",
   "license": "UNLICENSED - Copyright © David Bushell",
   "scripts": {
-    "start": "npx http-server ./dbushell.github.io/",
+    "start": "npx http-server -a dbushell.localhost ./dbushell.github.io/",
     "build": "npx babel-node ./index.js",
     "test": "npx jest",
     "test-update": "npx jest --updateSnapshot",
@@ -23,47 +23,7 @@
     "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-object-rest-spread"
     ]
-  },
-  "xo": {
-    "space": true,
-    "extends": [
-      "xo-react"
-    ],
-    "envs": [
-      "node",
-      "browser",
-      "jest"
-    ],
-    "ignores": [
-      "src/data/**/*"
-    ],
-    "rules": {
-      "no-unused-vars": "warn",
-      "react/no-danger": "warn",
-      "react/prop-types": "off",
-      "react/no-unused-prop-types": "off",
-      "react/jsx-closing-bracket-location": {
-        "nonEmpty": "line-aligned"
-      },
-      "react/jsx-tag-spacing": {
-        "beforeSelfClosing": "allow"
-      }
-    },
-    "settings": {
-      "import/resolver": {
-        "node": {
-          "extensions": [
-            ".js",
-            ".jsx",
-            ".json"
-          ]
-        }
-      }
-    }
   },
   "jest": {
     "setupFiles": [
@@ -83,19 +43,15 @@
   "dependencies": {
     "@babel/core": "^7.8.3",
     "@babel/node": "^7.8.3",
-    "@babel/polyfill": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
     "autoprefixer": "^9.7.4",
-    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^25.1.0",
     "babel-loader": "^8.0.6",
     "chalk": "^3.0.0",
     "core-js": "^3.6.4",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
-    "eslint-config-xo-react": "^0.22.0",
-    "eslint-plugin-react": "^7.18.0",
     "front-matter": "^3.1.0",
     "fs-extra": "^8.1.0",
     "glob": "^7.1.6",
@@ -113,17 +69,14 @@
     "moment": "^2.24.0",
     "node-sass": "^4.13.1",
     "postcss": "^7.0.26",
-    "prettier": "^1.19.1",
     "prismjs": "^1.19.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-test-renderer": "^16.12.0",
-    "shortid": "^2.2.15",
     "striptags": "^3.1.1",
     "uglify-js": "^3.7.6",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
-    "xo": "^0.25.3",
     "yargs": "^15.1.0"
   }
 }
