@@ -8,6 +8,7 @@ import blogJson from '../data/pages';
 import portfolioJson from '../data/portfolio';
 import buildBlog from './tasks/blog';
 import buildFeeds from './tasks/feeds';
+import buildWorker from './tasks/worker';
 import buildPortfolio from './tasks/portfolio';
 import buildPages, {
   buildHome,
@@ -72,7 +73,8 @@ export async function build() {
     'home',
     'pages',
     'portfolio',
-    'patterns'
+    'patterns',
+    'worker'
   ];
   if (!flags.reduce((a, b) => a || (argv[b] ? b : 0), 0)) {
     return process.stdout.write(
@@ -101,6 +103,9 @@ export async function build() {
   if (argv.feeds) {
     await buildFeeds();
   }
+  if (argv.worker) {
+    await buildWorker();
+  }
   if (argv.all) {
     await buildBlog();
     await Promise.all([
@@ -111,6 +116,7 @@ export async function build() {
       buildHome()
     ]);
     await buildFeeds();
+    await buildWorker();
   }
   process.stdout.write(chalk.bold.yellow('Build complete 👌') + '\n');
 }
