@@ -16,9 +16,9 @@ Static design mock-ups may look pretty, but you can’t experience true performa
   <li>Git</li>
   <li>Gulp</li>
   <li>WordPress</li>
+  <li>Gutenberg</li>
   <li>Shopify</li>
   <li>Netlify</li>
-  <li>JAMStack</li>
   <li>Cloudflare</li>
   <li>Service Workers</li>
 </ul>
