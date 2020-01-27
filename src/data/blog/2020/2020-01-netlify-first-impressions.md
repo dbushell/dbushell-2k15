@@ -69,6 +69,8 @@ I deliver a lot of WordPress sites. From an editing perspective those clients wo
 
 Time well spent and another tool in the belt.
 
+Since writing this article I've tested **Netlify Functions** and wrote about that too: [Building a PWA with Netlify Functions](/2020/01/27/building-a-pwa-with-netlify-functions/).
+
 <style>
 .b-post [src$="netlify-logo.png"] {
   width: 600px;

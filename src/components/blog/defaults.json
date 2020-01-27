@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "building-a-pwa-with-netlify-functions",
+      "title": "Building a PWA with Netlify Functions",
+      "href": "/2020/01/27/building-a-pwa-with-netlify-functions/",
+      "date": 1580119200000
+    },
+    {
       "id": "a-morning-with-vuejs",
       "title": "A Morning with Vue.js",
       "href": "/2020/01/23/a-morning-with-vuejs/",
@@ -30,12 +36,6 @@
       "title": "PWA: Progressive Web Apps",
       "href": "/2018/05/21/pwa-progressive-web-apps/",
       "date": 1526896800000
-    },
-    {
-      "id": "react-redux-internationalisation",
-      "title": "React & Redux - Internationalisation",
-      "href": "/2018/04/05/react-redux-internationalisation/",
-      "date": 1522922400000
     }
   ]
 }
