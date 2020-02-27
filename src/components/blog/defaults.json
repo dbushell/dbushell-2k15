@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "http-security-headers-and-inline-resources",
+      "title": "HTTP Security Headers and Inline Resources",
+      "href": "/2020/02/28/http-security-headers-and-inline-resources/",
+      "date": 1582884000000
+    },
+    {
       "id": "docker-wordpress-portless-localhost-domains",
       "title": "Docker, WordPress, and Portless Localhost Domains",
       "href": "/2020/02/07/docker-wordpress-portless-localhost-domains/",
@@ -30,12 +36,6 @@
       "title": "Blogging in 2020",
       "href": "/2020/01/10/blogging-in-2020/",
       "date": 1578650400000
-    },
-    {
-      "id": "availability-september",
-      "title": "Availability - September 2018",
-      "href": "/2018/08/14/availability-september/",
-      "date": 1534240800000
     }
   ]
 }
