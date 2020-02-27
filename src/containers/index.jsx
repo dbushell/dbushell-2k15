@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import offlinePageProps from '../../dbushell.github.io/api/offline/props.json';
-import FooterContainer from './footer';
+import Footer from '../components/footer';
 import NavContainer from './nav';
 import Archive from './archive';
 import Article from './article';
@@ -269,7 +269,7 @@ class Root extends Component {
     return (
       <React.Fragment>
         {React.createElement(el, pageProps)}
-        <FooterContainer {...footerProps} />
+        <Footer {...footerProps} />
         <NavContainer {...navProps} />
       </React.Fragment>
     );

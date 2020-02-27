@@ -1,7 +1,7 @@
 {
   "name": "dbushell.com",
   "private": true,
-  "version": "10.4.1",
+  "version": "10.5.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbushell/dbushell.com.git"
@@ -78,7 +78,6 @@
     "uglify-js": "^3.8.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
-    "workbox-build": "^5.0.0",
     "yargs": "^15.1.0"
   }
 }

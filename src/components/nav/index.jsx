@@ -1,5 +1,4 @@
 import React from 'react';
-import pure from '../pure';
 import Icon from '../icon';
 import defaults from './defaults';
 
@@ -59,7 +58,7 @@ const SFCNavItem = props => {
   );
 };
 
-const NavItem = pure(SFCNavItem);
+const NavItem = React.memo(SFCNavItem);
 
 const NavMore = props => {
   if (props.items.length === 0) {

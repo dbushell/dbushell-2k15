@@ -1,5 +1,4 @@
 import React from 'react';
-import pure from '../pure';
 import LazyImage from '../lazyimage';
 import defaults from './defaults';
 
@@ -31,4 +30,4 @@ const Bio = props => {
 
 Bio.defaultProps = defaults;
 
-export default pure(Bio);
+export default React.memo(Bio);

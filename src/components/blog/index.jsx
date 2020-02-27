@@ -1,5 +1,4 @@
 import React from 'react';
-import pure from '../pure';
 import Time from '../time';
 import defaults from './defaults';
 
@@ -33,4 +32,4 @@ const Blog = props => {
 
 Blog.defaultProps = defaults;
 
-export default pure(Blog);
+export default React.memo(Blog);

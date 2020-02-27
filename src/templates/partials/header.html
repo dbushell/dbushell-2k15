@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta name="theme-color" content="#ff6680">
 <!-- Copyright © David Bushell | @dbushell -->
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
@@ -25,15 +24,8 @@
 {{/if}}
 <link rel="canonical" href="{{siteURL pagePath}}">
 <link rel="alternate" type="application/rss+xml" title="dbushell.com RSS Feed" href="{{siteURL 'rss.xml'}}">
-<link rel="preload" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700|Raleway:700&display=swap" as="style">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700|Raleway:700&display=swap" media="print" onload="this.media='all'">
-<script type="text/javascript">
-  var d = document.documentElement;
-  d.classList.remove('no-js');
-  d.classList.add('js');
-</script>
-<style>
-{{ inlineAsset pageCSS }}
-</style>
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700|Raleway:700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<script>{{ inlineAsset 'assets/js/inline.min.js' }}</script>
+<style>{{ inlineAsset pageCSS }}</style>
 </head>
 <body>
