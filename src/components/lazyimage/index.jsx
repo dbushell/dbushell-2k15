@@ -8,7 +8,7 @@ const LazyImage = props => {
     ...props,
     'data-src': props.src,
     'data-srcset': props.srcSet,
-    'data-lazy': false,
+    'data-lazy': 'false',
     src: placeholder,
     srcSet: null
   };

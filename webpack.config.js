@@ -6,10 +6,13 @@ module.exports = (env, argv) => ({
     path: path.resolve(__dirname, 'dbushell.github.io/assets/js/'),
     filename: argv.mode === 'development' ? 'app.js' : 'app.min.js'
   },
-  externals: {
-    react: 'React',
-    'react-dom': 'ReactDOM'
-  },
+  externals:
+    argv.mode !== 'development'
+      ? {}
+      : {
+          react: 'React',
+          'react-dom': 'ReactDOM'
+        },
   module: {
     rules: [
       {
@@ -23,11 +26,9 @@ module.exports = (env, argv) => ({
                 '@babel/preset-env',
                 {
                   debug: argv.mode === 'development',
+                  targets: '> 1%, not dead, not ie 11',
                   useBuiltIns: 'usage',
-                    corejs: 3,
-                  targets: {
-                    browsers: ['>1%']
-                  }
+                  corejs: 3
                 }
               ],
               ['@babel/preset-react']
@@ -39,6 +40,14 @@ module.exports = (env, argv) => ({
     ]
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.json']
+    extensions: ['.js', '.jsx', '.json'],
+    alias:
+      argv.mode === 'development'
+        ? {}
+        : {
+            react: 'preact/compat',
+            'react-dom/test-utils': 'preact/test-utils',
+            'react-dom': 'preact/compat'
+          }
   }
 });
