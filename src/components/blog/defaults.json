@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "bundle-a-pwa-as-an-android-app",
+      "title": "Bundle a PWA as an Android App",
+      "href": "/2020/03/05/bundle-a-pwa-as-an-android-app/",
+      "date": 1583402400000
+    },
+    {
       "id": "http-security-headers-and-inline-resources",
       "title": "HTTP Security Headers and Inline Resources",
       "href": "/2020/02/28/http-security-headers-and-inline-resources/",
@@ -30,12 +36,6 @@
       "title": "Netlify: First Impressions",
       "href": "/2020/01/15/netlify-first-impressions/",
       "date": 1579082400000
-    },
-    {
-      "id": "blogging-in-2020",
-      "title": "Blogging in 2020",
-      "href": "/2020/01/10/blogging-in-2020/",
-      "date": 1578650400000
     }
   ]
 }
