@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "debugging-a-todo-app",
+      "title": "Debugging a Todo App",
+      "href": "/2020/03/27/debugging-a-todo-app/",
+      "date": 1585303200000
+    },
+    {
       "id": "bundle-a-pwa-as-an-android-app",
       "title": "Bundle a PWA as an Android App",
       "href": "/2020/03/05/bundle-a-pwa-as-an-android-app/",
@@ -30,12 +36,6 @@
       "title": "A Morning with Vue.js",
       "href": "/2020/01/23/a-morning-with-vuejs/",
       "date": 1579773600000
-    },
-    {
-      "id": "netlify-first-impressions",
-      "title": "Netlify: First Impressions",
-      "href": "/2020/01/15/netlify-first-impressions/",
-      "date": 1579082400000
     }
   ]
 }
