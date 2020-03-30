@@ -65,6 +65,6 @@ This technically does the same thing by adding 24 hours to the date. However, wh
 
 Lesson learned...
 
-Now that I think about it I remember throwing together an "event countdown" for a client that ended up being off by an hour. I've made this mistake before! Thankfully we got that fix long before attendees arrived on the day.
+Now that I think about it I remember throwing together an "event countdown" for a client that ended up being off by an hour. I've made this mistake before! Thankfully we got that fixed long before attendees arrived on the day.
 
 I'm blogging this so I don't forget again.
