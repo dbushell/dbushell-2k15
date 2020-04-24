@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "wordpress-gutenberg-react-and-advanced-custom-fields",
+      "title": "WordPress Gutenberg: React & Advanced Custom Fields (ACF)",
+      "href": "/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/",
+      "date": 1587722400000
+    },
+    {
       "id": "debugging-a-todo-app",
       "title": "Debugging a Todo App",
       "href": "/2020/03/27/debugging-a-todo-app/",
@@ -30,12 +36,6 @@
       "title": "Building a PWA with Netlify Functions",
       "href": "/2020/01/27/building-a-pwa-with-netlify-functions/",
       "date": 1580119200000
-    },
-    {
-      "id": "a-morning-with-vuejs",
-      "title": "A Morning with Vue.js",
-      "href": "/2020/01/23/a-morning-with-vuejs/",
-      "date": 1579773600000
     }
   ]
 }
