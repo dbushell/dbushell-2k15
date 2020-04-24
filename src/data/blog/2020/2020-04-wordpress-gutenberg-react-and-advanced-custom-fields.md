@@ -33,7 +33,7 @@ A single block that renders like this:
     height="289">
 </p>
 
-Gutenberg provide embed blocks with a single caption. These are extremely user-friendly. Users just paste a YouTube link — not even embed code — and WordPress does the rest. However it lacks the additional fields I require.
+Gutenberg provides an embed block with a single caption. These are extremely user-friendly. Users just paste a YouTube link — not even embed code — and WordPress does the rest. However it lacks the additional fields I require.
 
 ACF does have an [oEmbed](https://www.advancedcustomfields.com/resources/oembed/) field but it isn't half as nice. For the sake of this demo I've deciding it's not good enough (it is, I just wanted a simple example).
 
@@ -51,7 +51,9 @@ What if I could combine both methods like this:
     height="556">
 </p>
 
-In the screenshot above I have a single Gutenberg block that combines a native video embed with ACF fields I can configured.
+In the screenshot above I have a single Gutenberg block that combines a native video embed with ACF fields that I can configured.
+
+The best of both worlds.
 
 ## How I created the Feature Video block
 
@@ -166,18 +168,16 @@ function render_feature_video_block($html, $block) {
 }
 ```
 
-The template path is relative to the WordPress theme.
+The template path is relative to the WordPress theme. Within the template I can access both inner blocks.
 
-Within the template I can access both inner blocks.
-
-HTML for the `core/embed` is already rendered:
+HTML for the `core/embed` is already rendered by Gutenberg:
 
 ```php
 // Get the `core/embed` HTML (<figure class="wp-block-embed ...)
 $embed = $block['innerBlocks'][0]['innerHTML'];
 ```
 
-To access the `acf/feature-video-fields` ACF:
+To access the `acf/feature-video-fields` ACF values:
 
 ```php
 $fields = $block['innerBlocks'][1];
