@@ -25,7 +25,7 @@ b, strong {
 }
 
 a {
-  color: $blue;
+  color: $dark-blue;
   text-decoration: none;
   cursor: pointer;
   background-image: linear-gradient(to right, $yellow 50%, $green 50%);
@@ -75,6 +75,10 @@ h1, h2, h3, h4, h5, h6,
 
   &:last-child {
     margin-bottom: 0;
+  }
+
+  a {
+    color: $blue;
   }
 }
 
@@ -133,6 +137,10 @@ small,
   font-size: rem($p--large);
   line-height: 1.5;
   margin-bottom: rem($unit * 4);
+
+  a {
+    color: $blue;
+  }
 }
 
 ul, ol {
