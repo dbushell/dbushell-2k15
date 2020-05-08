@@ -224,3 +224,7 @@ I'll leave that as a homework exercise for now!
 I do plan to add full example code to GitHub with this and more. It's possible to render the preview within an `<iframe>`. This is very helpful for scoping theme CSS and avoiding conflicts with the WordPress admin styles.
 
 More on that when I have time...
+
+## Update for May 2020
+
+I've written a new article: ["WordPress Gutenberg Example Blocks"](/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/).

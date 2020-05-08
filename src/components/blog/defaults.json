@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "wordpress-gutenberg-react-acf-example-blocks",
+      "title": "WordPress Gutenberg Example Blocks",
+      "href": "/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/",
+      "date": 1588932000000
+    },
+    {
       "id": "wordpress-gutenberg-react-and-advanced-custom-fields",
       "title": "WordPress Gutenberg: React & Advanced Custom Fields (ACF)",
       "href": "/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/",
@@ -30,12 +36,6 @@
       "title": "Docker, WordPress, and Portless Localhost Domains",
       "href": "/2020/02/07/docker-wordpress-portless-localhost-domains/",
       "date": 1581069600000
-    },
-    {
-      "id": "building-a-pwa-with-netlify-functions",
-      "title": "Building a PWA with Netlify Functions",
-      "href": "/2020/01/27/building-a-pwa-with-netlify-functions/",
-      "date": 1580119200000
     }
   ]
 }
