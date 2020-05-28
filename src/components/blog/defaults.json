@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "bubblewrap-twa-pwa-apps-android-studio",
+      "title": "Bubblewrap Apps in Android Studio",
+      "href": "/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/",
+      "date": 1591005600000
+    },
+    {
       "id": "wordpress-gutenberg-react-acf-example-blocks",
       "title": "WordPress Gutenberg Example Blocks",
       "href": "/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/",
@@ -30,12 +36,6 @@
       "title": "HTTP Security Headers and Inline Resources",
       "href": "/2020/02/28/http-security-headers-and-inline-resources/",
       "date": 1582884000000
-    },
-    {
-      "id": "docker-wordpress-portless-localhost-domains",
-      "title": "Docker, WordPress, and Portless Localhost Domains",
-      "href": "/2020/02/07/docker-wordpress-portless-localhost-domains/",
-      "date": 1581069600000
     }
   ]
 }

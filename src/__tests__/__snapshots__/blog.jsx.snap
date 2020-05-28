@@ -6,12 +6,12 @@ exports[`Blog component renders with defaults 1`] = `
     <h3>From the blog…</h3>
   </div>
   <ul class=\\"b-blog__list\\">
+    <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/\\">Bubblewrap Apps in Android Studio</a><time class=\\"time\\" dateTime=\\"2020-06-01T10:00:00.000Z\\">Monday <b>1 <abbr title=\\"June\\">Jun</abbr> 2020</b></time></li>
     <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/\\">WordPress Gutenberg Example Blocks</a><time class=\\"time\\" dateTime=\\"2020-05-08T10:00:00.000Z\\">Friday <b>8 <abbr title=\\"May\\">May</abbr> 2020</b></time></li>
     <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/\\">WordPress Gutenberg: React &amp; Advanced Custom Fields (ACF)</a><time class=\\"time\\" dateTime=\\"2020-04-24T10:00:00.000Z\\">Friday <b>24 <abbr title=\\"April\\">Apr</abbr> 2020</b></time></li>
     <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/03/27/debugging-a-todo-app/\\">Debugging a Todo App</a><time class=\\"time\\" dateTime=\\"2020-03-27T10:00:00.000Z\\">Friday <b>27 <abbr title=\\"March\\">Mar</abbr> 2020</b></time></li>
     <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/03/05/bundle-a-pwa-as-an-android-app/\\">Bundle a PWA as an Android App</a><time class=\\"time\\" dateTime=\\"2020-03-05T10:00:00.000Z\\">Thursday <b>5 <abbr title=\\"March\\">Mar</abbr> 2020</b></time></li>
     <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/02/28/http-security-headers-and-inline-resources/\\">HTTP Security Headers and Inline Resources</a><time class=\\"time\\" dateTime=\\"2020-02-28T10:00:00.000Z\\">Friday <b>28 <abbr title=\\"February\\">Feb</abbr> 2020</b></time></li>
-    <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/02/07/docker-wordpress-portless-localhost-domains/\\">Docker, WordPress, and Portless Localhost Domains</a><time class=\\"time\\" dateTime=\\"2020-02-07T10:00:00.000Z\\">Friday <b>7 <abbr title=\\"February\\">Feb</abbr> 2020</b></time></li>
   </ul>
 </aside>"
 `;

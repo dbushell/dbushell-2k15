@@ -158,3 +158,7 @@ As for **Mute Swan**, I've actually been dogfooding it for a few weeks now and p
 My first idea was to bundle the app using [React Native](https://reactnative.dev/). It's cross-platform for both Android and iOS. I'll admit wishful thinking here in regards to shared components with the PWA. It's not quite as magic as I'd hope. I managed to get the app running by replacing most elements with a `<View/>` or `<Text/>`. All the Redux logic worked without change. Other code relying on a browser environment needed more drastic reimplementation (or would have — I gave up.)
 
 I'd consider React Native if I was serious about a multi-platform app, or required native API integration.
+
+## Update for June 2020
+
+I've written a new article: ["Bubblewrap Apps in Android Studio"](/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/).
