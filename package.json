@@ -1,7 +1,7 @@
 {
   "name": "dbushell.com",
   "private": true,
-  "version": "10.5.3",
+  "version": "10.5.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbushell/dbushell.com.git"
@@ -42,10 +42,10 @@
     "verbose": true
   },
   "dependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.9.6",
-    "@babel/preset-react": "^7.9.4",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
     "autoprefixer": "^9.8.0",
     "babel-jest": "^26.0.1",
     "babel-loader": "^8.1.0",
@@ -53,8 +53,8 @@
     "core-js": "^3.6.5",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
-    "front-matter": "^4.0.0",
-    "fs-extra": "^9.0.0",
+    "front-matter": "^4.0.2",
+    "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
     "handlebars": "^4.7.6",
     "http-server": "^0.12.3",
@@ -69,14 +69,14 @@
     "marked": "^1.1.0",
     "moment": "^2.26.0",
     "node-sass": "^4.14.1",
-    "postcss": "^7.0.30",
+    "postcss": "^7.0.32",
     "preact": "^10.4.4",
     "prismjs": "^1.20.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-test-renderer": "^16.13.1",
     "striptags": "^3.1.1",
-    "uglify-js": "^3.9.3",
+    "uglify-js": "^3.9.4",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "yargs": "^15.3.1"
