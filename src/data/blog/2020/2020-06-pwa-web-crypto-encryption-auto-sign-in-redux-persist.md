@@ -102,7 +102,7 @@ Chrome provides the best auto sign-in experience. If enabled the password can be
   <img loading="lazy" srcset="
     /images/blog/2020/ms-auto-sign-in@1x.png,
     /images/blog/2020/ms-auto-sign-in@2x.png 2x"
-    src="/images/blog/ms-auto-sign-in@1x.png"
+    src="/images/blog/2020/ms-auto-sign-in@1x.png"
     alt="Mute Swan v7 auto sign-in"
     width="478"
     height="160">
@@ -178,7 +178,7 @@ Finally, if neither auto sign-in method works, or no password is saved, the form
   <img loading="lazy" srcset="
     /images/blog/2020/ms-sign-in-form@1x.png,
     /images/blog/2020/ms-sign-in-form@2x.png 2x"
-    src="/images/blog/ms-sign-in-form@1x.png"
+    src="/images/blog/2020/ms-sign-in-form@1x.png"
     alt="Mute Swan v7 sign-in form"
     width="296"
     height="105">
