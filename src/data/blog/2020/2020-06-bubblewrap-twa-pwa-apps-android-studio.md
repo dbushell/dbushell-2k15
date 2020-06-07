@@ -89,3 +89,12 @@ adb install app/release/app-release.apk
 The app is install as it would be via the store. Test away!
 
 I'll continue to explore Android Studio and look for other opportunities to improve the PWA experience.
+
+## Related articles
+
+* [Bundle a PWA as an Android App](/2020/03/05/bundle-a-pwa-as-an-android-app/)
+* [Debugging a Todo App](/2020/03/27/debugging-a-todo-app/)
+* [Bubblewrap Apps in Android Studio](/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/)
+* [PWA Encryption and Auto Sign-in](/2020/06/08/pwa-web-crypto-encryption-auto-sign-in-redux-persist/)
+
+Last updated: June 2020.

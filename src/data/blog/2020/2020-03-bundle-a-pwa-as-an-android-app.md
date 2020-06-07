@@ -159,6 +159,11 @@ My first idea was to bundle the app using [React Native](https://reactnative.dev
 
 I'd consider React Native if I was serious about a multi-platform app, or required native API integration.
 
-## Update for June 2020
+## Related articles
 
-I've written a new article: ["Bubblewrap Apps in Android Studio"](/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/).
+* [Bundle a PWA as an Android App](/2020/03/05/bundle-a-pwa-as-an-android-app/)
+* [Debugging a Todo App](/2020/03/27/debugging-a-todo-app/)
+* [Bubblewrap Apps in Android Studio](/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/)
+* [PWA Encryption and Auto Sign-in](/2020/06/08/pwa-web-crypto-encryption-auto-sign-in-redux-persist/)
+
+Last updated: June 2020.

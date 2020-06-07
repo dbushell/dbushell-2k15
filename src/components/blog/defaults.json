@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "pwa-web-crypto-encryption-auto-sign-in-redux-persist",
+      "title": "PWA Encryption and Auto Sign-in",
+      "href": "/2020/06/08/pwa-web-crypto-encryption-auto-sign-in-redux-persist/",
+      "date": 1591610400000
+    },
+    {
       "id": "bubblewrap-twa-pwa-apps-android-studio",
       "title": "Bubblewrap Apps in Android Studio",
       "href": "/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/",
@@ -30,12 +36,6 @@
       "title": "Bundle a PWA as an Android App",
       "href": "/2020/03/05/bundle-a-pwa-as-an-android-app/",
       "date": 1583402400000
-    },
-    {
-      "id": "http-security-headers-and-inline-resources",
-      "title": "HTTP Security Headers and Inline Resources",
-      "href": "/2020/02/28/http-security-headers-and-inline-resources/",
-      "date": 1582884000000
     }
   ]
 }
