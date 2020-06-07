@@ -22,16 +22,17 @@ module.exports = (env, argv) => ({
           loader: 'babel-loader',
           options: {
             presets: [
+              ['@babel/preset-react'],
               [
                 '@babel/preset-env',
                 {
-                  debug: argv.mode === 'development',
-                  targets: '> 1%, not dead, not ie 11',
-                  useBuiltIns: 'usage',
-                  corejs: 3
+                  debug: false,
+                  bugfixes: true,
+                  targets: {
+                    esmodules: true
+                  }
                 }
-              ],
-              ['@babel/preset-react']
+              ]
             ],
             plugins: []
           }

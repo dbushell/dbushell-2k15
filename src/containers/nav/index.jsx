@@ -44,7 +44,8 @@ class NavContainer extends Component {
     window.addEventListener('orientationchange', self.handleResize);
     window.dbushell.load(
       '/assets/js/vendor/headroom.min.js?v=' + window.dbushell.ver,
-      self.handleHeadroom
+      self.handleHeadroom,
+      'text/javascript'
     );
     self.handleResize();
   }
