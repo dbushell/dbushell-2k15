@@ -103,9 +103,21 @@ Chrome provides the best auto sign-in experience. If enabled the password can be
     /images/blog/2020/ms-auto-sign-in@1x.png,
     /images/blog/2020/ms-auto-sign-in@2x.png 2x"
     src="/images/blog/2020/ms-auto-sign-in@1x.png"
-    alt="Mute Swan v7 auto sign-in"
+    alt="Mute Swan v7 auto sign-in (Chrome)"
     width="478"
     height="160">
+</p>
+
+On Chrome Android the sign-in notification pops up below. The random sky blue is an interesting choice. I'd prefer if it would use the manifest theme colour.
+
+<p class="b-post__image">
+  <img loading="lazy" srcset="
+    /images/blog/2020/ms-auto-sign-in-android@1x.png,
+    /images/blog/2020/ms-auto-sign-in-android@2x.png 2x"
+    src="/images/blog/2020/ms-auto-sign-in-android@1x.png"
+    alt="Mute Swan v7 auto sign-in (Android)"
+    width="360"
+    height="300">
 </p>
 
 Passwords can be stored programmatically:
@@ -124,7 +136,7 @@ const data = await window.navigator.credentials.get({
 });
 ```
 
-Works in Chrome-like browsers. Fails in elsewhere. If the password cannot be retrieved via the method above, or is incorrect, I fall back to a sign-in form.
+Works in Chrome-like browsers. Fails elsewhere. If the password cannot be retrieved via the method above, or is incorrect, I fall back to a sign-in form.
 
 ```html
 <input
@@ -172,7 +184,7 @@ This feels very hacky but it works in Firefox.
 
 ### Fallback
 
-Finally, if neither auto sign-in method works, or no password is saved, the form must be submitted manually by the user.
+Finally, if neither auto sign-in method works, or no password was saved, the form must be submitted manually by the user.
 
 <p class="b-post__image">
   <img loading="lazy" srcset="
