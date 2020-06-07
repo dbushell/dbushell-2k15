@@ -312,8 +312,9 @@ code {
   font-size: rem(14);
   line-height: rem($unit * 3);
   font-family: $fonts--monospace;
-  background: $black;
-  color: $white;
+  font-weight: 300;
+  background: rgb(40, 42, 54);
+  color: rgba(248, 248, 242, 1);
 }
 
 pre {
@@ -328,6 +329,8 @@ pre {
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
+  word-wrap: normal;
+
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
@@ -338,26 +341,46 @@ pre {
 
   code {
     display: block;
-    color: $white;
+    color: rgba(248, 248, 242, 1);
     font-size: inherit;
     line-height: inherit;
     background: none;
     padding: 0;
   }
 
+  // &::-webkit-scrollbar {
+  //   width: 14px;
+  //   height: 14px;
+  // }
+
+  // &::-webkit-scrollbar-track {
+  //   background: $black;
+  // }
+
+  // &::-webkit-scrollbar-thumb {
+  //   background: $grey;
+  //   border: 4px solid $black;
+  //   border-radius: 10px;
+  // }
+
   &::-webkit-scrollbar {
-    width: 14px;
     height: 14px;
+    width: 14px;
   }
 
   &::-webkit-scrollbar-track {
-    background: $black;
+    background-color: #6272a4;
+    border-radius: 0px;
   }
 
   &::-webkit-scrollbar-thumb {
-    background: $grey;
-    border: 4px solid $black;
-    border-radius: 10px;
+    background-color: #bd93f9;
+    border-radius: 0px;
+  }
+
+  &::selection {
+    text-shadow: none;
+    background-color: #5a5f80;
   }
 }
 
