@@ -3,18 +3,18 @@
   "href": "/showcase/",
   "items": [
     {
+      "bgColor": "#1e1f2a",
+      "href": "/2020/06/08/pwa-web-crypto-encryption-auto-sign-in-redux-persist/",
+      "heading": "Mute Swan PWA",
+      "imageSrc": "/assets/img/portfolio/muteswan@2x.png",
+      "imageAlt": "Mute Swan - Progressive Web App"
+    },
+    {
       "bgColor": "#b72817",
       "href": "/2016/10/10/building-a-shopify-theme/",
       "heading": "Shopify Theme",
       "imageSrc": "/assets/img/portfolio/stshopify.png",
       "imageAlt": "Building a Shopify Theme"
-    },
-    {
-      "bgColor": "#d8ac59",
-      "href": "/2015/03/18/responsive-design-for-houden/",
-      "heading": "Houden",
-      "imageSrc": "/assets/img/portfolio/houden.png",
-      "imageAlt": "Houden"
     },
     {
       "bgColor": "#993300",
