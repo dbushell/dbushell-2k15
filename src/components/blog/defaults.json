@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "hardware-home-servers-self-hosted-raspberry-pi",
+      "title": "Hardware and Self Hosting",
+      "href": "/2020/07/02/hardware-home-servers-self-hosted-raspberry-pi/",
+      "date": 1593684000000
+    },
+    {
       "id": "pwa-web-crypto-encryption-auto-sign-in-redux-persist",
       "title": "PWA Encryption and Auto Sign-in",
       "href": "/2020/06/08/pwa-web-crypto-encryption-auto-sign-in-redux-persist/",
@@ -30,12 +36,6 @@
       "title": "Debugging a Todo App",
       "href": "/2020/03/27/debugging-a-todo-app/",
       "date": 1585303200000
-    },
-    {
-      "id": "bundle-a-pwa-as-an-android-app",
-      "title": "Bundle a PWA as an Android App",
-      "href": "/2020/03/05/bundle-a-pwa-as-an-android-app/",
-      "date": 1583402400000
     }
   ]
 }
