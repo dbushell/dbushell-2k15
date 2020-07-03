@@ -26,7 +26,7 @@ const Portfolio = (props) => {
                     <img
                       className='b-folio__image'
                       loading='lazy'
-                      srcset='
+                      srcSet='
                       /assets/img/portfolio/muteswan@1x.png,
                       /assets/img/portfolio/muteswan@2x.png 2x'
                       src='/assets/img/portfolio/muteswan@1x.png'
