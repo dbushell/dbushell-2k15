@@ -2,6 +2,12 @@
   "heading": "From the blog…",
   "items": [
     {
+      "id": "turn-the-pi-hole-admin-ui-into-a-pwa",
+      "title": "Turn the Pi-hole Admin Dashboard into a Progressive Web App",
+      "href": "/2020/07/03/turn-the-pi-hole-admin-ui-into-a-pwa/",
+      "date": 1593770400000
+    },
+    {
       "id": "hardware-home-servers-self-hosted-raspberry-pi",
       "title": "Hardware and Self Hosting",
       "href": "/2020/07/02/hardware-home-servers-self-hosted-raspberry-pi/",
@@ -30,12 +36,6 @@
       "title": "WordPress Gutenberg: React & Advanced Custom Fields (ACF)",
       "href": "/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/",
       "date": 1587722400000
-    },
-    {
-      "id": "debugging-a-todo-app",
-      "title": "Debugging a Todo App",
-      "href": "/2020/03/27/debugging-a-todo-app/",
-      "date": 1585303200000
     }
   ]
 }

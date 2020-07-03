@@ -15,12 +15,12 @@ exports[`Footer component renders with defaults 1`] = `
         <h3>From the blog…</h3>
       </div>
       <ul class=\\"b-blog__list\\">
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/07/03/turn-the-pi-hole-admin-ui-into-a-pwa/\\">Turn the Pi-hole Admin Dashboard into a Progressive Web App</a><time class=\\"time\\" dateTime=\\"2020-07-03T10:00:00.000Z\\">Friday <b>3 <abbr title=\\"July\\">Jul</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/07/02/hardware-home-servers-self-hosted-raspberry-pi/\\">Hardware and Self Hosting</a><time class=\\"time\\" dateTime=\\"2020-07-02T10:00:00.000Z\\">Thursday <b>2 <abbr title=\\"July\\">Jul</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/06/08/pwa-web-crypto-encryption-auto-sign-in-redux-persist/\\">PWA Encryption and Auto Sign-in</a><time class=\\"time\\" dateTime=\\"2020-06-08T10:00:00.000Z\\">Monday <b>8 <abbr title=\\"June\\">Jun</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/\\">Bubblewrap Apps in Android Studio</a><time class=\\"time\\" dateTime=\\"2020-06-01T10:00:00.000Z\\">Monday <b>1 <abbr title=\\"June\\">Jun</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/\\">WordPress Gutenberg Example Blocks</a><time class=\\"time\\" dateTime=\\"2020-05-08T10:00:00.000Z\\">Friday <b>8 <abbr title=\\"May\\">May</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/\\">WordPress Gutenberg: React &amp; Advanced Custom Fields (ACF)</a><time class=\\"time\\" dateTime=\\"2020-04-24T10:00:00.000Z\\">Friday <b>24 <abbr title=\\"April\\">Apr</abbr> 2020</b></time></li>
-        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/03/27/debugging-a-todo-app/\\">Debugging a Todo App</a><time class=\\"time\\" dateTime=\\"2020-03-27T10:00:00.000Z\\">Friday <b>27 <abbr title=\\"March\\">Mar</abbr> 2020</b></time></li>
       </ul>
     </aside>
     <hr />
@@ -45,12 +45,12 @@ exports[`Footer component renders without "for hire" element 1`] = `
         <h3>From the blog…</h3>
       </div>
       <ul class=\\"b-blog__list\\">
+        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/07/03/turn-the-pi-hole-admin-ui-into-a-pwa/\\">Turn the Pi-hole Admin Dashboard into a Progressive Web App</a><time class=\\"time\\" dateTime=\\"2020-07-03T10:00:00.000Z\\">Friday <b>3 <abbr title=\\"July\\">Jul</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/07/02/hardware-home-servers-self-hosted-raspberry-pi/\\">Hardware and Self Hosting</a><time class=\\"time\\" dateTime=\\"2020-07-02T10:00:00.000Z\\">Thursday <b>2 <abbr title=\\"July\\">Jul</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/06/08/pwa-web-crypto-encryption-auto-sign-in-redux-persist/\\">PWA Encryption and Auto Sign-in</a><time class=\\"time\\" dateTime=\\"2020-06-08T10:00:00.000Z\\">Monday <b>8 <abbr title=\\"June\\">Jun</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/\\">Bubblewrap Apps in Android Studio</a><time class=\\"time\\" dateTime=\\"2020-06-01T10:00:00.000Z\\">Monday <b>1 <abbr title=\\"June\\">Jun</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/\\">WordPress Gutenberg Example Blocks</a><time class=\\"time\\" dateTime=\\"2020-05-08T10:00:00.000Z\\">Friday <b>8 <abbr title=\\"May\\">May</abbr> 2020</b></time></li>
         <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/\\">WordPress Gutenberg: React &amp; Advanced Custom Fields (ACF)</a><time class=\\"time\\" dateTime=\\"2020-04-24T10:00:00.000Z\\">Friday <b>24 <abbr title=\\"April\\">Apr</abbr> 2020</b></time></li>
-        <li class=\\"b-blog__item\\"><a rel=\\"bookmark\\" href=\\"/2020/03/27/debugging-a-todo-app/\\">Debugging a Todo App</a><time class=\\"time\\" dateTime=\\"2020-03-27T10:00:00.000Z\\">Friday <b>27 <abbr title=\\"March\\">Mar</abbr> 2020</b></time></li>
       </ul>
     </aside>
     <hr />

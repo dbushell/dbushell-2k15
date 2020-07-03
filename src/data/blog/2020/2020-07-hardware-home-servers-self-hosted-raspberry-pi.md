@@ -2,7 +2,7 @@
 date: 2020-07-02 10:00:00+00:00
 slug: hardware-home-servers-self-hosted-raspberry-pi
 title: 'Hardware and Self Hosting'
-pageDesc: 'There one where set up a local “Internet of Things”.'
+pageDesc: 'There one where I set up a local “Internet of Things”.'
 ---
 
 Today my main computer is a Mac Mini 2018. Quite likely the last Mac I'll buy for day-to-day work. I'd like it to last a little longer than previous ones. Following Apple's ARM chip announcement I have my doubts about future support.
