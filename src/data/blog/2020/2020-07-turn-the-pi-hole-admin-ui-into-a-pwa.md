@@ -62,7 +62,7 @@ Ensure the `start_url` property is set:
 ```json
 "start_url": "/admin/"
 ```
-**The third and final thing** – a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API). This is a JavaScript file that can do a lot or a little depending on what's desired. For Pi-hole I've erred on the side of caution and written a minimum viable service worker.
+**The third and final thing** – a [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API). This is a JavaScript file that can do a lot or a little depending on what's desired. For Pi-hole I've erred on the side of caution and added a minimum viable service worker.
 
 The location:
 
@@ -145,7 +145,7 @@ The service worker only intercepts and caches binary assets (images, fonts, etc)
 
 More importantly, it's enough to meet the PWA requirements.
 
-Now that I've done this, I wonder if any empty JavaScript file would have been enough? [Write in and tell me](https://twitter.com/dbushell) if you test this before I do!
+Now that I've done this, I wonder if an empty JavaScript file would have been enough? [Write in and tell me](https://twitter.com/dbushell) if you test this before I do!
 
 Finally, to ensure the service worker is installed I've added a `<script>` to the bottom of `footer.php` before the closing tags:
 
