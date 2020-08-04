@@ -1,6 +1,8 @@
 # dbushell.com
 
-Build scripts and source code for [dbushell.com](https://dbushell.com/) ([see static build](https://github.com/dbushell/dbushell.github.io)).
+This is my old website.
+
+[Visit this repo](https://github.com/dbushell/dbushell-2k20) for my new website.
 
 * * *
 
