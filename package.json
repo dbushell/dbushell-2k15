@@ -1,13 +1,14 @@
 {
-  "name": "dbushell.com",
-  "private": true,
+  "name": "dbushell-2k15",
   "version": "10.5.5",
+  "private": true,
+  "description": "dbushell.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbushell/dbushell-2k15.git"
   },
   "author": "David Bushell <david@dbushell.com>",
-  "license": "UNLICENSED - Copyright © David Bushell",
+  "license": "UNLICENSED",
   "scripts": {
     "start": "npx http-server -a dbushell-2k15.localhost ./dbushell.github.io/",
     "serve": "npm run start",
@@ -41,7 +42,7 @@
     ],
     "verbose": true
   },
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.12.13",
     "@babel/node": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
