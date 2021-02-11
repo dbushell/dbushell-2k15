@@ -1,12 +1,23 @@
-._*
-Thumbs.db
-.Spotlight-V100
-.Trashes
-.DS_Store
-Desktop.ini
-node_modules
-bower_components
-.sass-cache
-.serverless
-*.log
-dbushell.github.io
+# ._*
+# Thumbs.db
+# .Spotlight-V100
+# .Trashes
+# .DS_Store
+# Desktop.ini
+# node_modules
+# bower_components
+# .sass-cache
+# .serverless
+# *.log
+# dbushell.github.io
+
+
+/*
+.netlify
+!.gitattributes
+!.gitignore
+!package.json
+!README.md
+!src
+!webpack.config.js
+
